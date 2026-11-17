@@ -82,7 +82,7 @@ The example assumes valid sensor inputs, atomic steps and no faults. Changing th
 
 A reported **status** is a representation or claim about the underlying system, not automatically a complete state. An observer may see `heater_command=ON` while the heater is physically disconnected, or may see only one sensor value while several internal states could explain it.
 
-**Observability**, in a general sense, concerns whether internal conditions can be distinguished from available outputs under the chosen model and observation mechanism. Specialized control-theoretic definitions require additional assumptions and are developed under [Feedback and Control](README.md).
+**Observability**, in a general sense, concerns whether internal conditions can be distinguished from available outputs under the chosen model and observation mechanism. Specialized control-theoretic definitions require additional assumptions and are developed under [Feedback and Control](feedback-and-control.md).
 
 An **operating mode** can constrain which functions and transitions are permitted, such as normal operation, maintenance, or degraded operation. Mode and state may overlap in some models but need not be synonyms. A mode can itself be represented as a state variable when that serves the purpose.
 
@@ -92,7 +92,7 @@ An **invariant** is a property specified to hold in every state reachable within
 
 A **safety property** can forbid certain modeled outcomes. A **liveness property** may require eventual progress, often under fairness or environmental conditions. A system satisfying one is not necessarily guaranteed to satisfy the other, and both depend on model correspondence.
 
-[Conceptual and Formal Models](../models-abstraction/conceptual-and-formal-models.md) owns the abstract property and proof concepts. [Verification and Validation](README.md) is a separate approved engineering heading that evaluates specified product requirements and intended use.
+[Conceptual and Formal Models](../models-abstraction/conceptual-and-formal-models.md) owns the abstract property and proof concepts. [Verification and Validation](verification-and-validation.md) is a separate approved engineering heading that evaluates specified product requirements and intended use.
 
 ## Time, concurrency, and hidden dependencies
 
@@ -102,7 +102,7 @@ Step ordering does not automatically supply real elapsed durations. A timeout, s
 
 ## Boundaries and references
 
-[Dependencies](dependencies.md) covers required resources and conditional propagation. [Architecture and Composition](architecture-and-composition.md) covers system organization and design views. [Feedback and Control](README.md) will own regulation and feedback theory within its separate approved heading.
+[Dependencies](dependencies.md) covers required resources and conditional propagation. [Architecture and Composition](architecture-and-composition.md) covers system organization and design views. [Feedback and Control](feedback-and-control.md) owns regulation and feedback theory within its separate approved heading.
 
 This article adopts no required state-machine language, real-time scheduling regime, formal logic, or assessment system.
 
