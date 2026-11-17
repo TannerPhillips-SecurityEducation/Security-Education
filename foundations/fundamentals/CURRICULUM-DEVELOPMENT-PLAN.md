@@ -56,7 +56,7 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record
 
 ## Pilot Execution Status
 
-The [109-Subject Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) now exists and records exact approved heading IDs, states, canonical article paths, source-review states, and pending decisions. Six [canonical reference drafts](README.md#first-canonical-reference-drafts) are committed. A second-pass [pilot technical review](PILOT-TECHNICAL-REVIEW.md) has checked core claims and examples and driven corrections. All six remain **Draft / Core claims checked**, not **Verified / Published**; no final human acceptance is claimed.
+The [109-Subject Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) records approved heading IDs, canonical article paths, source-review states, and pending decisions. The six [pilot articles](README.md#canonical-reference-development) underwent a [second-pass review](PILOT-TECHNICAL-REVIEW.md) and subsequent [50-family claim-to-source audit](PILOT-CLAIM-SOURCE-AUDIT.md). All six are **Reviewed (model-assisted) / Core claims checked**, not **independently human-verified / finally Published**. Three Wave A references are now **Draft / References listed**.
 
 The next operational action is to **conduct a documented technical, editorial, and link-integrity review of these pilots**, resolve issues, and only then consider scaling the authored reference standard across production waves A–E. Nothing in this milestone changes the approved twelve knowledge areas or 109 subject headings.
 
