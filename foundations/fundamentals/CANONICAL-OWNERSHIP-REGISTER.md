@@ -14,7 +14,7 @@ This register connects the existing subject inventory to the [governing architec
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
 
-See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresolved ownership collisions and candidate gaps.
+See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresolved ownership collisions and candidate gaps. The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) supplies 20 working non-conflation rules and concrete examples, with a general-temporality coverage exception.
 
 ## 01. Mathematics & Logic (8 headings)
 
