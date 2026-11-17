@@ -77,7 +77,7 @@ The [MIT course readings on counting](https://ocw.mit.edu/courses/6-1200j-mathem
 
 ## The pigeonhole principle
 
-The **pigeonhole principle** states that placing more than `n` objects into `n` categories requires at least one category to contain more than one object. More generally, assigning `N` objects to `k` nonempty categories means that at least one category contains at least `⌈N/k⌉` objects, assuming each object is assigned to exactly one category.
+The **pigeonhole principle** states that placing more than `n` objects into `n` categories requires at least one category to contain more than one object. More generally, assigning `N` objects to `k ≥ 1` categories means that at least one category contains at least `⌈N/k⌉` objects, assuming each object is assigned to exactly one category. Individual categories **may be empty**; the conclusion does not require every category to contain an object.
 
 If 13 labeled events must each be classified into one of 12 months, at least one month category must contain at least two events. This conclusion follows from counting, not from observations of which month received them.
 
@@ -105,7 +105,7 @@ An **invariant** is a property maintained across specified transitions. Proving 
 
 For example, an abstract counter defined to increment by exactly two from zero preserves the property *the counter is even*. This proof assumes that **only** the specified transitions occur; an uncontrolled external update would violate the model's premises.
 
-The MIT [proof and state-machine materials](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/lecture-notes/) distinguish induction from state-machine invariant reasoning.
+The MIT [lecture notes for Mathematics for Computer Science](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/lecture-notes/) distinguish mathematical induction from state-machine invariants. Their [course readings](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/) separately include induction, recurrences, graphs, and counting techniques.
 
 ## Recurrences and recursive definition
 
@@ -139,6 +139,6 @@ This distinction preserves the boundary between [Mathematics & Logic](README.md)
 - [MIT course lecture-note index](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/lecture-notes/), including induction, counting, recurrences, and state machines.
 - [MIT course readings](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/), including counting rules and proof techniques.
 
-**Editorial state:** Domain-independent substantive draft with explanatory calculations and distinctions. Technical examples have not yet passed a separate Batch 04 claim-to-source review. Mathematical breadth G-01 remains a separately tracked scope question.
+**Review note:** The counting, pigeonhole, recurrence, induction and discrete-versus-continuous distinctions have been checked against MIT's source index and directly recalculated illustrative values. The revised generalized pigeonhole statement allows empty categories. The Batch 04 claim audit documents model-assisted review; G-01 mathematics breadth remains separately open.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
