@@ -54,7 +54,7 @@ Operations can alter scope or grain:
 
 A group summary is **not** the same object as its constituent individual records. Dropping identifiers or timestamps can make it impossible to reconstruct original data, even when a summary is arithmetically correct.
 
-For the example, grouping by `device_id` creates D7 and D8 groups. Counting records produces 2 and 1, respectively. Counting devices instead produces 2 for the whole dataset. A clear analytical statement specifies which count is being reported.
+For the example, grouping by `device_id` creates D7 and D8 groups. Counting records produces 2 and 1, respectively. Counting distinct **device identifier values** produces 2 for the whole dataset. The identifier count is not independent proof that exactly two distinct physical devices existed. A clear analytical statement specifies which count is being reported.
 
 ## Record versus event versus entity
 
