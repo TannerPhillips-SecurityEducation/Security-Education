@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v1.3. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
+**Status:** Working architectural register v1.4. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
 
 This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
 
@@ -9,7 +9,7 @@ This register connects the existing subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** Live direct links now point to **thirty-seven Reviewed (model-assisted) articles** and **four Wave B Batch 03 Systems & Engineering Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
+- **Links:** Live direct links now point to **forty-one Reviewed (model-assisted) articles** and **six Wave B Batch 04 Systems & Engineering Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
 - **Granularity:** One heading may require multiple articles, and a single well-scoped explanation can serve more than one heading. Do not assume 109 headings equal 109 indivisible concepts.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -40,7 +40,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Deduction, induction, and abduction** | [Reviewed canonical article](scientific-analytical-reasoning/deduction-induction-abduction.md) · Deductive entailment, inductive generalization, and abductive explanation | *draws on formal* → [Boolean and predicate logic](mathematics-logic/boolean-and-predicate-logic.md) |
 | **Causality and correlation** | [Reviewed canonical article](scientific-analytical-reasoning/causality-and-correlation.md) · Association, causal effects, interventions, and confounding | *uses* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
 | **Uncertainty and confidence** | [Reviewed canonical article](scientific-analytical-reasoning/uncertainty-and-confidence.md) · Known limits, estimates, epistemic uncertainty, and calibrated confidence | *partly quantified using* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
-| **Validation and falsification** | [Reviewed canonical article](scientific-analytical-reasoning/validation-and-falsification.md) · Empirical claim criticism, refutation, replication, and model revision | *distinct from engineering* → [Verification and validation](systems-engineering/README.md) |
+| **Validation and falsification** | [Reviewed canonical article](scientific-analytical-reasoning/validation-and-falsification.md) · Empirical claim criticism, refutation, replication, and model revision | *distinct from engineering* → [Verification and validation](systems-engineering/verification-and-validation.md) |
 
 ## 03. Models & Abstraction (10 headings)
 
@@ -67,9 +67,9 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Electronics** | Semiconductors, switching, amplification, and electronic component functions | *enables* → [Digital logic](digital-systems-hardware/digital-logic.md) |
 | **Analog and digital signals** | Physical continuous signals versus sampled or discrete representations | *processed through* → [Signal conversion](physical-electrical-principles/README.md) |
 | **Waves and frequency** | Oscillation, frequency, phase, wavelength, and propagation | *supports* → [Transmission and signaling](communication-distributed-systems/README.md) |
-| **Sensors and actuators** | Transduction between physical phenomena and actionable system inputs/outputs | *used in system* → [Feedback and control](systems-engineering/README.md) |
+| **Sensors and actuators** | Transduction between physical phenomena and actionable system inputs/outputs | *used in system* → [Feedback and control](systems-engineering/feedback-and-control.md) |
 | **Signal conversion** | Sampling, quantization, analog-digital and digital-analog conversion | *supports data capture for* → [Measurement](scientific-analytical-reasoning/measurement.md) |
-| **Physical control mechanisms** | Actuation and regulation of physical processes | *generalized by* → [Feedback and control](systems-engineering/README.md) |
+| **Physical control mechanisms** | Actuation and regulation of physical processes | *generalized by* → [Feedback and control](systems-engineering/feedback-and-control.md) |
 
 ## 05. Information & Data (9 headings)
 
@@ -106,7 +106,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Computability** | Computational models, decidability, and the limits of computable problems | *sets limits on* → [Algorithms](computation-algorithms/README.md) |
 | **Algorithms** | Defined procedures transforming inputs into outputs | *realized through* → [Programming languages](software-programming/README.md) |
 | **Algorithm design** | Construction strategies, invariants, correctness, and choice of procedures | *evaluated using* → [Complexity](computation-algorithms/README.md) |
-| **Complexity** | Theoretical asymptotic time/space growth of procedures | *distinct from system-wide* → [Emergence and complexity](systems-engineering/README.md) |
+| **Complexity** | Theoretical asymptotic time/space growth of procedures | *distinct from system-wide* → [Emergence and complexity](systems-engineering/emergence-and-complexity.md) |
 | **Computational data structures** | Abstract data types, operation costs, and implementation tradeoffs | *represented through* → [Data structures and formats](information-data/data-structures-and-formats.md) |
 | **Iteration and recursion** | Repeated and recursively defined computation, termination, and base cases | *expressed using* → [Programming paradigms](software-programming/README.md) |
 | **Concurrency and parallelism** | Overlapping versus simultaneous computational progress | *implemented through* → [Processes and threads](operating-system-principles/README.md) |
@@ -124,8 +124,8 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Runtime environments** | Execution libraries, services, managed runtimes, and memory lifetimes | *interacts with* → [Kernels](operating-system-principles/README.md) |
 | **Modules and dependencies** | Packages, imports, modularity, versioning, and dependency management | *specializes* → [Dependencies](systems-engineering/dependencies.md) |
 | **Software interfaces** | Function, API, ABI, and compatibility contracts between software components | *specializes* → [Components and interfaces](systems-engineering/components-and-interfaces.md) |
-| **Error handling** | Software exceptions, error signaling, propagation, and recovery | *distinct from system-level* → [Reliability and failure](systems-engineering/README.md) |
-| **Testing and software lifecycle** | Software construction, testing, releasing, maintenance, and retirement | *specializes* → [System lifecycle](systems-engineering/README.md) |
+| **Error handling** | Software exceptions, error signaling, propagation, and recovery | *distinct from system-level* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
+| **Testing and software lifecycle** | Software construction, testing, releasing, maintenance, and retirement | *specializes* → [System lifecycle](systems-engineering/system-lifecycle.md) |
 
 ## 09. Operating System Principles (10 headings)
 
@@ -152,7 +152,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Protocols and layering** | Communication conventions, protocol rules, state, layering, and encapsulation | *complements interface contracts in* → [Software interfaces](software-programming/README.md) |
 | **Addressing and naming** | Names, locators, address scopes, binding, and resolution | *extends reference concepts in* → [Identity and distinction](models-abstraction/identity-and-distinction.md) |
 | **Latency and throughput** | Delay, data rates, queueing, jitter, and performance measures | *uses* → [Units and quantities](mathematics-logic/units-and-quantities.md) |
-| **Reliability and ordering** | Message loss, duplication, delivery guarantees, acknowledgements, and ordering | *extends system* → [Reliability and failure](systems-engineering/README.md) |
+| **Reliability and ordering** | Message loss, duplication, delivery guarantees, acknowledgements, and ordering | *extends system* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
 | **Distributed state** | Replication, consistency, clocks, and partial-failure uncertainty | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
 | **Synchronization and coordination** | Coordination among autonomous processes through ordering, clocks, and agreement | *extends computational* → [Synchronization](computation-algorithms/README.md) |
 
@@ -161,16 +161,16 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
 | **Systems and subsystems** | [Reviewed canonical article](systems-engineering/systems-and-subsystems.md) · Systems of interest, environments, nested wholes, and subsystem organization | *defined using* → [Boundaries](models-abstraction/boundaries.md) |
-| **Components and interfaces** | [Draft canonical article](systems-engineering/components-and-interfaces.md) · System components, responsibilities, interfaces, and their contracts | *instantiates* → [Relationships](models-abstraction/relationships.md) |
-| **Architecture and composition** | [Draft canonical article](systems-engineering/architecture-and-composition.md) · Composition, decomposition, architectural views, patterns, and tradeoffs | *represented through* → [Conceptual and formal models](models-abstraction/conceptual-and-formal-models.md) |
-| **Dependencies** | [Draft canonical article](systems-engineering/dependencies.md) · Necessary relationships, constraints, propagation, and critical paths | *represented with* → [Graph theory](mathematics-logic/graph-theory.md) |
-| **State and behavior** | [Draft canonical article](systems-engineering/state-and-behavior.md) · Whole-system states, outputs, changes, invariants, and dynamic behavior | *applies* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
-| **Feedback and control** | Feedback loops, sensors, controllers, stability, and control objectives | *applies physical* → [Physical control mechanisms](physical-electrical-principles/README.md) |
-| **Emergence and complexity** | Whole-system emergent behavior and nonlinearity | *distinct from algorithmic* → [Complexity](computation-algorithms/README.md) |
-| **Reliability and failure** | Faults, failures, availability, redundancy, maintainability, and recovery | *quantifiable using* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
-| **Requirements** | Stakeholder needs, functional/quality specifications, and traceability | *evaluated through* → [Verification and validation](systems-engineering/README.md) |
-| **Verification and validation** | Conformance to requirements versus fitness for intended use | *distinct from empirical* → [Validation and falsification](scientific-analytical-reasoning/validation-and-falsification.md) |
-| **System lifecycle** | Conception, design, operation, maintenance, evolution, and retirement | *specialized for software in* → [Testing and software lifecycle](software-programming/README.md) |
+| **Components and interfaces** | [Reviewed canonical article](systems-engineering/components-and-interfaces.md) · System components, responsibilities, interfaces, and their contracts | *instantiates* → [Relationships](models-abstraction/relationships.md) |
+| **Architecture and composition** | [Reviewed canonical article](systems-engineering/architecture-and-composition.md) · Composition, decomposition, architectural views, patterns, and tradeoffs | *represented through* → [Conceptual and formal models](models-abstraction/conceptual-and-formal-models.md) |
+| **Dependencies** | [Reviewed canonical article](systems-engineering/dependencies.md) · Necessary relationships, constraints, propagation, and critical paths | *represented with* → [Graph theory](mathematics-logic/graph-theory.md) |
+| **State and behavior** | [Reviewed canonical article](systems-engineering/state-and-behavior.md) · Whole-system states, outputs, changes, invariants, and dynamic behavior | *applies* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
+| **Feedback and control** | [Draft canonical article](systems-engineering/feedback-and-control.md) · Feedback loops, sensors, controllers, stability, and control objectives | *applies physical* → [Physical control mechanisms](physical-electrical-principles/README.md) |
+| **Emergence and complexity** | [Draft canonical article](systems-engineering/emergence-and-complexity.md) · Whole-system emergent behavior and nonlinearity | *distinct from algorithmic* → [Complexity](computation-algorithms/README.md) |
+| **Reliability and failure** | [Draft canonical article](systems-engineering/reliability-and-failure.md) · Faults, failures, availability, redundancy, maintainability, and recovery | *quantifiable using* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
+| **Requirements** | [Draft canonical article](systems-engineering/requirements.md) · Stakeholder needs, functional/quality specifications, and traceability | *evaluated through* → [Verification and validation](systems-engineering/verification-and-validation.md) |
+| **Verification and validation** | [Draft canonical article](systems-engineering/verification-and-validation.md) · Conformance to requirements versus fitness for intended use | *distinct from empirical* → [Validation and falsification](scientific-analytical-reasoning/validation-and-falsification.md) |
+| **System lifecycle** | [Draft canonical article](systems-engineering/system-lifecycle.md) · Conception, design, operation, maintenance, evolution, and retirement | *specialized for software in* → [Testing and software lifecycle](software-programming/README.md) |
 
 ## 12. Human & Sociotechnical Systems (8 headings)
 
@@ -179,15 +179,15 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Human cognition and perception** | Human attention, memory, perception, interpretation, and cognitive limits | *shapes* → [Human-computer interaction](human-sociotechnical-systems/README.md) |
 | **Decision-making** | Choice under constraints, incomplete knowledge, uncertainty, and goals | *informed by* → [Evidence](scientific-analytical-reasoning/evidence.md) |
 | **Human-computer interaction** | People interacting with software, devices, and whole technical systems | *evaluated for* → [Usability and accessibility](human-sociotechnical-systems/README.md) |
-| **Usability and accessibility** | Inclusive, usable, effective, and accessible human-system experiences | *informs* → [Requirements](systems-engineering/README.md) |
-| **Human error** | Human mistakes, slips, and organizational conditions contributing to error | *may affect* → [Reliability and failure](systems-engineering/README.md) |
+| **Usability and accessibility** | Inclusive, usable, effective, and accessible human-system experiences | *informs* → [Requirements](systems-engineering/requirements.md) |
+| **Human error** | Human mistakes, slips, and organizational conditions contributing to error | *may affect* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
 | **Collaboration and communication** | Human coordination, collaboration, shared language, and information exchange | *structured by* → [Organizational structures](human-sociotechnical-systems/README.md) |
-| **Organizational structures** | Roles, responsibilities, authority, governance, and organizational relationships | *shape* → [Requirements](systems-engineering/README.md) |
+| **Organizational structures** | Roles, responsibilities, authority, governance, and organizational relationships | *shape* → [Requirements](systems-engineering/requirements.md) |
 | **Ethics and professional responsibilities** | Professional obligations, harms, accountability, and responsible conduct | *informs human* → [Decision-making](human-sociotechnical-systems/README.md) |
 
 ## Canonical article integration
 
-The original **109 subject headings and 12 area assignments** remain unchanged. There are **37 Reviewed (model-assisted)** articles, including the [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md), and four Wave B Batch 03 Systems & Engineering Drafts. All nine approved Information & Data and all 26 Wave A headings are internally Reviewed. Independent human review and final publication acceptance are not claimed. Direct navigation links do not claim independent human verification or create a formal graph schema.
+The original **109 subject headings and 12 area assignments** remain unchanged. There are **41 Reviewed (model-assisted)** articles, including the [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md), and six new Wave B Batch 04 Systems & Engineering Drafts. All eleven approved Systems & Engineering headings are authored (five Reviewed internally, six Draft). All nine Information & Data and 26 Wave A headings remain internally Reviewed. Independent human review and final publication acceptance are not claimed. Direct navigation links do not claim independent human verification or create a formal graph schema.
 
 ## Register integrity
 
