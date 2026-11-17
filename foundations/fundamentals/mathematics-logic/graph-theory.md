@@ -24,7 +24,7 @@ V = {A, B, C, D}
 E = {{A,B}, {B,C}, {A,C}, {C,D}}
 ```
 
-A pair such as `{A,B}` is **unordered** in this undirected model. The edge connects A and B without assigning a direction. The complete graph has four vertices and four edges.
+A pair such as `{A,B}` is **unordered** in this undirected model. The edge connects A and B without assigning a direction. This **example graph** has four vertices and four edges. It is **not a complete graph**: a simple undirected complete graph on four vertices, denoted `K₄`, has all six possible edges.
 
 In a **directed graph**, by contrast, an edge is an ordered pair. The assertion `(A,B)` need not imply `(B,A)`. A model of command flow might define A→B without any reverse communication.
 
@@ -69,7 +69,7 @@ This explains why the presence of a line in a diagram says little about traffic 
 
 ## Trees are connected and acyclic
 
-A **tree** is a connected acyclic undirected graph. For a finite tree with `n` vertices, there are exactly `n−1` edges, and a unique simple path joins each pair of vertices.
+A **tree** is a connected acyclic undirected graph. For a finite tree with `n ≥ 1` vertices, there are exactly `n−1` edges, and a unique simple path joins each pair of vertices. Merely having `n−1` edges without connectivity is **not** sufficient to establish that an arbitrary graph is a tree.
 
 Removing the edge `{A,B}` from the four-vertex example leaves
 
@@ -123,6 +123,6 @@ Graph theory provides **formal objects and theorems**; the [Relationships](../mo
 - [MIT Mathematics for Computer Science: Lecture Notes](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/lecture-notes/), course-level formal graph material.
 - [MIT Mathematics for Computer Science: Syllabus](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/syllabus/), scope of discrete graph methods.
 
-**Editorial state:** Authoring Draft with illustrated degree sums, a cycle/tree conversion, DAG ordering and shortest-path cost comparison. Their material claims and example values require the next scoped source review before promotion. The separately pending G-01 mathematics-breadth issue includes general topology; graph theory here does **not** resolve it.
+**Editorial review note:** Corrected the mistaken label *complete graph* for the four-edge example. The handshake sum, tree conversion, topological order, and route costs were independently checked; the Batch 05 audit records the model-assisted review. General mathematical topology under G-01 remains a separate open issue.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
