@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Models & Abstraction](README.md)  
 **Approved subject heading:** Entities and attributes  
-**Development status:** Draft  
-**Source review:** Core claims checked (see [pilot technical review](../PILOT-TECHNICAL-REVIEW.md)); final editorial acceptance pending
+**Development status:** Reviewed (model-assisted; not an independently accepted final publication)  
+**Source review:** Core claims checked in [50-claim-family audit](../PILOT-CLAIM-SOURCE-AUDIT.md); independent external expert review not performed
 
 ## What a model chooses to distinguish
 
@@ -100,6 +100,6 @@ Links without individual article targets intentionally lead to existing approved
 - [W3C: RDF 1.1 Primer](https://www.w3.org/TR/rdf11-primer/), for illustrative triples and descriptions.
 - [NASA Systems Engineering Handbook: definitions and architecture](https://www.nasa.gov/reference/system-engineering-handbook-appendix/), for relationships among system elements, attributes, and interfaces within engineering models.
 
-**Review record:** The distinction between modeled entities, attributes, values, identifiers, and RDF graph statements was checked against W3C RDF 1.1 and NASA's systems-engineering definitions. The heater example is illustrative and does not claim that every model uses exactly this schema. This remains a source-checked draft pending final editorial acceptance.
+**Review record:** The distinction between modeled entities, attributes, values, identifiers, and RDF graph statements was checked against W3C RDF 1.1 and NASA's systems-engineering definitions. The heater example is illustrative and does not claim that every model uses exactly this schema. The article passed the model-assisted scoped acceptance audit; independent human publication approval remains outstanding.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Canonical ownership register](../CANONICAL-OWNERSHIP-REGISTER.md)
