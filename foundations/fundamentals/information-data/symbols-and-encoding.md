@@ -20,14 +20,14 @@ The following levels must be kept distinct:
 | Level | Meaning | Example |
 | --- | --- | --- |
 | Abstract character | A character identified by a standard, not its visual appearance | LATIN CAPITAL LETTER A |
-| Code point | Integer assigned to a character in Unicode | `U+0041` |
+| Code point | Integer position in the Unicode code space; may be assigned or unassigned | `U+0041` |
 | Encoding form | Rules converting code points into code units | UTF-8 |
 | Encoded bytes | Concrete octets representing the encoded text | Hex `41` |
 | Glyph | Visual shape rendered by a font or rendering system | One drawn shape for A |
 
 **Characters are not glyphs.** A font may display the same character with different visual shapes; rendering can combine multiple characters into one user-perceived text element. Unicode describes more than a list of printable shapes, including character properties and mechanisms for combining sequences. See the [Unicode Standard's principles](https://www.unicode.org/standard/principles.html).
 
-For Unicode text, a **code point** is an abstract integer written in `U+xxxx` form. Unicode scalar values exclude surrogate code points `U+D800..U+DFFF`. UTF-8 maps scalar values to sequences of one through four bytes; UTF-16 and UTF-32 use different code-unit structures. These forms can represent the same Unicode text while using different byte sequences.
+A **Unicode code point** is an integer in the range `U+0000..U+10FFFF`; not all code points are assigned to characters. Unicode scalar values exclude the surrogate code points `U+D800..U+DFFF`. UTF-8 maps scalar values to sequences of one through four bytes; UTF-16 and UTF-32 use different code-unit structures. These forms can represent the same Unicode text while using different byte sequences.
 
 ## UTF-8 as an illustrative encoding
 
