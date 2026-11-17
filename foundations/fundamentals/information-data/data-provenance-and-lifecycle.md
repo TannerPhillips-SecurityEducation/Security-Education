@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Information & Data](README.md)  
 **Approved subject heading:** Data provenance and lifecycle  
-**Development status:** Draft  
-**Source review:** References listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 02 audit](../WAVE-B-TECHNICAL-REVIEW-02.md); no independent human peer review
 
 ## Data history matters to meaning and trust
 
@@ -91,6 +91,6 @@ Data provenance and lifecycle are domain-independent mechanisms. This article es
 - [W3C PROV Ontology](https://www.w3.org/TR/prov-o/).
 - [W3C Data Catalog Vocabulary (DCAT) Version 3](https://www.w3.org/TR/vocab-dcat-3/).
 
-**Editorial status:** Substantive draft; provenance and lifecycle claims and numeric examples require a dedicated technical audit. G-04 remains open; no new curriculum headings or assessments introduced.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 02 technical audit](../WAVE-B-TECHNICAL-REVIEW-02.md). Complete source verification, independent human expert review and final publication acceptance remain separate and pending.
 
 [Information & Data](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
