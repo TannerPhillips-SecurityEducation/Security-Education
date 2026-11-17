@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All 11 approved subjects authored; five Reviewed (model-assisted), six Draft; independent human and final publication acceptance pending  
+**Content status:** All 11 approved subjects authored and Reviewed (model-assisted); independent human and final publication acceptance pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -27,7 +27,7 @@ General principles for describing, designing, operating, verifying, and understa
 
 This area is a **navigation discipline**. These eleven names are the already approved coverage headings; their presence does not authorize a separate taxonomy of universal primitives. General systems mechanisms belong here, while contextual hardware, software, networking, industrial, human, and security applications extend their canonical references in specialized domains.
 
-**All 11 of 11 approved subjects are now authored.** Five references are internally **Reviewed (model-assisted)**, including four that passed the [Wave B Batch 03 24-family technical audit](../WAVE-B-TECHNICAL-REVIEW-03.md). Six new Batch 04 references are substantive **Drafts**, not yet independently technically reviewed.
+**All 11 of 11 approved subjects are now authored.** All eleven references are **Reviewed (model-assisted)**. Five were reviewed under the [six-pilot audit](../PILOT-CLAIM-SOURCE-AUDIT.md) and [Wave B Batch 03](../WAVE-B-TECHNICAL-REVIEW-03.md), while the six Batch 04 references passed the [36-family technical audit](../WAVE-B-TECHNICAL-REVIEW-04.md). Independent human peer review and publication acceptance remain open.
 
 ## Canonical reference articles
 
@@ -38,14 +38,14 @@ This area is a **navigation discipline**. These eleven names are the already app
 | Architecture and composition | [Architecture and Composition](architecture-and-composition.md) | Reviewed (model-assisted) |
 | Dependencies | [Dependencies](dependencies.md) | Reviewed (model-assisted) |
 | State and behavior | [State and Behavior](state-and-behavior.md) | Reviewed (model-assisted) |
-| Feedback and control | [Feedback and Control](feedback-and-control.md) | Draft |
-| Emergence and complexity | [Emergence and Complexity](emergence-and-complexity.md) | Draft |
-| Reliability and failure | [Reliability and Failure](reliability-and-failure.md) | Draft |
-| Requirements | [Requirements](requirements.md) | Draft |
-| Verification and validation | [Verification and Validation](verification-and-validation.md) | Draft |
-| System lifecycle | [System Lifecycle](system-lifecycle.md) | Draft |
+| Feedback and control | [Feedback and Control](feedback-and-control.md) | Reviewed (model-assisted) |
+| Emergence and complexity | [Emergence and Complexity](emergence-and-complexity.md) | Reviewed (model-assisted) |
+| Reliability and failure | [Reliability and Failure](reliability-and-failure.md) | Reviewed (model-assisted) |
+| Requirements | [Requirements](requirements.md) | Reviewed (model-assisted) |
+| Verification and validation | [Verification and Validation](verification-and-validation.md) | Reviewed (model-assisted) |
+| System lifecycle | [System Lifecycle](system-lifecycle.md) | Reviewed (model-assisted) |
 
-The [six-pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) covers Systems and Subsystems; the [Wave B Batch 03 technical audit](../WAVE-B-TECHNICAL-REVIEW-03.md) covers the following four articles. Batch 04 requires a separate claim-to-source technical pass before any promotion to Reviewed. `Reviewed (model-assisted)` is not the same as independently human peer-reviewed, completely Verified, or finally Published.
+The [six-pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) covers Systems and Subsystems; the [Wave B Batch 03 technical audit](../WAVE-B-TECHNICAL-REVIEW-03.md) covers the following four articles. Batch 04 has passed its [36-family technical review](../WAVE-B-TECHNICAL-REVIEW-04.md). `Reviewed (model-assisted)` is not the same as independently human peer-reviewed, completely Verified, or finally Published.
 
 No Knowledge Checks, Practical Assessments, quizzes, grades, additional area or heading, mandated graph-predicate vocabulary, or classroom content is introduced. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open scope decisions.
 
