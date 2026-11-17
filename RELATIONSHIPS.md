@@ -20,6 +20,12 @@ For example, [Boolean logic](foundations/fundamentals/mathematics-logic/README.m
 
 See the [governing Fundamentals architecture](foundations/fundamentals/ARCHITECTURE.md). Illustrative conceptual primitives are **not** a newly ratified universal primitive taxonomy.
 
+## Fundamentals Crosswalks
+
+The [Canonical Ownership & Relationship Register](foundations/fundamentals/CANONICAL-OWNERSHIP-REGISTER.md) gives all 109 approved subject headings a proposed general scope and an illustrative connection to another approved subject. The [Concept Overlap & Coverage Review](foundations/fundamentals/CONCEPT-OVERLAP-REVIEW.md) tracks proposed ownership boundaries and unresolved gaps.
+
+Both are **working architectural maps**. Their relationship labels are not an approved, machine-enforced graph vocabulary. The links lead to actual knowledge-area indexes until individual canonical articles are published.
+
 ## Explicit relationships
 
 In content documents, record the **relationship type** and a link to the **target**. A subject may have multiple relationships and span multiple domains.
