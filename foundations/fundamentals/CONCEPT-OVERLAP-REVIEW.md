@@ -1,8 +1,12 @@
 # Fundamentals: Concept Overlap and Coverage Review
 
-**Status:** Working architectural review register, v0.1. No new knowledge areas, subject headings, or graph predicates are ratified by this document.
+**Status:** Working architectural review register, v0.2. The 20 overlaps now have proposed working boundary resolutions. The 10 coverage questions remain open; no new areas, headings, or graph predicates are ratified.
 
 The approved baseline is 12 knowledge areas and 109 subject headings. The ownership boundaries below are **proposed decisions for review**. They are not evidence that the underlying canonical concept articles already exist.
+
+## Boundary-resolution cross-reference
+
+The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) document contains 20 working ownership-and-distinction decisions with discriminating examples. **B-11 retains a general-temporality coverage exception**. The mappings are editorial working decisions, not published canonical concept articles and not blanket ratification of all individual mechanisms.
 
 ## Twenty recurring concept-overlap groups
 
@@ -18,7 +22,7 @@ The approved baseline is 12 knowledge areas and 109 subject headings. The owners
 | Control, feedback, and industrial controllers | [Feedback and control](systems-engineering/README.md) | Physical & Electrical Principles owns actuation mechanisms; Industrial Knowledge owns ICS implementations. |
 | Algorithm complexity and emergent complexity | [Complexity](computation-algorithms/README.md) and [Emergence and complexity](systems-engineering/README.md) | Separate computational resource-growth measures from nonlinear interactions of whole systems. |
 | Probability and confidence | [Probability and statistics](mathematics-logic/README.md) | Scientific & Analytical Reasoning owns epistemic uncertainty and evidential confidence. |
-| Time, clock hardware, and ordering | [Units and quantities](mathematics-logic/README.md) | Digital Systems & Hardware owns physical clock circuitry; Distributed Systems owns logical ordering. General temporality needs a coverage review. |
+| Time, clock hardware, and ordering | [Units and quantities](mathematics-logic/README.md) owns units and durations only; general temporality unresolved | Digital Systems & Hardware owns physical clocks; Distributed Systems owns logical ordering. See boundary decision B-11 and the open temporality coverage question. |
 | APIs and communication protocols | [Software interfaces](software-programming/README.md) | Communication & Distributed Systems owns exchange protocols and layering; Application Knowledge owns concrete APIs. |
 | Concurrency, threads, and distributed coordination | [Concurrency and parallelism](computation-algorithms/README.md) | Operating System Principles owns thread/process implementation; Distributed Systems owns cross-node coordination. |
 | Drivers, buses, and input/output | [Buses and interfaces](digital-systems-hardware/README.md) | Operating System Principles owns driver abstractions; Endpoint Knowledge owns platform-specific implementations. |
@@ -67,4 +71,4 @@ For every candidate, record one of three outcomes when reviewed: **covered by an
 4. Record the disposition in the authoring workflow without changing the approved taxonomy unless separately approved.
 5. Update references and cross-links when substantive canonical articles are published.
 
-[Fundamentals](README.md) · [Development Plan](CURRICULUM-DEVELOPMENT-PLAN.md)
+[Fundamentals](README.md) · [Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) · [Development Plan](CURRICULUM-DEVELOPMENT-PLAN.md)
