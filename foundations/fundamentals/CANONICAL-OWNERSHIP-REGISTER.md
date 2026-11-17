@@ -16,7 +16,7 @@ Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific ob
 
 See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresolved ownership collisions and candidate gaps.
 
-## 01. Mathematics Logic (8 headings)
+## 01. Mathematics & Logic (8 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
@@ -29,7 +29,7 @@ See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresol
 | **Probability and statistics** | Random variables, distributions, and mathematical statistical inference | *informs epistemic* → [Uncertainty and confidence](scientific-analytical-reasoning/README.md) |
 | **Units and quantities** | Quantities, dimensions, units, scaling, and conversion | *enables* → [Measurement](scientific-analytical-reasoning/README.md) |
 
-## 02. Scientific Analytical Reasoning (8 headings)
+## 02. Scientific & Analytical Reasoning (8 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
@@ -42,7 +42,7 @@ See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresol
 | **Uncertainty and confidence** | Known limits, estimates, epistemic uncertainty, and calibrated confidence | *partly quantified using* → [Probability and statistics](mathematics-logic/README.md) |
 | **Validation and falsification** | Empirical claim criticism, refutation, replication, and model revision | *distinct from engineering* → [Verification and validation](systems-engineering/README.md) |
 
-## 03. Models Abstraction (10 headings)
+## 03. Models & Abstraction (10 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresol
 | **State, events, and transitions** | General state descriptions, events, and transitions between conditions | *specialized as system* → [State and behavior](systems-engineering/README.md) |
 | **Conceptual and formal models** | Models, assumptions, formalization, abstraction fidelity, and interpretation | *evaluated through* → [Validation and falsification](scientific-analytical-reasoning/README.md) |
 
-## 04. Physical Electrical Principles (9 headings)
+## 04. Physical & Electrical Principles (9 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
@@ -71,7 +71,7 @@ See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresol
 | **Signal conversion** | Sampling, quantization, analog-digital and digital-analog conversion | *supports data capture for* → [Measurement](scientific-analytical-reasoning/README.md) |
 | **Physical control mechanisms** | Actuation and regulation of physical processes | *generalized by* → [Feedback and control](systems-engineering/README.md) |
 
-## 05. Information Data (9 headings)
+## 05. Information & Data (9 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
@@ -85,7 +85,7 @@ See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresol
 | **Databases and queries** | Data persistence, logical models, query operations, and retrieval concepts | *uses* → [Data structures and formats](information-data/README.md) |
 | **Data provenance and lifecycle** | Origin, lineage, transformation, retention, and change history | *supports evaluation of* → [Evidence](scientific-analytical-reasoning/README.md) |
 
-## 06. Digital Systems Hardware (9 headings)
+## 06. Digital Systems & Hardware (9 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
@@ -99,7 +99,7 @@ See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresol
 | **Firmware** | Hardware-oriented software used for initialization and control | *participates in* → [System initialization](operating-system-principles/README.md) |
 | **Hardware abstraction** | Interfaces hiding low-level implementation differences from software | *specializes general* → [Abstraction](models-abstraction/README.md) |
 
-## 07. Computation Algorithms (9 headings)
+## 07. Computation & Algorithms (9 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
@@ -113,7 +113,7 @@ See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresol
 | **Synchronization** | Mutual exclusion, ordering, races, deadlock, and coordination of computations | *specialized across nodes in* → [Synchronization and coordination](communication-distributed-systems/README.md) |
 | **Computational efficiency** | Practical performance costs, locality, profiling, and resource tradeoffs | *compared with asymptotic* → [Complexity](computation-algorithms/README.md) |
 
-## 08. Software Programming (9 headings)
+## 08. Software & Programming (9 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
@@ -142,7 +142,7 @@ See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresol
 | **System initialization** | Boot sequence, firmware handoff, kernel start, and service initialization | *follows* → [Firmware](digital-systems-hardware/README.md) |
 | **Resource management** | Allocation, quotas, accounting, and contention for shared system resources | *constrains* → [Computational efficiency](computation-algorithms/README.md) |
 
-## 10. Communication Distributed Systems (9 headings)
+## 10. Communication & Distributed Systems (9 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
@@ -156,7 +156,7 @@ See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresol
 | **Distributed state** | Replication, consistency, clocks, and partial-failure uncertainty | *specializes* → [State, events, and transitions](models-abstraction/README.md) |
 | **Synchronization and coordination** | Coordination among autonomous processes through ordering, clocks, and agreement | *extends computational* → [Synchronization](computation-algorithms/README.md) |
 
-## 11. Systems Engineering (11 headings)
+## 11. Systems & Engineering (11 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
@@ -172,7 +172,7 @@ See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresol
 | **Verification and validation** | Conformance to requirements versus fitness for intended use | *distinct from empirical* → [Validation and falsification](scientific-analytical-reasoning/README.md) |
 | **System lifecycle** | Conception, design, operation, maintenance, evolution, and retirement | *specialized for software in* → [Testing and software lifecycle](software-programming/README.md) |
 
-## 12. Human Sociotechnical Systems (8 headings)
+## 12. Human & Sociotechnical Systems (8 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
