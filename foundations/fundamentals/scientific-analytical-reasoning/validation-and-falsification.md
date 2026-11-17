@@ -51,7 +51,7 @@ A rigorous test makes the following explicit:
 
 ## Validation, verification, reproducibility, and replication
 
-The words *verification* and *validation* have discipline-specific meanings. In systems engineering, **verification** commonly asks whether the realized system satisfies specified requirements, and **validation** asks whether it serves intended use or stakeholder needs. These distinctions are developed by [NASA Systems Engineering](https://www.nasa.gov/reference/5-0-product-realization/) and belong canonically to [Systems & Engineering: Verification and Validation](../systems-engineering/README.md).
+The words *verification* and *validation* have discipline-specific meanings. In systems engineering, **verification** commonly asks whether the realized system satisfies specified requirements, and **validation** asks whether it serves intended use or stakeholder needs. These distinctions are developed by [NASA Systems Engineering](https://www.nasa.gov/reference/5-0-product-realization/) and belong canonically to [Systems & Engineering: Verification and Validation](../systems-engineering/verification-and-validation.md).
 
 Empirical claim validation is related but **not synonymous** with engineering acceptance. An implementation can satisfy a formal specification while the specification fails to describe the real-world need. Conversely, evidence may support an empirical model without proving that a constructed system meets its engineering requirements.
 
