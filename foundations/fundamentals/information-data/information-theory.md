@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Information & Data](README.md)  
 **Approved subject heading:** Information theory  
-**Development status:** Draft  
-**Source review:** References listed; separate scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 01 audit](../WAVE-B-TECHNICAL-REVIEW-01.md); no independent human peer review
 
 ## Measuring uncertainty in an information source
 
@@ -75,6 +75,6 @@ Both `Y` fields individually have entropy one bit. Their **relationship to X** d
 - [A Mathematical Theory of Communication, foundational paper](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf).
 - [MIT Mathematics for Computer Science readings](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/).
 
-**Editorial status:** Substantive draft, including original numeric examples. The numeric examples and theorem qualifications require a scoped technical review. No conflation with semantic meaning or security analytics is permitted.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 01 technical audit](../WAVE-B-TECHNICAL-REVIEW-01.md). Complete source verification, independent human peer review, and final publication acceptance remain open.
 
 [Information & Data](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
