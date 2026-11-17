@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Mathematics & Logic](README.md)  
 **Approved subject heading:** Units and quantities  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md); no independent human peer review
 
 ## Quantities express magnitudes of specified kinds
 
@@ -79,6 +79,6 @@ Quantity calculus is domain-independent. It underpins physical sensing, engineer
 - [NIST, Binary Prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 - [NIST, Guide for the Use of the International System of Units](https://physics.nist.gov/cuu/pdf/sp811.pdf).
 
-**Editorial status:** Substantive draft; examples are explanatory calculations requiring a separate scoped technical and source audit before Reviewed status. G-01 and G-04 decisions are unchanged.
+**Editorial status:** Reviewed (model-assisted) following the [Batch 07 scoped 30-family technical review](../WAVE-A-TECHNICAL-REVIEW-07.md). Complete source verification, independent human peer review and final publication approval remain open.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
