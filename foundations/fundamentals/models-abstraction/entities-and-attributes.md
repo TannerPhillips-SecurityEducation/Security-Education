@@ -78,7 +78,7 @@ h1 -- located_in --> room-2
 
 A statement about `rated_power` relates a device to a quantity. A statement about `located_in` relates the device to another modeled entity. Both can be represented as directed, labeled edges in an information model, but the interpretation of their objects and constraints matters.
 
-The W3C [RDF 1.1 Concepts](https://www.w3.org/TR/rdf11-concepts/) specification formalizes one graph-based representation: **subject, predicate, object** triples, with properties represented by predicates. RDF is a useful implementation example, **not** the definition of entity or attribute in every conceptual modeling method.
+The W3C [RDF 1.1 Concepts](https://www.w3.org/TR/rdf11-concepts/) specification formalizes one graph-based representation: **subject, predicate, object** triples, with properties represented by predicates. In RDF, subjects are IRIs or blank nodes, predicates are IRIs, and objects may be IRIs, blank nodes, or literals. RDF is a useful implementation example, **not** the definition of entity or attribute in every conceptual modeling method.
 
 ## Mechanisms and limitations of modeling
 
@@ -100,6 +100,6 @@ Links without individual article targets intentionally lead to existing approved
 - [W3C: RDF 1.1 Primer](https://www.w3.org/TR/rdf11-primer/), for illustrative triples and descriptions.
 - [NASA Systems Engineering Handbook: definitions and architecture](https://www.nasa.gov/reference/system-engineering-handbook-appendix/), for relationships among system elements, attributes, and interfaces within engineering models.
 
-**Review note:** This article uses an intentionally domain-agnostic entity/attribute vocabulary. Its heater example, identity assumptions, and modeling distinctions are conceptual illustrations; no universal formal ontology is claimed. Independent review remains pending.
+**Review record:** The distinction between modeled entities, attributes, values, identifiers, and RDF graph statements was checked against W3C RDF 1.1 and NASA's systems-engineering definitions. The heater example is illustrative and does not claim that every model uses exactly this schema. This remains a source-checked draft pending final editorial acceptance.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Canonical ownership register](../CANONICAL-OWNERSHIP-REGISTER.md)
