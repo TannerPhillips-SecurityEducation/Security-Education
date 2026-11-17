@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Models & Abstraction](README.md)  
 **Approved subject heading:** Abstraction  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source review pending
+**Development status:** Reviewed (model-assisted; independent expert acceptance pending)  
+**Source review:** Core claims checked in [Wave A Batch 05 audit](../WAVE-A-TECHNICAL-REVIEW-05.md); not independently human verified
 
 ## Abstraction chooses which differences matter
 
