@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Human & Sociotechnical Systems](README.md)  
 **Approved subject heading:** Decision-making  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source technical review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 05 audit](../WAVE-B-TECHNICAL-REVIEW-05.md); no independent human peer review
 
 ## Decisions connect goals, knowledge, alternatives and action
 
@@ -82,6 +82,6 @@ A decision log should preserve the original information set, not rewrite the pas
 - [NASA: Human Performance and Error](https://www.nasa.gov/reference/5-0-human-performance-and-error-vol-2/).
 - [NASA: Technical Risk Management](https://www.nasa.gov/reference/6-4-technical-risk-management/).
 
-**Editorial status:** Substantive Draft with invented expected-cost figures. Both empirical claims about cognition and quantitative examples require a separate scoped technical audit. No decision rule is imposed on the repository.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 05 technical audit](../WAVE-B-TECHNICAL-REVIEW-05.md). Complete standards verification, independent human expert review and final publication acceptance remain separate and pending.
 
 [Human & Sociotechnical Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
