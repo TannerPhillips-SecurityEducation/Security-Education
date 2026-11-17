@@ -49,7 +49,7 @@ For a domain of modeled devices, `Connected(x)` is a predicate that may be true 
 - **Existential quantification:** `∃x Connected(x)` says at least one relevant element satisfies it.
 - **Negated universal:** `¬∀x Connected(x)` means not every element satisfies it, classically equivalent to `∃x ¬Connected(x)`.
 
-The selected **domain** is essential. If a quantifier ranges over a set of devices, it does not automatically assert anything about every device anywhere in the world. Domain selection is part of the model's assumptions.
+The selected **domain** is essential. Standard classical first-order interpretations ordinarily use a **nonempty domain**. If a quantifier ranges over a set of devices, it does not automatically assert anything about every device anywhere in the world. Domain selection is part of the model's assumptions. In alternative formalisms allowing empty domains, some quantifier behavior and logical theorems require explicit qualification.
 
 Consider the formula `∀x (Heater(x) → HasPowerSource(x))`. It represents a general modeled property of heaters. It says nothing about whether the modeled world satisfies that property until the predicates and domain are interpreted. A **counterexample** is any element for which `Heater(x)` is true and `HasPowerSource(x)` false.
 
@@ -71,7 +71,7 @@ This distinction prevents three common conflations:
 
 **Truth versus knowledge:** a statement may be true without an observer knowing it.
 
-**Logical implication versus cause:** `P → Q` does not establish a mechanism causing Q.
+**Logical implication versus cause:** `P → Q` does not establish a mechanism causing Q. The converse `Q → P` is not established by `P → Q`, nor does the observation of Q justify inferring P.
 
 **Formal validity versus implementation:** a valid Boolean formula does not determine whether electronic gates, software conditions or distributed messages evaluate it correctly.
 
@@ -102,6 +102,6 @@ This example illustrates logic without turning it into a security-specific detec
 - [Stanford Encyclopedia of Philosophy: Quantifiers and Quantification](https://plato.stanford.edu/entries/quantification/), first-order quantification and interpretation.
 - [MIT OpenCourseWare: Mathematics for Computer Science](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/), mathematical proof techniques and logical notation.
 
-**Editorial state:** A substantive authoring draft. Its examples and material claims still require the scoped claim-to-source review used for the six accepted pilot articles.
+**Editorial state:** A substantive authoring draft. The material conditional, De Morgan identity, basic entailment and quantified predicate example have been checked against the cited classical-logic references and exhaustive finite truth assignments. Final scoped technical and editorial acceptance is recorded separately in the Wave A review ledger.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md)
