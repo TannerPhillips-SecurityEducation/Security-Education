@@ -30,12 +30,13 @@ The content belongs in Fundamentals only insofar as it is domain-agnostic. Secur
 
 ## Canonical reference articles
 
+- [Uncertainty and confidence](uncertainty-and-confidence.md) — Draft; substantive source-based reference, article-level audit pending.
 - [Observation](observation.md) — Reviewed (model-assisted; [scope audit](../PILOT-CLAIM-SOURCE-AUDIT.md)); independent human acceptance not claimed.
 - [Measurement](measurement.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-02.md)); independent human acceptance not claimed.
 - [Evidence](evidence.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-01.md)); independent human acceptance not claimed.
 - [Hypotheses and experiments](hypotheses-and-experiments.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-03.md)); independent human acceptance not claimed.
 - [Deduction, induction, and abduction](deduction-induction-abduction.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-04.md)); independent human acceptance not claimed.
-- [Causality and correlation](causality-and-correlation.md) — Draft; technical explanation and sources listed, article-level review pending.
+- [Causality and correlation](causality-and-correlation.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-05.md)); independent human acceptance not claimed.
 
 No approved subject heading is changed by article status. Links to area inventories remain for subjects without articles; the review evidence does not constitute independent human peer review or final publication.
 
