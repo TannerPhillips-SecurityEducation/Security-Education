@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Systems & Engineering](README.md)  
 **Approved subject heading:** Verification and validation  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 04 audit](../WAVE-B-TECHNICAL-REVIEW-04.md); no independent human peer review
 
 ## Conformance and fitness for use are separate claims
 
@@ -95,6 +95,6 @@ This reference introduces no mandatory test platform, certification regime, trai
 - [SEBoK: System Verification](https://sebokwiki.org/wiki/System_Verification).
 - [NASA: Technical Requirements Definition](https://www.nasa.gov/reference/4-2-technical-requirements-definition/).
 
-**Editorial status:** Substantive Draft. The acceptance example and distinct definitions require a separate scoped audit before Reviewed status. Independent expert review and final publication are not claimed.
+**Editorial status:** Reviewed (model-assisted) under the scoped [Wave B Batch 04 technical review](../WAVE-B-TECHNICAL-REVIEW-04.md). Exhaustive source verification, independent expert review and final publication acceptance remain separate, uncompleted gates.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
