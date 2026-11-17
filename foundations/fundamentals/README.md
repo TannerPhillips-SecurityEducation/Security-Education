@@ -5,6 +5,17 @@
 
 Fundamentals establishes domain-agnostic concepts, structures, principles, and mechanisms needed to understand technical systems and their behavior. It supports the seven specialized knowledge domains without making any one technology, vendor, or security practice the organizing principle.
 
+## Governing Architecture
+
+[**Fundamentals: Governing Knowledge Architecture**](ARCHITECTURE.md) defines the approved four requirements:
+
+1. **Domain independence:** Explain foundational concepts without relying on a particular technical or security domain.
+2. **Conceptual and mechanical depth:** Develop concepts, structures, principles, mechanisms, and relationships.
+3. **Canonical knowledge ownership:** Define a general concept once, then link its contextual applications.
+4. **Specialized extension:** Let the seven specialized domains build upon general fundamentals without redefining them.
+
+The **twelve approved knowledge areas are navigation disciplines**, while their 109 subject headings form a coverage inventory. Underlying concepts and their relationships provide conceptual coherence across disciplines. Proposed universal primitives do not become additional categories without separate approval.
+
 ## Development Plan of Action
 
 The [Curriculum Development Plan of Action](CURRICULUM-DEVELOPMENT-PLAN.md) is a working production roadmap for expanding the 109 inventoried subjects into an accurate, connected technical knowledge reference. It defines authoring waves, source requirements, editorial workflow, progress tracking, cross-domain integration, and completion gates. It excludes Knowledge Checks and Practical Assessments.
