@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Digital Systems & Hardware](README.md)  
 **Approved subject heading:** Digital logic  
-**Development status:** Draft  
-**Source review:** Core claims checked (see [pilot technical review](../PILOT-TECHNICAL-REVIEW.md)); final editorial acceptance pending
+**Development status:** Reviewed (model-assisted; not an independently accepted final publication)  
+**Source review:** Core claims checked in [50-claim-family audit](../PILOT-CLAIM-SOURCE-AUDIT.md); independent external expert review not performed
 
 ## From logical propositions to physical circuits
 
@@ -108,6 +108,6 @@ These broad links lead to approved area inventories unless a canonical article a
 - [MIT Computation Structures: Sequential Logic notes](https://computationstructures.org/notes/sequential_logic/notes.html), for latches, flip-flops, state, propagation, and setup/hold timing.
 - [MIT Computation Structures: Finite State Machines](https://computationstructures.org/lectures/fsm/fsm.html), for state-machine implementation and metastability limitations.
 
-**Review record:** The logic-gate and half-adder truth tables were evaluated directly across all four two-input combinations. MIT's published lecture material was checked for the physical-digital-abstraction, sequential-logic, propagation-delay and metastability distinctions. Exact electrical limits remain technology-dependent and have deliberately not been asserted. This is a source-checked draft pending final editorial acceptance.
+**Review record:** The logic-gate and half-adder truth tables were evaluated directly across all four two-input combinations. MIT's published lecture material was checked for the physical-digital-abstraction, sequential-logic, propagation-delay and metastability distinctions. Exact electrical limits remain technology-dependent and have deliberately not been asserted. The article passed the model-assisted scoped acceptance audit; independent human publication approval remains outstanding.
 
 [Digital Systems & Hardware](README.md) · [Fundamentals](../README.md) · [Canonical ownership register](../CANONICAL-OWNERSHIP-REGISTER.md)
