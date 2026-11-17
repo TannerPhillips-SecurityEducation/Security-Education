@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Scientific & Analytical Reasoning](README.md)  
 **Approved subject heading:** Observation  
-**Development status:** Draft  
-**Source review:** Core claims checked (see [pilot technical review](../PILOT-TECHNICAL-REVIEW.md)); final editorial acceptance pending
+**Development status:** Reviewed (model-assisted; not an independently accepted final publication)  
+**Source review:** Core claims checked in [50-claim-family audit](../PILOT-CLAIM-SOURCE-AUDIT.md); independent external expert review not performed
 
 ## How something becomes observable
 
@@ -103,6 +103,6 @@ All links above point to approved area indexes because most individual canonical
 - [NIST: Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty), for the measurement process and its limitations.
 - [Stanford Encyclopedia of Philosophy: Evidence](https://plato.stanford.edu/entries/evidence/), for the distinction between observations and their epistemic support.
 
-**Review record:** The distinction between observation, measurement, record, and evidence was checked against the cited philosophy-of-science and NIST resources. The seven explanatory facets are an original editorial decomposition, **not** a standardized ontology. The sampling example has been corrected so a threshold reading is not mistaken for evidence of a crossing. This remains a source-checked draft pending final editorial acceptance.
+**Review record:** The distinction between observation, measurement, record, and evidence was checked against the cited philosophy-of-science and NIST resources. The seven explanatory facets are an original editorial decomposition, **not** a standardized ontology. The sampling example has been corrected so a threshold reading is not mistaken for evidence of a crossing. The article passed the model-assisted scoped acceptance audit; independent human publication approval remains outstanding.
 
 [Scientific & Analytical Reasoning](README.md) · [Fundamentals](../README.md) · [Concept boundary decisions](../CONCEPT-BOUNDARY-DECISIONS.md)
