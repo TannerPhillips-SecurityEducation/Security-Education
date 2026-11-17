@@ -105,6 +105,8 @@ These broad links lead to approved area inventories unless a canonical article a
 - [MIT OpenCourseWare: Computation Structures lecture notes](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/lecture-notes/), especially digital abstraction, CMOS gates, combinational/sequential logic, finite-state machines, and synchronization.
 - [MIT OpenCourseWare: Synchronization, Metastability and Arbitration](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/resources/mit6_004s09_lec07/), a focused lecture reference for metastability.
 - [MIT Mathematics for Computer Science](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/lecture-notes/), for formal mathematical reasoning distinct from physical circuit implementation.
+- [MIT Computation Structures: Sequential Logic notes](https://computationstructures.org/notes/sequential_logic/notes.html), for latches, flip-flops, state, propagation, and setup/hold timing.
+- [MIT Computation Structures: Finite State Machines](https://computationstructures.org/lectures/fsm/fsm.html), for state-machine implementation and metastability limitations.
 
 **Review record:** The logic-gate and half-adder truth tables were evaluated directly across all four two-input combinations. MIT's published lecture material was checked for the physical-digital-abstraction, sequential-logic, propagation-delay and metastability distinctions. Exact electrical limits remain technology-dependent and have deliberately not been asserted. This is a source-checked draft pending final editorial acceptance.
 
