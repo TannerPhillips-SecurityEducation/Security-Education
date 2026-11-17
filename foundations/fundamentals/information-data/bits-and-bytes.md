@@ -21,7 +21,7 @@ A **bit string** is an ordered sequence of bits. The eight-bit pattern `00101101
 
 This result depends on the convention that the leftmost bit has the highest positional weight. The same eight bits can instead denote a character-code unit, a set of independent flags, a signed integer, or another encoded value under another format. **A bit pattern does not carry its type or meaning by itself.**
 
-An eight-bit unsigned integer can denote 256 distinct patterns, conventionally mapped to integer values 0–255. An arbitrary sequence of `n` independent binary positions has `2^n` distinct bit patterns; that count is not a claim that every pattern is valid in a given application format.
+An eight-bit unsigned integer can denote 256 distinct patterns, conventionally mapped to integer values 0–255. An ordered sequence of `n` freely selectable binary positions has `2^n` possible bit patterns, before any format restrictions. This is a combinatorial count, **not** an assumption that random bit values are probabilistically independent; an application format may admit fewer patterns.
 
 ## Grouping, order, and interpretation
 
