@@ -1,42 +1,37 @@
-# Security Education
+# Security Knowledge
 
-**A living technical knowledge base for Network Security Operations, Zeek, threat hunting, detection engineering, and practical education.**
+A structured knowledge repository organized by **a hierarchy for navigation** and **a knowledge graph for relationships**.
 
-This repository develops technical concepts and educational material. Documentation is organized by subject, with explicit status indicators to distinguish drafts from verified resources.
+## Foundations
 
-## Explore
+- [Fundamentals](foundations/fundamentals/README.md)
+- [Security Foundations](foundations/security-foundations/README.md)
+- [Operational Foundations](foundations/operational-foundations/README.md)
 
-| Section | Description |
-| --- | --- |
-| [Foundations](foundations/README.md) | Networking, security, systems, data, and evidence |
-| [Network Security Operations](network-security-operations/README.md) | NSO, NSM, NTA, and NDR |
-| [Zeek](zeek/README.md) | Learning, architecture, engineering, development, analysis |
-| [Threat Hunting](threat-hunting/README.md) | Methodology, models, and investigations |
-| [Detection Engineering](detection-engineering/README.md) | Detection design, validation, and refinement |
-| [Technical Education](technical-education/README.md) | Learning methods, labs, and assessment |
+[Foundations overview](foundations/README.md)
 
-## Foundational NSO architecture
+## Knowledge Domains
 
-```text
-Network Activity --NSM--> Network Telemetry --NTA--> Network Evidence --NDR--> Security Action
-```
+- [Network Knowledge](network/README.md)
+- [Endpoint Knowledge](endpoint/README.md)
+- [Application Knowledge](application/README.md)
+- [Cloud Knowledge](cloud/README.md)
+- [Industrial Knowledge](industrial/README.md)
+- [IoT Knowledge](iot/README.md)
+- [Identity Knowledge](identity/README.md)
 
-- **NSM — Network Security Monitoring:** Capture & Collect; Transform & Record; Store & Retrieve.
-- **NTA — Network Telemetry Analytics:** Select; Compare; Correlate; Aggregate; Calculate; Present.
-- **NDR — Network Detection & Response:** Detection; Investigation; Response.
+## Architectural Principles
 
-Network telemetry includes **packets, logs, metrics, and traces**. This architecture is a conceptual framework for developing and teaching network security practices.
+1. **Navigation hierarchy:** Each subject has a discoverable canonical home.
+2. **Knowledge graph:** Subjects may have typed relationships across sections and domains.
+3. **Cross-domain relationships:** Domain boundaries do not imply conceptual isolation.
+4. **Foundations:** Shared concepts support specialized domains without imposing a mandatory reading order.
+5. **Extensibility:** Additional domains and relationships may be introduced without redefining established ones.
 
-## Editorial standards
+[Relationship conventions](RELATIONSHIPS.md)
 
-- Mark material as **Draft**, **Under Review**, or **Validated**.
-- Distinguish observation from derivation, inference, and action.
-- Specify prerequisites, assumptions, and validation procedures for labs.
-- Cite authoritative references where practical.
-- Do not present planned work as completed implementation.
+## Related
 
-## Related repository
+[Security Operations Portfolio](https://github.com/TannerPhillips-SecurityEducation/Security-Operations-Portfolio)
 
-[Security Operations Portfolio](https://github.com/TannerPhillips-SecurityEducation/Security-Operations-Portfolio) highlights professional work and links to technical projects.
-
-*Licensing and contribution policy are still to be defined. Public access does not automatically grant unrestricted reuse.*
+> **Architecture:** v0.3 approved baseline. Section content and internal taxonomies remain to be developed.
