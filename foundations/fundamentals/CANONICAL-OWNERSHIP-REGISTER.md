@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v0.9. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
+**Status:** Working architectural register v1.0. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
 
 This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
 
@@ -9,7 +9,7 @@ This register connects the existing subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** Live direct links now point to **twenty-four Reviewed (model-assisted) articles** and **five Wave A Batch 07 Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
+- **Links:** Live direct links now point to **twenty-nine Reviewed (model-assisted) articles**; no currently authored draft references; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
 - **Granularity:** One heading may require multiple articles, and a single well-scoped explanation can serve more than one heading. Do not assume 109 headings equal 109 indivisible concepts.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -27,7 +27,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Discrete mathematics** | [Reviewed canonical article](mathematics-logic/discrete-mathematics.md) · Finite structures, counting, recurrences, and mathematical induction | *supports construction of* → [Algorithm design](computation-algorithms/README.md) |
 | **Graph theory** | [Reviewed canonical article](mathematics-logic/graph-theory.md) · Vertices, edges, paths, connectivity, and hierarchical structures | *models* → [Dependencies](systems-engineering/README.md) |
 | **Probability and statistics** | [Reviewed canonical article](mathematics-logic/probability-and-statistics.md) · Random variables, distributions, and mathematical statistical inference | *informs epistemic* → [Uncertainty and confidence](scientific-analytical-reasoning/uncertainty-and-confidence.md) |
-| **Units and quantities** | [Draft canonical article](mathematics-logic/units-and-quantities.md) · Quantities, dimensions, units, scaling, and conversion | *enables* → [Measurement](scientific-analytical-reasoning/measurement.md) |
+| **Units and quantities** | [Reviewed canonical article](mathematics-logic/units-and-quantities.md) · Quantities, dimensions, units, scaling, and conversion | *enables* → [Measurement](scientific-analytical-reasoning/measurement.md) |
 
 ## 02. Scientific & Analytical Reasoning (8 headings)
 
@@ -40,7 +40,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Deduction, induction, and abduction** | [Reviewed canonical article](scientific-analytical-reasoning/deduction-induction-abduction.md) · Deductive entailment, inductive generalization, and abductive explanation | *draws on formal* → [Boolean and predicate logic](mathematics-logic/boolean-and-predicate-logic.md) |
 | **Causality and correlation** | [Reviewed canonical article](scientific-analytical-reasoning/causality-and-correlation.md) · Association, causal effects, interventions, and confounding | *uses* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
 | **Uncertainty and confidence** | [Reviewed canonical article](scientific-analytical-reasoning/uncertainty-and-confidence.md) · Known limits, estimates, epistemic uncertainty, and calibrated confidence | *partly quantified using* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
-| **Validation and falsification** | [Draft canonical article](scientific-analytical-reasoning/validation-and-falsification.md) · Empirical claim criticism, refutation, replication, and model revision | *distinct from engineering* → [Verification and validation](systems-engineering/README.md) |
+| **Validation and falsification** | [Reviewed canonical article](scientific-analytical-reasoning/validation-and-falsification.md) · Empirical claim criticism, refutation, replication, and model revision | *distinct from engineering* → [Verification and validation](systems-engineering/README.md) |
 
 ## 03. Models & Abstraction (10 headings)
 
@@ -52,10 +52,10 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Boundaries** | [Reviewed canonical article](models-abstraction/boundaries.md) · Inclusion, exclusion, separation, limitations, and interface distinctions | *used to delimit* → [Systems and subsystems](systems-engineering/systems-and-subsystems.md) |
 | **Abstraction** | [Reviewed canonical article](models-abstraction/abstraction.md) · Selection and suppression of detail to support models and multiple views | *specialized as* → [Hardware abstraction](digital-systems-hardware/README.md) |
 | **Classification** | [Reviewed canonical article](models-abstraction/classification.md) · Criteria for categories, classes, membership, and differentiation | *organized into* → [Ontologies and taxonomies](models-abstraction/ontologies-and-taxonomies.md) |
-| **Ontologies and taxonomies** | [Draft canonical article](models-abstraction/ontologies-and-taxonomies.md) · Conceptual categories, kinds, and typed semantic relations | *may be constrained by* → [Schemas](models-abstraction/schemas.md) |
-| **Schemas** | [Draft canonical article](models-abstraction/schemas.md) · Representation constraints, fields, structures, and admissible values | *applied in* → [Data structures and formats](information-data/README.md) |
+| **Ontologies and taxonomies** | [Reviewed canonical article](models-abstraction/ontologies-and-taxonomies.md) · Conceptual categories, kinds, and typed semantic relations | *may be constrained by* → [Schemas](models-abstraction/schemas.md) |
+| **Schemas** | [Reviewed canonical article](models-abstraction/schemas.md) · Representation constraints, fields, structures, and admissible values | *applied in* → [Data structures and formats](information-data/README.md) |
 | **State, events, and transitions** | [Reviewed canonical article](models-abstraction/state-events-and-transitions.md) · General state descriptions, events, and transitions between conditions | *specialized as system* → [State and behavior](systems-engineering/README.md) |
-| **Conceptual and formal models** | [Draft canonical article](models-abstraction/conceptual-and-formal-models.md) · Models, assumptions, formalization, abstraction fidelity, and interpretation | *evaluated through* → [Validation and falsification](scientific-analytical-reasoning/validation-and-falsification.md) |
+| **Conceptual and formal models** | [Reviewed canonical article](models-abstraction/conceptual-and-formal-models.md) · Models, assumptions, formalization, abstraction fidelity, and interpretation | *evaluated through* → [Validation and falsification](scientific-analytical-reasoning/validation-and-falsification.md) |
 
 ## 04. Physical & Electrical Principles (9 headings)
 
@@ -187,7 +187,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 ## Canonical article integration
 
-The original **109 subject headings and 12 area assignments** remain unchanged. There are **24 Reviewed (model-assisted)** articles: six original pilots and Wave A Batches 01–06 ([latest review](WAVE-A-TECHNICAL-REVIEW-06.md)). Five remaining Wave A references are substantive **Drafts**, pending Batch 07 scoped technical review. Direct navigation links do not claim independent human verification or create a formal graph schema.
+The original **109 subject headings and 12 area assignments** remain unchanged. There are **29 Reviewed (model-assisted)** articles: six original pilots and Wave A Batches 01–07 ([latest review](WAVE-A-TECHNICAL-REVIEW-07.md)). All 26 approved Wave A headings have internally Reviewed articles; independent human verification and publication acceptance are not claimed. Direct navigation links do not claim independent human verification or create a formal graph schema.
 
 ## Register integrity
 
