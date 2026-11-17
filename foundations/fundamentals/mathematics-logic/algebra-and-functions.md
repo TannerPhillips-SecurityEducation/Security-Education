@@ -62,7 +62,7 @@ An **inverse function** reverses a function's mapping when suitable conditions h
 
 For `f(x)=2x+3` on the real numbers, `f⁻¹(y)=(y-3)/2`. Substituting this expression recovers the original input.
 
-But `g(x)=x²` is not injective on `ℝ`: the distinct values `3` and `-3` both map to `9`. It therefore has no inverse **function over all real inputs and all of its attained outputs**. Restricting the domain to `[0,∞)` makes the inverse `√y` well-defined. The [OpenStax treatment of inverse functions](https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions) develops the distinction between one-to-one mappings and domain restriction.
+But `g(x)=x²` is not injective on `ℝ`: the distinct values `3` and `-3` both map to `9`. It therefore has no inverse **function over all real inputs and all of its attained outputs**. Restricting **both the domain and codomain to `[0,∞)`** yields a bijection `g: [0,∞) → [0,∞)`, whose inverse is `g⁻¹(y)=√y`. Simply restricting the domain while retaining codomain `ℝ` would not produce a bijection onto all reals. The [OpenStax treatment of inverse functions](https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions) develops the distinction between one-to-one mappings and domain restriction.
 
 This is a useful abstract model of information loss: a many-to-one transformation cannot always recover its original input from the output alone.
 
@@ -105,6 +105,6 @@ This is an **illustrative mathematical mapping**, not a real calibrated sensor s
 - [OpenStax: Inverse Functions](https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions).
 - [MIT OpenCourseWare: Mathematics for Computer Science](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/).
 
-**Editorial state:** Substantive domain-neutral draft. Its example calculations and function constraints will be checked in the scoped Wave A review before any promotion beyond Draft. G-01 mathematical breadth and G-02 numerical methods remain distinct coverage-review items.
+**Editorial review note:** The inverse-function codomain qualification was corrected, and the example values, composition order, and equation/inequality cases were independently recomputed. These are material-claim checks reported in the Wave A Batch 03 review ledger; they do not imply independently human-verified publication. G-01 and G-02 remain separate coverage questions.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
