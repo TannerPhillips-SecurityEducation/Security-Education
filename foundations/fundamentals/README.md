@@ -25,26 +25,34 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 
 **Status distinction:** The 12 areas and 109 headings are approved. The detailed ownership boundaries, relationship descriptions, and coverage-gap dispositions are **working proposals**, not automatically ratified conceptual definitions. The register links to existing area indexes until canonical articles are written and verified.
 
-## First Canonical Reference Drafts
+## Canonical Reference Development
 
-Six substantive pilot articles have been committed to calibrate the reference-writing standard. They are **drafts**, with source links listed and independent review still pending.
+The six pilot articles have passed a **model-assisted technical/editorial review** documented in the [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md). This is an internal reference-authoring baseline, **not independent human peer-review or final publication acceptance**.
 
-- [Sets and relations](mathematics-logic/sets-and-relations.md)
+**Reviewed pilot references:**
+
+- [Sets and Relations](mathematics-logic/sets-and-relations.md)
 - [Observation](scientific-analytical-reasoning/observation.md)
-- [Entities and attributes](models-abstraction/entities-and-attributes.md)
-- [Symbols and encoding](information-data/symbols-and-encoding.md)
-- [Systems and subsystems](systems-engineering/systems-and-subsystems.md)
-- [Digital logic](digital-systems-hardware/digital-logic.md)
+- [Entities and Attributes](models-abstraction/entities-and-attributes.md)
+- [Symbols and Encoding](information-data/symbols-and-encoding.md)
+- [Systems and Subsystems](systems-engineering/systems-and-subsystems.md)
+- [Digital Logic](digital-systems-hardware/digital-logic.md)
 
-[**109-Subject Development & Verification Register**](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks all approved headings separately from draft status, reference listing, technical verification, and final publication.
+**Wave A, newly drafted:**
 
-**Current authoring status:** 6 pilot drafts, 103 headings without canonical articles. No pilot is yet represented as independently reviewed or accepted as final.
+- [Boolean and Predicate Logic](mathematics-logic/boolean-and-predicate-logic.md)
+- [Evidence](scientific-analytical-reasoning/evidence.md)
+- [State, Events, and Transitions](models-abstraction/state-events-and-transitions.md)
+
+The three Wave A articles have source lists but have **not** passed the same scoped acceptance review. [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) distinguishes each article's status, reviewed claims, and the remaining headings.
+
+**Current state:** 6 internally reviewed pilots, 3 new drafts, 100 inventoried headings without canonical articles, and 0 externally approved final publications. The 12/109 approved architecture is unchanged.
 
 ## Pilot Technical Review
 
-The [Six-Pilot Technical and Editorial Review](PILOT-TECHNICAL-REVIEW.md) records corrected technical statements, checked primary references, programmatically evaluated examples, and outstanding review limits. All six pilots have **core claims source-checked** while remaining **Draft**, pending complete verification and final editorial acceptance.
+The [Six-Pilot Technical and Editorial Review](PILOT-TECHNICAL-REVIEW.md) records the second-pass corrections. The [50-Claim-Family Audit](PILOT-CLAIM-SOURCE-AUDIT.md) records the subsequent scoped model-assisted review and the six Reviewed statuses. Independent human peer review and final publication acceptance remain outstanding.
 
-[Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) reflects that intermediate state; the full reference corpus and seven completion gates remain outstanding.
+[Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks this distinction and the three new Wave A drafts. The full reference corpus and seven completion gates remain outstanding.
 
 ## Development Plan of Action
 
