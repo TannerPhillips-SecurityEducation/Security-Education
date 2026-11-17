@@ -90,7 +90,7 @@ These distinctions preserve canonical ownership: [Classification](README.md) and
 
 ## Mapping concrete states into abstract states
 
-A more formal abstraction may map a detailed **concrete** state space to a simpler **abstract** state space. Let `S_c` be a set of detailed modeled states and `S_a` a set of abstract states. A function
+A more formal abstraction may map a detailed **concrete** state space to a simpler **abstract** state space. Let `S_c` be a set of detailed modeled states and `S_a` a set of abstract states. One possible representation is a function
 
 ```text
 α : S_c → S_a
@@ -113,7 +113,7 @@ The boundaries `18` and `30` are **chosen thresholds**, not discovered universal
 
 ## Abstraction can lose constraints as well as details
 
-Suppressing distinctions can create a model that admits behaviors not possible for the underlying detailed system. For example, two concrete states may both map to the abstract state `READY`, although only one can begin an operation. A coarse abstract transition `READY → ACTIVE` does not guarantee that every concrete state represented by READY can execute it.
+Depending on how abstract transitions are defined, suppressing distinctions can create a model that admits behaviors not possible for the underlying detailed system. A many-to-one state mapping **alone** does not establish that the resulting transition model is a sound over-approximation. For example, two concrete states may both map to the abstract state `READY`, although only one can begin an operation. A coarse abstract transition `READY → ACTIVE` does not guarantee that every concrete state represented by READY can execute it.
 
 The reverse problem also exists: if a model fails to include a real possible transition, it can mistakenly exclude a behavior that the actual system can exhibit.
 
@@ -171,6 +171,6 @@ An abstraction is useful precisely because it simplifies, but its omissions must
 - [NASA Systems Engineering Handbook: Fundamentals of Systems Engineering](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/), system-level perspectives and functional/physical decomposition.
 - [MIT Mathematics for Computer Science, 2024](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/), discrete state modeling and invariants.
 
-**Editorial state:** Substantive authoring Draft. The temperature-category mapping and telemetry simplification are original illustrations, not a standard or security-specific product implementation. Full source/claim acceptance and discussion of broader formal abstraction methods remain future review work.
+**Editorial review note:** Checked model/target, abstraction/idealization, and the many-to-one mapping examples against SEP's science-model account and independently evaluated threshold cases. Added a qualification: a many-to-one abstraction is not automatically a sound over-approximation without a suitable transition relation. This is a model-assisted scoped review, not independent human publication acceptance.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
