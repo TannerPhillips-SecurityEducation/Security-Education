@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Models & Abstraction](README.md)  
 **Approved subject heading:** Boundaries  
-**Development status:** Draft  
-**Source review:** References listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted; human expert review and final release pending)  
+**Source review:** Core claims checked in [Wave A Batch 04 review](../WAVE-A-TECHNICAL-REVIEW-04.md); independent expert verification not claimed
 
 ## A boundary both separates and limits
 
