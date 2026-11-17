@@ -39,12 +39,12 @@ An **experimental unit** is the smallest unit to which a treatment is independen
 
 Imagine studying whether fan speed changes how quickly a container cools.
 
-- **Experimental unit:** A distinct cooling run or container-run combination to which a fan setting is assigned.
+- **Experimental unit:** A cooling run or container-run combination to which a fan setting is independently assigned **under a design that treats runs as units and controls carryover**. Repeating runs on the same physical apparatus may introduce dependence that the design must address.
 - **Factor:** Fan speed, with levels `low` and `high`.
 - **Response:** Time needed for a specified, consistently defined temperature drop.
 - **Potential nuisance factors:** Starting temperature, room temperature, container material, airflow geometry, sensor behavior.
 
-The choice of unit determines the independence assumptions. Several measurements from **one cooling run** are repeated observations of that run, not automatically several independent experimental units. Mistaking repeated measurements for independent replication is a common source of overconfident estimates.
+The choice of unit determines the independence assumptions. Several measurements from **one cooling run** are repeated observations of that run, not automatically several independent experimental units. Random assignment alone does not make repeated runs statistically independent if unmodeled carryover, shared drift, or time effects remain. Mistaking repeated measurements for independent replication is a common source of overconfident estimates.
 
 ## Randomization, replication, and blocking
 
@@ -58,7 +58,7 @@ Experimental designs use several techniques to prevent systematic factors from m
 
 **Controls** provide useful baselines or comparison conditions. A comparison need not be a universally fixed treatment called “control”; what matters is that the design supports the intended contrast.
 
-The [Penn State STAT 503 introduction](https://online.stat.psu.edu/stat503/Lesson01) explains randomization, replication, blocking and multifactor designs. Its [blocking chapter](https://online.stat.psu.edu/stat503/Lesson04) shows why treatment assignment and nuisance variation should be designed together.
+The [NIST/SEMATECH completely randomized design guidance](https://www.itl.nist.gov/div898/handbook/pri/section3/pri331.htm) explains treatment-level assignment and replication, and its [randomized block design guidance](https://www.itl.nist.gov/div898/handbook/pri/section3/pri332.htm) explains how nuisance factors can be handled through blocking. Both approaches require well-defined experimental units and analysis assumptions.
 
 ## Confounding and causal claims
 
@@ -117,12 +117,12 @@ This is a possible research process, not a mandatory reading order or assessment
 
 ## Sources and current editorial state
 
-- [Penn State STAT 503: Introduction to Design of Experiments](https://online.stat.psu.edu/stat503/Lesson01).
-- [Penn State STAT 503: Blocking](https://online.stat.psu.edu/stat503/Lesson04).
+- [NIST/SEMATECH: Completely randomized designs](https://www.itl.nist.gov/div898/handbook/pri/section3/pri331.htm).
+- [NIST/SEMATECH: Randomized block designs](https://www.itl.nist.gov/div898/handbook/pri/section3/pri332.htm).
 - [NIST/SEMATECH Engineering Statistics Handbook: Choosing an Experimental Design](https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm).
 - [NIST: Selecting an Experimental Design](https://www.itl.nist.gov/div898/handbook/pri/section3/pri33.htm).
 - [Stanford Encyclopedia of Philosophy: Theory and Observation in Science](https://plato.stanford.edu/entries/science-theory-observation/).
 
-**Editorial state:** This domain-agnostic article is a substantive Draft. Its fan-cooling data are explicitly invented to illustrate design logic, not presented as real empirical evidence. Statistical generalization and causal conclusions are deliberately limited. A scoped claim-to-source review is pending.
+**Editorial review note:** Experimental-unit independence and carryover assumptions were tightened; the fan-speed sample means and differences were independently recalculated. The data remain explicitly hypothetical and do not establish a causal effect or confidence interval. A scoped Wave A Batch 03 source audit records the internal technical review, not external human sign-off.
 
 [Scientific & Analytical Reasoning](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
