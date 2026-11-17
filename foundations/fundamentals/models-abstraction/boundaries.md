@@ -14,7 +14,7 @@ A **boundary** is a delimitation that distinguishes one modeled region, whole, e
 
 These functions often coincide, but not every boundary is a physical barrier. A system's boundary may be specified by an observer to make an analysis coherent; a mathematical domain constraint may limit where a function is defined; an organizational boundary may delimit responsibility; and a physical enclosure may separate environments while permitting exchanges through designed interfaces.
 
-The [SEBoK definition of system boundary](https://sebokwiki.org/wiki/System_Boundary_%28glossary%29) emphasizes a distinction made by an observer between the system and environment. Its [System Fundamentals discussion](https://sebokwiki.org/wiki/Introduction_to_System_Fundamentals) explains why understanding a system of interest requires viewing both elements within a boundary and relevant external influences.
+The [SEBoK definition of system boundary](https://sebokwiki.org/wiki/System_Boundary_%28glossary%29) describes a distinction made by an observer between system and environment. Its [Introduction to Systems Engineering Fundamentals](https://sebokwiki.org/wiki/Introduction_to_System_Fundamentals) explains why analyzing a system of interest requires considering both its elements and their interaction with the environment.
 
 This article develops **domain-agnostic delimitation**, not network segmentation, access control, or any other security-specific implementation.
 
@@ -32,7 +32,7 @@ The chosen boundary thus changes which elements are **internal** or **external**
 
 ## Boundary and interface are different
 
-An **interface** is a defined surface, relationship, or contract through which parts of a system or a system and its environment interact. A boundary can contain one interface, multiple interfaces, or no explicitly modeled interface.
+An **interface** is a defined surface, relationship, or contract through which parts of a system, or a system and its environment, interact. A system may have one, several, or no **explicitly modeled interfaces across its chosen boundary**. The boundary distinguishes a scope; the interface describes an interaction within or across a scope.
 
 Consider a container with an inlet and an outlet. Its physical wall separates the interior from its surroundings. The inlet and outlet are designed interfaces across that boundary. The wall and openings help define where material can pass, but the existence of an interface does not erase the distinction between interior and exterior.
 
@@ -58,11 +58,11 @@ These are **illustrative boundary perspectives**, not seven new approved navigat
 
 For example, a physically shared machine can host several computational execution contexts with distinct logical boundaries. Conversely, one logical service can span multiple physical machines.
 
-## Hard, soft, and conditional boundaries
+## Sharp, graded, and context-dependent boundaries
 
 A boundary may be modeled as **sharp** when membership is defined unambiguously under the model. For example, an integer `x` either belongs to the mathematical set `{1,2,3}` or it does not.
 
-In other cases, a boundary may be **uncertain, graded, or context-dependent**. The physical edge of a fog bank, the effective range of a sensor, or an organization's informal influence may not admit one precise cutoff without an additional convention.
+In other cases, membership may be **graded** under a chosen fuzzy or threshold-based model, or the *location of a sharp boundary* may be **uncertain** because observations are incomplete. These are different conditions: uncertainty about a boundary is not the same as deliberately assigning graded membership. The physical edge of a fog bank, the effective range of a sensor, or an organization's informal influence may not admit one precise cutoff without an additional convention.
 
 A **threshold** can define a sharp classification boundary over a continuous measured variable, such as:
 
@@ -152,6 +152,6 @@ This article mentions spatial and temporal boundary perspectives but **does not 
 - [SEBoK: Engineered System Context](https://sebokwiki.org/wiki/Engineered_System_Context).
 - [NASA Systems Engineering Handbook: Fundamentals of Systems Engineering](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/).
 
-**Editorial state:** Domain-agnostic technical-reference draft. The distinction between separation and limitation is a governing conceptual framing; the physical, logical, and temporal examples are explanatory, not a universal boundary ontology. Independent source/claim acceptance remains pending.
+**Review note:** System boundary, system of interest, and engineered context were checked against SEBoK's glossary and contextual references. Separation and limitation remain the approved governing conceptual framing. Sharp-versus-graded membership is now explicitly distinguished from uncertainty about a boundary. These are editorial distinctions and examples, not a ratified ontology; the Batch 04 audit records a scoped model-assisted review, not independent human acceptance.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
