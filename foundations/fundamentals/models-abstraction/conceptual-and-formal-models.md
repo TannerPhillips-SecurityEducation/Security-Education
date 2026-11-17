@@ -30,7 +30,7 @@ Consider a simple transition system `M=(S,I,→,L)`, where:
 - `→={(OFF,ON),(ON,OFF)}` is the transition relation.
 - `L` supplies propositions true at each state (for example, `powered` is true in `ON`).
 
-This system allows alternation between OFF and ON. It does not specify how long transitions take, whether failures can occur, or what physical mechanisms drive the change. Those omissions are **model assumptions and limits**, not proof that the world behaves so simply.
+This system allows alternation between OFF and ON on executions that follow the stated transitions. Because each state has one outgoing transition, this example admits infinite alternating executions. It does not specify how long transitions take, whether failures can occur, or what physical mechanisms drive the change. Those omissions are **model assumptions and limits**, not proof that the world behaves so simply.
 
 We might add `(ON,ON)` to allow remaining ON for another step. The behavior set changes. Formal precision makes the change explicit, but empirical or design justification is still separate.
 
