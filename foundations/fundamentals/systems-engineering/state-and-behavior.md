@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Systems & Engineering](README.md)  
 **Approved subject heading:** State and behavior  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 03 audit](../WAVE-B-TECHNICAL-REVIEW-03.md); no independent human peer review
 
 ## A system's condition and its evolution are distinct
 
@@ -113,6 +113,6 @@ This article adopts no required state-machine language, real-time scheduling reg
 - [SEBoK: Logical Architecture](https://sebokwiki.org/wiki/Logical_Architecture).
 - [NASA: Fundamentals of Systems Engineering](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/).
 
-**Editorial status:** Substantive draft. The hysteresis trace, invariant and behavioral claims require a separately documented model-assisted technical review before acceptance.
+**Editorial status:** Reviewed (model-assisted) following the [Wave B Batch 03 scoped 24-family technical review](../WAVE-B-TECHNICAL-REVIEW-03.md). Complete source verification, independent human expert peer review and final publication approval remain separate outstanding gates.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
