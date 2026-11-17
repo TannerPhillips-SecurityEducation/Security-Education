@@ -30,7 +30,7 @@ s[k+1] = F(s[k], u[k])
 y[k]   = G(s[k], u[k])
 ```
 
-Here `k` indexes modeled steps, `s` denotes modeled state, `u` an input, and `y` an output. The functions need not be linear; probabilistic or nondeterministic models can also be used. This notation does **not** claim that all systems are discrete, deterministic or fully observable.
+Here `k` indexes modeled steps, `s` denotes modeled state, `u` an input, and `y` an output. The functions need not be linear. **As written, these functions specify deterministic next-state and output values for each admitted state/input pair**. Probabilistic models instead require probabilities or transition kernels, while nondeterministic models can use relations or sets of possible successors. This illustrative notation does **not** assert that every real system is discrete, deterministic or fully observable.
 
 The general mathematical use of functions belongs in [Algebra and Functions](../mathematics-logic/algebra-and-functions.md), and models and their interpretation in [Conceptual and Formal Models](../models-abstraction/conceptual-and-formal-models.md).
 
