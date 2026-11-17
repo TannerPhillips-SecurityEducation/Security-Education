@@ -27,33 +27,34 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 
 ## Canonical Reference Development
 
-**Twelve reviewed (model-assisted)** references have undergone scoped technical and editorial review in three committed audits: [Pilot (50 claim families)](PILOT-CLAIM-SOURCE-AUDIT.md), [Wave A Batch 01 (21 families)](WAVE-A-TECHNICAL-REVIEW-01.md), and [Wave A Batch 02 (27 families)](WAVE-A-TECHNICAL-REVIEW-02.md). None is represented as independently human peer-reviewed or finally accepted for publication.
+**15 Reviewed (model-assisted)** references have passed the recorded scoped technical/editorial reviews; this status does **not** imply independent human peer review or final release acceptance.
 
-| Knowledge area | Reviewed canonical references |
+| Area | Reviewed canonical references |
 | --- | --- |
-| Mathematics & Logic | [Numbers and Numerical Systems](mathematics-logic/numbers-and-numerical-systems.md), [Sets and Relations](mathematics-logic/sets-and-relations.md), [Boolean and Predicate Logic](mathematics-logic/boolean-and-predicate-logic.md) |
-| Scientific & Analytical Reasoning | [Observation](scientific-analytical-reasoning/observation.md), [Measurement](scientific-analytical-reasoning/measurement.md), [Evidence](scientific-analytical-reasoning/evidence.md) |
-| Models & Abstraction | [Entities and Attributes](models-abstraction/entities-and-attributes.md), [Relationships](models-abstraction/relationships.md), [State, Events, and Transitions](models-abstraction/state-events-and-transitions.md) |
+| Mathematics & Logic | [Numbers and Numerical Systems](mathematics-logic/numbers-and-numerical-systems.md), [Sets and Relations](mathematics-logic/sets-and-relations.md), [Boolean and Predicate Logic](mathematics-logic/boolean-and-predicate-logic.md), [Algebra and Functions](mathematics-logic/algebra-and-functions.md) |
+| Scientific & Analytical Reasoning | [Observation](scientific-analytical-reasoning/observation.md), [Measurement](scientific-analytical-reasoning/measurement.md), [Evidence](scientific-analytical-reasoning/evidence.md), [Hypotheses and Experiments](scientific-analytical-reasoning/hypotheses-and-experiments.md) |
+| Models & Abstraction | [Entities and Attributes](models-abstraction/entities-and-attributes.md), [Identity and Distinction](models-abstraction/identity-and-distinction.md), [Relationships](models-abstraction/relationships.md), [State, Events, and Transitions](models-abstraction/state-events-and-transitions.md) |
 | Information & Data | [Symbols and Encoding](information-data/symbols-and-encoding.md) |
 | Digital Systems & Hardware | [Digital Logic](digital-systems-hardware/digital-logic.md) |
 | Systems & Engineering | [Systems and Subsystems](systems-engineering/systems-and-subsystems.md) |
 
-**Three new Wave A Drafts**, with substantive technical explanations and source references, have not yet received a scoped acceptance audit:
+**New Wave A Drafts** contain substantive explanation and source references, but have not yet passed an article-level audit:
 
-- [Algebra and Functions](mathematics-logic/algebra-and-functions.md)
-- [Hypotheses and Experiments](scientific-analytical-reasoning/hypotheses-and-experiments.md)
-- [Identity and Distinction](models-abstraction/identity-and-distinction.md)
+- [Discrete Mathematics](mathematics-logic/discrete-mathematics.md)
+- [Deduction, Induction, and Abduction](scientific-analytical-reasoning/deduction-induction-abduction.md)
+- [Boundaries](models-abstraction/boundaries.md)
 
-The [Development & Verification Register v0.6](DEVELOPMENT-VERIFICATION-REGISTER.md) maps all 109 approved headings and distinguishes **12 Reviewed (model-assisted), 3 Draft, and 94 Inventoried without articles**. Final independent source validation and the seven Fundamentals completion gates remain outstanding.
+The [Development & Verification Register v0.7](DEVELOPMENT-VERIFICATION-REGISTER.md) accounts for all **109 approved headings**: **15 Reviewed**, **3 Draft**, **91 Inventoried**. Of 26 Wave A headings, **15** now have authored references. Independently human-verified, finally accepted publications: **0**.
 
-## Review Evidence and Publication Boundaries
+## Technical Audit Evidence
 
-- [Pilot Technical Review](PILOT-TECHNICAL-REVIEW.md): first six-article correction pass.
-- [Pilot Claim-to-Source Audit](PILOT-CLAIM-SOURCE-AUDIT.md): 50 material claim families.
-- [Wave A Batch 01 Technical Review](WAVE-A-TECHNICAL-REVIEW-01.md): 21 material claim families.
-- [Wave A Batch 02 Technical Review](WAVE-A-TECHNICAL-REVIEW-02.md): 27 material claim families.
+- [Six-Pilot Technical Review](PILOT-TECHNICAL-REVIEW.md): original correction pass.
+- [Six-Pilot Claim-to-Source Audit](PILOT-CLAIM-SOURCE-AUDIT.md): 50 material claim families.
+- [Wave A Batch 01 Review](WAVE-A-TECHNICAL-REVIEW-01.md): 21 material claim families.
+- [Wave A Batch 02 Review](WAVE-A-TECHNICAL-REVIEW-02.md): 27 material claim families.
+- [Wave A Batch 03 Review](WAVE-A-TECHNICAL-REVIEW-03.md): 24 material claim families.
 
-**Reviewed** indicates a scoped, model-assisted technical/editorial audit and does **not** establish independent human expert approval or final publication status. G-01 mathematics breadth, G-04 general temporality and G-06 AI/ML remain separate architectural scope decisions.
+**Reviewed** denotes documented model-assisted technical/editorial scope checks, **not** an independent external expert sign-off, a fully ratified graph schema, or completion of the seven overall Fundamentals gates. Three architectural scope decisions (G-01 mathematical breadth; G-04 general temporality; G-06 AI/ML) remain open.
 
 ## Development Plan of Action
 
@@ -116,7 +117,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** The twelve knowledge areas and 109 headings are preserved. Fifteen substantive references are now linked (12 internally Reviewed and 3 Draft). Comprehensive corpus coverage, external technical verification, and the seven completion gates remain open.
+**Current milestone:** Twelve approved areas and 109 headings preserved, with 18 substantive articles at two stages (15 internally Reviewed; 3 Draft). Full reference coverage, independent technical verification, and the seven completion gates remain open.
 
 ## Coverage Across Specialized Domains
 
