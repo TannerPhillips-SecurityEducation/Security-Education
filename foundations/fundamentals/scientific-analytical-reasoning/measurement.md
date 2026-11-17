@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Scientific & Analytical Reasoning](README.md)  
 **Approved subject heading:** Measurement  
-**Development status:** Draft  
-**Source review:** References listed; scoped technical acceptance pending
+**Development status:** Reviewed (model-assisted; not independently human-accepted)  
+**Source review:** Core claims checked in [Wave A Technical Review, Batch 02](../WAVE-A-TECHNICAL-REVIEW-02.md); full independent validation not claimed
 
 ## Measurement connects quantities to defensible values
 
