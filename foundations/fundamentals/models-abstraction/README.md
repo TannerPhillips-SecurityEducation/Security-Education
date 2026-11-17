@@ -32,8 +32,9 @@ The content belongs in Fundamentals only insofar as it is domain-agnostic. Secur
 
 ## Canonical reference articles
 
+- [Relationships](relationships.md) — Draft; initial technical source and examples recorded, scoped acceptance pending.
 - [Entities and attributes](entities-and-attributes.md) — Reviewed (model-assisted); final external acceptance pending.
-- [State, events, and transitions](state-events-and-transitions.md) — Draft; general temporality remains an open scope decision.
+- [State, events, and transitions](state-events-and-transitions.md) — Reviewed (model-assisted); general temporality remains an open scope decision.
 
 Articles do not change the wording or ownership of the approved subject inventory. Refer to the [pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) for reviewed-pilot evidence.
 
