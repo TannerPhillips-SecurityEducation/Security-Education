@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v0.4; canonical ownership crosswalk and 20 boundary decisions documented for review; development workflow still working  
+**Document status:** Working plan v0.5; boundary decisions and ten gap dispositions documented, with three scope decisions still open
 **Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -36,7 +36,11 @@ Here, *curriculum* means an organized body of reference knowledge with deliberat
 
 The 109 headings are the **initial coverage baseline**, not proof that no additional foundational concepts will be needed.
 
-## Boundary-Resolution Milestone
+## Boundary and Gap-Resolution Milestones
+
+The [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) gives all ten candidate gaps working dispositions: seven assigned to existing approved headings **pending actual authoring**, with three architectural scope decisions unresolved. This is not a claim of complete coverage. Existing ownership boundary decisions remain working guidance.
+
+
 
 The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record working distinctions for all 20 overlapping concept groups. **This does not close the 10 candidate coverage gaps**, and the general notion of temporality is explicitly open. Use these boundaries during concept authoring while treating the detailed ownership statements as revisable until validated.
 
@@ -182,7 +186,7 @@ No graph database or universal front-matter schema is required at this stage. Pr
 
 1. **Ratify the plan's process** as a working method without altering the already-approved 12-area taxonomy.
 2. **Review the 109-heading ownership register** against existing area READMEs, preserve the wording and taxonomy, and prepare a distinct progress register.
-3. **Review the 20 working concept-boundary decisions**, with special attention to B-11 (general temporality), then separately disposition the 10 candidate coverage questions without changing the approved taxonomy by assumption.
+3. **Apply the 20 working concept boundaries and ten-gap disposition register** during article scoping. Decide G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML separately before altering coverage or navigation.
 4. **Pilot six representative references**: *Sets and relations*, *Observation*, *Entities and attributes*, *Symbols and encoding*, *Systems and subsystems*, and *Digital logic*. Use this pilot to calibrate narrative depth, source rigor, and cross-links.
 5. **Review the pilot**, resolve editorial and architectural problems, and then develop Wave A through Wave E.
 6. **Audit each wave** for source accuracy, concept relationships, navigation, and relevance to all seven domains.
@@ -196,6 +200,7 @@ The six pilot topics are **proposed production choices**, not new categories or 
 - [Canonical Ownership & Relationship Register](CANONICAL-OWNERSHIP-REGISTER.md)
 - [Concept Overlap & Coverage Review](CONCEPT-OVERLAP-REVIEW.md)
 - [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md)
+- [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
 - [Knowledge relationship conventions](../../RELATIONSHIPS.md)
