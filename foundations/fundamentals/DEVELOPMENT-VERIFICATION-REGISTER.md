@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.6  
+**Working edition:** v1.7  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -30,14 +30,14 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
-## Current progress: Wave B Batch 03 reviewed; Batch 04 Systems & Engineering authored
+## Current progress: Wave B Batch 04 reviewed; Human & Sociotechnical Systems authored
 
 | Development state | Approved heading count | Evidence |
 | --- | ---: | --- |
-| **Reviewed (model-assisted)** | **41** | Original pilots, Wave A Batch 01–07 and Wave B Batch 01–03 audits, including [Batch 03](WAVE-B-TECHNICAL-REVIEW-03.md) |
-| **Draft** | **6** | Six newly authored Wave B Batch 04 Systems & Engineering references awaiting technical audit |
-| **Inventoried without article** | **62** | Approved 109-heading baseline retained |
-| **Core claims checked** | **41** | Internal model-assisted source checking, not independent expert attestation |
+| **Reviewed (model-assisted)** | **47** | Original pilots, Wave A Batch 01–07, Wave B Batches 01–04 including the [Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md) |
+| **Draft** | **8** | Eight substantive Human & Sociotechnical Systems articles awaiting scoped technical audit |
+| **Inventoried without article** | **54** | Approved 109-heading baseline retained |
+| **Core claims checked** | **47** | Internal model-assisted source checking, not independent expert attestation |
 | **Finally accepted / human peer-reviewed** | **0** | No final independent expert acceptance recorded |
 
 **Wave A authoring coverage:** All 26 of 26 approved Wave A headings have substantive, internally Reviewed articles (26/26). Three additional Reviewed references are original pilot subjects belonging to later waves.
@@ -46,11 +46,11 @@
 
 ## Next acceptance gate
 
-1. **Completed:** All nine Information & Data subject articles remain internally Reviewed, following the [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md).
-2. **Completed:** Four Wave B Batch 03 Systems & Engineering references passed a [24-family technical review](WAVE-B-TECHNICAL-REVIEW-03.md), including a correction to deterministic state-transition notation.
-3. **Completed authoring:** The six remaining Systems & Engineering subjects now have substantive Wave B Batch 04 Drafts. All **11/11** headings in that area have articles: five internally Reviewed and six Draft.
-4. **Current:** Conduct a separate scoped claim-to-source and example audit of the six Batch 04 Drafts before any promotion. Then continue the remaining Wave B Human & Sociotechnical Systems subjects.
-5. **Ongoing:** Maintain distinct corpus-wide link checks, source verification, human peer-review and seven publication gates. Architectural scope decisions G-01, G-04 and G-06 remain open.
+1. **Completed:** All nine Information & Data articles are internally Reviewed following [Wave B Batch 02](WAVE-B-TECHNICAL-REVIEW-02.md).
+2. **Completed:** All eleven Systems & Engineering articles are internally Reviewed following the [36-family Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md) of its final six references. The feedback-control recurrence was clarified before acceptance.
+3. **Completed authoring:** All eight approved Human & Sociotechnical Systems subjects have substantial draft articles. All **28 Wave B headings** across the three approved areas now have articles: 20 internally Reviewed and eight Draft.
+4. **Current:** Audit eight Human & Sociotechnical Systems article drafts under a separate scoped claim-to-source review before any promotion, then proceed to the next planned authoring wave.
+5. **Ongoing:** Preserve the distinctions between authoring, model-assisted source checks, external human review, complete source verification, corpus-wide link integrity and final publication. G-01, G-04 and G-06 remain unresolved.
 
 ## Detailed coverage by approved knowledge area
 
@@ -225,12 +225,12 @@
 | F-11-03 | Architecture and composition | [Reviewed article](systems-engineering/architecture-and-composition.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review |
 | F-11-04 | Dependencies | [Reviewed article](systems-engineering/dependencies.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review |
 | F-11-05 | State and behavior | [Reviewed article](systems-engineering/state-and-behavior.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review |
-| F-11-06 | Feedback and control | [Draft article](systems-engineering/feedback-and-control.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
-| F-11-07 | Emergence and complexity | [Draft article](systems-engineering/emergence-and-complexity.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
-| F-11-08 | Reliability and failure | [Draft article](systems-engineering/reliability-and-failure.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
-| F-11-09 | Requirements | [Draft article](systems-engineering/requirements.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
-| F-11-10 | Verification and validation | [Draft article](systems-engineering/verification-and-validation.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
-| F-11-11 | System lifecycle | [Draft article](systems-engineering/system-lifecycle.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
+| F-11-06 | Feedback and control | [Reviewed article](systems-engineering/feedback-and-control.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
+| F-11-07 | Emergence and complexity | [Reviewed article](systems-engineering/emergence-and-complexity.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
+| F-11-08 | Reliability and failure | [Reviewed article](systems-engineering/reliability-and-failure.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
+| F-11-09 | Requirements | [Reviewed article](systems-engineering/requirements.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
+| F-11-10 | Verification and validation | [Reviewed article](systems-engineering/verification-and-validation.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
+| F-11-11 | System lifecycle | [Reviewed article](systems-engineering/system-lifecycle.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
 
 ### 12. Human & Sociotechnical Systems (Wave B; 8 headings)
 
@@ -238,14 +238,14 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-12-01 | Human cognition and perception | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-12-02 | Decision-making | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-12-03 | Human-computer interaction | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-12-04 | Usability and accessibility | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-12-05 | Human error | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-12-06 | Collaboration and communication | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-12-07 | Organizational structures | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-12-08 | Ethics and professional responsibilities | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-12-01 | Human cognition and perception | [Draft article](human-sociotechnical-systems/human-cognition-and-perception.md) | Draft | References listed | Wave B Human & Sociotechnical Systems substantive draft; technical review pending |
+| F-12-02 | Decision-making | [Draft article](human-sociotechnical-systems/decision-making.md) | Draft | References listed | Wave B Human & Sociotechnical Systems substantive draft; technical review pending |
+| F-12-03 | Human-computer interaction | [Draft article](human-sociotechnical-systems/human-computer-interaction.md) | Draft | References listed | Wave B Human & Sociotechnical Systems substantive draft; technical review pending |
+| F-12-04 | Usability and accessibility | [Draft article](human-sociotechnical-systems/usability-and-accessibility.md) | Draft | References listed | Wave B Human & Sociotechnical Systems substantive draft; technical review pending |
+| F-12-05 | Human error | [Draft article](human-sociotechnical-systems/human-error.md) | Draft | References listed | Wave B Human & Sociotechnical Systems substantive draft; technical review pending |
+| F-12-06 | Collaboration and communication | [Draft article](human-sociotechnical-systems/collaboration-and-communication.md) | Draft | References listed | Wave B Human & Sociotechnical Systems substantive draft; technical review pending |
+| F-12-07 | Organizational structures | [Draft article](human-sociotechnical-systems/organizational-structures.md) | Draft | References listed | Wave B Human & Sociotechnical Systems substantive draft; technical review pending |
+| F-12-08 | Ethics and professional responsibilities | [Draft article](human-sociotechnical-systems/ethics-and-professional-responsibilities.md) | Draft | References listed | Wave B Human & Sociotechnical Systems substantive draft; technical review pending |
 
 ## Required update procedure
 
