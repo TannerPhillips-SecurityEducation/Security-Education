@@ -1,9 +1,22 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v0.1, proposed for review  
+**Document status:** Working plan v0.2; governing Fundamentals architecture ratified, production workflow still working  
 **Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
-**Source of authority:** [Fundamentals index](README.md) and the [repository's publication scope](../../README.md)
+**Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
+
+## Governing Definition and Classification
+
+> Fundamentals establishes domain-agnostic concepts, structures, principles, and mechanisms needed to understand technical systems and their behavior. It supports the seven specialized knowledge domains without making any one technology, vendor, or security practice the organizing principle.
+
+Follow the [approved Fundamentals governing architecture](ARCHITECTURE.md) throughout the program:
+
+- **Domain independence:** Begin with general concepts, not vendor or implementation descriptions.
+- **Conceptual and mechanical depth:** Explain concepts, structures, principles, mechanisms, and relationships rather than assembling only definitions.
+- **Canonical ownership:** A concept has one general canonical home; specialized areas link to it and develop distinct contextual mechanisms.
+- **Specialized extension:** Domain applications build on Fundamentals, without turning Fundamentals into a technology-specific taxonomy.
+
+The **12 knowledge areas are navigational disciplines**, and the **109 headings are a coverage inventory**, not 109 presumed one-to-one concepts. The knowledge graph captures conceptual relationships across disciplinary boundaries. Illustrative primitives are not a separately approved taxonomy.
 
 ## 1. Mission
 
@@ -18,7 +31,7 @@ Here, *curriculum* means an organized body of reference knowledge with deliberat
 - **Approved structure:** 12 knowledge areas containing 109 subject headings.
 - **Implemented today:** 12 area READMEs and a Fundamentals index listing their inventories.
 - **Not yet demonstrated:** 109 fully developed canonical references, a verified dependency/relationship map, complete seven-domain coverage, or satisfaction of all seven completion gates.
-- **Unit of work:** A canonical *concept or tightly coherent subject*, not necessarily one file for each inventory heading. Some headings may need several canonical entries; others may be adequately covered together. Changes to scope and the canonical map should be recorded before drafting to avoid duplication.
+- **Unit of work:** A canonical *concept or tightly coherent subject*, not necessarily one file for each inventory heading. Identify the general definition's owner before adding implementations. Some headings may need several canonical entries; others may be adequately covered together. Changes to scope and the canonical map should be recorded before drafting to avoid duplication.
 
 The 109 headings are the **initial coverage baseline**, not proof that no additional foundational concepts will be needed.
 
@@ -66,9 +79,9 @@ The following waves organize **authoring dependencies**, not a mandatory order i
 
 Use the same process for each canonical subject:
 
-1. **Locate:** Decide its canonical home and identify which inventory headings it satisfies.
+1. **Locate:** Decide its canonical home, distinguish general concepts from domain-specific realizations, and identify which inventory headings it satisfies.
 2. **Bound:** Record its scope, adjacent concepts, exclusions, and dependency assumptions.
-3. **Research:** Gather authoritative references and compare relevant definitions; note material uncertainty or disagreement.
+3. **Research:** Gather authoritative references and compare relevant definitions; note material uncertainty, scope differences, and disagreement.
 4. **Draft:** Write connected technical prose that satisfies the six-part editorial contract.
 5. **Relate:** Add explicit, human-readable links to foundational and specialized knowledge without inventing a mandatory graph schema.
 6. **Inspect:** Review conceptual accuracy, internal consistency, technical terminology, examples, clarity, and citations.
@@ -115,7 +128,7 @@ Maintain a lightweight **coverage register** (future deliverable; not yet create
 | Field | Purpose |
 | --- | --- |
 | Approved area and inventory heading | Preserves traceability to the 109-heading baseline |
-| Canonical document link | Identifies where the subject is authoritatively explained |
+| Canonical document link | Identifies where its general concept is authoritatively explained and distinguishes contextual implementations |
 | Scope / dependencies | Makes boundaries and prerequisite concepts explicit |
 | Development state | Inventoried → Scoped → Researched → Drafted → Reviewed → Published |
 | Source verification | Records whether substantive technical claims have been checked |
@@ -174,6 +187,7 @@ The six pilot topics are **proposed production choices**, not new categories or 
 
 ## 13. Reference and Governance Links
 
+- [Fundamentals governing architecture](ARCHITECTURE.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
 - [Knowledge relationship conventions](../../RELATIONSHIPS.md)
