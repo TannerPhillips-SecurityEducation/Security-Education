@@ -1,9 +1,13 @@
 # Fundamentals
 
 **Division:** [Foundations](../README.md)  
-**Status:** Approved subject architecture; instructional content in development
+**Status:** Approved subject architecture; reference content in development
 
 Fundamentals establishes domain-agnostic concepts, structures, principles, and mechanisms needed to understand technical systems and their behavior. It supports the seven specialized knowledge domains without making any one technology, vendor, or security practice the organizing principle.
+
+## Development Plan of Action
+
+The [Curriculum Development Plan of Action](CURRICULUM-DEVELOPMENT-PLAN.md) is a working production roadmap for expanding the 109 inventoried subjects into an accurate, connected technical knowledge reference. It defines authoring waves, source requirements, editorial workflow, progress tracking, cross-domain integration, and completion gates. It excludes Knowledge Checks and Practical Assessments.
 
 ## Approved Knowledge Areas
 
