@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Models & Abstraction](README.md)  
 **Approved subject heading:** Conceptual and formal models  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md); no independent human peer review
 
 ## Models represent selected aspects of a target
 
@@ -87,6 +87,6 @@ This article does not resolve general temporality [G-04](../COVERAGE-GAP-DECISIO
 - [Stanford Encyclopedia of Philosophy: Philosophy of Computer Science](https://plato.stanford.edu/entries/computer-science/).
 - [TLA+ Home and Resources](https://lamport.azurewebsites.net/tla/tla.html).
 
-**Editorial status:** Substantive draft. Logical examples and formal-model claims require an independent scoped technical acceptance pass; no human peer review or publication acceptance is claimed.
+**Editorial status:** Reviewed (model-assisted) following the [Batch 07 scoped 30-family technical review](../WAVE-A-TECHNICAL-REVIEW-07.md). Complete source verification, independent human peer review and final publication approval remain open.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
