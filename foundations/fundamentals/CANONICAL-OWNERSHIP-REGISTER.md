@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v1.4. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
+**Status:** Working architectural register v1.5. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
 
 This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
 
@@ -9,7 +9,7 @@ This register connects the existing subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** Live direct links now point to **forty-one Reviewed (model-assisted) articles** and **six Wave B Batch 04 Systems & Engineering Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
+- **Links:** Live direct links now point to **forty-seven Reviewed (model-assisted) articles** and **eight Human & Sociotechnical Systems Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
 - **Granularity:** One heading may require multiple articles, and a single well-scoped explanation can serve more than one heading. Do not assume 109 headings equal 109 indivisible concepts.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -165,29 +165,29 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Architecture and composition** | [Reviewed canonical article](systems-engineering/architecture-and-composition.md) · Composition, decomposition, architectural views, patterns, and tradeoffs | *represented through* → [Conceptual and formal models](models-abstraction/conceptual-and-formal-models.md) |
 | **Dependencies** | [Reviewed canonical article](systems-engineering/dependencies.md) · Necessary relationships, constraints, propagation, and critical paths | *represented with* → [Graph theory](mathematics-logic/graph-theory.md) |
 | **State and behavior** | [Reviewed canonical article](systems-engineering/state-and-behavior.md) · Whole-system states, outputs, changes, invariants, and dynamic behavior | *applies* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
-| **Feedback and control** | [Draft canonical article](systems-engineering/feedback-and-control.md) · Feedback loops, sensors, controllers, stability, and control objectives | *applies physical* → [Physical control mechanisms](physical-electrical-principles/README.md) |
-| **Emergence and complexity** | [Draft canonical article](systems-engineering/emergence-and-complexity.md) · Whole-system emergent behavior and nonlinearity | *distinct from algorithmic* → [Complexity](computation-algorithms/README.md) |
-| **Reliability and failure** | [Draft canonical article](systems-engineering/reliability-and-failure.md) · Faults, failures, availability, redundancy, maintainability, and recovery | *quantifiable using* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
-| **Requirements** | [Draft canonical article](systems-engineering/requirements.md) · Stakeholder needs, functional/quality specifications, and traceability | *evaluated through* → [Verification and validation](systems-engineering/verification-and-validation.md) |
-| **Verification and validation** | [Draft canonical article](systems-engineering/verification-and-validation.md) · Conformance to requirements versus fitness for intended use | *distinct from empirical* → [Validation and falsification](scientific-analytical-reasoning/validation-and-falsification.md) |
-| **System lifecycle** | [Draft canonical article](systems-engineering/system-lifecycle.md) · Conception, design, operation, maintenance, evolution, and retirement | *specialized for software in* → [Testing and software lifecycle](software-programming/README.md) |
+| **Feedback and control** | [Reviewed canonical article](systems-engineering/feedback-and-control.md) · Feedback loops, sensors, controllers, stability, and control objectives | *applies physical* → [Physical control mechanisms](physical-electrical-principles/README.md) |
+| **Emergence and complexity** | [Reviewed canonical article](systems-engineering/emergence-and-complexity.md) · Whole-system emergent behavior and nonlinearity | *distinct from algorithmic* → [Complexity](computation-algorithms/README.md) |
+| **Reliability and failure** | [Reviewed canonical article](systems-engineering/reliability-and-failure.md) · Faults, failures, availability, redundancy, maintainability, and recovery | *quantifiable using* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
+| **Requirements** | [Reviewed canonical article](systems-engineering/requirements.md) · Stakeholder needs, functional/quality specifications, and traceability | *evaluated through* → [Verification and validation](systems-engineering/verification-and-validation.md) |
+| **Verification and validation** | [Reviewed canonical article](systems-engineering/verification-and-validation.md) · Conformance to requirements versus fitness for intended use | *distinct from empirical* → [Validation and falsification](scientific-analytical-reasoning/validation-and-falsification.md) |
+| **System lifecycle** | [Reviewed canonical article](systems-engineering/system-lifecycle.md) · Conception, design, operation, maintenance, evolution, and retirement | *specialized for software in* → [Testing and software lifecycle](software-programming/README.md) |
 
 ## 12. Human & Sociotechnical Systems (8 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Human cognition and perception** | Human attention, memory, perception, interpretation, and cognitive limits | *shapes* → [Human-computer interaction](human-sociotechnical-systems/README.md) |
-| **Decision-making** | Choice under constraints, incomplete knowledge, uncertainty, and goals | *informed by* → [Evidence](scientific-analytical-reasoning/evidence.md) |
-| **Human-computer interaction** | People interacting with software, devices, and whole technical systems | *evaluated for* → [Usability and accessibility](human-sociotechnical-systems/README.md) |
-| **Usability and accessibility** | Inclusive, usable, effective, and accessible human-system experiences | *informs* → [Requirements](systems-engineering/requirements.md) |
-| **Human error** | Human mistakes, slips, and organizational conditions contributing to error | *may affect* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
-| **Collaboration and communication** | Human coordination, collaboration, shared language, and information exchange | *structured by* → [Organizational structures](human-sociotechnical-systems/README.md) |
-| **Organizational structures** | Roles, responsibilities, authority, governance, and organizational relationships | *shape* → [Requirements](systems-engineering/requirements.md) |
-| **Ethics and professional responsibilities** | Professional obligations, harms, accountability, and responsible conduct | *informs human* → [Decision-making](human-sociotechnical-systems/README.md) |
+| **Human cognition and perception** | [Draft canonical article](human-sociotechnical-systems/human-cognition-and-perception.md) · Human attention, memory, perception, interpretation, and cognitive limits | *shapes* → [Human-computer interaction](human-sociotechnical-systems/human-computer-interaction.md) |
+| **Decision-making** | [Draft canonical article](human-sociotechnical-systems/decision-making.md) · Choice under constraints, incomplete knowledge, uncertainty, and goals | *informed by* → [Evidence](scientific-analytical-reasoning/evidence.md) |
+| **Human-computer interaction** | [Draft canonical article](human-sociotechnical-systems/human-computer-interaction.md) · People interacting with software, devices, and whole technical systems | *evaluated for* → [Usability and accessibility](human-sociotechnical-systems/usability-and-accessibility.md) |
+| **Usability and accessibility** | [Draft canonical article](human-sociotechnical-systems/usability-and-accessibility.md) · Inclusive, usable, effective, and accessible human-system experiences | *informs* → [Requirements](systems-engineering/requirements.md) |
+| **Human error** | [Draft canonical article](human-sociotechnical-systems/human-error.md) · Human mistakes, slips, and organizational conditions contributing to error | *may affect* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
+| **Collaboration and communication** | [Draft canonical article](human-sociotechnical-systems/collaboration-and-communication.md) · Human coordination, collaboration, shared language, and information exchange | *structured by* → [Organizational structures](human-sociotechnical-systems/organizational-structures.md) |
+| **Organizational structures** | [Draft canonical article](human-sociotechnical-systems/organizational-structures.md) · Roles, responsibilities, authority, governance, and organizational relationships | *shape* → [Requirements](systems-engineering/requirements.md) |
+| **Ethics and professional responsibilities** | [Draft canonical article](human-sociotechnical-systems/ethics-and-professional-responsibilities.md) · Professional obligations, harms, accountability, and responsible conduct | *informs human* → [Decision-making](human-sociotechnical-systems/decision-making.md) |
 
 ## Canonical article integration
 
-The original **109 subject headings and 12 area assignments** remain unchanged. There are **41 Reviewed (model-assisted)** articles, including the [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md), and six new Wave B Batch 04 Systems & Engineering Drafts. All eleven approved Systems & Engineering headings are authored (five Reviewed internally, six Draft). All nine Information & Data and 26 Wave A headings remain internally Reviewed. Independent human review and final publication acceptance are not claimed. Direct navigation links do not claim independent human verification or create a formal graph schema.
+The original **109 subject headings and 12 area assignments** remain unchanged. There are **47 Reviewed (model-assisted)** articles, including [Wave B Batch 04's 36-family audit](WAVE-B-TECHNICAL-REVIEW-04.md), and **eight Human & Sociotechnical Systems Drafts**. All 28 approved Wave B headings are authored: 20 internally Reviewed and eight Draft. Wave A's 26 headings remain internally Reviewed. No independent human review, complete source verification, or final publication acceptance is asserted. Direct navigation links are a working conceptual crosswalk, not a formally ratified graph schema. Direct navigation links do not claim independent human verification or create a formal graph schema.
 
 ## Register integrity
 
