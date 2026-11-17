@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Information & Data](README.md)  
 **Approved subject heading:** Metadata  
-**Development status:** Draft  
-**Source review:** References listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 02 audit](../WAVE-B-TECHNICAL-REVIEW-02.md); no independent human peer review
 
 ## Metadata gives information a context for interpretation
 
@@ -84,6 +84,6 @@ Metadata describes and qualifies; **provenance** models history and derivation; 
 - [W3C Data Catalog Vocabulary (DCAT) Version 3](https://www.w3.org/TR/vocab-dcat-3/).
 - [W3C PROV Data Model](https://www.w3.org/TR/prov-dm/).
 
-**Editorial status:** Substantive draft. Examples and distinctions from provenance require a separate scoped source and technical audit. No new formal metadata standard is mandated for the repository.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 02 technical audit](../WAVE-B-TECHNICAL-REVIEW-02.md). Complete source verification, independent human expert review and final publication acceptance remain separate and pending.
 
 [Information & Data](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
