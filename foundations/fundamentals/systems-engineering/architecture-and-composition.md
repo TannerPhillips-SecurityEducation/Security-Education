@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Systems & Engineering](README.md)  
 **Approved subject heading:** Architecture and composition  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source technical review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 03 audit](../WAVE-B-TECHNICAL-REVIEW-03.md); no independent human peer review
 
 ## Architecture organizes how a system works as a whole
 
@@ -95,6 +95,6 @@ This reference does not prescribe a particular architecture-description language
 - [NASA: System Design Processes](https://www.nasa.gov/reference/4-0-system-design-processes/).
 - [SEBoK: System Architecture Design Definition](https://sebokwiki.org/wiki/System_Architecture_Design_Definition).
 
-**Editorial status:** Substantive draft with explicit model/view boundaries and a two-design comparison. Its claims and example require a separate scoped technical audit before promotion.
+**Editorial status:** Reviewed (model-assisted) following the [Wave B Batch 03 scoped 24-family technical review](../WAVE-B-TECHNICAL-REVIEW-03.md). Complete source verification, independent human expert peer review and final publication approval remain separate outstanding gates.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
