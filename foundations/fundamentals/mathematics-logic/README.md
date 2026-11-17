@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Subject inventory only; canonical explanations and references are pending  
+**Content status:** Partially authored; individual references have distinct review states  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -30,11 +30,12 @@ The content belongs in Fundamentals only insofar as it is domain-agnostic. Secur
 
 ## Canonical reference articles
 
-- [Algebra and functions](algebra-and-functions.md) — Draft; source lists and technical examples provided, scoped review pending.
-- [Numbers and numerical systems](numbers-and-numerical-systems.md) — Reviewed (model-assisted) in [Wave A Batch 02](../WAVE-A-TECHNICAL-REVIEW-02.md); external expert acceptance pending.
-- [Sets and relations](sets-and-relations.md) — Reviewed (model-assisted); final external acceptance pending.
-- [Boolean and predicate logic](boolean-and-predicate-logic.md) — Reviewed (model-assisted); [Wave A Batch 01](../WAVE-A-TECHNICAL-REVIEW-01.md) complete; independent human review pending.
+- [Numbers and numerical systems](numbers-and-numerical-systems.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-02.md)); final human approval pending.
+- [Sets and relations](sets-and-relations.md) — Reviewed (model-assisted; [audit](../PILOT-CLAIM-SOURCE-AUDIT.md)); final human approval pending.
+- [Boolean and predicate logic](boolean-and-predicate-logic.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-01.md)); final human approval pending.
+- [Algebra and functions](algebra-and-functions.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-03.md)); final human approval pending.
+- [Discrete mathematics](discrete-mathematics.md) — Draft (references listed; claim-to-source review pending).
 
-These references do not modify the approved subject inventory. Technical review records: [Pilots](../PILOT-CLAIM-SOURCE-AUDIT.md), [Wave A Batch 01](../WAVE-A-TECHNICAL-REVIEW-01.md), and [Wave A Batch 02](../WAVE-A-TECHNICAL-REVIEW-02.md). Reviewed indicates a scoped model-assisted assessment, not independent human peer review.
+These references do not alter the approved subject headings or imply independent human peer review. A **Draft** is not marked Reviewed until its own claim-to-source audit is completed.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
