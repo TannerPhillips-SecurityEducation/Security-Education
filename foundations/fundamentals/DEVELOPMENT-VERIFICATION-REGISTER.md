@@ -55,7 +55,7 @@ The six substantive draft articles received a second-pass [technical and editori
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
 | F-01-01 | Numbers and numerical systems | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-01-02 | Sets and relations| [Draft article](mathematics-logic/sets-and-relations.md)| Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
+| F-01-02 | Sets and relations | [Draft article](mathematics-logic/sets-and-relations.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
 | F-01-03 | Boolean and predicate logic | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-01-04 | Algebra and functions | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-01-05 | Discrete mathematics | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -69,7 +69,7 @@ The six substantive draft articles received a second-pass [technical and editori
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-02-01 | Observation| [Draft article](scientific-analytical-reasoning/observation.md)| Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
+| F-02-01 | Observation | [Draft article](scientific-analytical-reasoning/observation.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
 | F-02-02 | Measurement | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-02-03 | Evidence | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-02-04 | Hypotheses and experiments | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -84,7 +84,7 @@ The six substantive draft articles received a second-pass [technical and editori
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-03-01 | Entities and attributes| [Draft article](models-abstraction/entities-and-attributes.md)| Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
+| F-03-01 | Entities and attributes | [Draft article](models-abstraction/entities-and-attributes.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
 | F-03-02 | Identity and distinction | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-03 | Relationships | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-04 | Boundaries | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -117,7 +117,7 @@ The six substantive draft articles received a second-pass [technical and editori
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-05-01 | Symbols and encoding| [Draft article](information-data/symbols-and-encoding.md)| Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
+| F-05-01 | Symbols and encoding | [Draft article](information-data/symbols-and-encoding.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
 | F-05-02 | Bits and bytes | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-05-03 | Information theory | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-05-04 | Data types | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -133,7 +133,7 @@ The six substantive draft articles received a second-pass [technical and editori
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-06-01 | Digital logic| [Draft article](digital-systems-hardware/digital-logic.md)| Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
+| F-06-01 | Digital logic | [Draft article](digital-systems-hardware/digital-logic.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
 | F-06-02 | Computing components | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-06-03 | Processors and instruction sets | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-06-04 | Memory and storage | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -214,7 +214,7 @@ The six substantive draft articles received a second-pass [technical and editori
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-11-01 | Systems and subsystems| [Draft article](systems-engineering/systems-and-subsystems.md)| Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
+| F-11-01 | Systems and subsystems | [Draft article](systems-engineering/systems-and-subsystems.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
 | F-11-02 | Components and interfaces | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-11-03 | Architecture and composition | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-11-04 | Dependencies | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
