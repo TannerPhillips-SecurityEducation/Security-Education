@@ -13,7 +13,7 @@ Human and technical reasoning frequently moves from information to a conclusion.
 
 **Induction** uses observed cases or other evidence to support broader conclusions, predictions or expectations beyond what is deductively entailed. The conclusion may be well supported without following necessarily.
 
-**Abduction**, often called **inference to the best explanation**, compares possible explanations of observations and tentatively prefers one based on explanatory criteria. Its exact formal and normative status is debated, and not every proposed explanation is a defensible inference.
+**Abduction** can mean either generating explanatory hypotheses or evaluating competing explanations, often described as **inference to the best explanation** in the latter sense. Its exact formal and normative status is debated, and not every proposed explanation is a defensible inference. Those two uses must remain distinct.
 
 The [Stanford Encyclopedia of Philosophy: Abduction](https://plato.stanford.edu/entries/abduction/) explicitly contrasts these inference modes and notes two uses of the term *abduction*: generating explanatory hypotheses and evaluating them. A technical reference should distinguish both uses rather than assume every explanatory guess is an established conclusion.
 
@@ -70,7 +70,7 @@ Abduction can help organize these possibilities, but deciding which deserves gre
 
 The common *inference to the best explanation* approach evaluates explanatory adequacy using criteria such as consistency with background information, scope, simplicity under relevant assumptions, and compatibility with further evidence. **Simplicity alone does not establish truth.**
 
-The [SEP: Abduction](https://plato.stanford.edu/entries/abduction/) discusses both the appeal of explanatory reasoning and disputes about its justification. This reference treats abduction as **hypothesis selection and generation**, not an infallible mechanism for producing the correct cause.
+The [SEP: Abduction](https://plato.stanford.edu/entries/abduction/) discusses both the appeal of explanatory reasoning and disputes about its justification. This reference treats the two recognized uses of abduction, **generating candidate hypotheses** and **evaluating explanations**, without assuming either infallibly identifies a cause.
 
 ## One observation under three modes
 
@@ -145,6 +145,6 @@ The process belongs to general analytical knowledge, independently of a particul
 - [Stanford Encyclopedia of Philosophy: Logical Consequence](https://plato.stanford.edu/entries/logical-consequence/).
 - [MIT Mathematics for Computer Science](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/), mathematical induction as a deductive method.
 
-**Editorial state:** Domain-independent draft with source-grounded distinctions and illustrative reasoning cases. Its treatment of explanatory criteria is deliberately qualified, as the formal status of abduction is debated. Scoped technical/editorial review remains pending.
+**Review note:** Deductive validity, empirical induction, the two senses of abductive reasoning, and the deductive nature of mathematical induction were checked against the Stanford Encyclopedia of Philosophy and MIT course references. Source-dependent assumptions and alternative explanations remain explicit; the Batch 04 audit records model-assisted technical review, not independent human approval.
 
 [Scientific & Analytical Reasoning](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
