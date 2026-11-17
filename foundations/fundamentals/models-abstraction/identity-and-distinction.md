@@ -11,7 +11,7 @@
 
 The first conceptual act is often to choose what counts as a subject of attention. A model that distinguishes a system from its environment also needs criteria for whether observations before and after a change refer to the same system. These are interconnected questions but not synonyms: **distinguishing two things** is not the same as knowing all their properties, and **identifying the same thing** is not necessarily equivalent to matching its name or appearance.
 
-This article uses identity in a broad logical and modeling sense. **Authentication, identity proofing, credential issuance, access control and directory services are security-specific mechanisms**, whose canonical details belong in Security Foundations and specialized [Identity Knowledge](../../identity/README.md).
+This article uses identity in a broad logical and modeling sense. **Authentication, identity proofing, credential issuance, access control and directory services are security-specific mechanisms**, whose canonical details belong in Security Foundations and specialized [Identity Knowledge](../../../identity/README.md).
 
 ## Numerical identity and qualitative similarity
 
