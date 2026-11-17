@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Systems & Engineering](README.md)  
 **Approved subject heading:** Dependencies  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 03 audit](../WAVE-B-TECHNICAL-REVIEW-03.md); no independent human peer review
 
 ## A dependency is a qualified reliance relationship
 
@@ -94,6 +94,6 @@ No universal dependency-predicate vocabulary, scheduling engine, risk score, or 
 - [SEBoK: Requirements Management](https://sebokwiki.org/wiki/Requirements_Management).
 - [MIT Mathematics for Computer Science readings](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/).
 
-**Editorial status:** Substantive draft, including a conditional propagation case and a computed critical-path example. A scoped claim-to-source audit is required before Reviewed status.
+**Editorial status:** Reviewed (model-assisted) following the [Wave B Batch 03 scoped 24-family technical review](../WAVE-B-TECHNICAL-REVIEW-03.md). Complete source verification, independent human expert peer review and final publication approval remain separate outstanding gates.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
