@@ -20,7 +20,7 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 
 - [**Canonical Ownership & Relationship Register**](CANONICAL-OWNERSHIP-REGISTER.md): Maps all 109 approved subject headings to proposed general responsibilities and 109 cross-subject relationship references.
 - [**Concept Overlap & Coverage Review**](CONCEPT-OVERLAP-REVIEW.md): Documents 20 recurrent conceptual overlaps and 10 candidate coverage questions that require review.
-- [**Canonical Concept Boundary Decisions**](CONCEPT-BOUNDARY-DECISIONS.md): Provides working ownership resolutions and discriminating examples for all 20 overlap groups, with an explicit temporality exception.
+- [**Canonical Concept Boundary Decisions**](CONCEPT-BOUNDARY-DECISIONS.md): Provides approved conceptual boundaries and discriminating examples for all 20 overlap groups, while retaining the general-temporality coverage exception.
 - [**Coverage Gap Decision Register**](COVERAGE-GAP-DECISIONS.md): Dispositions all ten coverage questions: seven assigned to existing headings for authoring and three requiring explicit scope decisions. No change to the 12/109 baseline.
 
 **Status distinction:** The 12 areas and 109 headings are approved. The detailed ownership boundaries, relationship descriptions, and coverage-gap dispositions are **working proposals**, not automatically ratified conceptual definitions. The register links to existing area indexes until canonical articles are written and verified.
