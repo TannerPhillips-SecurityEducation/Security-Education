@@ -118,9 +118,9 @@ The canonical-owner descriptions below are **working editorial decisions**, not 
 
 **Sensors, devices, and IoT/industrial systems:** A thermistor is a sensor; a thermostat or industrial transmitter combines more mechanisms.
 
-## Open exception: General temporality (B-11)
+## Open exception: General temporality (B-11; coverage case G-04)
 
-**Partially resolved.** Time *units* belong in Mathematics & Logic; hardware timing belongs in Digital Systems; event/order semantics in Models & Abstraction and Communication & Distributed Systems. Those distinctions do **not** establish where a complete domain-agnostic concept of *time and temporality* belongs. Retain the time gap in the [ten candidate coverage questions](CONCEPT-OVERLAP-REVIEW.md), without creating a new area.
+**Partially resolved.** Time *units* belong in Mathematics & Logic; hardware timing belongs in Digital Systems; event/order semantics in Models & Abstraction and Communication & Distributed Systems. Those distinctions do **not** establish where a complete domain-agnostic concept of *time and temporality* belongs. Retain the time gap as [G-04 in the Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md), without creating a new area or silently expanding a subject.
 
 ## Rules for future canonical authoring
 
@@ -146,7 +146,7 @@ These sources inform selected terms. The full set of working ownership decisions
 
 - **20 of 20 groups mapped:** working general owners, contextual distinctions, and discriminating examples.
 - **B-11 exception:** general temporality remains an open coverage decision.
-- **10 candidate gaps:** remain open until separately dispositioned.
+- **10 candidate gaps:** have working dispositions in the [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md); seven are assigned to existing headings for authoring, and three require architectural decisions.
 - **Approved taxonomy:** untouched; no additional areas or subject headings.
 - **Reference articles:** not yet written or validated.
 
