@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v0.1  
+**Working edition:** v0.2  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -30,6 +30,18 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
+## Current progress after six pilot drafts
+
+| State | Subject headings | Evidence |
+| --- | ---: | --- |
+| Draft articles committed | **6** | Linked from their area indexes and this register |
+| Inventoried headings without canonical articles | **103** | Retained in approved subject inventories |
+| References listed in pilot articles | **6** | Sources recorded in each article; technical claim-by-claim validation still pending |
+| Independently reviewed or verified pilot articles | **0** | Review gate not yet claimed |
+| Accepted as final published reference | **0** | Publication gate still pending |
+
+**Interpretation:** The six pilots are real GitHub files containing substantive prose and examples; they are not merely queued. Their existence advances the authoring stage, but does not demonstrate comprehensive source verification or closure of the seven Fundamentals completion gates.
+
 ## Detailed coverage by approved knowledge area
 
 ### 01. Mathematics & Logic (Wave A; 8 headings)
@@ -39,7 +51,7 @@
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
 | F-01-01 | Numbers and numerical systems | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-01-02 | Sets and relations | Queued: sets-and-relations.md | Pilot queued | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-01-02 | Sets and relations | [Draft article](mathematics-logic/sets-and-relations.md) | Draft | References listed | Canonical links drafted; independent review pending |
 | F-01-03 | Boolean and predicate logic | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-01-04 | Algebra and functions | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-01-05 | Discrete mathematics | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -53,7 +65,7 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-02-01 | Observation | Queued: observation.md | Pilot queued | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-02-01 | Observation | [Draft article](scientific-analytical-reasoning/observation.md) | Draft | References listed | Canonical links drafted; independent review pending |
 | F-02-02 | Measurement | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-02-03 | Evidence | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-02-04 | Hypotheses and experiments | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -68,7 +80,7 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-03-01 | Entities and attributes | Queued: entities-and-attributes.md | Pilot queued | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-03-01 | Entities and attributes | [Draft article](models-abstraction/entities-and-attributes.md) | Draft | References listed | Canonical links drafted; independent review pending |
 | F-03-02 | Identity and distinction | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-03 | Relationships | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-04 | Boundaries | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -101,7 +113,7 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-05-01 | Symbols and encoding | Queued: symbols-and-encoding.md | Pilot queued | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-05-01 | Symbols and encoding | [Draft article](information-data/symbols-and-encoding.md) | Draft | References listed | Canonical links drafted; independent review pending |
 | F-05-02 | Bits and bytes | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-05-03 | Information theory | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-05-04 | Data types | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -117,7 +129,7 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-06-01 | Digital logic | Queued: digital-logic.md | Pilot queued | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-06-01 | Digital logic | [Draft article](digital-systems-hardware/digital-logic.md) | Draft | References listed | Canonical links drafted; independent review pending |
 | F-06-02 | Computing components | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-06-03 | Processors and instruction sets | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-06-04 | Memory and storage | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -198,7 +210,7 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-11-01 | Systems and subsystems | Queued: systems-and-subsystems.md | Pilot queued | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-11-01 | Systems and subsystems | [Draft article](systems-engineering/systems-and-subsystems.md) | Draft | References listed | Canonical links drafted; independent review pending |
 | F-11-02 | Components and interfaces | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-11-03 | Architecture and composition | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-11-04 | Dependencies | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
