@@ -1,8 +1,21 @@
 # Cloud Knowledge
 
-Cloud Knowledge is organized primarily by **cloud provider**.
+**Primary classification:** Cloud Service Function
 
-## Providers
+This domain follows **Domain → Function → Implementation**. Functions provide the canonical navigation path; specific implementations are added within the relevant function when approved.
+
+## Functions (Primary Navigation)
+
+- [Compute & Execution](compute-execution/README.md)
+- [Storage & Data](storage-data/README.md)
+- [Networking & Delivery](networking-delivery/README.md)
+- [Identity & Access](identity-access/README.md)
+- [Integration & Messaging](integration-messaging/README.md)
+- [Security & Protection](security-protection/README.md)
+- [Observability & Operations](observability-operations/README.md)
+- [Provisioning & Governance](provisioning-governance/README.md)
+
+## Cloud Provider Indexes (Secondary Navigation)
 
 - [Amazon Web Services (AWS)](aws/README.md)
 - [Microsoft Azure](azure/README.md)
@@ -13,10 +26,10 @@ Cloud Knowledge is organized primarily by **cloud provider**.
 
 ## Organizational Principles
 
-- Cloud provider is the primary navigation category for this domain.
-- Shared provider-independent concepts retain a canonical location and are referenced rather than redefined in every provider section.
-- Related or comparable services across providers should be connected through the knowledge graph rather than treated as identical.
-- Cloud technologies are distinct from cloud providers; this taxonomy does not classify technologies such as Kubernetes, OpenStack, or Terraform as providers.
-- Deeper provider-specific taxonomies remain undefined until approved.
+Provider pages are alternative navigation views that will link to canonical provider-specific implementations in functional areas. Cloud technologies are not automatically cloud providers.
+
+- Each subject has one canonical documentation home; alternate views link there.
+- Functional categories may overlap in subject matter, with relationships expressed through explicit links.
+- Function pages currently establish scope only. Deeper implementation documentation has not yet been approved.
 
 [Security Knowledge](../README.md) · [Relationship conventions](../RELATIONSHIPS.md)
