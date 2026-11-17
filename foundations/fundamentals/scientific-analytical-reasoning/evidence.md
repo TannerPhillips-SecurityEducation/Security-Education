@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Scientific & Analytical Reasoning](README.md)  
 **Approved subject heading:** Evidence  
-**Development status:** Draft  
-**Source review:** References listed; scoped technical acceptance pending
+**Development status:** Reviewed (model-assisted; not independently human-accepted for final publication)  
+**Source review:** Core claims checked in [Wave A technical review, Batch 01](../WAVE-A-TECHNICAL-REVIEW-01.md); complete independent expert validation not claimed
 
 ## Information becomes evidence in relation to a claim
 
