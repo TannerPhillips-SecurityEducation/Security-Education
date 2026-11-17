@@ -17,9 +17,9 @@ This reference introduces **domain-agnostic causal reasoning**. It does not impl
 
 ## What a correlation coefficient says
 
-For paired quantitative variables, Pearson's **correlation coefficient** `r` is a normalized measure of *linear* association, defined when the relevant standard deviations are nonzero. Values lie between `−1` and `+1`. A positive value indicates a tendency for larger values of one variable to appear with larger values of the other under the sample or population model; a negative value indicates the opposite linear direction.
+For paired quantitative variables, the **sample Pearson correlation coefficient** `r` is a normalized measure of *linear* association, defined when the relevant sample standard deviations are nonzero. The population analogue is usually denoted `ρ` and likewise requires finite, nonzero variances for the conventional definition. Values lie between `−1` and `+1`. A positive value indicates a tendency for larger values of one variable to appear with larger values of the other under the sample or population model; a negative value indicates the opposite linear direction.
 
-**A zero Pearson correlation does not imply independence.** For example, if a random variable `X` is symmetrically distributed about zero and `Y=X²`, then the correlation can be zero even though `Y` is completely determined by `X`. The relationship is nonlinear and can be missed by a linear measure.
+**A zero Pearson correlation does not imply independence.** For example, if a nondegenerate random variable `X` is symmetrically distributed about zero, has a finite fourth moment, and `Y=X²` has positive variance, then their population correlation is zero even though `Y` is completely determined by `X`. The relationship is nonlinear and can be missed by a linear measure.
 
 Likewise, a high magnitude correlation does not, on its own, identify which variable causes which, establish a physical mechanism, or justify extrapolation to another population.
 
@@ -53,7 +53,7 @@ P(Wet | Umbrella) = 0.37/0.5 = 0.74
 P(Wet | No umbrella) = (0.5−0.37)/0.5 = 0.26
 ```
 
-There is a pronounced **observational association** under these hypothetical parameters, even though the model has no arrow from umbrella use to wet pavement. The example illustrates the role of a shared cause. It does not constitute a real meteorological dataset or prove that no other causal interactions could exist.
+There is a pronounced **observational association** under these hypothetical parameters: `P(Wet | Umbrella)=0.74` versus `P(Wet | No umbrella)=0.26`. The diagram has no causal arrow from umbrella use to wet pavement, and conditional independence within rain/no-rain strata was assumed. The example illustrates how a common cause can generate association without a direct causal effect. It does not constitute a real meteorological dataset or prove that no other causal interactions could exist.
 
 ## Observing versus intervening
 
@@ -131,6 +131,6 @@ The [Evidence](evidence.md) article owns claim-relative support; [Deduction, Ind
 - [Stanford Encyclopedia of Philosophy: Abduction](https://plato.stanford.edu/entries/abduction/), explanatory inference and its limits.
 - [MIT Mathematics for Computer Science](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/), the mathematical graph and probability foundations distinct from causal semantics.
 
-**Editorial state:** Substantive technical-reference Draft. The toy weather model and quantitative probabilities have been independently calculated, but this is not a real observational study or a formal identification result. A separate scoped claim-to-source audit and review of assumptions is required before promotion.
+**Editorial review note:** Recomputed the four probabilities in the toy weather model, checked the intervention/conditioning distinction against the SEP causal-model reference, and qualified the zero-correlation counterexample with finite-moment assumptions. This remains an illustration, not an empirical study or an identified real-world causal effect. See the Batch 05 source-review ledger for model-assisted acceptance.
 
 [Scientific & Analytical Reasoning](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
