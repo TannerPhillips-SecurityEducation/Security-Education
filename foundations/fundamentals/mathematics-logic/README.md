@@ -20,10 +20,6 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 - Probability and statistics
 - Units and quantities
 
-## Canonical reference drafts
-
-- [Sets and relations](sets-and-relations.md) — substantive draft with cited source material. Independent technical/editorial verification and final acceptance are pending. The approved subject heading above remains unchanged.
-
 ## Content Development
 
 This area is a **navigation discipline**. Its headings organize coverage but do not constitute a separate list of conceptual primitives. Establish one canonical home for each underlying concept and link contextual realizations rather than repeating general definitions.
@@ -31,5 +27,9 @@ This area is a **navigation discipline**. Its headings organize coverage but do 
 Each subject will eventually receive a canonical explanation, key distinctions, mechanisms, relevant examples, explicit relationships, and credible references. These items are **not yet completed** merely by being listed.
 
 The content belongs in Fundamentals only insofar as it is domain-agnostic. Security-specific treatment belongs in Security Foundations; security practice belongs in Operational Foundations. Cross-domain references should link to canonical subjects rather than duplicate them.
+
+## Canonical reference drafts
+
+- [Sets and relations](sets-and-relations.md) — substantive draft with cited source material. Independent technical/editorial verification and final acceptance are pending. The approved subject heading above remains unchanged.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
