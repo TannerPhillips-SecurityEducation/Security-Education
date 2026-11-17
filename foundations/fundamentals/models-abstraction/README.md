@@ -22,6 +22,10 @@ Ways to describe entities, relations, boundaries, classifications, and dynamic b
 - State, events, and transitions
 - Conceptual and formal models
 
+## Canonical reference drafts
+
+- [Entities and attributes](entities-and-attributes.md) — substantive draft with cited source material. Independent technical/editorial verification and final acceptance are pending. The approved subject heading above remains unchanged.
+
 ## Content Development
 
 This area is a **navigation discipline**. Its headings organize coverage but do not constitute a separate list of conceptual primitives. Establish one canonical home for each underlying concept and link contextual realizations rather than repeating general definitions.
