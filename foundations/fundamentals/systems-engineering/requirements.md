@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Systems & Engineering](README.md)  
 **Approved subject heading:** Requirements  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 04 audit](../WAVE-B-TECHNICAL-REVIEW-04.md); no independent human peer review
 
 ## Requirements state what a system must satisfy
 
@@ -109,6 +109,6 @@ The separate [Verification and Validation](verification-and-validation.md) artic
 - [SEBoK: System Requirements Definition](https://sebokwiki.org/wiki/System_Requirements).
 - [NASA: Requirements Management](https://www.nasa.gov/reference/6-2-requirements-management/).
 
-**Editorial status:** Substantive Draft. The hypothetical thermostat requirement, traceability example and semantic distinctions require their own scoped technical review. No new assessment, safety mandate or formal schema is ratified.
+**Editorial status:** Reviewed (model-assisted) under the scoped [Wave B Batch 04 technical review](../WAVE-B-TECHNICAL-REVIEW-04.md). Exhaustive source verification, independent expert review and final publication acceptance remain separate, uncompleted gates.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
