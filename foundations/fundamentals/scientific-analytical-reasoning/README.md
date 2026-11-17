@@ -30,10 +30,11 @@ The content belongs in Fundamentals only insofar as it is domain-agnostic. Secur
 
 ## Canonical reference articles
 
-- [Measurement](measurement.md) — Draft; initial technical source and examples recorded, scoped acceptance pending.
+- [Hypotheses and experiments](hypotheses-and-experiments.md) — Draft; source lists and technical examples provided, scoped review pending.
+- [Measurement](measurement.md) — Reviewed (model-assisted) in [Wave A Batch 02](../WAVE-A-TECHNICAL-REVIEW-02.md); external expert acceptance pending.
 - [Observation](observation.md) — Reviewed (model-assisted); final external acceptance pending.
-- [Evidence](evidence.md) — Reviewed (model-assisted); scoped claim/source review pending.
+- [Evidence](evidence.md) — Reviewed (model-assisted); [Wave A Batch 01](../WAVE-A-TECHNICAL-REVIEW-01.md) complete; independent human review pending.
 
-Articles do not change the wording or ownership of the approved subject inventory. Refer to the [pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) for reviewed-pilot evidence.
+These references do not modify the approved subject inventory. Technical review records: [Pilots](../PILOT-CLAIM-SOURCE-AUDIT.md), [Wave A Batch 01](../WAVE-A-TECHNICAL-REVIEW-01.md), and [Wave A Batch 02](../WAVE-A-TECHNICAL-REVIEW-02.md). Reviewed indicates a scoped model-assisted assessment, not independent human peer review.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
