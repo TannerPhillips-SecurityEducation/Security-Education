@@ -55,7 +55,7 @@ Computing a numerical mean of the identifiers has no established interpretation.
 
 ## Boundaries and references
 
-Data type is not synonymous with schema, ontology, format, or physical quantity. [Datasets, Records, Fields, and Values](datasets-records-fields-and-values.md) owns information granularity. [Data Structures and Formats](README.md) remains a future canonical subject for organization and exchange. [Numbers and Numerical Systems](../mathematics-logic/numbers-and-numerical-systems.md) owns arithmetic.
+Data type is not synonymous with schema, ontology, format, or physical quantity. [Datasets, Records, Fields, and Values](datasets-records-fields-and-values.md) owns information granularity. [Data Structures and Formats](data-structures-and-formats.md) develops the separate organization and exchange mechanisms. [Numbers and Numerical Systems](../mathematics-logic/numbers-and-numerical-systems.md) owns arithmetic.
 
 ### Sources
 
