@@ -69,7 +69,7 @@ This traceability makes the calculation inspectable but does not prove the origi
 
 Data change can mean correcting an error, appending observations, changing schema, regenerating an analysis, or replacing a resource. These are different operations with different interpretive consequences.
 
-A **version** refers to a distinguished revision under a given identity and versioning policy. The same content hash may indicate identical encoded bytes under a chosen hash function and format, but not identical semantic meaning across contexts. A different hash may reflect representation differences alone. A hash also does not establish authorship without further evidence.
+A **version** refers to a distinguished revision under a given identity and versioning policy. A matching content hash is evidence that encoded bytes may be identical, **not a mathematical guarantee of byte equality**, because hash collisions are possible. The strength of this evidence depends on the algorithm, threat model, and manner of comparison. Even identical bytes need not have identical meaning under different interpretation contexts. Different hashes may arise from representation changes without a change in intended meaning. A hash alone does not establish authorship or source authenticity.
 
 Deleting a primary record does not automatically erase backups, replicas, derived tables, caches or records held by other systems. Claims about complete deletion require a stated scope, process and verification evidence. Conversely, retaining every copy indefinitely is not automatically justified; data governance, privacy obligations and risk vary by context.
 
