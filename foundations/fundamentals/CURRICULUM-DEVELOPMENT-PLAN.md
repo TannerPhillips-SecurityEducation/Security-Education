@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v1.10; 41 internally reviewed references, 6 drafts, 62 inventoried headings; external human acceptance pending
+**Document status:** Working plan v1.11; 47 internally reviewed references, 8 drafts, 54 inventoried headings; external human acceptance pending
 **Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -54,18 +54,17 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record
 6. **No assessments.** No Knowledge Checks or Practical Assessments appear anywhere in this development plan or in the resulting knowledge reference.
 7. **Versioned evolution.** Preserve approved category identities while documenting proposed additions, merges, relocations, and corrections before changing canonical structure.
 
-## Execution Status: Wave B Batch 03 reviewed; Batch 04 authored
+## Execution Status: Wave B Batch 04 reviewed; Human & Sociotechnical Systems authored
 
-- The six original pilots passed a [50-family scoped review](PILOT-CLAIM-SOURCE-AUDIT.md); Wave A's 26 subjects completed authoring and model-assisted technical review through [Batch 07](WAVE-A-TECHNICAL-REVIEW-07.md).
-- **Wave B Information & Data:** All **9/9 approved headings** are internally Reviewed following [Batch 01](WAVE-B-TECHNICAL-REVIEW-01.md) and [Batch 02](WAVE-B-TECHNICAL-REVIEW-02.md).
-- **Wave B Systems & Engineering, Batch 03 Reviewed:** [Components and Interfaces](systems-engineering/components-and-interfaces.md), [Architecture and Composition](systems-engineering/architecture-and-composition.md), [Dependencies](systems-engineering/dependencies.md), and [State and Behavior](systems-engineering/state-and-behavior.md) passed the [24-family scoped technical review](WAVE-B-TECHNICAL-REVIEW-03.md). The formal state-transition notation was clarified before acceptance.
-- **Wave B Systems & Engineering, Batch 04 Drafted:** [Feedback and Control](systems-engineering/feedback-and-control.md), [Emergence and Complexity](systems-engineering/emergence-and-complexity.md), [Reliability and Failure](systems-engineering/reliability-and-failure.md), [Requirements](systems-engineering/requirements.md), [Verification and Validation](systems-engineering/verification-and-validation.md), and [System Lifecycle](systems-engineering/system-lifecycle.md) are substantive, source-linked drafts pending their own technical audits.
-- **Systems & Engineering authoring coverage:** **11/11**, with five internally Reviewed and six Draft.
-- The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) reconciles the original **109 headings: 41 Reviewed (model-assisted), 6 Draft, 62 Inventoried**.
-- **Human & Sociotechnical Systems:** Approved Wave B area with eight subjects, all still inventoried and not authored.
-- No independent human expert peer-review or final publication acceptance is asserted. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain pending architectural decisions.
+- The original six pilots passed their [50-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); **all 26 Wave A headings** were authored and internally reviewed through [Wave A Batch 07](WAVE-A-TECHNICAL-REVIEW-07.md).
+- **Information & Data:** **9/9 authored and internally Reviewed** following [Wave B Batches 01](WAVE-B-TECHNICAL-REVIEW-01.md) and [02](WAVE-B-TECHNICAL-REVIEW-02.md).
+- **Systems & Engineering:** **11/11 authored and internally Reviewed** following [Wave B Batch 03](WAVE-B-TECHNICAL-REVIEW-03.md) and the [36-family Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md). The final audit added a discrete-control convergence clarification.
+- **Human & Sociotechnical Systems:** **8/8 authored as substantive Drafts**. [Human Cognition and Perception](human-sociotechnical-systems/human-cognition-and-perception.md), [Decision-Making](human-sociotechnical-systems/decision-making.md), [Human-Computer Interaction](human-sociotechnical-systems/human-computer-interaction.md), [Usability and Accessibility](human-sociotechnical-systems/usability-and-accessibility.md), [Human Error](human-sociotechnical-systems/human-error.md), [Collaboration and Communication](human-sociotechnical-systems/collaboration-and-communication.md), [Organizational Structures](human-sociotechnical-systems/organizational-structures.md), and [Ethics and Professional Responsibilities](human-sociotechnical-systems/ethics-and-professional-responsibilities.md) are source-linked references, not yet technically accepted.
+- **Wave B authoring coverage:** 28/28 across the three approved Wave B areas (20 internally Reviewed, 8 Draft).
+- The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) reconciles all **109 approved headings: 47 Reviewed (model-assisted), 8 Draft and 54 Inventoried without article**.
+- G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open architectural decisions. No new areas, headings, assessment activities or mandatory knowledge-graph implementation are introduced.
 
-**Next execution:** Conduct the six-article Wave B Batch 04 technical/source audit, then begin approved Human & Sociotechnical Systems subject authoring. Continue corpus-wide link, source, relationship, and seven-gate publication checks. Production waves govern authoring rather than an enforced reading sequence.
+**Next execution:** Conduct a separately documented scoped technical/source audit of the eight Human & Sociotechnical Systems drafts, then begin Wave C Physical & Electrical Principles and Digital Systems & Hardware. Independent human peer review, complete source verification, publication acceptance and corpus-wide completion gates remain pending.
 
 ## 4. Work Packages and Stage Gates
 
@@ -204,8 +203,9 @@ No graph database or universal front-matter schema is required at this stage. Pr
 5. **Completed:** Three Wave A Batch 06 references passed scoped model-assisted review; [24-family audit](WAVE-A-TECHNICAL-REVIEW-06.md).
 6. **Completed authoring:** Five Wave A Batch 07 drafts cover Units and Quantities; Validation and Falsification; Ontologies and Taxonomies; Schemas; Conceptual and Formal Models. **Review gate completed:** [Batch 07 technical audit](WAVE-A-TECHNICAL-REVIEW-07.md); **source state:** Core claims checked. Independent human acceptance and corpus-wide publication gates remain open.
 7. **Completed:** Wave B Information & Data, nine references, internally Reviewed after [Batches 01](WAVE-B-TECHNICAL-REVIEW-01.md) and [02](WAVE-B-TECHNICAL-REVIEW-02.md).
-8. **Completed:** Wave B Batch 03 four-system-reference [24-family audit](WAVE-B-TECHNICAL-REVIEW-03.md); **current:** six substantive Systems & Engineering Batch 04 drafts require their own audit.
-9. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately. The 109-heading corpus is not publication-complete until the seven Fundamentals gates and applicable human acceptance are satisfied.
+8. **Completed:** Wave B Batch 03 [24-family audit](WAVE-B-TECHNICAL-REVIEW-03.md) and Batch 04 [36-family audit](WAVE-B-TECHNICAL-REVIEW-04.md); Systems & Engineering is 11/11 internally Reviewed.
+9. **Completed authoring:** All eight Human & Sociotechnical Systems references committed as Drafts; their separate scoped audit is the current acceptance gate.
+10. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately. The 109-heading corpus is not publication-complete until the seven Fundamentals gates and applicable human acceptance are satisfied.
 
 Production waves guide authors, **not reader prerequisites**. Knowledge Checks and Practical Assessments remain excluded.
 
@@ -229,6 +229,7 @@ Production waves guide authors, **not reader prerequisites**. Knowledge Checks a
 - [Wave B Batch 01 Claim-to-Source Review (24 families)](WAVE-B-TECHNICAL-REVIEW-01.md)
 - [Wave B Batch 02 Claim-to-Source Review (24 families)](WAVE-B-TECHNICAL-REVIEW-02.md)
 - [Wave B Batch 03 Claim-to-Source Review (24 families)](WAVE-B-TECHNICAL-REVIEW-03.md)
+- [Wave B Batch 04 Claim-to-Source Review (36 families)](WAVE-B-TECHNICAL-REVIEW-04.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
 - [Knowledge relationship conventions](../../RELATIONSHIPS.md)
