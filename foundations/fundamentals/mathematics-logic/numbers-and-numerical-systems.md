@@ -75,7 +75,7 @@ The [Python documentation on floating-point arithmetic](https://docs.python.org/
 
 For ordinary binary floating-point values, `0.1 + 0.1 + 0.1` need not compare exactly equal to `0.3`. This should not be generalized to *every* numeric implementation: arbitrary-precision rational arithmetic and suitable decimal representations can handle some values exactly, subject to their own computational tradeoffs.
 
-**Precision** concerns the discrimination or number of meaningful representable digits, while **accuracy** concerns closeness to an appropriate reference or intended value in a specified context. Rounding, overflow, underflow, truncation, and propagation of numerical errors are separate mechanisms. This article introduces those distinctions; their algorithmic consequences belong to [Computational Efficiency and Algorithm Design](../computation-algorithms/README.md).
+**Numerical representation precision** concerns the resolution or significant digits supported by a chosen format; **numerical error** describes the difference between a computed or represented value and an appropriate mathematical or numerical reference. This is distinct from **measurement precision**, which concerns agreement among repeated observations, and **measurement accuracy**, which concerns closeness to the measurand's true value under metrological definitions. Rounding, overflow, underflow, truncation, and propagation of computational error are separate mechanisms. This article introduces those distinctions; their algorithmic consequences belong to [Computational Efficiency and Algorithm Design](../computation-algorithms/README.md).
 
 ## Ordering, equality, and comparison
 
