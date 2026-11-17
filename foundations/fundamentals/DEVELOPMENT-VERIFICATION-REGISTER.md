@@ -46,7 +46,7 @@
 
 ## Next acceptance gate
 
-1. Audit the material claims and worked examples in Batch 06's three drafts before marking them Reviewed.
+1. **Completed:** Batch 06's three references passed the documented [24-family scoped review](WAVE-A-TECHNICAL-REVIEW-06.md).
 2. Preserve the distinction between mathematical probability, interpretation of confidence and uncertainty, and the conceptual category membership mechanism.
 3. Develop the remaining five original Wave A headings: Units and Quantities; Validation and Falsification; Ontologies and Taxonomies; Schemas; Conceptual and Formal Models.
 4. Continue link-integrity and coverage checks against the seven Fundamentals completion gates.
