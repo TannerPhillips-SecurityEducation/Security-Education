@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Mathematics & Logic](README.md)  
 **Approved subject heading:** Probability and statistics  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical acceptance pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave A Batch 06 audit](../WAVE-A-TECHNICAL-REVIEW-06.md); no independent human review
 
 ## Quantifying uncertainty and learning from data
 
@@ -148,6 +148,6 @@ Probability and statistics support reliability analysis, network measurements, s
 - [NIST: One-sample mean tests, sample variance and standard deviation](https://www.itl.nist.gov/div898/handbook/prc/section2/prc22.htm).
 - [NIST: What are statistical tests?](https://www.itl.nist.gov/div898/handbook/prc/section1/prc13.htm).
 
-**Editorial status:** Substantive Draft with mathematical examples and explicit model assumptions. Its Bayes example uses invented parameters to illustrate reasoning; its quantitative claims require a scoped claim-to-source review before any promotion. The separate AI/ML scope decision G-06 remains open.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Batch 06 technical audit](../WAVE-A-TECHNICAL-REVIEW-06.md). Not independently human peer reviewed, fully verified, or published.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
