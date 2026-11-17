@@ -94,9 +94,9 @@ The correct boundary is the one explicitly justified by the purpose and question
 
 ## Where this knowledge connects
 
-[Boundaries](../models-abstraction/README.md) provides the general concept of delimitation; [Relationships](../models-abstraction/README.md) provides association; [Architecture and composition](README.md) covers design views; [Components and interfaces](README.md) covers constituent responsibilities; [State and behavior](README.md) covers dynamics; [Human & Sociotechnical Systems](../human-sociotechnical-systems/README.md) covers the role of humans and organizations.
+[Boundaries](../models-abstraction/boundaries.md) provides general delimitation; [Relationships](../models-abstraction/relationships.md) provides association; [Architecture and Composition](architecture-and-composition.md) covers whole-system design views; [Components and Interfaces](components-and-interfaces.md) covers constituent responsibilities and interaction contracts; [Dependencies](dependencies.md) covers required relationships; [State and Behavior](state-and-behavior.md) covers dynamic whole-system behavior. [Human & Sociotechnical Systems](../human-sociotechnical-systems/README.md) retains the separate approved scope for people and organizations.
 
-Those broader links currently lead to existing approved area indexes until canonical articles are written.
+Links to existing canonical subject references are direct. Other approved, unauthored subjects retain area-index navigation until their own articles exist.
 
 ## References and verification status
 
