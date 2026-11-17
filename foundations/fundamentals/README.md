@@ -27,14 +27,14 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 
 ## Canonical Reference Development
 
-**Thirty-three substantive references are Reviewed (model-assisted)** through the original six-pilot review, Wave A Batches 01–07 and [Wave B Batch 01](WAVE-B-TECHNICAL-REVIEW-01.md). These reviews do **not** imply independent human expert peer review or final release acceptance.
+**Thirty-seven substantive references are Reviewed (model-assisted)** through the six-pilot audit, Wave A Batches 01–07, and Wave B Batches 01–02 ([latest audit](WAVE-B-TECHNICAL-REVIEW-02.md)). These reviews do **not** imply independent human expert peer review or final release acceptance.
 
 | Approved knowledge area | Reviewed reference articles |
 | --- | --- |
 | Mathematics & Logic | [Numbers and Numerical Systems](mathematics-logic/numbers-and-numerical-systems.md); [Sets and Relations](mathematics-logic/sets-and-relations.md); [Boolean and Predicate Logic](mathematics-logic/boolean-and-predicate-logic.md); [Algebra and Functions](mathematics-logic/algebra-and-functions.md); [Discrete Mathematics](mathematics-logic/discrete-mathematics.md); [Graph Theory](mathematics-logic/graph-theory.md); [Probability and Statistics](mathematics-logic/probability-and-statistics.md); [Units and Quantities](mathematics-logic/units-and-quantities.md) |
 | Scientific & Analytical Reasoning | [Observation](scientific-analytical-reasoning/observation.md); [Measurement](scientific-analytical-reasoning/measurement.md); [Evidence](scientific-analytical-reasoning/evidence.md); [Hypotheses and Experiments](scientific-analytical-reasoning/hypotheses-and-experiments.md); [Deduction, Induction, and Abduction](scientific-analytical-reasoning/deduction-induction-abduction.md); [Causality and Correlation](scientific-analytical-reasoning/causality-and-correlation.md); [Uncertainty and Confidence](scientific-analytical-reasoning/uncertainty-and-confidence.md); [Validation and Falsification](scientific-analytical-reasoning/validation-and-falsification.md) |
 | Models & Abstraction | [Entities and Attributes](models-abstraction/entities-and-attributes.md); [Identity and Distinction](models-abstraction/identity-and-distinction.md); [Relationships](models-abstraction/relationships.md); [Boundaries](models-abstraction/boundaries.md); [Abstraction](models-abstraction/abstraction.md); [Classification](models-abstraction/classification.md); [State, Events, and Transitions](models-abstraction/state-events-and-transitions.md); [Ontologies and Taxonomies](models-abstraction/ontologies-and-taxonomies.md); [Schemas](models-abstraction/schemas.md); [Conceptual and Formal Models](models-abstraction/conceptual-and-formal-models.md) |
-| Information & Data | [Symbols and Encoding](information-data/symbols-and-encoding.md); [Bits and Bytes](information-data/bits-and-bytes.md); [Information Theory](information-data/information-theory.md); [Data Types](information-data/data-types.md); [Datasets, Records, Fields, and Values](information-data/datasets-records-fields-and-values.md) |
+| Information & Data | [Symbols and Encoding](information-data/symbols-and-encoding.md); [Bits and Bytes](information-data/bits-and-bytes.md); [Information Theory](information-data/information-theory.md); [Data Types](information-data/data-types.md); [Datasets, Records, Fields, and Values](information-data/datasets-records-fields-and-values.md); [Data Structures and Formats](information-data/data-structures-and-formats.md); [Metadata](information-data/metadata.md); [Databases and Queries](information-data/databases-and-queries.md); [Data Provenance and Lifecycle](information-data/data-provenance-and-lifecycle.md) |
 | Digital Systems & Hardware | [Digital Logic](digital-systems-hardware/digital-logic.md) |
 | Systems & Engineering | [Systems and Subsystems](systems-engineering/systems-and-subsystems.md) |
 
@@ -46,20 +46,20 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 - [Schemas](models-abstraction/schemas.md)
 - [Conceptual and Formal Models](models-abstraction/conceptual-and-formal-models.md)
 
-The [Development & Verification Register v1.4](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks **109 approved headings**: **33 Reviewed (model-assisted)**, **4 Draft**, **72 Inventoried**. **26 of 26 Wave A subjects** now have substantive internally reviewed articles. Independent expert review, exhaustive source verification and final publication acceptance remain open.
+The [Development & Verification Register v1.5](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks **109 approved headings**: **37 Reviewed (model-assisted)**, **4 Draft**, **68 Inventoried**. **26 of 26 Wave A subjects** now have substantive internally reviewed articles. Independent expert review, exhaustive source verification and final publication acceptance remain open.
 
 ## Wave B Authoring
 
-**Information & Data is fully authored: nine of nine approved subjects now have references.** Five are Reviewed (model-assisted), including Symbols and Encoding and the four references audited in [Wave B Batch 01](WAVE-B-TECHNICAL-REVIEW-01.md).
+**Information & Data: 9/9 internally Reviewed.** The four Batch 02 subjects passed the [24-family technical audit](WAVE-B-TECHNICAL-REVIEW-02.md), completing the approved area's internal review. Human peer review, comprehensive source verification and publication acceptance remain separate.
 
-**Wave B Batch 02 Drafts** await their own technical audit:
+**Systems & Engineering: four Batch 03 substantive Drafts**, alongside the previously Reviewed Systems and Subsystems reference:
 
-- [Data Structures and Formats](information-data/data-structures-and-formats.md)
-- [Metadata](information-data/metadata.md)
-- [Databases and Queries](information-data/databases-and-queries.md)
-- [Data Provenance and Lifecycle](information-data/data-provenance-and-lifecycle.md)
+- [Components and Interfaces](systems-engineering/components-and-interfaces.md)
+- [Architecture and Composition](systems-engineering/architecture-and-composition.md)
+- [Dependencies](systems-engineering/dependencies.md)
+- [State and Behavior](systems-engineering/state-and-behavior.md)
 
-These are source-linked substantive drafts, not internally accepted or published articles. The remaining Wave B area development concerns Systems & Engineering and Human & Sociotechnical Systems. G-01, G-04 and G-06 remain unresolved.
+The four new systems articles await their own scoped technical review. Additional Systems & Engineering and Human & Sociotechnical Systems headings are still inventoried, not authored. G-01, G-04 and G-06 remain open scope decisions.
 
 ## Technical Audit Evidence
 
@@ -73,6 +73,7 @@ These are source-linked substantive drafts, not internally accepted or published
 - [Wave A Batch 06 Review](WAVE-A-TECHNICAL-REVIEW-06.md): 24 claim families.
 - [Wave A Batch 07 Review](WAVE-A-TECHNICAL-REVIEW-07.md): 30 claim families.
 - [Wave B Batch 01 Review](WAVE-B-TECHNICAL-REVIEW-01.md): 24 claim families.
+- [Wave B Batch 02 Review](WAVE-B-TECHNICAL-REVIEW-02.md): 24 claim families.
 
 **Reviewed** denotes a documented internal model-assisted technical/editorial evaluation, not independent human approval, a ratified graph predicate vocabulary, or completion of the seven Fundamentals gates. G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML remain outstanding architectural scope decisions.
 
@@ -137,7 +138,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 37 substantive reference articles (33 internally Reviewed, four Draft). Complete source validation and all seven corpus-wide completion gates remain open.
+**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 41 substantive reference articles (37 internally Reviewed, four Draft). Complete source validation and all seven corpus-wide completion gates remain open.
 
 ## Coverage Across Specialized Domains
 
