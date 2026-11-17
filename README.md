@@ -32,6 +32,10 @@ The approved navigation model is **Domain → Function → Implementation**. Fun
 
 These indexes are maintained for discovery and learning. They should point to canonical function or implementation documents instead of replicating them.
 
+## Publication Scope
+
+This repository is a **technical knowledge reference**. It contains concepts, explanations, mechanisms, examples, relationships, and references. It does **not** contain **Knowledge Checks** or **Practical Assessments**. Technical verification of factual claims is still part of maintaining the reference.
+
 ## Architectural Principles
 
 1. **One canonical home** for each documented subject.
