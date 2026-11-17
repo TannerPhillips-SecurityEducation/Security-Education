@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Human & Sociotechnical Systems](README.md)  
 **Approved subject heading:** Human-computer interaction  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source technical review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 05 audit](../WAVE-B-TECHNICAL-REVIEW-05.md); no independent human peer review
 
 ## Interaction is a relationship between a person and a system
 
@@ -75,6 +75,6 @@ This article does not prescribe a UI framework, application platform, visual sty
 - [SEBoK: Human Systems Integration](https://sebokwiki.org/wiki/Human_Systems_Integration).
 - [ISO 9241-11:2018, Usability: Definitions and Concepts](https://www.iso.org/standard/63500.html).
 
-**Editorial status:** Substantive Draft. The command-versus-outcome example is a stipulated model; technical and source review remain pending. No particular human-interaction methodology is imposed.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 05 technical audit](../WAVE-B-TECHNICAL-REVIEW-05.md). Complete standards verification, independent human expert review and final publication acceptance remain separate and pending.
 
 [Human & Sociotechnical Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
