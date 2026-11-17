@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Subject inventory only; canonical explanations and references are pending  
+**Content status:** Partially authored; individual references have distinct review states  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -32,11 +32,12 @@ The content belongs in Fundamentals only insofar as it is domain-agnostic. Secur
 
 ## Canonical reference articles
 
-- [Identity and distinction](identity-and-distinction.md) — Draft; source lists and technical examples provided, scoped review pending.
-- [Relationships](relationships.md) — Reviewed (model-assisted) in [Wave A Batch 02](../WAVE-A-TECHNICAL-REVIEW-02.md); external expert acceptance pending.
-- [Entities and attributes](entities-and-attributes.md) — Reviewed (model-assisted); final external acceptance pending.
-- [State, events, and transitions](state-events-and-transitions.md) — Reviewed (model-assisted); general temporality remains an open scope decision.
+- [Entities and attributes](entities-and-attributes.md) — Reviewed (model-assisted; [audit](../PILOT-CLAIM-SOURCE-AUDIT.md)); final human approval pending.
+- [Identity and distinction](identity-and-distinction.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-03.md)); final human approval pending.
+- [Relationships](relationships.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-02.md)); final human approval pending.
+- [Boundaries](boundaries.md) — Draft (references listed; claim-to-source review pending).
+- [State, events, and transitions](state-events-and-transitions.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-01.md)); final human approval pending.
 
-These references do not modify the approved subject inventory. Technical review records: [Pilots](../PILOT-CLAIM-SOURCE-AUDIT.md), [Wave A Batch 01](../WAVE-A-TECHNICAL-REVIEW-01.md), and [Wave A Batch 02](../WAVE-A-TECHNICAL-REVIEW-02.md). Reviewed indicates a scoped model-assisted assessment, not independent human peer review.
+These references do not alter the approved subject headings or imply independent human peer review. A **Draft** is not marked Reviewed until its own claim-to-source audit is completed.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
