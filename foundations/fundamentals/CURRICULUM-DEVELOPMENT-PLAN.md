@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v0.5; boundary decisions and ten gap dispositions documented, with three scope decisions still open
+**Document status:** Working plan v0.5; 20 conceptual ownership boundaries approved and ten gap dispositions documented, with three scope decisions still open
 **Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -38,7 +38,7 @@ The 109 headings are the **initial coverage baseline**, not proof that no additi
 
 ## Boundary and Gap-Resolution Milestones
 
-The [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) gives all ten candidate gaps working dispositions: seven assigned to existing approved headings **pending actual authoring**, with three architectural scope decisions unresolved. This is not a claim of complete coverage. Existing ownership boundary decisions remain working guidance.
+The [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) gives all ten candidate gaps working dispositions: seven assigned to existing approved headings **pending actual authoring**, with three architectural scope decisions unresolved. This is not a claim of complete coverage. The 20 ownership boundaries are approved as conceptual placement guidance, while specific technical claims remain subject to source verification.
 
 
 
@@ -186,7 +186,7 @@ No graph database or universal front-matter schema is required at this stage. Pr
 
 1. **Ratify the plan's process** as a working method without altering the already-approved 12-area taxonomy.
 2. **Review the 109-heading ownership register** against existing area READMEs, preserve the wording and taxonomy, and prepare a distinct progress register.
-3. **Apply the 20 working concept boundaries and ten-gap disposition register** during article scoping. Decide G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML separately before altering coverage or navigation.
+3. **Apply the 20 approved concept boundaries and ten-gap disposition register** during article scoping. Decide G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML separately before altering coverage or navigation.
 4. **Pilot six representative references**: *Sets and relations*, *Observation*, *Entities and attributes*, *Symbols and encoding*, *Systems and subsystems*, and *Digital logic*. Use this pilot to calibrate narrative depth, source rigor, and cross-links.
 5. **Review the pilot**, resolve editorial and architectural problems, and then develop Wave A through Wave E.
 6. **Audit each wave** for source accuracy, concept relationships, navigation, and relevance to all seven domains.
