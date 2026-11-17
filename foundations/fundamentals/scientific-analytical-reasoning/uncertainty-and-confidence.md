@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Scientific & Analytical Reasoning](README.md)  
 **Approved subject heading:** Uncertainty and confidence  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave A Batch 06 audit](../WAVE-A-TECHNICAL-REVIEW-06.md); no independent human review
 
 ## Knowledge has limits that must be represented
 
@@ -129,6 +129,6 @@ No one source of uncertainty can be eliminated simply by labeling a prediction �
 - [NIST/SEMATECH Engineering Statistics Handbook](https://www.itl.nist.gov/div898/handbook/).
 - [NIST: Sample mean, standard deviation and inference](https://www.itl.nist.gov/div898/handbook/prc/section2/prc22.htm).
 
-**Editorial status:** Authoring Draft. The proportion interval is an explicitly limited textbook-style example, not a claim about real inspection results. The terms epistemic, aleatory, confidence, calibration and measurement uncertainty require the documented source distinctions above. A scoped technical acceptance review remains pending.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Batch 06 technical audit](../WAVE-A-TECHNICAL-REVIEW-06.md). Not independently human peer reviewed, fully verified, or published.
 
 [Scientific & Analytical Reasoning](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
