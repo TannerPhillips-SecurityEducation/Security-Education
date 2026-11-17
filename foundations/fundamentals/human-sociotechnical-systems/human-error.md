@@ -7,7 +7,7 @@
 
 ## An error occurs in a system of people, tasks and conditions
 
-**Human error**, in a defined operational context, describes an action, omission, judgment or execution outcome that deviates from a relevant intention, plan, procedure or required result. The term does **not** by itself identify why the deviation occurred, whether the person was negligent, or whether a system design was adequate.
+**Human error**, in a defined operational context, describes an **unintended** action, omission or decision that deviates from a relevant intention or correct plan. An adverse outcome is not itself proof that a particular human error occurred. An **intentional procedural violation** is a distinct category of human failure in common safety-engineering frameworks, rather than an unintentional error. Neither label by itself establishes why the behavior occurred, whether a person was negligent, or whether the system design and procedures were adequate.
 
 Human-system failures can result from interacting causes: workload, ambiguity, equipment state, training, incentives, task design, interruptions, organizational pressures, hidden dependencies, incomplete procedures and individual choices. A meaningful analysis separates **what was observed**, **what was expected**, **what constraints applied**, and **what explanation evidence supports**.
 
@@ -31,7 +31,7 @@ If the system later reports Heater A as still enabled, that report is another ob
 
 ## Slips, mistakes, and violations require different evidence
 
-Some human-factors frameworks distinguish **slips** (unintended execution of a familiar action), **mistakes** (a plan or judgment that does not meet the relevant objective), and **violations** (intentional departures from a rule). These categories are context-dependent, and a violation is not automatically malicious or unjustified.
+Safety-engineering frameworks such as the [UK Health and Safety Executive's guidance on managing human failures](https://www.hse.gov.uk/humanfactors/topics/humanfail.htm) distinguish **slips** (unintended execution errors), **lapses** (memory-related omissions), **mistakes** (errors in planning or judgment), and **violations** (intentional departures from a rule or procedure). Violations are distinguished from unintentional errors; a violation is not automatically malicious, and identifying one does not by itself establish that the rule was practicable or appropriate.
 
 The same visible outcome can arise through several pathways. Clicking an incorrect button might be a slip, but selecting it intentionally because a label was misunderstood suggests a different mechanism. Choosing to depart from a procedure can reflect pressures, conflicting instructions, a broken procedure or deliberate misconduct. **Classification requires evidence about intention and context**, not just a failed outcome.
 
@@ -65,6 +65,7 @@ A well-grounded review distinguishes observations, missing data, explanations, r
 
 ### Sources
 
+- [UK Health and Safety Executive: Managing Human Failures](https://www.hse.gov.uk/humanfactors/topics/humanfail.htm).
 - [NASA: Human Performance and Error](https://www.nasa.gov/reference/5-0-human-performance-and-error-vol-2/).
 - [SEBoK: Human Systems Integration](https://sebokwiki.org/wiki/Human_Systems_Integration).
 - [NIST: Human-Centered Design](https://www.nist.gov/itl/iad/human-centered-technologies/human-factors-human-centered-design).
