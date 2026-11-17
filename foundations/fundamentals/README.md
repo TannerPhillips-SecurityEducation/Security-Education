@@ -25,6 +25,21 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 
 **Status distinction:** The 12 areas and 109 headings are approved. The detailed ownership boundaries, relationship descriptions, and coverage-gap dispositions are **working proposals**, not automatically ratified conceptual definitions. The register links to existing area indexes until canonical articles are written and verified.
 
+## First Canonical Reference Drafts
+
+Six substantive pilot articles have been committed to calibrate the reference-writing standard. They are **drafts**, with source links listed and independent review still pending.
+
+- [Sets and relations](mathematics-logic/sets-and-relations.md)
+- [Observation](scientific-analytical-reasoning/observation.md)
+- [Entities and attributes](models-abstraction/entities-and-attributes.md)
+- [Symbols and encoding](information-data/symbols-and-encoding.md)
+- [Systems and subsystems](systems-engineering/systems-and-subsystems.md)
+- [Digital logic](digital-systems-hardware/digital-logic.md)
+
+[**109-Subject Development & Verification Register**](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks all approved headings separately from draft status, reference listing, technical verification, and final publication.
+
+**Current authoring status:** 6 pilot drafts, 103 headings without canonical articles. No pilot is yet represented as independently reviewed or accepted as final.
+
 ## Development Plan of Action
 
 The [Curriculum Development Plan of Action](CURRICULUM-DEVELOPMENT-PLAN.md) is a working production roadmap for expanding the 109 inventoried subjects into an accurate, connected technical knowledge reference. It defines authoring waves, source requirements, editorial workflow, progress tracking, cross-domain integration, and completion gates. It excludes Knowledge Checks and Practical Assessments.
@@ -86,7 +101,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** The 12 knowledge areas and their 109 inventory headings have been implemented. This is **architectural scaffolding**, not confirmation that the coverage audit, canonical subject content, or technical verification gates have passed.
+**Current milestone:** The 12 areas and 109 headings are implemented, the 109-subject tracking register exists, and six pilot references have been drafted. This remains **work in progress**: the full corpus, cross-domain coverage audit, independent technical verification, and final completion gates are outstanding.
 
 ## Coverage Across Specialized Domains
 
