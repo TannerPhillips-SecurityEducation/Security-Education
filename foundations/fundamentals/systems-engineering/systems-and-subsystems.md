@@ -11,7 +11,7 @@ A **system** is a set of elements regarded as a whole because their interactions
 
 In engineering, systems may include people, physical equipment, software, procedures, information, and external services. The relevant system definition depends on what is being studied or built. A running software service, a transportation network, a manufacturing process, and a scientific instrument can each be treated as a system for a specified investigation.
 
-NASA describes a system as elements functioning together to produce a required capability, and its systems-engineering guidance emphasizes both system elements and interfaces. See the [NASA Systems Engineering Handbook appendix](https://www.nasa.gov/reference/system-engineering-handbook-appendix/).
+NASA describes a system as elements functioning together to produce a required capability, and its systems-engineering guidance emphasizes both elements and their relationships. See [NASA Systems Engineering Handbook: Fundamentals of Systems Engineering](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/).
 
 A system can be analyzed without assuming it is physically enclosed, isolated, or owned by one organization. What counts as its environment depends on the **system of interest** and its chosen boundary.
 
@@ -76,7 +76,7 @@ The general formal treatment of relations belongs in [Sets and relations](../mat
 
 ## Systems-of-systems and boundary changes
 
-Sometimes multiple independently operable systems cooperate to provide a higher-level capability. A **system of systems** is a context-dependent engineering concept in which constituent systems retain significant operational and managerial independence; it should not simply mean any system that has subsystems.
+Sometimes multiple independently operable systems cooperate to provide a higher-level capability. A **system of systems** is a context-dependent engineering concept in which constituent systems retain significant operational and managerial independence; it should not simply mean any system that has subsystems. [SEBoK's discussion of Systems of Systems](https://sebokwiki.org/wiki/Systems_of_Systems_%28SoS%29) identifies operational and managerial independence as especially important distinguishing characteristics.
 
 For example, independently managed transportation, communications, and energy systems may jointly support a city-scale operation. Modeling their coordination requires attention to governance, trust, dependencies, and separate operational lifecycles. Their interfaces and relationships cannot be reduced to a single physical containment tree.
 
@@ -101,10 +101,10 @@ Those broader links currently lead to existing approved area indexes until canon
 ## References and verification status
 
 - [NASA Systems Engineering Handbook: Definitions and appendices](https://www.nasa.gov/reference/system-engineering-handbook-appendix/).
-- [NASA Systems Engineering Processes and Requirements](https://nodis3.gsfc.nasa.gov/displayAll.cfm?Internal_ID=N_PR_7123_001B_&page_name=ALL), for engineering design and interface distinctions.
-- [NASA Software Engineering Handbook: Definitions](https://swehb.nasa.gov/spaces/7150/pages/16449772/7.17%2B-%2B7150.2A%2BAppendices%2BDefinitions%2BReferences%2Betc.), including system and subsystem terms.
-- [SEBoK overview](https://www.computer.org/education/bodies-of-knowledge/systems-engineering), describing the systems-engineering field and lifecycle.
+- [NASA Systems Engineering Handbook: Fundamentals](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/), for whole-system properties, system elements and their relationships.
+- [SEBoK: Systems of Systems](https://sebokwiki.org/wiki/Systems_of_Systems_%28SoS%29), for the independence characteristics of systems of systems.
+- [SEBoK: Main reference](https://sebokwiki.org/wiki/Main_Page), for broader systems-engineering concepts.
 
-**Review note:** This article synthesizes engineering concepts from the cited references. The building example and decomposition are illustrative, not a NASA-prescribed architecture. Full technical and editorial verification remains pending.
+**Review record:** The system, subsystem, boundary, interface and systems-of-systems distinctions were checked against NASA's HTML Systems Engineering Handbook and SEBoK. An obsolete NASA procedural reference and an outdated software-handbook appendix have been replaced. The building example is illustrative, not a NASA-prescribed architecture. This remains a source-checked draft pending final editorial acceptance.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Governing Architecture](../ARCHITECTURE.md)
