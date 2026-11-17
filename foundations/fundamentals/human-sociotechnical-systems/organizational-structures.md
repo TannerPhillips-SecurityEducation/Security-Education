@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Human & Sociotechnical Systems](README.md)  
 **Approved subject heading:** Organizational structures  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source technical review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 05 audit](../WAVE-B-TECHNICAL-REVIEW-05.md); no independent human peer review
 
 ## An organization arranges roles, authority and relationships
 
@@ -78,6 +78,6 @@ No organizational chart template, management doctrine, mandatory governance mode
 - [SEBoK: Human Systems Integration](https://sebokwiki.org/wiki/Human_Systems_Integration).
 - [National Academies: Collaborating Responsibly](https://nap.nationalacademies.org/pubs/29488/versions/v1.0/modules/module-2.html).
 
-**Editorial status:** Substantive Draft. The release handoff and role allocation are invented models; a separate scoped technical/source review is required. No organizational authority is prescribed for the repository by this article.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 05 technical audit](../WAVE-B-TECHNICAL-REVIEW-05.md). Complete standards verification, independent human expert review and final publication acceptance remain separate and pending.
 
 [Human & Sociotechnical Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
