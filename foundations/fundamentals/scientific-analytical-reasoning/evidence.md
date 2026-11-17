@@ -11,7 +11,7 @@
 
 Evidence is not equivalent to **truth** or **proof**. A fact can provide some evidential support for a hypothesis without establishing it conclusively, and a valid-looking record may be inaccurate or misleading. The [Stanford Encyclopedia of Philosophy's entry on Evidence](https://plato.stanford.edu/entries/evidence/) documents competing philosophical accounts of what counts as evidence and how it bears upon justified belief. This article uses a pragmatic, claim-relative definition for technical reasoning, not a universal metaphysical resolution.
 
-An observation produces or recognizes information under particular conditions. A record represents information. The same record becomes **evidentially relevant** only in relation to a question or claim and after its reliability and context have been considered. The [Observation](observation.md) article develops the observational side of this distinction.
+An observation produces or recognizes information under particular conditions. A record represents information. The same record's **evidential relevance** depends on the question or claim; **reliability** is a distinct consideration that affects the weight we should give the evidence. An unreliable record can still be relevant, and a reliable record can still be irrelevant. The [Observation](observation.md) article develops the observational side of this distinction.
 
 ## Claim, evidence, and inference
 
@@ -82,7 +82,7 @@ The canonical general treatment of [Data Provenance and Lifecycle](../informatio
 
 Probability and statistics can sometimes express the strength of evidential support, but there is no universal numeric conversion from every observation to a degree of belief. Bayesian updating, likelihood comparisons, classical statistical testing and qualitative confidence assessments answer different questions with different assumptions.
 
-A test's low *p*-value, for example, does not directly mean that the tested hypothesis has an equally low probability of being true. Such an interpretation requires a specified inferential framework and relevant assumptions. Similarly, *high confidence* expressed in a report should communicate the basis and limitations of the judgment, not just a label.
+A test's low *p*-value, for example, does **not** give the probability that the null hypothesis is true. A *p*-value expresses how extreme specified data or a test statistic would be under a chosen statistical model and null-hypothesis assumptions. The [American Statistical Association's explanation](https://doi.org/10.1080/00031305.2016.1154108) explicitly distinguishes *p*-values from probabilities of hypotheses. Similarly, *high confidence* expressed in a report should communicate the basis and limitations of the judgment, not just a label.
 
 Our [Probability and Statistics](../mathematics-logic/README.md) heading owns the mathematical models, while [Uncertainty and Confidence](README.md) owns interpretation and knowledge limits.
 
@@ -107,7 +107,8 @@ The example illustrates that the same data can support a narrow claim while leav
 - [Stanford Encyclopedia of Philosophy: Evidence](https://plato.stanford.edu/entries/evidence/), multiple epistemic accounts of evidence and its significance.
 - [Stanford Encyclopedia of Philosophy: Theory and Observation in Science](https://plato.stanford.edu/entries/science-theory-observation/), observation reports, theory and empirical justification.
 - [NIST: Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty), instrument-mediated measurement and limitations.
+- [American Statistical Association: Statement on *p*-values](https://doi.org/10.1080/00031305.2016.1154108), for correct interpretation of *p*-values and inferential limits.
 
-**Editorial state:** This is an original technical-reference synthesis, not a legally binding evidentiary standard or a formal knowledge-check activity. The illustrative claim/evidence examples require scoped acceptance review before promotion beyond Draft.
+**Editorial state:** This is an original technical-reference synthesis, not a legally binding evidentiary standard or an assessment activity. The relevance/reliability distinction and statistical language have been corrected against the cited references. The Wave A audit records scope, evidence, and remaining editorial limitations.
 
 [Scientific & Analytical Reasoning](README.md) · [Fundamentals](../README.md) · [Pilot claim audit](../PILOT-CLAIM-SOURCE-AUDIT.md)
