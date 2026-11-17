@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Models & Abstraction](README.md)  
 **Approved subject heading:** Schemas  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md); no independent human peer review
 
 ## A schema states expectations for a representation
 
@@ -102,6 +102,6 @@ This article introduces no universal schema for the repository, no required reco
 - [W3C Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/).
 - [W3C OWL 2 Overview](https://www.w3.org/TR/owl2-overview/).
 
-**Editorial status:** Substantive draft; tool/dialect claims and worked examples require scoped second-pass source verification. No publication acceptance implied.
+**Editorial status:** Reviewed (model-assisted) following the [Batch 07 scoped 30-family technical review](../WAVE-A-TECHNICAL-REVIEW-07.md). Complete source verification, independent human peer review and final publication approval remain open.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
