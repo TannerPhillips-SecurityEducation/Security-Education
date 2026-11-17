@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v0.2. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
+**Status:** Working architectural register v0.3. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
 
 This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
 
@@ -9,7 +9,7 @@ This register connects the existing subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** Links to subjects with existing pilot articles now point directly to the **draft canonical article**; other links still lead to live **area indexes** until their individual articles exist. A direct link does **not** imply verified or final publication.
+- **Links:** Existing references now point directly to the **six reviewed (model-assisted) pilot articles** and **three additional Wave A drafts** where available; other subjects still link to their area indexes. No direct link alone implies independent human validation or final publication.
 - **Granularity:** One heading may require multiple articles, and a single well-scoped explanation can serve more than one heading. Do not assume 109 headings equal 109 indivisible concepts.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -21,8 +21,8 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
 | **Numbers and numerical systems** | Abstract number sets, arithmetic, order, and positional notation | *represented digitally by* → [Bits and bytes](information-data/README.md) |
-| **Sets and relations** | [Draft canonical article](mathematics-logic/sets-and-relations.md) · Membership, subsets, and formally defined binary relations | *applied as conceptual* → [Relationships](models-abstraction/README.md) |
-| **Boolean and predicate logic** | Truth functions, predicates, quantification, entailment, and logical validity | *implemented electronically through* → [Digital logic](digital-systems-hardware/digital-logic.md) |
+| **Sets and relations** | [Reviewed canonical article](mathematics-logic/sets-and-relations.md) · Membership, subsets, and formally defined binary relations | *applied as conceptual* → [Relationships](models-abstraction/README.md) |
+| **Boolean and predicate logic** | [Draft canonical article](mathematics-logic/boolean-and-predicate-logic.md) · Truth functions, predicates, quantification, entailment, and logical validity | *implemented electronically through* → [Digital logic](digital-systems-hardware/digital-logic.md) |
 | **Algebra and functions** | Mappings, variables, expressions, equations, and function composition | *supports mathematical formulation of* → [Algorithms](computation-algorithms/README.md) |
 | **Discrete mathematics** | Finite structures, counting, recurrences, and mathematical induction | *supports construction of* → [Algorithm design](computation-algorithms/README.md) |
 | **Graph theory** | Vertices, edges, paths, connectivity, and hierarchical structures | *models* → [Dependencies](systems-engineering/README.md) |
@@ -33,11 +33,11 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Observation** | [Draft canonical article](scientific-analytical-reasoning/observation.md) · Acquisition of phenomena, observer scope, and observational limitations | *can supply* → [Evidence](scientific-analytical-reasoning/README.md) |
+| **Observation** | [Reviewed canonical article](scientific-analytical-reasoning/observation.md) · Acquisition of phenomena, observer scope, and observational limitations | *can supply* → [Evidence](scientific-analytical-reasoning/evidence.md) |
 | **Measurement** | Operational quantification, instrument calibration, and measurement uncertainty | *uses* → [Units and quantities](mathematics-logic/README.md) |
-| **Evidence** | Relevance, sufficiency, provenance, and support for claims | *may require* → [Data provenance and lifecycle](information-data/README.md) |
+| **Evidence** | [Draft canonical article](scientific-analytical-reasoning/evidence.md) · Relevance, sufficiency, provenance, and support for claims | *may require* → [Data provenance and lifecycle](information-data/README.md) |
 | **Hypotheses and experiments** | Testable claims, experimental controls, confounders, and replication | *used to investigate* → [Causality and correlation](scientific-analytical-reasoning/README.md) |
-| **Deduction, induction, and abduction** | Deductive entailment, inductive generalization, and abductive explanation | *draws on formal* → [Boolean and predicate logic](mathematics-logic/README.md) |
+| **Deduction, induction, and abduction** | Deductive entailment, inductive generalization, and abductive explanation | *draws on formal* → [Boolean and predicate logic](mathematics-logic/boolean-and-predicate-logic.md) |
 | **Causality and correlation** | Association, causal effects, interventions, and confounding | *uses* → [Probability and statistics](mathematics-logic/README.md) |
 | **Uncertainty and confidence** | Known limits, estimates, epistemic uncertainty, and calibrated confidence | *partly quantified using* → [Probability and statistics](mathematics-logic/README.md) |
 | **Validation and falsification** | Empirical claim criticism, refutation, replication, and model revision | *distinct from engineering* → [Verification and validation](systems-engineering/README.md) |
@@ -46,7 +46,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Entities and attributes** | [Draft canonical article](models-abstraction/entities-and-attributes.md) · General entities, properties, values, and type-versus-instance distinctions | *represented in data by* → [Datasets, records, fields, and values](information-data/README.md) |
+| **Entities and attributes** | [Reviewed canonical article](models-abstraction/entities-and-attributes.md) · General entities, properties, values, and type-versus-instance distinctions | *represented in data by* → [Datasets, records, fields, and values](information-data/README.md) |
 | **Identity and distinction** | Sameness, difference, reference, and persistence through change | *specialized for communication in* → [Addressing and naming](communication-distributed-systems/README.md) |
 | **Relationships** | General associations, direction, cardinality, and context qualification | *formalized in* → [Sets and relations](mathematics-logic/sets-and-relations.md) |
 | **Boundaries** | Inclusion, exclusion, separation, limitations, and interface distinctions | *used to delimit* → [Systems and subsystems](systems-engineering/systems-and-subsystems.md) |
@@ -54,7 +54,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Classification** | Criteria for categories, classes, membership, and differentiation | *organized into* → [Ontologies and taxonomies](models-abstraction/README.md) |
 | **Ontologies and taxonomies** | Conceptual categories, kinds, and typed semantic relations | *may be constrained by* → [Schemas](models-abstraction/README.md) |
 | **Schemas** | Representation constraints, fields, structures, and admissible values | *applied in* → [Data structures and formats](information-data/README.md) |
-| **State, events, and transitions** | General state descriptions, events, and transitions between conditions | *specialized as system* → [State and behavior](systems-engineering/README.md) |
+| **State, events, and transitions** | [Draft canonical article](models-abstraction/state-events-and-transitions.md) · General state descriptions, events, and transitions between conditions | *specialized as system* → [State and behavior](systems-engineering/README.md) |
 | **Conceptual and formal models** | Models, assumptions, formalization, abstraction fidelity, and interpretation | *evaluated through* → [Validation and falsification](scientific-analytical-reasoning/README.md) |
 
 ## 04. Physical & Electrical Principles (9 headings)
@@ -75,7 +75,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Symbols and encoding** | [Draft canonical article](information-data/symbols-and-encoding.md) · Symbol systems, mappings, character codes, and representations | *realized digitally as* → [Bits and bytes](information-data/README.md) |
+| **Symbols and encoding** | [Reviewed canonical article](information-data/symbols-and-encoding.md) · Symbol systems, mappings, character codes, and representations | *realized digitally as* → [Bits and bytes](information-data/README.md) |
 | **Bits and bytes** | Binary digits, byte grouping, and digital representation units | *grounded in numerical* → [Numbers and numerical systems](mathematics-logic/README.md) |
 | **Information theory** | Entropy, information content, and theoretical communication constraints | *constrains* → [Communication channels](communication-distributed-systems/README.md) |
 | **Data types** | Value domains, types, constraints, and interpretation | *used in* → [Programming languages](software-programming/README.md) |
@@ -83,13 +83,13 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Data structures and formats** | Logical containers, structured formats, serialization, and data representations | *distinct from operational* → [Computational data structures](computation-algorithms/README.md) |
 | **Metadata** | Descriptions of structure, semantics, context, and lineage | *supports* → [Data provenance and lifecycle](information-data/README.md) |
 | **Databases and queries** | Data persistence, logical models, query operations, and retrieval concepts | *uses* → [Data structures and formats](information-data/README.md) |
-| **Data provenance and lifecycle** | Origin, lineage, transformation, retention, and change history | *supports evaluation of* → [Evidence](scientific-analytical-reasoning/README.md) |
+| **Data provenance and lifecycle** | Origin, lineage, transformation, retention, and change history | *supports evaluation of* → [Evidence](scientific-analytical-reasoning/evidence.md) |
 
 ## 06. Digital Systems & Hardware (9 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Digital logic** | [Draft canonical article](digital-systems-hardware/digital-logic.md) · Physical switching systems implementing logical and sequential behavior | *realizes* → [Boolean and predicate logic](mathematics-logic/README.md) |
+| **Digital logic** | [Reviewed canonical article](digital-systems-hardware/digital-logic.md) · Physical switching systems implementing logical and sequential behavior | *realizes* → [Boolean and predicate logic](mathematics-logic/boolean-and-predicate-logic.md) |
 | **Computing components** | Hardware organization of processors, memory, peripherals, and interconnects | *is a type of* → [Systems and subsystems](systems-engineering/systems-and-subsystems.md) |
 | **Processors and instruction sets** | Processor execution organization, instruction encoding, and ISA models | *is a target of* → [Compilation and interpretation](software-programming/README.md) |
 | **Memory and storage** | Volatile and nonvolatile storage media, latency, and memory hierarchy | *managed abstractly by* → [Memory management](operating-system-principles/README.md) |
@@ -138,7 +138,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Memory management** | Virtual addressing, allocation, page translation, and memory protection | *manages* → [Memory and storage](digital-systems-hardware/README.md) |
 | **Filesystems** | Persistent file/directory organization, access paths, and metadata | *implements structured storage for* → [Data structures and formats](information-data/README.md) |
 | **Drivers and devices** | Operating-system abstractions for hardware device operations | *uses* → [Buses and interfaces](digital-systems-hardware/README.md) |
-| **Execution contexts** | Privilege modes, environments, address spaces, and executing state | *specializes* → [State, events, and transitions](models-abstraction/README.md) |
+| **Execution contexts** | Privilege modes, environments, address spaces, and executing state | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
 | **System initialization** | Boot sequence, firmware handoff, kernel start, and service initialization | *follows* → [Firmware](digital-systems-hardware/README.md) |
 | **Resource management** | Allocation, quotas, accounting, and contention for shared system resources | *constrains* → [Computational efficiency](computation-algorithms/README.md) |
 
@@ -153,18 +153,18 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Addressing and naming** | Names, locators, address scopes, binding, and resolution | *extends reference concepts in* → [Identity and distinction](models-abstraction/README.md) |
 | **Latency and throughput** | Delay, data rates, queueing, jitter, and performance measures | *uses* → [Units and quantities](mathematics-logic/README.md) |
 | **Reliability and ordering** | Message loss, duplication, delivery guarantees, acknowledgements, and ordering | *extends system* → [Reliability and failure](systems-engineering/README.md) |
-| **Distributed state** | Replication, consistency, clocks, and partial-failure uncertainty | *specializes* → [State, events, and transitions](models-abstraction/README.md) |
+| **Distributed state** | Replication, consistency, clocks, and partial-failure uncertainty | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
 | **Synchronization and coordination** | Coordination among autonomous processes through ordering, clocks, and agreement | *extends computational* → [Synchronization](computation-algorithms/README.md) |
 
 ## 11. Systems & Engineering (11 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Systems and subsystems** | [Draft canonical article](systems-engineering/systems-and-subsystems.md) · Systems of interest, environments, nested wholes, and subsystem organization | *defined using* → [Boundaries](models-abstraction/README.md) |
+| **Systems and subsystems** | [Reviewed canonical article](systems-engineering/systems-and-subsystems.md) · Systems of interest, environments, nested wholes, and subsystem organization | *defined using* → [Boundaries](models-abstraction/README.md) |
 | **Components and interfaces** | System components, responsibilities, interfaces, and their contracts | *instantiates* → [Relationships](models-abstraction/README.md) |
 | **Architecture and composition** | Composition, decomposition, architectural views, patterns, and tradeoffs | *represented through* → [Conceptual and formal models](models-abstraction/README.md) |
 | **Dependencies** | Necessary relationships, constraints, propagation, and critical paths | *represented with* → [Graph theory](mathematics-logic/README.md) |
-| **State and behavior** | Whole-system states, outputs, changes, invariants, and dynamic behavior | *applies* → [State, events, and transitions](models-abstraction/README.md) |
+| **State and behavior** | Whole-system states, outputs, changes, invariants, and dynamic behavior | *applies* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
 | **Feedback and control** | Feedback loops, sensors, controllers, stability, and control objectives | *applies physical* → [Physical control mechanisms](physical-electrical-principles/README.md) |
 | **Emergence and complexity** | Whole-system emergent behavior and nonlinearity | *distinct from algorithmic* → [Complexity](computation-algorithms/README.md) |
 | **Reliability and failure** | Faults, failures, availability, redundancy, maintainability, and recovery | *quantifiable using* → [Probability and statistics](mathematics-logic/README.md) |
@@ -177,7 +177,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
 | **Human cognition and perception** | Human attention, memory, perception, interpretation, and cognitive limits | *shapes* → [Human-computer interaction](human-sociotechnical-systems/README.md) |
-| **Decision-making** | Choice under constraints, incomplete knowledge, uncertainty, and goals | *informed by* → [Evidence](scientific-analytical-reasoning/README.md) |
+| **Decision-making** | Choice under constraints, incomplete knowledge, uncertainty, and goals | *informed by* → [Evidence](scientific-analytical-reasoning/evidence.md) |
 | **Human-computer interaction** | People interacting with software, devices, and whole technical systems | *evaluated for* → [Usability and accessibility](human-sociotechnical-systems/README.md) |
 | **Usability and accessibility** | Inclusive, usable, effective, and accessible human-system experiences | *informs* → [Requirements](systems-engineering/README.md) |
 | **Human error** | Human mistakes, slips, and organizational conditions contributing to error | *may affect* → [Reliability and failure](systems-engineering/README.md) |
@@ -187,7 +187,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 ## Canonical article integration
 
-**Six approved pilot headings now have direct links to their substantive draft articles.** This is a navigation improvement only: technical review and final publication status remain pending. The 109 approved subject headings and illustrative relationship rows are unchanged.
+Six pilot subject headings now link to **Reviewed** articles under the [scoped 50-family claim audit](PILOT-CLAIM-SOURCE-AUDIT.md), and three Wave A headings link to additional **Draft** articles. The explicit subject names, area ownership, 109 approved headings, and graph vocabulary remain unchanged. External publication acceptance and complete corpus verification are still outstanding.
 
 ## Register integrity
 
