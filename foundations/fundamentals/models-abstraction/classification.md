@@ -65,7 +65,7 @@ Classification is the act of assigning or grouping subjects according to criteri
 
 The W3C [Simple Knowledge Organization System (SKOS)](https://www.w3.org/TR/skos-reference/) provides a standardized representation for concepts, labels, broader/narrower and related links, concept schemes and collections. The [OWL 2 Overview](https://www.w3.org/TR/owl2-overview/) describes a more formal ontology language with classes, properties, individuals and logical semantics.
 
-**SKOS broader/narrower links are not automatically OWL subclass axioms.** A navigational or thesaurus hierarchy can represent conceptual organization without committing to every logical consequence of a strict class-subsumption relationship. The canonical theory of the future canonical article on **Ontologies and Taxonomies** will develop this distinction further.
+**SKOS broader/narrower links are not automatically OWL subclass axioms.** A navigational or thesaurus hierarchy can represent conceptual organization without committing to every logical consequence of a strict class-subsumption relationship. The planned **Ontologies and Taxonomies** reference will develop this distinction further.
 
 No repository-specific SKOS or OWL implementation is hereby introduced or approved. These standards are reference examples of distinct ways to represent knowledge.
 
@@ -119,7 +119,7 @@ Different failure modes should be kept distinct:
 
 An erroneous classification does not necessarily mean the subject changed, or that its identity was incorrectly established. The error may be in observation, representation, mapping, or inference.
 
-[Observation](../scientific-analytical-reasoning/observation.md), [Evidence](../scientific-analytical-reasoning/evidence.md), [Measurement](../scientific-analytical-reasoning/measurement.md) and the future canonical **Schemas** article will provide the neighboring concepts.
+[Observation](../scientific-analytical-reasoning/observation.md), [Evidence](../scientific-analytical-reasoning/evidence.md), [Measurement](../scientific-analytical-reasoning/measurement.md) and the planned **Schemas** reference cover neighboring concepts.
 
 ## Worked example: two independent facets
 
