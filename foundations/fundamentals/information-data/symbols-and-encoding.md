@@ -41,7 +41,7 @@ UTF-8 is variable length. It uses one byte for ASCII-range code points and two, 
 
 UTF-8 encodes sequences of **Unicode scalar values**, not font shapes, linguistic meaning, or the memory layout of an arbitrary program data structure. Its variable width means that counting bytes does not generally tell you the number of Unicode characters, and counting code points does not always tell you the number of user-perceived grapheme clusters.
 
-For example, the visually similar text `é` can be represented by a single code point `U+00E9`, or by `U+0065 U+0301` (Latin small `e` followed by a combining acute accent). Their UTF-8 byte streams differ: `C3 A9` versus `65 CC 81`.
+For example, the canonically equivalent text `é` can be represented by a single code point `U+00E9`, or by `U+0065 U+0301` (Latin small `e` followed by a combining acute accent). Their UTF-8 byte streams differ: `C3 A9` versus `65 CC 81`.
 
 **Unicode normalization** offers standard procedures for bringing canonically equivalent representations into a consistent form where appropriate, including the canonical NFC and NFD normalization forms. The [Unicode Normalization Forms specification (UAX #15)](https://www.unicode.org/reports/tr15/) defines these transformations. Normalization is not the same operation as case folding, translation, or rendering, and applications need to specify which comparisons they intend.
 
@@ -89,6 +89,8 @@ The foundational treatment of [Bits and bytes](README.md) concerns digital units
 - [The Unicode Standard: Version history and current references](https://www.unicode.org/versions/), for version-specific and version-independent citations.
 - [RFC 3629: UTF-8, a transformation format of ISO 10646](https://www.rfc-editor.org/rfc/rfc3629).
 - [Unicode Standard Annex #15: Normalization Forms](https://www.unicode.org/reports/tr15/), for NFC, NFD and canonical equivalence.
+- [Unicode Standard Annex #29: Text Segmentation](https://www.unicode.org/reports/tr29/), distinguishing Unicode code points from user-perceived grapheme clusters.
+- [RFC 8259: JSON Data Interchange Format](https://www.rfc-editor.org/rfc/rfc8259), for string-escape rules distinct from the UTF-8 byte encoding.
 - [W3C: RDF 1.1 Concepts](https://www.w3.org/TR/rdf11-concepts/), illustrating how encoded representations can be associated with structured statements and interpretations.
 
 **Review record:** The UTF-8 byte examples, precomposed/decomposed text and NFC normalization were checked programmatically and against RFC 3629 and Unicode's published specifications. The distinction between Unicode scalar values, code points, glyphs, syntax and meaning remains explicit. This is a source-checked draft pending final editorial acceptance.
