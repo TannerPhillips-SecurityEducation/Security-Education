@@ -9,7 +9,7 @@
 
 A **symbol** is a mark, character, token, or other distinguishable element used in a system of representation. An **encoding** specifies how elements of one representation are mapped into another form so they can be stored, communicated, or processed.
 
-The letter `A`, the number 65, the binary pattern `01000001`, and the byte `0x41` may be related under a chosen encoding. But none of those representations has the same interpretation in every context. A byte with hexadecimal value `41` represents the character `A` in ASCII and UTF-8; in another data format, it may simply be an integer value or part of an unrelated binary field.
+The letter `A`, the number 65, the binary pattern `01000001`, and the byte `0x41` may be related under a chosen encoding. But none of those representations has the same interpretation in every context. When interpreted as ASCII or as a single-byte UTF-8 sequence, a byte with hexadecimal value `41` represents the character `A`; in another data format, the same byte may be an integer value or part of an unrelated binary field.
 
 A representation therefore requires **rules of interpretation**. Without them, a sequence of bytes does not necessarily disclose whether it encodes text, an image, a numeric value, an instruction, or a mixture.
 
@@ -39,11 +39,11 @@ UTF-8 is variable length. It uses one byte for ASCII-range code points and two, 
 | `é` (precomposed) | `U+00E9` | `C3 A9` |
 | `€` | `U+20AC` | `E2 82 AC` |
 
-UTF-8 encodes **code points**, not font shapes, linguistic meaning, or the memory layout of an arbitrary program data structure. Its variable width means that counting bytes does not generally tell you the number of Unicode characters, and counting code points does not always tell you the number of user-perceived grapheme clusters.
+UTF-8 encodes sequences of **Unicode scalar values**, not font shapes, linguistic meaning, or the memory layout of an arbitrary program data structure. Its variable width means that counting bytes does not generally tell you the number of Unicode characters, and counting code points does not always tell you the number of user-perceived grapheme clusters.
 
 For example, the visually similar text `é` can be represented by a single code point `U+00E9`, or by `U+0065 U+0301` (Latin small `e` followed by a combining acute accent). Their UTF-8 byte streams differ: `C3 A9` versus `65 CC 81`.
 
-**Unicode normalization** offers standard procedures for bringing canonically equivalent representations into a consistent form where appropriate. Normalization is not the same operation as case folding, translation, or rendering, and applications need to specify which comparisons they intend.
+**Unicode normalization** offers standard procedures for bringing canonically equivalent representations into a consistent form where appropriate, including the canonical NFC and NFD normalization forms. The [Unicode Normalization Forms specification (UAX #15)](https://www.unicode.org/reports/tr15/) defines these transformations. Normalization is not the same operation as case folding, translation, or rendering, and applications need to specify which comparisons they intend.
 
 The [Unicode Standard](https://www.unicode.org/versions/latest/) provides the normative character model; [RFC 3629](https://www.rfc-editor.org/rfc/rfc3629) specifies UTF-8 for the Internet standards context and addresses malformed sequences and compatibility.
 
@@ -86,10 +86,11 @@ The foundational treatment of [Bits and bytes](README.md) concerns digital units
 ## References and verification status
 
 - [The Unicode Standard: Technical introduction and principles](https://www.unicode.org/standard/principles.html).
-- [The Unicode Standard: Latest version](https://www.unicode.org/versions/latest/).
+- [The Unicode Standard: Version history and current references](https://www.unicode.org/versions/), for version-specific and version-independent citations.
 - [RFC 3629: UTF-8, a transformation format of ISO 10646](https://www.rfc-editor.org/rfc/rfc3629).
+- [Unicode Standard Annex #15: Normalization Forms](https://www.unicode.org/reports/tr15/), for NFC, NFD and canonical equivalence.
 - [W3C: RDF 1.1 Concepts](https://www.w3.org/TR/rdf11-concepts/), illustrating how encoded representations can be associated with structured statements and interpretations.
 
-**Review note:** The UTF-8 examples can be independently checked against the cited encoding specification. Broader claims about text meaning, Unicode grapheme handling, and normalization should be assessed during technical review; the existence of citations alone does not mark the reference Verified.
+**Review record:** The UTF-8 byte examples, precomposed/decomposed text and NFC normalization were checked programmatically and against RFC 3629 and Unicode's published specifications. The distinction between Unicode scalar values, code points, glyphs, syntax and meaning remains explicit. This is a source-checked draft pending final editorial acceptance.
 
 [Information & Data](README.md) · [Fundamentals](../README.md) · [Concept boundary decisions](../CONCEPT-BOUNDARY-DECISIONS.md)
