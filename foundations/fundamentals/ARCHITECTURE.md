@@ -109,6 +109,7 @@ The Fundamentals body of knowledge is complete only after satisfying the [seven 
 
 - [Canonical Ownership & Relationship Register (working review)](CANONICAL-OWNERSHIP-REGISTER.md)
 - [Concept Overlap & Coverage Review (working review)](CONCEPT-OVERLAP-REVIEW.md)
+- [Canonical Concept Boundary Decisions (working resolutions)](CONCEPT-BOUNDARY-DECISIONS.md)
 - [Fundamentals index and approved areas](README.md)
 - [Curriculum Development Plan of Action](CURRICULUM-DEVELOPMENT-PLAN.md)
 - [Repository-wide relationship conventions](../../RELATIONSHIPS.md)
