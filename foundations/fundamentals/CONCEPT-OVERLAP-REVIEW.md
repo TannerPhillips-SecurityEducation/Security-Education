@@ -1,6 +1,6 @@
 # Fundamentals: Concept Overlap and Coverage Review
 
-**Status:** Working architectural review register, v0.2. The 20 overlaps now have proposed working boundary resolutions. The 10 coverage questions remain open; no new areas, headings, or graph predicates are ratified.
+**Status:** Working architectural review register, v0.3. The 20 overlaps now have proposed working boundary resolutions. The 10 coverage questions remain open; no new areas, headings, or graph predicates are ratified.
 
 The approved baseline is 12 knowledge areas and 109 subject headings. The ownership boundaries below are **proposed decisions for review**. They are not evidence that the underlying canonical concept articles already exist.
 
@@ -37,6 +37,8 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) docume
 
 ## Ten candidate coverage questions
 
+**Working dispositions:** See the [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md): seven candidates are assigned to existing approved headings for authoring and three (mathematics breadth, general temporality, AI/ML) require explicit architectural decisions. **No canonical articles are thereby completed, and no new headings have been approved.**
+
 These are **open questions**, not approved new sections.
 
 | Candidate gap | Investigate within | Decision needed |
@@ -52,7 +54,7 @@ These are **open questions**, not approved new sections.
 | Scientific and engineering validation | Scientific Reasoning; Systems & Engineering; Software & Programming | Clarify experimental falsification, requirements verification, acceptance, and software testing. |
 | Lifecycle evolution and versioning | Information & Data; Software & Programming; Systems & Engineering | Separate data, software, schema, and whole-system evolution and versioning. |
 
-For every candidate, record one of three outcomes when reviewed: **covered by an existing approved heading**, **deferred with rationale**, or **requires separate architectural approval**. None of those dispositions has been formally chosen yet.
+Every candidate now has a **working placement disposition** in the linked register. Those placements are not evidence of finished content; the three architectural-decision cases remain open until separately approved.
 
 ## Relationship safeguards
 
