@@ -1,8 +1,8 @@
 # Fundamentals: Six-Pilot Technical and Editorial Review
 
-**Review edition:** v0.1  
+**Review edition:** v0.1 (historical second-pass review; superseded for current status by [50-Claim-Family Acceptance Audit](PILOT-CLAIM-SOURCE-AUDIT.md))  
 **Review scope:** Six substantive pilot references approved in the [Curriculum Development Plan](CURRICULUM-DEVELOPMENT-PLAN.md)  
-**Status:** Second-pass technical/editorial source check completed; core technical examples checked; **human editorial acceptance and full corpus-wide validation remain outstanding**.  
+**Status at v0.1:** Second-pass technical/editorial source check completed. At the time these articles were drafts. The later [scoped audit](PILOT-CLAIM-SOURCE-AUDIT.md) supports their current **Reviewed (model-assisted)** state; independent human peer-review and complete corpus validation remain outstanding.  
 **Approved baseline preserved:** 12 knowledge areas, 109 subject headings.  
 **Excluded:** Knowledge Checks, Practical Assessments, quizzes, graded exercises.
 
