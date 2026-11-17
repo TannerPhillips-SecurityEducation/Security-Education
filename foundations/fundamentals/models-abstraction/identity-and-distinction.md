@@ -15,7 +15,7 @@ This article uses identity in a broad logical and modeling sense. **Authenticati
 
 ## Numerical identity and qualitative similarity
 
-The [Stanford Encyclopedia of Philosophy's treatment of Identity](https://plato.stanford.edu/entries/identity/) distinguishes **numerical identity** from **qualitative identity** or similarity.
+The [Stanford Encyclopedia of Philosophy's treatment of Identity](https://plato.stanford.edu/entries/identity/) distinguishes **numerical identity** from **qualitative identity** or similarity. Qualitative similarity may hold to a degree; numerical identity is the all-or-nothing claim that the referents are one and the same thing.
 
 **Numerical identity** holds when two expressions refer to **one and the same thing**, often written `a = b`. It is not a matter of degree. If `a` and `b` denote the same entity under an interpretation, numerical identity holds.
 
@@ -66,7 +66,7 @@ The three values may refer to related aspects of one managed host, but only unde
 
 A *numeric-looking* identifier such as `0042` may not be an ordinary quantity. Removing leading zeros can erase meaningful formatting or alter a key; see [Numbers and Numerical Systems](../mathematics-logic/numbers-and-numerical-systems.md) and [Symbols and Encoding](../information-data/symbols-and-encoding.md).
 
-W3C's [RDF 1.1 Concepts](https://www.w3.org/TR/rdf11-concepts/) specifies how an IRI can denote a resource or referent in RDF. It does not assert that an arbitrary identifier string, disconnected from assignment and interpretation, guarantees real-world identity. An IRI and its referent are not the same kind of thing.
+W3C's [RDF 1.1 Concepts](https://www.w3.org/TR/rdf11-concepts/) describes IRIs as identifiers and discusses the referents/resources they denote in RDF interpretations. It does not assert that an arbitrary identifier string, disconnected from assignment and interpretation, guarantees real-world identity. An IRI and its referent are not the same kind of thing.
 
 ## Identity through change
 
@@ -114,6 +114,6 @@ This example demonstrates the difference between **identifier equality**, **cont
 - [Stanford Encyclopedia of Philosophy: Identity of Indiscernibles](https://plato.stanford.edu/entries/identity-indiscernible/), for the distinct and contested converse to the indiscernibility of identicals.
 - [W3C RDF 1.1 Concepts and Abstract Syntax](https://www.w3.org/TR/rdf11-concepts/), for IRIs, referents, RDF terms and resource statements.
 
-**Editorial state:** Substantive domain-agnostic draft. Its service-migration and telemetry examples illustrate identity criteria under explicit assumptions; they do not define or guarantee any particular vendor's identity service. Scope G-04 remains unresolved, and a scoped claim/source review is pending.
+**Editorial review note:** Numerical identity, equivalence modulo three, identity-through-change qualifications and the difference between IRI/identifier and referent were checked against the cited SEP and W3C sources. Service migration and telemetry examples remain editorial illustrations; the G-04 time question is still open. Batch 03 records model-assisted scope review without external human publication approval.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
