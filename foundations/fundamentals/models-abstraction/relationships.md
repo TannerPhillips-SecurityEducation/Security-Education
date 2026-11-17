@@ -7,7 +7,7 @@
 
 ## Relationships make modeled entities meaningful in context
 
-A **relationship** is an association described between two or more distinguishable subjects, values, or roles within a specified model or context. A relationship may express containment, dependency, similarity, ordering, communication, ownership, spatial position, causation, or another interpreted association. These meanings must not be treated as interchangeable merely because they can all be drawn with a line or arrow.
+A **relationship** is an association described between two or more participant roles, subjects, or values within a specified model or context. In some cases the same subject can occupy multiple roles, so the participants need not be distinct individuals. A relationship may express containment, dependency, similarity, ordering, communication, ownership, spatial position, causation, or another interpreted association. These meanings must not be treated as interchangeable merely because they can all be drawn with a line or arrow.
 
 The central conceptual distinction is between a relationship **as interpreted meaning** and the formal structure used to represent it. A mathematical binary relation is a set of ordered pairs; a conceptual relationship is an interpretation that can require scope, roles, evidence, conditions, and change over time.
 
@@ -41,7 +41,7 @@ These are **explanatory considerations**, not seven newly ratified graph predica
 
 ## Binary, n-ary, and contextual relationships
 
-A **binary** relation involves ordered pairs in a formal model. A **ternary** relation involves triples, and a relationship with `n` roles is called **n-ary**. Some associations cannot be accurately represented without additional context.
+A **binary** relation involves ordered pairs in a formal model. A **ternary** relation involves triples, and a relationship with `n` roles is called **n-ary**. In philosophical discussions, relations are conventionally distinguished from unary properties; in set-theoretic and computational formalisms, unary predicates can also be treated as unary relations. The convention must be specified. Some associations cannot be accurately represented without additional context.
 
 For instance:
 
@@ -86,7 +86,7 @@ Several relationship types appear frequently in technical models, but they have 
 
 **Uses or communicates-with:** Describes an interaction or capability. It does not automatically imply hierarchy, ownership or trust.
 
-**Same-as / equivalent-to:** Equivalence requires specified identity criteria or equivalence properties. Two identifiers matching by string do not automatically prove the identity of their referents.
+**Same-as versus equivalent-to:** Numerical identity means one and the same referent. Equivalence means indistinguishability *under a selected relation or criterion*, and can hold between distinct subjects. Two identifiers matching by string do not automatically prove referential identity; an equivalence relation is not necessarily the identity relation.
 
 **Evidence-for or supports:** Expresses a claim-relative evidential or inferential relationship. It is not logically equivalent to the claim itself being true. See [Evidence](../scientific-analytical-reasoning/evidence.md).
 
@@ -152,8 +152,9 @@ A useful model may add timing, uncertainty, failure conditions, and evidence lin
 - [W3C: RDF 1.1 Concepts and Abstract Syntax](https://www.w3.org/TR/rdf11-concepts/), subject/predicate/object triple structure and graph interpretation.
 - [W3C: RDF 1.1 Primer](https://www.w3.org/TR/rdf11-primer/), readable examples of directed and typed assertions.
 - [Stanford Encyclopedia of Philosophy: Relations](https://plato.stanford.edu/entries/relations/), philosophical and logical perspectives on relational structures.
+- [Stanford Encyclopedia of Philosophy: Identity](https://plato.stanford.edu/entries/identity/), numerical identity and its distinction from qualitative equivalence.
 - [MIT OpenCourseWare: Mathematics for Computer Science](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/), binary relations and mathematical properties.
 
-**Editorial scope:** Domain-neutral technical reference draft. The seven relationship facets, examples, and role labels are explanatory tools, not an approved ontology or machine-enforced schema. A future scoped source/claim review is required.
+**Review record:** The general participant/role distinctions, cardinality, relation arity, identity versus equivalence, and RDF 1.1 triple constraints were checked against W3C and Stanford Encyclopedia of Philosophy sources. Seven descriptive facets and the pump example remain editorial illustrations, not ratified graph predicates. This article passed the scoped model-assisted review documented in the Wave A Batch 02 audit; independent human publication acceptance remains outstanding.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
