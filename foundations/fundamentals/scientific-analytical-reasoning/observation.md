@@ -9,7 +9,7 @@
 
 **Observation** is the acquisition or recognition of information about a phenomenon, entity, event, or condition by an observer or an observing system. It is an encounter with a selected aspect of something, not a complete or infallible copy of reality.
 
-Observation may be **direct** through the human senses, **instrument-mediated** through sensors or scientific instruments, or **record-mediated** through material produced by an earlier acquisition. The same event may generate several observations at different granularities, and different observers may attend to different aspects of it.
+Observation may be **direct** through the human senses or **instrument-mediated** through sensors or scientific instruments. Inspecting an existing record is a **secondary observation of the record**, not a fresh direct observation of the original event. The same event may generate several observations at different granularities, and different observers may attend to different aspects of it.
 
 A camera can register changes in illumination; a temperature probe responds to a physical property; a computer can record messages it receives. Each observes through a particular mechanism and within an observable range. None automatically captures every relevant property of the observed subject.
 
@@ -77,7 +77,7 @@ The disciplined response is to make the mechanism, assumptions, and uncertaintie
 
 ## Worked illustration: an observed threshold crossing
 
-Consider a hypothetical sensor that reports once per second that a liquid level has crossed a chosen threshold. An observation record might contain:
+Consider a hypothetical sensor sampling a liquid level once per second and reporting a value above a configured threshold. An observation record might contain:
 
 ```text
 observed_at: 12:00:04
@@ -87,7 +87,7 @@ unit: cm
 threshold: 8.0
 ```
 
-Assuming the sensor reports correctly, the record indicates that the reported reading exceeded the configured threshold at that observation time. It does **not**, without additional evidence, tell us precisely when the level first crossed 8.0 cm, whether the reading was calibrated, why the level changed, or whether the subject was physically unsafe.
+Assuming the sensor and timestamp reporting behave as specified, the record indicates that the **reported sampled value** was above the configured threshold. It does **not**, without earlier observations or other evidence, establish that a crossing actually occurred during the observed interval, when any crossing took place, whether the reading was calibrated, why the level changed, or whether the subject was physically unsafe.
 
 An investigator could later compare other sensor values or measurements, but those subsequent calculations and interpretations are not themselves identical to the initial observation.
 
@@ -103,6 +103,6 @@ All links above point to approved area indexes because most individual canonical
 - [NIST: Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty), for the measurement process and its limitations.
 - [Stanford Encyclopedia of Philosophy: Evidence](https://plato.stanford.edu/entries/evidence/), for the distinction between observations and their epistemic support.
 
-**Review note:** This document defines observation as a broad explanatory concept; its seven-part decomposition and sensor example are editorial illustrations rather than an externally standardized observation schema. Independent content review is still pending.
+**Review record:** The distinction between observation, measurement, record, and evidence was checked against the cited philosophy-of-science and NIST resources. The seven explanatory facets are an original editorial decomposition, **not** a standardized ontology. The sampling example has been corrected so a threshold reading is not mistaken for evidence of a crossing. This remains a source-checked draft pending final editorial acceptance.
 
 [Scientific & Analytical Reasoning](README.md) · [Fundamentals](../README.md) · [Concept boundary decisions](../CONCEPT-BOUNDARY-DECISIONS.md)
