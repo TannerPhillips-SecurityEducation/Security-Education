@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v0.3  
+**Working edition:** v0.4  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -9,7 +9,7 @@
 - **Inventoried:** Approved heading exists in its area index, but no canonical subject article is yet claimed.
 - **Pilot queued:** One of the six approved first authoring targets; a queued article is **not** published or technically validated.
 - **Draft:** Substantive article has been committed and can be reviewed; not necessarily source-verified or accepted.
-- **Reviewed:** Technical and editorial review passed, with evidence documented.
+- **Reviewed:** A documented technical and editorial audit has passed for the stated scope. For these six pilots this was **model-assisted**; no independent human peer-review is implied.
 - **Published:** Canonical reference accepted under the [seven completion gates](README.md#completion-gates), including link and source checks. A commit alone does **not** constitute this status.
 
 **Source review** is tracked separately from development state: **Not reviewed**, **References listed**, **Core claims checked**, or **Verified**. *References listed* indicates linked sources. *Core claims checked* means a documented second-pass source review and example checks occurred, but does not establish complete claim-to-source verification or independent human acceptance. *Verified* requires evidence of a complete scoped technical acceptance review. **Relationship state:** The separate [109-heading canonical ownership register](CANONICAL-OWNERSHIP-REGISTER.md) proposes one conceptual link per heading; those link descriptions are not a fully verified graph.
@@ -30,21 +30,21 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
-## Current progress after six pilot drafts
+## Current progress after pilot review and initial Wave A authoring
 
 | State | Subject headings | Evidence |
 | --- | ---: | --- |
-| Draft articles committed | **6** | Linked from their area indexes and this register |
-| Inventoried headings without canonical articles | **103** | Retained in approved subject inventories |
-| Core-claim source-checks documented for pilot articles | **6** | [Pilot Technical Review](PILOT-TECHNICAL-REVIEW.md); final full claim-to-source validation pending |
-| Fully verified or independently accepted pilot articles | **0** | Final technical/editorial acceptance not yet claimed |
-| Accepted as final published reference | **0** | Publication gate still pending |
+| Model-assisted **Reviewed** articles | **6** | [Claim-to-source audit](PILOT-CLAIM-SOURCE-AUDIT.md): 50 material claim groups across six pilot articles |
+| New Wave A **Draft** articles | **3** | Boolean & Predicate Logic, Evidence, State/Events/Transitions; references listed, acceptance review pending |
+| Inventoried without canonical articles | **100** | Approved 109-heading baseline unchanged |
+| **Core claims checked** | **6** | Model-assisted technical source review; distinct from independent expert sign-off |
+| **Fully verified** independently / finally published | **0** | Human editorial approval and independent acceptance not recorded |
 
-**Interpretation:** The six pilots are real GitHub files containing substantive prose and examples; they are not merely queued. Their existence advances the authoring stage, but does not demonstrate comprehensive source verification or closure of the seven Fundamentals completion gates.
+**Interpretation:** The six pilot articles passed a scoped model-assisted editorial/technical review and serve as the **internal authoring baseline**. New Wave A articles begin as drafts. Neither status claims independent human peer-review or completed publication acceptance. The [seven Fundamentals completion gates](README.md#completion-gates) remain open for the corpus.
 
-## Pilot review record
+## Pilot review and Wave A record
 
-The six substantive draft articles received a second-pass [technical and editorial review](PILOT-TECHNICAL-REVIEW.md). The review confirmed core mathematical examples, Unicode encoding/normalization cases, circuit truth tables, and technical scope distinctions, and corrected misleading statements and stale citations. All six remain **Draft**. A documented human acceptance and complete final source-to-claim review have **not** been recorded, so none is marked **Verified** or **Published**.
+The six initial articles have a [material claim-to-source audit](PILOT-CLAIM-SOURCE-AUDIT.md) with 50 examined claim families and a prior [pilot technical review](PILOT-TECHNICAL-REVIEW.md). The three new references are linked to their approved headings and require their own claim verification. The [general temporality decision](COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks) remains open; drafting State/Events/Transitions does not close that gap.
 
 ## Detailed coverage by approved knowledge area
 
@@ -55,8 +55,8 @@ The six substantive draft articles received a second-pass [technical and editori
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
 | F-01-01 | Numbers and numerical systems | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-01-02 | Sets and relations | [Draft article](mathematics-logic/sets-and-relations.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
-| F-01-03 | Boolean and predicate logic | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-01-02 | Sets and relations | [Reviewed article](mathematics-logic/sets-and-relations.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
+| F-01-03 | Boolean and predicate logic | [Draft article](mathematics-logic/boolean-and-predicate-logic.md) | Draft | References listed | Scoped claim-source review pending |
 | F-01-04 | Algebra and functions | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-01-05 | Discrete mathematics | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-01-06 | Graph theory | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -69,9 +69,9 @@ The six substantive draft articles received a second-pass [technical and editori
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-02-01 | Observation | [Draft article](scientific-analytical-reasoning/observation.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
+| F-02-01 | Observation | [Reviewed article](scientific-analytical-reasoning/observation.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
 | F-02-02 | Measurement | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-02-03 | Evidence | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-02-03 | Evidence | [Draft article](scientific-analytical-reasoning/evidence.md) | Draft | References listed | Scoped claim-source review pending |
 | F-02-04 | Hypotheses and experiments | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-02-05 | Deduction, induction, and abduction | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-02-06 | Causality and correlation | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -84,7 +84,7 @@ The six substantive draft articles received a second-pass [technical and editori
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-03-01 | Entities and attributes | [Draft article](models-abstraction/entities-and-attributes.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
+| F-03-01 | Entities and attributes | [Reviewed article](models-abstraction/entities-and-attributes.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
 | F-03-02 | Identity and distinction | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-03 | Relationships | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-04 | Boundaries | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -92,7 +92,7 @@ The six substantive draft articles received a second-pass [technical and editori
 | F-03-06 | Classification | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-07 | Ontologies and taxonomies | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-08 | Schemas | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-03-09 | State, events, and transitions | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-03-09 | State, events, and transitions | [Draft article](models-abstraction/state-events-and-transitions.md) | Draft | References listed | Scoped claim-source review pending |
 | F-03-10 | Conceptual and formal models | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 
 ### 04. Physical & Electrical Principles (Wave C; 9 headings)
@@ -117,7 +117,7 @@ The six substantive draft articles received a second-pass [technical and editori
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-05-01 | Symbols and encoding | [Draft article](information-data/symbols-and-encoding.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
+| F-05-01 | Symbols and encoding | [Reviewed article](information-data/symbols-and-encoding.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
 | F-05-02 | Bits and bytes | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-05-03 | Information theory | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-05-04 | Data types | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -133,7 +133,7 @@ The six substantive draft articles received a second-pass [technical and editori
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-06-01 | Digital logic | [Draft article](digital-systems-hardware/digital-logic.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
+| F-06-01 | Digital logic | [Reviewed article](digital-systems-hardware/digital-logic.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
 | F-06-02 | Computing components | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-06-03 | Processors and instruction sets | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-06-04 | Memory and storage | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -214,7 +214,7 @@ The six substantive draft articles received a second-pass [technical and editori
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-11-01 | Systems and subsystems | [Draft article](systems-engineering/systems-and-subsystems.md) | Draft | Core claims checked | [Pilot technical review](PILOT-TECHNICAL-REVIEW.md); final acceptance pending |
+| F-11-01 | Systems and subsystems | [Reviewed article](systems-engineering/systems-and-subsystems.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
 | F-11-02 | Components and interfaces | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-11-03 | Architecture and composition | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-11-04 | Dependencies | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
