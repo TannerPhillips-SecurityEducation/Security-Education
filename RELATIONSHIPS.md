@@ -10,6 +10,16 @@
 - Alternate views, including operating systems, cloud providers, and application types, **link to** canonical subject documents rather than maintain duplicated definitions.
 - A folder's position represents navigation, **not necessarily** an ontological *is-a* relationship.
 
+## Fundamental Concepts and Contextual Applications
+
+In [Fundamentals](foundations/fundamentals/README.md), the **twelve areas are navigational knowledge disciplines**, while their underlying concepts and relationships supply conceptual coherence.
+
+A foundational general concept has one canonical definition. Additional explanations in other areas or domains may describe **distinct mechanisms or implementations** rather than duplicate that definition.
+
+For example, [Boolean logic](foundations/fundamentals/mathematics-logic/README.md) is conceptually grounded in Mathematics & Logic; its electronic realization belongs in [Digital Systems & Hardware](foundations/fundamentals/digital-systems-hardware/README.md). General state, events, and transitions are within [Models & Abstraction](foundations/fundamentals/models-abstraction/README.md); their OS-specific or distributed manifestations extend those concepts.
+
+See the [governing Fundamentals architecture](foundations/fundamentals/ARCHITECTURE.md). Illustrative conceptual primitives are **not** a newly ratified universal primitive taxonomy.
+
 ## Explicit relationships
 
 In content documents, record the **relationship type** and a link to the **target**. A subject may have multiple relationships and span multiple domains.
