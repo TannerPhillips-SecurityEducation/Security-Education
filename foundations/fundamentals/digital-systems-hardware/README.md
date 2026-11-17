@@ -2,7 +2,8 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Subject inventory only; canonical explanations and references are pending
+**Content status:** Subject inventory only; canonical explanations and references are pending  
+**Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
 
@@ -21,6 +22,8 @@ Components and mechanisms by which physical hardware represents information and 
 - Hardware abstraction
 
 ## Content Development
+
+This area is a **navigation discipline**. Its headings organize coverage but do not constitute a separate list of conceptual primitives. Establish one canonical home for each underlying concept and link contextual realizations rather than repeating general definitions.
 
 Each subject will eventually receive a canonical explanation, key distinctions, mechanisms, relevant examples, explicit relationships, and credible references. These items are **not yet completed** merely by being listed.
 
