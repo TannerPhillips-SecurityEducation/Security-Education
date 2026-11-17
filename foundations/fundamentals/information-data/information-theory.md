@@ -52,7 +52,7 @@ If `Y=X` exactly, the mutual information is `H(X)`. If `X` and `Y` are independe
 
 ## Channels and coding limits
 
-A communication channel relates transmitted and received symbols through a conditional probability model. **Channel capacity** describes the maximum mutual information per channel use after optimization over permitted input distributions, for the specified channel model. Interpreting capacity as a rate per second requires an additional channel-use rate or timing model.
+A communication channel relates transmitted and received symbols through a defined stochastic model. For a **discrete memoryless channel (DMC)** with a specified permitted input alphabet and transition probabilities, Shannon capacity is `C = max_{P(X)} I(X;Y)` **in bits per channel use**, where the maximization is over permitted input distributions. Channels with memory, state, feedback, continuous alphabets, or input constraints require corresponding capacity definitions and sometimes limiting information rates; the single-letter DMC formula is not universal. A conversion to bits per second additionally requires an appropriate channel-use rate or continuous-time model.
 
 Under suitable assumptions, channel coding can approach reliable transmission below capacity with increasing code block lengths and appropriate coding schemes. This is **not** a claim that every actual channel provides error-free communication or that any implementation can reach its theoretical bound without cost. The specific theorem conditions matter.
 
