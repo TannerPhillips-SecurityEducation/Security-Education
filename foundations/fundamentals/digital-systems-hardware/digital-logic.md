@@ -3,7 +3,7 @@
 **Knowledge area:** [Digital Systems & Hardware](README.md)  
 **Approved subject heading:** Digital logic  
 **Development status:** Draft  
-**Source review:** References listed; independent technical/editorial review pending
+**Source review:** Core claims checked (see [pilot technical review](../PILOT-TECHNICAL-REVIEW.md)); final editorial acceptance pending
 
 ## From logical propositions to physical circuits
 
