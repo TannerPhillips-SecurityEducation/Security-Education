@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Information & Data](README.md)  
 **Approved subject heading:** Databases and queries  
-**Development status:** Draft  
-**Source review:** References listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 02 audit](../WAVE-B-TECHNICAL-REVIEW-02.md); no independent human peer review
 
 ## Databases manage information; queries ask defined questions
 
@@ -96,6 +96,6 @@ This article does not choose a database engine, SQL dialect, indexing method, sc
 - [PostgreSQL documentation: Queries](https://www.postgresql.org/docs/current/queries.html), as an illustrative SQL implementation.
 - [W3C SPARQL 1.1 Query Language](https://www.w3.org/TR/sparql11-query/).
 
-**Editorial status:** Substantive draft. SQL result calculations and language semantics are examples requiring a scoped technical audit; no particular vendor product is adopted as canonical.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 02 technical audit](../WAVE-B-TECHNICAL-REVIEW-02.md). Complete source verification, independent human expert review and final publication acceptance remain separate and pending.
 
 [Information & Data](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
