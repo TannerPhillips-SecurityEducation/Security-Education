@@ -10,9 +10,9 @@
 
 A **state** describes the condition of a modeled entity or system through selected properties and their values within a specified context. An **event** represents an occurrence recognized by a model. A **transition** represents a modeled change from one state to another, potentially subject to a condition, trigger, action or rule.
 
-These are related but not interchangeable. An entity can remain in the same modeled state while an event occurs. A transition can also be described by a physical continuous process, a discrete algorithm, an administrative change, or a formal rule. What counts as a separate state depends on which properties the model has selected.
+These are related but not interchangeable. An entity can remain in the same modeled state while an event occurs. A discrete transition may abstract an underlying continuous physical process, algorithmic step, administrative change, or formal rule. Continuous-time behavior may instead require a differential, hybrid, or other dynamical model. What counts as a separate state depends on which properties the model has selected.
 
-The [Systems Engineering Body of Knowledge discussion of State and Behavior](https://sebokwiki.org/wiki/Concepts_of_Systems_Thinking) uses attributes to describe system states and discusses events and state variables. This article provides a **general modeling vocabulary**, not one universally prescribed formal event ontology.
+The [Systems Engineering Body of Knowledge discussion of State and Behavior](https://sebokwiki.org/wiki/Concepts_of_Systems_Thinking) uses attributes to describe system states and events in its system-of-interest context. Some formalisms define events specifically as state-changing occurrences; other models allow events that leave the *selected* state variables unchanged. This article provides an explicit **general modeling vocabulary**, not one universally prescribed formal event ontology.
 
 ## State is a model of a condition
 
@@ -57,8 +57,8 @@ This is a **function** `T : S × I → S`. Under its assumptions, each state/inp
 
 This example illustrates three things:
 
-- The event or input *toggle* has a meaning defined by the model.
-- A *no-input* condition need not change the modeled state.
+- The input symbol *toggle* has a meaning defined by the model.
+- The symbol *none* is an explicitly modeled no-action input and, under this rule, does not change the state.
 - A transition rule describes permitted or prescribed behavior; it does not prove a physical device follows the rule.
 
 The [MIT finite-state-machine notes](https://computationstructures.org/lectures/fsm/fsm.html) describe transition functions, current and next state, finite-state representations, and the distinction between Moore and Mealy output rules. Their clocked electronic implementation is one **contextual realization** of a general transition model.
@@ -115,6 +115,6 @@ This article intentionally **does not declare the general notion of temporality 
 - [MIT Computation Structures: Finite State Machines](https://computationstructures.org/lectures/fsm/fsm.html), transition functions and stored state in a concrete formal/physical model.
 - [Stanford Encyclopedia of Philosophy: Events](https://plato.stanford.edu/entries/events/), philosophical perspectives on occurrences, objects, and change.
 
-**Editorial state:** This is a substantive domain-agnostic draft. The two-state toggle model is illustrative, its assumptions are explicit, and it does not resolve the open question of general temporality. A separate scoped source/claim review is required before it can be marked Reviewed.
+**Editorial state:** This is a substantive domain-agnostic draft. The two-state toggle model was checked against MIT finite-state-machine semantics and all four state/input combinations; the broader event/state distinction is qualified against SEBoK's system-specific account. General temporality G-04 remains open. A separate Wave A audit records technical acceptance and limitations.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Concept Boundary Decisions](../CONCEPT-BOUNDARY-DECISIONS.md)
