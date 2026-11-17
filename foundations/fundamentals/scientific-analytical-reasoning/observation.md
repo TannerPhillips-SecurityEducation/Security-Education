@@ -3,7 +3,7 @@
 **Knowledge area:** [Scientific & Analytical Reasoning](README.md)  
 **Approved subject heading:** Observation  
 **Development status:** Draft  
-**Source review:** References listed; independent technical/editorial review pending
+**Source review:** Core claims checked (see [pilot technical review](../PILOT-TECHNICAL-REVIEW.md)); final editorial acceptance pending
 
 ## How something becomes observable
 
