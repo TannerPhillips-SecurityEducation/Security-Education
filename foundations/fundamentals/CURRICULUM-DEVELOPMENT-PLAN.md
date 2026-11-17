@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v0.2; governing Fundamentals architecture ratified, production workflow still working  
+**Document status:** Working plan v0.3; governing Fundamentals architecture ratified, ownership crosswalk implemented for review, production workflow still working  
 **Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -30,7 +30,8 @@ Here, *curriculum* means an organized body of reference knowledge with deliberat
 
 - **Approved structure:** 12 knowledge areas containing 109 subject headings.
 - **Implemented today:** 12 area READMEs and a Fundamentals index listing their inventories.
-- **Not yet demonstrated:** 109 fully developed canonical references, a verified dependency/relationship map, complete seven-domain coverage, or satisfaction of all seven completion gates.
+- **Implemented for architectural review:** [Canonical Ownership & Relationship Register](CANONICAL-OWNERSHIP-REGISTER.md) maps all 109 headings to proposed conceptual scopes and illustrative links; [Concept Overlap & Coverage Review](CONCEPT-OVERLAP-REVIEW.md) catalogs 20 overlap groups and 10 candidate gaps.
+- **Not yet demonstrated:** fully developed canonical references, verified concept-level dependency relationships, complete seven-domain coverage, or satisfaction of all seven completion gates.
 - **Unit of work:** A canonical *concept or tightly coherent subject*, not necessarily one file for each inventory heading. Identify the general definition's owner before adding implementations. Some headings may need several canonical entries; others may be adequately covered together. Changes to scope and the canonical map should be recorded before drafting to avoid duplication.
 
 The 109 headings are the **initial coverage baseline**, not proof that no additional foundational concepts will be needed.
@@ -123,7 +124,7 @@ Do not claim *Fundamentals complete* based on a percentage of inventory headings
 
 ## 8. Coverage and Progress Tracking
 
-Maintain a lightweight **coverage register** (future deliverable; not yet created) with, at minimum:
+The **ownership register is created**, but it is not a progress/status register and its proposed relationships are not yet validated. Maintain a separate lightweight **coverage-and-progress register** (future deliverable; not yet created) with, at minimum:
 
 | Field | Purpose |
 | --- | --- |
@@ -176,8 +177,8 @@ No graph database or universal front-matter schema is required at this stage. Pr
 ## 12. Initial Action Order
 
 1. **Ratify the plan's process** as a working method without altering the already-approved 12-area taxonomy.
-2. **Build the 109-heading coverage register** from the existing area READMEs, preserving their wording and links.
-3. **Perform a duplication-and-dependency pass** across the register, identifying canonical concept candidates and unresolved overlaps.
+2. **Review the 109-heading ownership register** against existing area READMEs, preserve the wording and taxonomy, and prepare a distinct progress register.
+3. **Resolve the documented 20 concept-overlap groups and 10 candidate coverage questions**, recording which proposed concept owners and links are approved, revised, or deferred.
 4. **Pilot six representative references**: *Sets and relations*, *Observation*, *Entities and attributes*, *Symbols and encoding*, *Systems and subsystems*, and *Digital logic*. Use this pilot to calibrate narrative depth, source rigor, and cross-links.
 5. **Review the pilot**, resolve editorial and architectural problems, and then develop Wave A through Wave E.
 6. **Audit each wave** for source accuracy, concept relationships, navigation, and relevance to all seven domains.
@@ -188,6 +189,8 @@ The six pilot topics are **proposed production choices**, not new categories or 
 ## 13. Reference and Governance Links
 
 - [Fundamentals governing architecture](ARCHITECTURE.md)
+- [Canonical Ownership & Relationship Register](CANONICAL-OWNERSHIP-REGISTER.md)
+- [Concept Overlap & Coverage Review](CONCEPT-OVERLAP-REVIEW.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
 - [Knowledge relationship conventions](../../RELATIONSHIPS.md)
