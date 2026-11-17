@@ -1,6 +1,6 @@
 # Security Knowledge
 
-A structured knowledge repository organized by **a hierarchy for navigation** and **a knowledge graph for relationships**.
+A domain-organized knowledge repository with a **hierarchy for navigation** and a **knowledge graph for relationships**.
 
 ## Foundations
 
@@ -12,26 +12,40 @@ A structured knowledge repository organized by **a hierarchy for navigation** an
 
 ## Knowledge Domains
 
-- [Network Knowledge](network/README.md)
-- [Endpoint Knowledge](endpoint/README.md)
-- [Application Knowledge](application/README.md)
-- [Cloud Knowledge](cloud/README.md)
-- [Industrial Knowledge](industrial/README.md)
-- [IoT Knowledge](iot/README.md)
-- [Identity Knowledge](identity/README.md)
+The approved navigation model is **Domain → Function → Implementation**. Functions are primary; specific technologies, platforms, operating systems, providers, and other contexts can also be found through secondary indexes and cross-domain relationships.
+
+| Domain | Primary functional navigation |
+| --- | --- |
+| [Network Knowledge](network/README.md) | Network functions |
+| [Endpoint Knowledge](endpoint/README.md) | Host system functions |
+| [Application Knowledge](application/README.md) | Application functions |
+| [Cloud Knowledge](cloud/README.md) | Cloud service functions |
+| [Industrial Knowledge](industrial/README.md) | Industrial system functions |
+| [IoT Knowledge](iot/README.md) | Connected-device functions and roles |
+| [Identity Knowledge](identity/README.md) | Identity and access functions |
+
+### Alternate Navigation Perspectives
+
+- [Operating system families](endpoint/README.md#operating-system-family-indexes)
+- [Application types](application/README.md#application-type-indexes)
+- [Cloud providers](cloud/README.md#cloud-provider-indexes)
+
+These indexes are maintained for discovery and learning. They should point to canonical function or implementation documents instead of replicating them.
 
 ## Architectural Principles
 
-1. **Navigation hierarchy:** Each subject has a discoverable canonical home.
-2. **Knowledge graph:** Subjects may have typed relationships across sections and domains.
-3. **Cross-domain relationships:** Domain boundaries do not imply conceptual isolation.
-4. **Foundations:** Shared concepts support specialized domains without imposing a mandatory reading order.
-5. **Extensibility:** Additional domains and relationships may be introduced without redefining established ones.
+1. **One canonical home** for each documented subject.
+2. **Function-first navigation** within each specialized domain.
+3. **Implementation details** belong with their applicable functions, subject to approved placement.
+4. **Multiple entry points** through operating systems, providers, application types, and other indexes.
+5. **Knowledge graph relationships** connect subjects across domains and perspectives. A directory location is not necessarily conceptual parentage.
+6. **Foundations** provides shared concepts but is not a mandatory reading sequence.
+7. **Extensibility** without redefining established categories.
 
-[Relationship conventions](RELATIONSHIPS.md)
+[Knowledge relationship conventions](RELATIONSHIPS.md)
 
 ## Related
 
 [Security Operations Portfolio](https://github.com/TannerPhillips-SecurityEducation/Security-Operations-Portfolio)
 
-> **Architecture:** v0.3 approved baseline. Section content and internal taxonomies remain to be developed.
+> **Current state:** The functional navigation skeleton is established. Implementation pages, graph schema, and graph engine have not yet been created or approved.
