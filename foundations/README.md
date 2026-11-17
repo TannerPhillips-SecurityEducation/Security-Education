@@ -1,15 +1,13 @@
 # Foundations
 
-**Status: Draft**
+Foundations establishes shared knowledge used throughout the specialized domains.
 
-This section will establish the vocabulary needed to observe and reason about network activity.
+## Approved Divisions
 
-## Planned subjects
+1. [Fundamentals](fundamentals/README.md): Common underlying concepts, principles, structures, and mechanisms.
+2. [Security Foundations](security-foundations/README.md): Common security concepts and principles.
+3. [Operational Foundations](operational-foundations/README.md): Common concepts and methods for security practice.
 
-- Networking: packets, frames, flows, connections, streams, sessions, transactions, and objects
-- Protocols and network services
-- Data: datasets, records, fields, values, and types
-- Network telemetry: packets, logs, metrics, and traces
-- Evidence quality, uncertainty, and analytical reasoning
+These divisions describe conceptual scope, not mandatory study order.
 
-Material is not yet presented as an exhaustive or validated textbook.
+[Return to Security Knowledge](../README.md)
