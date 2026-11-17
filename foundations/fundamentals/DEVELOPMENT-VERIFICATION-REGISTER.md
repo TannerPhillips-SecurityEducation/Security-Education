@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.3  
+**Working edition:** v1.4  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -30,14 +30,14 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
-## Current progress: Wave B Batch 01 authored; technical review pending
+## Current progress: Wave B Batch 01 reviewed and Batch 02 authored
 
 | Development state | Approved heading count | Evidence |
 | --- | ---: | --- |
-| **Reviewed (model-assisted)** | **29** | Original pilots and Wave A Batch 01–07 scoped audits, including [Batch 07](WAVE-A-TECHNICAL-REVIEW-07.md) |
-| **Draft** | **4** | Four Wave B Batch 01 Information & Data drafts awaiting scoped review |
-| **Inventoried without article** | **76** | Approved 109-heading baseline retained |
-| **Core claims checked** | **29** | Internal model-assisted source checking, not independent expert attestation |
+| **Reviewed (model-assisted)** | **33** | Original pilots, Wave A Batch 01–07 and [Wave B Batch 01](WAVE-B-TECHNICAL-REVIEW-01.md) scoped technical audits |
+| **Draft** | **4** | Four Wave B Batch 02 Information & Data articles; technical review pending |
+| **Inventoried without article** | **72** | Approved 109-heading baseline retained |
+| **Core claims checked** | **33** | Internal model-assisted source checking, not independent expert attestation |
 | **Finally accepted / human peer-reviewed** | **0** | No final independent expert acceptance recorded |
 
 **Wave A authoring coverage:** All 26 of 26 approved Wave A headings have substantive, internally Reviewed articles (26/26). Three additional Reviewed references are original pilot subjects belonging to later waves.
@@ -46,10 +46,10 @@
 
 ## Next acceptance gate
 
-1. **Completed:** Batch 06's three references passed the documented [24-family scoped review](WAVE-A-TECHNICAL-REVIEW-06.md).
-2. Preserve the distinction between mathematical probability, interpretation of confidence and uncertainty, and the conceptual category membership mechanism.
-3. **Completed:** Five Batch 07 articles passed the [30-family scoped technical audit](WAVE-A-TECHNICAL-REVIEW-07.md); retain distinct source review and independent human acceptance gates.
-4. **Current:** Audit four new Wave B Batch 01 drafts; continue corpus-wide source, depth, and link checks. Batch 07 relative file destinations were verified; fragment targets and external links were not exhaustively checked.
+1. **Completed:** [Wave B Batch 01 technical review](WAVE-B-TECHNICAL-REVIEW-01.md) of four Information & Data articles, covering 24 material claim groups and three documented corrections.
+2. **Completed authoring:** Wave B Batch 02 contains four substantive drafts: Data structures and formats, Metadata, Databases and queries, and Data provenance and lifecycle. All nine Information & Data headings now have articles (five Reviewed, four Draft).
+3. **Current:** Perform a separate scoped technical/source review of the four Batch 02 drafts, checking syntax/semantics of examples and canonical boundaries, before any promotion to Reviewed.
+4. **Ongoing:** Corpus-wide link integrity, completeness, detailed source validation, human peer review and the seven publication gates remain distinct from internal model-assisted acceptance. Scope decisions G-01, G-04 and G-06 remain unresolved.
 
 ## Detailed coverage by approved knowledge area
 
@@ -123,14 +123,14 @@
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
 | F-05-01 | Symbols and encoding | [Reviewed article](information-data/symbols-and-encoding.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
-| F-05-02 | Bits and bytes | [Draft article](information-data/bits-and-bytes.md) | Draft | References listed | Wave B Batch 01 substantive draft; technical review pending |
-| F-05-03 | Information theory | [Draft article](information-data/information-theory.md) | Draft | References listed | Wave B Batch 01 substantive draft; technical review pending |
-| F-05-04 | Data types | [Draft article](information-data/data-types.md) | Draft | References listed | Wave B Batch 01 substantive draft; technical review pending |
-| F-05-05 | Datasets, records, fields, and values | [Draft article](information-data/datasets-records-fields-and-values.md) | Draft | References listed | Wave B Batch 01 substantive draft; technical review pending |
-| F-05-06 | Data structures and formats | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-05-07 | Metadata | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-05-08 | Databases and queries | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-05-09 | Data provenance and lifecycle | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-05-02 | Bits and bytes | [Reviewed article](information-data/bits-and-bytes.md) | Reviewed | Core claims checked | [Wave B Batch 01 audit](WAVE-B-TECHNICAL-REVIEW-01.md); model-assisted, no human peer review |
+| F-05-03 | Information theory | [Reviewed article](information-data/information-theory.md) | Reviewed | Core claims checked | [Wave B Batch 01 audit](WAVE-B-TECHNICAL-REVIEW-01.md); model-assisted, no human peer review |
+| F-05-04 | Data types | [Reviewed article](information-data/data-types.md) | Reviewed | Core claims checked | [Wave B Batch 01 audit](WAVE-B-TECHNICAL-REVIEW-01.md); model-assisted, no human peer review |
+| F-05-05 | Datasets, records, fields, and values | [Reviewed article](information-data/datasets-records-fields-and-values.md) | Reviewed | Core claims checked | [Wave B Batch 01 audit](WAVE-B-TECHNICAL-REVIEW-01.md); model-assisted, no human peer review |
+| F-05-06 | Data structures and formats | [Draft article](information-data/data-structures-and-formats.md) | Draft | References listed | Wave B Batch 02 substantive draft; separate technical audit pending |
+| F-05-07 | Metadata | [Draft article](information-data/metadata.md) | Draft | References listed | Wave B Batch 02 substantive draft; separate technical audit pending |
+| F-05-08 | Databases and queries | [Draft article](information-data/databases-and-queries.md) | Draft | References listed | Wave B Batch 02 substantive draft; separate technical audit pending |
+| F-05-09 | Data provenance and lifecycle | [Draft article](information-data/data-provenance-and-lifecycle.md) | Draft | References listed | Wave B Batch 02 substantive draft; separate technical audit pending |
 
 ### 06. Digital Systems & Hardware (Wave C; 9 headings)
 
