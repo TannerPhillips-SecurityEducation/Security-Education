@@ -27,32 +27,32 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 
 ## Canonical Reference Development
 
-The six pilot articles have passed a **model-assisted technical/editorial review** documented in the [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md). This is an internal reference-authoring baseline, **not independent human peer-review or final publication acceptance**.
+**Reviewed (model-assisted)**: Nine substantive reference articles have passed internally documented scoped technical and editorial reviews. The [50-family pilot audit](PILOT-CLAIM-SOURCE-AUDIT.md) covers six originals; the [Wave A Batch 01 audit](WAVE-A-TECHNICAL-REVIEW-01.md) covers the next three and documents corrections and assumptions. These are **not** independently human peer-reviewed or finally accepted publications.
 
-**Reviewed pilot references:**
+| Area | Reviewed reference |
+| --- | --- |
+| Mathematics & Logic | [Sets and Relations](mathematics-logic/sets-and-relations.md); [Boolean and Predicate Logic](mathematics-logic/boolean-and-predicate-logic.md) |
+| Scientific & Analytical Reasoning | [Observation](scientific-analytical-reasoning/observation.md); [Evidence](scientific-analytical-reasoning/evidence.md) |
+| Models & Abstraction | [Entities and Attributes](models-abstraction/entities-and-attributes.md); [State, Events, and Transitions](models-abstraction/state-events-and-transitions.md) |
+| Information & Data | [Symbols and Encoding](information-data/symbols-and-encoding.md) |
+| Digital Systems & Hardware | [Digital Logic](digital-systems-hardware/digital-logic.md) |
+| Systems & Engineering | [Systems and Subsystems](systems-engineering/systems-and-subsystems.md) |
 
-- [Sets and Relations](mathematics-logic/sets-and-relations.md)
-- [Observation](scientific-analytical-reasoning/observation.md)
-- [Entities and Attributes](models-abstraction/entities-and-attributes.md)
-- [Symbols and Encoding](information-data/symbols-and-encoding.md)
-- [Systems and Subsystems](systems-engineering/systems-and-subsystems.md)
-- [Digital Logic](digital-systems-hardware/digital-logic.md)
+**New Wave A Drafts**: Three additional references are committed with substantive technical prose and primary source links. The scoped acceptance review for these three has **not** been completed.
 
-**Wave A, newly drafted:**
+- [Numbers and Numerical Systems](mathematics-logic/numbers-and-numerical-systems.md)
+- [Measurement](scientific-analytical-reasoning/measurement.md)
+- [Relationships](models-abstraction/relationships.md)
 
-- [Boolean and Predicate Logic](mathematics-logic/boolean-and-predicate-logic.md)
-- [Evidence](scientific-analytical-reasoning/evidence.md)
-- [State, Events, and Transitions](models-abstraction/state-events-and-transitions.md)
+The [Development & Verification Register v0.5](DEVELOPMENT-VERIFICATION-REGISTER.md) records all **109 approved headings**: **9 Reviewed (model-assisted)**, **3 Draft**, and **97 Inventoried** without articles. No heading has been added or renamed. Fully independently verified and finally published references: **0**.
 
-The three Wave A articles have source lists but have **not** passed the same scoped acceptance review. [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) distinguishes each article's status, reviewed claims, and the remaining headings.
+## Review Evidence and Publication Boundaries
 
-**Current state:** 6 internally reviewed pilots, 3 new drafts, 100 inventoried headings without canonical articles, and 0 externally approved final publications. The 12/109 approved architecture is unchanged.
+- [Pilot Technical Review](PILOT-TECHNICAL-REVIEW.md): first six-article correction pass.
+- [Pilot Claim-to-Source Audit](PILOT-CLAIM-SOURCE-AUDIT.md): scoped 50 claim-family model-assisted review.
+- [Wave A Batch 01 Technical Review](WAVE-A-TECHNICAL-REVIEW-01.md): scoped 21 claim-family model-assisted review of three additional references.
 
-## Pilot Technical Review
-
-The [Six-Pilot Technical and Editorial Review](PILOT-TECHNICAL-REVIEW.md) records the second-pass corrections. The [50-Claim-Family Audit](PILOT-CLAIM-SOURCE-AUDIT.md) records the subsequent scoped model-assisted review and the six Reviewed statuses. Independent human peer review and final publication acceptance remain outstanding.
-
-[Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks this distinction and the three new Wave A drafts. The full reference corpus and seven completion gates remain outstanding.
+**Reviewed** means that a scoped internal audit passed; it does **not** mean an independent human expert has reviewed the work, the verification gate has been closed, or the publication as a whole is complete. The approved G-01/G-04/G-06 scope questions remain separate decisions.
 
 ## Development Plan of Action
 
@@ -115,7 +115,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** The 12 areas and 109 headings are implemented, the 109-subject tracking register exists, and six pilot references have been drafted. This remains **work in progress**: the full corpus, cross-domain coverage audit, independent technical verification, and final completion gates are outstanding.
+**Current milestone:** The 12 knowledge areas and 109 headings are preserved, and 12 substantial articles exist at different review stages (9 Reviewed internally, 3 Draft). This remains **work in progress**: the full corpus, cross-domain coverage audit, independent technical verification, and final completion gates are outstanding.
 
 ## Coverage Across Specialized Domains
 
