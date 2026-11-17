@@ -27,18 +27,18 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 
 ## Canonical Reference Development
 
-**Twenty-four substantive references are Reviewed (model-assisted)** through the original six-pilot review and Wave A Batches 01–06. These reviews do **not** imply independent human expert peer review or final release acceptance.
+**Twenty-nine substantive references are Reviewed (model-assisted)** through the original six-pilot review and Wave A Batches 01–07. These reviews do **not** imply independent human expert peer review or final release acceptance.
 
 | Approved knowledge area | Reviewed reference articles |
 | --- | --- |
-| Mathematics & Logic | [Numbers and Numerical Systems](mathematics-logic/numbers-and-numerical-systems.md); [Sets and Relations](mathematics-logic/sets-and-relations.md); [Boolean and Predicate Logic](mathematics-logic/boolean-and-predicate-logic.md); [Algebra and Functions](mathematics-logic/algebra-and-functions.md); [Discrete Mathematics](mathematics-logic/discrete-mathematics.md); [Graph Theory](mathematics-logic/graph-theory.md); [Probability and Statistics](mathematics-logic/probability-and-statistics.md) |
-| Scientific & Analytical Reasoning | [Observation](scientific-analytical-reasoning/observation.md); [Measurement](scientific-analytical-reasoning/measurement.md); [Evidence](scientific-analytical-reasoning/evidence.md); [Hypotheses and Experiments](scientific-analytical-reasoning/hypotheses-and-experiments.md); [Deduction, Induction, and Abduction](scientific-analytical-reasoning/deduction-induction-abduction.md); [Causality and Correlation](scientific-analytical-reasoning/causality-and-correlation.md); [Uncertainty and Confidence](scientific-analytical-reasoning/uncertainty-and-confidence.md) |
-| Models & Abstraction | [Entities and Attributes](models-abstraction/entities-and-attributes.md); [Identity and Distinction](models-abstraction/identity-and-distinction.md); [Relationships](models-abstraction/relationships.md); [Boundaries](models-abstraction/boundaries.md); [Abstraction](models-abstraction/abstraction.md); [Classification](models-abstraction/classification.md); [State, Events, and Transitions](models-abstraction/state-events-and-transitions.md) |
+| Mathematics & Logic | [Numbers and Numerical Systems](mathematics-logic/numbers-and-numerical-systems.md); [Sets and Relations](mathematics-logic/sets-and-relations.md); [Boolean and Predicate Logic](mathematics-logic/boolean-and-predicate-logic.md); [Algebra and Functions](mathematics-logic/algebra-and-functions.md); [Discrete Mathematics](mathematics-logic/discrete-mathematics.md); [Graph Theory](mathematics-logic/graph-theory.md); [Probability and Statistics](mathematics-logic/probability-and-statistics.md); [Units And Quantities](mathematics-logic/units-and-quantities.md) |
+| Scientific & Analytical Reasoning | [Observation](scientific-analytical-reasoning/observation.md); [Measurement](scientific-analytical-reasoning/measurement.md); [Evidence](scientific-analytical-reasoning/evidence.md); [Hypotheses and Experiments](scientific-analytical-reasoning/hypotheses-and-experiments.md); [Deduction, Induction, and Abduction](scientific-analytical-reasoning/deduction-induction-abduction.md); [Causality and Correlation](scientific-analytical-reasoning/causality-and-correlation.md); [Uncertainty and Confidence](scientific-analytical-reasoning/uncertainty-and-confidence.md); [Validation And Falsification](scientific-analytical-reasoning/validation-and-falsification.md) |
+| Models & Abstraction | [Entities and Attributes](models-abstraction/entities-and-attributes.md); [Identity and Distinction](models-abstraction/identity-and-distinction.md); [Relationships](models-abstraction/relationships.md); [Boundaries](models-abstraction/boundaries.md); [Abstraction](models-abstraction/abstraction.md); [Classification](models-abstraction/classification.md); [State, Events, and Transitions](models-abstraction/state-events-and-transitions.md); [Ontologies And Taxonomies](models-abstraction/ontologies-and-taxonomies.md); [Schemas](models-abstraction/schemas.md); [Conceptual And Formal Models](models-abstraction/conceptual-and-formal-models.md) |
 | Information & Data | [Symbols and Encoding](information-data/symbols-and-encoding.md) |
 | Digital Systems & Hardware | [Digital Logic](digital-systems-hardware/digital-logic.md) |
 | Systems & Engineering | [Systems and Subsystems](systems-engineering/systems-and-subsystems.md) |
 
-**Five Wave A Batch 07 Drafts** await their own scoped technical audits:
+**Wave A technical review completed:** The five Batch 07 subjects passed the [30-family scoped technical review](WAVE-A-TECHNICAL-REVIEW-07.md):
 
 - [Units and Quantities](mathematics-logic/units-and-quantities.md)
 - [Validation and Falsification](scientific-analytical-reasoning/validation-and-falsification.md)
@@ -46,7 +46,7 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 - [Schemas](models-abstraction/schemas.md)
 - [Conceptual and Formal Models](models-abstraction/conceptual-and-formal-models.md)
 
-The [Development & Verification Register v1.1](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks **109 approved headings**: **24 Reviewed (model-assisted)**, **5 Draft**, **80 Inventoried**. All **26 of the 26 Wave A subject headings** now have substantive articles; five remain to be technically audited. No independent human-verified final publication is claimed.
+The [Development & Verification Register v1.2](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks **109 approved headings**: **29 Reviewed (model-assisted)**, **0 Draft**, **80 Inventoried**. **26 of 26 Wave A subjects** now have substantive internally reviewed articles. Independent expert review, exhaustive source verification and final publication acceptance remain open.
 
 ## Technical Audit Evidence
 
@@ -58,6 +58,7 @@ The [Development & Verification Register v1.1](DEVELOPMENT-VERIFICATION-REGISTER
 - [Wave A Batch 04 Review](WAVE-A-TECHNICAL-REVIEW-04.md): 24 claim families.
 - [Wave A Batch 05 Review](WAVE-A-TECHNICAL-REVIEW-05.md): 24 claim families.
 - [Wave A Batch 06 Review](WAVE-A-TECHNICAL-REVIEW-06.md): 24 claim families.
+- [Wave A Batch 07 Review](WAVE-A-TECHNICAL-REVIEW-07.md): 30 claim families.
 
 **Reviewed** denotes a documented internal model-assisted technical/editorial evaluation, not independent human approval, a ratified graph predicate vocabulary, or completion of the seven Fundamentals gates. G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML remain outstanding architectural scope decisions.
 
@@ -122,7 +123,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 29 substantive reference articles (24 internally Reviewed, five Draft). Complete source validation and all seven corpus-wide completion gates remain open.
+**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 29 substantive reference articles (29 internally Reviewed, zero Draft). Complete source validation and all seven corpus-wide completion gates remain open.
 
 ## Coverage Across Specialized Domains
 
