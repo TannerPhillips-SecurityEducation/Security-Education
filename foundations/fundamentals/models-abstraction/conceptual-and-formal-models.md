@@ -74,7 +74,7 @@ These are **illustrative forms**, not newly approved ontology classes. A model c
 
 A verified model can accurately prove a property that is irrelevant to stakeholders. A statistically predictive model can perform usefully without providing a formal correctness proof. A functioning implementation can violate an abstract model because the correspondence assumptions were false.
 
-[Validation and Falsification](../scientific-analytical-reasoning/validation-and-falsification.md) owns evidence-based criticism of empirical claims; [Systems & Engineering: Verification and Validation](../systems-engineering/README.md) owns engineered-product conformity and intended use; [Schemas](schemas.md) owns representation conformance.
+[Validation and Falsification](../scientific-analytical-reasoning/validation-and-falsification.md) owns evidence-based criticism of empirical claims; [Systems & Engineering: Verification and Validation](../systems-engineering/verification-and-validation.md) owns engineered-product conformity and intended use; [Schemas](schemas.md) owns representation conformance.
 
 ## Boundaries and unresolved coverage
 
