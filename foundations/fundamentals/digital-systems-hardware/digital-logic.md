@@ -9,7 +9,7 @@
 
 **Digital logic** concerns physical and abstract circuits that encode, combine, and retain discrete logical states. It is the bridge between a mathematical algebra of truth values and the electrical behavior of real computing hardware.
 
-The formal expression `A AND B` is a proposition about logical values. An electronic logic gate implements a corresponding operation using physical devices and voltage ranges. The mathematical rule does **not** itself specify the circuit's power, voltage thresholds, noise margin, propagation delay, or failure behavior.
+The formal expression `A AND B` denotes conjunction of logical inputs or propositions under the chosen Boolean interpretation. An electronic logic gate implements a corresponding operation using physical devices and voltage ranges. The mathematical rule does **not** itself specify the circuit's power, voltage thresholds, noise margin, propagation delay, or failure behavior.
 
 That distinction determines canonical ownership: [Mathematics & Logic](../mathematics-logic/README.md) explains Boolean operations and proof rules, while this article explains how **hardware** represents and implements logic.
 
@@ -81,7 +81,7 @@ Physical digital systems are subject to signal propagation and setup/hold timing
 
 Synchronizers and careful clock-domain design reduce the risk of metastability-related failures, but they do not magically remove all physical timing constraints. Clocked designs must also account for **clock skew**, path delay, and the timing of interfaces between synchronous and asynchronous components.
 
-The MIT [Computation Structures lecture notes](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/lecture-notes/) separately cover digital abstraction, combinational logic, gate timing, sequential logic, storage elements, and synchronization. These distinctions form an appropriate source basis for detailed physical implementation references.
+The MIT [Computation Structures lecture sequence](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/lecture-notes/) explicitly distinguishes digital abstraction, combinational logic, gate timing, sequential logic, storage elements, and synchronization. Its [synchronization and metastability resource](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/resources/mit6_004s09_lec07/) provides a focused technical reference for timing-related failure modes.
 
 ## Distinctions that matter
 
@@ -103,8 +103,9 @@ These broad links lead to approved area inventories unless a canonical article a
 
 - [MIT OpenCourseWare: Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/).
 - [MIT OpenCourseWare: Computation Structures lecture notes](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/lecture-notes/), especially digital abstraction, CMOS gates, combinational/sequential logic, finite-state machines, and synchronization.
+- [MIT OpenCourseWare: Synchronization, Metastability and Arbitration](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/resources/mit6_004s09_lec07/), a focused lecture reference for metastability.
 - [MIT Mathematics for Computer Science](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/lecture-notes/), for formal mathematical reasoning distinct from physical circuit implementation.
 
-**Review note:** Truth tables and the half-adder example are grounded in elementary Boolean operations and can be checked mechanically. Assertions concerning actual circuit timing and reliability require contextual physical assumptions and are pending editorial/source verification.
+**Review record:** The logic-gate and half-adder truth tables were evaluated directly across all four two-input combinations. MIT's published lecture material was checked for the physical-digital-abstraction, sequential-logic, propagation-delay and metastability distinctions. Exact electrical limits remain technology-dependent and have deliberately not been asserted. This is a source-checked draft pending final editorial acceptance.
 
 [Digital Systems & Hardware](README.md) · [Fundamentals](../README.md) · [Canonical ownership register](../CANONICAL-OWNERSHIP-REGISTER.md)
