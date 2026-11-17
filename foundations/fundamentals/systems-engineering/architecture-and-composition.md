@@ -76,13 +76,13 @@ An **architectural model** expresses intended relationships. **Integration** rea
 
 A component could individually satisfy its specification while the composed system violates an end-to-end timing constraint. Conversely, an architecture that appears coherent on paper can include an interface whose interpretation is ambiguous or unimplemented.
 
-[Conceptual and Formal Models](../models-abstraction/conceptual-and-formal-models.md) owns general formalization and model-to-target relationships. [Verification and Validation](README.md) is a separate approved Systems & Engineering subject awaiting its canonical article; this architecture article does not redefine it.
+[Conceptual and Formal Models](../models-abstraction/conceptual-and-formal-models.md) owns general formalization and model-to-target relationships. [Verification and Validation](verification-and-validation.md) is the separate canonical Systems & Engineering subject; this architecture article does not redefine it.
 
 ## Changes to architecture
 
 An architecture is subject to evolution. Adding a component can affect resource allocation, compatibility, operational responsibilities, and failure paths. An architectural decision record can preserve rationale, alternatives, assumptions, and rejected options, but a record alone is not proof that a decision was correct.
 
-Architectural descriptions must identify the relevant **system of interest**, boundary, version, and intended use when those distinctions affect interpretation. Detailed formal change-control methods belong to the approved [System Lifecycle](README.md) subject and later specialized knowledge domains.
+Architectural descriptions must identify the relevant **system of interest**, boundary, version, and intended use when those distinctions affect interpretation. Detailed formal change-control methods belong to the approved [System Lifecycle](system-lifecycle.md) subject and later specialized knowledge domains.
 
 ## Boundaries and references
 
