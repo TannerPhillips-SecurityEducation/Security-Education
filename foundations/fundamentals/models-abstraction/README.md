@@ -32,12 +32,13 @@ The content belongs in Fundamentals only insofar as it is domain-agnostic. Secur
 
 ## Canonical reference articles
 
-- [Entities and attributes](entities-and-attributes.md) — Reviewed (model-assisted; [audit](../PILOT-CLAIM-SOURCE-AUDIT.md)); final human approval pending.
-- [Identity and distinction](identity-and-distinction.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-03.md)); final human approval pending.
-- [Relationships](relationships.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-02.md)); final human approval pending.
-- [Boundaries](boundaries.md) — Draft (references listed; claim-to-source review pending).
-- [State, events, and transitions](state-events-and-transitions.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-01.md)); final human approval pending.
+- [Entities and attributes](entities-and-attributes.md) — Reviewed (model-assisted; [scope audit](../PILOT-CLAIM-SOURCE-AUDIT.md)); independent human acceptance not claimed.
+- [Identity and distinction](identity-and-distinction.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-03.md)); independent human acceptance not claimed.
+- [Relationships](relationships.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-02.md)); independent human acceptance not claimed.
+- [Boundaries](boundaries.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-04.md)); independent human acceptance not claimed.
+- [Abstraction](abstraction.md) — Draft; technical explanation and sources listed, article-level review pending.
+- [State, events, and transitions](state-events-and-transitions.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-01.md)); independent human acceptance not claimed.
 
-These references do not alter the approved subject headings or imply independent human peer review. A **Draft** is not marked Reviewed until its own claim-to-source audit is completed.
+No approved subject heading is changed by article status. Links to area inventories remain for subjects without articles; the review evidence does not constitute independent human peer review or final publication.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
