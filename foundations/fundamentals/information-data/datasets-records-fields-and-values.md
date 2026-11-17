@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Information & Data](README.md)  
 **Approved subject heading:** Datasets, records, fields, and values  
-**Development status:** Draft  
-**Source review:** References listed; separate scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 01 audit](../WAVE-B-TECHNICAL-REVIEW-01.md); no independent human peer review
 
 ## Information has a scope and a grain
 
@@ -74,6 +74,6 @@ The [W3C RDF 1.1 Concepts](https://www.w3.org/TR/rdf11-concepts/) specification 
 - [IETF RFC 8259: JSON](https://www.rfc-editor.org/rfc/rfc8259).
 - [NIST Engineering Statistics Handbook](https://www.itl.nist.gov/div898/handbook/).
 
-**Editorial status:** Substantive draft. Aggregation calculations, database claims and RDF comparisons require scoped technical review. No assessment or schema adoption is introduced.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 01 technical audit](../WAVE-B-TECHNICAL-REVIEW-01.md). Complete source verification, independent human peer review, and final publication acceptance remain open.
 
 [Information & Data](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
