@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v0.1. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
+**Status:** Working architectural register v0.2. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
 
 This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
 
@@ -9,7 +9,7 @@ This register connects the existing subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** All links point to live **area index READMEs**, not to not-yet-written concept articles. Replace them with precise canonical links as reference articles are published.
+- **Links:** Links to subjects with existing pilot articles now point directly to the **draft canonical article**; other links still lead to live **area indexes** until their individual articles exist. A direct link does **not** imply verified or final publication.
 - **Granularity:** One heading may require multiple articles, and a single well-scoped explanation can serve more than one heading. Do not assume 109 headings equal 109 indivisible concepts.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -21,8 +21,8 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
 | **Numbers and numerical systems** | Abstract number sets, arithmetic, order, and positional notation | *represented digitally by* → [Bits and bytes](information-data/README.md) |
-| **Sets and relations** | Membership, subsets, and formally defined binary relations | *applied as conceptual* → [Relationships](models-abstraction/README.md) |
-| **Boolean and predicate logic** | Truth functions, predicates, quantification, entailment, and logical validity | *implemented electronically through* → [Digital logic](digital-systems-hardware/README.md) |
+| **Sets and relations** | [Draft canonical article](mathematics-logic/sets-and-relations.md) · Membership, subsets, and formally defined binary relations | *applied as conceptual* → [Relationships](models-abstraction/README.md) |
+| **Boolean and predicate logic** | Truth functions, predicates, quantification, entailment, and logical validity | *implemented electronically through* → [Digital logic](digital-systems-hardware/digital-logic.md) |
 | **Algebra and functions** | Mappings, variables, expressions, equations, and function composition | *supports mathematical formulation of* → [Algorithms](computation-algorithms/README.md) |
 | **Discrete mathematics** | Finite structures, counting, recurrences, and mathematical induction | *supports construction of* → [Algorithm design](computation-algorithms/README.md) |
 | **Graph theory** | Vertices, edges, paths, connectivity, and hierarchical structures | *models* → [Dependencies](systems-engineering/README.md) |
@@ -33,7 +33,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Observation** | Acquisition of phenomena, observer scope, and observational limitations | *can supply* → [Evidence](scientific-analytical-reasoning/README.md) |
+| **Observation** | [Draft canonical article](scientific-analytical-reasoning/observation.md) · Acquisition of phenomena, observer scope, and observational limitations | *can supply* → [Evidence](scientific-analytical-reasoning/README.md) |
 | **Measurement** | Operational quantification, instrument calibration, and measurement uncertainty | *uses* → [Units and quantities](mathematics-logic/README.md) |
 | **Evidence** | Relevance, sufficiency, provenance, and support for claims | *may require* → [Data provenance and lifecycle](information-data/README.md) |
 | **Hypotheses and experiments** | Testable claims, experimental controls, confounders, and replication | *used to investigate* → [Causality and correlation](scientific-analytical-reasoning/README.md) |
@@ -46,10 +46,10 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Entities and attributes** | General entities, properties, values, and type-versus-instance distinctions | *represented in data by* → [Datasets, records, fields, and values](information-data/README.md) |
+| **Entities and attributes** | [Draft canonical article](models-abstraction/entities-and-attributes.md) · General entities, properties, values, and type-versus-instance distinctions | *represented in data by* → [Datasets, records, fields, and values](information-data/README.md) |
 | **Identity and distinction** | Sameness, difference, reference, and persistence through change | *specialized for communication in* → [Addressing and naming](communication-distributed-systems/README.md) |
-| **Relationships** | General associations, direction, cardinality, and context qualification | *formalized in* → [Sets and relations](mathematics-logic/README.md) |
-| **Boundaries** | Inclusion, exclusion, separation, limitations, and interface distinctions | *used to delimit* → [Systems and subsystems](systems-engineering/README.md) |
+| **Relationships** | General associations, direction, cardinality, and context qualification | *formalized in* → [Sets and relations](mathematics-logic/sets-and-relations.md) |
+| **Boundaries** | Inclusion, exclusion, separation, limitations, and interface distinctions | *used to delimit* → [Systems and subsystems](systems-engineering/systems-and-subsystems.md) |
 | **Abstraction** | Selection and suppression of detail to support models and multiple views | *specialized as* → [Hardware abstraction](digital-systems-hardware/README.md) |
 | **Classification** | Criteria for categories, classes, membership, and differentiation | *organized into* → [Ontologies and taxonomies](models-abstraction/README.md) |
 | **Ontologies and taxonomies** | Conceptual categories, kinds, and typed semantic relations | *may be constrained by* → [Schemas](models-abstraction/README.md) |
@@ -64,7 +64,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Matter and energy** | Physical matter, energy, transfer, and constraints on physical systems | *constrains* → [Computing components](digital-systems-hardware/README.md) |
 | **Electricity** | Charge, voltage, current, resistance, and electrical power | *governs* → [Electrical circuits](physical-electrical-principles/README.md) |
 | **Electrical circuits** | Behavior of interconnected passive and active electrical elements | *forms the physical basis of* → [Electronics](physical-electrical-principles/README.md) |
-| **Electronics** | Semiconductors, switching, amplification, and electronic component functions | *enables* → [Digital logic](digital-systems-hardware/README.md) |
+| **Electronics** | Semiconductors, switching, amplification, and electronic component functions | *enables* → [Digital logic](digital-systems-hardware/digital-logic.md) |
 | **Analog and digital signals** | Physical continuous signals versus sampled or discrete representations | *processed through* → [Signal conversion](physical-electrical-principles/README.md) |
 | **Waves and frequency** | Oscillation, frequency, phase, wavelength, and propagation | *supports* → [Transmission and signaling](communication-distributed-systems/README.md) |
 | **Sensors and actuators** | Transduction between physical phenomena and actionable system inputs/outputs | *used in system* → [Feedback and control](systems-engineering/README.md) |
@@ -75,11 +75,11 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Symbols and encoding** | Symbol systems, mappings, character codes, and representations | *realized digitally as* → [Bits and bytes](information-data/README.md) |
+| **Symbols and encoding** | [Draft canonical article](information-data/symbols-and-encoding.md) · Symbol systems, mappings, character codes, and representations | *realized digitally as* → [Bits and bytes](information-data/README.md) |
 | **Bits and bytes** | Binary digits, byte grouping, and digital representation units | *grounded in numerical* → [Numbers and numerical systems](mathematics-logic/README.md) |
 | **Information theory** | Entropy, information content, and theoretical communication constraints | *constrains* → [Communication channels](communication-distributed-systems/README.md) |
 | **Data types** | Value domains, types, constraints, and interpretation | *used in* → [Programming languages](software-programming/README.md) |
-| **Datasets, records, fields, and values** | Collections, records, field granularity, and field values | *models properties of* → [Entities and attributes](models-abstraction/README.md) |
+| **Datasets, records, fields, and values** | Collections, records, field granularity, and field values | *models properties of* → [Entities and attributes](models-abstraction/entities-and-attributes.md) |
 | **Data structures and formats** | Logical containers, structured formats, serialization, and data representations | *distinct from operational* → [Computational data structures](computation-algorithms/README.md) |
 | **Metadata** | Descriptions of structure, semantics, context, and lineage | *supports* → [Data provenance and lifecycle](information-data/README.md) |
 | **Databases and queries** | Data persistence, logical models, query operations, and retrieval concepts | *uses* → [Data structures and formats](information-data/README.md) |
@@ -89,8 +89,8 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Digital logic** | Physical switching systems implementing logical and sequential behavior | *realizes* → [Boolean and predicate logic](mathematics-logic/README.md) |
-| **Computing components** | Hardware organization of processors, memory, peripherals, and interconnects | *is a type of* → [Systems and subsystems](systems-engineering/README.md) |
+| **Digital logic** | [Draft canonical article](digital-systems-hardware/digital-logic.md) · Physical switching systems implementing logical and sequential behavior | *realizes* → [Boolean and predicate logic](mathematics-logic/README.md) |
+| **Computing components** | Hardware organization of processors, memory, peripherals, and interconnects | *is a type of* → [Systems and subsystems](systems-engineering/systems-and-subsystems.md) |
 | **Processors and instruction sets** | Processor execution organization, instruction encoding, and ISA models | *is a target of* → [Compilation and interpretation](software-programming/README.md) |
 | **Memory and storage** | Volatile and nonvolatile storage media, latency, and memory hierarchy | *managed abstractly by* → [Memory management](operating-system-principles/README.md) |
 | **Buses and interfaces** | Physical/logical device interconnects and signal transfer | *accessed using* → [Drivers and devices](operating-system-principles/README.md) |
@@ -118,7 +118,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
 | **Programming languages** | Software language forms, grammars, execution constructs, and ecosystems | *express* → [Algorithms](computation-algorithms/README.md) |
-| **Syntax and semantics** | Programming grammar, syntactic structure, semantic meaning, and interpretation | *uses* → [Symbols and encoding](information-data/README.md) |
+| **Syntax and semantics** | Programming grammar, syntactic structure, semantic meaning, and interpretation | *uses* → [Symbols and encoding](information-data/symbols-and-encoding.md) |
 | **Programming paradigms** | Imperative, declarative, functional, object, and event-driven styles | *structure* → [Algorithms](computation-algorithms/README.md) |
 | **Compilation and interpretation** | Translation, parsing, intermediate forms, linking, and interpretation | *targets* → [Processors and instruction sets](digital-systems-hardware/README.md) |
 | **Runtime environments** | Execution libraries, services, managed runtimes, and memory lifetimes | *interacts with* → [Kernels](operating-system-principles/README.md) |
@@ -160,7 +160,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Systems and subsystems** | Systems of interest, environments, nested wholes, and subsystem organization | *defined using* → [Boundaries](models-abstraction/README.md) |
+| **Systems and subsystems** | [Draft canonical article](systems-engineering/systems-and-subsystems.md) · Systems of interest, environments, nested wholes, and subsystem organization | *defined using* → [Boundaries](models-abstraction/README.md) |
 | **Components and interfaces** | System components, responsibilities, interfaces, and their contracts | *instantiates* → [Relationships](models-abstraction/README.md) |
 | **Architecture and composition** | Composition, decomposition, architectural views, patterns, and tradeoffs | *represented through* → [Conceptual and formal models](models-abstraction/README.md) |
 | **Dependencies** | Necessary relationships, constraints, propagation, and critical paths | *represented with* → [Graph theory](mathematics-logic/README.md) |
@@ -184,6 +184,10 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Collaboration and communication** | Human coordination, collaboration, shared language, and information exchange | *structured by* → [Organizational structures](human-sociotechnical-systems/README.md) |
 | **Organizational structures** | Roles, responsibilities, authority, governance, and organizational relationships | *shape* → [Requirements](systems-engineering/README.md) |
 | **Ethics and professional responsibilities** | Professional obligations, harms, accountability, and responsible conduct | *informs human* → [Decision-making](human-sociotechnical-systems/README.md) |
+
+## Canonical article integration
+
+**Six approved pilot headings now have direct links to their substantive draft articles.** This is a navigation improvement only: technical review and final publication status remain pending. The 109 approved subject headings and illustrative relationship rows are unchanged.
 
 ## Register integrity
 
