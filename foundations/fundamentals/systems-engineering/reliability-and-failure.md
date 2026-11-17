@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Systems & Engineering](README.md)  
 **Approved subject heading:** Reliability and failure  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 04 audit](../WAVE-B-TECHNICAL-REVIEW-04.md); no independent human peer review
 
 ## Dependability depends on conditions and defined success
 
@@ -81,6 +81,6 @@ Reliability engineering therefore combines design analysis, evidence collection,
 - [NASA: Technical Risk Management](https://www.nasa.gov/reference/6-4-technical-risk-management/).
 - [NASA: Design Solution Definition](https://www.nasa.gov/reference/4-4-design-solution-definition/).
 
-**Editorial status:** Substantive Draft. Worked probability and availability results are invented, assumption-bound examples and must undergo a separate technical audit before Reviewed status.
+**Editorial status:** Reviewed (model-assisted) under the scoped [Wave B Batch 04 technical review](../WAVE-B-TECHNICAL-REVIEW-04.md). Exhaustive source verification, independent expert review and final publication acceptance remain separate, uncompleted gates.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
