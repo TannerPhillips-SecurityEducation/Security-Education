@@ -30,12 +30,13 @@ The content belongs in Fundamentals only insofar as it is domain-agnostic. Secur
 
 ## Canonical reference articles
 
-- [Numbers and numerical systems](numbers-and-numerical-systems.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-02.md)); final human approval pending.
-- [Sets and relations](sets-and-relations.md) — Reviewed (model-assisted; [audit](../PILOT-CLAIM-SOURCE-AUDIT.md)); final human approval pending.
-- [Boolean and predicate logic](boolean-and-predicate-logic.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-01.md)); final human approval pending.
-- [Algebra and functions](algebra-and-functions.md) — Reviewed (model-assisted; [audit](../WAVE-A-TECHNICAL-REVIEW-03.md)); final human approval pending.
-- [Discrete mathematics](discrete-mathematics.md) — Draft (references listed; claim-to-source review pending).
+- [Numbers and numerical systems](numbers-and-numerical-systems.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-02.md)); independent human acceptance not claimed.
+- [Sets and relations](sets-and-relations.md) — Reviewed (model-assisted; [scope audit](../PILOT-CLAIM-SOURCE-AUDIT.md)); independent human acceptance not claimed.
+- [Boolean and predicate logic](boolean-and-predicate-logic.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-01.md)); independent human acceptance not claimed.
+- [Algebra and functions](algebra-and-functions.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-03.md)); independent human acceptance not claimed.
+- [Discrete mathematics](discrete-mathematics.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-04.md)); independent human acceptance not claimed.
+- [Graph theory](graph-theory.md) — Draft; technical explanation and sources listed, article-level review pending.
 
-These references do not alter the approved subject headings or imply independent human peer review. A **Draft** is not marked Reviewed until its own claim-to-source audit is completed.
+No approved subject heading is changed by article status. Links to area inventories remain for subjects without articles; the review evidence does not constitute independent human peer review or final publication.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
