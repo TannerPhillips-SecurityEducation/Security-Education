@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Models & Abstraction](README.md)  
 **Approved subject heading:** Classification  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave A Batch 06 audit](../WAVE-A-TECHNICAL-REVIEW-06.md); no independent human review
 
 ## Classification makes distinctions according to criteria
 
@@ -65,7 +65,7 @@ Classification is the act of assigning or grouping subjects according to criteri
 
 The W3C [Simple Knowledge Organization System (SKOS)](https://www.w3.org/TR/skos-reference/) provides a standardized representation for concepts, labels, broader/narrower and related links, concept schemes and collections. The [OWL 2 Overview](https://www.w3.org/TR/owl2-overview/) describes a more formal ontology language with classes, properties, individuals and logical semantics.
 
-**SKOS broader/narrower links are not automatically OWL subclass axioms.** A navigational or thesaurus hierarchy can represent conceptual organization without committing to every logical consequence of a strict class-subsumption relationship. The canonical theory of [Ontologies and Taxonomies](README.md) will develop this distinction further.
+**SKOS broader/narrower links are not automatically OWL subclass axioms.** A navigational or thesaurus hierarchy can represent conceptual organization without committing to every logical consequence of a strict class-subsumption relationship. The canonical theory of the future canonical article on **Ontologies and Taxonomies** will develop this distinction further.
 
 No repository-specific SKOS or OWL implementation is hereby introduced or approved. These standards are reference examples of distinct ways to represent knowledge.
 
@@ -119,7 +119,7 @@ Different failure modes should be kept distinct:
 
 An erroneous classification does not necessarily mean the subject changed, or that its identity was incorrectly established. The error may be in observation, representation, mapping, or inference.
 
-[Observation](../scientific-analytical-reasoning/observation.md), [Evidence](../scientific-analytical-reasoning/evidence.md), [Measurement](../scientific-analytical-reasoning/measurement.md) and [Schemas](README.md) provide the neighboring concepts.
+[Observation](../scientific-analytical-reasoning/observation.md), [Evidence](../scientific-analytical-reasoning/evidence.md), [Measurement](../scientific-analytical-reasoning/measurement.md) and the future canonical **Schemas** article will provide the neighboring concepts.
 
 ## Worked example: two independent facets
 
@@ -147,6 +147,6 @@ The example illustrates **canonical ownership separation**: Mathematics & Logic 
 - [W3C OWL 2 Overview](https://www.w3.org/TR/owl2-overview/), formal classes, properties, individuals and logical semantics.
 - [MIT Mathematics for Computer Science Readings](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/), sets and equivalence classes.
 
-**Editorial status:** Substantive domain-independent Draft. The three-device classification, functional labels and mapping rules are original illustrative models, not a proposed formal taxonomy for the repository. A separate scoped source audit is required before this article becomes Reviewed.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Batch 06 technical audit](../WAVE-A-TECHNICAL-REVIEW-06.md). Not independently human peer reviewed, fully verified, or published.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
