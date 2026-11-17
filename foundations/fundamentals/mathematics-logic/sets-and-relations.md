@@ -54,7 +54,7 @@ A relation **on A** is a subset of `A × A`. Such a relation can possess propert
 
 These properties are independent. In particular, **antisymmetric does not mean not symmetric**. A partial order is reflexive, antisymmetric, and transitive. An equivalence relation is reflexive, symmetric, and transitive. Equivalence partitions a set into classes of mutually equivalent elements; a partial order captures an ordering that need not compare every pair.
 
-The subset relation `⊆` on a collection of sets provides a partial-order example. For instance, `{a} ⊆ {a,b}` and `{b} ⊆ {a,b}`, but `{a}` and `{b}` are not comparable by inclusion.
+The subset relation `⊆` on a collection of sets provides a partial-order example. For instance, `{a} ⊆ {a,b}` and `{b} ⊆ {a,b}`, but `{a}` and `{b}` are not comparable by inclusion. In this example, distinct sets cannot include one another in both directions, illustrating *antisymmetry*, while equality of sets is symmetric. These properties should not be conflated.
 
 ## Functions and graphs: connected but different
 
@@ -82,6 +82,6 @@ Related approved areas include [Relationships](../models-abstraction/README.md),
 - [MIT OpenCourseWare: Mathematics for Computer Science, readings](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/), covering sets, relations, and proofs.
 - [Open Logic Project: Sets, Logic, Computation](https://slc.openlogicproject.org/) for more formal treatment of set-theoretic and logical foundations.
 
-**Review note:** These sources establish the general mathematical treatment. The worked examples and scope boundaries are editorial illustrations; they have not yet passed the independent review gate.
+**Review record:** Core mathematical definitions, the subset/partial-order distinctions, and the worked set and relation examples were checked in a second-pass technical review against the cited MIT/Open Logic material and direct example evaluation. This is a **source-checked draft**, pending final editorial acceptance; it is not a claim that every possible application of set theory has been verified.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md) · [Canonical ownership register](../CANONICAL-OWNERSHIP-REGISTER.md)
