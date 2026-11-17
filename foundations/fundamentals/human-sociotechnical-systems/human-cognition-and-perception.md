@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Human & Sociotechnical Systems](README.md)  
 **Approved subject heading:** Human cognition and perception  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source technical review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 05 audit](../WAVE-B-TECHNICAL-REVIEW-05.md); no independent human peer review
 
 ## People perceive, interpret, and remember through limited processes
 
@@ -67,6 +67,6 @@ Perception produces information available for judgment, but a perceived state is
 - [SEBoK: Human Systems Integration](https://sebokwiki.org/wiki/Human_Systems_Integration).
 - [NIST: Human-Centered Design](https://www.nist.gov/itl/iad/human-centered-technologies/human-factors-human-centered-design).
 
-**Editorial status:** Substantive Draft. The invented interface comparison and human-performance generalizations require their own scoped source and technical review. No assessments or new universal cognitive taxonomy are introduced.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 05 technical audit](../WAVE-B-TECHNICAL-REVIEW-05.md). Complete standards verification, independent human expert review and final publication acceptance remain separate and pending.
 
 [Human & Sociotechnical Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
