@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Human & Sociotechnical Systems](README.md)  
 **Approved subject heading:** Collaboration and communication  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source technical review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 05 audit](../WAVE-B-TECHNICAL-REVIEW-05.md); no independent human peer review
 
 ## Coordinated action depends on shared interpretation
 
@@ -82,6 +82,6 @@ A successful collaboration is judged relative to goals and evidence, not simply 
 - [National Academies: Collaborating Responsibly](https://nap.nationalacademies.org/pubs/29488/versions/v1.0/modules/module-2.html).
 - [SEBoK: Human Systems Integration](https://sebokwiki.org/wiki/Human_Systems_Integration).
 
-**Editorial status:** Substantive Draft. The handoff example is invented; broad claims about team processes require scoped source and technical review. No assessments or mandatory organizational policy are introduced.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 05 technical audit](../WAVE-B-TECHNICAL-REVIEW-05.md). Complete standards verification, independent human expert review and final publication acceptance remain separate and pending.
 
 [Human & Sociotechnical Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
