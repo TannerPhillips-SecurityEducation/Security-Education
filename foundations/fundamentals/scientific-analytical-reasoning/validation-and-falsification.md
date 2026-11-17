@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Scientific & Analytical Reasoning](README.md)  
 **Approved subject heading:** Validation and falsification  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md); no independent human peer review
 
 ## Claims are evaluated against evidence, not merely repeated
 
@@ -87,6 +87,6 @@ Formal proof establishes consequences of axioms and premises within a formal sys
 - [American Statistical Association: Statement on p-values](https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf).
 - [NASA: Product Realization](https://www.nasa.gov/reference/5-0-product-realization/).
 
-**Editorial status:** Substantive draft; terminology and example claims require a scoped second-pass technical audit. No assessments or operational security methods are introduced.
+**Editorial status:** Reviewed (model-assisted) following the [Batch 07 scoped 30-family technical review](../WAVE-A-TECHNICAL-REVIEW-07.md). Complete source verification, independent human peer review and final publication approval remain open.
 
 [Scientific & Analytical Reasoning](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
