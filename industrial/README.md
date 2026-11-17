@@ -23,4 +23,8 @@ Industrial Knowledge is organized primarily by **Industrial System Function**.
 - The categories are a pragmatic navigation scheme, not a claim to reproduce a formal standards taxonomy.
 - Deeper subject taxonomies remain undefined until approved.
 
+## Unified Functional Navigation
+
+This domain follows **Domain → Function → Implementation**. The approved categories above provide primary functional navigation; implementation-specific pages may be introduced under the relevant function when their canonical placement is established. Alternate perspectives should link to canonical pages rather than duplicate them.
+
 [Security Knowledge](../README.md) · [Relationship conventions](../RELATIONSHIPS.md)
