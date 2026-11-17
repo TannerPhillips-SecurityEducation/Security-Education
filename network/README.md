@@ -20,4 +20,8 @@ Network Knowledge is organized primarily by **network function**.
 - Network security practices such as NSM, NTA, and NDR are not automatically independent root navigation categories here.
 - Deeper topic taxonomies remain undefined until approved.
 
+## Unified Functional Navigation
+
+This domain follows **Domain → Function → Implementation**. The approved categories above provide primary functional navigation; implementation-specific pages may be introduced under the relevant function when their canonical placement is established. Alternate perspectives should link to canonical pages rather than duplicate them.
+
 [Security Knowledge](../README.md) · [Relationship conventions](../RELATIONSHIPS.md)
