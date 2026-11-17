@@ -1,0 +1,208 @@
+# Fundamentals: Canonical Ownership & Relationship Register
+
+**Status:** Working architectural register v0.1. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
+
+This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
+
+## Reading this register
+
+- **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
+- **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
+- **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
+- **Links:** All links point to live **area index READMEs**, not to not-yet-written concept articles. Replace them with precise canonical links as reference articles are published.
+- **Granularity:** One heading may require multiple articles, and a single well-scoped explanation can serve more than one heading. Do not assume 109 headings equal 109 indivisible concepts.
+
+Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
+
+See [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md) for unresolved ownership collisions and candidate gaps.
+
+## 01. Mathematics Logic (8 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Numbers and numerical systems** | Abstract number sets, arithmetic, order, and positional notation | *represented digitally by* → [Bits and bytes](information-data/README.md) |
+| **Sets and relations** | Membership, subsets, and formally defined binary relations | *applied as conceptual* → [Relationships](models-abstraction/README.md) |
+| **Boolean and predicate logic** | Truth functions, predicates, quantification, entailment, and logical validity | *implemented electronically through* → [Digital logic](digital-systems-hardware/README.md) |
+| **Algebra and functions** | Mappings, variables, expressions, equations, and function composition | *supports mathematical formulation of* → [Algorithms](computation-algorithms/README.md) |
+| **Discrete mathematics** | Finite structures, counting, recurrences, and mathematical induction | *supports construction of* → [Algorithm design](computation-algorithms/README.md) |
+| **Graph theory** | Vertices, edges, paths, connectivity, and hierarchical structures | *models* → [Dependencies](systems-engineering/README.md) |
+| **Probability and statistics** | Random variables, distributions, and mathematical statistical inference | *informs epistemic* → [Uncertainty and confidence](scientific-analytical-reasoning/README.md) |
+| **Units and quantities** | Quantities, dimensions, units, scaling, and conversion | *enables* → [Measurement](scientific-analytical-reasoning/README.md) |
+
+## 02. Scientific Analytical Reasoning (8 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Observation** | Acquisition of phenomena, observer scope, and observational limitations | *can supply* → [Evidence](scientific-analytical-reasoning/README.md) |
+| **Measurement** | Operational quantification, instrument calibration, and measurement uncertainty | *uses* → [Units and quantities](mathematics-logic/README.md) |
+| **Evidence** | Relevance, sufficiency, provenance, and support for claims | *may require* → [Data provenance and lifecycle](information-data/README.md) |
+| **Hypotheses and experiments** | Testable claims, experimental controls, confounders, and replication | *used to investigate* → [Causality and correlation](scientific-analytical-reasoning/README.md) |
+| **Deduction, induction, and abduction** | Deductive entailment, inductive generalization, and abductive explanation | *draws on formal* → [Boolean and predicate logic](mathematics-logic/README.md) |
+| **Causality and correlation** | Association, causal effects, interventions, and confounding | *uses* → [Probability and statistics](mathematics-logic/README.md) |
+| **Uncertainty and confidence** | Known limits, estimates, epistemic uncertainty, and calibrated confidence | *partly quantified using* → [Probability and statistics](mathematics-logic/README.md) |
+| **Validation and falsification** | Empirical claim criticism, refutation, replication, and model revision | *distinct from engineering* → [Verification and validation](systems-engineering/README.md) |
+
+## 03. Models Abstraction (10 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Entities and attributes** | General entities, properties, values, and type-versus-instance distinctions | *represented in data by* → [Datasets, records, fields, and values](information-data/README.md) |
+| **Identity and distinction** | Sameness, difference, reference, and persistence through change | *specialized for communication in* → [Addressing and naming](communication-distributed-systems/README.md) |
+| **Relationships** | General associations, direction, cardinality, and context qualification | *formalized in* → [Sets and relations](mathematics-logic/README.md) |
+| **Boundaries** | Inclusion, exclusion, separation, limitations, and interface distinctions | *used to delimit* → [Systems and subsystems](systems-engineering/README.md) |
+| **Abstraction** | Selection and suppression of detail to support models and multiple views | *specialized as* → [Hardware abstraction](digital-systems-hardware/README.md) |
+| **Classification** | Criteria for categories, classes, membership, and differentiation | *organized into* → [Ontologies and taxonomies](models-abstraction/README.md) |
+| **Ontologies and taxonomies** | Conceptual categories, kinds, and typed semantic relations | *may be constrained by* → [Schemas](models-abstraction/README.md) |
+| **Schemas** | Representation constraints, fields, structures, and admissible values | *applied in* → [Data structures and formats](information-data/README.md) |
+| **State, events, and transitions** | General state descriptions, events, and transitions between conditions | *specialized as system* → [State and behavior](systems-engineering/README.md) |
+| **Conceptual and formal models** | Models, assumptions, formalization, abstraction fidelity, and interpretation | *evaluated through* → [Validation and falsification](scientific-analytical-reasoning/README.md) |
+
+## 04. Physical Electrical Principles (9 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Matter and energy** | Physical matter, energy, transfer, and constraints on physical systems | *constrains* → [Computing components](digital-systems-hardware/README.md) |
+| **Electricity** | Charge, voltage, current, resistance, and electrical power | *governs* → [Electrical circuits](physical-electrical-principles/README.md) |
+| **Electrical circuits** | Behavior of interconnected passive and active electrical elements | *forms the physical basis of* → [Electronics](physical-electrical-principles/README.md) |
+| **Electronics** | Semiconductors, switching, amplification, and electronic component functions | *enables* → [Digital logic](digital-systems-hardware/README.md) |
+| **Analog and digital signals** | Physical continuous signals versus sampled or discrete representations | *processed through* → [Signal conversion](physical-electrical-principles/README.md) |
+| **Waves and frequency** | Oscillation, frequency, phase, wavelength, and propagation | *supports* → [Transmission and signaling](communication-distributed-systems/README.md) |
+| **Sensors and actuators** | Transduction between physical phenomena and actionable system inputs/outputs | *used in system* → [Feedback and control](systems-engineering/README.md) |
+| **Signal conversion** | Sampling, quantization, analog-digital and digital-analog conversion | *supports data capture for* → [Measurement](scientific-analytical-reasoning/README.md) |
+| **Physical control mechanisms** | Actuation and regulation of physical processes | *generalized by* → [Feedback and control](systems-engineering/README.md) |
+
+## 05. Information Data (9 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Symbols and encoding** | Symbol systems, mappings, character codes, and representations | *realized digitally as* → [Bits and bytes](information-data/README.md) |
+| **Bits and bytes** | Binary digits, byte grouping, and digital representation units | *grounded in numerical* → [Numbers and numerical systems](mathematics-logic/README.md) |
+| **Information theory** | Entropy, information content, and theoretical communication constraints | *constrains* → [Communication channels](communication-distributed-systems/README.md) |
+| **Data types** | Value domains, types, constraints, and interpretation | *used in* → [Programming languages](software-programming/README.md) |
+| **Datasets, records, fields, and values** | Collections, records, field granularity, and field values | *models properties of* → [Entities and attributes](models-abstraction/README.md) |
+| **Data structures and formats** | Logical containers, structured formats, serialization, and data representations | *distinct from operational* → [Computational data structures](computation-algorithms/README.md) |
+| **Metadata** | Descriptions of structure, semantics, context, and lineage | *supports* → [Data provenance and lifecycle](information-data/README.md) |
+| **Databases and queries** | Data persistence, logical models, query operations, and retrieval concepts | *uses* → [Data structures and formats](information-data/README.md) |
+| **Data provenance and lifecycle** | Origin, lineage, transformation, retention, and change history | *supports evaluation of* → [Evidence](scientific-analytical-reasoning/README.md) |
+
+## 06. Digital Systems Hardware (9 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Digital logic** | Physical switching systems implementing logical and sequential behavior | *realizes* → [Boolean and predicate logic](mathematics-logic/README.md) |
+| **Computing components** | Hardware organization of processors, memory, peripherals, and interconnects | *is a type of* → [Systems and subsystems](systems-engineering/README.md) |
+| **Processors and instruction sets** | Processor execution organization, instruction encoding, and ISA models | *is a target of* → [Compilation and interpretation](software-programming/README.md) |
+| **Memory and storage** | Volatile and nonvolatile storage media, latency, and memory hierarchy | *managed abstractly by* → [Memory management](operating-system-principles/README.md) |
+| **Buses and interfaces** | Physical/logical device interconnects and signal transfer | *accessed using* → [Drivers and devices](operating-system-principles/README.md) |
+| **Input/output** | Hardware interactions with peripherals and physical environments | *exposed through* → [System calls](operating-system-principles/README.md) |
+| **Timing and clocks** | Clock generation, cycles, physical timing, and timing domains | *supports* → [Scheduling](operating-system-principles/README.md) |
+| **Firmware** | Hardware-oriented software used for initialization and control | *participates in* → [System initialization](operating-system-principles/README.md) |
+| **Hardware abstraction** | Interfaces hiding low-level implementation differences from software | *specializes general* → [Abstraction](models-abstraction/README.md) |
+
+## 07. Computation Algorithms (9 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Computability** | Computational models, decidability, and the limits of computable problems | *sets limits on* → [Algorithms](computation-algorithms/README.md) |
+| **Algorithms** | Defined procedures transforming inputs into outputs | *realized through* → [Programming languages](software-programming/README.md) |
+| **Algorithm design** | Construction strategies, invariants, correctness, and choice of procedures | *evaluated using* → [Complexity](computation-algorithms/README.md) |
+| **Complexity** | Theoretical asymptotic time/space growth of procedures | *distinct from system-wide* → [Emergence and complexity](systems-engineering/README.md) |
+| **Computational data structures** | Abstract data types, operation costs, and implementation tradeoffs | *represented through* → [Data structures and formats](information-data/README.md) |
+| **Iteration and recursion** | Repeated and recursively defined computation, termination, and base cases | *expressed using* → [Programming paradigms](software-programming/README.md) |
+| **Concurrency and parallelism** | Overlapping versus simultaneous computational progress | *implemented through* → [Processes and threads](operating-system-principles/README.md) |
+| **Synchronization** | Mutual exclusion, ordering, races, deadlock, and coordination of computations | *specialized across nodes in* → [Synchronization and coordination](communication-distributed-systems/README.md) |
+| **Computational efficiency** | Practical performance costs, locality, profiling, and resource tradeoffs | *compared with asymptotic* → [Complexity](computation-algorithms/README.md) |
+
+## 08. Software Programming (9 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Programming languages** | Software language forms, grammars, execution constructs, and ecosystems | *express* → [Algorithms](computation-algorithms/README.md) |
+| **Syntax and semantics** | Programming grammar, syntactic structure, semantic meaning, and interpretation | *uses* → [Symbols and encoding](information-data/README.md) |
+| **Programming paradigms** | Imperative, declarative, functional, object, and event-driven styles | *structure* → [Algorithms](computation-algorithms/README.md) |
+| **Compilation and interpretation** | Translation, parsing, intermediate forms, linking, and interpretation | *targets* → [Processors and instruction sets](digital-systems-hardware/README.md) |
+| **Runtime environments** | Execution libraries, services, managed runtimes, and memory lifetimes | *interacts with* → [Kernels](operating-system-principles/README.md) |
+| **Modules and dependencies** | Packages, imports, modularity, versioning, and dependency management | *specializes* → [Dependencies](systems-engineering/README.md) |
+| **Software interfaces** | Function, API, ABI, and compatibility contracts between software components | *specializes* → [Components and interfaces](systems-engineering/README.md) |
+| **Error handling** | Software exceptions, error signaling, propagation, and recovery | *distinct from system-level* → [Reliability and failure](systems-engineering/README.md) |
+| **Testing and software lifecycle** | Software construction, testing, releasing, maintenance, and retirement | *specializes* → [System lifecycle](systems-engineering/README.md) |
+
+## 09. Operating System Principles (10 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Kernels** | Privileged coordination of execution, resource protection, and OS abstraction | *builds on* → [Hardware abstraction](digital-systems-hardware/README.md) |
+| **System calls** | Protected OS interfaces and kernel transitions for requested operations | *exposes* → [Software interfaces](software-programming/README.md) |
+| **Processes and threads** | Process isolation, address spaces, execution threads, and states | *realizes* → [Concurrency and parallelism](computation-algorithms/README.md) |
+| **Scheduling** | Allocation of processor time among runnable work | *influences* → [Computational efficiency](computation-algorithms/README.md) |
+| **Memory management** | Virtual addressing, allocation, page translation, and memory protection | *manages* → [Memory and storage](digital-systems-hardware/README.md) |
+| **Filesystems** | Persistent file/directory organization, access paths, and metadata | *implements structured storage for* → [Data structures and formats](information-data/README.md) |
+| **Drivers and devices** | Operating-system abstractions for hardware device operations | *uses* → [Buses and interfaces](digital-systems-hardware/README.md) |
+| **Execution contexts** | Privilege modes, environments, address spaces, and executing state | *specializes* → [State, events, and transitions](models-abstraction/README.md) |
+| **System initialization** | Boot sequence, firmware handoff, kernel start, and service initialization | *follows* → [Firmware](digital-systems-hardware/README.md) |
+| **Resource management** | Allocation, quotas, accounting, and contention for shared system resources | *constrains* → [Computational efficiency](computation-algorithms/README.md) |
+
+## 10. Communication Distributed Systems (9 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Communication models** | Generic senders, receivers, channels, messages, and exchange patterns | *applies* → [Relationships](models-abstraction/README.md) |
+| **Transmission and signaling** | Encoding and propagation of signals carrying information | *uses* → [Analog and digital signals](physical-electrical-principles/README.md) |
+| **Communication channels** | Communication paths and constraints including medium, capacity, and noise | *constrained by* → [Information theory](information-data/README.md) |
+| **Protocols and layering** | Communication conventions, protocol rules, state, layering, and encapsulation | *complements interface contracts in* → [Software interfaces](software-programming/README.md) |
+| **Addressing and naming** | Names, locators, address scopes, binding, and resolution | *extends reference concepts in* → [Identity and distinction](models-abstraction/README.md) |
+| **Latency and throughput** | Delay, data rates, queueing, jitter, and performance measures | *uses* → [Units and quantities](mathematics-logic/README.md) |
+| **Reliability and ordering** | Message loss, duplication, delivery guarantees, acknowledgements, and ordering | *extends system* → [Reliability and failure](systems-engineering/README.md) |
+| **Distributed state** | Replication, consistency, clocks, and partial-failure uncertainty | *specializes* → [State, events, and transitions](models-abstraction/README.md) |
+| **Synchronization and coordination** | Coordination among autonomous processes through ordering, clocks, and agreement | *extends computational* → [Synchronization](computation-algorithms/README.md) |
+
+## 11. Systems Engineering (11 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Systems and subsystems** | Systems of interest, environments, nested wholes, and subsystem organization | *defined using* → [Boundaries](models-abstraction/README.md) |
+| **Components and interfaces** | System components, responsibilities, interfaces, and their contracts | *instantiates* → [Relationships](models-abstraction/README.md) |
+| **Architecture and composition** | Composition, decomposition, architectural views, patterns, and tradeoffs | *represented through* → [Conceptual and formal models](models-abstraction/README.md) |
+| **Dependencies** | Necessary relationships, constraints, propagation, and critical paths | *represented with* → [Graph theory](mathematics-logic/README.md) |
+| **State and behavior** | Whole-system states, outputs, changes, invariants, and dynamic behavior | *applies* → [State, events, and transitions](models-abstraction/README.md) |
+| **Feedback and control** | Feedback loops, sensors, controllers, stability, and control objectives | *applies physical* → [Physical control mechanisms](physical-electrical-principles/README.md) |
+| **Emergence and complexity** | Whole-system emergent behavior and nonlinearity | *distinct from algorithmic* → [Complexity](computation-algorithms/README.md) |
+| **Reliability and failure** | Faults, failures, availability, redundancy, maintainability, and recovery | *quantifiable using* → [Probability and statistics](mathematics-logic/README.md) |
+| **Requirements** | Stakeholder needs, functional/quality specifications, and traceability | *evaluated through* → [Verification and validation](systems-engineering/README.md) |
+| **Verification and validation** | Conformance to requirements versus fitness for intended use | *distinct from empirical* → [Validation and falsification](scientific-analytical-reasoning/README.md) |
+| **System lifecycle** | Conception, design, operation, maintenance, evolution, and retirement | *specialized for software in* → [Testing and software lifecycle](software-programming/README.md) |
+
+## 12. Human Sociotechnical Systems (8 headings)
+
+| Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
+| --- | --- | --- |
+| **Human cognition and perception** | Human attention, memory, perception, interpretation, and cognitive limits | *shapes* → [Human-computer interaction](human-sociotechnical-systems/README.md) |
+| **Decision-making** | Choice under constraints, incomplete knowledge, uncertainty, and goals | *informed by* → [Evidence](scientific-analytical-reasoning/README.md) |
+| **Human-computer interaction** | People interacting with software, devices, and whole technical systems | *evaluated for* → [Usability and accessibility](human-sociotechnical-systems/README.md) |
+| **Usability and accessibility** | Inclusive, usable, effective, and accessible human-system experiences | *informs* → [Requirements](systems-engineering/README.md) |
+| **Human error** | Human mistakes, slips, and organizational conditions contributing to error | *may affect* → [Reliability and failure](systems-engineering/README.md) |
+| **Collaboration and communication** | Human coordination, collaboration, shared language, and information exchange | *structured by* → [Organizational structures](human-sociotechnical-systems/README.md) |
+| **Organizational structures** | Roles, responsibilities, authority, governance, and organizational relationships | *shape* → [Requirements](systems-engineering/README.md) |
+| **Ethics and professional responsibilities** | Professional obligations, harms, accountability, and responsible conduct | *informs human* → [Decision-making](human-sociotechnical-systems/README.md) |
+
+## Register integrity
+
+| Measure | Value |
+| --- | ---: |
+| Approved knowledge areas covered | 12 |
+| Approved subject headings preserved | 109 |
+| Illustrative directed relationships | 109 |
+| Canonical articles created by this register | 0 |
+| Formal subject-ID schema or graph engine introduced | 0 |
+
+## Ownership-review procedure
+
+1. Confirm whether the proposed general canonical responsibility is precise, independent of vendors and domains, and within the approved area scope.
+2. Check whether overlapping terms denote the **same concept** or genuinely distinct mechanisms or contextual implementations.
+3. Review the relationship's target, direction, context, and phrasing. Do not infer taxonomic *is-a* solely from directory location.
+4. Consult the [20 overlap groups and 10 candidate gap questions](CONCEPT-OVERLAP-REVIEW.md) before creating a new canonical document.
+5. Replace broad area-index links with precise subject links after meaningful, source-verified reference articles exist.
+
+The register **does not** demonstrate that the subject explanations or review gates have been completed.
+
+[Fundamentals](README.md) · [Knowledge relationships](../../RELATIONSHIPS.md)
