@@ -2,6 +2,6 @@
 
 FreeBSD, OpenBSD, Solaris, AIX, and related Unix and BSD systems.
 
-This is an approved operating-system-family category within [Endpoint Knowledge](../README.md).
+**Navigation role:** Secondary operating-system-family index within [Endpoint Knowledge](../README.md). Canonical implementation documents belong under the applicable endpoint functions; this index will link to them as they are developed.
 
 OS-specific subjects and deeper navigation have not yet been approved. Shared concepts should link to their canonical locations in Foundations or other knowledge domains rather than duplicate definitions.
