@@ -1,7 +1,7 @@
 # Fundamentals: Canonical Concept Boundary Decisions
 
-**Version:** v0.1  
-**Status:** Working ownership resolutions for architectural review; not complete technical reference articles or a change to the approved taxonomy.  
+**Version:** v0.2  
+**Status:** Approved conceptual boundary and canonical-ownership guidance (20 groups). Not completed, source-validated technical articles; no change to the approved taxonomy or formal graph schema.  
 **Baseline:** 12 approved knowledge areas and 109 approved subject headings.  
 **Inputs:** [Original 20 overlaps and 10 open gaps](CONCEPT-OVERLAP-REVIEW.md), [canonical ownership crosswalk](CANONICAL-OWNERSHIP-REGISTER.md), and [governing architecture](ARCHITECTURE.md).
 
@@ -9,7 +9,7 @@
 
 A **general concept** and its **specialized implementation** can each have canonical explanations at different scopes. A shared word does not imply identical mechanisms; different words do not automatically imply separate concepts.
 
-The canonical-owner descriptions below are **working editorial decisions**, not newly ratified concept definitions or graph predicates. They cite existing approved knowledge areas. No concept articles are implied to exist yet, and no Knowledge Checks or Practical Assessments belong in this reference.
+The canonical-owner distinctions below are **approved architectural guidance**, not fully verified technical definitions or a ratified graph-predicate vocabulary. They cite existing approved knowledge areas. No concept articles are implied to exist yet, and no Knowledge Checks or Practical Assessments belong in this reference.
 
 ## Twenty boundary decisions
 
@@ -140,13 +140,13 @@ The canonical-owner descriptions below are **working editorial decisions**, not 
 - [SEBoK System Requirements](https://sebokwiki.org/wiki/System_Requirements): requirement-specific V&V distinctions.
 - [NIST Cyber-Physical Systems glossary](https://csrc.nist.gov/glossary/term/cyber_physical_systems): physical and computational integration.
 
-These sources inform selected terms. The full set of working ownership decisions is an **editorial architecture proposal**, not a claim that an external standard mandates this taxonomy.
+These sources inform selected terms. The conceptual ownership boundaries were approved for this repository; external standards do not mandate this editorial taxonomy, and specific technical explanations still require evidence and review.
 
 ## Resolution status
 
-- **20 of 20 groups mapped:** working general owners, contextual distinctions, and discriminating examples.
+- **20 of 20 groups mapped and approved as architectural boundaries:** general owners, contextual distinctions, and discriminating examples. The B-11 general-temporality coverage decision remains open.
 - **B-11 exception:** general temporality remains an open coverage decision.
-- **10 candidate gaps:** have working dispositions in the [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md); seven are assigned to existing headings for authoring, and three require architectural decisions.
+- **10 candidate gaps:** have separate working dispositions in the [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md); seven are assigned to existing headings for authoring, and three require architectural decisions.
 - **Approved taxonomy:** untouched; no additional areas or subject headings.
 - **Reference articles:** not yet written or validated.
 
