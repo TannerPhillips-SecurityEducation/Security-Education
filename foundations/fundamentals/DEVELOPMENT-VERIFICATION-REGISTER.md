@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v0.4  
+**Working edition:** v0.5  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -30,21 +30,25 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
-## Current progress after pilot review and initial Wave A authoring
+## Current progress after Wave A Batch 01 review and Batch 02 drafting
 
 | State | Subject headings | Evidence |
 | --- | ---: | --- |
-| Model-assisted **Reviewed** articles | **6** | [Claim-to-source audit](PILOT-CLAIM-SOURCE-AUDIT.md): 50 material claim groups across six pilot articles |
-| New Wave A **Draft** articles | **3** | Boolean & Predicate Logic, Evidence, State/Events/Transitions; references listed, acceptance review pending |
-| Inventoried without canonical articles | **100** | Approved 109-heading baseline unchanged |
-| **Core claims checked** | **6** | Model-assisted technical source review; distinct from independent expert sign-off |
-| **Fully verified** independently / finally published | **0** | Human editorial approval and independent acceptance not recorded |
+| **Reviewed (model-assisted)** | **9** | Six pilot references in [Pilot Audit](PILOT-CLAIM-SOURCE-AUDIT.md), plus three Wave A references in [Batch 01 Audit](WAVE-A-TECHNICAL-REVIEW-01.md) |
+| **Draft** | **3** | Numbers and Numerical Systems, Measurement, and Relationships; sources listed, scoped review pending |
+| **Inventoried without articles** | **97** | Approved headings retained in area indexes |
+| **Core claims checked** | **9** | 50 pilot and 21 Wave A material claim families reviewed; not independent human peer review |
+| **Fully source-verified by independent expert** | **0** | No human expert acceptance recorded |
+| **Finally published / certified edition** | **0** | Global completion gates remain outstanding |
 
-**Interpretation:** The six pilot articles passed a scoped model-assisted editorial/technical review and serve as the **internal authoring baseline**. New Wave A articles begin as drafts. Neither status claims independent human peer-review or completed publication acceptance. The [seven Fundamentals completion gates](README.md#completion-gates) remain open for the corpus.
+The [Wave A Batch 01 technical review](WAVE-A-TECHNICAL-REVIEW-01.md) is an **internal model-assisted audit** rather than final peer review. A draft's existence or source list does not mean every claim was verified. No headings or areas have been added or renamed.
 
-## Pilot review and Wave A record
+## Next acceptance gate
 
-The six initial articles have a [material claim-to-source audit](PILOT-CLAIM-SOURCE-AUDIT.md) with 50 examined claim families and a prior [pilot technical review](PILOT-TECHNICAL-REVIEW.md). The three new references are linked to their approved headings and require their own claim verification. The [general temporality decision](COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks) remains open; drafting State/Events/Transitions does not close that gap.
+1. Conduct a scoped claim-to-source and editorial review of the three newer Wave A drafts.
+2. Preserve the distinct meanings of numerical precision and measurement precision; general mathematics and physical metrology are related, not synonymous.
+3. Keep G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML explicitly pending separate scope decisions.
+4. Continue Wave A only within the approved knowledge areas and 109-heading inventory.
 
 ## Detailed coverage by approved knowledge area
 
@@ -54,9 +58,9 @@ The six initial articles have a [material claim-to-source audit](PILOT-CLAIM-SOU
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-01-01 | Numbers and numerical systems | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-01-01 | Numbers and numerical systems | [Draft article](mathematics-logic/numbers-and-numerical-systems.md) | Draft | References listed | Authoring draft, scoped review pending |
 | F-01-02 | Sets and relations | [Reviewed article](mathematics-logic/sets-and-relations.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
-| F-01-03 | Boolean and predicate logic | [Draft article](mathematics-logic/boolean-and-predicate-logic.md) | Draft | References listed | Scoped claim-source review pending |
+| F-01-03 | Boolean and predicate logic | [Reviewed article](mathematics-logic/boolean-and-predicate-logic.md) | Reviewed | Core claims checked | [Wave A Batch 01 audit](WAVE-A-TECHNICAL-REVIEW-01.md); model-assisted review, human sign-off not claimed |
 | F-01-04 | Algebra and functions | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-01-05 | Discrete mathematics | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-01-06 | Graph theory | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -70,8 +74,8 @@ The six initial articles have a [material claim-to-source audit](PILOT-CLAIM-SOU
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
 | F-02-01 | Observation | [Reviewed article](scientific-analytical-reasoning/observation.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
-| F-02-02 | Measurement | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-02-03 | Evidence | [Draft article](scientific-analytical-reasoning/evidence.md) | Draft | References listed | Scoped claim-source review pending |
+| F-02-02 | Measurement | [Draft article](scientific-analytical-reasoning/measurement.md) | Draft | References listed | Authoring draft, scoped review pending |
+| F-02-03 | Evidence | [Reviewed article](scientific-analytical-reasoning/evidence.md) | Reviewed | Core claims checked | [Wave A Batch 01 audit](WAVE-A-TECHNICAL-REVIEW-01.md); model-assisted review, human sign-off not claimed |
 | F-02-04 | Hypotheses and experiments | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-02-05 | Deduction, induction, and abduction | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-02-06 | Causality and correlation | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -86,13 +90,13 @@ The six initial articles have a [material claim-to-source audit](PILOT-CLAIM-SOU
 | --- | --- | --- | --- | --- | --- |
 | F-03-01 | Entities and attributes | [Reviewed article](models-abstraction/entities-and-attributes.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
 | F-03-02 | Identity and distinction | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-03-03 | Relationships | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-03-03 | Relationships | [Draft article](models-abstraction/relationships.md) | Draft | References listed | Authoring draft, scoped review pending |
 | F-03-04 | Boundaries | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-05 | Abstraction | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-06 | Classification | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-07 | Ontologies and taxonomies | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-08 | Schemas | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-03-09 | State, events, and transitions | [Draft article](models-abstraction/state-events-and-transitions.md) | Draft | References listed | Scoped claim-source review pending |
+| F-03-09 | State, events, and transitions | [Reviewed article](models-abstraction/state-events-and-transitions.md) | Reviewed | Core claims checked | [Wave A Batch 01 audit](WAVE-A-TECHNICAL-REVIEW-01.md); model-assisted review, human sign-off not claimed |
 | F-03-10 | Conceptual and formal models | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 
 ### 04. Physical & Electrical Principles (Wave C; 9 headings)
