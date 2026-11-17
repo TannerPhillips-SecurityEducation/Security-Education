@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Systems & Engineering](README.md)  
 **Approved subject heading:** Components and interfaces  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source technical review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 03 audit](../WAVE-B-TECHNICAL-REVIEW-03.md); no independent human peer review
 
 ## Constituents become a system through interaction
 
@@ -81,6 +81,6 @@ No interface specification format, API standard, new taxonomy, or assessment act
 - [NASA: Interface Management](https://www.nasa.gov/reference/6-3-interface-management/).
 - [SEBoK: System Requirements Definition](https://sebokwiki.org/wiki/System_Requirements).
 
-**Editorial status:** Substantive draft with an original interface example and explicit boundaries. A separate scoped technical/source audit is required before Reviewed status. Independent human review and final publication remain open.
+**Editorial status:** Reviewed (model-assisted) following the [Wave B Batch 03 scoped 24-family technical review](../WAVE-B-TECHNICAL-REVIEW-03.md). Complete source verification, independent human expert peer review and final publication approval remain separate outstanding gates.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
