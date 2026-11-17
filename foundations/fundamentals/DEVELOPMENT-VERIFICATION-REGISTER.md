@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.5  
+**Working edition:** v1.6  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -30,14 +30,14 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
-## Current progress: Wave B Batch 02 reviewed; Batch 03 Systems & Engineering authored
+## Current progress: Wave B Batch 03 reviewed; Batch 04 Systems & Engineering authored
 
 | Development state | Approved heading count | Evidence |
 | --- | ---: | --- |
-| **Reviewed (model-assisted)** | **37** | Original pilots, Wave A Batch 01–07 and Wave B Batch 01–02 reviews, including [Batch 02](WAVE-B-TECHNICAL-REVIEW-02.md) |
-| **Draft** | **4** | Four Wave B Batch 03 Systems & Engineering references; scoped review pending |
-| **Inventoried without article** | **68** | Approved 109-heading baseline retained |
-| **Core claims checked** | **37** | Internal model-assisted source checking, not independent expert attestation |
+| **Reviewed (model-assisted)** | **41** | Original pilots, Wave A Batch 01–07 and Wave B Batch 01–03 audits, including [Batch 03](WAVE-B-TECHNICAL-REVIEW-03.md) |
+| **Draft** | **6** | Six newly authored Wave B Batch 04 Systems & Engineering references awaiting technical audit |
+| **Inventoried without article** | **62** | Approved 109-heading baseline retained |
+| **Core claims checked** | **41** | Internal model-assisted source checking, not independent expert attestation |
 | **Finally accepted / human peer-reviewed** | **0** | No final independent expert acceptance recorded |
 
 **Wave A authoring coverage:** All 26 of 26 approved Wave A headings have substantive, internally Reviewed articles (26/26). Three additional Reviewed references are original pilot subjects belonging to later waves.
@@ -46,10 +46,11 @@
 
 ## Next acceptance gate
 
-1. **Completed:** All nine Information & Data subject references are internally Reviewed, following the [24-family Wave B Batch 02 technical audit](WAVE-B-TECHNICAL-REVIEW-02.md). Final human review and publication gates remain open.
-2. **Completed authoring:** Four Systems & Engineering Batch 03 Drafts now cover Components and Interfaces, Architecture and Composition, Dependencies, and State and Behavior, in their approved canonical home.
-3. **Current:** Audit the Batch 03 claims and worked examples, then continue the remaining six un-authored Systems & Engineering headings and the Human & Sociotechnical Systems area.
-4. **Ongoing:** Reconcile links, source coverage and all seven publication gates across the corpus without conflating internal model-assisted review with independent acceptance. Decisions G-01, G-04 and G-06 remain open.
+1. **Completed:** All nine Information & Data subject articles remain internally Reviewed, following the [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md).
+2. **Completed:** Four Wave B Batch 03 Systems & Engineering references passed a [24-family technical review](WAVE-B-TECHNICAL-REVIEW-03.md), including a correction to deterministic state-transition notation.
+3. **Completed authoring:** The six remaining Systems & Engineering subjects now have substantive Wave B Batch 04 Drafts. All **11/11** headings in that area have articles: five internally Reviewed and six Draft.
+4. **Current:** Conduct a separate scoped claim-to-source and example audit of the six Batch 04 Drafts before any promotion. Then continue the remaining Wave B Human & Sociotechnical Systems subjects.
+5. **Ongoing:** Maintain distinct corpus-wide link checks, source verification, human peer-review and seven publication gates. Architectural scope decisions G-01, G-04 and G-06 remain open.
 
 ## Detailed coverage by approved knowledge area
 
@@ -220,16 +221,16 @@
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
 | F-11-01 | Systems and subsystems | [Reviewed article](systems-engineering/systems-and-subsystems.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
-| F-11-02 | Components and interfaces | [Draft article](systems-engineering/components-and-interfaces.md) | Draft | References listed | Wave B Batch 03 substantive draft; scoped audit pending |
-| F-11-03 | Architecture and composition | [Draft article](systems-engineering/architecture-and-composition.md) | Draft | References listed | Wave B Batch 03 substantive draft; scoped audit pending |
-| F-11-04 | Dependencies | [Draft article](systems-engineering/dependencies.md) | Draft | References listed | Wave B Batch 03 substantive draft; scoped audit pending |
-| F-11-05 | State and behavior | [Draft article](systems-engineering/state-and-behavior.md) | Draft | References listed | Wave B Batch 03 substantive draft; scoped audit pending |
-| F-11-06 | Feedback and control | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-11-07 | Emergence and complexity | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-11-08 | Reliability and failure | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-11-09 | Requirements | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-11-10 | Verification and validation | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-11-11 | System lifecycle | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-11-02 | Components and interfaces | [Reviewed article](systems-engineering/components-and-interfaces.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review |
+| F-11-03 | Architecture and composition | [Reviewed article](systems-engineering/architecture-and-composition.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review |
+| F-11-04 | Dependencies | [Reviewed article](systems-engineering/dependencies.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review |
+| F-11-05 | State and behavior | [Reviewed article](systems-engineering/state-and-behavior.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review |
+| F-11-06 | Feedback and control | [Draft article](systems-engineering/feedback-and-control.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
+| F-11-07 | Emergence and complexity | [Draft article](systems-engineering/emergence-and-complexity.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
+| F-11-08 | Reliability and failure | [Draft article](systems-engineering/reliability-and-failure.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
+| F-11-09 | Requirements | [Draft article](systems-engineering/requirements.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
+| F-11-10 | Verification and validation | [Draft article](systems-engineering/verification-and-validation.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
+| F-11-11 | System lifecycle | [Draft article](systems-engineering/system-lifecycle.md) | Draft | References listed | Wave B Batch 04 substantive draft; scoped source audit pending |
 
 ### 12. Human & Sociotechnical Systems (Wave B; 8 headings)
 
