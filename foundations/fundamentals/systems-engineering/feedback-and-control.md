@@ -61,7 +61,7 @@ Let `r=20`, `y[0]=16`, `K=0.5`. Then:
 | 1 | 18 | 2 | 19 |
 | 2 | 19 | 1 | 19.5 |
 
-The error evolves according to `e[k+1]=(1-K)e[k]`. It halves each step for `K=0.5`. For this **specific scalar linear discrete model**, the error converges toward zero if `|1-K|<1`, equivalently `0<K<2`. At `K=2`, the error alternates sign with unchanged magnitude. This result does not generalize to arbitrary plants, delays, nonlinear dynamics or noisy sensors.
+The error evolves according to `e[k+1]=(1-K)e[k]`. It halves each step for `K=0.5`. For this **specific scalar linear discrete model**, the error converges toward zero if `|1-K|<1`, equivalently `0<K<2`. For `0<K≤1`, a nonzero error in this idealized model approaches zero without changing sign; for `1<K<2`, it converges while alternating sign. At `K=2`, a nonzero error alternates sign with unchanged magnitude, so it does not converge. These statements concern only this scalar model and do not generalize to arbitrary plants, delays, nonlinear dynamics or noisy sensors.
 
 The worked example is a mathematical illustration, not tested equipment performance or an approved controller design.
 
