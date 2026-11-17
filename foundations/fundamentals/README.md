@@ -40,6 +40,12 @@ Six substantive pilot articles have been committed to calibrate the reference-wr
 
 **Current authoring status:** 6 pilot drafts, 103 headings without canonical articles. No pilot is yet represented as independently reviewed or accepted as final.
 
+## Pilot Technical Review
+
+The [Six-Pilot Technical and Editorial Review](PILOT-TECHNICAL-REVIEW.md) records corrected technical statements, checked primary references, programmatically evaluated examples, and outstanding review limits. All six pilots have **core claims source-checked** while remaining **Draft**, pending complete verification and final editorial acceptance.
+
+[Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) reflects that intermediate state; the full reference corpus and seven completion gates remain outstanding.
+
 ## Development Plan of Action
 
 The [Curriculum Development Plan of Action](CURRICULUM-DEVELOPMENT-PLAN.md) is a working production roadmap for expanding the 109 inventoried subjects into an accurate, connected technical knowledge reference. It defines authoring waves, source requirements, editorial workflow, progress tracking, cross-domain integration, and completion gates. It excludes Knowledge Checks and Practical Assessments.
