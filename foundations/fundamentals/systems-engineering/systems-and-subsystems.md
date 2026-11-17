@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Systems & Engineering](README.md)  
 **Approved subject heading:** Systems and subsystems  
-**Development status:** Draft  
-**Source review:** Core claims checked (see [pilot technical review](../PILOT-TECHNICAL-REVIEW.md)); final editorial acceptance pending
+**Development status:** Reviewed (model-assisted; not an independently accepted final publication)  
+**Source review:** Core claims checked in [50-claim-family audit](../PILOT-CLAIM-SOURCE-AUDIT.md); independent external expert review not performed
 
 ## A system is a whole defined through relationships
 
@@ -105,6 +105,6 @@ Those broader links currently lead to existing approved area indexes until canon
 - [SEBoK: Systems of Systems](https://sebokwiki.org/wiki/Systems_of_Systems_%28SoS%29), for the independence characteristics of systems of systems.
 - [SEBoK: Main reference](https://sebokwiki.org/wiki/Main_Page), for broader systems-engineering concepts.
 
-**Review record:** The system, subsystem, boundary, interface and systems-of-systems distinctions were checked against NASA's HTML Systems Engineering Handbook and SEBoK. An obsolete NASA procedural reference and an outdated software-handbook appendix have been replaced. The building example is illustrative, not a NASA-prescribed architecture. This remains a source-checked draft pending final editorial acceptance.
+**Review record:** The system, subsystem, boundary, interface and systems-of-systems distinctions were checked against NASA's HTML Systems Engineering Handbook and SEBoK. An obsolete NASA procedural reference and an outdated software-handbook appendix have been replaced. The building example is illustrative, not a NASA-prescribed architecture. The article passed the model-assisted scoped acceptance audit; independent human publication approval remains outstanding.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Governing Architecture](../ARCHITECTURE.md)
