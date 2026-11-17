@@ -23,7 +23,7 @@ Fundamentals establishes domain-agnostic concepts, structures, principles, and m
 | 12 | [Human & Sociotechnical Systems](human-sociotechnical-systems/README.md) | 8 |
 | **Total** | **12 knowledge areas** | **109 subject headings** |
 
-Each area contains its approved subject inventory. The subject headings **do not yet represent completed explanations, assessment materials, or verified publications**.
+Each area contains its approved subject inventory. The subject headings **do not yet represent completed explanations or verified publications**.
 
 ## Scope Boundaries
 
@@ -37,22 +37,20 @@ Examples: The general concept of *identity* is foundational; identity verificati
 
 ## Canonical Subject Editorial Contract
 
-Develop each canonical subject as connected educational prose. Each completed entry should cover:
+Develop each canonical subject as connected technical reference prose. Each completed entry should cover:
 
 1. **Concept and definition:** What the subject means and its scope.
 2. **Distinctions:** What it is not, and how it differs from adjacent concepts.
 3. **Mechanisms:** How it works or behaves.
 4. **Relationships:** Dependencies and relevant connections to canonical concepts, with explicit links.
 5. **Application:** Worked examples and domain-specific illustrations where helpful.
-6. **Knowledge checks:** Assess conceptual understanding.
-7. **Practical assessments:** Assess application when the subject supports it.
-8. **References:** Cite credible original or authoritative documentation for verifiable technical claims.
+6. **References:** Cite credible original or authoritative documentation for verifiable technical claims.
 
-Learning material should advance **Knowledge Transfer**, **Skill Development**, and **Mindset Development** as appropriate to the subject. It should not present unverified claims as facts, nor duplicate another canonical definition.
+This is a knowledge reference, not an assessment platform. Do **not** add Knowledge Checks, Practical Assessments, quizzes, or graded exercises. Technical explanations may include illustrative or worked examples. Do not present unverified claims as facts or duplicate canonical definitions.
 
 ## Completion Gates
 
-A claim of *complete Fundamentals* requires evidence for all eight gates:
+A claim of *complete Fundamentals* requires evidence for all seven gates:
 
 | Gate | Acceptance criterion |
 | --- | --- |
@@ -61,11 +59,10 @@ A claim of *complete Fundamentals* requires evidence for all eight gates:
 | Consistency | Definitions do not contradict or unnecessarily duplicate each other |
 | Relationships | Dependencies, prerequisites, and cross-domain references are represented |
 | Explanations | Each required concept has developed definitions, distinctions, mechanisms, and examples |
-| Education | Appropriate knowledge checks and practical assessments exist |
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** The 12 knowledge areas and their 109 inventory headings have been implemented. This is **architectural scaffolding**, not confirmation that the coverage audit, canonical subject content, or educational verification gates have passed.
+**Current milestone:** The 12 knowledge areas and their 109 inventory headings have been implemented. This is **architectural scaffolding**, not confirmation that the coverage audit, canonical subject content, or technical verification gates have passed.
 
 ## Coverage Across Specialized Domains
 
