@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Mathematics & Logic](README.md)  
 **Approved subject heading:** Discrete mathematics  
-**Development status:** Draft  
-**Source review:** References listed; scoped claim-to-source review pending
+**Development status:** Reviewed (model-assisted; independent human review and final release pending)  
+**Source review:** Core claims checked in [Wave A Batch 04 review](../WAVE-A-TECHNICAL-REVIEW-04.md); complete independent expert verification not claimed
 
 ## Distinct structures and countable possibilities
 
