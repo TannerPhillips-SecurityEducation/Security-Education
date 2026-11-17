@@ -89,7 +89,7 @@ Schema evolution can introduce, remove, rename or reinterpret fields and constra
 
 **Syntactic compatibility** concerns successful parsing or conformance. **Semantic compatibility** concerns whether consumers interpret the same data consistently. **Behavioral compatibility** concerns whether systems still meet intended expectations. These are overlapping but non-equivalent claims.
 
-A version string without migration policy, tests or stated consumer expectations does not ensure safe evolution. [Data Provenance and Lifecycle](../information-data/README.md) and [System Lifecycle](../systems-engineering/README.md) cover neighboring ownership.
+A version string without migration policy, tests or stated consumer expectations does not ensure safe evolution. [Data Provenance and Lifecycle](../information-data/data-provenance-and-lifecycle.md) and [System Lifecycle](../systems-engineering/README.md) cover neighboring ownership.
 
 ## Scope and editorial boundary
 
