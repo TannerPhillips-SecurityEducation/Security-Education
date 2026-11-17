@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Systems & Engineering](README.md)  
 **Approved subject heading:** System lifecycle  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 04 audit](../WAVE-B-TECHNICAL-REVIEW-04.md); no independent human peer review
 
 ## Systems evolve from concept through retirement
 
@@ -84,6 +84,6 @@ Feedback from operations can inform requirements and redesign. Scientific eviden
 - [NASA: Program/Project Life Cycle](https://www.nasa.gov/reference/3-0-nasa-program-project-life-cycle/).
 - [NASA: Configuration Management](https://www.nasa.gov/reference/6-5-configuration-management/).
 
-**Editorial status:** Substantive Draft. The versioning example and stage/process distinctions require scoped technical source review. No new lifecycle taxonomy, mandatory project process or assessment is introduced.
+**Editorial status:** Reviewed (model-assisted) under the scoped [Wave B Batch 04 technical review](../WAVE-B-TECHNICAL-REVIEW-04.md). Exhaustive source verification, independent expert review and final publication acceptance remain separate, uncompleted gates.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
