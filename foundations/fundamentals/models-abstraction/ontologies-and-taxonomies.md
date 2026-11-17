@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Models & Abstraction](README.md)  
 **Approved subject heading:** Ontologies and taxonomies  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md); no independent human peer review
 
 ## Different representations answer different questions
 
@@ -94,6 +94,6 @@ This reference **does not ratify** a repository-specific ontology language, form
 - [W3C RDF 1.1 Concepts and Abstract Syntax](https://www.w3.org/TR/rdf11-concepts/).
 - [Stanford Encyclopedia of Philosophy: Ontology](https://plato.stanford.edu/entries/ontology/).
 
-**Editorial status:** Substantive draft; example inferences and sources require a dedicated scoped claim-to-source review.
+**Editorial status:** Reviewed (model-assisted) following the [Batch 07 scoped 30-family technical review](../WAVE-A-TECHNICAL-REVIEW-07.md). Complete source verification, independent human peer review and final publication approval remain open.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
