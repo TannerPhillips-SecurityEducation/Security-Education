@@ -23,6 +23,10 @@ General principles for describing, designing, operating, verifying, and understa
 - Verification and validation
 - System lifecycle
 
+## Canonical reference drafts
+
+- [Systems and subsystems](systems-and-subsystems.md) — substantive draft with cited source material. Independent technical/editorial verification and final acceptance are pending. The approved subject heading above remains unchanged.
+
 ## Content Development
 
 This area is a **navigation discipline**. Its headings organize coverage but do not constitute a separate list of conceptual primitives. Establish one canonical home for each underlying concept and link contextual realizations rather than repeating general definitions.
