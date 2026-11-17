@@ -22,6 +22,8 @@ See the [governing Fundamentals architecture](foundations/fundamentals/ARCHITECT
 
 ## Fundamentals Crosswalks
 
+The [Coverage Gap Decision Register](foundations/fundamentals/COVERAGE-GAP-DECISIONS.md) tracks seven existing-heading placements and three pending architectural scope decisions without introducing new categories or relation predicates.
+
 The [Canonical Ownership & Relationship Register](foundations/fundamentals/CANONICAL-OWNERSHIP-REGISTER.md) gives all 109 approved subject headings a proposed general scope and an illustrative connection to another approved subject. The [Concept Overlap & Coverage Review](foundations/fundamentals/CONCEPT-OVERLAP-REVIEW.md) tracks proposed ownership boundaries and unresolved gaps. The [Canonical Concept Boundary Decisions](foundations/fundamentals/CONCEPT-BOUNDARY-DECISIONS.md) distinguishes 20 recurring overlaps, without creating a new graph schema or hiding the open temporality issue.
 
 Both are **working architectural maps**. Their relationship labels are not an approved, machine-enforced graph vocabulary. The links lead to actual knowledge-area indexes until individual canonical articles are published.
