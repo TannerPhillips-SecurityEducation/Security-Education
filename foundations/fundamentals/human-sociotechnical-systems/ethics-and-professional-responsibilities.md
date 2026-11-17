@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Human & Sociotechnical Systems](README.md)  
 **Approved subject heading:** Ethics and professional responsibilities  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source technical review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 05 audit](../WAVE-B-TECHNICAL-REVIEW-05.md); no independent human peer review
 
 ## Technical capability and justified action are different
 
@@ -78,6 +78,6 @@ Ethical duties do not end at initial implementation. Monitoring, correction, acc
 - [NIST: Human-Centered Design](https://www.nist.gov/itl/iad/human-centered-technologies/human-factors-human-centered-design).
 - [W3C: Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/).
 
-**Editorial status:** Substantive Draft. Normative distinctions and the invented accessibility case require a dedicated source/technical review. No required ethical theory, compliance certification, policy enforcement or assessment is instituted.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 05 technical audit](../WAVE-B-TECHNICAL-REVIEW-05.md). Complete standards verification, independent human expert review and final publication acceptance remain separate and pending.
 
 [Human & Sociotechnical Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
