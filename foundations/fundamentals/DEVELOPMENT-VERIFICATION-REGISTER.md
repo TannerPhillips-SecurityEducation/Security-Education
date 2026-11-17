@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.2  
+**Working edition:** v1.3  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -30,13 +30,13 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
-## Current progress: Wave A Batch 07 reviewed; Wave A technical review complete
+## Current progress: Wave B Batch 01 authored; technical review pending
 
 | Development state | Approved heading count | Evidence |
 | --- | ---: | --- |
 | **Reviewed (model-assisted)** | **29** | Original pilots and Wave A Batch 01–07 scoped audits, including [Batch 07](WAVE-A-TECHNICAL-REVIEW-07.md) |
-| **Draft** | **0** | No authored references currently awaiting a scoped technical review |
-| **Inventoried without article** | **80** | Approved 109-heading baseline retained |
+| **Draft** | **4** | Four Wave B Batch 01 Information & Data drafts awaiting scoped review |
+| **Inventoried without article** | **76** | Approved 109-heading baseline retained |
 | **Core claims checked** | **29** | Internal model-assisted source checking, not independent expert attestation |
 | **Finally accepted / human peer-reviewed** | **0** | No final independent expert acceptance recorded |
 
@@ -49,7 +49,7 @@
 1. **Completed:** Batch 06's three references passed the documented [24-family scoped review](WAVE-A-TECHNICAL-REVIEW-06.md).
 2. Preserve the distinction between mathematical probability, interpretation of confidence and uncertainty, and the conceptual category membership mechanism.
 3. **Completed:** Five Batch 07 articles passed the [30-family scoped technical audit](WAVE-A-TECHNICAL-REVIEW-07.md); retain distinct source review and independent human acceptance gates.
-4. Continue corpus-wide link-integrity, depth/coverage and source checks against the seven Fundamentals completion gates. Batch 07 relative file destinations were verified; fragment targets and external links were not exhaustively checked.
+4. **Current:** Audit four new Wave B Batch 01 drafts; continue corpus-wide source, depth, and link checks. Batch 07 relative file destinations were verified; fragment targets and external links were not exhaustively checked.
 
 ## Detailed coverage by approved knowledge area
 
@@ -123,10 +123,10 @@
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
 | F-05-01 | Symbols and encoding | [Reviewed article](information-data/symbols-and-encoding.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
-| F-05-02 | Bits and bytes | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-05-03 | Information theory | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-05-04 | Data types | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-05-05 | Datasets, records, fields, and values | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-05-02 | Bits and bytes | [Draft article](information-data/bits-and-bytes.md) | Draft | References listed | Wave B Batch 01 substantive draft; technical review pending |
+| F-05-03 | Information theory | [Draft article](information-data/information-theory.md) | Draft | References listed | Wave B Batch 01 substantive draft; technical review pending |
+| F-05-04 | Data types | [Draft article](information-data/data-types.md) | Draft | References listed | Wave B Batch 01 substantive draft; technical review pending |
+| F-05-05 | Datasets, records, fields, and values | [Draft article](information-data/datasets-records-fields-and-values.md) | Draft | References listed | Wave B Batch 01 substantive draft; technical review pending |
 | F-05-06 | Data structures and formats | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-05-07 | Metadata | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-05-08 | Databases and queries | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
