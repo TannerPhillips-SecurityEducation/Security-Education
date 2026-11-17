@@ -27,7 +27,7 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 
 ## Canonical Reference Development
 
-**Forty-one substantive references are Reviewed (model-assisted)** through the six-pilot audit, Wave A Batches 01–07, and Wave B Batches 01–03 ([latest audit](WAVE-B-TECHNICAL-REVIEW-03.md)). These reviews do **not** imply independent human expert peer review or final release acceptance.
+**Forty-seven substantive references are Reviewed (model-assisted)** through the six-pilot audit, Wave A Batches 01–07 and Wave B Batches 01–04 ([latest audit](WAVE-B-TECHNICAL-REVIEW-04.md)). These reviews do **not** imply independent human expert peer review or final release acceptance.
 
 | Approved knowledge area | Reviewed reference articles |
 | --- | --- |
@@ -36,7 +36,7 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 | Models & Abstraction | [Entities and Attributes](models-abstraction/entities-and-attributes.md); [Identity and Distinction](models-abstraction/identity-and-distinction.md); [Relationships](models-abstraction/relationships.md); [Boundaries](models-abstraction/boundaries.md); [Abstraction](models-abstraction/abstraction.md); [Classification](models-abstraction/classification.md); [State, Events, and Transitions](models-abstraction/state-events-and-transitions.md); [Ontologies and Taxonomies](models-abstraction/ontologies-and-taxonomies.md); [Schemas](models-abstraction/schemas.md); [Conceptual and Formal Models](models-abstraction/conceptual-and-formal-models.md) |
 | Information & Data | [Symbols and Encoding](information-data/symbols-and-encoding.md); [Bits and Bytes](information-data/bits-and-bytes.md); [Information Theory](information-data/information-theory.md); [Data Types](information-data/data-types.md); [Datasets, Records, Fields, and Values](information-data/datasets-records-fields-and-values.md); [Data Structures and Formats](information-data/data-structures-and-formats.md); [Metadata](information-data/metadata.md); [Databases and Queries](information-data/databases-and-queries.md); [Data Provenance and Lifecycle](information-data/data-provenance-and-lifecycle.md) |
 | Digital Systems & Hardware | [Digital Logic](digital-systems-hardware/digital-logic.md) |
-| Systems & Engineering | [Systems and Subsystems](systems-engineering/systems-and-subsystems.md); [Components and Interfaces](systems-engineering/components-and-interfaces.md); [Architecture and Composition](systems-engineering/architecture-and-composition.md); [Dependencies](systems-engineering/dependencies.md); [State and Behavior](systems-engineering/state-and-behavior.md) |
+| Systems & Engineering; [Feedback and Control](systems-engineering/feedback-and-control.md); [Emergence and Complexity](systems-engineering/emergence-and-complexity.md); [Reliability and Failure](systems-engineering/reliability-and-failure.md); [Requirements](systems-engineering/requirements.md); [Verification and Validation](systems-engineering/verification-and-validation.md); [System Lifecycle](systems-engineering/system-lifecycle.md) | [Systems and Subsystems](systems-engineering/systems-and-subsystems.md); [Components and Interfaces](systems-engineering/components-and-interfaces.md); [Architecture and Composition](systems-engineering/architecture-and-composition.md); [Dependencies](systems-engineering/dependencies.md); [State and Behavior](systems-engineering/state-and-behavior.md) |
 
 **Wave A technical review completed:** The five Batch 07 subjects passed the [30-family scoped technical review](WAVE-A-TECHNICAL-REVIEW-07.md):
 
@@ -46,22 +46,17 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 - [Schemas](models-abstraction/schemas.md)
 - [Conceptual and Formal Models](models-abstraction/conceptual-and-formal-models.md)
 
-The [Development & Verification Register v1.6](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks **109 approved headings**: **41 Reviewed (model-assisted)**, **6 Draft**, **62 Inventoried**. **26 of 26 Wave A subjects** now have substantive internally reviewed articles. Independent expert review, exhaustive source verification and final publication acceptance remain open.
+The [Development & Verification Register v1.7](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks **109 approved headings**: **47 Reviewed (model-assisted)**, **8 Draft**, **54 Inventoried**. **26 of 26 Wave A subjects** now have substantive internally reviewed articles. Independent expert review, exhaustive source verification and final publication acceptance remain open.
 
 ## Wave B Authoring
 
-**Information & Data: 9/9 internally Reviewed.** The four Batch 02 references passed the [24-family technical review](WAVE-B-TECHNICAL-REVIEW-02.md), completing that area’s model-assisted review. Human expert peer review, complete source validation, and publication acceptance remain separate.
+**All 28 Wave B approved subjects are now authored**, without adding or changing knowledge-area headings.
 
-**Systems & Engineering: 11/11 authored.** [Batch 03's four references](WAVE-B-TECHNICAL-REVIEW-03.md) passed a 24-family scoped technical review. The six Batch 04 subjects remain **Draft**, pending their own audits:
+- **Information & Data:** 9/9 internally Reviewed (model-assisted), following [Batch 02](WAVE-B-TECHNICAL-REVIEW-02.md).
+- **Systems & Engineering:** 11/11 internally Reviewed (model-assisted), following the [36-family Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md).
+- **Human & Sociotechnical Systems:** 8/8 substantive **Drafts** awaiting their own scoped technical/source review: [Human Cognition and Perception](human-sociotechnical-systems/human-cognition-and-perception.md), [Decision-Making](human-sociotechnical-systems/decision-making.md), [Human-Computer Interaction](human-sociotechnical-systems/human-computer-interaction.md), [Usability and Accessibility](human-sociotechnical-systems/usability-and-accessibility.md), [Human Error](human-sociotechnical-systems/human-error.md), [Collaboration and Communication](human-sociotechnical-systems/collaboration-and-communication.md), [Organizational Structures](human-sociotechnical-systems/organizational-structures.md), and [Ethics and Professional Responsibilities](human-sociotechnical-systems/ethics-and-professional-responsibilities.md).
 
-- [Feedback and Control](systems-engineering/feedback-and-control.md)
-- [Emergence and Complexity](systems-engineering/emergence-and-complexity.md)
-- [Reliability and Failure](systems-engineering/reliability-and-failure.md)
-- [Requirements](systems-engineering/requirements.md)
-- [Verification and Validation](systems-engineering/verification-and-validation.md)
-- [System Lifecycle](systems-engineering/system-lifecycle.md)
-
-**Human & Sociotechnical Systems** is the remaining Wave B subject area awaiting authoring. None of the existing scope decisions G-01, G-04 and G-06 is resolved by this production milestone.
+Human expert peer review, source-level verification, the seven publication gates and scope decisions G-01/G-04/G-06 remain separate unresolved responsibilities.
 
 ## Technical Audit Evidence
 
@@ -77,6 +72,7 @@ The [Development & Verification Register v1.6](DEVELOPMENT-VERIFICATION-REGISTER
 - [Wave B Batch 01 Review](WAVE-B-TECHNICAL-REVIEW-01.md): 24 claim families.
 - [Wave B Batch 02 Review](WAVE-B-TECHNICAL-REVIEW-02.md): 24 claim families.
 - [Wave B Batch 03 Review](WAVE-B-TECHNICAL-REVIEW-03.md): 24 claim families.
+- [Wave B Batch 04 Review](WAVE-B-TECHNICAL-REVIEW-04.md): 36 claim families.
 
 **Reviewed** denotes a documented internal model-assisted technical/editorial evaluation, not independent human approval, a ratified graph predicate vocabulary, or completion of the seven Fundamentals gates. G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML remain outstanding architectural scope decisions.
 
@@ -141,7 +137,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 47 substantive reference articles (41 internally Reviewed, six Draft). Complete source validation and all seven corpus-wide completion gates remain open.
+**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 55 substantive reference articles (47 internally Reviewed, eight Draft). Complete source validation and all seven corpus-wide completion gates remain open.
 
 ## Coverage Across Specialized Domains
 
