@@ -3,7 +3,7 @@
 **Knowledge area:** [Information & Data](README.md)  
 **Approved subject heading:** Symbols and encoding  
 **Development status:** Draft  
-**Source review:** References listed; independent technical/editorial review pending
+**Source review:** Core claims checked (see [pilot technical review](../PILOT-TECHNICAL-REVIEW.md)); final editorial acceptance pending
 
 ## Representation is not meaning
 
