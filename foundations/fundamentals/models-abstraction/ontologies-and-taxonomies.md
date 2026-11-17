@@ -45,7 +45,7 @@ Different hierarchies express different relations:
 
 Confusing these creates invalid inferences. If `Wheel part-of Bicycle`, a wheel is not therefore a subclass of bicycle. If `Bicycle subclass-of Vehicle`, instances of Bicycle are instances of Vehicle under the stated model.
 
-The [W3C SKOS Reference](https://www.w3.org/TR/skos-reference/) defines properties for concept schemes, labels and semantic relations. **SKOS broader/narrower assertions must not automatically be treated as OWL `rdfs:subClassOf` axioms**; SKOS does not, by default, impose that equivalence.
+The [W3C SKOS Reference](https://www.w3.org/TR/skos-reference/) defines properties for concept schemes, labels and semantic relations. **SKOS broader/narrower assertions must not automatically be treated as OWL `rdfs:subClassOf` axioms**; SKOS does not, by default, impose that equivalence. Additionally, `skos:broader` is **not defined as transitive**, although `skos:broaderTransitive` provides a separate relation for inferred broader-concept ancestry. Thus `A skos:broader B` and `B skos:broader C` do not alone entail `A skos:broader C` under SKOS semantics. This is distinct from the separate transitive superproperty.
 
 ## Formal ontology languages and inference
 
