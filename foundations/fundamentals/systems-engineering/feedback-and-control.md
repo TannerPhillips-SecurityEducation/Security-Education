@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Systems & Engineering](README.md)  
 **Approved subject heading:** Feedback and control  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 04 audit](../WAVE-B-TECHNICAL-REVIEW-04.md); no independent human peer review
 
 ## Regulation connects observation to action
 
@@ -85,6 +85,6 @@ Control goals can include tracking a target, rejecting disturbances, remaining w
 - [NASA: Fundamentals of Systems Engineering](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/).
 - [NASA: Logical Decomposition](https://www.nasa.gov/reference/4-3-logical-decomposition/).
 
-**Editorial status:** Substantive Draft with an independently checkable toy controller example. The example and generalizations require a dedicated scoped technical audit. This reference introduces no assessment, mandatory hardware design, or new knowledge category.
+**Editorial status:** Reviewed (model-assisted) under the scoped [Wave B Batch 04 technical review](../WAVE-B-TECHNICAL-REVIEW-04.md). Exhaustive source verification, independent expert review and final publication acceptance remain separate, uncompleted gates.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
