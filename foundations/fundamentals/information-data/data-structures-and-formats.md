@@ -50,7 +50,7 @@ record 1: id=O1, device=D7, temperature_C=21.0
 record 2: id=O2, device=D7, temperature_C=22.0
 ```
 
-One possible CSV representation, under its specified column meanings, is:
+One possible CSV representation, under its specified column meanings, is shown below. **The displayed lines are illustrative**: RFC 4180 specifies CRLF record separators for its documented CSV convention, while other CSV dialects and transport conventions may use different separators:
 
 ```csv
 id,device,temperature_C
