@@ -1,22 +1,37 @@
 # Endpoint Knowledge
 
-Endpoint Knowledge is organized primarily by **operating-system family**.
+**Primary classification:** Host System Function
 
-## Operating System Families
+This domain follows **Domain → Function → Implementation**. Functions provide the canonical navigation path; specific implementations are added within the relevant function when approved.
 
-- [Windows](windows/README.md): Windows client and server operating systems
-- [Linux](linux/README.md): Linux distributions and Linux-based systems
-- [macOS](macos/README.md): Apple desktop operating systems
-- [Unix & BSD](unix-bsd/README.md): FreeBSD, OpenBSD, Solaris, AIX, and related systems
-- [Android](android/README.md): Android operating systems and variants
-- [iOS & iPadOS](ios-ipados/README.md): Apple mobile and tablet operating systems
-- [Other & Specialized OS](other-specialized-os/README.md): Real-time, embedded, and specialized operating systems
+## Functions (Primary Navigation)
+
+- [System Initialization & Boot](system-initialization-boot/README.md)
+- [Execution & Scheduling](execution-scheduling/README.md)
+- [Memory & Resource Management](memory-resource-management/README.md)
+- [Storage & Filesystems](storage-filesystems/README.md)
+- [Device & I/O Management](device-io-management/README.md)
+- [Connectivity & Communication](connectivity-communication/README.md)
+- [User Sessions & Interaction](user-sessions-interaction/README.md)
+- [Identity & Access Enforcement](identity-access-enforcement/README.md)
+- [Monitoring & Maintenance](monitoring-maintenance/README.md)
+
+## Operating System Family Indexes (Secondary Navigation)
+
+- [Windows](windows/README.md)
+- [Linux](linux/README.md)
+- [macOS](macos/README.md)
+- [Unix & BSD](unix-bsd/README.md)
+- [Android](android/README.md)
+- [iOS & iPadOS](ios-ipados/README.md)
+- [Other & Specialized OS](other-specialized-os/README.md)
 
 ## Organizational Principles
 
-- Operating-system family is the primary navigation category for this domain.
-- Shared foundational concepts retain their canonical location and are referenced rather than duplicated.
-- Overlapping technical relationships, such as Android and the Linux kernel or macOS and Unix foundations, belong in the knowledge graph and should not be represented as inaccurate navigation parentage.
-- Deeper operating-system taxonomies remain undefined until approved.
+The OS-family pages provide alternative navigation and future implementation indexes, not separate canonical definitions. Overlapping OS ancestry and implementation relationships belong in the knowledge graph.
+
+- Each subject has one canonical documentation home; alternate views link there.
+- Functional categories may overlap in subject matter, with relationships expressed through explicit links.
+- Function pages currently establish scope only. Deeper implementation documentation has not yet been approved.
 
 [Security Knowledge](../README.md) · [Relationship conventions](../RELATIONSHIPS.md)
