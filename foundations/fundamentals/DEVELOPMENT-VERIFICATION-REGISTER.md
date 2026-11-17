@@ -46,7 +46,7 @@
 
 ### 01. Mathematics & Logic (Wave A; 8 headings)
 
-**Area index:** [Mathematics & Logic](mathematics-logic/README.md). **Coverage questions:** [G-01](COVERAGE-GAP-DECISIONS.md#g-01), [G-02](COVERAGE-GAP-DECISIONS.md#g-02), [G-03](COVERAGE-GAP-DECISIONS.md#g-03). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Mathematics & Logic](mathematics-logic/README.md). **Coverage questions:** [G-01](COVERAGE-GAP-DECISIONS.md#g-01-linear-algebra-geometry-topology), [G-02](COVERAGE-GAP-DECISIONS.md#g-02-numerical-methods-and-optimization), [G-03](COVERAGE-GAP-DECISIONS.md#g-03-formal-methods-and-model-checking). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -61,7 +61,7 @@
 
 ### 02. Scientific & Analytical Reasoning (Wave A; 8 headings)
 
-**Area index:** [Scientific & Analytical Reasoning](scientific-analytical-reasoning/README.md). **Coverage questions:** [G-02](COVERAGE-GAP-DECISIONS.md#g-02), [G-07](COVERAGE-GAP-DECISIONS.md#g-07), [G-09](COVERAGE-GAP-DECISIONS.md#g-09). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Scientific & Analytical Reasoning](scientific-analytical-reasoning/README.md). **Coverage questions:** [G-02](COVERAGE-GAP-DECISIONS.md#g-02-numerical-methods-and-optimization), [G-07](COVERAGE-GAP-DECISIONS.md#g-07-data-quality-and-semantics), [G-09](COVERAGE-GAP-DECISIONS.md#g-09-scientific-and-engineering-validation). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -76,7 +76,7 @@
 
 ### 03. Models & Abstraction (Wave A; 10 headings)
 
-**Area index:** [Models & Abstraction](models-abstraction/README.md). **Coverage questions:** [G-03](COVERAGE-GAP-DECISIONS.md#g-03), [G-04](COVERAGE-GAP-DECISIONS.md#g-04). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Models & Abstraction](models-abstraction/README.md). **Coverage questions:** [G-03](COVERAGE-GAP-DECISIONS.md#g-03-formal-methods-and-model-checking), [G-04](COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -93,7 +93,7 @@
 
 ### 04. Physical & Electrical Principles (Wave C; 9 headings)
 
-**Area index:** [Physical & Electrical Principles](physical-electrical-principles/README.md). **Coverage questions:** [G-05](COVERAGE-GAP-DECISIONS.md#g-05). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Physical & Electrical Principles](physical-electrical-principles/README.md). **Coverage questions:** [G-05](COVERAGE-GAP-DECISIONS.md#g-05-signal-processing). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -109,7 +109,7 @@
 
 ### 05. Information & Data (Wave B; 9 headings)
 
-**Area index:** [Information & Data](information-data/README.md). **Coverage questions:** [G-07](COVERAGE-GAP-DECISIONS.md#g-07), [G-10](COVERAGE-GAP-DECISIONS.md#g-10). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Information & Data](information-data/README.md). **Coverage questions:** [G-07](COVERAGE-GAP-DECISIONS.md#g-07-data-quality-and-semantics), [G-10](COVERAGE-GAP-DECISIONS.md#g-10-lifecycle-evolution-and-versioning). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -125,7 +125,7 @@
 
 ### 06. Digital Systems & Hardware (Wave C; 9 headings)
 
-**Area index:** [Digital Systems & Hardware](digital-systems-hardware/README.md). **Coverage questions:** [G-04](COVERAGE-GAP-DECISIONS.md#g-04). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Digital Systems & Hardware](digital-systems-hardware/README.md). **Coverage questions:** [G-04](COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -141,7 +141,7 @@
 
 ### 07. Computation & Algorithms (Wave D; 9 headings)
 
-**Area index:** [Computation & Algorithms](computation-algorithms/README.md). **Coverage questions:** [G-02](COVERAGE-GAP-DECISIONS.md#g-02), [G-06](COVERAGE-GAP-DECISIONS.md#g-06). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Computation & Algorithms](computation-algorithms/README.md). **Coverage questions:** [G-02](COVERAGE-GAP-DECISIONS.md#g-02-numerical-methods-and-optimization), [G-06](COVERAGE-GAP-DECISIONS.md#g-06-artificial-intelligence-and-machine-learning). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -157,7 +157,7 @@
 
 ### 08. Software & Programming (Wave D; 9 headings)
 
-**Area index:** [Software & Programming](software-programming/README.md). **Coverage questions:** [G-03](COVERAGE-GAP-DECISIONS.md#g-03), [G-09](COVERAGE-GAP-DECISIONS.md#g-09), [G-10](COVERAGE-GAP-DECISIONS.md#g-10). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Software & Programming](software-programming/README.md). **Coverage questions:** [G-03](COVERAGE-GAP-DECISIONS.md#g-03-formal-methods-and-model-checking), [G-09](COVERAGE-GAP-DECISIONS.md#g-09-scientific-and-engineering-validation), [G-10](COVERAGE-GAP-DECISIONS.md#g-10-lifecycle-evolution-and-versioning). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -173,7 +173,7 @@
 
 ### 09. Operating System Principles (Wave E; 10 headings)
 
-**Area index:** [Operating System Principles](operating-system-principles/README.md). **Coverage questions:** [G-04](COVERAGE-GAP-DECISIONS.md#g-04). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Operating System Principles](operating-system-principles/README.md). **Coverage questions:** [G-04](COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -190,7 +190,7 @@
 
 ### 10. Communication & Distributed Systems (Wave E; 9 headings)
 
-**Area index:** [Communication & Distributed Systems](communication-distributed-systems/README.md). **Coverage questions:** [G-04](COVERAGE-GAP-DECISIONS.md#g-04), [G-08](COVERAGE-GAP-DECISIONS.md#g-08). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Communication & Distributed Systems](communication-distributed-systems/README.md). **Coverage questions:** [G-04](COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks), [G-08](COVERAGE-GAP-DECISIONS.md#g-08-distributed-consistency-and-partial-failure). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -206,7 +206,7 @@
 
 ### 11. Systems & Engineering (Wave B; 11 headings)
 
-**Area index:** [Systems & Engineering](systems-engineering/README.md). **Coverage questions:** [G-08](COVERAGE-GAP-DECISIONS.md#g-08), [G-09](COVERAGE-GAP-DECISIONS.md#g-09), [G-10](COVERAGE-GAP-DECISIONS.md#g-10). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Systems & Engineering](systems-engineering/README.md). **Coverage questions:** [G-08](COVERAGE-GAP-DECISIONS.md#g-08-distributed-consistency-and-partial-failure), [G-09](COVERAGE-GAP-DECISIONS.md#g-09-scientific-and-engineering-validation), [G-10](COVERAGE-GAP-DECISIONS.md#g-10-lifecycle-evolution-and-versioning). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -224,7 +224,7 @@
 
 ### 12. Human & Sociotechnical Systems (Wave B; 8 headings)
 
-**Area index:** [Human & Sociotechnical Systems](human-sociotechnical-systems/README.md). **Coverage questions:** [G-06](COVERAGE-GAP-DECISIONS.md#g-06). These indicate *areas to check*, not a conclusion that every subject is deficient.
+**Area index:** [Human & Sociotechnical Systems](human-sociotechnical-systems/README.md). **Coverage questions:** [G-06](COVERAGE-GAP-DECISIONS.md#g-06-artificial-intelligence-and-machine-learning). These indicate *areas to check*, not a conclusion that every subject is deficient.
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
@@ -243,7 +243,7 @@
 2. Once an actual article exists, replace *Not authored / Queued* with a **relative Markdown link to the real file**, and mark the development state **Draft**.
 3. Link sources near relevant claims, record what has been independently checked, and only then promote **Source review** to **Verified**.
 4. Replace broad, area-level conceptual references with precise canonical article links when those destinations exist.
-5. Keep the three pending architectural decisions [G-01 mathematical breadth](COVERAGE-GAP-DECISIONS.md#g-01), [G-04 general temporality](COVERAGE-GAP-DECISIONS.md#g-04), and [G-06 AI/ML](COVERAGE-GAP-DECISIONS.md#g-06) visible until explicitly resolved.
+5. Keep the three pending architectural decisions [G-01 mathematical breadth](COVERAGE-GAP-DECISIONS.md#g-01-linear-algebra-geometry-topology), [G-04 general temporality](COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks), and [G-06 AI/ML](COVERAGE-GAP-DECISIONS.md#g-06-artificial-intelligence-and-machine-learning) visible until explicitly resolved.
 6. Make a separate technical/editorial pass after pilot drafting before declaring an article **Reviewed** or **Published**.
 
 ## Approved exclusions
