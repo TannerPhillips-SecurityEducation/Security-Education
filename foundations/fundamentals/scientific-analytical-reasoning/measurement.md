@@ -49,7 +49,7 @@ In measurement science, **accuracy** describes closeness of agreement between a 
 
 **Precision** concerns closeness of agreement between indications or measured quantity values obtained by replicate measurements under specified conditions. Repeatability and reproducibility are distinct types of precision conditions.
 
-**Measurement uncertainty** characterizes dispersion of the quantity values being attributed to the measurand, based on the information used. It is not simply the amount by which a particular reading is wrong.
+**Measurement uncertainty** is a non-negative parameter characterizing dispersion of quantity values attributed to the measurand, based on the information used. It is not simply the amount by which a particular reading is wrong.
 
 **Error** is a measured value minus a reference quantity value under a chosen convention; systematic and random errors involve different mechanisms.
 
@@ -61,7 +61,7 @@ A measuring instrument can be precise but biased, giving tightly clustered value
 
 **Calibration** establishes, under specified conditions, a relationship between values given by measurement standards and corresponding indications, including their uncertainties, then uses that information to establish a relationship for obtaining a measurement result from an indication. Calibration is not the same as simply changing an instrument setting to eliminate an offset.
 
-**Metrological traceability** is a **property of the measurement result**: it can be related to an appropriate reference through a documented unbroken chain of calibrations, with each contributing to uncertainty. It is not merely a property bestowed on an instrument because it carries a sticker.
+**Metrological traceability** is a **property of the measurement result**: it can be related to an appropriate reference through a documented unbroken chain of calibrations, with each contributing to uncertainty. It is not merely a property bestowed on an instrument because it carries a sticker. The [VIM 2.41 definition](https://jcgm.bipm.org/vim/en/2.41.html) also cautions that traceability alone does not guarantee adequate uncertainty or absence of mistakes.
 
 NIST's [Metrological Traceability policy and FAQ](https://www.nist.gov/metrology/metrological-traceability) explicitly emphasizes this distinction. A measurement can depend upon conditions, methods, references and uncertainty even when the instrument was calibrated previously.
 
@@ -107,9 +107,14 @@ An instrument that samples once per second cannot, from a single sample, general
 - [JCGM VIM 2.3: Measurand](https://jcgm.bipm.org/vim/en/2.3.html).
 - [JCGM VIM 2.9: Measurement Result](https://jcgm.bipm.org/vim/en/2.9.html).
 - [JCGM VIM 2.10: Measured Quantity Value](https://jcgm.bipm.org/vim/en/2.10.html).
+- [JCGM VIM 2.13: Measurement Accuracy](https://jcgm.bipm.org/vim/en/2.13.html).
+- [JCGM VIM 2.15: Measurement Precision](https://jcgm.bipm.org/vim/en/2.15.html).
+- [JCGM VIM 2.26: Measurement Uncertainty](https://jcgm.bipm.org/vim/en/2.26.html).
+- [JCGM VIM 2.39: Calibration](https://jcgm.bipm.org/vim/en/2.39.html).
+- [JCGM VIM 2.41: Metrological Traceability](https://jcgm.bipm.org/vim/en/2.41.html).
 - [NIST: Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty).
 - [NIST: Metrological Traceability](https://www.nist.gov/metrology/metrological-traceability).
 
-**Editorial scope:** This is a domain-agnostic draft rooted in metrology vocabulary. Calibration practices, physical signal conversion and thresholds are illustrative; they do not impose one universal measurement schema. Scoped claim-to-source review remains pending.
+**Review record:** Core terms were cross-checked against VIM3 entries for measurement, measurand, result, accuracy, precision, uncertainty, calibration and traceability. The threshold example was checked for the stated logical comparison and is explicitly hypothetical, not a confidence/coverage guarantee. This article passed the scoped model-assisted review described in the Wave A Batch 02 audit; it has not undergone independent human acceptance.
 
 [Scientific & Analytical Reasoning](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
