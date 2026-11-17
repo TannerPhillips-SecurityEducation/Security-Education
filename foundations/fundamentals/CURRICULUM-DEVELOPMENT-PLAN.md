@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v1.5; 24 internally reviewed references, 5 drafts, 80 inventoried headings; external human acceptance pending
+**Document status:** Working plan v1.6; 29 internally reviewed references, 0 drafts, 80 inventoried headings; external human acceptance pending
 **Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -54,18 +54,18 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record
 6. **No assessments.** No Knowledge Checks or Practical Assessments appear anywhere in this development plan or in the resulting knowledge reference.
 7. **Versioned evolution.** Preserve approved category identities while documenting proposed additions, merges, relocations, and corrections before changing canonical structure.
 
-## Execution Status: Wave A Batch 07 authored
+## Execution Status: Wave A Batch 07 reviewed
 
 - The six original pilots passed a [50-family scoped review](PILOT-CLAIM-SOURCE-AUDIT.md).
 - Wave A Batch 01 through 04 passed successive [21](WAVE-A-TECHNICAL-REVIEW-01.md), [27](WAVE-A-TECHNICAL-REVIEW-02.md), [24](WAVE-A-TECHNICAL-REVIEW-03.md), and [24](WAVE-A-TECHNICAL-REVIEW-04.md) family audits.
 - **Wave A Batch 05 Reviewed:** Graph Theory, Causality and Correlation, and Abstraction received corrections and a [24-family technical audit](WAVE-A-TECHNICAL-REVIEW-05.md), including correction of the mislabeled complete graph and clarification of causal and abstraction assumptions.
 - **Wave A Batch 06 Reviewed:** [Probability and Statistics](mathematics-logic/probability-and-statistics.md), [Uncertainty and Confidence](scientific-analytical-reasoning/uncertainty-and-confidence.md), [Classification](models-abstraction/classification.md). These passed the [Batch 06 scoped technical review](WAVE-A-TECHNICAL-REVIEW-06.md), with corrections and documented limits; independent human review remains pending.
-- **Wave A Batch 07 Drafts:** [Units and Quantities](mathematics-logic/units-and-quantities.md), [Validation and Falsification](scientific-analytical-reasoning/validation-and-falsification.md), [Ontologies and Taxonomies](models-abstraction/ontologies-and-taxonomies.md), [Schemas](models-abstraction/schemas.md), and [Conceptual and Formal Models](models-abstraction/conceptual-and-formal-models.md). Five substantive references are committed; their scoped technical audits remain pending.
-- The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) reconciles all original 109 headings: **24 Reviewed (model-assisted), 5 Draft and 80 Inventoried**.
-- **Wave A authored coverage:** 26 of 26 approved headings now have articles, 21 internally Reviewed and 5 Draft. Three additional Reviewed articles originated as pilots in later authoring waves.
+- **Wave A Batch 07 Reviewed:** [Units and Quantities](mathematics-logic/units-and-quantities.md), [Validation and Falsification](scientific-analytical-reasoning/validation-and-falsification.md), [Ontologies and Taxonomies](models-abstraction/ontologies-and-taxonomies.md), [Schemas](models-abstraction/schemas.md), and [Conceptual and Formal Models](models-abstraction/conceptual-and-formal-models.md). All five references passed the [30-family Batch 07 scoped technical audit](WAVE-A-TECHNICAL-REVIEW-07.md), including specific modeling-semantics clarifications. Independent human peer review and final acceptance remain pending.
+- The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) reconciles all original 109 headings: **29 Reviewed (model-assisted), 0 Draft and 80 Inventoried**.
+- **Wave A authored coverage:** All 26 of 26 approved headings are internally Reviewed. Three additional Reviewed articles originated as pilots in later authoring waves.
 - No independent human expert peer review or final published acceptance is asserted. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain separately pending architectural decisions.
 
-**Next execution:** Conduct a separately documented Batch 07 scoped claim-to-source audit of all five Drafts, correct defects and verify internal links before review-state promotion; then continue authoring later waves.
+**Next execution:** Begin subsequent authoring waves and continue corpus-wide completion gates. Batch 07 file-destination links and its 30 claim groups have been checked; external URL availability, link fragments, exhaustive source validation and human expert signoff are separate pending gates.
 
 ## 4. Work Packages and Stage Gates
 
@@ -202,7 +202,7 @@ No graph database or universal front-matter schema is required at this stage. Pr
 3. **Completed:** Six pilot references and 50-family internal source audit.
 4. **Completed:** Wave A Batch 01–06 source reviews (21, 27, 24, 24, 24 and 24 claim families).
 5. **Completed:** Three Wave A Batch 06 references passed scoped model-assisted review; [24-family audit](WAVE-A-TECHNICAL-REVIEW-06.md).
-6. **Completed authoring:** Five Wave A Batch 07 drafts cover Units and Quantities; Validation and Falsification; Ontologies and Taxonomies; Schemas; Conceptual and Formal Models. **Current gate:** Technical and source review pending.
+6. **Completed authoring:** Five Wave A Batch 07 drafts cover Units and Quantities; Validation and Falsification; Ontologies and Taxonomies; Schemas; Conceptual and Formal Models. **Review gate completed:** [Batch 07 technical audit](WAVE-A-TECHNICAL-REVIEW-07.md); **source state:** Core claims checked. Independent human acceptance and corpus-wide publication gates remain open.
 7. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately, and do not identify the 109-heading corpus as complete before the seven Fundamentals completion gates pass.
 
 Production waves guide authors, **not reader prerequisites**. Knowledge Checks and Practical Assessments remain excluded.
@@ -223,6 +223,7 @@ Production waves guide authors, **not reader prerequisites**. Knowledge Checks a
 - [Wave A Batch 04 Claim-to-Source Review (24 families)](WAVE-A-TECHNICAL-REVIEW-04.md)
 - [Wave A Batch 05 Claim-to-Source Review (24 families)](WAVE-A-TECHNICAL-REVIEW-05.md)
 - [Wave A Batch 06 Claim-to-Source Review (24 families)](WAVE-A-TECHNICAL-REVIEW-06.md)
+- [Wave A Batch 07 Claim-to-Source Review (30 families)](WAVE-A-TECHNICAL-REVIEW-07.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
 - [Knowledge relationship conventions](../../RELATIONSHIPS.md)
