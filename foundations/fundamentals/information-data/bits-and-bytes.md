@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Information & Data](README.md)  
 **Approved subject heading:** Bits and bytes  
-**Development status:** Draft  
-**Source review:** References listed; separate scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 01 audit](../WAVE-B-TECHNICAL-REVIEW-01.md); no independent human peer review
 
 ## Digital information as binary distinctions
 
@@ -60,6 +60,6 @@ This does not establish which consumer is correct without the producer's format 
 - [NIST: Byte](https://csrc.nist.gov/glossary/term/byte).
 - [NIST: Binary prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 
-**Editorial status:** Substantive draft. Encoding examples and unit claims require their own documented technical audit before model-assisted Reviewed status. No assessment material or domain-specific ownership is added.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 01 technical audit](../WAVE-B-TECHNICAL-REVIEW-01.md). Complete source verification, independent human peer review, and final publication acceptance remain open.
 
 [Information & Data](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
