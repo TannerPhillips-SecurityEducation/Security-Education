@@ -57,7 +57,7 @@ A directed cycle in a dependency graph can signal a potential design challenge, 
 
 A scheduling prerequisite model with a strict “must finish before” relation cannot contain a feasible directed cycle when every task must eventually finish. A feedback control loop, by contrast, is intentionally cyclic and may be appropriate or even necessary.
 
-A **directed acyclic graph (DAG)** admits a topological order, but that graph property alone does not establish that a real system can be constructed or that a schedule has enough capacity. [Graph Theory](../mathematics-logic/graph-theory.md) owns the formal theorems; [Feedback and Control](README.md) is the separate approved subject for purposeful feedback mechanisms.
+A **directed acyclic graph (DAG)** admits a topological order, but that graph property alone does not establish that a real system can be constructed or that a schedule has enough capacity. [Graph Theory](../mathematics-logic/graph-theory.md) owns the formal theorems; [Feedback and Control](feedback-and-control.md) is the separate approved subject for purposeful feedback mechanisms.
 
 ## Critical paths require an explicit interpretation
 
@@ -79,7 +79,7 @@ A change to a highly depended-upon component can affect multiple consumers. Poss
 
 Two consumers sharing a dependency may experience correlated interruptions. Simply duplicating consumers does not remove a shared upstream risk. Likewise, modular decomposition may reduce some types of coupling but cannot eliminate physical resource requirements or every organizational dependency.
 
-[Components and Interfaces](components-and-interfaces.md) owns interaction contracts; [Architecture and Composition](architecture-and-composition.md) owns whole-system organization. [Reliability and Failure](README.md) will develop formal failure and reliability interpretations under its own approved heading.
+[Components and Interfaces](components-and-interfaces.md) owns interaction contracts; [Architecture and Composition](architecture-and-composition.md) owns whole-system organization. [Reliability and Failure](reliability-and-failure.md) develops failure and reliability interpretations under its own approved heading.
 
 ## Boundaries and references
 
