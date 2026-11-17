@@ -3,7 +3,7 @@
 **Knowledge area:** [Models & Abstraction](README.md)  
 **Approved subject heading:** Entities and attributes  
 **Development status:** Draft  
-**Source review:** References listed; independent technical/editorial review pending
+**Source review:** Core claims checked (see [pilot technical review](../PILOT-TECHNICAL-REVIEW.md)); final editorial acceptance pending
 
 ## What a model chooses to distinguish
 
