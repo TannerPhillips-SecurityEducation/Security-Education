@@ -1,12 +1,12 @@
 # Fundamentals: Concept Overlap and Coverage Review
 
-**Status:** Working architectural review register, v0.3. The 20 overlaps now have proposed working boundary resolutions. The 10 coverage questions remain open; no new areas, headings, or graph predicates are ratified.
+**Status:** Working architectural review register, v0.3. The 20 overlap boundaries have been approved as conceptual ownership guidance. The 10 coverage questions remain open; no new areas, headings, or graph predicates are ratified.
 
-The approved baseline is 12 knowledge areas and 109 subject headings. The ownership boundaries below are **proposed decisions for review**. They are not evidence that the underlying canonical concept articles already exist.
+The approved baseline is 12 knowledge areas and 109 subject headings. The table below records the original candidate boundaries; their approved architectural resolutions are maintained in the linked boundary-decision document. They are not evidence that the underlying canonical concept articles already exist.
 
 ## Boundary-resolution cross-reference
 
-The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) document contains 20 working ownership-and-distinction decisions with discriminating examples. **B-11 retains a general-temporality coverage exception**. The mappings are editorial working decisions, not published canonical concept articles and not blanket ratification of all individual mechanisms.
+The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) document contains 20 approved conceptual ownership distinctions with discriminating examples. **B-11 retains a general-temporality coverage exception**. These boundaries are approved for architectural placement, not published canonical articles or comprehensive technical validation of every underlying mechanism.
 
 ## Twenty recurring concept-overlap groups
 
