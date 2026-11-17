@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v0.8; six pilots model-reviewed, three Wave A references drafted; corpus completion and external acceptance pending
+**Document status:** Working plan v0.9; 9 internally reviewed references, 3 additional Wave A drafts, 97 un-authored headings; external acceptance pending
 **Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -54,18 +54,16 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record
 6. **No assessments.** No Knowledge Checks or Practical Assessments appear anywhere in this development plan or in the resulting knowledge reference.
 7. **Versioned evolution.** Preserve approved category identities while documenting proposed additions, merges, relocations, and corrections before changing canonical structure.
 
-## Pilot Execution Status
+## Execution Status: Reviewed Baseline and Wave A Expansion
 
-The [109-Subject Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) records approved heading IDs, canonical article paths, source-review states, and pending decisions. The six [pilot articles](README.md#canonical-reference-development) underwent a [second-pass review](PILOT-TECHNICAL-REVIEW.md) and subsequent [50-family claim-to-source audit](PILOT-CLAIM-SOURCE-AUDIT.md). All six are **Reviewed (model-assisted) / Core claims checked**, not **independently human-verified / finally Published**. Three Wave A references are now **Draft / References listed**.
+- **Six pilot references** passed a [50-family internal source audit](PILOT-CLAIM-SOURCE-AUDIT.md).
+- **Three additional Wave A references** (Boolean and Predicate Logic; Evidence; State, Events, and Transitions) passed a [21-family internal source audit](WAVE-A-TECHNICAL-REVIEW-01.md).
+- **Three new Wave A references** (Numbers and Numerical Systems; Measurement; Relationships) are committed as **Draft** and awaiting scoped technical and editorial review.
+- The [live Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) reconciles all 109 approved headings: **9 Reviewed (model-assisted), 3 Draft, 97 Inventoried**.
+- No independent human expert approval or final release acceptance is claimed. The full seven-gate Fundamentals review remains open.
+- G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML still require separately approved scope decisions. No new knowledge area or subject heading has been silently created.
 
-The next operational action is to **conduct a documented technical, editorial, and link-integrity review of these pilots**, resolve issues, and only then consider scaling the authored reference standard across production waves A–E. Nothing in this milestone changes the approved twelve knowledge areas or 109 subject headings.
-
-## Execution Milestone: Pilot Acceptance and Wave A Start
-
-- Six pilot references completed a [50-family material claim-to-source audit](PILOT-CLAIM-SOURCE-AUDIT.md) and may be classified **Reviewed (model-assisted)**. They are not independently human peer-reviewed or finally accepted for publication.
-- Three Wave A references have been authored as **Drafts** under existing approved subject headings: [Boolean and Predicate Logic](mathematics-logic/boolean-and-predicate-logic.md), [Evidence](scientific-analytical-reasoning/evidence.md), and [State, Events, and Transitions](models-abstraction/state-events-and-transitions.md).
-- The [development register](DEVELOPMENT-VERIFICATION-REGISTER.md) now tracks six Reviewed, three Draft, and 100 Inventoried headings. The architecture retains 12 areas and 109 headings.
-- The next work package is the scoped technical/source review of the three new articles and continued Wave A development. General temporality G-04 remains unapproved as a comprehensive foundation.
+**Next execution:** Source-audit the three new drafts, resolve corrections and links, then continue the remaining Wave A headings. Review status must never be upgraded merely because source links are listed.
 
 ## 4. Work Packages and Stage Gates
 
@@ -145,7 +143,7 @@ Do not claim *Fundamentals complete* based on a percentage of inventory headings
 
 ## 8. Coverage and Progress Tracking
 
-The **ownership register is created**, but it is not a progress/status register and its proposed relationships are not yet validated. Maintain a separate lightweight **coverage-and-progress register** (future deliverable; not yet created) with, at minimum:
+The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) is implemented and distinct from the [ownership register](CANONICAL-OWNERSHIP-REGISTER.md). Keep the live progress register updated for every authored article, source review, unresolved relationship, and pending scope decision. Its required fields are:
 
 | Field | Purpose |
 | --- | --- |
@@ -195,17 +193,17 @@ No graph database or universal front-matter schema is required at this stage. Pr
 | Rigid study sequence | Production waves guide authors; navigation remains non-linear |
 | Unbounded planning | Pilot a small cross-area sample, calibrate review criteria, then scale wave by wave |
 
-## 12. Initial Action Order
+## 12. Execution History and Next Actions
 
-1. **Ratify the plan's process** as a working method without altering the already-approved 12-area taxonomy.
-2. **Review the 109-heading ownership register** against existing area READMEs, preserve the wording and taxonomy, and prepare a distinct progress register.
-3. **Apply the 20 approved concept boundaries and ten-gap disposition register** during article scoping. Decide G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML separately before altering coverage or navigation.
-4. **Pilot completed at draft stage:** *Sets and relations*, *Observation*, *Entities and attributes*, *Symbols and encoding*, *Systems and subsystems*, and *Digital logic* are written and linked. Apply the documented verification gate before any final acceptance.
-5. **Pilot model-assisted scoped acceptance passed:** six references have documented 50 claim families. Human publication endorsement remains separate. Continue authoring Wave A with reviewed standard, then perform source checks on each new draft.
-6. **Audit each wave** for source accuracy, concept relationships, navigation, and relevance to all seven domains.
-7. **Run the final seven-gate review** before identifying Fundamentals as complete.
+1. **Completed:** Preserve the 12 approved areas and inventory of 109 headings and establish the canonical conceptual architecture.
+2. **Completed:** Build the 109-subject ownership crosswalk, document the 20 approved concept boundaries, and classify 10 coverage questions.
+3. **Completed:** Create the 109-heading development register and six pilot references, followed by a 50-family scoped model-assisted review.
+4. **Completed:** Write and review three Wave A concepts (Boolean and Predicate Logic, Evidence, State/Events/Transitions) with a 21-family evidence ledger.
+5. **Current:** Develop and source-review the next Wave A batch (Numbers and Numerical Systems, Measurement, Relationships). These have been **drafted but not reviewed**.
+6. **Following:** Continue remaining Wave A articles while checking domain-neutral ownership, cross-area definitions, authoritative sources, and real navigation targets.
+7. **Ongoing governance:** Resolve G-01, G-04, and G-06 through separately approved architecture decisions and apply the seven Fundamentals completion gates before any claim of completed corpus.
 
-The six pilot topics are **proposed production choices**, not new categories or changes to the approved inventory.
+The execution waves remain **authoring priorities**, not required reader sequence. No Knowledge Checks or Practical Assessments are introduced.
 
 ## 13. Reference and Governance Links
 
@@ -217,6 +215,7 @@ The six pilot topics are **proposed production choices**, not new categories or 
 - [Development & Verification Register (109 headings)](DEVELOPMENT-VERIFICATION-REGISTER.md)
 - [Six-Pilot Technical and Editorial Review](PILOT-TECHNICAL-REVIEW.md)
 - [Pilot Claim-to-Source Audit (50 claim families)](PILOT-CLAIM-SOURCE-AUDIT.md)
+- [Wave A Batch 01 Claim-to-Source Review (21 families)](WAVE-A-TECHNICAL-REVIEW-01.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
 - [Knowledge relationship conventions](../../RELATIONSHIPS.md)
