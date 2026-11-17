@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Information & Data](README.md)  
 **Approved subject heading:** Symbols and encoding  
-**Development status:** Draft  
-**Source review:** Core claims checked (see [pilot technical review](../PILOT-TECHNICAL-REVIEW.md)); final editorial acceptance pending
+**Development status:** Reviewed (model-assisted; not an independently accepted final publication)  
+**Source review:** Core claims checked in [50-claim-family audit](../PILOT-CLAIM-SOURCE-AUDIT.md); independent external expert review not performed
 
 ## Representation is not meaning
 
@@ -93,6 +93,6 @@ The foundational treatment of [Bits and bytes](README.md) concerns digital units
 - [RFC 8259: JSON Data Interchange Format](https://www.rfc-editor.org/rfc/rfc8259), for string-escape rules distinct from the UTF-8 byte encoding.
 - [W3C: RDF 1.1 Concepts](https://www.w3.org/TR/rdf11-concepts/), illustrating how encoded representations can be associated with structured statements and interpretations.
 
-**Review record:** The UTF-8 byte examples, precomposed/decomposed text and NFC normalization were checked programmatically and against RFC 3629 and Unicode's published specifications. The distinction between Unicode scalar values, code points, glyphs, syntax and meaning remains explicit. This is a source-checked draft pending final editorial acceptance.
+**Review record:** The UTF-8 byte examples, precomposed/decomposed text and NFC normalization were checked programmatically and against RFC 3629 and Unicode's published specifications. The distinction between Unicode scalar values, code points, glyphs, syntax and meaning remains explicit. The article passed the model-assisted scoped acceptance audit; independent human publication approval remains outstanding.
 
 [Information & Data](README.md) · [Fundamentals](../README.md) · [Concept boundary decisions](../CONCEPT-BOUNDARY-DECISIONS.md)
