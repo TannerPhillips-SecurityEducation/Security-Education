@@ -3,7 +3,7 @@
 **Knowledge area:** [Mathematics & Logic](README.md)  
 **Approved subject heading:** Sets and relations  
 **Development status:** Draft  
-**Source review:** References listed; independent technical/editorial review pending
+**Source review:** Core claims checked (see [pilot technical review](../PILOT-TECHNICAL-REVIEW.md)); final editorial acceptance pending
 
 ## Understanding collections and associations
 
