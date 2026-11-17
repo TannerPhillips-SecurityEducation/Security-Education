@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Models & Abstraction](README.md)  
 **Approved subject heading:** State, events, and transitions  
-**Development status:** Draft  
-**Source review:** References listed; scoped technical acceptance pending  
+**Development status:** Reviewed (model-assisted; not independently human-accepted for final publication)  
+**Source review:** Core claims checked in [Wave A technical review, Batch 01](../WAVE-A-TECHNICAL-REVIEW-01.md); complete independent expert validation not claimed  
 **Architectural boundary:** General temporality is still an open coverage question ([G-04](../COVERAGE-GAP-DECISIONS.md)); this article does not resolve it.
 
 ## Describing conditions and changes
