@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Information & Data](README.md)  
 **Approved subject heading:** Data types  
-**Development status:** Draft  
-**Source review:** References listed; separate scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave B Batch 01 audit](../WAVE-B-TECHNICAL-REVIEW-01.md); no independent human peer review
 
 ## Type constrains possible values and their interpretation
 
@@ -63,6 +63,6 @@ Data type is not synonymous with schema, ontology, format, or physical quantity.
 - [W3C XML Schema Definition Language 1.1: Datatypes](https://www.w3.org/TR/xmlschema11-2/).
 - [NIST Engineering Statistics Handbook](https://www.itl.nist.gov/div898/handbook/).
 
-**Editorial status:** Substantive draft. Its generalizations across type systems and numeric representation must be tested in a dedicated source audit. No implementation-specific type system is mandated.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave B Batch 01 technical audit](../WAVE-B-TECHNICAL-REVIEW-01.md). Complete source verification, independent human peer review, and final publication acceptance remain open.
 
 [Information & Data](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
