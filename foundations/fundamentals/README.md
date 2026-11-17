@@ -46,7 +46,18 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 - [Schemas](models-abstraction/schemas.md)
 - [Conceptual and Formal Models](models-abstraction/conceptual-and-formal-models.md)
 
-The [Development & Verification Register v1.2](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks **109 approved headings**: **29 Reviewed (model-assisted)**, **0 Draft**, **80 Inventoried**. **26 of 26 Wave A subjects** now have substantive internally reviewed articles. Independent expert review, exhaustive source verification and final publication acceptance remain open.
+The [Development & Verification Register v1.3](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks **109 approved headings**: **29 Reviewed (model-assisted)**, **4 Draft**, **76 Inventoried**. **26 of 26 Wave A subjects** now have substantive internally reviewed articles. Independent expert review, exhaustive source verification and final publication acceptance remain open.
+
+## Wave B Authoring
+
+**Wave B Batch 01** includes four substantive Information & Data drafts awaiting a separate technical audit:
+
+- [Bits and Bytes](information-data/bits-and-bytes.md)
+- [Information Theory](information-data/information-theory.md)
+- [Data Types](information-data/data-types.md)
+- [Datasets, Records, Fields, and Values](information-data/datasets-records-fields-and-values.md)
+
+No model-assisted technical acceptance, independent human peer review, or final publication approval is claimed for these drafts.
 
 ## Technical Audit Evidence
 
@@ -123,7 +134,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 29 substantive reference articles (29 internally Reviewed, zero Draft). Complete source validation and all seven corpus-wide completion gates remain open.
+**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 33 substantive reference articles (29 internally Reviewed, four Draft). Complete source validation and all seven corpus-wide completion gates remain open.
 
 ## Coverage Across Specialized Domains
 
