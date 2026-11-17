@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Subject inventory only; canonical explanations and references are pending  
+**Content status:** All nine approved subjects authored; five Reviewed (model-assisted), four Draft; no final publication acceptance  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -23,16 +23,24 @@ The representation, organization, movement, interpretation, and lifecycle of dat
 
 ## Content Development
 
-This area is a **navigation discipline**. Its headings organize coverage but do not constitute a separate list of conceptual primitives. Establish one canonical home for each underlying concept and link contextual realizations rather than repeating general definitions.
+This area is a **navigation discipline**, not a new list of foundational primitives. The nine headings are the approved subject inventory; canonical references below explain mechanisms, boundaries and relationships while preserving domain independence.
 
-Each subject will eventually receive a canonical explanation, key distinctions, mechanisms, relevant examples, explicit relationships, and credible references. These items are **not yet completed** merely by being listed.
-
-The content belongs in Fundamentals only insofar as it is domain-agnostic. Security-specific treatment belongs in Security Foundations; security practice belongs in Operational Foundations. Cross-domain references should link to canonical subjects rather than duplicate them.
+Information & Data has **9/9 approved headings authored**. Five articles are internally Reviewed (model-assisted), and four Batch 02 articles remain Draft. The source-review state, independent human peer review, final publication gates and unresolved G-04 time/temporality scope decision remain separate.
 
 ## Canonical reference articles
 
-- [Symbols and encoding](symbols-and-encoding.md) — Reviewed (model-assisted); final external acceptance pending.
+| Approved subject | Canonical reference | Development state |
+| --- | --- | --- |
+| Symbols and encoding | [Symbols and Encoding](symbols-and-encoding.md) | Reviewed (model-assisted) |
+| Bits and bytes | [Bits and Bytes](bits-and-bytes.md) | Reviewed (model-assisted) |
+| Information theory | [Information Theory](information-theory.md) | Reviewed (model-assisted) |
+| Data types | [Data Types](data-types.md) | Reviewed (model-assisted) |
+| Datasets, records, fields, and values | [Datasets, Records, Fields, and Values](datasets-records-fields-and-values.md) | Reviewed (model-assisted) |
+| Data structures and formats | [Data Structures and Formats](data-structures-and-formats.md) | Draft |
+| Metadata | [Metadata](metadata.md) | Draft |
+| Databases and queries | [Databases and Queries](databases-and-queries.md) | Draft |
+| Data provenance and lifecycle | [Data Provenance and Lifecycle](data-provenance-and-lifecycle.md) | Draft |
 
-Articles do not change the wording or ownership of the approved subject inventory. Refer to the [pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) for reviewed-pilot evidence.
+See the [six-pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) for Symbols and Encoding and the [Wave B Batch 01 technical audit](../WAVE-B-TECHNICAL-REVIEW-01.md) for the next four Reviewed articles. Batch 02 requires its own scoped technical acceptance pass. No Knowledge Checks, Practical Assessments, quizzes or scoring are introduced.
 
-[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
+[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
