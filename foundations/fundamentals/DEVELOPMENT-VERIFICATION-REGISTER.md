@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v0.8  
+**Working edition:** v0.9  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -30,26 +30,26 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
-## Current progress: Wave A Batch 04 reviewed and Batch 05 drafted
+## Current progress: Wave A Batch 05 reviewed and Batch 06 drafted
 
-| State | Approved subject headings | Evidence |
+| Development state | Approved heading count | Evidence |
 | --- | ---: | --- |
-| **Reviewed (model-assisted)** | **18** | Six pilots ([50 claim groups](PILOT-CLAIM-SOURCE-AUDIT.md)); four Wave A source audits: [Batch 01](WAVE-A-TECHNICAL-REVIEW-01.md), [Batch 02](WAVE-A-TECHNICAL-REVIEW-02.md), [Batch 03](WAVE-A-TECHNICAL-REVIEW-03.md), [Batch 04](WAVE-A-TECHNICAL-REVIEW-04.md) |
-| **Draft** | **3** | Graph Theory; Causality and Correlation; Abstraction |
-| **Inventoried without canonical articles** | **88** | All original 109 headings are preserved |
-| **Core claims checked** | **18** | Internal model-assisted source checking, not independent expert validation |
-| **Finally accepted / independently human verified** | **0** | No final human publication acceptance asserted |
+| **Reviewed (model-assisted)** | **21** | Six original pilots and Wave A Batch 01–05 claim-to-source audit documents, including [Batch 05](WAVE-A-TECHNICAL-REVIEW-05.md) |
+| **Draft** | **3** | Probability and Statistics, Uncertainty and Confidence, Classification |
+| **Inventoried without article** | **85** | Approved 109-heading baseline retained |
+| **Core claims checked** | **21** | Internal model-assisted source checking, not independent expert attestation |
+| **Finally accepted / human peer-reviewed** | **0** | No final independent expert acceptance recorded |
 
-**Wave A authoring coverage:** **18 of 26** approved headings now have substantive reference articles (15 Reviewed from Wave A, 3 Draft). Three other Reviewed references belong to later production waves and were part of the six pilots.
+**Wave A authoring coverage:** 21 of the original 26 Wave A headings now have substantive references, of which 18 are Reviewed internally and three are Draft. Three other Reviewed references were original pilot subjects belonging to later production waves.
 
-**Governance:** G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML remain pending architecture decisions. Neither Graph Theory nor Causality/Correlation has silently resolved general topology or temporality.
+**Scope controls:** Mathematical breadth G-01, general temporality G-04, and AI/ML G-06 remain independently unresolved. No new knowledge areas, subject headings, formal graph predicate vocabulary, Knowledge Checks, or Practical Assessments are created.
 
 ## Next acceptance gate
 
-1. Source-audit the three Batch 05 drafts, including the graph-theoretic examples, causal assumptions and abstraction semantics.
-2. Keep causal arrows separate from mathematical edges, and keep abstraction/modeling assumptions separate from observations of reality.
-3. Develop the remaining eight original Wave A headings only under their approved disciplinary homes and with traceable evidence.
-4. Preserve the reference's explicit exclusion of Knowledge Checks and Practical Assessments.
+1. Audit the material claims and worked examples in Batch 06's three drafts before marking them Reviewed.
+2. Preserve the distinction between mathematical probability, interpretation of confidence and uncertainty, and the conceptual category membership mechanism.
+3. Develop the remaining five original Wave A headings: Units and Quantities; Validation and Falsification; Ontologies and Taxonomies; Schemas; Conceptual and Formal Models.
+4. Continue link-integrity and coverage checks against the seven Fundamentals completion gates.
 
 ## Detailed coverage by approved knowledge area
 
@@ -64,8 +64,8 @@
 | F-01-03 | Boolean and predicate logic | [Reviewed article](mathematics-logic/boolean-and-predicate-logic.md) | Reviewed | Core claims checked | [Wave A Batch 01 audit](WAVE-A-TECHNICAL-REVIEW-01.md); model-assisted review, human sign-off not claimed |
 | F-01-04 | Algebra and functions | [Reviewed article](mathematics-logic/algebra-and-functions.md) | Reviewed | Core claims checked | [Wave A Batch 03 audit](WAVE-A-TECHNICAL-REVIEW-03.md); model-assisted, human approval not claimed |
 | F-01-05 | Discrete mathematics | [Reviewed article](mathematics-logic/discrete-mathematics.md) | Reviewed | Core claims checked | [Wave A Batch 04 audit](WAVE-A-TECHNICAL-REVIEW-04.md); model-assisted review, human acceptance not claimed |
-| F-01-06 | Graph theory | [Draft article](mathematics-logic/graph-theory.md) | Draft | References listed | Wave A Batch 05 substantive draft, scoped claim-to-source review pending |
-| F-01-07 | Probability and statistics | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-01-06 | Graph theory | [Reviewed article](mathematics-logic/graph-theory.md) | Reviewed | Core claims checked | [Wave A Batch 05 audit](WAVE-A-TECHNICAL-REVIEW-05.md); model-assisted, no human peer review |
+| F-01-07 | Probability and statistics | [Draft article](mathematics-logic/probability-and-statistics.md) | Draft | References listed | Batch 06 substantive draft; claim-to-source review pending |
 | F-01-08 | Units and quantities | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 
 ### 02. Scientific & Analytical Reasoning (Wave A; 8 headings)
@@ -79,8 +79,8 @@
 | F-02-03 | Evidence | [Reviewed article](scientific-analytical-reasoning/evidence.md) | Reviewed | Core claims checked | [Wave A Batch 01 audit](WAVE-A-TECHNICAL-REVIEW-01.md); model-assisted review, human sign-off not claimed |
 | F-02-04 | Hypotheses and experiments | [Reviewed article](scientific-analytical-reasoning/hypotheses-and-experiments.md) | Reviewed | Core claims checked | [Wave A Batch 03 audit](WAVE-A-TECHNICAL-REVIEW-03.md); model-assisted, human approval not claimed |
 | F-02-05 | Deduction, induction, and abduction | [Reviewed article](scientific-analytical-reasoning/deduction-induction-abduction.md) | Reviewed | Core claims checked | [Wave A Batch 04 audit](WAVE-A-TECHNICAL-REVIEW-04.md); model-assisted review, human acceptance not claimed |
-| F-02-06 | Causality and correlation | [Draft article](scientific-analytical-reasoning/causality-and-correlation.md) | Draft | References listed | Wave A Batch 05 substantive draft, scoped claim-to-source review pending |
-| F-02-07 | Uncertainty and confidence | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-02-06 | Causality and correlation | [Reviewed article](scientific-analytical-reasoning/causality-and-correlation.md) | Reviewed | Core claims checked | [Wave A Batch 05 audit](WAVE-A-TECHNICAL-REVIEW-05.md); model-assisted, no human peer review |
+| F-02-07 | Uncertainty and confidence | [Draft article](scientific-analytical-reasoning/uncertainty-and-confidence.md) | Draft | References listed | Batch 06 substantive draft; claim-to-source review pending |
 | F-02-08 | Validation and falsification | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 
 ### 03. Models & Abstraction (Wave A; 10 headings)
@@ -93,8 +93,8 @@
 | F-03-02 | Identity and distinction | [Reviewed article](models-abstraction/identity-and-distinction.md) | Reviewed | Core claims checked | [Wave A Batch 03 audit](WAVE-A-TECHNICAL-REVIEW-03.md); model-assisted, human approval not claimed |
 | F-03-03 | Relationships | [Reviewed article](models-abstraction/relationships.md) | Reviewed | Core claims checked | [Wave A Batch 02 audit](WAVE-A-TECHNICAL-REVIEW-02.md); model-assisted, human peer review not claimed |
 | F-03-04 | Boundaries | [Reviewed article](models-abstraction/boundaries.md) | Reviewed | Core claims checked | [Wave A Batch 04 audit](WAVE-A-TECHNICAL-REVIEW-04.md); model-assisted review, human acceptance not claimed |
-| F-03-05 | Abstraction | [Draft article](models-abstraction/abstraction.md) | Draft | References listed | Wave A Batch 05 substantive draft, scoped claim-to-source review pending |
-| F-03-06 | Classification | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-03-05 | Abstraction | [Reviewed article](models-abstraction/abstraction.md) | Reviewed | Core claims checked | [Wave A Batch 05 audit](WAVE-A-TECHNICAL-REVIEW-05.md); model-assisted, no human peer review |
+| F-03-06 | Classification | [Draft article](models-abstraction/classification.md) | Draft | References listed | Batch 06 substantive draft; claim-to-source review pending |
 | F-03-07 | Ontologies and taxonomies | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-08 | Schemas | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-03-09 | State, events, and transitions | [Reviewed article](models-abstraction/state-events-and-transitions.md) | Reviewed | Core claims checked | [Wave A Batch 01 audit](WAVE-A-TECHNICAL-REVIEW-01.md); model-assisted review, human sign-off not claimed |
