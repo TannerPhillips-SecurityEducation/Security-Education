@@ -28,8 +28,11 @@ Each subject will eventually receive a canonical explanation, key distinctions, 
 
 The content belongs in Fundamentals only insofar as it is domain-agnostic. Security-specific treatment belongs in Security Foundations; security practice belongs in Operational Foundations. Cross-domain references should link to canonical subjects rather than duplicate them.
 
-## Canonical reference drafts
+## Canonical reference articles
 
-- [Sets and relations](sets-and-relations.md) — substantive draft with cited source material. Independent technical/editorial verification and final acceptance are pending. The approved subject heading above remains unchanged.
+- [Sets and relations](sets-and-relations.md) — Reviewed (model-assisted); final external acceptance pending.
+- [Boolean and predicate logic](boolean-and-predicate-logic.md) — Draft; scoped claim/source review pending.
+
+Articles do not change the wording or ownership of the approved subject inventory. Refer to the [pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) for reviewed-pilot evidence.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
