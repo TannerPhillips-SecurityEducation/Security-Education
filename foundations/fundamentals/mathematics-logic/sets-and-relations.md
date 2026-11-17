@@ -81,6 +81,7 @@ Related approved areas include [Relationships](../models-abstraction/README.md),
 - [MIT OpenCourseWare: Mathematics for Computer Science, lecture notes](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/lecture-notes/), especially relations and counting.
 - [MIT OpenCourseWare: Mathematics for Computer Science, readings](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/), covering sets, relations, and proofs.
 - [Open Logic Project: Sets, Logic, Computation](https://slc.openlogicproject.org/) for more formal treatment of set-theoretic and logical foundations.
+- [Mathematics LibreTexts: The Language of Sets and Functions](https://math.libretexts.org/Bookshelves/Linear_Algebra/Book%3A_Linear_Algebra_%28Schilling_Nachtergaele_and_Lankham%29/13%3A_Appendices/13.01%3A_The_Language_of_Sets_and_Functions), with explicit definitions of binary relations, equivalence relations, and partial orders.
 
 **Review record:** Core mathematical definitions, the subset/partial-order distinctions, and the worked set and relation examples were checked in a second-pass technical review against the cited MIT/Open Logic material and direct example evaluation. This is a **source-checked draft**, pending final editorial acceptance; it is not a claim that every possible application of set theory has been verified.
 
