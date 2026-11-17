@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Scientific & Analytical Reasoning](README.md)  
 **Approved subject heading:** Hypotheses and experiments  
-**Development status:** Draft  
-**Source review:** References listed; scoped technical acceptance pending
+**Development status:** Reviewed (model-assisted; independent human acceptance not claimed)  
+**Source review:** Core claims checked in [Wave A Batch 03 Review](../WAVE-A-TECHNICAL-REVIEW-03.md); full independent verification not claimed
 
 ## A hypothesis proposes an explanation; an experiment creates a discriminating observation
 
