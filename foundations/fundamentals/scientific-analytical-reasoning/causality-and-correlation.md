@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Scientific & Analytical Reasoning](README.md)  
 **Approved subject heading:** Causality and correlation  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical acceptance pending
+**Development status:** Reviewed (model-assisted; independent expert acceptance pending)  
+**Source review:** Core claims checked in [Wave A Batch 05 audit](../WAVE-A-TECHNICAL-REVIEW-05.md); not independently human verified
 
 ## Association is not automatically a causal explanation
 
