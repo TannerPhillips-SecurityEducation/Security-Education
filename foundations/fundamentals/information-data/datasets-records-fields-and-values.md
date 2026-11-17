@@ -41,7 +41,7 @@ An absent field, an explicit null, an empty string, zero, and an unknown physica
 
 For example, a field `temperature_C=0` is a numerical report, not a missing temperature. If a value is absent because a sensor was offline, filling the field with zero can create a spurious observation. A data-quality mechanism should identify missingness without inventing an underlying state.
 
-[Uncertainty and Confidence](../scientific-analytical-reasoning/uncertainty-and-confidence.md) owns limits of knowledge. The planned [Data Provenance and Lifecycle](README.md) reference will treat record origin and transformations.
+[Uncertainty and Confidence](../scientific-analytical-reasoning/uncertainty-and-confidence.md) owns limits of knowledge. [Data Provenance and Lifecycle](data-provenance-and-lifecycle.md) treats record origin and transformations.
 
 ## Selection, grouping, and aggregation
 
