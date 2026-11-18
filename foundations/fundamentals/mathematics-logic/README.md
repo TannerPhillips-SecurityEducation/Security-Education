@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** 11 legacy articles Reviewed (model-assisted), 2 additional articles Draft (References listed); no subjects Published.
+**Content status:** All **13/13 canonical subject articles** Reviewed (model-assisted), including 2 newly reviewed under [Wave H 24-family audit](../WAVE-H-TECHNICAL-REVIEW-01.md). Source-level Verified and independent Published acceptance remain open.
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -31,6 +31,9 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 
 **Post-authoring status:** The 2 additional articles are substantively authored and remain **Draft / References listed**, distinct from the 11 historically Reviewed references. Further validation and publication review remain outstanding.
 
+
+**Wave H completion (November 18, 2026):** The 2 new subjects have canonical articles and passed [24-family scoped model-assisted technical review](../WAVE-H-TECHNICAL-REVIEW-01.md) with material claim examples and source limitations documented. The area retains 13 subjects, all Reviewed (model-assisted). No article is fully source-level Verified or independently accepted for publication.
+
 ## Canonical reference articles
 
 | Approved subject | Canonical reference | Development state | Scoped review evidence |
@@ -48,8 +51,8 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 | Geometry and spatial reasoning | [Reviewed article](geometry-and-spatial-reasoning.md) | Reviewed (model-assisted) | [Wave F 42-family audit](../WAVE-F-TECHNICAL-REVIEW-01.md) |
 | Topology and continuity | [Reviewed article](topology-and-continuity.md) | Reviewed (model-assisted) | [Wave F 42-family audit](../WAVE-F-TECHNICAL-REVIEW-01.md) |
 
-| Calculus and differential equations | [Draft article](calculus-and-differential-equations.md) | **Draft** |
-| Stochastic processes and Markov models | [Draft article](stochastic-processes-and-markov-models.md) | **Draft** |
+| Calculus and differential equations | [Reviewed article](calculus-and-differential-equations.md) | Reviewed (model-assisted) |
+| Stochastic processes and Markov models | [Reviewed article](stochastic-processes-and-markov-models.md) | Reviewed (model-assisted) |
 
 
 **Coverage Triage 02 (November 18, 2026):** F-01-12 Calculus and differential equations; F-01-13 Stochastic processes and Markov models are newly Drafted under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 11 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
