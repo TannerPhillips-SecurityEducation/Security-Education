@@ -1,7 +1,7 @@
 # Security Foundations | Working Article Pilots
 
 **Division:** [Security Foundations](../README.md)  
-**Status:** Ten substantive working manuscripts: **8 Reviewed (model-assisted), 2 Draft**; neither the proposed internal taxonomy nor any pilot's permanent canonical location is ratified.  
+**Status:** **10 of 10 substantive working pilots Reviewed (model-assisted)** across two scoped audits; none is ratified as a permanent canonical subject or Published.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
 **Scope:** This pilot collection supports architectural tests without prematurely creating or approving twelve internal area directories, mandatory category names, or a permanent 96-subject quota.
 
@@ -18,16 +18,18 @@
 | SF-10-02 | [Observable, Observed and Recorded](observable-observed-and-recorded.md) | **Reviewed (model-assisted)** | Core claims checked | What can a security record actually establish about an occurrence or actor? |
 | SF-12-01 | [Security Claims and Assurance Arguments](security-claims-and-assurance-arguments.md) | **Reviewed (model-assisted)** | Core claims checked | What evidence and arguments support a bounded security property claim? |
 
-| SF-05-01 | [Risk, Scenarios, and Time Horizon](risk-scenarios-and-time-horizon.md) | **Draft** | References listed | Scenario-relative likelihood, harm, uncertainty, time horizon and why severity is not organizational risk |
-| SF-07-01 | [Controls, Safeguards, and Security Functions](controls-safeguards-and-security-functions.md) | **Draft** | References listed | Protection objective versus selected mechanism, implemented coverage, measured effect and assurance |
+| SF-05-01 | [Risk, Scenarios, and Time Horizon](risk-scenarios-and-time-horizon.md) | **Reviewed (model-assisted)** | Core claims checked | Scenario-relative likelihood, harm, uncertainty, time horizon and why severity is not organizational risk |
+| SF-07-01 | [Controls, Safeguards, and Security Functions](controls-safeguards-and-security-functions.md) | **Reviewed (model-assisted)** | Core claims checked | Protection objective versus selected mechanism, implemented coverage, measured effect and assurance |
 
-**Record count:** **10 article pilots**, with 8 [Reviewed under the initial 40-family audit](../PILOT-TECHNICAL-REVIEW-01.md) and 2 newly Drafted in risk and defensive controls. The other **86** proposed candidates have no pilot article. None is an approved canonical location or Published.
+**Record count:** **10 Reviewed article pilots** with [40 checked claim groups](../PILOT-TECHNICAL-REVIEW-01.md) in the first eight and [10 more groups](../PILOT-TECHNICAL-REVIEW-02.md) in risk and controls. The other **86** active working candidates have no pilot articles in this snapshot. None has an approved canonical location or Published status.
 
 ## Pilot technical review evidence
 
 [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md) checks **40 material claim groups** across the eight articles. The review corrected a conflation between *actual insecurity* and *lack of assurance evidence* and updated standards references to **RFC 9846 (TLS 1.3, July 2026)** and **ISO/IEC 15408-1:2026**.
 
-**The original eight pilots** have development state Reviewed (model-assisted) and source state Core claims checked. The two additional risk/control articles are **Draft / References listed**, pending their own scoped audit. Neither group has complete claim-to-passage verification, independent expert acceptance, final taxonomy approval or Published status.
+**All ten working pilots** now have development state Reviewed (model-assisted) and source state Core claims checked. The first eight and two additional risk/control pilots have **separate scoped audit evidence**. None has complete claim-to-passage verification, independent expert acceptance, final taxonomy approval or Published status.
+
+**Second pilot audit:** [Pilot Technical Review 02](../PILOT-TECHNICAL-REVIEW-02.md) checks **10 additional material claim groups** concerning risk scenarios, time horizons, vulnerability severity, NIST 800-53/800-53A control and assessment distinctions, MITRE D3FEND, and the difference between deployed safeguards and evidenced effects.
 
 ## Development states
 
