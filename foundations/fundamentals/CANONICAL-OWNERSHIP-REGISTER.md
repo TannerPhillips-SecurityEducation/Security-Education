@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v1.11. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
+**Status:** Working architectural register v1.12. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
 
 This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
 
@@ -9,7 +9,7 @@ This register connects the existing subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** Live direct links now point to **eighty-one Reviewed (model-assisted) articles** and **nine Software & Programming Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
+- **Links:** Live direct links now point to **ninety Reviewed (model-assisted) articles** and **nineteen Wave E Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
 - **Granularity:** One heading may require multiple articles, and a single well-scoped explanation can serve more than one heading. Do not assume 109 headings equal 109 indivisible concepts.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -47,7 +47,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
 | **Entities and attributes** | [Reviewed canonical article](models-abstraction/entities-and-attributes.md) · General entities, properties, values, and type-versus-instance distinctions | *represented in data by* → [Datasets, records, fields, and values](information-data/datasets-records-fields-and-values.md) |
-| **Identity and distinction** | [Reviewed canonical article](models-abstraction/identity-and-distinction.md) · Sameness, difference, reference, and persistence through change | *specialized for communication in* → [Addressing and naming](communication-distributed-systems/README.md) |
+| **Identity and distinction** | [Reviewed canonical article](models-abstraction/identity-and-distinction.md) · Sameness, difference, reference, and persistence through change | *specialized for communication in* → [Addressing and naming](communication-distributed-systems/addressing-and-naming.md) |
 | **Relationships** | [Reviewed canonical article](models-abstraction/relationships.md) · General associations, direction, cardinality, and context qualification | *formalized in* → [Sets and relations](mathematics-logic/sets-and-relations.md) |
 | **Boundaries** | [Reviewed canonical article](models-abstraction/boundaries.md) · Inclusion, exclusion, separation, limitations, and interface distinctions | *used to delimit* → [Systems and subsystems](systems-engineering/systems-and-subsystems.md) |
 | **Abstraction** | [Reviewed canonical article](models-abstraction/abstraction.md) · Selection and suppression of detail to support models and multiple views | *specialized as* → [Hardware abstraction](digital-systems-hardware/hardware-abstraction.md) |
@@ -66,7 +66,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Electrical circuits** | [Reviewed canonical article](physical-electrical-principles/electrical-circuits.md) · Behavior of interconnected passive and active electrical elements | *forms the physical basis of* → [Electronics](physical-electrical-principles/electronics.md) |
 | **Electronics** | [Reviewed canonical article](physical-electrical-principles/electronics.md) · Semiconductors, switching, amplification, and electronic component functions | *enables* → [Digital logic](digital-systems-hardware/digital-logic.md) |
 | **Analog and digital signals** | [Reviewed canonical article](physical-electrical-principles/analog-and-digital-signals.md) · Physical continuous signals versus sampled or discrete representations | *processed through* → [Signal conversion](physical-electrical-principles/signal-conversion.md) |
-| **Waves and frequency** | [Reviewed canonical article](physical-electrical-principles/waves-and-frequency.md) · Oscillation, frequency, phase, wavelength, and propagation | *supports* → [Transmission and signaling](communication-distributed-systems/README.md) |
+| **Waves and frequency** | [Reviewed canonical article](physical-electrical-principles/waves-and-frequency.md) · Oscillation, frequency, phase, wavelength, and propagation | *supports* → [Transmission and signaling](communication-distributed-systems/transmission-and-signaling.md) |
 | **Sensors and actuators** | [Reviewed canonical article](physical-electrical-principles/sensors-and-actuators.md) · Transduction between physical phenomena and actionable system inputs/outputs | *used in system* → [Feedback and control](systems-engineering/feedback-and-control.md) |
 | **Signal conversion** | [Reviewed canonical article](physical-electrical-principles/signal-conversion.md) · Sampling, quantization, analog-digital and digital-analog conversion | *supports data capture for* → [Measurement](scientific-analytical-reasoning/measurement.md) |
 | **Physical control mechanisms** | [Reviewed canonical article](physical-electrical-principles/physical-control-mechanisms.md) · Actuation and regulation of physical processes | *generalized by* → [Feedback and control](systems-engineering/feedback-and-control.md) |
@@ -77,7 +77,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | --- | --- | --- |
 | **Symbols and encoding** | [Reviewed canonical article](information-data/symbols-and-encoding.md) · Symbol systems, mappings, character codes, and representations | *realized digitally as* → [Bits and bytes](information-data/bits-and-bytes.md) |
 | **Bits and bytes** | [Reviewed canonical article](information-data/bits-and-bytes.md) · Binary digits, byte grouping, and digital representation units | *grounded in numerical* → [Numbers and numerical systems](mathematics-logic/numbers-and-numerical-systems.md) |
-| **Information theory** | [Reviewed canonical article](information-data/information-theory.md) · Entropy, information content, and theoretical communication constraints | *constrains* → [Communication channels](communication-distributed-systems/README.md) |
+| **Information theory** | [Reviewed canonical article](information-data/information-theory.md) · Entropy, information content, and theoretical communication constraints | *constrains* → [Communication channels](communication-distributed-systems/communication-channels.md) |
 | **Data types** | [Reviewed canonical article](information-data/data-types.md) · Value domains, types, constraints, and interpretation | *used in* → [Programming languages](software-programming/programming-languages.md) |
 | **Datasets, records, fields, and values** | [Reviewed canonical article](information-data/datasets-records-fields-and-values.md) · Collections, records, field granularity, and field values | *models properties of* → [Entities and attributes](models-abstraction/entities-and-attributes.md) |
 | **Data structures and formats** | [Reviewed canonical article](information-data/data-structures-and-formats.md) · Logical containers, structured formats, serialization, and data representations | *distinct from operational* → [Computational data structures](computation-algorithms/computational-data-structures.md) |
@@ -92,11 +92,11 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Digital logic** | [Reviewed canonical article](digital-systems-hardware/digital-logic.md) · Physical switching systems implementing logical and sequential behavior | *realizes* → [Boolean and predicate logic](mathematics-logic/boolean-and-predicate-logic.md) |
 | **Computing components** | [Reviewed canonical article](digital-systems-hardware/computing-components.md) · Hardware organization of processors, memory, peripherals, and interconnects | *is a type of* → [Systems and subsystems](systems-engineering/systems-and-subsystems.md) |
 | **Processors and instruction sets** | [Reviewed canonical article](digital-systems-hardware/processors-and-instruction-sets.md) · Processor execution organization, instruction encoding, and ISA models | *is a target of* → [Compilation and interpretation](software-programming/compilation-and-interpretation.md) |
-| **Memory and storage** | [Reviewed canonical article](digital-systems-hardware/memory-and-storage.md) · Volatile and nonvolatile storage media, latency, and memory hierarchy | *managed abstractly by* → [Memory management](operating-system-principles/README.md) |
-| **Buses and interfaces** | [Reviewed canonical article](digital-systems-hardware/buses-and-interfaces.md) · Physical/logical device interconnects and signal transfer | *accessed using* → [Drivers and devices](operating-system-principles/README.md) |
-| **Input/output** | [Reviewed canonical article](digital-systems-hardware/input-output.md) · Hardware interactions with peripherals and physical environments | *exposed through* → [System calls](operating-system-principles/README.md) |
-| **Timing and clocks** | [Reviewed canonical article](digital-systems-hardware/timing-and-clocks.md) · Clock generation, cycles, physical timing, and timing domains | *supports* → [Scheduling](operating-system-principles/README.md) |
-| **Firmware** | [Reviewed canonical article](digital-systems-hardware/firmware.md) · Hardware-oriented software used for initialization and control | *participates in* → [System initialization](operating-system-principles/README.md) |
+| **Memory and storage** | [Reviewed canonical article](digital-systems-hardware/memory-and-storage.md) · Volatile and nonvolatile storage media, latency, and memory hierarchy | *managed abstractly by* → [Memory management](operating-system-principles/memory-management.md) |
+| **Buses and interfaces** | [Reviewed canonical article](digital-systems-hardware/buses-and-interfaces.md) · Physical/logical device interconnects and signal transfer | *accessed using* → [Drivers and devices](operating-system-principles/drivers-and-devices.md) |
+| **Input/output** | [Reviewed canonical article](digital-systems-hardware/input-output.md) · Hardware interactions with peripherals and physical environments | *exposed through* → [System calls](operating-system-principles/system-calls.md) |
+| **Timing and clocks** | [Reviewed canonical article](digital-systems-hardware/timing-and-clocks.md) · Clock generation, cycles, physical timing, and timing domains | *supports* → [Scheduling](operating-system-principles/scheduling.md) |
+| **Firmware** | [Reviewed canonical article](digital-systems-hardware/firmware.md) · Hardware-oriented software used for initialization and control | *participates in* → [System initialization](operating-system-principles/system-initialization.md) |
 | **Hardware abstraction** | [Reviewed canonical article](digital-systems-hardware/hardware-abstraction.md) · Interfaces hiding low-level implementation differences from software | *specializes general* → [Abstraction](models-abstraction/abstraction.md) |
 
 ## 07. Computation & Algorithms (9 headings)
@@ -109,52 +109,52 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Complexity** | [Reviewed canonical article](computation-algorithms/complexity.md) · Theoretical asymptotic time/space growth of procedures | *distinct from system-wide* → [Emergence and complexity](systems-engineering/emergence-and-complexity.md) |
 | **Computational data structures** | [Reviewed canonical article](computation-algorithms/computational-data-structures.md) · Abstract data types, operation costs, and implementation tradeoffs | *represented through* → [Data structures and formats](information-data/data-structures-and-formats.md) |
 | **Iteration and recursion** | [Reviewed canonical article](computation-algorithms/iteration-and-recursion.md) · Repeated and recursively defined computation, termination, and base cases | *expressed using* → [Programming paradigms](software-programming/programming-paradigms.md) |
-| **Concurrency and parallelism** | [Reviewed canonical article](computation-algorithms/concurrency-and-parallelism.md) · Overlapping versus simultaneous computational progress | *implemented through* → [Processes and threads](operating-system-principles/README.md) |
-| **Synchronization** | [Reviewed canonical article](computation-algorithms/synchronization.md) · Mutual exclusion, ordering, races, deadlock, and coordination of computations | *specialized across nodes in* → [Synchronization and coordination](communication-distributed-systems/README.md) |
+| **Concurrency and parallelism** | [Reviewed canonical article](computation-algorithms/concurrency-and-parallelism.md) · Overlapping versus simultaneous computational progress | *implemented through* → [Processes and threads](operating-system-principles/processes-and-threads.md) |
+| **Synchronization** | [Reviewed canonical article](computation-algorithms/synchronization.md) · Mutual exclusion, ordering, races, deadlock, and coordination of computations | *specialized across nodes in* → [Synchronization and coordination](communication-distributed-systems/synchronization-and-coordination.md) |
 | **Computational efficiency** | [Reviewed canonical article](computation-algorithms/computational-efficiency.md) · Practical performance costs, locality, profiling, and resource tradeoffs | *compared with asymptotic* → [Complexity](computation-algorithms/complexity.md) |
 
 ## 08. Software & Programming (9 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Programming languages** | [Draft canonical article](software-programming/programming-languages.md) · Software language forms, grammars, execution constructs, and ecosystems | *express* → [Algorithms](computation-algorithms/algorithms.md) |
-| **Syntax and semantics** | [Draft canonical article](software-programming/syntax-and-semantics.md) · Programming grammar, syntactic structure, semantic meaning, and interpretation | *uses* → [Symbols and encoding](information-data/symbols-and-encoding.md) |
-| **Programming paradigms** | [Draft canonical article](software-programming/programming-paradigms.md) · Imperative, declarative, functional, object, and event-driven styles | *structure* → [Algorithms](computation-algorithms/algorithms.md) |
-| **Compilation and interpretation** | [Draft canonical article](software-programming/compilation-and-interpretation.md) · Translation, parsing, intermediate forms, linking, and interpretation | *targets* → [Processors and instruction sets](digital-systems-hardware/processors-and-instruction-sets.md) |
-| **Runtime environments** | [Draft canonical article](software-programming/runtime-environments.md) · Execution libraries, services, managed runtimes, and memory lifetimes | *interacts with* → [Kernels](operating-system-principles/README.md) |
-| **Modules and dependencies** | [Draft canonical article](software-programming/modules-and-dependencies.md) · Packages, imports, modularity, versioning, and dependency management | *specializes* → [Dependencies](systems-engineering/dependencies.md) |
-| **Software interfaces** | [Draft canonical article](software-programming/software-interfaces.md) · Function, API, ABI, and compatibility contracts between software components | *specializes* → [Components and interfaces](systems-engineering/components-and-interfaces.md) |
-| **Error handling** | [Draft canonical article](software-programming/error-handling.md) · Software exceptions, error signaling, propagation, and recovery | *distinct from system-level* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
-| **Testing and software lifecycle** | [Draft canonical article](software-programming/testing-and-software-lifecycle.md) · Software construction, testing, releasing, maintenance, and retirement | *specializes* → [System lifecycle](systems-engineering/system-lifecycle.md) |
+| **Programming languages** | [Reviewed canonical article](software-programming/programming-languages.md) · Software language forms, grammars, execution constructs, and ecosystems | *express* → [Algorithms](computation-algorithms/algorithms.md) |
+| **Syntax and semantics** | [Reviewed canonical article](software-programming/syntax-and-semantics.md) · Programming grammar, syntactic structure, semantic meaning, and interpretation | *uses* → [Symbols and encoding](information-data/symbols-and-encoding.md) |
+| **Programming paradigms** | [Reviewed canonical article](software-programming/programming-paradigms.md) · Imperative, declarative, functional, object, and event-driven styles | *structure* → [Algorithms](computation-algorithms/algorithms.md) |
+| **Compilation and interpretation** | [Reviewed canonical article](software-programming/compilation-and-interpretation.md) · Translation, parsing, intermediate forms, linking, and interpretation | *targets* → [Processors and instruction sets](digital-systems-hardware/processors-and-instruction-sets.md) |
+| **Runtime environments** | [Reviewed canonical article](software-programming/runtime-environments.md) · Execution libraries, services, managed runtimes, and memory lifetimes | *interacts with* → [Kernels](operating-system-principles/kernels.md) |
+| **Modules and dependencies** | [Reviewed canonical article](software-programming/modules-and-dependencies.md) · Packages, imports, modularity, versioning, and dependency management | *specializes* → [Dependencies](systems-engineering/dependencies.md) |
+| **Software interfaces** | [Reviewed canonical article](software-programming/software-interfaces.md) · Function, API, ABI, and compatibility contracts between software components | *specializes* → [Components and interfaces](systems-engineering/components-and-interfaces.md) |
+| **Error handling** | [Reviewed canonical article](software-programming/error-handling.md) · Software exceptions, error signaling, propagation, and recovery | *distinct from system-level* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
+| **Testing and software lifecycle** | [Reviewed canonical article](software-programming/testing-and-software-lifecycle.md) · Software construction, testing, releasing, maintenance, and retirement | *specializes* → [System lifecycle](systems-engineering/system-lifecycle.md) |
 
 ## 09. Operating System Principles (10 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Kernels** | Privileged coordination of execution, resource protection, and OS abstraction | *builds on* → [Hardware abstraction](digital-systems-hardware/hardware-abstraction.md) |
-| **System calls** | Protected OS interfaces and kernel transitions for requested operations | *exposes* → [Software interfaces](software-programming/software-interfaces.md) |
-| **Processes and threads** | Process isolation, address spaces, execution threads, and states | *realizes* → [Concurrency and parallelism](computation-algorithms/concurrency-and-parallelism.md) |
-| **Scheduling** | Allocation of processor time among runnable work | *influences* → [Computational efficiency](computation-algorithms/computational-efficiency.md) |
-| **Memory management** | Virtual addressing, allocation, page translation, and memory protection | *manages* → [Memory and storage](digital-systems-hardware/memory-and-storage.md) |
-| **Filesystems** | Persistent file/directory organization, access paths, and metadata | *implements structured storage for* → [Data structures and formats](information-data/data-structures-and-formats.md) |
-| **Drivers and devices** | Operating-system abstractions for hardware device operations | *uses* → [Buses and interfaces](digital-systems-hardware/buses-and-interfaces.md) |
-| **Execution contexts** | Privilege modes, environments, address spaces, and executing state | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
-| **System initialization** | Boot sequence, firmware handoff, kernel start, and service initialization | *follows* → [Firmware](digital-systems-hardware/firmware.md) |
-| **Resource management** | Allocation, quotas, accounting, and contention for shared system resources | *constrains* → [Computational efficiency](computation-algorithms/computational-efficiency.md) |
+| **Kernels** | [Draft canonical article](operating-system-principles/kernels.md) · Privileged coordination of execution, resource protection, and OS abstraction | *builds on* → [Hardware abstraction](digital-systems-hardware/hardware-abstraction.md) |
+| **System calls** | [Draft canonical article](operating-system-principles/system-calls.md) · Protected OS interfaces and kernel transitions for requested operations | *exposes* → [Software interfaces](software-programming/software-interfaces.md) |
+| **Processes and threads** | [Draft canonical article](operating-system-principles/processes-and-threads.md) · Process isolation, address spaces, execution threads, and states | *realizes* → [Concurrency and parallelism](computation-algorithms/concurrency-and-parallelism.md) |
+| **Scheduling** | [Draft canonical article](operating-system-principles/scheduling.md) · Allocation of processor time among runnable work | *influences* → [Computational efficiency](computation-algorithms/computational-efficiency.md) |
+| **Memory management** | [Draft canonical article](operating-system-principles/memory-management.md) · Virtual addressing, allocation, page translation, and memory protection | *manages* → [Memory and storage](digital-systems-hardware/memory-and-storage.md) |
+| **Filesystems** | [Draft canonical article](operating-system-principles/filesystems.md) · Persistent file/directory organization, access paths, and metadata | *implements structured storage for* → [Data structures and formats](information-data/data-structures-and-formats.md) |
+| **Drivers and devices** | [Draft canonical article](operating-system-principles/drivers-and-devices.md) · Operating-system abstractions for hardware device operations | *uses* → [Buses and interfaces](digital-systems-hardware/buses-and-interfaces.md) |
+| **Execution contexts** | [Draft canonical article](operating-system-principles/execution-contexts.md) · Privilege modes, environments, address spaces, and executing state | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
+| **System initialization** | [Draft canonical article](operating-system-principles/system-initialization.md) · Boot sequence, firmware handoff, kernel start, and service initialization | *follows* → [Firmware](digital-systems-hardware/firmware.md) |
+| **Resource management** | [Draft canonical article](operating-system-principles/resource-management.md) · Allocation, quotas, accounting, and contention for shared system resources | *constrains* → [Computational efficiency](computation-algorithms/computational-efficiency.md) |
 
 ## 10. Communication & Distributed Systems (9 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Communication models** | Generic senders, receivers, channels, messages, and exchange patterns | *applies* → [Relationships](models-abstraction/relationships.md) |
-| **Transmission and signaling** | Encoding and propagation of signals carrying information | *uses* → [Analog and digital signals](physical-electrical-principles/analog-and-digital-signals.md) |
-| **Communication channels** | Communication paths and constraints including medium, capacity, and noise | *constrained by* → [Information theory](information-data/information-theory.md) |
-| **Protocols and layering** | Communication conventions, protocol rules, state, layering, and encapsulation | *complements interface contracts in* → [Software interfaces](software-programming/software-interfaces.md) |
-| **Addressing and naming** | Names, locators, address scopes, binding, and resolution | *extends reference concepts in* → [Identity and distinction](models-abstraction/identity-and-distinction.md) |
-| **Latency and throughput** | Delay, data rates, queueing, jitter, and performance measures | *uses* → [Units and quantities](mathematics-logic/units-and-quantities.md) |
-| **Reliability and ordering** | Message loss, duplication, delivery guarantees, acknowledgements, and ordering | *extends system* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
-| **Distributed state** | Replication, consistency, clocks, and partial-failure uncertainty | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
-| **Synchronization and coordination** | Coordination among autonomous processes through ordering, clocks, and agreement | *extends computational* → [Synchronization](computation-algorithms/synchronization.md) |
+| **Communication models** | [Draft canonical article](communication-distributed-systems/communication-models.md) · Generic senders, receivers, channels, messages, and exchange patterns | *applies* → [Relationships](models-abstraction/relationships.md) |
+| **Transmission and signaling** | [Draft canonical article](communication-distributed-systems/transmission-and-signaling.md) · Encoding and propagation of signals carrying information | *uses* → [Analog and digital signals](physical-electrical-principles/analog-and-digital-signals.md) |
+| **Communication channels** | [Draft canonical article](communication-distributed-systems/communication-channels.md) · Communication paths and constraints including medium, capacity, and noise | *constrained by* → [Information theory](information-data/information-theory.md) |
+| **Protocols and layering** | [Draft canonical article](communication-distributed-systems/protocols-and-layering.md) · Communication conventions, protocol rules, state, layering, and encapsulation | *complements interface contracts in* → [Software interfaces](software-programming/software-interfaces.md) |
+| **Addressing and naming** | [Draft canonical article](communication-distributed-systems/addressing-and-naming.md) · Names, locators, address scopes, binding, and resolution | *extends reference concepts in* → [Identity and distinction](models-abstraction/identity-and-distinction.md) |
+| **Latency and throughput** | [Draft canonical article](communication-distributed-systems/latency-and-throughput.md) · Delay, data rates, queueing, jitter, and performance measures | *uses* → [Units and quantities](mathematics-logic/units-and-quantities.md) |
+| **Reliability and ordering** | [Draft canonical article](communication-distributed-systems/reliability-and-ordering.md) · Message loss, duplication, delivery guarantees, acknowledgements, and ordering | *extends system* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
+| **Distributed state** | [Draft canonical article](communication-distributed-systems/distributed-state.md) · Replication, consistency, clocks, and partial-failure uncertainty | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
+| **Synchronization and coordination** | [Draft canonical article](communication-distributed-systems/synchronization-and-coordination.md) · Coordination among autonomous processes through ordering, clocks, and agreement | *extends computational* → [Synchronization](computation-algorithms/synchronization.md) |
 
 ## 11. Systems & Engineering (11 headings)
 
@@ -187,7 +187,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 ## Canonical article integration
 
-The original **109 approved subject headings** and **12 area assignments** remain unchanged. **81 articles are Reviewed (model-assisted)**, including all nine Computation & Algorithms subjects following the [Wave D Batch 02 audit](WAVE-D-TECHNICAL-REVIEW-02.md). Nine Software & Programming subjects are substantive **Drafts** pending separate technical audits. The remaining **19 approved headings** belong to Wave E and are not authored. Independent human peer review, full source-level verification and final publication acceptance remain outstanding. The relationship crosswalk is working conceptual navigation, not a ratified formal graph schema.
+The original **109 approved headings and 12 knowledge areas** remain unchanged. All 109 headings have substantive articles: **90 Reviewed (model-assisted)**, including the nine Software & Programming articles that passed the [Wave D Software 54-family audit](WAVE-D-TECHNICAL-REVIEW-03-04.md), and **19 Wave E Drafts** across Operating System Principles (10) and Communication & Distributed Systems (9). No headings remain un-authored. The canonical ownership and relationship crosswalk is still proposed conceptual navigation, not a ratified formal ontology. Full source-level verification, independent human peer review and final publication acceptance remain outstanding.
 
 ## Register integrity
 
