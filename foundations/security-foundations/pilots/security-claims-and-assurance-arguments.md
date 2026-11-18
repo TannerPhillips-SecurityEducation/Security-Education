@@ -52,9 +52,13 @@ These are not the same thing. A system can correctly implement a flawed security
 
 **Operational monitoring** may add evidence about deployed behavior but is not a replacement for adequate requirements or architectural reasoning. It also cannot prove the nonexistence of undetected attacks.
 
+## Common Criteria source edition and scope
+
+**Edition note (November 2026):** [ISO/IEC 15408-1:2026](https://www.iso.org/standard/15408-1) is the current published fifth edition of *Evaluation criteria for IT security, Part 1*. It supersedes the withdrawn **ISO/IEC 15408-1:2022** edition. The related [CC:2022 Revision 1](https://www.commoncriteriaportal.org/files/ccfiles/CC2022PART1R1.pdf) remains an accessible scheme reference that defines the TOE, PP and ST vocabulary, but should not be mislabeled as the latest ISO edition. Detailed clauses and compatibility across editions need a separate standards check.
+
 ## Common Criteria establishes a bounded target-of-evaluation result
 
-The [Common Criteria / ISO/IEC 15408-1:2022](https://www.iso.org/standard/72891.html) defines a structured security evaluation model involving a **Target of Evaluation (TOE)**, **Security Target (ST)**, **Protection Profile (PP)** and applicable security functional and assurance requirements.
+The [Common Criteria / ISO/IEC 15408-1:2026](https://www.iso.org/standard/15408-1) defines a structured security evaluation model involving a **Target of Evaluation (TOE)**, **Security Target (ST)**, **Protection Profile (PP)** and applicable security functional and assurance requirements.
 
 These terms serve different purposes:
 
@@ -117,7 +121,7 @@ A change record and a new test can help refresh confidence, but *which evidence 
 ## Authoritative source starting points
 
 - [NIST SP 800-160 Volume 1 Revision 1](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final), security engineering, protection needs, assurance and trustworthiness.
-- [ISO/IEC 15408-1:2022 / Common Criteria](https://www.iso.org/standard/72891.html), target, security target, protection profiles, evaluation context.
+- [ISO/IEC 15408-1:2026 / Common Criteria](https://www.iso.org/standard/15408-1), target, security target, protection profiles, evaluation context.
 - [NIST SP 800-53 Rev.5 Release 5.2.0 announcement](https://csrc.nist.gov/news/2025/nist-releases-revision-to-sp-800-53-controls), control catalog versus implementation.
 - [NIST SP 800-53A Rev.5](https://csrc.nist.gov/pubs/sp/800/53/a/r5/final), selected assessment procedures and their scope.
 
