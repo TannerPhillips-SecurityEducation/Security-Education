@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** 11 legacy articles Reviewed (model-assisted), 1 additional articles Draft (References listed); no subjects Published.
+**Content status:** All **12/12 canonical subject articles** Reviewed (model-assisted), including 1 newly reviewed under [Wave H 24-family audit](../WAVE-H-TECHNICAL-REVIEW-01.md). Source-level Verified and independent Published acceptance remain open.
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -33,6 +33,9 @@ This area is a **navigation discipline**. These eleven names are the already app
 
 **Post-authoring status:** The 1 additional article is substantively authored and remain **Draft / References listed**, distinct from the 11 historically Reviewed references. Further validation and publication review remain outstanding.
 
+
+**Wave H completion (November 18, 2026):** The 1 new subjects have canonical articles and passed [24-family scoped model-assisted technical review](../WAVE-H-TECHNICAL-REVIEW-01.md) with material claim examples and source limitations documented. The area retains 12 subjects, all Reviewed (model-assisted). No article is fully source-level Verified or independently accepted for publication.
+
 ## Canonical reference articles
 
 | Approved subject | Canonical reference | Development state |
@@ -49,7 +52,7 @@ This area is a **navigation discipline**. These eleven names are the already app
 | Verification and validation | [Verification and Validation](verification-and-validation.md) | Reviewed (model-assisted) |
 | System lifecycle | [System Lifecycle](system-lifecycle.md) | Reviewed (model-assisted) |
 
-| Queueing and service-system models | [Draft article](queueing-and-service-system-models.md) | **Draft** |
+| Queueing and service-system models | [Reviewed article](queueing-and-service-system-models.md) | Reviewed (model-assisted) |
 
 
 **Coverage Triage 02 (November 18, 2026):** F-11-12 Queueing and service-system models is newly Drafted under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 11 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
