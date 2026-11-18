@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Systems & Engineering](README.md)  
 **Subject ID:** F-11-12  
-**Development status:** Draft; newly authored foundational reference  
-**Source review:** References listed; scoped technical review pending  
+**Development status:** Reviewed (model-assisted; independent human approval not claimed)  
+**Source review:** Core claims checked under [Wave H 24-family scoped technical review](../WAVE-H-TECHNICAL-REVIEW-01.md); full source-passage verification not claimed  
 **Inventory authority:** [Coverage & Source Triage 02](../COVERAGE-AND-SOURCE-TRIAGE-02.md)
 
 ## Queueing models connect demand, service, delay and capacity
@@ -104,6 +104,6 @@ Suppose an observer measures two pending requests at one instant. That observati
 
 Canonical related foundations include [Stochastic Processes and Markov Models](../mathematics-logic/stochastic-processes-and-markov-models.md) for random arrivals and dependence; [Temporal Concepts and Models](../models-abstraction/temporal-concepts-and-models.md) for temporal intervals; [Latency and Throughput](../communication-distributed-systems/latency-and-throughput.md) for communication rate/delay; and [Reliability and Failure](reliability-and-failure.md) for robustness of systems and resources.
 
-**Editorial state:** Draft; no new specialized-domain implementation categories or learner assessments. Full source-passage review and independent expert acceptance remain outstanding.
+**Editorial status:** Reviewed (model-assisted) under [Wave H Technical Review 01](../WAVE-H-TECHNICAL-REVIEW-01.md). Complete source-passage verification, independent qualified expert acceptance and Published status remain open.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
