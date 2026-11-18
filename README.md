@@ -28,9 +28,9 @@ The approved navigation model is **Domain → Function → Implementation**. Fun
 
 ### Alternate Navigation Perspectives
 
-- [Operating system families](endpoint/README.md#operating-system-family-indexes)
-- [Application types](application/README.md#application-type-indexes)
-- [Cloud providers](cloud/README.md#cloud-provider-indexes)
+- [Operating system families](endpoint/README.md#operating-system-family-indexes-secondary-navigation)
+- [Application types](application/README.md#application-type-indexes-secondary-navigation)
+- [Cloud providers](cloud/README.md#cloud-provider-indexes-secondary-navigation)
 
 These indexes are maintained for discovery and learning. They should point to canonical function or implementation documents instead of replicating them.
 
