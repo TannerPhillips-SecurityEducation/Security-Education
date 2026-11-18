@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** 9 legacy articles Reviewed (model-assisted), 1 additional articles Draft (References listed); no subjects Published.
+**Content status:** All **10/10 canonical subject articles** Reviewed (model-assisted), including 1 newly reviewed under [Wave H 24-family audit](../WAVE-H-TECHNICAL-REVIEW-01.md). Source-level Verified and independent Published acceptance remain open.
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -31,6 +31,9 @@ Information & Data has **9/9 approved headings authored**. All nine articles are
 
 **Post-authoring status:** The 1 additional article is substantively authored and remain **Draft / References listed**, distinct from the 9 historically Reviewed references. Further validation and publication review remain outstanding.
 
+
+**Wave H completion (November 18, 2026):** The 1 new subjects have canonical articles and passed [24-family scoped model-assisted technical review](../WAVE-H-TECHNICAL-REVIEW-01.md) with material claim examples and source limitations documented. The area retains 10 subjects, all Reviewed (model-assisted). No article is fully source-level Verified or independently accepted for publication.
+
 ## Canonical reference articles
 
 | Approved subject | Canonical reference | Development state |
@@ -45,7 +48,7 @@ Information & Data has **9/9 approved headings authored**. All nine articles are
 | Databases and queries | [Databases and Queries](databases-and-queries.md) | Reviewed (model-assisted) |
 | Data provenance and lifecycle | [Data Provenance and Lifecycle](data-provenance-and-lifecycle.md) | Reviewed (model-assisted) |
 
-| Search and information retrieval | [Draft article](search-and-information-retrieval.md) | **Draft** |
+| Search and information retrieval | [Reviewed article](search-and-information-retrieval.md) | Reviewed (model-assisted) |
 
 
 **Coverage Triage 02 (November 18, 2026):** F-05-10 Search and information retrieval is newly Drafted under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 9 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
