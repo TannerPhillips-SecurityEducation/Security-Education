@@ -2,7 +2,7 @@
 
 **Status:** Approved governing definition and architectural requirements  
 **Scope:** Security Knowledge → Foundations → Fundamentals  
-**Baseline preserved:** 12 approved knowledge areas and 109 approved subject headings  
+**Current inventory snapshot:** 12 approved knowledge areas and 109 currently tracked subject headings; the heading count may expand or contract  
 **Implementation:** Markdown navigation and links; no additional taxonomy or graph engine authorized
 
 ## Governing Definition
@@ -68,7 +68,7 @@ The relationship is conceptual, **not** a mandatory sequence for readers. A read
 
 ## Separate Navigation From Conceptual Structure
 
-**Navigation hierarchy:** The twelve approved areas organize the Fundamentals knowledge inventory. The 109 headings identify subject coverage. These labels are broad *knowledge disciplines and subjects*, not necessarily the most basic conceptual primitives.
+**Navigation hierarchy:** The twelve currently approved areas organize Fundamentals. The **109 currently tracked headings** identify the present coverage snapshot, not a fixed ceiling, floor, or required article count. These labels are broad *knowledge disciplines and subjects*, not necessarily the most basic conceptual primitives.
 
 **Conceptual knowledge graph:** Underlying concepts and their relationships may cross multiple disciplines. Each canonical entry should maintain explicit links to the relevant other concepts and specialized applications.
 
@@ -91,13 +91,28 @@ Before adding a canonical entry, classify its scope using these checks:
 
 ## Publication and Architectural Controls
 
-- Preserve the **12 approved knowledge areas and 109 original subject headings** as the current baseline.
+- Preserve the historical **12-area / 109-heading snapshot** for traceability, but treat the **number of subject headings as revisable**. Expand, consolidate, split, rename, or retire subject headings when evidence about foundational coverage, established models, or overlap warrants the change.
 - Maintain one canonical explanation for each fundamental concept, while recognizing genuinely different context-specific mechanisms.
 - Write connected technical reference prose explaining meaning, distinctions, structures, principles, mechanisms, relationships, and examples as relevant.
 - Cite authoritative technical references for verifiable claims and distinguish unresolved issues from established knowledge.
 - Use the existing hierarchy and Markdown links; do not imply a formal knowledge-graph schema or graph database has been adopted.
 - Introduce **no Knowledge Checks or Practical Assessments**, quizzes, or graded exercises.
-- Treat proposed subject additions, relocations, formal primitives, and new graph infrastructure as separate architectural decisions.
+- Record justified subject additions, consolidations, splits, relocations, renames, and retirements with prior-to-new mappings before changing the canonical inventory. Proposals for universal primitives, a different knowledge-area architecture, or graph infrastructure require distinct review.
+
+## Living Subject Inventory and Versioned Change Control
+
+**Governing clarification (November 18, 2026): The 109 headings are not fixed.** They are the historically approved and presently implemented inventory, not an immutable target or a rule against adding and consolidating foundational subjects.
+
+Use the following decision sequence when an established framework, model, or architecture exposes a coverage question:
+
+1. **Identify the actual concept or mechanism**, its unit of analysis, assumptions, relevance to general technical knowledge, and authoritative sources. Do not mistake the name of a framework for an additional primitive.
+2. **Search for its canonical home** across existing subjects. Distinguish mention-level coverage from substantive explanation, and substantive explanation from source-verified completeness.
+3. **Evaluate the smallest coherent change:** add necessary depth to an existing subject; create a discoverable new subject; split an overloaded subject; consolidate substantially overlapping subjects; or retire a redundant subject with a maintained successor.
+4. **Preserve traceability:** record the old/new subject identifiers or headings, rationale, source references, affected article links, relationship corrections, and review status. A merged subject may inherit content but cannot inherit a blanket technical-verification claim.
+5. **Reconcile inventory and statuses:** update area indexes, the ownership register, development/verification records, navigation and any numeric totals. Historical technical-audit counts remain snapshots of their original scopes.
+6. **Reevaluate coverage** across all seven specialized domains and the seven Fundamentals completion gates. Do not force category symmetry or a fixed number of headings.
+
+The twelve existing **knowledge areas** remain the presently approved navigation baseline; any proposed change to those areas is a separate architectural decision. The statement that **109 is flexible** concerns the **subject inventory** and does not silently authorize a new universal ontology.
 
 ## Readiness Criteria
 
