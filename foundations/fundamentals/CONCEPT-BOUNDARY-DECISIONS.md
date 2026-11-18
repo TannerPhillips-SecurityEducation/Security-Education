@@ -1,8 +1,8 @@
 # Fundamentals: Canonical Concept Boundary Decisions
 
 **Version:** v0.2  
-**Status:** Approved conceptual boundary and canonical-ownership guidance (20 groups). Not completed, source-validated technical articles; no change to the approved taxonomy or formal graph schema.  
-**Baseline:** 12 approved knowledge areas and 109 approved subject headings.  
+**Status:** Approved conceptual boundary guidance (20 groups); new [model architecture adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) assigned seven Inventoried subjects without changing the twelve knowledge areas or formal graph schema. New technical articles and source verification pending.  
+**Baseline:** 12 knowledge areas; **109-heading historical snapshot, 116 current headings** (seven new Inventoried).  
 **Inputs:** [Original 20 overlaps and 10 open gaps](CONCEPT-OVERLAP-REVIEW.md), [canonical ownership crosswalk](CANONICAL-OWNERSHIP-REGISTER.md), and [governing architecture](ARCHITECTURE.md).
 
 ## Resolution method
@@ -118,16 +118,16 @@ The canonical-owner distinctions below are **approved architectural guidance**, 
 
 **Sensors, devices, and IoT/industrial systems:** A thermistor is a sensor; a thermostat or industrial transmitter combines more mechanisms.
 
-## Open exception: General temporality (B-11; coverage case G-04)
+## General temporality: owner assigned, content exception remains (B-11; G-04)
 
-**Partially resolved.** Time *units* belong in Mathematics & Logic; hardware timing belongs in Digital Systems; event/order semantics in Models & Abstraction and Communication & Distributed Systems. Those distinctions do **not** establish where a complete domain-agnostic concept of *time and temporality* belongs. Retain the time gap as [G-04 in the Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md), without creating a new area or silently expanding a subject.
+**Canonical owner now assigned, substantive review open.** F-03-11 [Temporal Concepts and Models](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) is newly Inventoried within Models & Abstraction for general instants, intervals, durations and ordering. Time *units* remain in Mathematics & Logic, hardware timing in Digital Systems, and concrete distributed causal ordering in Communication & Distributed Systems. **No F-03-11 article exists yet**; B-11 still has a content/source-verification exception, although the previously open owner-placement question is resolved. See [G-04](COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks).
 
 ## Rules for future canonical authoring
 
 1. State the scope of the general concept; do not rely on a specific operating system, provider, product, or security practice for its definition.
 2. Give a genuine specialized mechanism its own scoped explanation, explicitly linked to the general one.
 3. Make distinctions operationally meaningful using one discriminating example or counterexample.
-4. Preserve approved knowledge-area names and all 109 subject headings. A decision does not rename folders or change their ownership by fiat.
+4. Preserve approved knowledge-area names and historical subject-ID mappings. The current inventory is 116 headings; subject additions, merges, or renames require recorded adjudication rather than silent scope changes.
 5. Link to actual canonical article URLs **only once those articles exist**; otherwise refer to the existing area inventory.
 6. Review relationships for direction, assumptions, and context; the vocabulary of link types remains illustrative, not formally ratified.
 
