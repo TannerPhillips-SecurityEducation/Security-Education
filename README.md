@@ -54,6 +54,10 @@ This repository is a **technical knowledge reference**. It contains concepts, ex
 
 [**GitHub Automation AGENTS.md**](.github/AGENTS.md) governs workflow changes, least-privilege permissions, dynamic structural checks, accurate evidence reporting and safe failure handling. Automation validates what its scripts actually test; it does not certify technical claims or publication readiness.
 
+## Architecture and Coverage Evidence
+
+[**Repository Architecture & Content Coverage Baseline 01**](REPOSITORY-ARCHITECTURE-COVERAGE-BASELINE-01.md) reports the actual Foundations and domain maturity, dynamic article inventories, instruction contracts, structural integrity checks, source-review limitations and the next content-development priorities. The [repository-wide validation workflow](.github/workflows/repository-integrity.yml) and [live coverage diagnostic](tools/report_knowledge_coverage.py) support versioned reconciliation without freezing subject counts.
+
 ## Related
 
 [Security Operations Portfolio](https://github.com/TannerPhillips-SecurityEducation/Security-Operations-Portfolio)
