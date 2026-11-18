@@ -59,6 +59,7 @@ TLB misses, page faults, swapping, locality and contention affect practical perf
 ### Sources
 
 - [MIT 6.1810: Page Tables](https://pdos.csail.mit.edu/6.S081/2026/labs/pgtbl.html).
+- [MIT 6.1810: Copy-on-Write](https://pdos.csail.mit.edu/6.S081/2026/labs/cow.html).
 - [MIT 6.1810 Operating Systems course](https://pdos.csail.mit.edu/6.S081/2026/schedule.html).
 - [Operating Systems: Three Easy Pieces, address-space chapters](https://research.cs.wisc.edu/wind/OSTEP/).
 
