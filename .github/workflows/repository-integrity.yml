@@ -1,0 +1,36 @@
+name: Repository AGENTS and knowledge navigation integrity
+
+on:
+  push:
+    paths:
+      - "**/*.md"
+      - "*.md"
+      - "tools/check_repository_integrity.py"
+      - ".github/workflows/repository-integrity.yml"
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "*.md"
+      - "tools/check_repository_integrity.py"
+      - ".github/workflows/repository-integrity.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repository-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Validate all Markdown links and AGENTS inheritance
+        run: python3 tools/check_repository_integrity.py
+      - name: Reconcile Fundamentals live subjects and review states
+        run: python3 foundations/fundamentals/tools/check_inventory.py
+      - name: Reconcile Security Foundations candidates and pilot states
+        run: python3 foundations/security-foundations/tools/check_candidate_inventory.py
+      - name: Verify Security Foundations structural records
+        run: python3 foundations/security-foundations/tools/check_foundations_structure.py
