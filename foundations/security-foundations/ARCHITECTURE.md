@@ -1,9 +1,9 @@
 # Security Foundations: Governing Architecture Proposal
 
-**Edition:** v0.2 · November 18, 2026  
+**Edition:** v0.3 · November 18, 2026  
 **Status:** **Proposed; not ratified**  
 **Approved parent:** Security Knowledge → Foundations → Security Foundations  
-**Candidate inventory:** [12 knowledge areas and 94 subjects, revised v0.2](SUBJECT-INVENTORY-PROPOSAL.md), all pending architectural approval  
+**Current working inventory:** [12 proposed knowledge areas and 96 active candidate subjects (v0.3)](SUBJECT-INVENTORY-PROPOSAL.md); neither count is fixed, and both remain pending architectural approval  
 **Repository constraints:** Hierarchy for navigation; knowledge graph through explicit links; no formal graph schema adopted; no Knowledge Checks or Practical Assessments.
 
 ## 1. Governing definition (proposed)
@@ -108,7 +108,7 @@ The four examples below illustrate complementary scopes; they are **not a new se
 
 **Key limits:** The CIA Triad is foundational but non-exhaustive; an ATT&CK tactic is not necessarily a temporal attack phase; the Unified Kill Chain is not an assertion that all attacks follow one sequence; CVSS Base describes severity rather than organizational risk; D3FEND does not independently establish control effectiveness; and the six NIST CSF functions are concurrent risk-management outcomes, not concept areas.
 
-**Architectural consequence:** The 12-area/94-subject inventory is **revisionable** and should be reconciled against established models before ratification. The vocabulary, assumptions and boundaries of published models can inform article scopes, but imported model categories must not automatically become new root directories or formal graph predicates.
+**Architectural consequence:** The working **12-area/96-subject** inventory is revisionable **in either dimension**, including additions, splits, merges, relocations and retirements. [Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md) records four additions and two consolidations from the original 94-subject version. The vocabulary, assumptions and boundaries of published models can inform article scopes, but imported model categories must not automatically become new root directories or formal graph predicates.
 
 ## 5. Governing architectural requirements
 
@@ -145,6 +145,16 @@ MITRE ATT&CK describes observed adversary behavior; CWE describes weakness class
 ### 5.8 Exclude assessments and hidden approvals
 
 No Knowledge Checks, Practical Assessments, quizzes, graded labs or certification tracks. Proposed headings, relation types, source authority rules, state vocabularies and technical architecture changes are not approved merely by being placed in Markdown.
+
+## 5A. Living architecture, consolidation and pilot contract
+
+This architecture is governed as **a hypothesis that must survive source-backed concept comparison**, not as a number to complete. The number and identity of **areas** and **subjects** can independently expand or contract. Proposed divisions/subjects are not automatically approved by editing an index.
+
+The [second source-grounded adjudication](ARCHITECTURE-ADJUDICATION-02.md) consolidated **SF-02-06 into SF-02-05**, split **SF-03-08** responsibilities across **SF-03-03 and SF-10-08**, and added four conceptually distinct candidates **SF-04-08, SF-06-09, SF-08-09, SF-09-09**. The historical IDs are preserved by an explicit mapping rather than reused.
+
+**Pilot rule:** A pilot article may be authored and scoped-reviewed within the approved Security Foundations division **without ratifying a proposed internal navigation tree**. Such drafts live under [pilots](pilots/README.md), state their candidate IDs, identify what evidence supports the material, and mark any uncertain scope. Only a subsequent recorded architectural decision can promote their location or internal hierarchy to an approved canonical subject structure.
+
+**Source authority rule:** Current standards and original papers control claims within their actual scopes. [The expanded 26-source crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) includes authentication and access models, noninterference, leakage mechanisms, cryptographic protocols and evaluations. Cite version/date and distinguish policy models, claims, implemented mechanisms, observed outcomes and operational procedures.
 
 ## 6. Editorial contract for future canonical articles (proposed)
 
@@ -204,13 +214,13 @@ Authoritative source starting points, not blanket endorsement of every proposed 
 
 For a future Security Foundations article where an established model is material, document the model's original purpose, unit of analysis, represented concepts/relations, assumptions, supported security claims, important counterexamples, primary source/version, and explicit non-equivalences with adjacent models. An external model may inform multiple candidate areas; that is a **cross-link**, not duplicate conceptual ownership.
 
-Article development starts only after deciding the relevant canonical subject placement. The [proposed inventory](SUBJECT-INVENTORY-PROPOSAL.md) now includes v0.2 boundary refinements for harm/risk, exploitation/compromise, adversarial and non-adversarial threats, and evidentiary confidence versus risk uncertainty.
+Durable canonical publication depends on ratifying the relevant subject placement. Before ratification, bounded **article pilots** may be authored under [`pilots/`](pilots/README.md) as proposed canonical text without creating unapproved area directories. The [v0.3 inventory](SUBJECT-INVENTORY-PROPOSAL.md) contains four additions and two consolidations and retains the earlier harm/risk, exploitation/compromise and evidence/risk distinctions.
 
 ## 10. Architectural acceptance boundary
 
 **Already approved:** Security Foundations as an independent division alongside Fundamentals and Operational Foundations, the seven specialized knowledge domains, the domain/function/implementation navigation policy, and repository exclusion of Knowledge Checks and Practical Assessments.
 
-**Proposed, not approved:** This governing definition's precise wording, the twelve-area grouping, the 94 proposed subjects, their canonical ownership decisions, article editorial contract, and any proposed publication gates. Architecture approval is distinct from technical review of future articles.
+**Proposed, not approved:** This governing definition's precise wording, the twelve-area grouping, the **96 working candidate subjects**, their ownership decisions, article editorial contract, and any proposed publication gates. Neither 12 nor 96 is a quota. Architecture approval is distinct from technical review of future articles.
 
 Next: evaluate [Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) and [Development Plan](DEVELOPMENT-PLAN.md); decide the candidate taxonomy and contested overlaps; only then build the canonical article hierarchy.
 
