@@ -99,6 +99,7 @@ Suppose an observer measures two pending requests at one instant. That observati
 
 - [MIT OpenCourseWare: Queues, Theory and Applications](https://ocw.mit.edu/courses/15-072j-queues-theory-and-applications-spring-2006/pages/readings/), Little's law, queueing disciplines, stability and service networks.
 - [MIT 6.02: Queueing and Little's Law lecture notes](https://courses.csail.mit.edu/6.02/s2009/handouts/L17.pdf), flow and waiting behavior in a communication example.
+- [MIT OCW 2.854: M/M/1 Queue](https://live.ocw.mit.edu/courses/2-854-introduction-to-manufacturing-systems-fall-2016/927056a1af54772a587fd84ad4951e71_MIT2_854F16_Mm1Queue.pdf), derives steady-state system and queue occupancy and mean delay, distinguishing W from Wq.
 - [MIT OpenCourseWare: Introduction to Queues and Little's Law](https://ocw.mit.edu/courses/1-203j-logistical-and-transportation-planning-methods-fall-2006/pages/calendar/), general systems/service applications.
 
 Canonical related foundations include [Stochastic Processes and Markov Models](../mathematics-logic/stochastic-processes-and-markov-models.md) for random arrivals and dependence; [Temporal Concepts and Models](../models-abstraction/temporal-concepts-and-models.md) for temporal intervals; [Latency and Throughput](../communication-distributed-systems/latency-and-throughput.md) for communication rate/delay; and [Reliability and Failure](reliability-and-failure.md) for robustness of systems and resources.
