@@ -49,7 +49,7 @@ A common instructional account uses *fetch*, *decode*, *execute* and *commit or 
 
 **Volatile** storage generally loses its retained contents when the required power conditions are absent; **nonvolatile** storage can retain information without continuous power under specified conditions. Neither designation by itself guarantees permanent retention, zero faults, security or unrestricted rewrite endurance.
 
-The approved [Memory and Storage](README.md) subject will develop its canonical mechanics. [Bits and Bytes](../information-data/bits-and-bytes.md) owns the binary units and [Data Types](../information-data/data-types.md) owns interpretation, not memory-device physics.
+The approved [Memory and Storage](memory-and-storage.md) subject will develop its canonical mechanics. [Bits and Bytes](../information-data/bits-and-bytes.md) owns the binary units and [Data Types](../information-data/data-types.md) owns interpretation, not memory-device physics.
 
 ## Interconnects and input/output
 
@@ -57,7 +57,7 @@ An **interconnect** enables exchange among system elements. It can carry address
 
 **Input/output (I/O)** provides paths between computing elements and external devices or contexts. Interfaces may be memory-mapped, port-mapped or organized under other architectural rules. Such mechanisms have ordering, timing, encoding and fault behavior that must be specified.
 
-[Buses and Interfaces](README.md) and [Input/Output](README.md) are separate approved subjects reserved for detailed ownership. A physical connector's shape does not alone define the semantics of a digital message.
+[Buses and Interfaces](buses-and-interfaces.md) and [Input/Output](input-output.md) are separate approved subjects reserved for detailed ownership. A physical connector's shape does not alone define the semantics of a digital message.
 
 ## Worked example: addressable capacity is not installed memory
 
@@ -82,7 +82,7 @@ Hardware consumes energy, dissipates heat and is limited by electrical and physi
 
 ## Canonical boundaries
 
-[Timing and Clocks](README.md) will own cycles, clock domains and hardware timing, while general temporality G-04 remains an open architectural decision. [Hardware Abstraction](README.md) will own machine-facing abstraction layers. Specialized processors, storage architectures and peripheral implementations remain extensions rather than new Fundamentals categories.
+[Timing and Clocks](timing-and-clocks.md) will own cycles, clock domains and hardware timing, while general temporality G-04 remains an open architectural decision. [Hardware Abstraction](hardware-abstraction.md) will own machine-facing abstraction layers. Specialized processors, storage architectures and peripheral implementations remain extensions rather than new Fundamentals categories.
 
 No mandated processor architecture, vendor product, bus standard, assessment or additional subject heading is introduced.
 
