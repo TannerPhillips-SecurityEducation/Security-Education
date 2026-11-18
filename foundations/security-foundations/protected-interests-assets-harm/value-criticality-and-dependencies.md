@@ -118,7 +118,7 @@ A service might rate high for integrity but lower for confidentiality; a public-
 
 [NIST SP 800-34 Rev. 1](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final), in its federal contingency-planning setting, relates recovery criticality to dependent business processes, including acceptable disruption and recovery requirements. It helps illustrate **why mapping dependencies matters**, but its operational business-impact-analysis procedures belong to [Operational Foundations](../../operational-foundations/README.md).
 
-## Relationship to other canonical owners
+## Canonical relationships and source scope
 
 - [Assets, Resources, and Protected Interests](assets-resources-and-protected-interests.md) identifies the thing, resource and reason for protection, while this article considers **its relative criticality and inherited dependencies**.
 - [Stakeholders and Protection Needs](stakeholders-and-protection-needs.md) owns *who is affected* and what protection expectations exist.

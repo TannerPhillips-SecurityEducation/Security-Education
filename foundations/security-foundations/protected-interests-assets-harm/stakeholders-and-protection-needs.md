@@ -114,7 +114,7 @@ The distinction matters:
 
 A requirement can be verified against a specification and yet fail to capture an essential stakeholder concern. This is why stakeholder validation and security verification are not identical. [Security Claims and Assurance Arguments](../security-assurance-governance-accountability/security-claims-and-assurance-arguments.md) owns assurance logic, while [Operational Foundations](../../operational-foundations/README.md) owns the execution of elicitation, assessment and authorization processes.
 
-## Scope, evidence and relationships
+## Scope, sources, evidence and relationships
 
 This article owns **stakeholder interests and the meaning of protection needs**, not a fixed taxonomy of stakeholders, a product design checklist, a legal compliance judgment or an operational process. Its neighboring concepts have deliberately separate owners:
 
