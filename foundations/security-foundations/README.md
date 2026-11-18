@@ -4,7 +4,7 @@
 
 **Division status:** Approved.  
 **Internal architecture status:** Model-grounded working proposal **v0.3**, **not ratified**.  
-**Candidate coverage:** **Twelve provisional areas and 96 active candidate subjects** after four source-grounded additions and two consolidations. Both numbers remain flexible. **Eight substantive article pilots** exist under [pilots](pilots/README.md); no permanent canonical article tree has been ratified.
+**Candidate coverage:** **Twelve provisional areas and 96 active candidate subjects** after four source-grounded additions and two consolidations. Both numbers remain flexible. **Eight source-led pilot articles have passed a 40-family scoped model-assisted review** under [pilots](pilots/README.md); no permanent canonical subject tree has been ratified.
 
 ## Architectural documentation
 
@@ -17,10 +17,11 @@
 ## Architecture adjudication and pilot development
 
 - [**Architecture Adjudication 02**](ARCHITECTURE-ADJUDICATION-02.md): Full 94-to-96 reconciliation, including two consolidated IDs and four added candidate subjects, supported by model/source boundaries. Both the area and subject counts may expand or contract.
-- [**Eight Source-Led Article Pilots**](pilots/README.md): Substantive exploratory articles across security objectives, threats, vulnerabilities, authorization policies, information-flow security, cryptographic composition, security observation, and assurance. **They are not final canonical locations or Published articles.**
+- [**Eight Source-Led Article Pilots**](pilots/README.md): Substantive internally Reviewed (model-assisted) exploratory articles across security objectives, threats, vulnerabilities, authorization policies, information-flow security, cryptographic composition, observation, and assurance. **They are not ratified canonical locations or Published articles.**
+- [**Pilot Technical Review 01**](PILOT-TECHNICAL-REVIEW-01.md): 40 material claim groups checked, source-scope limitations recorded, and three important corrections: actual insecurity versus unknown assurance, RFC 9846 for TLS 1.3, and ISO/IEC 15408-1:2026.
 - [**Source Crosswalk v0.2**](ESTABLISHED-MODEL-CROSSWALK.md): 26 reference groups, including 2025/2026 source-version context, cryptographic specifications and noninterference/side-channel distinctions.
 
-**Governance separation:** The division is approved; the internal hierarchy and 96 candidate subjects are **not yet ratified**. Article authoring, technical audit, source-passage verification, qualified independent review and final publication acceptance are separate evidence states. No draft count or working model is a required future quota.
+**Governance separation:** The division is approved; the internal hierarchy and 96 candidate subjects are **not yet ratified**. The eight pilots are **Reviewed (model-assisted) / Core claims checked**, but complete source-passage verification, qualified independent review and final publication acceptance remain separate evidence states. No draft count or working model is a required future quota.
 
 ## The governing distinction
 
