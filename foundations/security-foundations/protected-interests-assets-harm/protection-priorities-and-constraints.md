@@ -3,7 +3,7 @@
 **Candidate subject:** SF-02-07 · Protected Interests, Assets & Harm  
 **Working area:** [Protected Interests, Assets & Harm](README.md) · Adopted Fundamentals-style article placement; exact working subject and area taxonomy remain provisional  
 **Artifact:** Substantive technical working reference, not approved as final canonical publication  
-**Development state:** Draft · **Source-review state:** References listed; original source concepts consulted, separate multi-article Technical Review pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md), six article-specific material claim groups; full source verification and qualified external acceptance pending  
 **Governance:** [Working inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Development plan](../DEVELOPMENT-PLAN.md) · [Ownership boundaries](../OWNERSHIP-BOUNDARIES.md)
 
 ## Not every desired protection can be maximized simultaneously
@@ -12,7 +12,7 @@ Protection objectives compete for attention, resources and operating conditions.
 
 A **protection priority** is the relative precedence assigned to a need or outcome under declared stakeholders, circumstances and obligations. A **protection constraint** is a boundary limiting acceptable designs, actions or outcomes. An **acceptable protection tradeoff** is a justified choice among feasible alternatives that does not silently violate requirements or transfer unexamined harm to affected parties.
 
-The three have distinct meanings. Prioritization helps choose *among* objectives; constraints may remove some alternatives *before* they can be compared; an actual tradeoff is the resulting conditional decision. A priority is not necessarily a numeric weight, and a constraint is not necessarily flexible.
+The three have distinct meanings. Prioritization helps choose *among* objectives; constraints may remove alternatives *before* comparison; an actual tradeoff is the conditional decision or sacrifice involved. **A conflict is not evidence that one objective must always be sacrificed**: improved engineering can sometimes satisfy both objectives within the same feasible design. A priority is not necessarily a numeric weight, and a constraint is not necessarily flexible.
 
 [NIST SP 800-160 Vol. 1 Rev. 1 (2022)](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final) §3.7, printed pp. 25–27, explicitly incorporates stakeholder needs, system assets and engineering trades in protection-needs determination. A protection need can be identified from the significance and type of asset loss before assigning the probability of any particular attack. This concept is distinct from estimating a specific security risk scenario.
 
@@ -37,7 +37,7 @@ The [NIST CSF 2.0 Organizational Context category](https://csrc.nist.gov/Project
 
 ## Constraints, preferences and decision authority
 
-A **hard constraint** excludes an otherwise attractive option if it fails a mandatory condition. A **preference** ranks feasible alternatives under a stated objective. The label *hard* does not arise from mathematical notation alone: it reflects a properly justified requirement or obligation.
+A **hard constraint** excludes an otherwise attractive option if it fails a mandatory condition. A **preference** ranks feasible alternatives under a stated objective. The label *hard* does not arise from mathematical notation alone: it reflects a properly justified requirement or obligation. **A purported hard constraint can itself be incorrectly specified**, and satisfying a scalar model does not override actual rights, human safety or binding law.
 
 For an abstract design \(x\), let the feasible set be
 
@@ -51,9 +51,19 @@ Only **after determining which designs are feasible** can a team compare prefere
 
 ### Pareto tradeoffs are conditional
 
-Suppose two feasible designs have measured or modeled objectives \(f_1(x)\) and \(f_2(x)\), where smaller is better. A design \(a\) **Pareto-dominates** \(b\) when it is no worse on every specified objective and strictly better on at least one. A Pareto-front set does not define which design is morally, legally or operationally best. It only identifies alternatives not dominated **under that objective set and feasible region**.
+Suppose two feasible designs have measured or modeled objectives \(f_1(x)\) and \(f_2(x)\), where smaller is better. A design \(a\) **Pareto-dominates** \(b\) when it is no worse on every specified objective and strictly better on at least one. A Pareto-front set does not define which design is morally, legally or operationally best. It only identifies alternatives not dominated **under the chosen objectives, measurements and feasible region**. A design that violates a hard safety or privacy obligation is not a valid competing point merely because it has an attractive objective value.
 
 This concept is an explanatory borrowing from multiobjective optimization, not a NIST-mandated risk formula. If the model omits privacy, accessibility, critical dependencies or long-term harm, its Pareto frontier cannot account for them.
+
+As an **invented numeric counterexample**, imagine three otherwise feasible notification designs evaluated only by delivery delay (seconds, lower is better) and retention of identifiable location history (days, lower is better, after satisfying any mandatory retention requirement):
+
+| Hypothetical design | Delay (seconds) | Retention (days) | Pairwise conclusion under just these two goals |
+| --- | ---: | ---: | --- |
+| A | 8 | 30 | Dominated by B |
+| B | 6 | 14 | Dominates A; trades off with C |
+| C | 4 | 21 | Faster than B, but retains more than B |
+
+**B dominates A** because it improves both modeled objectives (6 < 8 and 14 < 30). **Neither B nor C dominates the other**: C reduces delay, while B reduces retention. If a design fails an independent safety, access or legal condition, it is excluded regardless of its position in this table. These numbers are authored assumptions, not measurements of an emergency system.
 
 A common failure is to combine everything into a single weighted score without establishing that the scores have compatible scales, lawful tradeability, complete stakeholder coverage or defensible weights. A large availability benefit does not automatically compensate for violating a non-negotiable safety requirement.
 
@@ -132,6 +142,6 @@ The **engineering concept** of maintaining conditional priorities belongs here; 
 - [ISO/IEC Guide 51:2014](https://www.iso.org/standard/53940.html), safety-specific treatment of potentially unacceptable harm; current following its 2025 review.
 - [FIPS 199 (2004)](https://csrc.nist.gov/pubs/fips/199/final), federal potential-impact categorization with defined limits.
 
-**Editorial limitation:** Feasible-set/Pareto notation and all three emergency designs are **hypothetical explanatory constructions**. They do not establish lawful authority, measured protective efficacy, a universal ordering of human interests, or a final risk-acceptance decision. This article is **Draft / References listed**, pending separate claim-led technical review and then independent source/publication gates as required. The proposed SF-02-07 ownership remains revisionable.
+**Editorial limitation:** Feasible-set/Pareto notation and all three emergency designs are **hypothetical explanatory constructions**. They do not establish lawful authority, measured protective efficacy, a universal ordering of human interests, or a final risk-acceptance decision. [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md) checked six material claim groups, the feasible-set limits and the independently recalculated three-design Pareto example. This working article is **Reviewed (model-assisted) / Core claims checked**, not a legal authority determination, a field-tested optimization, fully source-Verified, permanently canonical-approved or Published. SF-02-07 ownership remains revisionable.
 
 [Security Foundations](../README.md) · [Area index](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

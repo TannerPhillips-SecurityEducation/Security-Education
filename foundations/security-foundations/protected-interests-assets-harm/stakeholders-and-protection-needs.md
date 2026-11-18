@@ -3,7 +3,7 @@
 **Candidate subject:** SF-02-01 · Protected Interests, Assets & Harm  
 **Working area:** [Protected Interests, Assets & Harm](README.md) · Fundamentals-style navigation adopted; area and subject membership remain provisional  
 **Artifact:** Substantive working knowledge article, not a final canonical or Published reference  
-**Development state:** Draft · **Source-review state:** References listed; initial primary-source comparison completed, separate claim-led Technical Review pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md), six article-specific material claim groups; complete source verification and qualified independent acceptance pending  
 **Authority:** [Working subject inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Working ownership register](../CANONICAL-OWNERSHIP-REGISTER.md) · [Security Foundations AGENTS](../AGENTS.md)
 
 ## Protection begins with affected interests, not a list of controls
@@ -12,7 +12,7 @@ A system is built and operated for purposes that matter to people and institutio
 
 A protection need is not necessarily a completed design requirement. It may first appear as a concern: people should not be locked out of emergency assistance; payroll records must not be exposed; a control system must not accept unsafe commands; records must remain attributable to the appropriate process. Engineering turns such needs into sufficiently explicit objectives, constraints, and verifiable requirements, but prematurely choosing a technical mechanism can conceal the real interest.
 
-[NIST SP 800-160 Volume 1 Revision 1 (November 2022)](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final), Chapter 3 §3.7, printed pp. 25–27, explicitly grounds protection needs in stakeholders' assets, consequences, priorities and constraints. Its Figure 7 distinguishes **stakeholder**, **system**, and **engineering trade** perspectives. Those are useful perspectives, not a mandate for this repository to adopt them as a complete ontology of persons or organizations.
+[NIST SP 800-160 Volume 1 Revision 1 (November 2022)](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final), Chapter 3 §3.7, printed pp. 25–27, explicitly grounds protection needs in stakeholders' assets, consequences, priorities and constraints. Its Figure 7 (printed p. 25; PDF page index 40) distinguishes **stakeholder**, **system**, and **engineering-trade** perspectives. Importantly, §3.7 states that the need for protection can be established *without first selecting a particular cause or condition* to protect against. These are security-engineering perspectives, not a complete ontology of persons or organizations.
 
 The **stakeholder question** is who or what has an affected interest. The **security question** is which unacceptable changes, actions or outcomes must be prevented, constrained or made recoverable. A person may be affected by a system without owning it, managing it, using it, or being represented by its access-control database.
 
@@ -30,7 +30,7 @@ Several terms often refer to different roles and should not be compressed into �
 | Bystander or indirectly affected party | May be harmed despite not using the system | Physical safety or freedom from unnecessary surveillance |
 | Regulator or accountable authority | Establishes or enforces applicable obligations | Sufficient evidence of conformity within a defined jurisdiction |
 
-These roles can overlap and change with time. A single individual may own a device, be the subject of its data, and administer its account. But the roles remain conceptually distinguishable. **A technical principal** is an identity represented in a security mechanism. Not every stakeholder has a technical principal, and possessing a principal does not alone establish authority to determine another stakeholder's acceptable harms.
+These roles can overlap and change with time. A single individual may own a device, be the subject of its data, and administer its account. But the roles remain conceptually distinguishable. **A technical principal** is an entity represented in an identity or access-control mechanism and may refer to a service or workload rather than a human. Not every stakeholder has a technical principal, and possessing such an identity does not establish authority to decide which harms other stakeholders must accept. **Stakeholder** and **principal** classify different relationships.
 
 Likewise, an institutional asset owner can decide some engineering priorities but is not automatically empowered to override an individual's rights, a safety obligation, or a contract that protects a different party. [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) owns the normative legitimacy of these decisions; this article owns the structure of the interests being represented.
 
@@ -74,7 +74,7 @@ Design evidence and assurance argument
 
 The chain highlights traceability. A control such as encryption is not itself the protected interest. The protected interest may be confidentiality of intimate records, integrity of payment authorization, or the freedom of a person not to be subjected to harmful surveillance. The control is one possible means of satisfying a requirement derived from that interest.
 
-A mature protection-need statement identifies:
+A sufficiently precise protection-need statement can identify:
 - the affected party or legitimate interest;
 - the system or environmental boundary;
 - the valued capability, information or condition;
@@ -132,6 +132,6 @@ This article owns **stakeholder interests and the meaning of protection needs**,
 - [NIST Privacy Framework 1.0 (final 2020)](https://csrc.nist.gov/pubs/cswp/10/nist-privacy-framework-version-10/final), individuals' privacy interests and processing-related risk; the [1.1 project](https://www.nist.gov/privacy-framework/new-projects/privacy-framework-version-11) still publicly identifies an initial public draft, not an established final release in the cited project status.
 - [ISO/IEC Guide 51:2014](https://www.iso.org/standard/53940.html), safety aspects concerning people, property and the environment, confirmed current following a 2025 review; not a general legal authorization model.
 
-**Editorial limitation:** This is a **Draft / References listed**, not a separately audited or Published manuscript. Its stakeholder roles and conceptual traceability are editorial decompositions informed by source-defined engineering concepts; no single standard dictates this exact list or grants authority to accept other people's harms. A separate multi-article claim-led review is required before advancing its status.
+**Editorial limitation:** This manuscript is **Reviewed (model-assisted) / Core claims checked** in the separate [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md), covering six material claim groups, NIST Figure 7 source scope and stakeholder/principal corrections. The role taxonomy remains an editorial model; no source establishes all stakeholders' legal authority or resolves every competing protection need. Full clause-level verification, independent expert review, taxonomy ratification and Published status remain open.
 
 [Security Foundations](../README.md) · [Area index](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

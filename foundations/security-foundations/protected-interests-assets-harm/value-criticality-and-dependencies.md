@@ -3,7 +3,7 @@
 **Candidate subject:** SF-02-04 · Protected Interests, Assets & Harm  
 **Working area:** [Protected Interests, Assets & Harm](README.md) · Adopted Fundamentals-style directory, provisional concept ownership  
 **Artifact:** Substantive working article; not source-Verified or Published  
-**Development state:** Draft · **Source-review state:** References listed, separate claim-led technical Review pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md), six article-specific material claim groups; complete source verification and qualified independent acceptance pending  
 **Working authority:** [Subject inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Ownership register](../CANONICAL-OWNERSHIP-REGISTER.md)
 
 ## Importance depends on purpose, loss and relationships
@@ -30,7 +30,7 @@ The three concepts answer different questions:
 
 **Derived criticality** can arise because an asset supplies another asset's function. A cryptographic key can be important not for its storage cost but because many systems rely on it to authenticate updates. A shared time source can affect event ordering, key-expiration checks or distributed coordination. The downstream consequence depends on how the consumers use that input and which alternatives or safeguards exist.
 
-A simple dependency model represents a service S requiring two independent prerequisites A and B:
+A simple Boolean dependency model represents a service S requiring two **jointly necessary** prerequisites A and B. Here *necessary* describes the logical requirement for service operation; **it does not assert statistical independence** of their failures:
 
 \[
 \operatorname{Available}(S)=\operatorname{Available}(A)\land\operatorname{Available}(B).
@@ -74,7 +74,7 @@ Its loss condition is:
 \neg S = \neg C \lor(\neg A\land\neg B).
 \]
 
-The two **minimal cut sets**, under the assumed Boolean model, are \(\{\neg C\}\) and \(\{\neg A,\neg B\}\). One common dependency failure can defeat redundancy in two otherwise independent service branches. The fact that a pair of services is geographically distributed does not establish independence if both use the same identity, DNS, recovery credential or controller.
+The two **minimal cut sets**, under the assumed Boolean model, are \(\{\neg C\}\) and \(\{\neg A,\neg B\}\). This was independently checked by enumerating all eight Boolean assignments of A, B and C and comparing the stated loss condition to the logical negation of S. It is a **logical truth-table check**, not an empirical failure-rate validation. One common dependency failure can defeat redundancy in two otherwise independent service branches. Geographic distribution does not establish probabilistic independence of failures when both service branches share an identity provider, DNS resolver, recovery credential or controller. **Logical alternatives are not evidence of statistically independent reliability.**
 
 The equation is not a calculated reliability or cyber-risk score. Real availability may have degraded modes, temporal dependencies, retries, recovery behavior and state corruption. Quantifying likelihood also requires failure distributions and evidence that the assumed independence relations hold. Those belong to [Fundamentals: Reliability and Failure](../../fundamentals/systems-engineering/reliability-and-failure.md) and [Security Risk & Uncertainty](../security-risk-uncertainty/README.md).
 
@@ -112,7 +112,7 @@ The same nominal asset has different criticality under the three conditions. Its
 
 ## Categorization is an input, not a final verdict
 
-[FIPS 199 (2004)](https://csrc.nist.gov/pubs/fips/199/final) categorizes U.S. federal information and information systems by **potential impact** from confidentiality, integrity and availability losses. Its low/moderate/high categories are source-specific, and the high-water-mark system categorization rule is not equivalent to a universal hierarchy of moral interests, engineering priorities or measured organizational risk.
+[FIPS 199 (2004)](https://csrc.nist.gov/pubs/fips/199/final) categorizes U.S. federal information and information systems by **potential impact** from confidentiality, integrity and availability losses. Its low/moderate/high categories are source-specific. Its information-system **high-water mark is computed separately for each security objective across categorized information types**, as illustrated on printed p. 4 (PDF page index 7). This is not a universal hierarchy of moral interests, engineering priorities or measured organizational risk.
 
 A service might rate high for integrity but lower for confidentiality; a public-information service could have no confidential content but still be vital for emergency availability. These different dimensions cannot be faithfully collapsed into a market-price or “number of users” metric without a justified decision model.
 
@@ -134,6 +134,6 @@ A service might rate high for integrity but lower for confidentiality; a public-
 - [FIPS 199 (final 2004)](https://csrc.nist.gov/pubs/fips/199/final), U.S. federal potential-impact categorization. Category assignment does not prove attack occurrence or failure probability.
 - [NIST SP 800-34 Rev. 1 (2010)](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final), business criticality, system dependencies and contingency planning within its stated federal context.
 
-**Editorial limitation:** The Boolean dependency model, common-cause cut sets and examples are authored abstractions; physical dependency behavior, actual security consequences and any risk probabilities remain untested. The source-to-claim coverage and equations require a separate review before this **Draft / References listed** article may be marked Reviewed. No source verification, independent expert acceptance, fixed subject hierarchy or Published claim is made.
+**Editorial limitation:** The Boolean dependency model, common-cause cut sets and examples are authored abstractions; physical dependency behavior, actual security consequences and any risk probabilities remain untested. [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md) separately checked six material claim groups and independently enumerated the Boolean model's eight possible assignments, verifying its two minimal failure cut sets. The state is **Reviewed (model-assisted) / Core claims checked**, **not** a validation of real dependencies, failure probabilities or security outcomes. Full source-passage verification, independent expert acceptance, taxonomy approval and Published remain pending.
 
 [Security Foundations](../README.md) · [Area index](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

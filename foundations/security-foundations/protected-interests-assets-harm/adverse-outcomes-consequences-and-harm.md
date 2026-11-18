@@ -3,12 +3,12 @@
 **Candidate subject:** SF-02-05 · Protected Interests, Assets & Harm  
 **Working area:** [Protected Interests, Assets & Harm](README.md) · Adopted Fundamentals-style directory; final semantic ownership remains provisional  
 **Artifact:** Substantive working reference, not an authorized final canonical publication  
-**Development state:** Draft · **Source-review state:** References listed; initial primary-source comparison completed, separate material-claim Technical Review pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md), six article-specific material claim groups; full source verification and qualified external acceptance pending  
 **History:** The earlier planning candidate **SF-02-06** was consolidated into SF-02-05 by [Architecture Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md). This manuscript does not reintroduce the retired candidate or inherit its review state.
 
 ## An event is not its outcome, and an outcome is not automatically harm
 
-An **event** is something that occurs; a **condition** is a state or circumstance; an **outcome** is a resulting state or change associated with some activity or event; and a **consequence** is an effect significant within a specified context. **Harm** is an adverse effect on a protected interest, person, organization, capability, property, environment or other legitimate concern. A given event can cause several consequences for different stakeholders and none, some or all of them may constitute harm under their applicable criteria.
+An **event** is something that occurs; a **condition** is a state or circumstance; an **outcome** is a resulting state or change associated with some activity or event; and a **consequence** is an effect significant within a specified context. **Harm** is an adverse effect on a protected interest, person, organization, capability, property, environment or other legitimate concern. A given event can produce several consequences for different stakeholders, and none, some or all of them may constitute harm under the relevant evaluative criteria. **An actual consequence or harm can exist even where no observation or adequate record of it is available**; evidence establishes what can be responsibly asserted, not what reality is permitted to contain.
 
 These descriptions are a **cross-domain security editorial model**, not a claim that all standards define the terms identically. [ISO/IEC Guide 51:2014](https://www.iso.org/standard/53940.html), for example, uses *harm* in a safety-specific sense concerning injury/damage to health, property or environment. The [NIST Privacy Framework 1.0](https://csrc.nist.gov/pubs/cswp/10/nist-privacy-framework-version-10/final) analyzes harms to individuals arising from problematic data processing. These are overlapping but non-equivalent scopes.
 
@@ -66,7 +66,7 @@ An adverse consequence can be described by several partly independent properties
 
 The same number of impacted accounts may represent radically different experiences. An aggregate count does not reveal whether harm is reversible, distributed equally, or borne by people with unequal ability to recover. **Expected financial cost is not an exhaustive substitute for human harm**, and a list of harms is not a computation of their likelihood.
 
-A severity label is valid only within a stated classification or measurement model. [FIPS 199](https://csrc.nist.gov/pubs/fips/199/final) defines **potential** low, moderate and high impacts of loss of confidentiality, integrity and availability in U.S. federal information systems. It does not establish that those outcomes have occurred, or that all protected interests fit into one generic three-level ladder.
+A severity label is valid only within a stated classification or measurement model. Severity, extent and duration are separate dimensions: a rare extreme injury and a widespread minor inconvenience cannot be declared equivalent from a count of affected accounts alone. [FIPS 199](https://csrc.nist.gov/pubs/fips/199/final) defines **potential** low, moderate and high impacts of loss of confidentiality, integrity and availability in U.S. federal information systems. It does not establish that those outcomes have occurred, or that all protected interests fit into one generic three-level ladder.
 
 ## Worked scenario: one corrupted record, several distinct outcomes
 
@@ -86,7 +86,7 @@ The important distinction is not rhetorical. It controls what a report can truth
 
 Security systems can themselves introduce or shift harm. A monitoring control might reduce the ability of an adversary to remain undetected, while retaining detailed employee behavior data far beyond what the security purpose requires. An aggressive fraud classifier might reduce financial loss but disproportionately block legitimate access.
 
-The [NIST Privacy Framework 1.0](https://csrc.nist.gov/pubs/cswp/10/nist-privacy-framework-version-10/final) distinguishes privacy risk arising from problematic data actions even when the processing is authorized. The source's perspective is on harms to individuals, not solely breaches or penalties borne by organizations. Its [Problematic Data Action glossary entry](https://csrc.nist.gov/glossary/term/problematic_data_action) describes adverse effects from data actions, with source-specific nuances.
+The [NIST Privacy Framework 1.0](https://csrc.nist.gov/pubs/cswp/10/nist-privacy-framework-version-10/final) distinguishes privacy risk arising from problematic data actions even when the processing is authorized. Its [Problematic Data Action glossary entry](https://csrc.nist.gov/glossary/term/problematic_data_action), citing the final Privacy Framework, defines a data action that **could** cause an adverse effect for individuals. **A problematic data action or privacy event is therefore not automatically proof that an individual experienced realized harm.** The source's perspective includes problems experienced by individuals, not solely breaches or penalties borne by organizations.
 
 A valid access-control decision can coexist with ethically questionable purposes or foreseeable harm. A technically effective defensive control can create new availability, accessibility, safety or privacy consequences. Whether those effects are justified requires a separate assessment of legitimacy, obligations, alternatives and proportionality. [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) owns that normative question.
 
@@ -106,7 +106,7 @@ These levels need not form a strict hierarchy in every domain. A directly witnes
 
 ## The boundary between actual harm and risk estimates
 
-A **realized harm** is an adverse effect shown to have occurred within a defined boundary. A **possible harm** is a conditional consequence in a hypothetical or anticipated scenario. A **risk estimate** characterizes uncertainty about possible adverse outcomes and any chosen time horizon.
+A **realized harm** is an adverse effect that **actually occurred**, regardless of whether anyone has yet observed or established it. A **documented or substantiated harm** is a claim supported by specified evidence within the available observation boundary. A **possible harm** is a conditional adverse consequence in an anticipated or hypothetical scenario. A **risk estimate** characterizes uncertainty about possible future or otherwise unobserved adverse outcomes and any chosen time horizon. **Occurrence, observability and confidence must not be merged.**
 
 Even the word *loss* can mean several things:
 - loss of information confidentiality without visible financial damage;
@@ -138,6 +138,6 @@ The current inventory has **SF-02-05** as the working owner for general adverse 
 - [NIST Privacy Framework 1.0 (2020)](https://csrc.nist.gov/pubs/cswp/10/nist-privacy-framework-version-10/final) and [NIST problematic data action glossary](https://csrc.nist.gov/glossary/term/problematic_data_action), possible individual harms from processing.
 - [ISO/IEC Guide 51:2014](https://www.iso.org/standard/53940.html), current safety-guide scope for people, property, environment; **not** an all-purpose definition of psychological, reputational or informational harm.
 
-**Editorial limitations:** The appointment and monitoring examples are hypothetical; no real incident or legal conclusion is asserted. Harm dimensions are an editorial comparative scheme, not a ratified ontology. This working manuscript is **Draft / References listed**, not separately audited, source-Verified or Published. The next authoring-related work must review all Drafts in this batch with article-specific claim checks, provenance and corrections.
+**Editorial limitations:** The appointment and monitoring examples are hypothetical; no real incident or legal conclusion is asserted. Harm dimensions are an editorial comparative scheme, not a ratified ontology. The separate [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md) checked six material claim groups, including the correction distinguishing **actual harm** from **documented harm** and privacy-risk signals from realized impact. This manuscript is **Reviewed (model-assisted) / Core claims checked**, not fully source-Verified, independently expert-reviewed, taxonomically approved or Published.
 
 [Security Foundations](../README.md) · [Area index](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

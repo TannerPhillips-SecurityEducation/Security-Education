@@ -1,20 +1,20 @@
 # Security Foundations | Working Article Register and Historical Pilot Paths
 
 **Division:** [Security Foundations](../README.md)  
-**Status:** **20 Reviewed (model-assisted), 5 Draft** across six completed scoped reviews (**117 historical material claim groups**). Five newly authored Protected Interests, Assets & Harm drafts await their next separate technical review. None is Source-Verified, permanently canonical-approved or Published.  
+**Status:** **25 Reviewed (model-assisted), 0 Draft** across seven scoped technical audits (**147 material claim groups**). No manuscript is fully source-Verified, permanently canonical-approved or Published.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
-**Scope:** This working article index tracks **14 historically relocated articles and 11 later area-first manuscripts** (6 Reviewed and 5 currently Draft). The substantive content resides within working knowledge-area directories. Only the historical fourteen have legacy `pilots/` navigation aliases; later articles link to area homes without duplicate bodies. Internal area membership and candidate totals remain flexible.
+**Scope:** The working article register contains **14 historically relocated pilots and 11 area-first manuscripts**, all currently Reviewed (model-assisted). Their substantive content lives within provisional area directories. Only the historical fourteen have legacy `pilots/` navigation aliases; newer manuscripts link directly to their working homes. The current area identities and subject totals remain revisionable.
 
 ## Actual working article locations and historical review register
 
 | Candidate ID | Working article | Development | Source review | Distinct conceptual question |
 | --- | --- | --- | --- | --- |
 | SF-01-01 | [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md) | **Reviewed (model-assisted)** | Core claims checked | What counts as a conditional security claim rather than an absolute label? |
-| SF-02-01 | [Stakeholders and protection needs](../protected-interests-assets-harm/stakeholders-and-protection-needs.md) | **Draft** | References listed; separate claim-led review pending | Whose protection needs legitimately shape security requirements? |
-| SF-02-02 | [Assets, resources, and protected interests](../protected-interests-assets-harm/assets-resources-and-protected-interests.md) | **Draft** | References listed; separate claim-led review pending | What is protected and how is it different from the protected interest? |
-| SF-02-04 | [Value, criticality, and dependencies](../protected-interests-assets-harm/value-criticality-and-dependencies.md) | **Draft** | References listed; separate claim-led review pending | How do context, dependencies and criticality affect asset significance? |
-| SF-02-05 | [Adverse outcomes, consequences, and harm](../protected-interests-assets-harm/adverse-outcomes-consequences-and-harm.md) | **Draft** | References listed; separate claim-led review pending | What distinguishes an adverse event, a loss, a consequence and realized harm? |
-| SF-02-07 | [Protection priorities and constraints](../protected-interests-assets-harm/protection-priorities-and-constraints.md) | **Draft** | References listed; separate claim-led review pending | How are conflicting protection demands constrained without imposing one universal ranking? |
+| SF-02-01 | [Stakeholders and protection needs](../protected-interests-assets-harm/stakeholders-and-protection-needs.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 07](../PILOT-TECHNICAL-REVIEW-07.md) | Whose protection needs legitimately shape security requirements? |
+| SF-02-02 | [Assets, resources, and protected interests](../protected-interests-assets-harm/assets-resources-and-protected-interests.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 07](../PILOT-TECHNICAL-REVIEW-07.md) | What is protected and how is it different from the protected interest? |
+| SF-02-04 | [Value, criticality, and dependencies](../protected-interests-assets-harm/value-criticality-and-dependencies.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 07](../PILOT-TECHNICAL-REVIEW-07.md) | How do context, dependencies and criticality affect asset significance? |
+| SF-02-05 | [Adverse outcomes, consequences, and harm](../protected-interests-assets-harm/adverse-outcomes-consequences-and-harm.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 07](../PILOT-TECHNICAL-REVIEW-07.md) | What distinguishes an adverse event, a loss, a consequence and realized harm? |
+| SF-02-07 | [Protection priorities and constraints](../protected-interests-assets-harm/protection-priorities-and-constraints.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 07](../PILOT-TECHNICAL-REVIEW-07.md) | How are conflicting protection demands constrained without imposing one universal ranking? |
 | SF-03-01 | [Threat Sources and Threat Events](../threats-hazards-adversarial-behavior/threat-sources-and-threat-events.md) | **Reviewed (model-assisted)** | Core claims checked | How do adversarial and non-adversarial threat sources differ from occurrences and consequences? |
 | SF-04-02 | [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md) | **Reviewed (model-assisted)** | Core claims checked | How do weakness, vulnerability, exposure, exploitation, severity and risk differ? |
 | SF-04-08 | [Side Channels, Covert Channels, and Unintended Information Leakage](../weaknesses-vulnerabilities-exposure/side-channels-covert-channels-and-unintended-information-leakage.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 05](../PILOT-TECHNICAL-REVIEW-05.md) | How do indirect secret-dependent effects differ from cooperating, policy-violating covert signaling and ordinary disclosure? |
@@ -37,7 +37,7 @@
 | SF-11-07 | [Recovery Objectives and Trusted Restoration](../security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) | Recovery-target measurement versus evidenced trusted restoration |
 | SF-12-08 | [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** | Core claims checked | Legitimate security authority, privacy rights, proportionality and human harm |
 
-**Record count:** **20 substantive Reviewed (model-assisted) working articles** across [Reviews 01–06](../PILOT-TECHNICAL-REVIEW-06.md), covering **117 bounded material claim groups**, plus **5 Drafts** in [Protected Interests, Assets & Harm](../protected-interests-assets-harm/README.md) awaiting their own multi-article review. **71 of 96** current candidates lack an article. These are living development figures, not publication or taxonomy acceptance.
+**Record count:** **25 substantive Reviewed (model-assisted) working manuscripts**: eight under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 claim groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10), four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20), three under [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) (18), one under [Review 05](../PILOT-TECHNICAL-REVIEW-05.md) (10), two under [Review 06](../PILOT-TECHNICAL-REVIEW-06.md) (19), and five under [Review 07](../PILOT-TECHNICAL-REVIEW-07.md) (30). **Total: 147 bounded claim groups.** 71 of 96 currently Inventoried candidate subjects have no authored article; counts are dynamic and do not establish publication approval.
 
 ## Pilot technical review evidence
 
@@ -56,6 +56,8 @@
 **Fifth pilot audit:** [Pilot Technical Review 05](../PILOT-TECHNICAL-REVIEW-05.md) checks ten material claim groups for SF-04-08, recomputes the hypothetical channel-capacity model, distinguishes storage/timing channel categories, and records assumptions and source-version limitations. The manuscript advanced only after the separate review and documented corrections.
 
 **Sixth technical review:** [Pilot Technical Review 06](../PILOT-TECHNICAL-REVIEW-06.md) checks nineteen material claim groups across SF-09-02 and SF-09-07. It verifies official standards edition status, inspects NIST entropy-source and cryptoperiod passages, recomputes the mathematical examples and corrects key hierarchy and nonce usage distinctions. Both manuscripts were independently reviewed after drafting, rather than inheriting earlier article statuses.
+
+**Seventh technical review:** [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md) covers six bounded claim groups each for SF-02-01, SF-02-02, SF-02-04, SF-02-05 and SF-02-07 (30 groups total), including NIST Figures 7–8, FIPS 199 distinctions, an exhaustive logical dependency check, and harm/priority counterexamples. SF-02-03 remains Inventoried. Earlier review totals remain dated evidence.
 
 ## Development states
 

@@ -3,7 +3,7 @@
 **Candidate subject:** SF-02-02 · Protected Interests, Assets & Harm  
 **Working area:** [Protected Interests, Assets & Harm](README.md) · Fundamentals-style structure adopted; precise area and subject ownership remain provisional  
 **Artifact type:** Substantive working reference, not permanently canonical or Published  
-**Development state:** Draft · **Source-review state:** References listed; source concepts consulted, independent second-pass technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md), six article-specific material claim groups; complete source verification and qualified independent acceptance pending  
 **Governance:** [Working inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Ownership register](../CANONICAL-OWNERSHIP-REGISTER.md)
 
 ## The thing protected is not always the reason for protecting it
@@ -12,7 +12,7 @@ An **asset** is something regarded as having value or importance within a given 
 
 These terms overlap without being interchangeable. A server is a resource and may be treated as an asset, but the **reason** its loss matters could be continuity of care, safe production, the correctness of financial records, or the confidentiality of information about people. A right to bodily safety is a protected interest even though treating a human as an item of inventory would distort the moral and legal meaning of that right.
 
-[NIST SP 800-160 Volume 1 Revision 1](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final) §§3.4–3.7 describes stakeholder and system assets and emphasizes that the consequence of asset loss depends on the **asset, form of loss and context**. Its Figure 8 on printed p. 26 lists examples such as capabilities, people, data, components, services, reputation, trust and trade secrets. The list is illustrative: being called an asset does not establish a monetary value or ownership claim over a person.
+[NIST SP 800-160 Volume 1 Revision 1](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final) §§3.4–3.7 describes stakeholder and system assets and emphasizes that the consequence of asset loss depends on the **asset, form of loss and context**. Its Figure 8 on printed p. 26 lists examples such as capabilities, people, data, components, services, reputation, trust and trade secrets. The list is illustrative. NIST Figure 8 includes **humans** among asset types in a systems-engineering consequence model, but the use of *asset* in that model does **not** turn people into property, establish legal ownership over them, or reduce their dignity and rights to asset valuations.
 
 ## Three different descriptions of one protection problem
 
@@ -97,7 +97,7 @@ It would be technically wrong to conclude that the gateway deserves only “$120
 
 ## What an asset classification can and cannot establish
 
-Security categorization frameworks use terms such as low, moderate and high to help organizations reason about particular adverse impacts. [FIPS 199 (2004)](https://csrc.nist.gov/pubs/fips/199/final) establishes a **U.S. federal** information-system categorization method for potential impacts of confidentiality, integrity and availability loss, not a universal asset-price list or a formula for all risk.
+Security categorization frameworks use terms such as low, moderate and high to help organizations reason about particular adverse impacts. [FIPS 199 (2004)](https://csrc.nist.gov/pubs/fips/199/final) establishes a **U.S. federal** categorization method for potential impacts of confidentiality, integrity and availability loss, not a universal asset-price list or a formula for all risk. Its information-system **high-water-mark rule applies separately to each of the three security objectives across relevant information types**, rather than assigning one monetary value or identical impact rating to confidentiality, integrity and availability. For an information *type*, confidentiality can be not applicable; for a categorized information *system*, FIPS 199 requires at least low impact for each objective. See the official FIPS 199 text, printed pp. 3–4 (PDF page indexes 6–7).
 
 An asset's label, classification, inventory membership or ownership record can be valuable evidence that someone considered it. None proves that its access is correctly controlled, that its dependencies are safe, or that it is protected against its most consequential forms of loss.
 
@@ -128,6 +128,6 @@ The point is not to make every asset description a legal instrument or fixed dat
 - [NIST CSF 2.0](https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20), governance and assets/capabilities as outcomes, not proof of deployment effectiveness.
 - [NIST Privacy Framework 1.0](https://csrc.nist.gov/pubs/cswp/10/nist-privacy-framework-version-10/final), privacy-related protected interests of individuals beyond asset-owner financial loss.
 
-**Editorial limitation:** The gateway's price and system are fictional. Asset categories and relationship models are editorial teaching constructions; cited sources inform the concepts without certifying any specific asset taxonomy. This article is **Draft / References listed** until its own separate claim-led review. Source-Verified, independent expert acceptance, canonical placement approval and Published remain pending.
+**Editorial limitation:** The gateway's price and system are fictional. Asset categories and relationship models are editorial teaching constructions; cited sources inform the concepts without certifying any specific asset taxonomy. This article has a separate **Reviewed (model-assisted) / Core claims checked** record in [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md), covering six material claim groups including the NIST Figure 8 human-asset caveat and FIPS 199's per-objective information-system categorization. It is **not** Source-Verified, independently expert-accepted, permanently canonical-approved or Published.
 
 [Security Foundations](../README.md) · [Area index](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

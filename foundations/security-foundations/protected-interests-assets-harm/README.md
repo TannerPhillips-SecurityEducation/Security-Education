@@ -3,7 +3,7 @@
 **Division:** [Security Foundations](../README.md)  
 **Working area ID:** SF-02  
 **Architecture status:** **Provisional area membership and naming**, within a user-approved **Fundamentals-style directory architecture**. The number and names of areas and subjects can expand or contract.  
-**Current content:** **6 candidate subjects; 5 substantive Draft articles** and 1 candidate not yet authored. No article in this area is Reviewed (model-assisted), Source-Verified or Published; the next authoring-related batch must separately review all five Drafts.
+**Current content:** **6 candidate subjects; 5 substantive Reviewed (model-assisted) articles, 0 Draft** and 1 not authored. All five manuscripts have separately documented claim-led technical review evidence in [Review 07](../PILOT-TECHNICAL-REVIEW-07.md). None is fully source-Verified, independently accepted or Published; area and subject ownership remain provisional.
 
 ## Scope and canonical ownership
 
@@ -15,14 +15,14 @@ The area may be renamed, split, consolidated, or relocated when stronger concept
 
 | ID | Proposed subject or actual article | Development and source state | Intended conceptual responsibility |
 | --- | --- | --- | --- |
-| SF-02-01 | [Stakeholders and protection needs](stakeholders-and-protection-needs.md) | **Draft** · References listed; separate claim-led review pending | Relate legitimate interests, obligations, and stakeholders to protection. |
-| SF-02-02 | [Assets, resources, and protected interests](assets-resources-and-protected-interests.md) | **Draft** · References listed; separate claim-led review pending | Distinguish valuable assets from the interests they serve. |
+| SF-02-01 | [Stakeholders and protection needs](stakeholders-and-protection-needs.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 07](../PILOT-TECHNICAL-REVIEW-07.md) | Relate legitimate interests, obligations, and stakeholders to protection. |
+| SF-02-02 | [Assets, resources, and protected interests](assets-resources-and-protected-interests.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 07](../PILOT-TECHNICAL-REVIEW-07.md) | Distinguish valuable assets from the interests they serve. |
 | SF-02-03 | Subjects, objects, and protected actions | **Inventoried / not authored** | Identify actors, resources, actions, and protected interactions. |
-| SF-02-04 | [Value, criticality, and dependencies](value-criticality-and-dependencies.md) | **Draft** · References listed; separate claim-led review pending | Explain contextual importance and dependent protections. |
-| SF-02-05 | [Adverse outcomes, consequences, and harm](adverse-outcomes-consequences-and-harm.md) | **Draft** · References listed; separate claim-led review pending | Describe effects on protected interests, stakeholders and dependencies; risk-scenario consequence estimates remain SF-05-03. |
-| SF-02-07 | [Protection priorities and constraints](protection-priorities-and-constraints.md) | **Draft** · References listed; separate claim-led review pending | Describe competing obligations and the conditions of acceptable protection. |
+| SF-02-04 | [Value, criticality, and dependencies](value-criticality-and-dependencies.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 07](../PILOT-TECHNICAL-REVIEW-07.md) | Explain contextual importance and dependent protections. |
+| SF-02-05 | [Adverse outcomes, consequences, and harm](adverse-outcomes-consequences-and-harm.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 07](../PILOT-TECHNICAL-REVIEW-07.md) | Describe effects on protected interests, stakeholders and dependencies; risk-scenario consequence estimates remain SF-05-03. |
+| SF-02-07 | [Protection priorities and constraints](protection-priorities-and-constraints.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 07](../PILOT-TECHNICAL-REVIEW-07.md) | Describe competing obligations and the conditions of acceptable protection. |
 
-**Review interpretation:** Five substantive working articles have been authored in this area as **Draft / References listed**. None has inherited a model-assisted review from other areas. Their next authoring-related turn must be a separate **multi-article technical review** with individual claim groups, corrections and source boundaries before any promotion to Reviewed. No article is source-Verified, independently peer-reviewed, Published or taxonomy-ratified. SF-02-03 remains Inventoried pending a dedicated access/identity boundary decision.
+**Review interpretation:** All five authored area references passed a **bounded model-assisted technical review** of six material claim groups each, recorded separately in [Technical Review 07](../PILOT-TECHNICAL-REVIEW-07.md). This is **not** source-Verified status, independent human peer review, publication or permanent semantic taxonomy ratification. **SF-02-03 remains Inventoried**, pending a separate access/identity boundary decision.
 
 ## Development and relationships
 
