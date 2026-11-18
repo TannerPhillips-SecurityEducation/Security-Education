@@ -61,7 +61,7 @@ These are analytic examples, not instructions for connecting real power sources.
 
 **Analog versus digital** instead concerns how signals represent values. An alternating waveform can carry analog or digitally encoded information, and a nominally DC-biased signal may have transitions or ripple. AC/DC and analog/digital therefore describe different properties and should not be used interchangeably.
 
-[Analog and Digital Signals](README.md) is the approved subject for representation across continuous and discrete signal levels, while [Waves and Frequency](README.md) owns periodicity and propagation concepts when authored.
+[Analog and Digital Signals](analog-and-digital-signals.md) is the approved subject for representation across continuous and discrete signal levels, while [Waves and Frequency](waves-and-frequency.md) owns periodicity and propagation concepts when authored.
 
 ## Electrical fields, materials and system boundaries
 
