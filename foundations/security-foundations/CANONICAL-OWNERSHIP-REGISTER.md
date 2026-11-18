@@ -2,7 +2,7 @@
 
 **Working edition:** v0.1 · November 18, 2026  
 **Architectural status:** **One working owner per coherent shared security-specific concept** under the user-approved Fundamentals-style directory pattern. The actual names, boundaries and area/subject numbers are **provisional** until independently ratified; the current inventory is **96 candidates within twelve provisional areas**.  
-**Implementation state:** 14 subject manuscripts Reviewed (model-assisted); 82 inventoried without article. No human Approved/Published claim.
+**Implementation state:** 14 subject manuscripts Reviewed (model-assisted); 1 Draft; 81 inventoried without article. No human Approved/Published claim.
 
 ## Meaning of ownership
 
@@ -100,7 +100,7 @@ The single-owner rule prevents a security property or threat concept from being 
 | SF-11-04 | Resilience, survivability, and robustness | [Security Failure & Resilience](security-failure-resilience/README.md) | [Reviewed working concept](security-failure-resilience/resilience-survivability-and-robustness.md) | Distinguish resistance from continued function and adaptation after stress. |
 | SF-11-05 | Redundancy, diversity, and common-mode failure | [Security Failure & Resilience](security-failure-resilience/README.md) | **Provisional owner; article pending** | Describe why duplication may or may not improve security outcomes. |
 | SF-11-06 | Graceful degradation and safe failure | [Security Failure & Resilience](security-failure-resilience/README.md) | **Provisional owner; article pending** | Balance availability with integrity, safety, and authorization constraints. |
-| SF-11-07 | Recovery objectives and trusted restoration | [Security Failure & Resilience](security-failure-resilience/README.md) | **Provisional owner; article pending** | Explain restoration goals and why recovery must establish trustworthy state. |
+| SF-11-07 | Recovery objectives and trusted restoration | [Security Failure & Resilience](security-failure-resilience/README.md) | [Draft working concept](security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | Explain restoration goals and why recovery must establish trustworthy state. |
 | SF-11-08 | Persistent compromise and adaptation | [Security Failure & Resilience](security-failure-resilience/README.md) | **Provisional owner; article pending** | Describe how adversarial persistence changes restoration assumptions. |
 | SF-12-01 | Security claims and assurance arguments | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | [Reviewed working concept](security-assurance-governance-accountability/security-claims-and-assurance-arguments.md) | Tie explicit claims to assumptions, structured arguments, and supporting evidence. |
 | SF-12-02 | Verification, validation, and security evaluation | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | **Provisional owner; article pending** | Distinguish conformance to specifications from suitability for protection needs. |
