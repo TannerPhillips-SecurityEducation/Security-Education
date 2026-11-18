@@ -138,4 +138,6 @@ An instrument that samples once per second cannot, from a single sample, general
 
 **Review record:** Core terms were cross-checked against VIM3 entries for measurement, measurand, result, accuracy, precision, uncertainty, calibration and traceability. The threshold example was checked for the stated logical comparison and is explicitly hypothetical, not a confidence/coverage guarantee. This article passed the scoped model-assisted review described in the Wave A Batch 02 audit; it has not undergone independent human acceptance.
 
+**Additional technical review (November 18, 2026):** The established-framework/model additions above were checked under the [Wave G 39-family scoped model-assisted review](../WAVE-G-TECHNICAL-REVIEW-01.md) (three material claim groups for this article). The earlier audit record remains historical. This does not establish complete source-level verification, independent expert review, or final publication acceptance.
+
 [Scientific & Analytical Reasoning](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
