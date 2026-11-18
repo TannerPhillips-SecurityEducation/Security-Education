@@ -219,6 +219,20 @@ The intended working relationship is with an **independent technical collaborato
 - [Security Foundations AGENTS.md](foundations/security-foundations/AGENTS.md): security-specific reference development and **unratified** subject taxonomy, source-led pilot development.
 - [Operational Foundations AGENTS.md](foundations/operational-foundations/AGENTS.md): shared security methodologies with **no approved internal taxonomy or article inventory yet**.
 
+**Specialized domain contracts (all inherit this root SOP):**
+
+- [Network AGENTS.md](network/AGENTS.md): communication functions, protocols, traffic units, telemetry and network-specific implementation evidence.
+- [Endpoint AGENTS.md](endpoint/AGENTS.md): OS-aware host functions, privileged behavior, execution/storage boundaries and OS-family secondary indexes.
+- [Application AGENTS.md](application/AGENTS.md): function-first application behavior, state, APIs, validation, authorization and application-type discovery indexes.
+- [Cloud AGENTS.md](cloud/AGENTS.md): cloud-service functions, resource and control/data planes, provider-specific semantics and provider secondary indexes.
+- [Industrial AGENTS.md](industrial/AGENTS.md): industrial physical processes, controllers, instruments, safety constraints and operational-technology implementations.
+- [IoT AGENTS.md](iot/AGENTS.md): connected-device functions and roles, gateways, sensor/actuator evidence, constrained resources and lifecycle states.
+- [Identity AGENTS.md](identity/AGENTS.md): proofing, credentials, authentication, authorization, federation, privilege and identity assurance.
+
+**Repository automation:** [GitHub Actions AGENTS.md](.github/AGENTS.md) defines least-privilege CI, truthful pass/fail evidence, safety constraints and dynamic inventory checks.
+
+Each top-level directory now has a **tailored 13-section operating contract**. These contracts refine, but cannot silently override, this SOP's flexible content, canonical ownership, explicit approval and evidence requirements.
+
 Domain README and function indexes remain the source of truth for domain-approved navigation and implementation placement.
 
 File purposes must remain distinct:
