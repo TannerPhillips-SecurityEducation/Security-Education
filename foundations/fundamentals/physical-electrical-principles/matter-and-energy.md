@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Physical & Electrical Principles](README.md)  
 **Approved subject heading:** Matter and energy  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 01 technical audit](../WAVE-C-TECHNICAL-REVIEW-01.md); independent human review pending
 
 ## Physical systems contain material and exchange energy
 
@@ -69,6 +69,6 @@ Evaluating temperature rise needs additional information about cooling, heat cap
 - [OpenStax University Physics Volume 1: Chapter 7 Summary](https://openstax.org/books/university-physics-volume-1/pages/7-summary).
 - [BIPM: The International System of Units (SI Brochure)](https://www.bipm.org/en/publications/si-brochure).
 
-**Editorial status:** Substantive Draft with stipulated physical calculations. A separate technical and source audit is required before internal review-state promotion. Independent human acceptance and final publication remain pending.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave C Batch 01 24-group audit](../WAVE-C-TECHNICAL-REVIEW-01.md). Complete source verification, independent human expert peer review and final publication acceptance remain outstanding.
 
 [Physical & Electrical Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
