@@ -6,6 +6,8 @@
 **Status of this file:** An operational guide derived from the observed Fundamentals workflow and explicitly established Security Knowledge constraints. Review and revise as the project develops.  
 **Sibling contracts:** [Fundamentals AGENTS.md](../fundamentals/AGENTS.md) and [Operational Foundations AGENTS.md](../operational-foundations/AGENTS.md). All three share thirteen operating sections while preserving each division's actual architecture-approval state.
 
+**Inherited root SOP:** [Repository AGENTS.md](../../AGENTS.md) governs evidence, variable depth/granularity, editorial autonomy, non-Socratic collaboration, approvals, provenance and validation across the repository. This file adds division-specific requirements; it does not override higher-priority instructions or turn proposed knowledge structures into approved ones.
+
 ## 1. Mission and non-negotiable boundaries
 
 Security Foundations explains **what security and insecurity mean, what can go wrong, how security properties and controls operate, and what evidence justifies protection claims** across technical systems and the seven specialized knowledge domains.
