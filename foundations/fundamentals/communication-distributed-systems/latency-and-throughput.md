@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Communication & Distributed Systems](README.md)  
 **Approved subject heading:** Latency and throughput  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Communication & Distributed Systems 54-family audit](../WAVE-E-TECHNICAL-REVIEW-02.md); independent human review pending
 
 ## Time to a result differs from volume of results per unit time
 
@@ -69,6 +69,6 @@ This article introduces no network benchmark, QoS policy, vendor equipment assum
 - [RFC 9293 TCP](https://www.rfc-editor.org/rfc/rfc9293.html).
 - [NIST Binary Prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 
-**Editorial status:** Substantive Draft. Serialization/propagation arithmetic and performance qualifications require a separate scoped technical review. No measurements of actual networks are claimed.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E Communication & Distributed Systems 54-family technical audit](../WAVE-E-TECHNICAL-REVIEW-02.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Communication & Distributed Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
