@@ -128,13 +128,16 @@ def main():
         # Historical alias from prior review waves is allowed but never counted
         # as a substantive article or second source of canonical knowledge.
         alias=PILOT.parent/target.name
-        if not alias.is_file():
-            errors.append(f"{id_}: former pilot path alias missing")
-        else:
+        # Historical pilot paths are required only for articles that were
+        # actually relocated from the former flat pilots directory.
+        # Area-first new Draft articles have no historical URL to preserve.
+        if alias.is_file():
             txt=alias.read_text(encoding="utf-8")
             if "Historical pilot path retained for link compatibility" not in txt:
                 errors.append(f"{id_}: former pilot path still contains substantive body")
             aliases+=1
+        elif m.group(4)=="Reviewed (model-assisted)":
+            errors.append(f"{id_}: reviewed historical pilot alias missing")
     if pilots!=len(actual_articles): errors.append(f"pilot register has {pilots} rows; {len(actual_articles)} articles exist")
     print(f"WORKING_AREA_DIRECTORIES={len(active)}")
     print(f"WORKING_CANDIDATES={len(all_ids)}")
