@@ -91,7 +91,7 @@ Control goals can include tracking a target, rejecting disturbances, remaining w
 
 **Stability** concerns how the modeled system responds to perturbations. **Robustness** concerns persistence of desired behavior across a defined set of uncertainties. **Observability** concerns whether internal conditions can be distinguished from outputs under a model; **controllability** concerns the ability of admissible inputs to affect reachable states. Formal definitions depend on the class of system and should not be claimed without its assumptions.
 
-[Dependencies](dependencies.md) owns necessary resource relations; [Architecture and Composition](architecture-and-composition.md) owns allocation and interaction views. The separate [Physical Control Mechanisms](../physical-electrical-principles/README.md) heading owns physical implementation context. General temporal concepts remain open under [G-04](../COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks).
+[Dependencies](dependencies.md) owns necessary resource relations; [Architecture and Composition](architecture-and-composition.md) owns allocation and interaction views. The separate [Physical Control Mechanisms](../physical-electrical-principles/README.md) heading owns physical implementation context. General time and interval meanings now have a canonical home in [Temporal Concepts and Models](../models-abstraction/temporal-concepts-and-models.md); this article owns the behavior of a feedback arrangement over time.
 
 ## Sources and acceptance boundary
 
