@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-03-01 · Threats, Hazards & Adversarial Behavior  
 **Artifact type:** Working article pilot; proposed canonical ownership, **not ratified**  
-**Development state:** Draft · **Source state:** References listed; scoped review pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md), five material claim groups; full source verification and independent expert acceptance pending  
 **Architecture:** [v0.3 proposal](../ARCHITECTURE.md) · [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)
 
 ## A source of possible harm is not the same as an event
@@ -97,5 +97,7 @@ A threat source's technical capability is not a probability of occurrence. The f
 **Authoritative starting points:** [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final); [MITRE ATT&CK](https://attack.mitre.org/); [MITRE CAPEC](https://capec.mitre.org/); [Microsoft STRIDE terminology](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats); [Security Foundations' existing model comparison](../ESTABLISHED-MODEL-CROSSWALK.md).
 
 **Limits:** This is a generalized conceptual article, not a risk-assessment procedure, legal attribution, intelligence report or proof of attacker motive. The model sources are accurately differentiated at the scope level; complete technical/passage verification and independent expert acceptance remain open.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md). This is a **working pilot**, not an approved permanent canonical article, source-Verified artifact or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md)
