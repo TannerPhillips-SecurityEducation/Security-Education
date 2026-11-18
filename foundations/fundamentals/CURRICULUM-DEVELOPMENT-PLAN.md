@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v1.16; 76 internally reviewed references, 5 drafts, 28 inventoried headings; external human acceptance pending
+**Document status:** Working plan v1.17; 81 internally reviewed references, 9 drafts, 19 inventoried headings; external human acceptance pending
 **Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -54,18 +54,20 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record
 6. **No assessments.** No Knowledge Checks or Practical Assessments appear anywhere in this development plan or in the resulting knowledge reference.
 7. **Versioned evolution.** Preserve approved category identities while documenting proposed additions, merges, relocations, and corrections before changing canonical structure.
 
-## Execution Status: Wave D Batch 01 Reviewed; Batch 02 fully authored
+## Execution Status: Wave D Batch 02 reviewed; Software & Programming authored
 
-- **Wave A:** 26 of 26 approved subjects internally Reviewed (model-assisted).
-- **Wave B:** 28 of 28 approved subjects internally Reviewed (model-assisted).
-- **Wave C:** 18 of 18 approved subjects internally Reviewed (model-assisted).
-- **Wave D Batch 01 Reviewed:** [Computability](computation-algorithms/computability.md), [Algorithms](computation-algorithms/algorithms.md), [Algorithm Design](computation-algorithms/algorithm-design.md), and [Complexity](computation-algorithms/complexity.md) passed the [24-family scoped technical audit](WAVE-D-TECHNICAL-REVIEW-01.md). The language recognizer definition was clarified; the halting proof, coin-change recurrence and complexity recurrence were checked.
-- **Wave D Batch 02 Drafts:** [Computational Data Structures](computation-algorithms/computational-data-structures.md), [Iteration and Recursion](computation-algorithms/iteration-and-recursion.md), [Concurrency and Parallelism](computation-algorithms/concurrency-and-parallelism.md), [Synchronization](computation-algorithms/synchronization.md), and [Computational Efficiency](computation-algorithms/computational-efficiency.md) are substantive, source-linked articles awaiting their own scoped technical audit.
-- **Computation & Algorithms authoring coverage:** **9/9 approved headings authored** (four Reviewed, five Draft). **Software & Programming:** 0/9 authored. **Wave E:** 19 approved operating-system and distributed-system headings not yet authored.
-- **Portfolio reconciliation:** The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) accounts for **109 approved headings: 76 Reviewed (model-assisted), 5 Draft, 28 Inventoried without articles**.
-- G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No new subject headings, knowledge areas, learner assessments or required implementation stacks have been added.
+- **Wave A:** 26/26 approved headings internally Reviewed (model-assisted).
+- **Wave B:** 28/28 approved headings internally Reviewed (model-assisted).
+- **Wave C:** 18/18 approved headings internally Reviewed (model-assisted).
+- **Wave D Computation & Algorithms:** **9/9 internally Reviewed** following [Batch 01](WAVE-D-TECHNICAL-REVIEW-01.md) and [Batch 02](WAVE-D-TECHNICAL-REVIEW-02.md). Batch 02 audited 30 claim families across five articles, including amortized dynamic-array growth, recursion, synchronization, and practical efficiency.
+- **Wave D Software & Programming, Batch 03 Drafts:** [Programming Languages](software-programming/programming-languages.md), [Syntax and Semantics](software-programming/syntax-and-semantics.md), [Programming Paradigms](software-programming/programming-paradigms.md), and [Compilation and Interpretation](software-programming/compilation-and-interpretation.md).
+- **Wave D Software & Programming, Batch 04 Drafts:** [Runtime Environments](software-programming/runtime-environments.md), [Modules and Dependencies](software-programming/modules-and-dependencies.md), [Software Interfaces](software-programming/software-interfaces.md), [Error Handling](software-programming/error-handling.md), and [Testing and Software Lifecycle](software-programming/testing-and-software-lifecycle.md).
+- **Wave D authoring coverage:** **18/18 approved subjects authored**, nine internally Reviewed and nine Draft. The Software & Programming drafts have authoritative references and verified file destinations but **have not passed their own scoped technical audits**.
+- **Wave E remains un-authored:** 19 approved subjects, consisting of ten Operating System Principles and nine Communication & Distributed Systems headings.
+- **Portfolio reconciliation:** The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) accounts for all **109 approved headings: 81 Reviewed (model-assisted), 9 Draft and 19 Inventoried without article**.
+- G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open architectural decisions. No new headings, knowledge areas, learner assessments, or mandatory language/runtime stacks were introduced.
 
-**Next execution:** Conduct the five-article Wave D Batch 02 technical/source and example audit before promoting any Drafts. Then author the nine approved Software & Programming subjects, followed by Wave E. Independent human expert peer review, comprehensive source verification and seven corpus-wide publication gates remain separate pending responsibilities.
+**Next execution:** Audit the nine Software & Programming Drafts under separately documented scoped technical/source reviews, then proceed to approved Wave E authoring. Independent human expert peer review, comprehensive source-level verification, corpus-wide link/anchor integrity and the seven publication gates remain separate outstanding responsibilities.
 
 ## 4. Work Packages and Stage Gates
 
@@ -210,8 +212,9 @@ No graph database or universal front-matter schema is required at this stage. Pr
 11. **Completed:** Four Wave C Batch 02 articles passed the [24-family technical audit](WAVE-C-TECHNICAL-REVIEW-02.md), with an exact aliasing-example correction.
 12. **Completed:** Wave C Batch 03's nine articles passed the [54-family technical audit](WAVE-C-TECHNICAL-REVIEW-03.md). Wave C is 18/18 internally Reviewed.
 13. **Completed:** The four Wave D Batch 01 references passed the [24-family scoped review](WAVE-D-TECHNICAL-REVIEW-01.md).
-14. **Completed authoring:** Five Wave D Batch 02 Computation & Algorithms Drafts committed; their separate technical audit remains pending.
-15. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately. The 109-heading corpus is not publication-complete until the seven Fundamentals gates and applicable human acceptance are satisfied.
+14. **Completed:** Five Wave D Batch 02 articles passed the [30-family scoped technical review](WAVE-D-TECHNICAL-REVIEW-02.md); Computation & Algorithms is 9/9 internally Reviewed.
+15. **Completed authoring:** Nine Software & Programming substantive Drafts committed in Wave D Batches 03–04; their separate review gates remain pending.
+16. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately. The 109-heading corpus is not publication-complete until the seven Fundamentals gates and applicable human acceptance are satisfied.
 
 Production waves guide authors, **not reader prerequisites**. Knowledge Checks and Practical Assessments remain excluded.
 
@@ -241,6 +244,7 @@ Production waves guide authors, **not reader prerequisites**. Knowledge Checks a
 - [Wave C Batch 02 Claim-to-Source Review (24 families)](WAVE-C-TECHNICAL-REVIEW-02.md)
 - [Wave C Batch 03 Claim-to-Source Review (54 families)](WAVE-C-TECHNICAL-REVIEW-03.md)
 - [Wave D Batch 01 Claim-to-Source Review (24 families)](WAVE-D-TECHNICAL-REVIEW-01.md)
+- [Wave D Batch 02 Claim-to-Source Review (30 families)](WAVE-D-TECHNICAL-REVIEW-02.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
 - [Knowledge relationship conventions](../../RELATIONSHIPS.md)
