@@ -30,6 +30,18 @@ Query operations commonly include:
 
 These words describe general operations; exact SQL syntax, null handling, and duplicate semantics are language-specific. [Sets and Relations](../mathematics-logic/sets-and-relations.md) owns formal mathematical relations, and [Probability and Statistics](../mathematics-logic/probability-and-statistics.md) owns inferential statistics.
 
+## Relational and entity–relationship models describe different things
+
+The **relational model** represents relations as sets of tuples under a mathematical schema and interprets operations such as selection, projection, joins and constraints. A database SQL table may permit duplicate rows and null values under specific SQL semantics, so it is not automatically identical to a mathematical set of complete tuples. Physical indexes, storage layouts and query execution plans implement the chosen logical behavior but are not part of the pure relational model.
+
+An **entity–relationship (ER) model** is a conceptual design technique representing entity types, relationships, attributes and constraints. It helps describe the intended data domain before deciding how the entities and relationships become relational tables, graph structures or another implementation. An ER diagram is therefore **not** equivalent to a normalized SQL schema, much less to a particular physical storage engine.
+
+Consider Customers(customer_id, name) and Orders(order_id, customer_id, total). Each order may be associated with one customer through a reference to customer_id; a customer may have several orders. A conceptual one-to-many association can be implemented by a foreign key, but only if its integrity and optionality constraints have actually been declared and enforced.
+
+**Worked interpretation:** If customer C1 has three order rows and C2 has one, an inner join grouped by customers produces **four order-associated joined rows**. Counting joined rows is not the same as counting distinct customers (**two**). An inner join also omits customers without matching orders. Queries need explicit grain, key, missingness and aggregation choices.
+
+The relational model and ER modeling do not determine whether the data are historically accurate. [Data Provenance and Lifecycle](data-provenance-and-lifecycle.md) owns records of data origin and transformation; [Schemas](../models-abstraction/schemas.md) owns general field and validation contracts.
+
 ## Worked example: query changes what is counted
 
 Suppose a table `observations` contains these stipulated rows:
@@ -90,6 +102,10 @@ Queries can retrieve a logically correct result from incomplete, biased or incor
 This article does not choose a database engine, SQL dialect, indexing method, schema or graph platform for the Security Education repository. [Metadata](metadata.md) describes dataset context, and [Data Provenance and Lifecycle](data-provenance-and-lifecycle.md) describes the origin and transformations of underlying records.
 
 ### Sources
+
+- [ISO/IEC 9075-2:2023 SQL/Foundation (standard scope)](https://www.iso.org/standard/76584.html).
+- [PostgreSQL documentation: Table Expressions and Joins](https://www.postgresql.org/docs/current/queries-table-expressions.html).
+
 
 - [ISO/IEC 9075-1:2023, Database Languages SQL: Framework](https://www.iso.org/standard/76583.html).
 - [ISO/IEC 9075-2:2023, SQL/Foundation](https://www.iso.org/standard/76584.html).
