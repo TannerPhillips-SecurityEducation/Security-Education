@@ -1,0 +1,192 @@
+# Security Foundations: Governing Architecture Proposal
+
+**Edition:** v0.1 · November 17, 2026  
+**Status:** **Proposed; not ratified**  
+**Approved parent:** Security Knowledge → Foundations → Security Foundations  
+**Candidate inventory:** [12 knowledge areas and 94 subjects](SUBJECT-INVENTORY-PROPOSAL.md), all pending architectural approval  
+**Repository constraints:** Hierarchy for navigation; knowledge graph through explicit links; no formal graph schema adopted; no Knowledge Checks or Practical Assessments.
+
+## 1. Governing definition (proposed)
+
+> **Security Foundations establishes the shared objectives, conditions, concepts, principles, mechanisms, and evidentiary relationships needed to understand security and insecurity across systems and domains.**
+
+Security is considered relative to **a protected interest**, **a system and its environment**, **an objective or acceptable outcome**, **assumptions about relevant threats and conditions**, and **the grounds for confidence** that the objective can be met. A system is not globally or permanently "secure" just because it has a control, passes a checklist, or produces no alerts.
+
+The division explains **what protection means, what can go wrong, how protections can work, and what justifies security claims**. It is security-specific but not vendor-, technology-, platform-, operations-, or domain-specific. It does not presume security is a property of a network alone.
+
+## 2. Position among the three approved Foundations divisions
+
+| Division | Governing knowledge responsibility | Illustrative canonical material |
+| --- | --- | --- |
+| [Fundamentals](../fundamentals/README.md) | General technical, scientific, mathematical, logical, computational and systemic concepts independent of security | Systems, identity as distinction, state, events, data, probability, logic, communication, models |
+| **Security Foundations** | Shared security-specific meaning, adverse conditions, protective principles, risk concepts, trust assumptions, security evidence and assurance | Confidentiality, threat, vulnerability, attack surface, trust boundary, controls, security claims |
+| [Operational Foundations](../operational-foundations/README.md) | Cross-domain *methods and activities* for applying security knowledge | Investigation, threat hunting, incident response, vulnerability management, security assessment and monitoring workflows |
+| [Specialized knowledge domains](../../README.md#knowledge-domains) | Particular domain functions, mechanisms, interfaces, implementations and their constraints | Network protocols and sensor implementations, OS protections, IAM systems, cloud policies, OT controllers |
+
+**Boundary rule:** A general event is a Fundamentals concept; a *security-relevant* event and the limits of judging it belong here; deciding whether to escalate that event through a triage workflow belongs to Operational Foundations; collecting or implementing the telemetry belongs in the applicable specialized function.
+
+Likewise, general identity is not synonymous with authentication. Security Foundations owns the **shared conceptual distinction** between identification, authentication, authorization and authority; [Identity Knowledge](../../identity/README.md) owns the detailed identity and access functions, mechanisms and implementations.
+
+## 3. A security-reality model (explanatory, not a formal ontology)
+
+```text
+Stakeholders and protected interests
+              │ establish protection needs
+              ▼
+     Security objectives and requirements
+              │ apply to
+              ▼
+       System and environment ◄──── Trust assumptions / boundaries
+              │
+   ┌──────────┼─────────────────────┐
+   │          │                     │
+   ▼          ▼                     ▼
+Threats / hazards    Weaknesses and exposure    Controls / secure design
+   │          │                     │
+   └──────────┴─────────┬───────────┘
+                        ▼
+        Possible events and consequences
+                        │
+                        ▼
+     Contextual risk under uncertainty
+
+   Observable conditions and events
+                        ▼
+             Actual observations
+                        ▼
+            Recorded representations
+                        ▼
+        Evidence → Inferences → Claims
+                        │
+                        ▼
+             Assurance and limits
+```
+
+This sketch is deliberately **not** a claim of a universal linear causal chain, a probability formula, or a deterministic ontology.
+
+- Threat events and harmful consequences can arise from adversaries, accidents, environmental hazards, or systemic failures. An exploit of a vulnerability is **one** pathway, not a prerequisite for all losses.
+- A weakness, vulnerability, exposure, an attempted attack, a confirmed compromise, and an adverse consequence are **different** propositions. A critical weakness need not imply high scenario-specific risk, and a severe consequence need not establish a particular exploit path.
+- Controls may change opportunities, likelihoods, impacts, observability, recovery, or trust assumptions. No control is presumed complete, error-free, or independent from the rest of the system.
+- General risk estimation involves scenario, consequences, likelihood or frequency where meaningful, uncertainty, time horizon, and decision context. **Risk = likelihood × impact** is not adopted as a universal theory or always-valid numeric operation.
+- Reality, observability, observation, recording, evidence and interpretation are not interchangeable. A missing indicator does not demonstrate absence of malicious activity. Intent and attribution require inference beyond an event record.
+
+## 4. Twelve candidate knowledge areas
+
+The grouping is proposed navigation, **not** the approved twelve-area Fundamentals taxonomy and **not** a mandate to have twelve categories here.
+
+| Candidate area | Distinctive question |
+| --- | --- |
+| 01. Security Meaning & Objectives | What must be protected, and which properties count? |
+| 02. Protected Interests, Assets & Harm | Whose interests matter and what loss would be adverse? |
+| 03. Threats & Adversarial Behavior | What actors or conditions could produce unwanted events? |
+| 04. Weaknesses, Vulnerabilities & Exposure | What conditions enable or amplify failures? |
+| 05. Security Risk & Uncertainty | How might harms occur and how uncertain are our judgments? |
+| 06. Trust, Identity & Authority Principles | On what grounds do entities and actions receive trust or permission? |
+| 07. Security Controls & Defense Mechanisms | Which protections exist and how might they work or fail? |
+| 08. Secure Design & Architecture | How are protections arranged within systems and boundaries? |
+| 09. Cryptography & Information Protection | What properties can cryptographic means supply and under what assumptions? |
+| 10. Security Observation & Evidence | What is observable, recorded, inferred or reasonably demonstrated? |
+| 11. Security Failure & Resilience | What happens when protection fails and how can valued functions survive? |
+| 12. Security Assurance, Governance & Accountability | What supports credible claims and legitimate decisions? |
+
+Full candidate headings and working scopes appear in the [Subject Inventory Proposal](SUBJECT-INVENTORY-PROPOSAL.md). No subject articles or implementation-specific directories are created merely by this proposal.
+
+## 5. Governing architectural requirements
+
+### 5.1 Security specificity without domain dependence
+
+To qualify for Security Foundations, a concept must require **security meaning** yet apply across more than one specialized knowledge domain. Platform names may be examples, never organizing principles. General mathematical, computational, scientific and systems explanations remain in Fundamentals.
+
+### 5.2 One conceptual owner, many contextual uses
+
+A concept has one canonical home for its **general security meaning**, while domain specialists may own genuinely different implementations and behavior. Cross-reference, do not duplicate. A directory is a navigational classification, not evidence of an "is-a" relation.
+
+### 5.3 Explain causal and protective mechanisms
+
+A reference must do more than name a control or threat. It should explain preconditions, actors or system elements, the relevant security property, plausible mechanisms, where the claim stops, relevant failures, and what evidence supports it.
+
+### 5.4 Separate reality from interpretation
+
+Record distinctions between event occurrence, observable behavior, captured data, evidence, inference and security assertion. Distinguish *unknown*, *benign*, *anomalous*, *suspicious* and *malicious* when useful without treating any one scale as a ratified repository-wide classifier. Syntax, semantics, pragmatics, content, context and inferred intent may support explanation; they are not declared equivalent triads or a new ontology.
+
+### 5.5 Make security conditional and assessable
+
+A general statement such as "this is secure" should be refined into a claim about **specified assets, objectives, boundaries, threats, assumptions, consequences and evidence**. Where limits or dependencies are unknown, say so. Do not equate compliance, cryptographic use, the absence of alerts, or use of a recognized framework with verified effectiveness.
+
+### 5.6 Preserve separate protection interests
+
+Confidentiality, integrity, availability, authenticity, accountability, safety, privacy, continuity and resilience are related but are not automatically synonyms or always co-optimized. Describe conflicts and tradeoffs rather than imposing a universal objective ordering.
+
+### 5.7 Use standards as evidence, not as taxonomy by default
+
+NIST CSF 2.0 supplies six *cybersecurity risk-management outcome functions*: Govern, Identify, Protect, Detect, Respond, Recover. These are **not adopted as the twelve Security Foundations knowledge-area categories**, and their naming does not replace the separate conceptual or operational responsibilities. Framework mappings may be maintained as secondary views.
+
+MITRE ATT&CK describes observed adversary behavior; CWE describes weakness classes. Neither is an exhaustive or universal ontology of security. Use them as specific sources with explicit applicability limits.
+
+### 5.8 Exclude assessments and hidden approvals
+
+No Knowledge Checks, Practical Assessments, quizzes, graded labs or certification tracks. Proposed headings, relation types, source authority rules, state vocabularies and technical architecture changes are not approved merely by being placed in Markdown.
+
+## 6. Editorial contract for future canonical articles (proposed)
+
+A candidate article should provide, as applicable:
+
+1. **Definition and boundary:** precise security-specific meaning and non-examples.
+2. **Why it matters:** protected interest, potential failure, harm or decision affected.
+3. **Structure and mechanism:** actors, state, preconditions, functions, failure modes and constraints.
+4. **Distinctions:** adjacent concepts that must not be conflated.
+5. **Worked explanation:** a vendor-neutral scenario with explicit assumptions and plausible alternatives.
+6. **Relationships:** links to canonical Fundamentals concepts, other Security Foundations articles and relevant specialized domains/operational methods.
+7. **Sources and uncertainty:** primary source references for material claims, with scope, qualifications and unsupported conclusions made visible.
+
+These facets guide article quality; they are **not** seven additional category types or mandatory identical headings.
+
+## 7. Cross-domain applications without duplicated definitions
+
+| Domain | Illustrative application of shared Security Foundations | Where implementation belongs |
+| --- | --- | --- |
+| [Network](../../network/README.md) | Trust boundaries, exposure, authenticity, communication integrity | Network functional categories and concrete protocols |
+| [Endpoint](../../endpoint/README.md) | Process isolation, execution trust, privileges, persistence, compromise | Endpoint OS/function documentation |
+| [Application](../../application/README.md) | Input trust, authorization, software weakness, secure defaults | Application functions and concrete implementations |
+| [Cloud](../../cloud/README.md) | Shared responsibility, identity trust, control plane exposure | Cloud functions and provider-specific indexes |
+| [Industrial](../../industrial/README.md) | Safety-security tradeoffs, availability, consequence, resilience | Industrial functions, devices and protocols |
+| [IoT](../../iot/README.md) | Device identity, lifecycle trust, constrained protection | IoT device functions and implementations |
+| [Identity](../../identity/README.md) | Authentication, authorization, identity claims, delegation | IAM functions, credential mechanisms and platforms |
+
+These examples are intended links between concepts and contexts, **not approval of new domain categories**.
+
+## 8. Placement and overlap decision procedure
+
+When adding or moving material, decide in order:
+
+1. **Is security meaning necessary?** If no, favor Fundamentals.
+2. **Is this a principle or meaning versus an operational method?** Procedures and workflows belong to Operational Foundations.
+3. **Does it depend on a specialized implementation or domain function?** Assign that mechanism to the relevant specialized domain.
+4. **Who owns the generic definition?** Link to existing canonical content rather than copy it.
+5. **What is being claimed?** Specify scope, assumptions, counterexamples, testable consequences and source evidence.
+6. **Is the placement settled?** Record contested cases in the [Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) proposal; do not silently ratify them.
+
+## 9. Source orientation and applicability
+
+Authoritative source starting points, not blanket endorsement of every proposed heading:
+
+- [NIST SP 800-160 Vol. 1 Rev. 1: Engineering Trustworthy Secure Systems](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final), system-level security concepts and engineering.
+- [NIST SP 800-160 Vol. 2 Rev. 1: Developing Cyber-Resilient Systems](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final), resilience and protection under adverse conditions.
+- [NIST SP 800-30 Rev. 1: Guide for Conducting Risk Assessments](https://csrc.nist.gov/pubs/sp/800/30/r1/final), threat events, vulnerabilities, consequences and uncertainty within its federal information-system scope.
+- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20), organizational cybersecurity risk-management outcomes, not a conceptual ontology.
+- [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final), conditional trust and resource-focused security architectures.
+- [NIST SP 800-63-4: Digital Identity Guidelines](https://csrc.nist.gov/pubs/sp/800/63/4/final), an identity-specific reference rather than a universal definition of all identity.
+- [MITRE CWE](https://cwe.mitre.org/about/), classes of software and hardware weakness.
+- [MITRE ATT&CK](https://attack.mitre.org/resources/pre-introduction/), observed cyber-adversary behaviors.
+
+**Verification limit:** These documents ground the *choice to investigate* candidate concepts; they have not been used here to verify every future claim or certify the candidate taxonomy.
+
+## 10. Architectural acceptance boundary
+
+**Already approved:** Security Foundations as an independent division alongside Fundamentals and Operational Foundations, the seven specialized knowledge domains, the domain/function/implementation navigation policy, and repository exclusion of Knowledge Checks and Practical Assessments.
+
+**Proposed, not approved:** This governing definition's precise wording, the twelve-area grouping, the 94 proposed subjects, their canonical ownership decisions, article editorial contract, and any proposed publication gates. Architecture approval is distinct from technical review of future articles.
+
+Next: evaluate [Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) and [Development Plan](DEVELOPMENT-PLAN.md); decide the candidate taxonomy and contested overlaps; only then build the canonical article hierarchy.
+
+[Security Foundations index](README.md) · [Candidate subjects](SUBJECT-INVENTORY-PROPOSAL.md) · [Foundations](../README.md) · [Knowledge relationships](../../RELATIONSHIPS.md)
