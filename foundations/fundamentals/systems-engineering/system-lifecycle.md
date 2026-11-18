@@ -94,7 +94,7 @@ A lifecycle model helps organize decision-making but cannot ensure technical cor
 
 Feedback from operations can inform requirements and redesign. Scientific evidence can invalidate assumptions that were reasonable when a baseline was approved. A mature system therefore requires some method for documenting changed knowledge and revising decisions, but the exact governance mechanism depends on the organization.
 
-**G-04 general temporality** remains open; this article treats temporal progression only as applied to system engineering, not as canonical ownership of time, simultaneity or universal temporal logic.
+[Temporal Concepts and Models](../models-abstraction/temporal-concepts-and-models.md) now owns G-04 general temporal representations. This article treats progression as a system-engineering lifecycle concept and does not redefine instants, simultaneity, or temporal logic.
 
 ### Sources
 
