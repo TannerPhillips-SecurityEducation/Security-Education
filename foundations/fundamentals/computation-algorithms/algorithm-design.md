@@ -79,13 +79,13 @@ A **correctness argument** must match the algorithm's actual contract and use st
 
 Induction can justify `M(a)` over increasing amounts because every recursive case refers to a strictly smaller nonnegative amount. An implementation may compute results bottom-up in a table or top-down with memoization. Both can implement the same mathematical recurrence under appropriate conditions.
 
-[Deduction, Induction, and Abduction](../scientific-analytical-reasoning/deduction-induction-abduction.md) owns general inferential forms, and [Iteration and Recursion](README.md) owns the specialized computational mechanisms when authored.
+[Deduction, Induction, and Abduction](../scientific-analytical-reasoning/deduction-induction-abduction.md) owns general inferential forms, and [Iteration and Recursion](iteration-and-recursion.md) owns the specialized computational mechanisms when authored.
 
 ## Choosing a design under constraints
 
 Correctness is necessary, but designs also differ in time, space, latency, predictability, parallelizability, understandability and maintenance burden. One algorithm can be mathematically optimal for comparison count yet poor when memory accesses dominate runtime. Another can perform well on common workloads but have an unacceptable worst-case delay.
 
-Design decisions therefore need a **cost model and intended environment**. [Complexity](complexity.md) owns asymptotic resource growth; [Computational Efficiency](README.md) owns practical resource tradeoffs; [Computational Data Structures](README.md) owns operation cost under a representation.
+Design decisions therefore need a **cost model and intended environment**. [Complexity](complexity.md) owns asymptotic resource growth; [Computational Efficiency](computational-efficiency.md) owns practical resource tradeoffs; [Computational Data Structures](computational-data-structures.md) owns operation cost under a representation.
 
 The existence of one successful example is not a correctness proof for an unbounded input domain. Counterexamples are powerful for rejecting a universal claim, while establishing a universal positive claim generally requires a more complete argument.
 
