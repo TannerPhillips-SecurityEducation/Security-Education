@@ -8,6 +8,16 @@ Foundations establishes shared knowledge used throughout the specialized domains
 2. [Security Foundations](security-foundations/README.md): Common security concepts and principles.
 3. [Operational Foundations](operational-foundations/README.md): Common concepts and methods for security practice.
 
+## Scoped Agent & Contributor Contracts
+
+Each approved Foundations division has a **uniform, thirteen-section operating contract** with instructions tailored to its actual scope and current governance state:
+
+- [Fundamentals AGENTS.md](fundamentals/AGENTS.md): approved governing architecture, canonical domain-agnostic reference articles and evidence review.
+- [Security Foundations AGENTS.md](security-foundations/AGENTS.md): security-specific principles, flexible proposed taxonomy and reviewed article pilots.
+- [Operational Foundations AGENTS.md](operational-foundations/AGENTS.md): cross-domain security methods and decision workflows, with internal taxonomy still unapproved.
+
+These are **subtree-scoped working instructions**, not a new root-level ontology, a declaration that all divisions have equal maturity, or an approval of unratified internal subject hierarchies. All inventories may be revised under their applicable architecture/governance rules.
+
 These divisions describe conceptual scope, not mandatory study order.
 
 [Return to Security Knowledge](../README.md)
