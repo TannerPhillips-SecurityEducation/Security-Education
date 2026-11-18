@@ -7,7 +7,7 @@
 
 ## Security is conditional protection, not an absolute label
 
-**Security** concerns the extent to which protected interests can be maintained against relevant adverse events, actions and conditions, in a specified system, environment and time horizon, under declared assumptions. **Insecurity** concerns the failure, exposure or insufficient justification of those protective conditions. Neither term is a universal property of a device, product, person, location or network without identifying the interests and assumptions involved.
+**Security** concerns the extent to which protected interests can be maintained against relevant adverse events, actions and conditions, in a specified system, environment and time horizon, under declared assumptions. **Insecurity** concerns an actual failure or weakness of the protections needed to satisfy those interests under relevant conditions. **Uncertainty about security** concerns what an observer can *justifiably establish* from evidence. A lack of assurance evidence does not, by itself, prove either that the system is insecure or that it is secure. Neither term is a universal property of a device, product, person, location or network without identifying the interests and assumptions involved.
 
 For example, “this service is secure” is too broad to be technically assessed. A narrower claim might be: “Under the specified interface, authority and adversary assumptions, unauthorized readers cannot retrieve protected customer records through the evaluated access paths.” This claim can be examined, but it says nothing by itself about lost backups, unmodeled side channels, damaged hardware, legal obligations or future software defects.
 
@@ -20,6 +20,8 @@ A security claim therefore has at least five ingredients:
 | Desired property | No unauthorized record disclosure | Identifies what a violation would mean |
 | Threat and operating assumptions | Identified capabilities, failure conditions, identities, dependencies and period | Determines which events the claim addresses |
 | Evidence and confidence | Tests, design arguments, logs, independent evaluation, limitations | A claim is not demonstrated by asserting it |
+
+**Three possible assessments must remain separate:** (1) a protection property is shown to hold under specific assumptions, (2) a violation or failure is shown to occur, or (3) the available evidence is insufficient to establish either. The third state is **unknown or unassured**, not automatically insecure.
 
 The word **secure** is often used as a binary shorthand, but real protection has multiple properties and evidentiary limitations. Security is not simply the absence of observed attacks, and a control's presence is not proof that the desired property holds.
 
