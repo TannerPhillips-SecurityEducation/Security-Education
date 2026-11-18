@@ -53,7 +53,7 @@ A distributed lock does not automatically protect a physical or external resourc
 
 **Safety** concerns not reaching forbidden conditions, such as two conflicting committed results for one defined decision. **Liveness** concerns eventual progress under stated assumptions. A design may preserve safety during a network partition by refusing some operations, at the cost of availability.
 
-Under unconstrained asynchronous delays and failures, unconditional consensus termination guarantees are not generally available. Any claim of guaranteed progress must specify restrictions such as synchrony, eventual synchrony, failure detectors, or other enabling assumptions.
+In a fully asynchronous message-passing system where even one process may crash, **no deterministic consensus protocol can guarantee termination in every admissible execution** under the standard impossibility model. That result is about a particular model and guarantee; it does not rule out progress under suitable partial synchrony, failure detectors, randomness or other additional assumptions. Any claim of guaranteed progress must specify restrictions such as synchrony, eventual synchrony, failure detectors, or other enabling assumptions.
 
 [Distributed State](distributed-state.md) owns replica consistency and state histories. [Reliability and Ordering](reliability-and-ordering.md) owns message delivery and sequencing; coordination builds on them without replacing their definitions.
 
@@ -64,6 +64,8 @@ This article does not mandate Raft, Paxos, a distributed database, wall-clock in
 ### Sources
 
 - [MIT 6.5840: Distributed Systems](https://pdos.csail.mit.edu/6.5840/).
+- [Asynchronous consensus impossibility: MIT LCS technical report](https://dspace.mit.edu/entities/publication/287e7d14-a6f3-4ab4-b21a-a98ea86c1212).
+- [Time, Clocks and Ordering: original published paper](https://lamport.org/pubs/time-clocks.pdf).
 - [MIT 6.5840: Project and Replication Examples](https://pdos.csail.mit.edu/6.5840/project.html).
 - [MIT 6.1800: Computer Systems Engineering](https://catalog.mit.edu/subjects/6/).
 
