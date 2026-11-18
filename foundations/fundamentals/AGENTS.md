@@ -5,6 +5,8 @@
 **Sibling contracts:** [Security Foundations AGENTS.md](../security-foundations/AGENTS.md) and the [Operational Foundations division](../operational-foundations/README.md). Each division owns a distinct kind of knowledge.  
 **Repository convention:** [Hierarchy for navigation, knowledge graph through links](../../RELATIONSHIPS.md). Explicit user direction and higher-priority instructions take precedence over this working guide.
 
+**Inherited root SOP:** [Repository AGENTS.md](../../AGENTS.md) governs evidence, variable depth/granularity, editorial autonomy, non-Socratic collaboration, approvals, provenance and validation across the repository. This file adds division-specific requirements; it does not override higher-priority instructions or turn proposed knowledge structures into approved ones.
+
 ## 1. Mission and non-negotiable boundaries
 
 Fundamentals establishes **domain-agnostic concepts, structures, principles, and mechanisms necessary to understand technical systems and their behavior**, without making a vendor, platform, security practice or specialist domain its organizing principle.
