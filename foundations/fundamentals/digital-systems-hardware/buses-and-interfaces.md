@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Digital Systems & Hardware](README.md)  
 **Approved subject heading:** Buses and interfaces  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 03 audit](../WAVE-C-TECHNICAL-REVIEW-03.md); independent human review pending
 
 ## Interconnects coordinate exchanges among hardware components
 
@@ -77,6 +77,6 @@ This article does not designate a required bus, connector, protocol version, tra
 - [MIT OpenCourseWare 6.004: Devices and Interrupts (course materials)](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/).
 - [NASA: Interface Management](https://www.nasa.gov/reference/6-3-interface-management/).
 
-**Editorial status:** Substantive Draft. The bus bandwidth calculation and hardware-interface generalizations await scoped technical review. No hardware assembly or learner assessment is prescribed.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave C Batch 03 54-family technical review](../WAVE-C-TECHNICAL-REVIEW-03.md). Full source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
 
 [Digital Systems & Hardware](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
