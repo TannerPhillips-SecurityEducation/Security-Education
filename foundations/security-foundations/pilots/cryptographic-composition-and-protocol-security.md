@@ -53,7 +53,7 @@ A sound protocol design typically distinguishes keys used for different purposes
 
 **Handshake transcript authentication** can bind the negotiated parameters and exchanged messages to the established context. Without proper binding, parties might disagree about what they authenticated or what protection parameters they selected.
 
-[TLS 1.3, RFC 8446](https://www.rfc-editor.org/info/rfc8446/) is a useful *specific protocol example*: its handshake derives traffic keys using a key schedule and handshake transcript, and its record protection uses authenticated encryption. TLS is not a template whose named steps must be copied into every future secure protocol. Particular TLS 1.3 options, including 0-RTT early data, also have different security properties; the RFC explicitly warns that 0-RTT lacks the same anti-replay guarantees between connections.
+[TLS 1.3, RFC 9846 (July 2026)](https://www.rfc-editor.org/info/rfc9846/) is a useful *specific protocol example*: its handshake derives traffic keys using a key schedule and handshake transcript, and its record protection uses authenticated encryption. RFC 9846 **obsoletes RFC 8446 (2018)** while retaining TLS 1.3 and clarifying/tightening security requirements, including forbidding reuse of certain key-share values between connections. TLS is not a universal template whose named steps must be copied into every future protocol. TLS 1.3 **0-RTT early data does not provide inherent between-connection anti-replay guarantees**; the current RFC defines server-side mitigations with deployment constraints and requires applications to address replay-safe behavior. It is inaccurate to treat all TLS 1.3 data as having identical freshness or anti-replay properties.
 
 ## Replay and freshness
 
@@ -97,7 +97,7 @@ The working SF-09-07 subject owns broad key lifecycle and cryptographic failure 
 - [NIST SP 800-57 Part 1 Rev.5: Key Management](https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final).
 - [NIST SP 800-227: Key-Encapsulation Mechanisms](https://csrc.nist.gov/pubs/sp/800/227/final) (2025 final).
 - [FIPS 203](https://csrc.nist.gov/pubs/fips/203/final), [FIPS 204](https://csrc.nist.gov/pubs/fips/204/final), [FIPS 205](https://csrc.nist.gov/pubs/fips/205/final), distinct post-quantum algorithm families.
-- [RFC 8446: TLS 1.3](https://www.rfc-editor.org/info/rfc8446/), an example of key schedule, transcript, session, early-data and record-protection design.
+- [RFC 9846: TLS 1.3, July 2026](https://www.rfc-editor.org/info/rfc9846/), **current** TLS 1.3 specification; obsoletes [RFC 8446 (2018)](https://www.rfc-editor.org/info/rfc8446/) with minor backward-compatible updates, tightened requirements, transcript/key-schedule material and explicit early-data replay cautions.
 
 **Source limitation:** These references supply standards-defined claims for specific algorithms, interfaces or protocol versions; no generalized proof of every composition follows. The examples are conceptual, not assertions about any live system. Complete clause-by-clause validation and independent expert peer review remain pending.
 
