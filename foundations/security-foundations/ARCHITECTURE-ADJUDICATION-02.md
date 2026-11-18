@@ -5,6 +5,10 @@
 **Inputs:** [94-subject working inventory v0.2](SUBJECT-INVENTORY-PROPOSAL.md), [20 established models](ESTABLISHED-MODEL-CROSSWALK.md), [25 ownership-boundary cases](OWNERSHIP-BOUNDARIES.md), [Fundamentals](../fundamentals/README.md), [Operational Foundations](../operational-foundations/README.md).  
 **Change policy:** Both the **number of knowledge areas** and **number of subject headings** remain flexible. Never force symmetry with Fundamentals or preserve a number just because it was previously inventoried.
 
+## Subsequent structural decision (November 18, 2026)
+
+The repository owner **later adopted the Fundamentals directory pattern** for Security Foundations. [Area Structure Adjudication 03](AREA-STRUCTURE-ADJUDICATION-03.md) now governs article placement in provisional knowledge-area directories, each with a `README.md` and substantive Markdown articles. This document remains the **historical model/subject inventory adjudication**; its earlier instruction to keep manuscripts exclusively under `pilots/` is **superseded as a file-placement instruction**, not as a statement about the still-unratified area/subject semantics. The 14 article bodies live in working area directories; historical pilot URLs redirect to them. Both the twelve current areas and 96 candidate subjects remain flexible.
+
 ## 1. Proposed numerical reconciliation
 
 | Measurement | Earlier working snapshot | Revised working snapshot | Status |
