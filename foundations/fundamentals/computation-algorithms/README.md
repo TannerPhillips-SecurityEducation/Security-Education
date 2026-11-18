@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Subject inventory only; canonical explanations and references are pending  
+**Content status:** Four of nine approved headings authored as Draft; five not yet authored  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -21,12 +21,28 @@ How problems are formulated as computations, how algorithms operate, and how the
 - Synchronization
 - Computational efficiency
 
-## Content Development
+## Canonical reference articles
 
-This area is a **navigation discipline**. Its headings organize coverage but do not constitute a separate list of conceptual primitives. Establish one canonical home for each underlying concept and link contextual realizations rather than repeating general definitions.
+| Approved subject | Canonical reference | Development state |
+| --- | --- | --- |
+| Computability | [Computability](computability.md) | Draft |
+| Algorithms | [Algorithms](algorithms.md) | Draft |
+| Algorithm design | [Algorithm Design](algorithm-design.md) | Draft |
+| Complexity | [Complexity](complexity.md) | Draft |
+| Computational data structures | Not authored | Inventoried |
+| Iteration and recursion | Not authored | Inventoried |
+| Concurrency and parallelism | Not authored | Inventoried |
+| Synchronization | Not authored | Inventoried |
+| Computational efficiency | Not authored | Inventoried |
 
-Each subject will eventually receive a canonical explanation, key distinctions, mechanisms, relevant examples, explicit relationships, and credible references. These items are **not yet completed** merely by being listed.
+## Development and canonical boundaries
 
-The content belongs in Fundamentals only insofar as it is domain-agnostic. Security-specific treatment belongs in Security Foundations; security practice belongs in Operational Foundations. Cross-domain references should link to canonical subjects rather than duplicate them.
+**Wave D Batch 01** contains four substantive reference Drafts awaiting their own technical/source reviews. Computability treats theoretical solvability; Algorithms treats defined procedures and correctness; Algorithm Design treats constructive strategies; Complexity treats mathematical resource growth.
 
-[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
+These are **approved navigation subjects** and not newly ratified theoretical primitives. [Computational Data Structures](README.md), [Iteration and Recursion](README.md), [Concurrency and Parallelism](README.md), [Synchronization](README.md), and [Computational Efficiency](README.md) remain inventoried for subsequent authoring.
+
+General logic, discrete mathematics and graph theory remain in [Mathematics & Logic](../mathematics-logic/README.md). Models, representation and evidence retain their own approved areas. Programming-language implementations belong to [Software & Programming](../software-programming/README.md).
+
+No Knowledge Checks, Practical Assessments, scoring, new categories or mandatory programming environments are introduced. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved architectural scope decisions.
+
+[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
