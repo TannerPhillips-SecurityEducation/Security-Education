@@ -67,7 +67,7 @@ Wave **superposition** allows disturbances to combine under linear governing equ
 
 Frequency measures repetition. A signal with 100 transitions per second does not automatically convey 100 bits per second, because the encoding may use several transitions per symbol or represent information by duration, phase or other structure. A processor clock frequency also does not determine instructions per second without an architecture and workload model.
 
-[Analog and Digital Signals](analog-and-digital-signals.md) owns representation by physical signals, while [Information Theory](../information-data/information-theory.md) owns entropy and channel limits. [Transmission and Signaling](../communication-distributed-systems/README.md) is the later specialized subject for communication-channel mechanisms. [Timing and Clocks](../digital-systems-hardware/README.md) owns hardware timing implementation, not the general physical definition of frequency.
+[Analog and Digital Signals](analog-and-digital-signals.md) owns representation by physical signals, while [Information Theory](../information-data/information-theory.md) owns entropy and channel limits. [Transmission and Signaling](../communication-distributed-systems/README.md) is the later specialized subject for communication-channel mechanisms. [Timing and Clocks](../digital-systems-hardware/timing-and-clocks.md) owns hardware timing implementation, not the general physical definition of frequency.
 
 ## Scope and references
 
