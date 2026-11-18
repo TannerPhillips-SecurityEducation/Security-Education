@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** 10 legacy articles Reviewed (model-assisted), 1 newly authored Draft articles (source references listed); none Published
+**Content status:** All **11/11** canonical articles Reviewed (model-assisted): 10 prior Wave articles and 1 under [Wave F 42-family review](../WAVE-F-TECHNICAL-REVIEW-01.md); none Published
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -22,7 +22,7 @@ Ways to describe entities, relations, boundaries, classifications, and dynamic b
 - State, events, and transitions
 - Conceptual and formal models
 
-**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 1 headings now have **Draft articles** with references listed, but have not passed scoped technical review, independent verification, or publication approval. These expand the original 10-heading article snapshot; the area now tracks **11 headings**.
+**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 1 newly authored references have now passed [Wave F's scoped model-assisted review](../WAVE-F-TECHNICAL-REVIEW-01.md). Their full source verification, independent expert review and publication acceptance remain pending. These expand the original 10-heading article snapshot; the area now tracks **11 headings**.
 
 - Temporal concepts and models
 
@@ -41,10 +41,10 @@ Ways to describe entities, relations, boundaries, classifications, and dynamic b
 | State, events, and transitions | [State, events, and transitions](state-events-and-transitions.md) | Reviewed (model-assisted) | [Wave A Batch 01 audit](../WAVE-A-TECHNICAL-REVIEW-01.md) |
 | Conceptual and formal models | [Conceptual and formal models](conceptual-and-formal-models.md) | Reviewed (model-assisted) | [Wave A Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md) |
 
-| Temporal concepts and models | [Draft article](temporal-concepts-and-models.md) | **Draft** | [Architecture adjudication](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) |
+| Temporal concepts and models | [Reviewed article](temporal-concepts-and-models.md) | Reviewed (model-assisted) | [Wave F 42-family audit](../WAVE-F-TECHNICAL-REVIEW-01.md) |
 
 ## Development and canonical boundaries
-**Current inventory reconciliation (November 18, 2026):** **11 tracked headings = 10 previously Reviewed articles + 1 newly authored Draft articles**. The historical 10/10 internal review statements below apply only to existing articles. New Drafts carry a separate References listed source state; technical and publication acceptance remain open.
+**Current inventory reconciliation (November 18, 2026):** **11 tracked headings and 11 internally Reviewed articles**. The first 10 retain their prior-wave review evidence; the 1 additions have separate [Wave F review evidence](../WAVE-F-TECHNICAL-REVIEW-01.md). None has final independent publication acceptance.
 
 
 **All 10/10 approved headings have substantive, internally Reviewed references.** The scoped technical/claim-to-source audits in the table document model-assisted review. They are **not** exhaustive verification of source material, independent human peer review or final publication acceptance.
