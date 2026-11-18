@@ -22,6 +22,12 @@ The **twelve currently approved knowledge areas are navigation disciplines**, wh
 
 A newly added or materially revised article must be reviewed on its own merits; a past 109/109 model-assisted status must not be projected onto future inventory versions. Historical reports retain their original denominator.
 
+## Established Frameworks, Models & Architectures Audit
+
+The [Foundational Models, Frameworks & Architectures Review 01](FOUNDATIONAL-MODELS-FRAMEWORKS-ARCHITECTURES-AUDIT-01.md) compares existing explanations and canonical boundaries against established technical knowledge structures. Its reproducible [77-name lexical ledger](NAMED-MODEL-LEXICAL-LEDGER-01.md) scanned all **109 currently tracked subject articles** (a **revisable inventory snapshot**, not a quota); a separate sampled content review examines why literal model names are **not** reliable measures of conceptual coverage.
+
+The audit proposes **fourteen review cases**, not fourteen automatically approved subjects. The priorities are G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML, alongside deeper grounding for measurement models, architecture descriptions, communications models, computing architectures and human-performance models. Subject growth or contraction is permitted under the [living-inventory rule](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control); no subject title or review status changed as part of this audit.
+
 ## Canonical Ownership & Concept Relationships
 
 - [**Canonical Ownership & Relationship Register**](CANONICAL-OWNERSHIP-REGISTER.md): Maps all 109 approved subject headings to proposed general responsibilities and 109 cross-subject relationship references.
