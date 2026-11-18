@@ -1,9 +1,9 @@
 # Security Foundations | Reviewed Working Articles and Historical Pilot Paths
 
 **Division:** [Security Foundations](../README.md)  
-**Status:** **14 of 14 substantive working pilots Reviewed (model-assisted)** across three scoped audits; none has a ratified permanent canonical location or Published status.  
+**Status:** **14 Reviewed (model-assisted) and 1 Draft** across three scoped audits; none has a ratified permanent canonical location or Published status.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
-**Scope:** This is the historical review/ID register for the fourteen pilot articles. **Their substantive content has been organized within provisional area directories following Fundamentals' README-plus-articles pattern.** The old pilot file paths remain navigation aliases; no individual taxonomy or 96-subject quota is ratified.
+**Scope:** This register covers fourteen historically reviewed pilots and one new area-first Draft. **Their substantive content has been organized within provisional area directories following Fundamentals' README-plus-articles pattern.** The old pilot file paths remain navigation aliases; no individual taxonomy or 96-subject quota is ratified.
 
 ## Actual working article locations and historical review register
 
@@ -24,9 +24,10 @@
 | SF-01-08 | [Security, Privacy, Safety, and Reliability](../security-meaning-objectives/security-privacy-safety-and-reliability.md) | **Reviewed (model-assisted)** | Core claims checked | Different protected interests, including privacy harm from authorized processing and safety constraints |
 | SF-11-01 | [Compromise and Loss of Security](../security-failure-resilience/compromise-and-loss-of-security.md) | **Reviewed (model-assisted)** | Core claims checked | Security violation, confirmed compromise, suspicion and restoration are not equivalent |
 | SF-11-04 | [Resilience, Survivability, and Robustness](../security-failure-resilience/resilience-survivability-and-robustness.md) | **Reviewed (model-assisted)** | Core claims checked | Anticipate, withstand, recover, adapt; RTO/RPO and trusted restoration |
+| SF-11-07 | [Recovery Objectives and Trusted Restoration](../security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | **Draft** | References listed; scoped review pending | Recovery-target measurement versus evidenced trusted restoration |
 | SF-12-08 | [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** | Core claims checked | Legitimate security authority, privacy rights, proportionality and human harm |
 
-**Record count:** **14 substantive Reviewed working area articles**: eight checked under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10 groups), and four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20 groups). **82 of 96 working candidates have no pilot yet**; neither count is fixed.
+**Record count:** **14 substantive Reviewed working area articles**: eight checked under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10 groups), and four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20 groups). **81 of 96 working candidates have no substantive article yet**; neither count is fixed.
 
 ## Pilot technical review evidence
 
