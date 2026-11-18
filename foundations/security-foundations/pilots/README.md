@@ -1,7 +1,7 @@
 # Security Foundations | Working Article Pilots
 
 **Division:** [Security Foundations](../README.md)  
-**Status:** **14 substantive working pilots**: 10 Reviewed (model-assisted) and 4 newly Drafted in compromise, resilience, privacy/safety and ethics. None has a ratified canonical location or Published status.  
+**Status:** **14 of 14 substantive working pilots Reviewed (model-assisted)** across three scoped audits; none has a ratified permanent canonical location or Published status.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
 **Scope:** This pilot collection supports architectural tests without prematurely creating or approving twelve internal area directories, mandatory category names, or a permanent 96-subject quota.
 
@@ -21,22 +21,24 @@
 | SF-05-01 | [Risk, Scenarios, and Time Horizon](risk-scenarios-and-time-horizon.md) | **Reviewed (model-assisted)** | Core claims checked | Scenario-relative likelihood, harm, uncertainty, time horizon and why severity is not organizational risk |
 | SF-07-01 | [Controls, Safeguards, and Security Functions](controls-safeguards-and-security-functions.md) | **Reviewed (model-assisted)** | Core claims checked | Protection objective versus selected mechanism, implemented coverage, measured effect and assurance |
 
-| SF-01-08 | [Security, Privacy, Safety, and Reliability](security-privacy-safety-and-reliability.md) | **Draft** | References listed | Different protected interests, including privacy harm from authorized processing and safety constraints |
-| SF-11-01 | [Compromise and Loss of Security](compromise-and-loss-of-security.md) | **Draft** | References listed | Security violation, confirmed compromise, suspicion and restoration are not equivalent |
-| SF-11-04 | [Resilience, Survivability, and Robustness](resilience-survivability-and-robustness.md) | **Draft** | References listed | Anticipate, withstand, recover, adapt; RTO/RPO and trusted restoration |
-| SF-12-08 | [Ethical, Human, and Societal Constraints](ethical-human-and-societal-constraints.md) | **Draft** | References listed | Legitimate security authority, privacy rights, proportionality and human harm |
+| SF-01-08 | [Security, Privacy, Safety, and Reliability](security-privacy-safety-and-reliability.md) | **Reviewed (model-assisted)** | Core claims checked | Different protected interests, including privacy harm from authorized processing and safety constraints |
+| SF-11-01 | [Compromise and Loss of Security](compromise-and-loss-of-security.md) | **Reviewed (model-assisted)** | Core claims checked | Security violation, confirmed compromise, suspicion and restoration are not equivalent |
+| SF-11-04 | [Resilience, Survivability, and Robustness](resilience-survivability-and-robustness.md) | **Reviewed (model-assisted)** | Core claims checked | Anticipate, withstand, recover, adapt; RTO/RPO and trusted restoration |
+| SF-12-08 | [Ethical, Human, and Societal Constraints](ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** | Core claims checked | Legitimate security authority, privacy rights, proportionality and human harm |
 
-**Record count:** **14 substantive pilot articles**: 10 earlier Reviewed through [Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md) and [02](../PILOT-TECHNICAL-REVIEW-02.md), plus four new Drafts awaiting scoped technical review. **82 of 96 active working candidates have no pilot yet**; neither count is a fixed target.
+**Record count:** **14 Reviewed working pilots**: eight checked under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10 groups), and four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20 groups). **82 of 96 working candidates have no pilot yet**; neither count is fixed.
 
 ## Pilot technical review evidence
 
 [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md) checks **40 material claim groups** across the eight articles. The review corrected a conflation between *actual insecurity* and *lack of assurance evidence* and updated standards references to **RFC 9846 (TLS 1.3, July 2026)** and **ISO/IEC 15408-1:2026**.
 
-**The original ten pilots** retain Reviewed (model-assisted) / Core claims checked evidence. The four additions are **Draft / References listed** pending their own review. No pilot has complete claim-to-passage verification, independent expert acceptance, taxonomy ratification or Published status.
+**All 14 working pilots** have Reviewed (model-assisted) / Core claims checked states with their own bounded technical-review evidence. No pilot has complete claim-to-passage verification, independent expert acceptance, internal taxonomy ratification or Published status.
 
 **Second pilot audit:** [Pilot Technical Review 02](../PILOT-TECHNICAL-REVIEW-02.md) checks **10 additional material claim groups** concerning risk scenarios, time horizons, vulnerability severity, NIST 800-53/800-53A control and assessment distinctions, MITRE D3FEND, and the difference between deployed safeguards and evidenced effects.
 
-**New development batch:** The four Drafts test SF-11's security failure and resilience distinctions, SF-01's privacy/safety/reliability comparison, and SF-12's legitimacy/human-harm constraints. Source references use NIST SP 800-160v2r1, 800-34r1, 800-61r3, Privacy Framework v1.0, ISO/IEC Guide 51:2014 and relevant human-rights instruments. The proposed areas/subject counts are **not** approved by these manuscript additions.
+**Wave 03 review:** The four new articles test SF-11's compromise/resilience distinctions, SF-01's privacy/safety/reliability comparison, and SF-12's legitimacy/human-harm constraints. All four have passed [Pilot Technical Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20 material groups). Source references use NIST SP 800-160v2r1, 800-34r1, 800-61r3, Privacy Framework v1.0, ISO/IEC Guide 51:2014 and relevant human-rights instruments. The proposed areas/subject counts are **not** approved by these manuscript additions.
+
+**Third pilot audit:** [Pilot Technical Review 03](../PILOT-TECHNICAL-REVIEW-03.md) checked 20 material claim groups for compromise, cyber resiliency, recovery constraints, privacy from authorized data use, functional safety and legitimacy. It visually inspected the RTO/RPO/MTD definitions in NIST SP 800-34r1, recomputed the example timings/reliability value, and separated publication from technical review.
 
 ## Development states
 
