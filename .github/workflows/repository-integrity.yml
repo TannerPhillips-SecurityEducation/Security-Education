@@ -35,5 +35,7 @@ jobs:
         run: python3 foundations/fundamentals/tools/check_inventory.py
       - name: Reconcile Security Foundations candidates and pilot states
         run: python3 foundations/security-foundations/tools/check_candidate_inventory.py
+      - name: Cross-check provisional Security Foundations area directory and article structure
+        run: python3 foundations/security-foundations/tools/check_area_structure.py
       - name: Verify Security Foundations structural records
         run: python3 foundations/security-foundations/tools/check_foundations_structure.py
