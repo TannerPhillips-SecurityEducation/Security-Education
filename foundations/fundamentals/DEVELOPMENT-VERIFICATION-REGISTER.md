@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.13  
+**Working edition:** v1.14  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -30,14 +30,14 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
-## Current progress: Wave D Batch 02 reviewed; Software & Programming authored
+## Current progress: Waves A–D reviewed; all 109 headings authored, Wave E technical audits pending
 
 | Development state | Approved heading count | Evidence |
 | --- | ---: | --- |
-| **Reviewed (model-assisted)** | **81** | Original pilot; Wave A/B/C audits; and Wave D Batches [01](WAVE-D-TECHNICAL-REVIEW-01.md) and [02](WAVE-D-TECHNICAL-REVIEW-02.md) |
-| **Draft** | **9** | Nine Wave D Software & Programming articles authored as Drafts, awaiting their scoped technical audit |
-| **Inventoried without article** | **19** | Approved 109-heading baseline retained |
-| **Core claims checked** | **81** | Internal model-assisted source checking, not independent expert attestation |
+| **Reviewed (model-assisted)** | **90** | Wave A, B, C and D scoped audits, including [Wave D Software Batches 03–04](WAVE-D-TECHNICAL-REVIEW-03-04.md) |
+| **Draft** | **19** | Ten Operating System Principles and nine Communication & Distributed Systems Wave E Drafts; scoped audits pending |
+| **Inventoried without article** | **0** | All 109 approved headings now have substantive canonical articles; this does not imply publication acceptance |
+| **Core claims checked** | **90** | Internal model-assisted source checking, not independent expert attestation |
 | **Finally accepted / human peer-reviewed** | **0** | No final independent expert acceptance recorded |
 
 **Wave A authoring coverage:** All 26 of 26 approved Wave A headings have substantive, internally Reviewed articles (26/26). Three additional Reviewed references are original pilot subjects belonging to later waves.
@@ -46,12 +46,11 @@
 
 ## Next acceptance gate
 
-1. **Completed:** All Wave A (26), B (28), C (18) approved headings remain authored and internally Reviewed (model-assisted).
-2. **Completed:** The five remaining Computation & Algorithms articles passed the [30-family scoped Wave D Batch 02 technical audit](WAVE-D-TECHNICAL-REVIEW-02.md). All **9/9 Computation & Algorithms** articles are now internally Reviewed; the efficiency/crossover proof was qualified.
-3. **Completed authoring:** All nine approved Software & Programming subjects now have substantive Draft references, organized in Wave D Software Batches 03–04. No separate claim-to-source audit is claimed for these nine.
-4. **Current:** Audit all nine Software & Programming Drafts in scoped groups, correct technical defects, and promote only those passing a recorded model-assisted review.
-5. **Following:** Begin the 19 approved Wave E subjects: ten Operating System Principles and nine Communication & Distributed Systems.
-6. **Ongoing:** Comprehensive source verification, all link/anchor checks, independent human peer review and the seven publication gates remain distinct. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML are unresolved.
+1. **Completed:** All 26 Wave A, 28 Wave B, 18 Wave C and 18 Wave D headings are authored and internally Reviewed (model-assisted). The nine Software & Programming articles passed the [54-family Wave D Software Batches 03–04 technical audit](WAVE-D-TECHNICAL-REVIEW-03-04.md), including corrections to version-tuple semantics and integer-only boundary testing.
+2. **Completed authoring:** All ten approved Operating System Principles subjects and nine approved Communication & Distributed Systems subjects now have substantive **Wave E Drafts**. **109/109 approved headings have articles** across twelve unchanged knowledge areas.
+3. **Current:** Conduct separately documented scoped technical and source audits of all nineteen Wave E Drafts before promoting any to Reviewed.
+4. **Publication gates:** Human expert review, complete claim-to-source verification, external and fragment link checks, full-corpus depth/relationship review and all seven publication completion gates remain outstanding. A commit, article, link or internal audit does not constitute final Published status.
+5. **Scope governance:** G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No Knowledge Checks, Practical Assessments, new headings or mandatory runtime, OS, protocol or vendor architecture has been adopted.
 
 ## Detailed coverage by approved knowledge area
 
@@ -172,15 +171,15 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-08-01 | Programming languages | [Draft article](software-programming/programming-languages.md) | Draft | References listed | Wave D Software Batch 03 substantive draft; technical audit pending |
-| F-08-02 | Syntax and semantics | [Draft article](software-programming/syntax-and-semantics.md) | Draft | References listed | Wave D Software Batch 03 substantive draft; technical audit pending |
-| F-08-03 | Programming paradigms | [Draft article](software-programming/programming-paradigms.md) | Draft | References listed | Wave D Software Batch 03 substantive draft; technical audit pending |
-| F-08-04 | Compilation and interpretation | [Draft article](software-programming/compilation-and-interpretation.md) | Draft | References listed | Wave D Software Batch 03 substantive draft; technical audit pending |
-| F-08-05 | Runtime environments | [Draft article](software-programming/runtime-environments.md) | Draft | References listed | Wave D Software Batch 04 substantive draft; technical audit pending |
-| F-08-06 | Modules and dependencies | [Draft article](software-programming/modules-and-dependencies.md) | Draft | References listed | Wave D Software Batch 04 substantive draft; technical audit pending |
-| F-08-07 | Software interfaces | [Draft article](software-programming/software-interfaces.md) | Draft | References listed | Wave D Software Batch 04 substantive draft; technical audit pending |
-| F-08-08 | Error handling | [Draft article](software-programming/error-handling.md) | Draft | References listed | Wave D Software Batch 04 substantive draft; technical audit pending |
-| F-08-09 | Testing and software lifecycle | [Draft article](software-programming/testing-and-software-lifecycle.md) | Draft | References listed | Wave D Software Batch 04 substantive draft; technical audit pending |
+| F-08-01 | Programming languages | [Reviewed article](software-programming/programming-languages.md) | Reviewed | Core claims checked | [Wave D Software 54-family audit](WAVE-D-TECHNICAL-REVIEW-03-04.md); model-assisted, human peer review pending |
+| F-08-02 | Syntax and semantics | [Reviewed article](software-programming/syntax-and-semantics.md) | Reviewed | Core claims checked | [Wave D Software 54-family audit](WAVE-D-TECHNICAL-REVIEW-03-04.md); model-assisted, human peer review pending |
+| F-08-03 | Programming paradigms | [Reviewed article](software-programming/programming-paradigms.md) | Reviewed | Core claims checked | [Wave D Software 54-family audit](WAVE-D-TECHNICAL-REVIEW-03-04.md); model-assisted, human peer review pending |
+| F-08-04 | Compilation and interpretation | [Reviewed article](software-programming/compilation-and-interpretation.md) | Reviewed | Core claims checked | [Wave D Software 54-family audit](WAVE-D-TECHNICAL-REVIEW-03-04.md); model-assisted, human peer review pending |
+| F-08-05 | Runtime environments | [Reviewed article](software-programming/runtime-environments.md) | Reviewed | Core claims checked | [Wave D Software 54-family audit](WAVE-D-TECHNICAL-REVIEW-03-04.md); model-assisted, human peer review pending |
+| F-08-06 | Modules and dependencies | [Reviewed article](software-programming/modules-and-dependencies.md) | Reviewed | Core claims checked | [Wave D Software 54-family audit](WAVE-D-TECHNICAL-REVIEW-03-04.md); model-assisted, human peer review pending |
+| F-08-07 | Software interfaces | [Reviewed article](software-programming/software-interfaces.md) | Reviewed | Core claims checked | [Wave D Software 54-family audit](WAVE-D-TECHNICAL-REVIEW-03-04.md); model-assisted, human peer review pending |
+| F-08-08 | Error handling | [Reviewed article](software-programming/error-handling.md) | Reviewed | Core claims checked | [Wave D Software 54-family audit](WAVE-D-TECHNICAL-REVIEW-03-04.md); model-assisted, human peer review pending |
+| F-08-09 | Testing and software lifecycle | [Reviewed article](software-programming/testing-and-software-lifecycle.md) | Reviewed | Core claims checked | [Wave D Software 54-family audit](WAVE-D-TECHNICAL-REVIEW-03-04.md); model-assisted, human peer review pending |
 
 ### 09. Operating System Principles (Wave E; 10 headings)
 
@@ -188,16 +187,16 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-09-01 | Kernels | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-09-02 | System calls | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-09-03 | Processes and threads | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-09-04 | Scheduling | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-09-05 | Memory management | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-09-06 | Filesystems | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-09-07 | Drivers and devices | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-09-08 | Execution contexts | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-09-09 | System initialization | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-09-10 | Resource management | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-09-01 | Kernels | [Draft article](operating-system-principles/kernels.md) | Draft | References listed | Wave E Operating System Principles substantive draft; scoped technical audit pending |
+| F-09-02 | System calls | [Draft article](operating-system-principles/system-calls.md) | Draft | References listed | Wave E Operating System Principles substantive draft; scoped technical audit pending |
+| F-09-03 | Processes and threads | [Draft article](operating-system-principles/processes-and-threads.md) | Draft | References listed | Wave E Operating System Principles substantive draft; scoped technical audit pending |
+| F-09-04 | Scheduling | [Draft article](operating-system-principles/scheduling.md) | Draft | References listed | Wave E Operating System Principles substantive draft; scoped technical audit pending |
+| F-09-05 | Memory management | [Draft article](operating-system-principles/memory-management.md) | Draft | References listed | Wave E Operating System Principles substantive draft; scoped technical audit pending |
+| F-09-06 | Filesystems | [Draft article](operating-system-principles/filesystems.md) | Draft | References listed | Wave E Operating System Principles substantive draft; scoped technical audit pending |
+| F-09-07 | Drivers and devices | [Draft article](operating-system-principles/drivers-and-devices.md) | Draft | References listed | Wave E Operating System Principles substantive draft; scoped technical audit pending |
+| F-09-08 | Execution contexts | [Draft article](operating-system-principles/execution-contexts.md) | Draft | References listed | Wave E Operating System Principles substantive draft; scoped technical audit pending |
+| F-09-09 | System initialization | [Draft article](operating-system-principles/system-initialization.md) | Draft | References listed | Wave E Operating System Principles substantive draft; scoped technical audit pending |
+| F-09-10 | Resource management | [Draft article](operating-system-principles/resource-management.md) | Draft | References listed | Wave E Operating System Principles substantive draft; scoped technical audit pending |
 
 ### 10. Communication & Distributed Systems (Wave E; 9 headings)
 
@@ -205,15 +204,15 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-10-01 | Communication models | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-10-02 | Transmission and signaling | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-10-03 | Communication channels | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-10-04 | Protocols and layering | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-10-05 | Addressing and naming | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-10-06 | Latency and throughput | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-10-07 | Reliability and ordering | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-10-08 | Distributed state | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-10-09 | Synchronization and coordination | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-10-01 | Communication models | [Draft article](communication-distributed-systems/communication-models.md) | Draft | References listed | Wave E Communication & Distributed Systems substantive draft; scoped technical audit pending |
+| F-10-02 | Transmission and signaling | [Draft article](communication-distributed-systems/transmission-and-signaling.md) | Draft | References listed | Wave E Communication & Distributed Systems substantive draft; scoped technical audit pending |
+| F-10-03 | Communication channels | [Draft article](communication-distributed-systems/communication-channels.md) | Draft | References listed | Wave E Communication & Distributed Systems substantive draft; scoped technical audit pending |
+| F-10-04 | Protocols and layering | [Draft article](communication-distributed-systems/protocols-and-layering.md) | Draft | References listed | Wave E Communication & Distributed Systems substantive draft; scoped technical audit pending |
+| F-10-05 | Addressing and naming | [Draft article](communication-distributed-systems/addressing-and-naming.md) | Draft | References listed | Wave E Communication & Distributed Systems substantive draft; scoped technical audit pending |
+| F-10-06 | Latency and throughput | [Draft article](communication-distributed-systems/latency-and-throughput.md) | Draft | References listed | Wave E Communication & Distributed Systems substantive draft; scoped technical audit pending |
+| F-10-07 | Reliability and ordering | [Draft article](communication-distributed-systems/reliability-and-ordering.md) | Draft | References listed | Wave E Communication & Distributed Systems substantive draft; scoped technical audit pending |
+| F-10-08 | Distributed state | [Draft article](communication-distributed-systems/distributed-state.md) | Draft | References listed | Wave E Communication & Distributed Systems substantive draft; scoped technical audit pending |
+| F-10-09 | Synchronization and coordination | [Draft article](communication-distributed-systems/synchronization-and-coordination.md) | Draft | References listed | Wave E Communication & Distributed Systems substantive draft; scoped technical audit pending |
 
 ### 11. Systems & Engineering (Wave B; 11 headings)
 
