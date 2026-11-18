@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All 9 approved subjects authored; 4 Reviewed (model-assisted), 5 Draft; independent human acceptance pending  
+**Content status:** All nine approved subjects authored, 9 Reviewed (model-assisted), 0 Draft; independent expert review and final publication acceptance pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -29,20 +29,20 @@ How problems are formulated as computations, how algorithms operate, and how the
 | Algorithms | [Algorithms](algorithms.md) | Reviewed (model-assisted) |
 | Algorithm design | [Algorithm design](algorithm-design.md) | Reviewed (model-assisted) |
 | Complexity | [Complexity](complexity.md) | Reviewed (model-assisted) |
-| Computational data structures | [Computational data structures](computational-data-structures.md) | Draft |
-| Iteration and recursion | [Iteration and recursion](iteration-and-recursion.md) | Draft |
-| Concurrency and parallelism | [Concurrency and parallelism](concurrency-and-parallelism.md) | Draft |
-| Synchronization | [Synchronization](synchronization.md) | Draft |
-| Computational efficiency | [Computational efficiency](computational-efficiency.md) | Draft |
+| Computational data structures | [Computational data structures](computational-data-structures.md) | Reviewed (model-assisted) |
+| Iteration and recursion | [Iteration and recursion](iteration-and-recursion.md) | Reviewed (model-assisted) |
+| Concurrency and parallelism | [Concurrency and parallelism](concurrency-and-parallelism.md) | Reviewed (model-assisted) |
+| Synchronization | [Synchronization](synchronization.md) | Reviewed (model-assisted) |
+| Computational efficiency | [Computational efficiency](computational-efficiency.md) | Reviewed (model-assisted) |
 
 ## Development and canonical boundaries
 
-**All 9 of 9 approved subjects have substantive articles.** The first four passed the [Wave D Batch 01 24-family technical audit](../WAVE-D-TECHNICAL-REVIEW-01.md). The five remaining Batch 02 articles are **Drafts**, with a separate claim-to-source and numerical audit pending.
+**All 9/9 approved subjects have substantive articles.** Every article passed the [Wave D Batch 01](../WAVE-D-TECHNICAL-REVIEW-01.md) or [Wave D Batch 02](../WAVE-D-TECHNICAL-REVIEW-02.md) scoped model-assisted audit. All nine are internally Reviewed, with source state Core claims checked.
 
-Computability owns the limits of effective computation. Algorithms owns procedures and correctness. Algorithm Design owns construction strategies. Complexity owns formal resource growth. Computational Data Structures owns operation costs of representations, Iteration and Recursion owns repetition and termination, Concurrency and Parallelism owns overlapping activities, Synchronization owns coordination and atomicity, and Computational Efficiency owns workload-sensitive practical resource use.
+Computability owns theoretical solvability; Algorithms and Algorithm Design own procedure contracts and construction strategies; Complexity owns formal resource growth. Computational Data Structures, Iteration and Recursion, Concurrency and Parallelism, Synchronization, and Computational Efficiency retain their separate operational mechanisms and cost boundaries.
 
-This area is a navigation discipline, not a newly ratified universal ontology of computational primitives. General mathematical and graph concepts remain in [Mathematics & Logic](../mathematics-logic/README.md); data formats remain in [Information & Data](../information-data/README.md); programming-language execution remains in [Software & Programming](../software-programming/README.md).
+This area remains a **navigation discipline**, not a new universal ontology or a required implementation stack. The approved 12-area/109-heading architecture, and the unresolved G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML decisions are unchanged.
 
-G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open scope decisions. No Knowledge Checks, Practical Assessments, scoring, additional approved headings or mandatory computing implementation were introduced.
+No Knowledge Checks, Practical Assessments, learner scoring, or mandatory toolchain have been introduced. Complete source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
