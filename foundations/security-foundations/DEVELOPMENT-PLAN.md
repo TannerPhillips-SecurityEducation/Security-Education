@@ -1,6 +1,6 @@
 # Security Foundations: Architecture & Development Plan
 
-**Working edition:** v0.3 · November 18, 2026  
+**Working edition:** v0.4 · November 18, 2026  
 **Status:** Proposed plan; **no approval of internal taxonomy or article publication is asserted**  
 **Scope:** Security Knowledge → Foundations → Security Foundations  
 **Proposed inputs:** [Architecture](ARCHITECTURE.md) · [96-heading Flexible Working Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [30-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) · [26-group Established Model Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) · [Architecture Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md)
@@ -20,8 +20,8 @@ A complete article must explain not merely *what a term means*, but **why the pr
 | Internal Security Foundations taxonomy | **Not approved** |
 | Working knowledge areas | 12 **proposed** |
 | Working subject headings | **96 proposed**, revised from 94 by four additions and two consolidations; still flexible |
-| Final approved canonical Security Foundations articles | **0**; distinct proposed article pilots may be authored without ratifying the taxonomy |
-| Substantive technical review of the proposed future subject articles | Not started |
+| Final approved canonical Security Foundations articles | **0**; eight working pilot manuscripts now exist, none in a ratified canonical path |
+| Substantive technical review of proposed future subject articles | **8 pilot manuscripts Reviewed (model-assisted)** under [Pilot Technical Review 01](PILOT-TECHNICAL-REVIEW-01.md), **40 claim families**; complete source-level and independent reviews pending |
 | Specialized knowledge domains | Seven existing approved domain entries |
 | Formal relationship predicate vocabulary / graph engine | Neither approved nor implemented |
 
@@ -35,10 +35,10 @@ The subject inventory is a **candidate discovery and coverage instrument**, not 
 | Internal taxonomy | 12 proposed areas / **96 active proposed subjects**, both flexible and unratified |
 | Source map | **26 established source groups** identified with version and non-equivalence cautions |
 | Ownership | **30 working overlap cases** documented; not all individually approved |
-| Article development | Controlled pilots permitted under [pilots/](pilots/README.md), **not** permanent canonical placement |
-| Review / publication | Source-passage verification, qualified independent human review, and publication acceptance separate from article creation |
+| Article development | **Eight substantive Reviewed (model-assisted) pilots** under [pilots/](pilots/README.md); these are not ratified permanent canonical placements |
+| Review / publication | [40-family scoped pilot audit](PILOT-TECHNICAL-REVIEW-01.md) completed; complete source-passage verification, qualified human review, and publication acceptance remain open |
 
-**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain traceable. An article pilot's completion does not change the candidate count unless a separate architectural change is recorded.
+**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain traceable. **Eight currently Reviewed pilots out of 96 working candidate subjects is a manuscript coverage indicator, not a percentage of architectural approval.** Pilot completion does not change the candidate count without a separately recorded conceptual decision.
 
 ## 3. Engineering workstreams
 
@@ -162,8 +162,8 @@ Do not instantiate a formal ontology, graph engine, vendor-specific learning pat
 1. Review the proposed [governing definition and twelve categories](ARCHITECTURE.md).
 2. Review the [96 active working candidates](SUBJECT-INVENTORY-PROPOSAL.md), allowing further justified expansion or contraction.
 3. Evaluate the [30 working boundary cases](OWNERSHIP-BOUNDARIES.md) and record unresolved collisions.
-4. Develop source-led **pilot articles now** under [pilots](pilots/README.md), with separate technical-review records. Ratify internal area/subject structure before promoting any pilot into a permanent canonical subject path.
+4. Preserve the [eight authored and scoped-reviewed pilots](pilots/README.md) with [Pilot Technical Review 01](PILOT-TECHNICAL-REVIEW-01.md) as their source-scope evidence. Continue with risk, control/resilience, and privacy pilots as justified; validate their models before finalizing canonical paths.
 
-**Current disposition:** [Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md) implements a revised working architecture, not a ratified 12-area/96-subject taxonomy. Pilot texts, if written, remain pre-publication content and do not imply automatic editorial or expert acceptance.
+**Current disposition:** [Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md) implements a revised working architecture, not a ratified 12-area/96-subject taxonomy. Pilot texts remain pre-publication content and do not imply automatic editorial or expert acceptance.
 
 [Security Foundations](README.md) · [Foundations](../README.md) · [Security Knowledge](../../README.md)
