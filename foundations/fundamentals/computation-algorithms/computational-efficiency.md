@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Computation & Algorithms](README.md)  
 **Approved subject heading:** Computational efficiency  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; separate scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Batch 02 technical audit](../WAVE-D-TECHNICAL-REVIEW-02.md); independent human peer review pending
 
 ## Efficiency is relative to a workload, resource, and purpose
 
@@ -91,6 +91,6 @@ This article does not adopt one performance metric, architecture, compiler, prof
 - [MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/).
 - [MIT 6.005: Software Construction](https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/).
 
-**Editorial status:** Substantive Draft. Crossover arithmetic and speedup model require a separate scoped technical/source audit. No benchmark, platform, profiler, or learner assessment is mandated.
+**Editorial status:** Reviewed (model-assisted) following the [Wave D Batch 02 scoped 30-family technical audit](../WAVE-D-TECHNICAL-REVIEW-02.md). Exhaustive source verification, independent human expert review and final publication acceptance remain open.
 
 [Computation & Algorithms](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
