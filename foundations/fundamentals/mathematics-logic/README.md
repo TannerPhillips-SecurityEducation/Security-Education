@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All **11/11** canonical articles Reviewed (model-assisted): 8 prior Wave articles and 3 under [Wave F 42-family review](../WAVE-F-TECHNICAL-REVIEW-01.md); none Published
+**Content status:** 11 canonical articles Reviewed (model-assisted) + 2 additional subjects Inventoried (no articles); none Published.
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -25,6 +25,8 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 - Linear algebra and vector spaces
 - Geometry and spatial reasoning
 - Topology and continuity
+- Calculus and differential equations
+- Stochastic processes and Markov models
 
 ## Canonical reference articles
 
@@ -42,6 +44,12 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 | Linear algebra and vector spaces | [Reviewed article](linear-algebra-and-vector-spaces.md) | Reviewed (model-assisted) | [Wave F 42-family audit](../WAVE-F-TECHNICAL-REVIEW-01.md) |
 | Geometry and spatial reasoning | [Reviewed article](geometry-and-spatial-reasoning.md) | Reviewed (model-assisted) | [Wave F 42-family audit](../WAVE-F-TECHNICAL-REVIEW-01.md) |
 | Topology and continuity | [Reviewed article](topology-and-continuity.md) | Reviewed (model-assisted) | [Wave F 42-family audit](../WAVE-F-TECHNICAL-REVIEW-01.md) |
+
+| Calculus and differential equations | Article not yet authored; [scope decision](../COVERAGE-AND-SOURCE-TRIAGE-02.md) | **Inventoried** |
+| Stochastic processes and Markov models | Article not yet authored; [scope decision](../COVERAGE-AND-SOURCE-TRIAGE-02.md) | **Inventoried** |
+
+
+**Coverage Triage 02 (November 18, 2026):** F-01-12 Calculus and differential equations; F-01-13 Stochastic processes and Markov models are newly Inventoried under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 11 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
 
 ## Development and canonical boundaries
 **Current inventory reconciliation (November 18, 2026):** **11 tracked headings and 11 internally Reviewed articles**. The first 8 retain their prior-wave review evidence; the 3 additions have separate [Wave F review evidence](../WAVE-F-TECHNICAL-REVIEW-01.md). None has final independent publication acceptance.
