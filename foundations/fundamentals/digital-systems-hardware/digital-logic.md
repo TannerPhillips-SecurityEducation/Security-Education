@@ -95,7 +95,7 @@ The MIT [Computation Structures lecture sequence](https://ocw.mit.edu/courses/6-
 
 ## Connections across the knowledge base
 
-[Boolean and predicate logic](../mathematics-logic/README.md) supplies algebraic operators; [Electronics](../physical-electrical-principles/README.md) supplies transistor and signal mechanisms; [Timing and clocks](README.md) develops hardware timing; [Processors and instruction sets](README.md) extends digital circuits into programmable computation; [State, events, and transitions](../models-abstraction/README.md) provides general state models.
+[Boolean and predicate logic](../mathematics-logic/README.md) supplies algebraic operators; [Electronics](../physical-electrical-principles/electronics.md) supplies transistor and signal mechanisms; [Timing and clocks](timing-and-clocks.md) develops hardware timing; [Processors and instruction sets](processors-and-instruction-sets.md) extends digital circuits into programmable computation; [State, events, and transitions](../models-abstraction/README.md) provides general state models.
 
 These broad links lead to approved area inventories unless a canonical article already exists. A document's location is not an ontological parentage statement.
 
