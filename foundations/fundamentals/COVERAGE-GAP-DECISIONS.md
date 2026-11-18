@@ -1,7 +1,7 @@
 # Fundamentals: Coverage Gap Decision Register
 
-**Status:** Working architectural disposition v0.3; seven new headings from [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) are now authored and scoped-reviewed under [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md); full source verification remains open.  
-**Baseline:** 12 knowledge areas unchanged; **116 current headings with 116 Reviewed (model-assisted) articles** (109 legacy plus 7 new Wave F). The earlier 109-heading snapshot remains in audit history.  
+**Status:** Working architectural disposition v0.4; seven new headings from [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) are now authored and scoped-reviewed under [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md); full source verification remains open.  
+**Original reviewed baseline:** 12 areas, 116 previously Reviewed articles. **Current inventory:** 12 areas and **120 Reviewed (model-assisted)** articles following [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md) and [Wave H](WAVE-H-TECHNICAL-REVIEW-01.md). Prior 109/116 denominators are historical.  
 **Input:** [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md), [Canonical Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md), [Canonical Ownership Register](CANONICAL-OWNERSHIP-REGISTER.md).
 
 ## Decision rule
@@ -24,6 +24,12 @@ The [Foundational Models, Frameworks & Architectures Audit 01](FOUNDATIONAL-MODE
 **Count clarification:** The **109 tracked subject headings are not fixed**. Changes can add, split, merge, rename or retire headings after recorded coverage/ownership analysis. The old 12-area/109-heading counts remain the **historical baseline for previous audits**, not a requirement to accommodate every new model within existing headings.
 
 **Later adjudication:** [Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) subsequently assigned G-01 to F-01-09/10/11, G-04 to F-03-11 and G-06 to F-07-10/11, and inventoried F-06-10 computer architecture models. **The original audit by itself did not approve those changes; the later recorded adjudication changed the inventory.**
+
+## Coverage Triage 02: four newly resolved canonical gaps (November 18, 2026)
+
+Beyond the original ten G-01–G-10 questions, the [source-led corpus triage](COVERAGE-AND-SOURCE-TRIAGE-02.md) identified four genuinely distinct subjects. Calculus/Differential Equations (F-01-12), Stochastic Processes/Markov Models (F-01-13), Search/Information Retrieval (F-05-10) and Queueing/Service-System Models (F-11-12) now have canonical articles and [Wave H's 24-family scoped model-assisted technical review](WAVE-H-TECHNICAL-REVIEW-01.md). **They are not full source-Verified or Published.** The existing area structure is unchanged. General domain links will be added as the corresponding subject knowledge develops; no link quota is adopted.
+
+**Other open depth questions:** Numerical methods/optimization and broader corpus claim-to-source traceability are not closed by adding these four topics. See the new triage for ownership and evidence qualifications.
 
 ## Ten coverage cases
 
