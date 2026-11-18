@@ -39,7 +39,7 @@ A **dependency cycle** may be illegal in some module systems or problematic unde
 
 ## Worked example: version-constraint intersection
 
-Suppose Module A needs a hypothetical library C in version range `2.0 ≤ C < 3.0`, and Module B needs `2.5 ≤ C < 4.0`. Treat versions as ordered numeric pairs under the stipulated range scheme.
+Suppose Module A needs a hypothetical library C in version range `2.0 ≤ C < 3.0`, and Module B needs `2.5 ≤ C < 4.0`. Treat versions as **(major, minor) integer tuples compared lexicographically**, not as decimal fractions: for example, version 2.10 is newer than 2.9 under this convention. This toy range scheme does not itself specify semantic-version prerelease or compatibility rules.
 
 The intersection is:
 
@@ -76,6 +76,7 @@ No dependency manager, packaging convention, version standard, programming langu
 ### Sources
 
 - [MIT 6.005: Software Construction, Readings on Modularity and Specifications](https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/pages/readings/).
+- [MIT 6.005: Interfaces and Representation Independence](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/14-interfaces/index.html).
 - [MIT 6.005: Software Construction Syllabus](https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/pages/syllabus/).
 - [NASA: Interface Management](https://www.nasa.gov/reference/6-3-interface-management/).
 
