@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Communication & Distributed Systems](README.md)  
 **Approved subject heading:** Communication channels  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Communication & Distributed Systems 54-family audit](../WAVE-E-TECHNICAL-REVIEW-02.md); independent human review pending
 
 ## A channel describes possible exchange and its limitations
 
@@ -63,6 +63,6 @@ A channel can be available yet an application can fail because of naming, authen
 - [MIT 6.5840 Distributed Systems](https://pdos.csail.mit.edu/6.5840/).
 - [MIT 6.003 Signals and Systems](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/).
 
-**Editorial status:** Substantive Draft. Channel definitions, modeled delay and capacity conditions require separate scoped review. No medium or protocol is mandated.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E Communication & Distributed Systems 54-family technical audit](../WAVE-E-TECHNICAL-REVIEW-02.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Communication & Distributed Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
