@@ -1,7 +1,7 @@
 # Fundamentals: Development and Verification Register
 
 **Working edition:** v1.16  
-**Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
+**Scope:** Historical/current inventory snapshot of 12 approved knowledge areas and 109 tracked subject headings, transcribed from the [area inventories](README.md); **109 is not a permanent subject count**.  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
 ## Interpretation and status
@@ -29,6 +29,12 @@
 | Concept overlap boundaries | 20 approved at architectural level; article-level verification remains |
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
+
+## Subject-count governance (living inventory)
+
+**November 18, 2026 clarification:** The tracked 109 subject headings are a **versioned snapshot, not a frozen target**. The subject inventory may expand or contract as framework/model/architecture coverage and overlap reviews substantiate additions, splits, consolidations and retirements. The 12 existing knowledge areas remain the current approved navigational baseline; changing those areas requires its own review.
+
+Keep retired/superseded IDs and historical per-wave status counts auditable. When the inventory changes, reconcile all area indexes and this register's denominators. New or significantly altered subjects begin with **their own evidence-backed development and source-review state**; do not mechanically transfer the old 109/109 reviewed claim to a different version of the corpus.
 
 ## Current progress: All 109 approved subjects authored and Reviewed (model-assisted); publication acceptance pending
 
@@ -249,7 +255,7 @@
 
 ## Required update procedure
 
-1. Preserve exact subject wording and **tracker ID** when updating states. Do not delete approved inventory headings because multiple topics eventually share a canonical article.
+1. Preserve exact subject wording and **tracker ID** when updating the current snapshot. For an explicitly reviewed merge, split, rename or retirement, record old-to-new mappings and redirects rather than silently deleting history; the total number of subjects may increase or decrease.
 2. Once an actual article exists, replace *Not authored / Queued* with a **relative Markdown link to the real file**, and mark the development state **Draft**.
 3. Link sources near relevant claims, record what has been independently checked, and only then promote **Source review** to **Verified**.
 4. Replace broad, area-level conceptual references with precise canonical article links when those destinations exist.
