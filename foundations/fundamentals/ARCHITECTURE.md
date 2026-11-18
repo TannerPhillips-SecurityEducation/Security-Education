@@ -2,7 +2,7 @@
 
 **Status:** Approved governing definition and architectural requirements  
 **Scope:** Security Knowledge → Foundations → Fundamentals  
-**Current inventory snapshot (November 18, 2026):** 12 approved knowledge areas, **116 tracked subject headings** (109 Reviewed legacy articles + 7 Inventoried without articles); heading count may expand or contract  
+**Current inventory snapshot (November 18, 2026):** 12 approved knowledge areas, **116 authored and Reviewed (model-assisted) subject articles** (109 legacy + 7 Wave F); heading count may expand or contract  
 **Implementation:** Markdown navigation and links; no additional taxonomy or graph engine authorized
 
 ## Governing Definition
@@ -68,7 +68,7 @@ The relationship is conceptual, **not** a mandatory sequence for readers. A read
 
 ## Separate Navigation From Conceptual Structure
 
-**Navigation hierarchy:** The twelve currently approved areas organize Fundamentals. The **116 currently tracked headings** identify the present coverage snapshot (109 historically Reviewed + 7 newly Inventoried), not a fixed ceiling, floor, or required article count. These labels are broad *knowledge disciplines and subjects*, not necessarily the most basic conceptual primitives.
+**Navigation hierarchy:** The twelve currently approved areas organize Fundamentals. The **116 currently tracked headings** identify the present coverage snapshot (109 legacy Reviewed + 7 newly Reviewed under [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md)), not a fixed ceiling, floor, or required article count. These labels are broad *knowledge disciplines and subjects*, not necessarily the most basic conceptual primitives.
 
 **Conceptual knowledge graph:** Underlying concepts and their relationships may cross multiple disciplines. Each canonical entry should maintain explicit links to the relevant other concepts and specialized applications.
 
@@ -101,7 +101,7 @@ Before adding a canonical entry, classify its scope using these checks:
 
 ## Living Subject Inventory and Versioned Change Control
 
-**Governing clarification (November 18, 2026): The historical 109 headings were never fixed.** [Model/architecture adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) added seven Inventoried headings, producing a **116-heading current inventory** without changing the twelve area identities. The count is not an immutable target.
+**Governing clarification (November 18, 2026): The historical 109 headings were never fixed.** [Model/architecture adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) added seven headings, since authored and scoped-reviewed under [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md), producing a **116-heading current inventory** without changing the twelve area identities. The count is not an immutable target.
 
 Use the following decision sequence when an established framework, model, or architecture exposes a coverage question:
 
