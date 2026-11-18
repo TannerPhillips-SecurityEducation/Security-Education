@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v1.13; 59 internally reviewed references, 4 drafts, 46 inventoried headings; external human acceptance pending
+**Document status:** Working plan v1.14; 63 internally reviewed references, 9 drafts, 37 inventoried headings; external human acceptance pending
 **Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -54,17 +54,19 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record
 6. **No assessments.** No Knowledge Checks or Practical Assessments appear anywhere in this development plan or in the resulting knowledge reference.
 7. **Versioned evolution.** Preserve approved category identities while documenting proposed additions, merges, relocations, and corrections before changing canonical structure.
 
-## Execution Status: Wave C Batch 01 Reviewed; Batch 02 Authored
+## Execution Status: Wave C Batch 02 Reviewed; Batch 03 fully authored
 
-- **Wave A:** 26 of 26 approved subjects internally Reviewed (model-assisted), following [Wave A Batch 07](WAVE-A-TECHNICAL-REVIEW-07.md).
-- **Wave B:** 28 of 28 approved subjects internally Reviewed, following [Wave B Batch 05](WAVE-B-TECHNICAL-REVIEW-05.md).
-- **Wave C Batch 01 Reviewed:** [Matter and Energy](physical-electrical-principles/matter-and-energy.md), [Electricity](physical-electrical-principles/electricity.md), [Electrical Circuits](physical-electrical-principles/electrical-circuits.md), and [Computing Components](digital-systems-hardware/computing-components.md) passed the [24-family scoped technical audit](WAVE-C-TECHNICAL-REVIEW-01.md). Kirchhoff source grounding was strengthened and all model calculations checked.
-- **Wave C Batch 02 Drafts:** [Electronics](physical-electrical-principles/electronics.md), [Analog and Digital Signals](physical-electrical-principles/analog-and-digital-signals.md), [Waves and Frequency](physical-electrical-principles/waves-and-frequency.md), and [Processors and Instruction Sets](digital-systems-hardware/processors-and-instruction-sets.md) are substantive source-linked articles awaiting their own technical reviews.
-- **Wave C authoring coverage:** 9 of 18 headings; Physical & Electrical Principles 6/9 (3 Reviewed, 3 Draft), Digital Systems & Hardware 3/9 (2 Reviewed including Digital Logic pilot, 1 Draft).
-- The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) accounts for **109 headings: 59 Reviewed (model-assisted), 4 Draft, 46 Inventoried without article**.
-- G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open decisions; there are no new knowledge areas, subject headings, assessments or mandatory systems.
+- **Wave A:** All 26 approved subject headings internally Reviewed (model-assisted).
+- **Wave B:** All 28 approved subject headings internally Reviewed (model-assisted).
+- **Wave C Batch 01:** Four articles passed the [24-family technical audit](WAVE-C-TECHNICAL-REVIEW-01.md), including Matter and Energy, Electricity, Electrical Circuits, and Computing Components.
+- **Wave C Batch 02 Reviewed:** [Electronics](physical-electrical-principles/electronics.md), [Analog and Digital Signals](physical-electrical-principles/analog-and-digital-signals.md), [Waves and Frequency](physical-electrical-principles/waves-and-frequency.md), and [Processors and Instruction Sets](digital-systems-hardware/processors-and-instruction-sets.md) passed the [24-family scoped audit](WAVE-C-TECHNICAL-REVIEW-02.md) after the aliasing example was made mathematically explicit.
+- **Wave C Batch 03 Drafts, Physical & Electrical:** [Sensors and Actuators](physical-electrical-principles/sensors-and-actuators.md), [Signal Conversion](physical-electrical-principles/signal-conversion.md), and [Physical Control Mechanisms](physical-electrical-principles/physical-control-mechanisms.md).
+- **Wave C Batch 03 Drafts, Digital Hardware:** [Memory and Storage](digital-systems-hardware/memory-and-storage.md), [Buses and Interfaces](digital-systems-hardware/buses-and-interfaces.md), [Input/Output](digital-systems-hardware/input-output.md), [Timing and Clocks](digital-systems-hardware/timing-and-clocks.md), [Firmware](digital-systems-hardware/firmware.md), and [Hardware Abstraction](digital-systems-hardware/hardware-abstraction.md).
+- **Wave C authoring coverage:** **18/18**, comprising nine internally Reviewed articles, including the earlier Digital Logic pilot, and nine substantial Drafts awaiting their own scoped technical audit. Physical & Electrical Principles is 9/9 authored (6 Reviewed, 3 Draft); Digital Systems & Hardware is 9/9 authored (3 Reviewed, 6 Draft).
+- The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) accounts for **109 headings: 63 Reviewed (model-assisted), 9 Draft, 37 Inventoried without articles**.
+- G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open architectural decisions. No new knowledge area, subject heading, assessment activity or mandatory implementation technology has been introduced.
 
-**Next execution:** Audit the four Wave C Batch 02 Drafts, then author remaining approved Wave C subjects. Distinguish internal technical review from independent human verification, source-level acceptance and the seven corpus-wide publication gates.
+**Next execution:** Conduct the separately documented Wave C Batch 03 technical/source audit of all nine Drafts, then begin the remaining 37 approved Wave D/E subjects. Corpus-wide link completeness, exhaustive source verification, independent human peer review and the seven publication gates remain separate.
 
 ## 4. Work Packages and Stage Gates
 
@@ -206,8 +208,9 @@ No graph database or universal front-matter schema is required at this stage. Pr
 8. **Completed:** Wave B Batch 03 [24-family audit](WAVE-B-TECHNICAL-REVIEW-03.md) and Batch 04 [36-family audit](WAVE-B-TECHNICAL-REVIEW-04.md); Systems & Engineering is 11/11 internally Reviewed.
 9. **Completed:** Eight Human & Sociotechnical Systems articles passed the [Wave B Batch 05 48-family audit](WAVE-B-TECHNICAL-REVIEW-05.md), completing Wave B internal review (28/28).
 10. **Completed:** Four Wave C Batch 01 references passed the [24-family scoped technical audit](WAVE-C-TECHNICAL-REVIEW-01.md).
-11. **Completed authoring:** Four Wave C Batch 02 substantive Drafts committed; separate technical review is pending.
-12. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately. The 109-heading corpus is not publication-complete until the seven Fundamentals gates and applicable human acceptance are satisfied.
+11. **Completed:** Four Wave C Batch 02 articles passed the [24-family technical audit](WAVE-C-TECHNICAL-REVIEW-02.md), with an exact aliasing-example correction.
+12. **Completed authoring:** All nine remaining Wave C subject articles committed as Batch 03 substantive Drafts; separate scoped technical review pending.
+13. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately. The 109-heading corpus is not publication-complete until the seven Fundamentals gates and applicable human acceptance are satisfied.
 
 Production waves guide authors, **not reader prerequisites**. Knowledge Checks and Practical Assessments remain excluded.
 
@@ -234,6 +237,7 @@ Production waves guide authors, **not reader prerequisites**. Knowledge Checks a
 - [Wave B Batch 04 Claim-to-Source Review (36 families)](WAVE-B-TECHNICAL-REVIEW-04.md)
 - [Wave B Batch 05 Claim-to-Source Review (48 families)](WAVE-B-TECHNICAL-REVIEW-05.md)
 - [Wave C Batch 01 Claim-to-Source Review (24 families)](WAVE-C-TECHNICAL-REVIEW-01.md)
+- [Wave C Batch 02 Claim-to-Source Review (24 families)](WAVE-C-TECHNICAL-REVIEW-02.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
 - [Knowledge relationship conventions](../../RELATIONSHIPS.md)
