@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Software & Programming](README.md)  
 **Approved subject heading:** Programming paradigms  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical/source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Software Batches 03–04 audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md); independent human review pending
 
 ## A paradigm frames how a computation is expressed
 
@@ -77,6 +77,6 @@ No programming language, framework, paradigm hierarchy, personal preference or l
 - [MIT 6.005: Map, Filter, Reduce](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/25-map-filter-reduce/).
 - [MIT 6.005: Mutability and Immutability](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/09-immutability/).
 
-**Editorial status:** Substantive Draft. The illustrative pseudocode and conceptual distinctions require a separately documented scoped technical audit. No programming platform or assessment is introduced.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave D Software 54-family audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md). Complete source verification, independent expert review and final publication acceptance remain separate outstanding gates.
 
 [Software & Programming](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
