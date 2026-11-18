@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Communication & Distributed Systems](README.md)  
 **Approved subject heading:** Distributed state  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Communication & Distributed Systems 54-family audit](../WAVE-E-TECHNICAL-REVIEW-02.md); independent human review pending
 
 ## Multiple nodes do not automatically share one instantaneous view
 
@@ -67,6 +67,6 @@ No particular database, replication technology, cloud vendor, consensus algorith
 - [MIT 6.5840: Course Project Ideas and Consistency Models](https://pdos.csail.mit.edu/6.5840/project.html).
 - [MIT 6.1800: Computer Systems Engineering](https://catalog.mit.edu/subjects/6/).
 
-**Editorial status:** Substantive Draft. Consistency-model definitions, stale-read scenario and fault assumptions require separate scoped technical/source review. No new architecture categories are introduced.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E Communication & Distributed Systems 54-family technical audit](../WAVE-E-TECHNICAL-REVIEW-02.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Communication & Distributed Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
