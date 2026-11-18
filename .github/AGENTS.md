@@ -2,7 +2,7 @@
 
 **Applies to:** `.github/`, its `workflows/` directory, and related automation files.  
 **Inherited authority:** [Root AGENTS.md](../AGENTS.md) governs editorial integrity, source evidence, flexible subject counts, honest approvals, and agent initiative. This document narrows those rules to repository automation; it does not override security/tool permissions.  
-**Actual current automation:** [Fundamentals navigation and inventory integrity](workflows/fundamentals-internal-links.yml) and [Security Foundations working architecture and pilot integrity](workflows/security-foundations-integrity.yml).  
+**Actual current automation:** [Fundamentals navigation and inventory integrity](workflows/fundamentals-internal-links.yml), [Security Foundations working architecture and area-article integrity](workflows/security-foundations-integrity.yml), and [repository-wide AGENTS/navigation integrity](workflows/repository-integrity.yml).  
 **Status:** Working operational instructions, **not** a declaration of new branch protections, available secrets, completed external verification, or approval to deploy.
 
 ## 1. Mission and non-negotiable boundaries
@@ -24,10 +24,10 @@ Subject/area counts are *living*: validators should read current inventories rat
 The physically present structure contains:
 
 - [`workflows/fundamentals-internal-links.yml`](workflows/fundamentals-internal-links.yml): Checks Fundamentals Markdown references, tracker/ownership consistency and non-gating model/source coverage diagnostics.
-- [`workflows/security-foundations-integrity.yml`](workflows/security-foundations-integrity.yml): Checks Security Foundations pilot/article/working inventory consistency, Markdown links and heading targets.
+- [`workflows/security-foundations-integrity.yml`](workflows/security-foundations-integrity.yml): Checks Security Foundations **provisional area README/article layout**, candidate IDs, historical pilot aliases, Markdown links and source/review states via [dynamic area validator](../foundations/security-foundations/tools/check_area_structure.py).
 - [Root contributor SOP](../AGENTS.md) and three Foundations subtree contracts under [Foundations](../foundations/README.md): actual content authority and editorial gates remain in their relevant directories.
 
-No other workflow, CI tool, branch protection or deployment pipeline should be described as already implemented unless inspected.
+The [repository-wide integrity workflow](workflows/repository-integrity.yml) also reconciles live Foundations subject inventories and validates scoped AGENTS contracts. No other workflow, CI tool, branch protection or deployment pipeline should be described as already implemented unless inspected.
 
 **File responsibilities:** Workflow YAML defines triggers/jobs/permissions; reference scripts own validation logic; GitHub Actions logs are run-specific evidence; a technical article review belongs in the corresponding knowledge division, not the workflow.
 
