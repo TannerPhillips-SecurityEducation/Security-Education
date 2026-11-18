@@ -68,7 +68,7 @@ An analog system can be precise within its intended range, and a digital system 
 
 ## Boundaries and applications
 
-[Waves and Frequency](waves-and-frequency.md) owns the general physical behavior of waves, cycles, wavelength and frequency. [Signal Conversion](README.md) remains a separate approved heading for analog-to-digital and digital-to-analog transduction mechanisms. [Information Theory](../information-data/information-theory.md) owns entropy and information limits, not every physical noise mechanism.
+[Waves and Frequency](waves-and-frequency.md) owns the general physical behavior of waves, cycles, wavelength and frequency. [Signal Conversion](signal-conversion.md) remains a separate approved heading for analog-to-digital and digital-to-analog transduction mechanisms. [Information Theory](../information-data/information-theory.md) owns entropy and information limits, not every physical noise mechanism.
 
 This article introduces no mandated modulation scheme, converter, radio protocol, physical-layer standard or assessment.
 
