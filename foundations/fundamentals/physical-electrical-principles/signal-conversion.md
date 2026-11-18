@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Physical & Electrical Principles](README.md)  
 **Approved subject heading:** Signal conversion  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 03 audit](../WAVE-C-TECHNICAL-REVIEW-03.md); independent human review pending
 
 ## Converting signals changes representation under constraints
 
@@ -88,6 +88,6 @@ This article owns signal conversion, not all filter design (G-05 remains assigne
 - [NIST: International System of Units and metrology](https://www.nist.gov/pml).
 - [JCGM: International Vocabulary of Metrology](https://jcgm.bipm.org/vim/en/).
 
-**Editorial status:** Substantive Draft. Quantization example, source boundaries and analog conversion claims require an independent scoped model-assisted technical audit before promotion. No new subject headings or assessments are introduced.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave C Batch 03 54-family technical review](../WAVE-C-TECHNICAL-REVIEW-03.md). Full source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
 
 [Physical & Electrical Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
