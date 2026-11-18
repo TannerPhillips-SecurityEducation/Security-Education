@@ -63,6 +63,8 @@ Engineered physical control can create mechanical, electrical, thermal or other 
 - [MIT 2.14: Analysis and Design of Feedback Control Systems](https://ocw.mit.edu/courses/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/).
 - [NASA: Fundamentals of Systems Engineering](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/).
 - [OpenStax University Physics Volume 1: Energy and Work](https://openstax.org/books/university-physics-volume-1/pages/7-1-work).
+- [OpenStax: First Law of Thermodynamics](https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics).
+- [OpenStax: Heat Transfer, Specific Heat and Calorimetry](https://openstax.org/books/university-physics-volume-2/pages/1-4-heat-transfer-specific-heat-and-calorimetry).
 - [BIPM: The SI Brochure](https://www.bipm.org/en/publications/si-brochure).
 
 **Editorial status:** Substantive Draft. Heat-balance arithmetic and model assumptions require their own scoped technical/source audit. No mandatory physical design, operation, assessment or certification is introduced.
