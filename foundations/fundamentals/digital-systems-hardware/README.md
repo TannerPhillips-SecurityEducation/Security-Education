@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Three of nine headings authored (two Reviewed model-assisted; one Draft); six not yet authored  
+**Content status:** All 9 approved subjects authored; 3 Reviewed (model-assisted), 6 Draft; independent human review and final publication acceptance pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -27,24 +27,20 @@ Components and mechanisms by which physical hardware represents information and 
 | --- | --- | --- |
 | Digital logic | [Digital Logic](digital-logic.md) | Reviewed (model-assisted) |
 | Computing components | [Computing Components](computing-components.md) | Reviewed (model-assisted) |
-| Processors and instruction sets | [Processors and Instruction Sets](processors-and-instruction-sets.md) | Draft |
-| Memory and storage | Not authored | Inventoried |
-| Buses and interfaces | Not authored | Inventoried |
-| Input/output | Not authored | Inventoried |
-| Timing and clocks | Not authored | Inventoried |
-| Firmware | Not authored | Inventoried |
-| Hardware abstraction | Not authored | Inventoried |
+| Processors and instruction sets | [Processors And Instruction Sets](processors-and-instruction-sets.md) | Reviewed (model-assisted) |
+| Memory and storage | [Memory And Storage](memory-and-storage.md) | Draft |
+| Buses and interfaces | [Buses And Interfaces](buses-and-interfaces.md) | Draft |
+| Input/output | [Input/Output](input-output.md) | Draft |
+| Timing and clocks | [Timing And Clocks](timing-and-clocks.md) | Draft |
+| Firmware | [Firmware](firmware.md) | Draft |
+| Hardware abstraction | [Hardware Abstraction](hardware-abstraction.md) | Draft |
 
 ## Technical review and canonical boundaries
 
-[Digital Logic](digital-logic.md) passed the [six-pilot claim-to-source review](../PILOT-CLAIM-SOURCE-AUDIT.md). [Computing Components](computing-components.md) passed the [Wave C Batch 01 technical audit](../WAVE-C-TECHNICAL-REVIEW-01.md). Both are internally Reviewed (model-assisted). [Processors and Instruction Sets](processors-and-instruction-sets.md) is a substantive Wave C Batch 02 **Draft** awaiting its own technical audit.
+**Wave C authoring coverage: 9/9.** The earlier [Wave C Batch 01](../WAVE-C-TECHNICAL-REVIEW-01.md) and [Wave C Batch 02](../WAVE-C-TECHNICAL-REVIEW-02.md) audits establish scoped model-assisted review for their corresponding articles. The **nine newly authored Batch 03 articles across both Wave C areas remain Draft**, awaiting a separate scoped technical/source review.
 
-The subjects distinguish physically implemented logic, overall hardware roles, and the software-visible instruction-set contract. An ISA is not synonymous with a microarchitecture, and an address space's capacity is not proof of installed memory. The remaining six headings retain separate canonical scope when authored.
+This area distinguishes logical switching, hardware roles, ISA contracts, physical memory, interconnects, I/O, clocks, firmware, and abstraction. Operating-system memory management, device drivers and other software mechanisms retain separate ownership. Hardware timing does not settle the general-temporality decision G-04.
 
-[Bits and Bytes](../information-data/bits-and-bytes.md) owns binary units, [Data Types](../information-data/data-types.md) owns value interpretation, [Electrical Circuits](../physical-electrical-principles/electrical-circuits.md) owns circuit physics, and [State, Events, and Transitions](../models-abstraction/state-events-and-transitions.md) owns general state semantics.
-
-General time and temporality G-04 remain an unresolved architectural decision; a future article on Timing and Clocks does not settle that decision by default. G-01 and G-06 also remain open.
-
-No assessments, new approved subjects, mandated CPU architecture or publication acceptance are introduced.
+This area is a **navigation discipline**, not a new universal ontology or a mandate for any particular vendor, electrical implementation, chip architecture, operating system or data format. The original 12-area/109-heading approved architecture is unchanged. G-01, G-04 and G-06 remain unresolved scope questions; no Knowledge Checks or Practical Assessments are introduced.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
