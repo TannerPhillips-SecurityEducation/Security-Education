@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-11-04 · Security Failure & Resilience  
 **Artifact type:** Substantive working article pilot; permanent canonical location **not ratified**  
-**Development state:** Draft · **Source review:** References listed; scoped technical audit pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (five material claim groups); complete source verification and qualified independent review remain open  
 **Architecture:** [Proposed Security Foundations](../ARCHITECTURE.md) · [Working candidate inventory](../SUBJECT-INVENTORY-PROPOSAL.md)
 
 ## Resilience concerns valued function despite adverse conditions
@@ -104,5 +104,7 @@ An adaptation may change attack exposure, service performance or rights affected
 - [NIST SP 800-61 Rev. 3 (2025)](https://csrc.nist.gov/pubs/sp/800/61/r3/final), operational incident-response guidance, separate from foundational resilience properties.
 
 **Editorial limitation:** This pilot explains conceptual system properties and invented examples, not how to perform incident response or guarantee recovery in any environment. Source-passage technical review and independent human acceptance remain open; the 12-area/96-subject inventory is still proposed and flexible.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 03](../PILOT-TECHNICAL-REVIEW-03.md). This remains a **pilot**, not a ratified canonical subject, source-Verified artifact or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md)
