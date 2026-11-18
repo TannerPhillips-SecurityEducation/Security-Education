@@ -12,6 +12,8 @@
 
 This file is a reusable **operating guide**, not authorization to claim new user approvals, automatically promote pilots to permanent canonical pages, or infer publication acceptance from green CI. It also requires reconciliation of current article and review states rather than carrying forward stale historical counts.
 
+**Authoring sequence:** Each new Draft batch is followed by its own separate claim-led **Review** in the next authoring-related response, including corrections, a dated audit, register reconciliation and validation **before drafting additional subjects**. Reviewed is not Verified or Published. [Review 04](PILOT-TECHNICAL-REVIEW-04.md) demonstrates this cycle for the three November 18 area-first manuscripts. Historical `pilots/` redirects are mandatory only for manuscripts documented in [Adjudication 03's relocation map](AREA-STRUCTURE-ADJUDICATION-03.md).
+
 ## Architectural documentation
 
 - [**Governing Architecture Proposal**](ARCHITECTURE.md): Definition, conceptual protection model, divisional scope, proposed knowledge areas, placement tests, and editorial requirements.
