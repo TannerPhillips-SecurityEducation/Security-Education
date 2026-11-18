@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All **11/11** canonical articles Reviewed (model-assisted): 10 prior Wave articles and 1 under [Wave F 42-family review](../WAVE-F-TECHNICAL-REVIEW-01.md); none Published
+**Content status:** **11/11 current canonical subject articles Reviewed (model-assisted)**; individual scoped audits are recorded in article metadata and the [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md). None is fully source-Verified, independently peer-reviewed or Published.  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -22,9 +22,11 @@ Ways to describe entities, relations, boundaries, classifications, and dynamic b
 - State, events, and transitions
 - Conceptual and formal models
 
-**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 1 newly authored references have now passed [Wave F's scoped model-assisted review](../WAVE-F-TECHNICAL-REVIEW-01.md). Their full source verification, independent expert review and publication acceptance remain pending. These expand the original 10-heading article snapshot; the area now tracks **11 headings**.
+**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following newly authored reference have now passed [Wave F's scoped model-assisted review](../WAVE-F-TECHNICAL-REVIEW-01.md). Their full source verification, independent expert review and publication acceptance remain pending. These expand the original 10-heading article snapshot; the area now tracks **11 headings**.
 
 - Temporal concepts and models
+
+**Current area snapshot (November 18, 2026):** **11 actual article files**, each internally Reviewed (model-assisted). Ten references predate the additional temporality article, reviewed separately under [Wave F](../WAVE-F-TECHNICAL-REVIEW-01.md). Earlier counts in wave documents are historical; no independently source-Verified or Published status is implied.
 
 ## Canonical reference articles
 
@@ -44,10 +46,10 @@ Ways to describe entities, relations, boundaries, classifications, and dynamic b
 | Temporal concepts and models | [Reviewed article](temporal-concepts-and-models.md) | Reviewed (model-assisted) | [Wave F 42-family audit](../WAVE-F-TECHNICAL-REVIEW-01.md) |
 
 ## Development and canonical boundaries
-**Current inventory reconciliation (November 18, 2026):** **11 tracked headings and 11 internally Reviewed articles**. The first 10 retain their prior-wave review evidence; the 1 additions have separate [Wave F review evidence](../WAVE-F-TECHNICAL-REVIEW-01.md). None has final independent publication acceptance.
+**Current inventory reconciliation (November 18, 2026):** **11 tracked headings and 11 internally Reviewed articles**. The first 10 retain their prior-wave review evidence; the addition has separate [Wave F review evidence](../WAVE-F-TECHNICAL-REVIEW-01.md). None has final independent publication acceptance.
 
 
-**All 10/10 approved headings have substantive, internally Reviewed references.** The scoped technical/claim-to-source audits in the table document model-assisted review. They are **not** exhaustive verification of source material, independent human peer review or final publication acceptance.
+**Historical pilot/wave review:** The original set of articles had substantive, internally Reviewed references. The scoped technical/claim-to-source audits in the table document model-assisted review. They are **not** exhaustive verification of source material, independent human peer review or final publication acceptance.
 
 This area is an approved navigation discipline. Its headings organize domain-agnostic knowledge but do not ratify additional universal primitives, category families, a formal ontology or a mandatory technical system.
 
