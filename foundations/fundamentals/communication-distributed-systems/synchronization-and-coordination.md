@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Communication & Distributed Systems](README.md)  
 **Approved subject heading:** Synchronization and coordination  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Communication & Distributed Systems 54-family audit](../WAVE-E-TECHNICAL-REVIEW-02.md); independent human review pending
 
 ## Coordinating separate nodes requires explicit guarantees
 
@@ -69,6 +69,6 @@ This article does not mandate Raft, Paxos, a distributed database, wall-clock in
 - [MIT 6.5840: Project and Replication Examples](https://pdos.csail.mit.edu/6.5840/project.html).
 - [MIT 6.1800: Computer Systems Engineering](https://catalog.mit.edu/subjects/6/).
 
-**Editorial status:** Substantive Draft. Quorum example, consistency guarantees and timing assumptions require separate scoped technical review. No consensus implementation is prescribed.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E Communication & Distributed Systems 54-family technical audit](../WAVE-E-TECHNICAL-REVIEW-02.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Communication & Distributed Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
