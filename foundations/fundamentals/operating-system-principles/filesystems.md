@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Operating System Principles](README.md)  
 **Approved subject heading:** Filesystems  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Operating System Principles 60-family audit](../WAVE-E-TECHNICAL-REVIEW-01.md); independent human review pending
 
 ## File abstractions map names to stored information
 
@@ -61,6 +61,6 @@ A filesystem stores resources under naming and access rules. A database adds its
 - [Operating Systems: Three Easy Pieces, Persistence chapters](https://research.cs.wisc.edu/wind/OSTEP/).
 - [POSIX System Interfaces](https://pubs.opengroup.org/onlinepubs/9799919799/).
 
-**Editorial status:** Substantive Draft. Block-allocation arithmetic and durability assumptions require a separately documented scoped technical audit. No filesystem product, assessment or storage policy is adopted.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E OS 60-family technical audit](../WAVE-E-TECHNICAL-REVIEW-01.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Operating System Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
