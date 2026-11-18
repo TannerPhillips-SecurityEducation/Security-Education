@@ -2,7 +2,7 @@
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
 **Document status:** Working plan v1.20; all 109 articles internally Reviewed (model-assisted), none Published; stronger claim-level source verification and independent human publication acceptance pending
-**Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
+**Current inventory baseline:** 12 approved knowledge areas; 109 inventoried subject headings (versioned, may expand or contract)  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
 ## Governing Definition and Classification
@@ -16,7 +16,7 @@ Follow the [approved Fundamentals governing architecture](ARCHITECTURE.md) throu
 - **Canonical ownership:** A concept has one general canonical home; specialized areas link to it and develop distinct contextual mechanisms.
 - **Specialized extension:** Domain applications build on Fundamentals, without turning Fundamentals into a technology-specific taxonomy.
 
-The **12 knowledge areas are navigational disciplines**, and the **109 headings are a coverage inventory**, not 109 presumed one-to-one concepts. The knowledge graph captures conceptual relationships across disciplinary boundaries. Illustrative primitives are not a separately approved taxonomy.
+The **12 approved knowledge areas are navigational disciplines**, and the **109 headings are the present, revisable coverage inventory**, not 109 presumed one-to-one concepts or a fixed quota. The knowledge graph captures conceptual relationships across disciplinary boundaries. Illustrative primitives are not a separately approved taxonomy.
 
 ## 1. Mission
 
@@ -28,13 +28,13 @@ Here, *curriculum* means an organized body of reference knowledge with deliberat
 
 ## 2. Starting Position
 
-- **Approved structure:** 12 knowledge areas containing 109 subject headings.
+- **Current approved snapshot:** 12 knowledge areas containing 109 subject headings. The heading count may expand or contract through documented coverage/ownership review.
 - **Implemented today:** 12 area READMEs and a Fundamentals index listing their inventories.
 - **Implemented for architectural review:** [Canonical Ownership & Relationship Register](CANONICAL-OWNERSHIP-REGISTER.md) maps all 109 headings to proposed conceptual scopes and illustrative links; [Concept Overlap & Coverage Review](CONCEPT-OVERLAP-REVIEW.md) catalogs 20 overlap groups and 10 candidate gaps.
 - **Not yet demonstrated:** fully developed canonical references, verified concept-level dependency relationships, complete seven-domain coverage, or satisfaction of all seven completion gates.
 - **Unit of work:** A canonical *concept or tightly coherent subject*, not necessarily one file for each inventory heading. Identify the general definition's owner before adding implementations. Some headings may need several canonical entries; others may be adequately covered together. Changes to scope and the canonical map should be recorded before drafting to avoid duplication.
 
-The 109 headings are the **initial coverage baseline**, not proof that no additional foundational concepts will be needed.
+The 109 headings are a **historical/current coverage baseline**, not a maximum, minimum, or final quota. Model- and framework-grounded review may justify added, split, consolidated, or retired subjects.
 
 ## Boundary and Gap-Resolution Milestones
 
@@ -52,7 +52,13 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record
 4. **Evidence over assertion.** Prefer primary specifications, foundational texts, and authoritative technical documentation; cite sources near substantive technical claims. Separate sourced facts from editorial interpretation and illustrative models.
 5. **Connected technical prose.** Explain concepts progressively through meaning, distinctions, mechanisms, relationships, and worked examples, rather than filling a glossary with isolated definitions.
 6. **No assessments.** No Knowledge Checks or Practical Assessments appear anywhere in this development plan or in the resulting knowledge reference.
-7. **Versioned evolution.** Preserve approved category identities while documenting proposed additions, merges, relocations, and corrections before changing canonical structure.
+7. **Versioned evolution.** Preserve historical identifiers and the presently approved category identities while documenting subject additions, splits, merges, renames, retirements, relocations and corrections. **The subject count is not fixed.**
+
+## Living subject inventory rule
+
+**Clarification, November 18, 2026:** The 109-subject inventory is **revisable in either direction**. New foundational frameworks, models, or architectures may expose missing concepts that warrant extra headings; overlapping or mis-scoped subjects may warrant merges or retirement. Neither growth nor contraction is an achievement by itself. Use [architecture-level versioned change control](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control), log the rationale, and reconcile the denominators, paths, status evidence and ownership links after an accepted change.
+
+Historical 109/109 Reviewed (model-assisted) refers only to the audited snapshot. Never equate it to automatic review of additions or merged replacements.
 
 ## Execution Status: All 109 subjects authored and internally Reviewed; publication gates open
 
@@ -189,7 +195,7 @@ No graph database or universal front-matter schema is required at this stage. Pr
 
 | Risk | Control |
 | --- | --- |
-| Expanding scope without closure | Maintain the 109-heading baseline and record additions in a separate proposed-gap list |
+| Unbounded scope changes | Maintain a versioned historical 109-heading baseline; assess additions, consolidation and retirements against model-grounded coverage and canonical ownership before adoption |
 | Duplicate or conflicting definitions | One canonical home, explicit cross-links, and consistency review |
 | Superficial completion | Apply the six-part editorial contract and seven completion gates |
 | Vendor-specific drift | Preserve domain-neutral explanations; move implementation detail to specialized domains |
