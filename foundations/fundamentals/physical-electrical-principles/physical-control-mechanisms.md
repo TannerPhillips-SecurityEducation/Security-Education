@@ -66,7 +66,7 @@ A response measurement must specify location, conditions, calibration and observ
 
 Engineered physical control can create mechanical, electrical, thermal or other hazards. This article is a conceptual reference, not a wiring plan, operating procedure or declaration that a controller meets a safety standard. Validation of an actual design requires qualified methods appropriate to its domain, hazards and environment.
 
-[Requirements](../systems-engineering/requirements.md) owns performance and functional acceptance criteria, and [Verification and Validation](../systems-engineering/verification-and-validation.md) owns evaluation of the built system. The general time/temporality scope decision G-04 remains open, notwithstanding the applied thermal evolution described here.
+[Requirements](../systems-engineering/requirements.md) owns performance and functional acceptance criteria, and [Verification and Validation](../systems-engineering/verification-and-validation.md) owns evaluation of the built system. [Temporal Concepts and Models](../models-abstraction/temporal-concepts-and-models.md) owns general time and ordering; this article develops the physical effects of control over time.
 
 ### Sources
 
