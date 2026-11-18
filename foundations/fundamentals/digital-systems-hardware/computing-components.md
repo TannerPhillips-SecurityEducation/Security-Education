@@ -41,7 +41,7 @@ A **processor** executes instructions under a defined instruction-set architectu
 
 A common instructional account uses *fetch*, *decode*, *execute* and *commit or write-back*. This is a **logical decomposition of instruction effects**, not proof that every modern processor executes every instruction in that exact sequence or within one clock cycle. Pipelines, speculative execution, asynchronous operations and specialized processors can overlap or reorganize work.
 
-[Processors and Instruction Sets](README.md) will own the detailed ISA-versus-microarchitecture distinction, including instruction encoding, register models and execution semantics. [Digital Logic](digital-logic.md) owns gates and sequential switching mechanisms.
+[Processors and Instruction Sets](processors-and-instruction-sets.md) will own the detailed ISA-versus-microarchitecture distinction, including instruction encoding, register models and execution semantics. [Digital Logic](digital-logic.md) owns gates and sequential switching mechanisms.
 
 ## Memory, storage and data persistence
 
