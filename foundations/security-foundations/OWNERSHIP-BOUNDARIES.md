@@ -1,11 +1,13 @@
 # Security Foundations: Proposed Canonical Ownership Boundaries
 
-**Working edition:** v0.1 · November 17, 2026  
+**Working edition:** v0.2 · November 18, 2026  
 **Status:** Proposed, **not approved**. These are editorial routing recommendations, not formal knowledge-graph predicates or decisions to move existing content.
 
 ## Purpose
 
 Prevent the future Security Foundations inventory from becoming a second copy of the approved [Fundamentals](../fundamentals/README.md) corpus or a catch-all container for domain implementations and security operations. The [Architecture Proposal](ARCHITECTURE.md) supplies the governing selection rules; the [Candidate Subject Inventory](SUBJECT-INVENTORY-PROPOSAL.md) supplies provisional navigation.
+
+Use the [Established Security Models Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) to distinguish formal models, behavioral descriptions, heuristics, taxonomies and control catalogs before assigning subject ownership.
 
 Security concepts may be **related** across articles without being ontologically identical. Each distinct explanation should have one canonical general home, with linked applications and distinct mechanism-specific homes. A Markdown link demonstrates navigation, **not** correctness of the claimed relationship.
 
@@ -50,6 +52,19 @@ Security concepts may be **related** across articles without being ontologically
 | Authenticating a person with a device and credential | Identity domain, linked to shared authentication principles | Mechanism, protocol and lifecycle, not the definition of security authority |
 | Assessing the quality of evidence from a security event | Security Foundations for concepts; Operational Foundations for procedures | Evidence meaning versus applying an investigation workflow |
 | Mapping concepts to NIST CSF, ATT&CK, CWE | Secondary relationship/index | These are established external frameworks, not this repository's automatic canonical hierarchy |
+
+## Established-model boundary checks (working, not ratified)
+
+| Models or representations | Boundary to preserve |
+| --- | --- |
+| CIA versus STRIDE | Security property versus threat-identification prompts |
+| Diamond Model versus ATT&CK | Four-feature intrusion-event relationship model versus evolving adversary-behavior knowledge base |
+| ATT&CK versus Unified Kill Chain | Tactic/technique descriptions versus abstract cyber-attack progression; ATT&CK tactic order is not a fixed timeline |
+| CWE versus CAPEC versus CVSS | Weakness class versus attack pattern versus severity scoring; no one-to-one implication or organizational risk score |
+| Zero Trust versus ABAC | Architecture principles versus a particular model of policy-based authorization decisions |
+| NIST SP 800-53 versus D3FEND | Control catalog versus structured defensive-technique knowledge; neither independently proves effectiveness |
+| Pyramid of Pain versus evidence quality | A heuristic about adversary adaptation cost is not a reliability guarantee for an indicator or attribution claim |
+| NIST CSF versus Security Foundations | Organizational risk-management outcomes are not a conceptual knowledge taxonomy |
 
 ## Deferred decisions requiring architectural review
 
