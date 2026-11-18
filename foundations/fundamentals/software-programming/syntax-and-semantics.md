@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Software & Programming](README.md)  
 **Approved subject heading:** Syntax and semantics  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical/source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Software Batches 03–04 audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md); independent human review pending
 
 ## A valid expression and its meaning are different claims
 
@@ -78,6 +78,6 @@ No particular parser generator, compiler framework, programming language or asse
 - [MIT 6.005: Parser Generators](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/18-parser-generators/index.html).
 - [MIT 6.035: Computer Language Engineering Lecture Notes](https://ocw.mit.edu/courses/6-035-computer-language-engineering-spring-2010/pages/lecture-notes/).
 
-**Editorial status:** Substantive Draft. Grammar interpretation, precedence and evaluation claims require a separate scoped technical/source review; the toy grammar is not a production language specification.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave D Software 54-family audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md). Complete source verification, independent expert review and final publication acceptance remain separate outstanding gates.
 
 [Software & Programming](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
