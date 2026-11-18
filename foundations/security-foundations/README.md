@@ -4,7 +4,7 @@
 
 **Division status:** Approved.  
 **Internal architecture status:** Model-grounded working proposal **v0.3**, **not ratified**.  
-**Candidate coverage:** **Twelve provisional areas and 96 active candidate subjects** after four source-grounded additions and two consolidations. Both numbers remain flexible. **Eight source-led pilot articles have passed a 40-family scoped model-assisted review** under [pilots](pilots/README.md); no permanent canonical subject tree has been ratified.
+**Candidate coverage:** **Twelve provisional areas and 96 active candidate subjects** after four source-grounded additions and two consolidations. Both numbers remain flexible. **Ten source-led pilot articles have passed two scoped model-assisted reviews (50 material claim groups)** under [pilots](pilots/README.md); no permanent canonical subject tree has been ratified.
 
 ## Architectural documentation
 
@@ -17,11 +17,12 @@
 ## Architecture adjudication and pilot development
 
 - [**Architecture Adjudication 02**](ARCHITECTURE-ADJUDICATION-02.md): Full 94-to-96 reconciliation, including two consolidated IDs and four added candidate subjects, supported by model/source boundaries. Both the area and subject counts may expand or contract.
-- [**Eight Source-Led Article Pilots**](pilots/README.md): Substantive internally Reviewed (model-assisted) exploratory articles across security objectives, threats, vulnerabilities, authorization policies, information-flow security, cryptographic composition, observation, and assurance. **They are not ratified canonical locations or Published articles.**
-- [**Pilot Technical Review 01**](PILOT-TECHNICAL-REVIEW-01.md): 40 material claim groups checked, source-scope limitations recorded, and three important corrections: actual insecurity versus unknown assurance, RFC 9846 for TLS 1.3, and ISO/IEC 15408-1:2026.
+- [**Ten Source-Led Article Pilots**](pilots/README.md): Internally Reviewed (model-assisted) exploratory references covering security objectives, threats, vulnerabilities, risk, controls, access policy, information flow, cryptography, observation and assurance. **They are not ratified canonical locations or Published articles.**
+- [**Pilot Technical Review 01**](PILOT-TECHNICAL-REVIEW-01.md): 40 claim groups across the original eight pilots; corrected insecurity/uncertainty and current TLS/Common Criteria versions.
+- [**Pilot Technical Review 02**](PILOT-TECHNICAL-REVIEW-02.md): 10 additional claim groups across the risk and defensive-controls pilots, separating severity from risk and control listings from measured effects.
 - [**Source Crosswalk v0.2**](ESTABLISHED-MODEL-CROSSWALK.md): 26 reference groups, including 2025/2026 source-version context, cryptographic specifications and noninterference/side-channel distinctions.
 
-**Governance separation:** The division is approved; the internal hierarchy and 96 candidate subjects are **not yet ratified**. The eight pilots are **Reviewed (model-assisted) / Core claims checked**, but complete source-passage verification, qualified independent review and final publication acceptance remain separate evidence states. No draft count or working model is a required future quota.
+**Governance separation:** The division is approved; the internal hierarchy and 96 candidate subjects are **not yet ratified**. The ten pilots are **Reviewed (model-assisted) / Core claims checked**, but complete source-passage verification, qualified independent review and final publication acceptance remain separate evidence states. No draft count or working model is a required future quota.
 
 ## The governing distinction
 
