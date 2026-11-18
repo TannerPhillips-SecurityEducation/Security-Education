@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All **13/13 canonical subject articles** Reviewed (model-assisted), including 2 newly reviewed under [Wave H 24-family audit](../WAVE-H-TECHNICAL-REVIEW-01.md). Source-level Verified and independent Published acceptance remain open.
+**Content status:** **13/13 current canonical subject articles Reviewed (model-assisted)**; individual scoped audits are recorded in article metadata and the [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md). None is fully source-Verified, independently peer-reviewed or Published.  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -20,7 +20,7 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 - Probability and statistics
 - Units and quantities
 
-**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 3 newly authored references have now passed [Wave F's scoped model-assisted review](../WAVE-F-TECHNICAL-REVIEW-01.md). Their full source verification, independent expert review and publication acceptance remain pending. These expand the original 8-heading article snapshot; the area now tracks **11 headings**.
+**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 3 newly authored references have now passed [Wave F's scoped model-assisted review](../WAVE-F-TECHNICAL-REVIEW-01.md). Their full source verification, independent expert review and publication acceptance remain pending. These expand the original 8-heading article snapshot; the Wave F intermediate inventory tracked **11 headings**; the current Wave H inventory tracks **13**.
 
 - Linear algebra and vector spaces
 - Geometry and spatial reasoning
@@ -29,10 +29,11 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 - Stochastic processes and Markov models
 
 
-**Post-authoring status:** The 2 additional articles are substantively authored and remain **Draft / References listed**, distinct from the 11 historically Reviewed references. Further validation and publication review remain outstanding.
 
 
 **Wave H completion (November 18, 2026):** The 2 new subjects have canonical articles and passed [24-family scoped model-assisted technical review](../WAVE-H-TECHNICAL-REVIEW-01.md) with material claim examples and source limitations documented. The area retains 13 subjects, all Reviewed (model-assisted). No article is fully source-level Verified or independently accepted for publication.
+
+**Current area snapshot (November 18, 2026):** **13 actual article files**, each internally Reviewed (model-assisted). The original eight references passed Wave A; three were added and reviewed under [Wave F](../WAVE-F-TECHNICAL-REVIEW-01.md) and two under [Wave H](../WAVE-H-TECHNICAL-REVIEW-01.md). Earlier counts in wave documents are historical; no independently source-Verified or Published status is implied.
 
 ## Canonical reference articles
 
@@ -51,17 +52,17 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 | Geometry and spatial reasoning | [Reviewed article](geometry-and-spatial-reasoning.md) | Reviewed (model-assisted) | [Wave F 42-family audit](../WAVE-F-TECHNICAL-REVIEW-01.md) |
 | Topology and continuity | [Reviewed article](topology-and-continuity.md) | Reviewed (model-assisted) | [Wave F 42-family audit](../WAVE-F-TECHNICAL-REVIEW-01.md) |
 
-| Calculus and differential equations | [Reviewed article](calculus-and-differential-equations.md) | Reviewed (model-assisted) |
-| Stochastic processes and Markov models | [Reviewed article](stochastic-processes-and-markov-models.md) | Reviewed (model-assisted) |
+| Calculus and differential equations | [Reviewed article](calculus-and-differential-equations.md) | Reviewed (model-assisted) | [Wave H 24-family audit](../WAVE-H-TECHNICAL-REVIEW-01.md) |
+| Stochastic processes and Markov models | [Reviewed article](stochastic-processes-and-markov-models.md) | Reviewed (model-assisted) | [Wave H 24-family audit](../WAVE-H-TECHNICAL-REVIEW-01.md) |
 
 
-**Coverage Triage 02 (November 18, 2026):** F-01-12 Calculus and differential equations; F-01-13 Stochastic processes and Markov models are newly Drafted under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 11 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
+**Coverage and completion (November 18, 2026):** The relevant [Coverage Triage 02](../COVERAGE-AND-SOURCE-TRIAGE-02.md) subjects were authored and passed [Wave H's 24-family scoped model-assisted audit](../WAVE-H-TECHNICAL-REVIEW-01.md). This area now has **13 Reviewed articles**. Stronger source verification and publication approval remain open.
 
 ## Development and canonical boundaries
-**Current inventory reconciliation (November 18, 2026):** **11 tracked headings and 11 internally Reviewed articles**. The first 8 retain their prior-wave review evidence; the 3 additions have separate [Wave F review evidence](../WAVE-F-TECHNICAL-REVIEW-01.md). None has final independent publication acceptance.
+**Current inventory reconciliation (November 18, 2026):** **13 tracked headings and 13 internally Reviewed articles.** The original eight references passed Wave A; three were added and reviewed under [Wave F](../WAVE-F-TECHNICAL-REVIEW-01.md) and two under [Wave H](../WAVE-H-TECHNICAL-REVIEW-01.md). Earlier Wave F counts are retained solely as dated historical snapshots.
 
 
-**All 8/8 approved headings have substantive, internally Reviewed references.** The scoped technical/claim-to-source audits in the table document model-assisted review. They are **not** exhaustive verification of source material, independent human peer review or final publication acceptance.
+**Historical pilot/wave review:** The original set of articles had substantive, internally Reviewed references. The scoped technical/claim-to-source audits in the table document model-assisted review. They are **not** exhaustive verification of source material, independent human peer review or final publication acceptance.
 
 This area is an approved navigation discipline. Its headings organize domain-agnostic knowledge but do not ratify additional universal primitives, category families, a formal ontology or a mandatory technical system.
 
