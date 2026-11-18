@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.11  
+**Working edition:** v1.12  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -30,14 +30,14 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
-## Current progress: Wave C Batch 03 reviewed; Wave D Batch 01 authored
+## Current progress: Wave D Batch 01 reviewed; Batch 02 fully authored
 
 | Development state | Approved heading count | Evidence |
 | --- | ---: | --- |
-| **Reviewed (model-assisted)** | **72** | Original pilot and Wave A/B/C audits, including [Wave C Batch 03](WAVE-C-TECHNICAL-REVIEW-03.md) |
-| **Draft** | **4** | Four Wave D Batch 01 Computation & Algorithms references awaiting scoped technical audit |
-| **Inventoried without article** | **33** | Approved 109-heading baseline retained |
-| **Core claims checked** | **72** | Internal model-assisted source checking, not independent expert attestation |
+| **Reviewed (model-assisted)** | **76** | Original pilot, Wave A/B/C audits, and [Wave D Batch 01](WAVE-D-TECHNICAL-REVIEW-01.md) |
+| **Draft** | **5** | Five Wave D Batch 02 Computation & Algorithms references awaiting scoped technical audit |
+| **Inventoried without article** | **28** | Approved 109-heading baseline retained |
+| **Core claims checked** | **76** | Internal model-assisted source checking, not independent expert attestation |
 | **Finally accepted / human peer-reviewed** | **0** | No final independent expert acceptance recorded |
 
 **Wave A authoring coverage:** All 26 of 26 approved Wave A headings have substantive, internally Reviewed articles (26/26). Three additional Reviewed references are original pilot subjects belonging to later waves.
@@ -46,11 +46,12 @@
 
 ## Next acceptance gate
 
-1. **Completed:** Wave A (26 headings), Wave B (28 headings), and Wave C (18 headings) are authored and internally Reviewed (model-assisted), including the [54-family Wave C Batch 03 technical audit](WAVE-C-TECHNICAL-REVIEW-03.md).
-2. **Completed authoring:** Wave D Batch 01 provides substantial Drafts for Computability, Algorithms, Algorithm Design and Complexity in the already-approved Computation & Algorithms knowledge area.
-3. **Current:** Conduct a separate scoped technical/source review of these four Wave D Drafts, including the halting argument, proof of linear search, coin-change recurrence and asymptotic recurrence.
-4. **Next authoring:** Continue the five remaining Computation & Algorithms headings, then the nine Software & Programming headings; Wave E operating-system and distributed-system subjects remain inventoried.
-5. **Ongoing:** Source-level verification, full link and anchor checks, independent human peer review and seven publication gates remain open. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML are unresolved.
+1. **Completed:** Wave A (26 headings), Wave B (28 headings) and Wave C (18 headings) remain authored and internally Reviewed (model-assisted).
+2. **Completed:** Four Wave D Batch 01 articles (Computability, Algorithms, Algorithm Design, Complexity) passed a [24-family technical audit](WAVE-D-TECHNICAL-REVIEW-01.md), including the recognizer-versus-decider correction and independent worked-example checks.
+3. **Completed authoring:** Five remaining Computation & Algorithms subjects are now substantial Batch 02 Drafts: Computational Data Structures; Iteration and Recursion; Concurrency and Parallelism; Synchronization; Computational Efficiency.
+4. **Current:** Conduct a separate scoped technical/source and example audit of the five Batch 02 Drafts before promoting any to Reviewed. Computation & Algorithms is **9/9 authored: four Reviewed, five Draft**.
+5. **Next authoring:** Begin the nine Software & Programming subjects, then Wave E Operating System Principles and Communication & Distributed Systems.
+6. **Ongoing:** Full source validation, corpus-wide link and fragment checks, independent human peer review, and the seven publication gates remain pending. G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML remain unresolved architectural decisions.
 
 ## Detailed coverage by approved knowledge area
 
@@ -155,15 +156,15 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-07-01 | Computability | [Draft article](computation-algorithms/computability.md) | Draft | References listed | Wave D Batch 01 substantive draft; scoped technical audit pending |
-| F-07-02 | Algorithms | [Draft article](computation-algorithms/algorithms.md) | Draft | References listed | Wave D Batch 01 substantive draft; scoped technical audit pending |
-| F-07-03 | Algorithm design | [Draft article](computation-algorithms/algorithm-design.md) | Draft | References listed | Wave D Batch 01 substantive draft; scoped technical audit pending |
-| F-07-04 | Complexity | [Draft article](computation-algorithms/complexity.md) | Draft | References listed | Wave D Batch 01 substantive draft; scoped technical audit pending |
-| F-07-05 | Computational data structures | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-07-06 | Iteration and recursion | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-07-07 | Concurrency and parallelism | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-07-08 | Synchronization | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-07-09 | Computational efficiency | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-07-01 | Computability | [Reviewed article](computation-algorithms/computability.md) | Reviewed | Core claims checked | [Wave D Batch 01 audit](WAVE-D-TECHNICAL-REVIEW-01.md); model-assisted, human review pending |
+| F-07-02 | Algorithms | [Reviewed article](computation-algorithms/algorithms.md) | Reviewed | Core claims checked | [Wave D Batch 01 audit](WAVE-D-TECHNICAL-REVIEW-01.md); model-assisted, human review pending |
+| F-07-03 | Algorithm design | [Reviewed article](computation-algorithms/algorithm-design.md) | Reviewed | Core claims checked | [Wave D Batch 01 audit](WAVE-D-TECHNICAL-REVIEW-01.md); model-assisted, human review pending |
+| F-07-04 | Complexity | [Reviewed article](computation-algorithms/complexity.md) | Reviewed | Core claims checked | [Wave D Batch 01 audit](WAVE-D-TECHNICAL-REVIEW-01.md); model-assisted, human review pending |
+| F-07-05 | Computational data structures | [Draft article](computation-algorithms/computational-data-structures.md) | Draft | References listed | Wave D Batch 02 substantive draft; scoped technical audit pending |
+| F-07-06 | Iteration and recursion | [Draft article](computation-algorithms/iteration-and-recursion.md) | Draft | References listed | Wave D Batch 02 substantive draft; scoped technical audit pending |
+| F-07-07 | Concurrency and parallelism | [Draft article](computation-algorithms/concurrency-and-parallelism.md) | Draft | References listed | Wave D Batch 02 substantive draft; scoped technical audit pending |
+| F-07-08 | Synchronization | [Draft article](computation-algorithms/synchronization.md) | Draft | References listed | Wave D Batch 02 substantive draft; scoped technical audit pending |
+| F-07-09 | Computational efficiency | [Draft article](computation-algorithms/computational-efficiency.md) | Draft | References listed | Wave D Batch 02 substantive draft; scoped technical audit pending |
 
 ### 08. Software & Programming (Wave D; 9 headings)
 
