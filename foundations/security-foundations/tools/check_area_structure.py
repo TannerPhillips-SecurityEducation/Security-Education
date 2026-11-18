@@ -15,6 +15,8 @@ INV=ROOT/"SUBJECT-INVENTORY-PROPOSAL.md"
 REG=ROOT/"DEVELOPMENT-VERIFICATION-REGISTER.md"
 OWNER=ROOT/"CANONICAL-OWNERSHIP-REGISTER.md"
 PILOT=ROOT/"pilots/README.md"
+RELOCATION=ROOT/"AREA-STRUCTURE-ADJUDICATION-03.md"  # dated evidence of original flat-pilot relocations
+HISTORICAL_ROW=re.compile(r"^\\| (SF-\\d{2}-\\d{2}) \\| \\[Pilot alias\\]\\(pilots/([^)]+\\.md)\\) \\|", re.M)
 AREA_HEAD=re.compile(r"^### (SF-\d{2})\. (.+?) \((\d+) candidates\)$")
 SUBJECT=re.compile(r"^\| (SF-\d{2}-\d{2}) \| ([^|]+) \| ([^|]+) \|$")
 AREA_ROW=re.compile(r"^\| (SF-\d{2}-\d{2}) \| (.+?) \| (.+?) \| (.+?) \|$")
@@ -116,28 +118,40 @@ def main():
                 errors.append(f"{id_}: development register article target mismatch")
         elif "Inventoried" not in cols[3]:
             errors.append(f"{id_}: un-authored register state not Inventoried")
-    aliases=0;pilots=0
+    # Only articles actually relocated from the former flat pilots directory
+    # have historical aliases. An area-first Draft may later become Reviewed
+    # without ever having had a historical pilots/<filename>.md URL.
+    historical_rows=HISTORICAL_ROW.findall(RELOCATION.read_text(encoding="utf-8"))
+    historical_aliases=dict(historical_rows)
+    if len(historical_aliases)!=len(historical_rows):
+        errors.append("historical relocation record contains duplicate subject IDs")
+    if set(historical_aliases)-set(actual_articles):
+        errors.append("historical relocation record refers to missing area articles")
+    aliases=0;pilots=0;seen_pilots=set()
     for line in PILOT.read_text(encoding="utf-8").splitlines():
         m=PILOT_ROW.match(line)
         if not m: continue
         pilots+=1
         id_,_,rel,_,_=m.groups()
+        if id_ in seen_pilots:
+            errors.append(f"duplicate pilot register entry: {id_}")
+        seen_pilots.add(id_)
         target=(PILOT.parent/rel).resolve()
         if id_ not in actual_articles or target!=actual_articles.get(id_):
             errors.append(f"pilot register target for {id_} is not the working area article")
-        # Historical alias from prior review waves is allowed but never counted
-        # as a substantive article or second source of canonical knowledge.
-        alias=PILOT.parent/target.name
-        # Historical pilot paths are required only for articles that were
-        # actually relocated from the former flat pilots directory.
-        # Area-first new Draft articles have no historical URL to preserve.
-        if alias.is_file():
-            txt=alias.read_text(encoding="utf-8")
-            if "Historical pilot path retained for link compatibility" not in txt:
-                errors.append(f"{id_}: former pilot path still contains substantive body")
-            aliases+=1
-        elif m.group(4)=="Reviewed (model-assisted)":
-            errors.append(f"{id_}: reviewed historical pilot alias missing")
+        if id_ in historical_aliases:
+            # Preserve the *actual old path* captured by the dated relocation map,
+            # not a guessed alias based on current review status or filename.
+            alias=PILOT.parent/historical_aliases[id_]
+            if not alias.is_file():
+                errors.append(f"{id_}: documented historical pilot alias missing: {alias.name}")
+            else:
+                txt=alias.read_text(encoding="utf-8")
+                if "Historical pilot path retained for link compatibility" not in txt:
+                    errors.append(f"{id_}: former pilot path still contains substantive body")
+                aliases+=1
+    if seen_pilots!=set(actual_articles):
+        errors.append(f"working article register differs: missing={sorted(set(actual_articles)-seen_pilots)}, extras={sorted(seen_pilots-set(actual_articles))}")
     if pilots!=len(actual_articles): errors.append(f"pilot register has {pilots} rows; {len(actual_articles)} articles exist")
     print(f"WORKING_AREA_DIRECTORIES={len(active)}")
     print(f"WORKING_CANDIDATES={len(all_ids)}")
