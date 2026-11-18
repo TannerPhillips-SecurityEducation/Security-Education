@@ -24,3 +24,5 @@ jobs:
           persist-credentials: false
       - name: Verify Fundamentals relative links and fragments
         run: python3 foundations/fundamentals/tools/check_internal_links.py
+      - name: Report named framework model and architecture mentions (diagnostic only)
+        run: python3 foundations/fundamentals/tools/audit_named_models.py
