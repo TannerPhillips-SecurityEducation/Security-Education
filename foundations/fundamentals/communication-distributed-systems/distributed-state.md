@@ -38,6 +38,18 @@ Under an asynchronous replication contract permitting stale reads, these observa
 
 A name of a consistency model does not replace evidence that an implementation satisfies it.
 
+## The CAP result is conditional, not a universal three-way choice
+
+The **CAP impossibility result** concerns simultaneous guarantees of **atomic consistency**, **availability** and **partition tolerance** in a specified distributed-system model. In the Gilbert–Lynch treatment, atomic consistency is closely related to linearizable behavior of read/write objects, **availability** requires responses to requests under the stated execution conditions, and partitions describe loss or indefinite delay of inter-node messages.
+
+The conclusion is not that a system must pick any *two of three* properties once and for all. During an actual partition, systems may face a tradeoff between responding to requests in separated components and retaining the specified atomic consistency guarantee. Outside a partition, latency and concurrency tradeoffs still exist, but the simplified "choose two" phrase omits the theorem's assumptions and operating conditions.
+
+**Illustrative two-replica scenario:** A and B initially agree that register X=5. A accepts a completed write of X=6 while communication to B is unavailable. A later read at B returning 5 may preserve B-side responsiveness, but it cannot satisfy the linearizable interpretation of a single register if that read starts after the completed write and there is no intervening write. If B instead rejects or delays the read, it may protect the atomic consistency claim while sacrificing the modeled availability guarantee for that request.
+
+This model does not assert that any replication system necessarily accepts the write during a partition. A quorum protocol may instead refuse to commit it. Nor does CAP alone establish how much data a production system will lose, how fast it will recover, or which consistency contract an arbitrary database implements.
+
+The distinction between *consistency* in CAP and generic data validity, serializability, eventual convergence, or application-specific invariants must remain explicit. [Synchronization and Coordination](synchronization-and-coordination.md) owns consensus and quorum algorithms; this subject owns replica state histories and consistency contracts.
+
 ## Partial failure and uncertainty
 
 Nodes may remain operational while communication between them fails. A caller that times out cannot always distinguish a crashed recipient from a slow recipient or an unreachable path. Network partitions and independent recoveries complicate agreement about recent operations.
@@ -61,6 +73,9 @@ Distributed state is distinct from database format, local OS process state, a ne
 No particular database, replication technology, cloud vendor, consensus algorithm or learner assessment is mandated.
 
 ### Sources
+
+- [Gilbert and Lynch: Perspectives on the CAP Theorem, MIT CSAIL technical reference](https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf).
+
 
 - [MIT 6.5840: Distributed Systems](https://pdos.csail.mit.edu/6.5840/).
 - [Linearizability: A Correctness Condition for Concurrent Objects (original published result)](https://doi.org/10.1145/78969.78972).
