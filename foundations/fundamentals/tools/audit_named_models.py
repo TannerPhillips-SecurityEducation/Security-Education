@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -45,10 +46,23 @@ def strip_fences(md: str) -> str:
             output.append(line)
     return "\n".join(output)
 
+def normalize(text: str) -> str:
+    """Fold typographical variants without equating arbitrary concepts."""
+    text = unicodedata.normalize("NFKC", text).casefold()
+    for char in ("\u2010", "\u2011", "\u2012", "\u2013", "\u2014", "\u2212"):
+        text = text.replace(char, "-")
+    for char in ("\u2018", "\u2019", "\u02bc"):
+        text = text.replace(char, "'")
+    return text
+
 def matches(body: str, aliases: list[str]) -> bool:
+    body = normalize(body)
     for alias in aliases:
-        needle = r"(?<![A-Za-z0-9_])" + re.escape(alias) + r"(?![A-Za-z0-9_])"
-        if re.search(needle, body, flags=re.IGNORECASE):
+        term = normalize(alias)
+        # Match hyphenated compound words even when written with spaces.
+        escaped = re.escape(term).replace(r"\ ", r"[ -]+").replace(r"\-", r"[ -]+")
+        needle = r"(?<![a-z0-9_])" + escaped + r"(?![a-z0-9_])"
+        if re.search(needle, body):
             return True
     return False
 
