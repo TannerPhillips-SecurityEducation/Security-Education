@@ -3,7 +3,8 @@
 **Applies to:** `foundations/security-foundations/` and its descendants.  
 **Purpose:** Give AI agents and human contributors a durable operating contract for discovering, architecting, authoring, reviewing, and maintaining cross-domain Security Foundations knowledge.  
 **Authority:** Working repository instructions for executing authorized editorial work. **Not** approval of the proposed internal Security Foundations taxonomy, any manuscript's permanent canonical location, an external standard, or final publication. Explicit user direction and higher-priority instructions take precedence.  
-**Status of this file:** An operational guide derived from the observed Fundamentals workflow and explicitly established Security Knowledge constraints. Review and revise as the project develops.
+**Status of this file:** An operational guide derived from the observed Fundamentals workflow and explicitly established Security Knowledge constraints. Review and revise as the project develops.  
+**Sibling contracts:** [Fundamentals AGENTS.md](../fundamentals/AGENTS.md) and [Operational Foundations AGENTS.md](../operational-foundations/AGENTS.md). All three share thirteen operating sections while preserving each division's actual architecture-approval state.
 
 ## 1. Mission and non-negotiable boundaries
 
