@@ -1,32 +1,32 @@
-# Security Foundations | Working Article Pilots
+# Security Foundations | Reviewed Working Articles and Historical Pilot Paths
 
 **Division:** [Security Foundations](../README.md)  
 **Status:** **14 of 14 substantive working pilots Reviewed (model-assisted)** across three scoped audits; none has a ratified permanent canonical location or Published status.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
-**Scope:** This pilot collection supports architectural tests without prematurely creating or approving twelve internal area directories, mandatory category names, or a permanent 96-subject quota.
+**Scope:** This is the historical review/ID register for the fourteen pilot articles. **Their substantive content has been organized within provisional area directories following Fundamentals' README-plus-articles pattern.** The old pilot file paths remain navigation aliases; no individual taxonomy or 96-subject quota is ratified.
 
-## Pilot article register
+## Actual working article locations and historical review register
 
 | Candidate ID | Working article | Development | Source review | Distinct conceptual question |
 | --- | --- | --- | --- | --- |
-| SF-01-01 | [Security and Insecurity](security-and-insecurity.md) | **Reviewed (model-assisted)** | Core claims checked | What counts as a conditional security claim rather than an absolute label? |
-| SF-03-01 | [Threat Sources and Threat Events](threat-sources-and-threat-events.md) | **Reviewed (model-assisted)** | Core claims checked | How do adversarial and non-adversarial threat sources differ from occurrences and consequences? |
-| SF-04-02 | [Vulnerabilities and Exploitability](vulnerabilities-and-exploitability.md) | **Reviewed (model-assisted)** | Core claims checked | How do weakness, vulnerability, exposure, exploitation, severity and risk differ? |
-| SF-06-09 | [Access-Control Policy Models](access-control-policy-models.md) | **Reviewed (model-assisted)** | Core claims checked | What differentiates policy decision models from authentication and enforcement? |
-| SF-08-09 | [Information-Flow Security and Noninterference](information-flow-security-and-noninterference.md) | **Reviewed (model-assisted)** | Core claims checked | When is a flow/observation permitted and why can access control be insufficient? |
-| SF-09-09 | [Cryptographic Composition and Protocol Security](cryptographic-composition-and-protocol-security.md) | **Reviewed (model-assisted)** | Core claims checked | When do secure primitives fail to establish complete protocol objectives? |
-| SF-10-02 | [Observable, Observed and Recorded](observable-observed-and-recorded.md) | **Reviewed (model-assisted)** | Core claims checked | What can a security record actually establish about an occurrence or actor? |
-| SF-12-01 | [Security Claims and Assurance Arguments](security-claims-and-assurance-arguments.md) | **Reviewed (model-assisted)** | Core claims checked | What evidence and arguments support a bounded security property claim? |
+| SF-01-01 | [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md) | **Reviewed (model-assisted)** | Core claims checked | What counts as a conditional security claim rather than an absolute label? |
+| SF-03-01 | [Threat Sources and Threat Events](../threats-hazards-adversarial-behavior/threat-sources-and-threat-events.md) | **Reviewed (model-assisted)** | Core claims checked | How do adversarial and non-adversarial threat sources differ from occurrences and consequences? |
+| SF-04-02 | [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md) | **Reviewed (model-assisted)** | Core claims checked | How do weakness, vulnerability, exposure, exploitation, severity and risk differ? |
+| SF-06-09 | [Access-Control Policy Models](../trust-identity-authority-principles/access-control-policy-models.md) | **Reviewed (model-assisted)** | Core claims checked | What differentiates policy decision models from authentication and enforcement? |
+| SF-08-09 | [Information-Flow Security and Noninterference](../secure-design-architecture/information-flow-security-and-noninterference.md) | **Reviewed (model-assisted)** | Core claims checked | When is a flow/observation permitted and why can access control be insufficient? |
+| SF-09-09 | [Cryptographic Composition and Protocol Security](../cryptography-information-protection/cryptographic-composition-and-protocol-security.md) | **Reviewed (model-assisted)** | Core claims checked | When do secure primitives fail to establish complete protocol objectives? |
+| SF-10-02 | [Observable, Observed and Recorded](../security-observation-evidence/observable-observed-and-recorded.md) | **Reviewed (model-assisted)** | Core claims checked | What can a security record actually establish about an occurrence or actor? |
+| SF-12-01 | [Security Claims and Assurance Arguments](../security-assurance-governance-accountability/security-claims-and-assurance-arguments.md) | **Reviewed (model-assisted)** | Core claims checked | What evidence and arguments support a bounded security property claim? |
 
-| SF-05-01 | [Risk, Scenarios, and Time Horizon](risk-scenarios-and-time-horizon.md) | **Reviewed (model-assisted)** | Core claims checked | Scenario-relative likelihood, harm, uncertainty, time horizon and why severity is not organizational risk |
-| SF-07-01 | [Controls, Safeguards, and Security Functions](controls-safeguards-and-security-functions.md) | **Reviewed (model-assisted)** | Core claims checked | Protection objective versus selected mechanism, implemented coverage, measured effect and assurance |
+| SF-05-01 | [Risk, Scenarios, and Time Horizon](../security-risk-uncertainty/risk-scenarios-and-time-horizon.md) | **Reviewed (model-assisted)** | Core claims checked | Scenario-relative likelihood, harm, uncertainty, time horizon and why severity is not organizational risk |
+| SF-07-01 | [Controls, Safeguards, and Security Functions](../security-controls-defense-mechanisms/controls-safeguards-and-security-functions.md) | **Reviewed (model-assisted)** | Core claims checked | Protection objective versus selected mechanism, implemented coverage, measured effect and assurance |
 
-| SF-01-08 | [Security, Privacy, Safety, and Reliability](security-privacy-safety-and-reliability.md) | **Reviewed (model-assisted)** | Core claims checked | Different protected interests, including privacy harm from authorized processing and safety constraints |
-| SF-11-01 | [Compromise and Loss of Security](compromise-and-loss-of-security.md) | **Reviewed (model-assisted)** | Core claims checked | Security violation, confirmed compromise, suspicion and restoration are not equivalent |
-| SF-11-04 | [Resilience, Survivability, and Robustness](resilience-survivability-and-robustness.md) | **Reviewed (model-assisted)** | Core claims checked | Anticipate, withstand, recover, adapt; RTO/RPO and trusted restoration |
-| SF-12-08 | [Ethical, Human, and Societal Constraints](ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** | Core claims checked | Legitimate security authority, privacy rights, proportionality and human harm |
+| SF-01-08 | [Security, Privacy, Safety, and Reliability](../security-meaning-objectives/security-privacy-safety-and-reliability.md) | **Reviewed (model-assisted)** | Core claims checked | Different protected interests, including privacy harm from authorized processing and safety constraints |
+| SF-11-01 | [Compromise and Loss of Security](../security-failure-resilience/compromise-and-loss-of-security.md) | **Reviewed (model-assisted)** | Core claims checked | Security violation, confirmed compromise, suspicion and restoration are not equivalent |
+| SF-11-04 | [Resilience, Survivability, and Robustness](../security-failure-resilience/resilience-survivability-and-robustness.md) | **Reviewed (model-assisted)** | Core claims checked | Anticipate, withstand, recover, adapt; RTO/RPO and trusted restoration |
+| SF-12-08 | [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** | Core claims checked | Legitimate security authority, privacy rights, proportionality and human harm |
 
-**Record count:** **14 Reviewed working pilots**: eight checked under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10 groups), and four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20 groups). **82 of 96 working candidates have no pilot yet**; neither count is fixed.
+**Record count:** **14 substantive Reviewed working area articles**: eight checked under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10 groups), and four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20 groups). **82 of 96 working candidates have no pilot yet**; neither count is fixed.
 
 ## Pilot technical review evidence
 
@@ -57,3 +57,7 @@ The candidate headings and the number of pilot articles are both flexible. Their
 Cross-domain links are introduced as related technical subjects and implementations develop, not to meet a numeric quota. No Knowledge Checks, Practical Assessments or fixed curricular reading order are included.
 
 [Security Foundations](../README.md) · [Architecture Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md) · [Development Plan](../DEVELOPMENT-PLAN.md)
+
+## Structural relocation record (November 18, 2026)
+
+The repository owner explicitly requested **uniform Fundamentals-style directory organization with tailored content**, while maintaining flexibility in area/subject counts. All fourteen substantive article bodies have therefore been relocated to the corresponding provisional area directories with their metadata, scoped audit history and source-review state preserved. Former `pilots/<filename>.md` files remain **lightweight navigation aliases** for existing internal/external links. The article paths in the table above are the **real working manuscripts**, not duplicate copies. Area membership remains provisional pending separate governance approval.
