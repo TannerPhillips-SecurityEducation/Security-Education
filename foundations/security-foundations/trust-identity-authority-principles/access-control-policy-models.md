@@ -104,7 +104,7 @@ A user authenticates successfully. Under the policy, the user has permission to 
 
 **Claim 3:** “The user can only read D and can never leak its contents.” This is an unjustified leap. After a legitimate read, the principal may copy the information, a process may expose it through logs or timing, or an unmodeled channel may disclose it.
 
-Access control regulates **authorized operations**. [Information-Flow Security and Noninterference](../pilots/information-flow-security-and-noninterference.md) considers whether data at one security level can influence observations at another. These are different properties and may need complementary controls.
+Access control regulates **authorized operations**. [Information-Flow Security and Noninterference](../secure-design-architecture/information-flow-security-and-noninterference.md) considers whether data at one security level can influence observations at another. These are different properties and may need complementary controls.
 
 ## Least privilege, delegation and zero trust
 

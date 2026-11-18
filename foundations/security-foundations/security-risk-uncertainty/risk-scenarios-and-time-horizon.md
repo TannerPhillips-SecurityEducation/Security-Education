@@ -91,10 +91,10 @@ The CVSS Base score may be identical because it concerns the vulnerability's int
 
 ## Canonical relationships
 
-- [Security and Insecurity](../pilots/security-and-insecurity.md): protected objectives and bounded security claims.
-- [Threat Sources and Threat Events](../pilots/threat-sources-and-threat-events.md): potential sources and event occurrence, not complete risk.
-- [Vulnerabilities and Exploitability](../pilots/vulnerabilities-and-exploitability.md): enabling conditions, preconditions and severity, not automatically loss or likelihood.
-- [Security Claims and Assurance Arguments](../pilots/security-claims-and-assurance-arguments.md): what evidence supports risk-relevant protection claims.
+- [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md): protected objectives and bounded security claims.
+- [Threat Sources and Threat Events](../threats-hazards-adversarial-behavior/threat-sources-and-threat-events.md): potential sources and event occurrence, not complete risk.
+- [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md): enabling conditions, preconditions and severity, not automatically loss or likelihood.
+- [Security Claims and Assurance Arguments](../security-assurance-governance-accountability/security-claims-and-assurance-arguments.md): what evidence supports risk-relevant protection claims.
 - [Fundamentals: Probability and Statistics](../../fundamentals/mathematics-logic/probability-and-statistics.md): formal probability, distributions, uncertainty and mathematical inference.
 - [Fundamentals: Stochastic Processes and Markov Models](../../fundamentals/mathematics-logic/stochastic-processes-and-markov-models.md): time-indexed processes, not universal adversary behavior.
 - [Operational Foundations](../../operational-foundations/README.md): risk-assessment and treatment methods.

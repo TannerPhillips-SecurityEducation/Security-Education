@@ -84,9 +84,9 @@ The working SF-09-07 subject owns broad key lifecycle and cryptographic failure 
 
 ## Related canonical and proposed knowledge
 
-- [Security and Insecurity](../pilots/security-and-insecurity.md): protection objectives, assumptions and confidence.
-- [Access-Control Policy Models](../pilots/access-control-policy-models.md): authorization semantics, which do not follow automatically from ciphertext validity.
-- [Information-Flow Security and Noninterference](../pilots/information-flow-security-and-noninterference.md): limits on observable secret influence, including beyond conventional access checks.
+- [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md): protection objectives, assumptions and confidence.
+- [Access-Control Policy Models](../trust-identity-authority-principles/access-control-policy-models.md): authorization semantics, which do not follow automatically from ciphertext validity.
+- [Information-Flow Security and Noninterference](../secure-design-architecture/information-flow-security-and-noninterference.md): limits on observable secret influence, including beyond conventional access checks.
 - [Fundamentals: Information Theory](../../fundamentals/information-data/information-theory.md): probabilistic information quantities, not an encryption scheme.
 - [Fundamentals: Temporal Concepts and Models](../../fundamentals/models-abstraction/temporal-concepts-and-models.md): event order and timestamp meaning, not automatic replay protection.
 - [Identity Knowledge](../../../identity/README.md), [Network Knowledge](../../../network/README.md) and [Application Knowledge](../../../application/README.md): credential services, transport stacks and concrete applications.

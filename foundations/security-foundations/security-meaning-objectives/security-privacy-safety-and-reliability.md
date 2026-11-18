@@ -80,16 +80,16 @@ These are hypothetical distinctions, not assertions about building code, labor l
 
 Protection choices may change consequences for people who are not owners of the system. A privacy-intrusive measure can impose risks on monitored individuals even if the organization gains security visibility. An overly restrictive safety or access rule may deny essential services to legitimate users.
 
-A defensible decision must specify whose interests were considered, whether a restriction is legitimate and proportionate, what alternatives exist, and what evidence supports the expected benefit and resulting harms. Those issues lead into [Ethical, Human, and Societal Constraints](../pilots/ethical-human-and-societal-constraints.md).
+A defensible decision must specify whose interests were considered, whether a restriction is legitimate and proportionate, what alternatives exist, and what evidence supports the expected benefit and resulting harms. Those issues lead into [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md).
 
 This pilot describes **which objectives differ**. The ethical/governance subject owns **how conflicting obligations, legitimate authority, rights and human impact constrain protection choices**. Neither provides a universal legal verdict.
 
 ## Conceptual and cross-domain boundaries
 
-- [Security and Insecurity](../pilots/security-and-insecurity.md) owns the scope and epistemic status of security claims.
-- [Risk, Scenarios, and Time Horizon](../pilots/risk-scenarios-and-time-horizon.md) owns scenario-relative impact and uncertainty.
-- [Resilience, Survivability, and Robustness](../pilots/resilience-survivability-and-robustness.md) owns preserving essential outcomes under adversity.
-- [Ethical, Human, and Societal Constraints](../pilots/ethical-human-and-societal-constraints.md) owns rights, governance and proportionality.
+- [Security and Insecurity](security-and-insecurity.md) owns the scope and epistemic status of security claims.
+- [Risk, Scenarios, and Time Horizon](../security-risk-uncertainty/risk-scenarios-and-time-horizon.md) owns scenario-relative impact and uncertainty.
+- [Resilience, Survivability, and Robustness](../security-failure-resilience/resilience-survivability-and-robustness.md) owns preserving essential outcomes under adversity.
+- [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) owns rights, governance and proportionality.
 - [Fundamentals: Probability and Statistics](../../fundamentals/mathematics-logic/probability-and-statistics.md) owns probability models; [Reliability and Failure](../../fundamentals/systems-engineering/reliability-and-failure.md) owns general component/system reliability.
 - [Industrial Knowledge](../../../industrial/README.md) owns actual safety controllers and sector-specific engineering; [Identity Knowledge](../../../identity/README.md) owns identity mechanisms; [Operational Foundations](../../operational-foundations/README.md) owns the performance of risk, safety and privacy assessments as methods.
 

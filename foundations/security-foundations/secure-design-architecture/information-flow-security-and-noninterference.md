@@ -109,9 +109,9 @@ A practical security claim requires evidence connecting the abstract property to
 
 ## Canonical relationships and sources
 
-- [Access-Control Policy Models](../pilots/access-control-policy-models.md): policy decisions permitting operations, not complete information-flow guarantees.
-- [Security and Insecurity](../pilots/security-and-insecurity.md): protected interests and objectives.
-- [Vulnerabilities and Exploitability](../pilots/vulnerabilities-and-exploitability.md): enabling conditions for violating security constraints.
+- [Access-Control Policy Models](../trust-identity-authority-principles/access-control-policy-models.md): policy decisions permitting operations, not complete information-flow guarantees.
+- [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md): protected interests and objectives.
+- [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md): enabling conditions for violating security constraints.
 - [Fundamentals: Conceptual and Formal Models](../../fundamentals/models-abstraction/conceptual-and-formal-models.md): modeling syntax, semantics, properties and limitations.
 - [Fundamentals: Observation](../../fundamentals/scientific-analytical-reasoning/observation.md): epistemic acquisition and limits.
 - [Identity Knowledge](../../../identity/README.md): actual identity and authorization controls.

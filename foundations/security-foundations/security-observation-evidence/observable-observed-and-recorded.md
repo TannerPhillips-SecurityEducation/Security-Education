@@ -119,9 +119,9 @@ A security classification can be revised as additional evidence arrives. That re
 
 ## Related knowledge and references
 
-- [Threat Sources and Threat Events](../pilots/threat-sources-and-threat-events.md), potential causes, event conditions and hypotheses.
-- [Security and Insecurity](../pilots/security-and-insecurity.md), protected interests and assessable claims.
-- [Vulnerabilities and Exploitability](../pilots/vulnerabilities-and-exploitability.md), mechanisms enabling security violations.
+- [Threat Sources and Threat Events](../threats-hazards-adversarial-behavior/threat-sources-and-threat-events.md), potential causes, event conditions and hypotheses.
+- [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md), protected interests and assessable claims.
+- [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md), mechanisms enabling security violations.
 - [Fundamentals: State, Events and Transitions](../../fundamentals/models-abstraction/state-events-and-transitions.md), general event/change definitions.
 - [Fundamentals: Temporal Concepts and Models](../../fundamentals/models-abstraction/temporal-concepts-and-models.md), instants, timestamps, causal order and timing uncertainty.
 - [Fundamentals: Information Retrieval](../../fundamentals/information-data/search-and-information-retrieval.md), why a failed search does not prove record absence.

@@ -89,11 +89,11 @@ Control effectiveness also changes with the environment. New dependencies, evolv
 
 ## Conceptual ownership
 
-- [Security and Insecurity](../pilots/security-and-insecurity.md) owns protection objectives and conditional claims.
-- [Access-Control Policy Models](../pilots/access-control-policy-models.md) owns the logic of permit/deny decisions; controls own the selected mechanism and its effect.
-- [Observable, Observed, and Recorded](../pilots/observable-observed-and-recorded.md) owns what logs, alerts and telemetry can establish.
-- [Risk, Scenarios, and Time Horizon](../pilots/risk-scenarios-and-time-horizon.md) owns scenario-relative uncertainty and consequence implications.
-- [Security Claims and Assurance Arguments](../pilots/security-claims-and-assurance-arguments.md) owns the structure of support for an effectiveness claim.
+- [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md) owns protection objectives and conditional claims.
+- [Access-Control Policy Models](../trust-identity-authority-principles/access-control-policy-models.md) owns the logic of permit/deny decisions; controls own the selected mechanism and its effect.
+- [Observable, Observed, and Recorded](../security-observation-evidence/observable-observed-and-recorded.md) owns what logs, alerts and telemetry can establish.
+- [Risk, Scenarios, and Time Horizon](../security-risk-uncertainty/risk-scenarios-and-time-horizon.md) owns scenario-relative uncertainty and consequence implications.
+- [Security Claims and Assurance Arguments](../security-assurance-governance-accountability/security-claims-and-assurance-arguments.md) owns the structure of support for an effectiveness claim.
 - [Fundamentals: Feedback and Control](../../fundamentals/systems-engineering/feedback-and-control.md) owns generic feedback mechanisms; Security Foundations owns security-specific safeguards.
 - [Operational Foundations](../../operational-foundations/README.md) owns conducting control assessments and security engineering operations.
 - Domain-specific network, endpoint, application, cloud, industrial, IoT and identity functions own the implemented mechanisms.

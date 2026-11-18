@@ -88,10 +88,10 @@ These scenarios are invented to distinguish **objective, mechanism, observation 
 ## Conceptual boundaries and related references
 
 - [Systems and Engineering](../../fundamentals/systems-engineering/README.md) owns general system boundaries and requirements; [Evidence](../../fundamentals/scientific-analytical-reasoning/evidence.md) owns the general logic of evidentiary support.
-- [Threat Sources and Threat Events](../pilots/threat-sources-and-threat-events.md) owns causes and potential occurrences of adverse outcomes.
-- [Vulnerabilities and Exploitability](../pilots/vulnerabilities-and-exploitability.md) owns context-dependent exploitable weaknesses.
-- [Access-Control Policy Models](../pilots/access-control-policy-models.md) owns the semantics of authorizing protected actions.
-- [Security Observation and Evidence](../pilots/observable-observed-and-recorded.md) owns what can be asserted from sensors and records.
+- [Threat Sources and Threat Events](../threats-hazards-adversarial-behavior/threat-sources-and-threat-events.md) owns causes and potential occurrences of adverse outcomes.
+- [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md) owns context-dependent exploitable weaknesses.
+- [Access-Control Policy Models](../trust-identity-authority-principles/access-control-policy-models.md) owns the semantics of authorizing protected actions.
+- [Security Observation and Evidence](../security-observation-evidence/observable-observed-and-recorded.md) owns what can be asserted from sensors and records.
 - [Operational Foundations](../../operational-foundations/README.md) owns threat modeling, risk assessment, monitoring, incident response and other *methods of practice*.
 - Network, Endpoint, Application, Cloud, Industrial, IoT and Identity Knowledge own the specialized implementations of common protection concepts.
 

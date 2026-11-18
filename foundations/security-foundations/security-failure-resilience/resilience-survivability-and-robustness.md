@@ -82,17 +82,17 @@ These are invented timestamps. They do not characterize any real business, data-
 
 Recovery from a security compromise requires attention to **trust inheritance**. Backups, credentials, policy stores and administrative components may contain or reproduce untrusted state. A validly stored backup is not automatically a clean backup. Restarting a service does not necessarily remove an adversary's retained authority.
 
-The related [Compromise and Loss of Security](../pilots/compromise-and-loss-of-security.md) pilot owns what a compromise can mean and what evidence supports that claim. [Security Claims and Assurance Arguments](../pilots/security-claims-and-assurance-arguments.md) owns the justification for calling the restored state trustworthy.
+The related [Compromise and Loss of Security](compromise-and-loss-of-security.md) pilot owns what a compromise can mean and what evidence supports that claim. [Security Claims and Assurance Arguments](../security-assurance-governance-accountability/security-claims-and-assurance-arguments.md) owns the justification for calling the restored state trustworthy.
 
 An adaptation may change attack exposure, service performance or rights affected by data processing. Its intended benefit can also introduce a new vulnerability or privacy/safety consequence. A resilient design must consider *what should be preserved* rather than simply increasing the probability of continuing some operation.
 
 ## Mechanisms, workflows and canonical boundaries
 
-- [Security and Insecurity](../pilots/security-and-insecurity.md): protected interests and conditional security claims.
-- [Compromise and Loss of Security](../pilots/compromise-and-loss-of-security.md): security-property violation, compromised state and uncertainty.
-- [Controls, Safeguards, and Security Functions](../pilots/controls-safeguards-and-security-functions.md): implementation and evidence of safeguards that might support resilience.
-- [Risk, Scenarios, and Time Horizon](../pilots/risk-scenarios-and-time-horizon.md): impact and likelihood under a defined risk scenario.
-- [Security, Privacy, Safety, and Reliability](../pilots/security-privacy-safety-and-reliability.md): cross-objective conflicts and protected interests.
+- [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md): protected interests and conditional security claims.
+- [Compromise and Loss of Security](compromise-and-loss-of-security.md): security-property violation, compromised state and uncertainty.
+- [Controls, Safeguards, and Security Functions](../security-controls-defense-mechanisms/controls-safeguards-and-security-functions.md): implementation and evidence of safeguards that might support resilience.
+- [Risk, Scenarios, and Time Horizon](../security-risk-uncertainty/risk-scenarios-and-time-horizon.md): impact and likelihood under a defined risk scenario.
+- [Security, Privacy, Safety, and Reliability](../security-meaning-objectives/security-privacy-safety-and-reliability.md): cross-objective conflicts and protected interests.
 - [Fundamentals: Feedback and Control](../../fundamentals/systems-engineering/feedback-and-control.md), [Dependencies](../../fundamentals/systems-engineering/dependencies.md) and [Reliability and Failure](../../fundamentals/systems-engineering/reliability-and-failure.md): general system mechanisms.
 - [Operational Foundations](../../operational-foundations/README.md): continuity planning, incident response, backup/restore execution and testing.
 - [Network Knowledge](../../../network/README.md), [Industrial Knowledge](../../../industrial/README.md) and other domains: concrete implementations, redundancy, safety constraints and failover mechanisms.

@@ -14,7 +14,7 @@ An organization's security objectives are not unconstrained simply because the o
 
 A technically effective security control can still cause harm if it collects or reveals private information unnecessarily, blocks essential services without a defensible reason, treats affected groups unequally, or removes meaningful avenues for review or correction. Conversely, an apparently privacy-preserving choice may create safety risks if it undermines a critical protective function. Claims about such tradeoffs must identify the actual affected interests and conditions.
 
-[Security, Privacy, Safety, and Reliability](../pilots/security-privacy-safety-and-reliability.md) owns the **distinction among protection objectives**. This article owns **why legitimate authority, human impact, competing obligations and accountability constrain how security is pursued**.
+[Security, Privacy, Safety, and Reliability](../security-meaning-objectives/security-privacy-safety-and-reliability.md) owns the **distinction among protection objectives**. This article owns **why legitimate authority, human impact, competing obligations and accountability constrain how security is pursued**.
 
 ## Rights, legitimacy and legal obligations are not the same as technical permission
 
@@ -78,7 +78,7 @@ The protected interests, safety function, failure conditions, control authority 
 
 A defensible security justification should identify **whose goals are being pursued**, who is authorized to make tradeoffs, what evidence supports expected protection, and which people might bear adverse impacts. An organization can document controls and still lack a defensible argument for the harms or exclusions created by those controls.
 
-[Security Claims and Assurance Arguments](../pilots/security-claims-and-assurance-arguments.md) owns structured support for security claims. This pilot adds the question **whether the claim's objective and acceptable conditions are legitimate for affected stakeholders**.
+[Security Claims and Assurance Arguments](security-claims-and-assurance-arguments.md) owns structured support for security claims. This pilot adds the question **whether the claim's objective and acceptable conditions are legitimate for affected stakeholders**.
 
 The [NIST Privacy Framework](https://www.nist.gov/privacy-framework) helps organizations structure privacy risk management without substituting for legislation. NIST's **Privacy Framework 1.1** is still shown publicly as an initial-public-draft project rather than a clearly final edition as of this review. Use [PF 1.0 final](https://csrc.nist.gov/pubs/cswp/10/nist-privacy-framework-version-10/final) as the stable source for its privacy-risk definitions.
 
@@ -86,11 +86,11 @@ Security policy design can be informed by fairness, access, transparency, consen
 
 ## Canonical boundaries
 
-- [Security, Privacy, Safety, and Reliability](../pilots/security-privacy-safety-and-reliability.md): definitions and non-equivalence of protection interests.
-- [Security and Insecurity](../pilots/security-and-insecurity.md): security as a conditional claim and uncertainty as distinct from demonstrated failure.
-- [Risk, Scenarios, and Time Horizon](../pilots/risk-scenarios-and-time-horizon.md): likelihood, affected interests and consequence uncertainty, not authority to accept any harm.
-- [Controls, Safeguards, and Security Functions](../pilots/controls-safeguards-and-security-functions.md): mechanism and effectiveness, not the legitimacy of every intended use.
-- [Observable, Observed, and Recorded](../pilots/observable-observed-and-recorded.md): source, record, attribution and epistemic limits.
+- [Security, Privacy, Safety, and Reliability](../security-meaning-objectives/security-privacy-safety-and-reliability.md): definitions and non-equivalence of protection interests.
+- [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md): security as a conditional claim and uncertainty as distinct from demonstrated failure.
+- [Risk, Scenarios, and Time Horizon](../security-risk-uncertainty/risk-scenarios-and-time-horizon.md): likelihood, affected interests and consequence uncertainty, not authority to accept any harm.
+- [Controls, Safeguards, and Security Functions](../security-controls-defense-mechanisms/controls-safeguards-and-security-functions.md): mechanism and effectiveness, not the legitimacy of every intended use.
+- [Observable, Observed, and Recorded](../security-observation-evidence/observable-observed-and-recorded.md): source, record, attribution and epistemic limits.
 - [Fundamentals: Human Error](../../fundamentals/human-sociotechnical-systems/human-error.md), [Decision-Making](../../fundamentals/human-sociotechnical-systems/decision-making.md), and [Evidence](../../fundamentals/scientific-analytical-reasoning/evidence.md): general human and evidentiary concepts.
 - [Operational Foundations](../../operational-foundations/README.md): governance processes, risk and privacy assessments, safety evaluation and operational decision workflows.
 

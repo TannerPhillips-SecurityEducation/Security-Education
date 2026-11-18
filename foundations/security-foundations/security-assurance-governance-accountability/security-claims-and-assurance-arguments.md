@@ -111,10 +111,10 @@ A change record and a new test can help refresh confidence, but *which evidence 
 
 ## Related conceptual ownership
 
-- [Security and Insecurity](../pilots/security-and-insecurity.md) owns the meaning and conditions of desired protection.
-- [Observable, Observed and Recorded](../pilots/observable-observed-and-recorded.md) owns the limits of security data and evidence.
-- [Vulnerabilities and Exploitability](../pilots/vulnerabilities-and-exploitability.md) owns enabling conditions for violating security requirements.
-- [Information-Flow Security and Noninterference](../pilots/information-flow-security-and-noninterference.md) owns formal policy properties that an assurance argument might reference.
+- [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md) owns the meaning and conditions of desired protection.
+- [Observable, Observed and Recorded](../security-observation-evidence/observable-observed-and-recorded.md) owns the limits of security data and evidence.
+- [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md) owns enabling conditions for violating security requirements.
+- [Information-Flow Security and Noninterference](../secure-design-architecture/information-flow-security-and-noninterference.md) owns formal policy properties that an assurance argument might reference.
 - [Fundamentals: Verification and Validation](../../fundamentals/systems-engineering/verification-and-validation.md) owns the general engineering distinction.
 - [Fundamentals: Evidence](../../fundamentals/scientific-analytical-reasoning/evidence.md) owns general claim-relative support.
 - [Operational Foundations](../../operational-foundations/README.md) owns actual audit and assessment activities.

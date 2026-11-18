@@ -42,7 +42,7 @@ A system can appear to resume normal behavior while unsafe conditions persist. P
 
 A **trust dependency** matters when a restored service relies on components or keying material whose integrity or origin is not established. Restoring an apparently clean application onto a compromised administrative environment may recreate the possibility of an unauthorized action.
 
-The proposed SF-11-08 subject concerns adversarial persistence and the assumptions it changes. [Cryptographic Composition and Protocol Security](../pilots/cryptographic-composition-and-protocol-security.md) addresses key and protocol properties. [Security Claims and Assurance Arguments](../pilots/security-claims-and-assurance-arguments.md) addresses what justifies declaring a recovered state trustworthy.
+The proposed SF-11-08 subject concerns adversarial persistence and the assumptions it changes. [Cryptographic Composition and Protocol Security](../cryptography-information-protection/cryptographic-composition-and-protocol-security.md) addresses key and protocol properties. [Security Claims and Assurance Arguments](../security-assurance-governance-accountability/security-claims-and-assurance-arguments.md) addresses what justifies declaring a recovered state trustworthy.
 
 ## Containment is not restoration; restoration is not proof of trust
 
@@ -79,11 +79,11 @@ Likewise, a suspected intrusion event can be represented under the Diamond Model
 
 ## Dependencies and canonical boundaries
 
-- [Security and Insecurity](../pilots/security-and-insecurity.md): conditional protection properties and epistemic uncertainty.
-- [Threat Sources and Threat Events](../pilots/threat-sources-and-threat-events.md): sources and possible harmful occurrences.
-- [Vulnerabilities and Exploitability](../pilots/vulnerabilities-and-exploitability.md): weaknesses, exposure and attempted exploit pathways.
-- [Observable, Observed, and Recorded](../pilots/observable-observed-and-recorded.md): sensor, logging and inference limits.
-- [Resilience, Survivability, and Robustness](../pilots/resilience-survivability-and-robustness.md): continued valued function, damage limitation and trustworthy recovery.
+- [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md): conditional protection properties and epistemic uncertainty.
+- [Threat Sources and Threat Events](../threats-hazards-adversarial-behavior/threat-sources-and-threat-events.md): sources and possible harmful occurrences.
+- [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md): weaknesses, exposure and attempted exploit pathways.
+- [Observable, Observed, and Recorded](../security-observation-evidence/observable-observed-and-recorded.md): sensor, logging and inference limits.
+- [Resilience, Survivability, and Robustness](resilience-survivability-and-robustness.md): continued valued function, damage limitation and trustworthy recovery.
 - [Fundamentals: Reliability and Failure](../../fundamentals/systems-engineering/reliability-and-failure.md): generic system-failure concepts, not security-specific compromise judgments.
 - [Operational Foundations](../../operational-foundations/README.md): investigation, containment and recovery execution.
 - [Endpoint Knowledge](../../../endpoint/README.md), [Cloud Knowledge](../../../cloud/README.md), [Application Knowledge](../../../application/README.md): concrete implementation and evidence.

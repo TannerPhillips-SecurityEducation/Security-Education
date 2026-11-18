@@ -88,9 +88,9 @@ A threat source's technical capability is not a probability of occurrence. The f
 
 ## Canonical boundaries and primary sources
 
-- [Security and Insecurity](../pilots/security-and-insecurity.md) owns protection goals and conditional security claims.
-- [Vulnerabilities and Exploitability](../pilots/vulnerabilities-and-exploitability.md) owns the enabling weakness, preconditions and context.
-- [Observable, Observed and Recorded](../pilots/observable-observed-and-recorded.md) owns evidence acquisition and what a record can support.
+- [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md) owns protection goals and conditional security claims.
+- [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md) owns the enabling weakness, preconditions and context.
+- [Observable, Observed and Recorded](../security-observation-evidence/observable-observed-and-recorded.md) owns evidence acquisition and what a record can support.
 - [Fundamentals: State, Events and Transitions](../../fundamentals/models-abstraction/state-events-and-transitions.md) owns general occurrence/change vocabulary.
 - [Identity Knowledge](../../../identity/README.md) owns proofing, authenticators and concrete identity functions.
 - [Operational Foundations](../../operational-foundations/README.md) owns threat analysis, hunting, triage and response procedures.
