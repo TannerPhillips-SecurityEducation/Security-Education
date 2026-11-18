@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All 10 approved subjects authored; 0 Reviewed (model-assisted), 10 Draft; independent human review and publication acceptance pending  
+**Content status:** All 10 approved subjects authored and Reviewed (model-assisted); human peer review and final publication acceptance remain pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -26,23 +26,23 @@ Platform-independent operating-system mechanisms and abstractions that coordinat
 
 | Approved subject | Canonical reference | Development state |
 | --- | --- | --- |
-| Kernels | [Kernels](kernels.md) | Draft |
-| System calls | [System calls](system-calls.md) | Draft |
-| Processes and threads | [Processes and threads](processes-and-threads.md) | Draft |
-| Scheduling | [Scheduling](scheduling.md) | Draft |
-| Memory management | [Memory management](memory-management.md) | Draft |
-| Filesystems | [Filesystems](filesystems.md) | Draft |
-| Drivers and devices | [Drivers and devices](drivers-and-devices.md) | Draft |
-| Execution contexts | [Execution contexts](execution-contexts.md) | Draft |
-| System initialization | [System initialization](system-initialization.md) | Draft |
-| Resource management | [Resource management](resource-management.md) | Draft |
+| Kernels | [Kernels](kernels.md) | Reviewed (model-assisted) |
+| System calls | [System calls](system-calls.md) | Reviewed (model-assisted) |
+| Processes and threads | [Processes and threads](processes-and-threads.md) | Reviewed (model-assisted) |
+| Scheduling | [Scheduling](scheduling.md) | Reviewed (model-assisted) |
+| Memory management | [Memory management](memory-management.md) | Reviewed (model-assisted) |
+| Filesystems | [Filesystems](filesystems.md) | Reviewed (model-assisted) |
+| Drivers and devices | [Drivers and devices](drivers-and-devices.md) | Reviewed (model-assisted) |
+| Execution contexts | [Execution contexts](execution-contexts.md) | Reviewed (model-assisted) |
+| System initialization | [System initialization](system-initialization.md) | Reviewed (model-assisted) |
+| Resource management | [Resource management](resource-management.md) | Reviewed (model-assisted) |
 
-## Review state and canonical boundaries
+## Technical review and canonical boundaries
 
-**All 10 approved headings have substantive articles.** All ten Wave E Operating System Principles references are substantial Drafts, not yet accepted under a separately documented scoped technical audit. Kernel privilege, protected system calls, process/thread contexts, scheduling, memory, persistent files, device interfaces, execution context, initialization and resource policy are distinct but connected mechanisms.
+**All 10 of 10 approved subjects are authored and internally Reviewed.** The scoped [Wave E Operating System Principles Technical Review (60 claim families)](../WAVE-E-TECHNICAL-REVIEW-01.md) documents the material claim-group checks, source corrections, worked-example verification, internal file-target checks and remaining limitations. The source-review status for these articles is **Core claims checked**. This does **not** establish exhaustive clause-level or claim-level source verification, independent human expert peer review, production-system correctness, or final **Published** status.
 
-These approved headings serve as a navigation discipline, **not** a newly ratified universal taxonomy, knowledge-graph predicate schema, mandatory hardware/software stack or vendor implementation. General models, data, mathematics and systems engineering retain their separate canonical homes.
+The subjects remain a navigation discipline in the approved 12-area/109-heading architecture, not newly ratified ontology predicates or a required kernel, protocol, programming language, platform or vendor implementation.
 
-The unresolved G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML decisions remain explicitly open. No Knowledge Checks, Practical Assessments, quizzes or grading are included. Complete source validation, independent expert peer review, corpus-wide link checks and final publication acceptance remain separate obligations.
+G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open architectural scope decisions. No Knowledge Checks, Practical Assessments, quizzes or scoring are introduced.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
