@@ -2,14 +2,14 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All nine approved subjects authored and Reviewed (model-assisted); no independent human or final publication acceptance  
+**Content status:** 9 canonical articles Reviewed (model-assisted) + 1 additional subjects Inventoried (no articles); none Published.
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
 
 The representation, organization, movement, interpretation, and lifecycle of data and information.
 
-## Approved Subject Inventory
+## Subject Inventory (versioned)
 
 - Symbols and encoding
 - Bits and bytes
@@ -20,6 +20,7 @@ The representation, organization, movement, interpretation, and lifecycle of dat
 - Metadata
 - Databases and queries
 - Data provenance and lifecycle
+- Search and information retrieval
 
 ## Content Development
 
@@ -40,6 +41,11 @@ Information & Data has **9/9 approved headings authored**. All nine articles are
 | Metadata | [Metadata](metadata.md) | Reviewed (model-assisted) |
 | Databases and queries | [Databases and Queries](databases-and-queries.md) | Reviewed (model-assisted) |
 | Data provenance and lifecycle | [Data Provenance and Lifecycle](data-provenance-and-lifecycle.md) | Reviewed (model-assisted) |
+
+| Search and information retrieval | Article not yet authored; [scope decision](../COVERAGE-AND-SOURCE-TRIAGE-02.md) | **Inventoried** |
+
+
+**Coverage Triage 02 (November 18, 2026):** F-05-10 Search and information retrieval is newly Inventoried under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 9 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
 
 See the [six-pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) for Symbols and Encoding and the [Wave B Batch 01 technical audit](../WAVE-B-TECHNICAL-REVIEW-01.md) for the next four Reviewed articles. Batch 02 passed its [24-family scoped audit](../WAVE-B-TECHNICAL-REVIEW-02.md); independent expert peer review and publication acceptance remain open. No Knowledge Checks, Practical Assessments, quizzes or scoring are introduced.
 
