@@ -2,6 +2,10 @@
 
 Network Knowledge is organized primarily by **network function**.
 
+## Contributor and Agent Contract
+
+[**AGENTS.md: Network Knowledge Editorial & Engineering Contract**](AGENTS.md) applies to this directory and its descendants. It inherits the [root SOP](../AGENTS.md) and tailors its thirteen operating sections to **Network Function**, including packet, protocol, network-service and observability. Function-first navigation is preserved; deeper subject/implementation structures and article counts remain flexible and are **not automatically approved** by this contract.
+
 ## Approved Navigation Categories
 
 - [Architecture & Topology](architecture-topology/README.md): Network structures, designs, relationships, and segmentation
