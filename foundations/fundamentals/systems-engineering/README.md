@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** 11 canonical articles Reviewed (model-assisted) + 1 additional subjects Inventoried (no articles); none Published.
+**Content status:** 11 legacy articles Reviewed (model-assisted), 1 additional articles Draft (References listed); no subjects Published.
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -30,6 +30,9 @@ This area is a **navigation discipline**. These eleven names are the already app
 
 **All 11 of 11 approved subjects are now authored.** All eleven references are **Reviewed (model-assisted)**. Five were reviewed under the [six-pilot audit](../PILOT-CLAIM-SOURCE-AUDIT.md) and [Wave B Batch 03](../WAVE-B-TECHNICAL-REVIEW-03.md), while the six Batch 04 references passed the [36-family technical audit](../WAVE-B-TECHNICAL-REVIEW-04.md). Independent human peer review and publication acceptance remain open.
 
+
+**Post-authoring status:** The 1 additional article is substantively authored and remain **Draft / References listed**, distinct from the 11 historically Reviewed references. Further validation and publication review remain outstanding.
+
 ## Canonical reference articles
 
 | Approved subject | Canonical reference | Development state |
@@ -46,10 +49,10 @@ This area is a **navigation discipline**. These eleven names are the already app
 | Verification and validation | [Verification and Validation](verification-and-validation.md) | Reviewed (model-assisted) |
 | System lifecycle | [System Lifecycle](system-lifecycle.md) | Reviewed (model-assisted) |
 
-| Queueing and service-system models | Article not yet authored; [scope decision](../COVERAGE-AND-SOURCE-TRIAGE-02.md) | **Inventoried** |
+| Queueing and service-system models | [Draft article](queueing-and-service-system-models.md) | **Draft** |
 
 
-**Coverage Triage 02 (November 18, 2026):** F-11-12 Queueing and service-system models is newly Inventoried under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 11 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
+**Coverage Triage 02 (November 18, 2026):** F-11-12 Queueing and service-system models is newly Drafted under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 11 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
 
 The [six-pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) covers Systems and Subsystems; the [Wave B Batch 03 technical audit](../WAVE-B-TECHNICAL-REVIEW-03.md) covers the following four articles. Batch 04 has passed its [36-family technical review](../WAVE-B-TECHNICAL-REVIEW-04.md). `Reviewed (model-assisted)` is not the same as independently human peer-reviewed, completely Verified, or finally Published.
 
