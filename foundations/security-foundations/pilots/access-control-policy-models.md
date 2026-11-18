@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-06-09 · Trust, Identity & Authority Principles  
 **Artifact type:** Working article pilot, not a ratified canonical subject  
-**Development state:** Draft · **Source review:** References listed; scoped technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md), five material claim groups; full source verification and independent expert acceptance pending  
 **Working architecture:** [v0.3 subject inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)
 
 ## A policy decision is not an authentication or enforcement event
@@ -120,5 +120,7 @@ Access control regulates **authorized operations**. [Information-Flow Security a
 - [NIST SP 800-53 Rev.5, Release 5.2.0](https://csrc.nist.gov/news/2025/nist-releases-revision-to-sp-800-53-controls), access-control catalog; not an endorsement of a particular policy algorithm.
 
 **Limits:** This article compares general policy models but does not claim that every DAC/MAC/RBAC/ABAC system shares exact syntax or that a policy decision is self-enforcing. Full original-source technical verification and independent expert publication acceptance remain pending.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md). This is a **working pilot**, not an approved permanent canonical article, source-Verified artifact or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md) · [Identity Knowledge](../../../identity/README.md)
