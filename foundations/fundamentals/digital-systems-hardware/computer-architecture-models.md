@@ -86,6 +86,7 @@ The first model serializes all transfers. The second can schedule instruction tr
 
 - [MIT OpenCourseWare 6.004 Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/), stored-program organization, instruction sets, pipelining and architecture.
 - [MIT OCW 6.004: Designing an Instruction Set](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c9/), structural and implementation-level models.
+- [UC Berkeley CS61C: Flynn's Taxonomy](https://notes.cs61c.org/content/parallel-dlp/), distinguishing SISD, SIMD, MISD and MIMD by instruction/data streams.
 - [ACM/IEEE-CS/AAAI CS2023 Knowledge Areas](https://csed.acm.org/knowledge-areas/), *Architecture and Organization* as a computing knowledge domain; curricular grouping is not a mandatory hardware taxonomy.
 
 Specific historical names and classification schemes are presented as useful models with assumptions, not a complete classification of all present and future computer designs.
