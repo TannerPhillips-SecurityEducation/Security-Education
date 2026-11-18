@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Computation & Algorithms](README.md)  
 **Approved subject heading:** Computational data structures  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; separate scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Batch 02 technical audit](../WAVE-D-TECHNICAL-REVIEW-02.md); independent human peer review pending
 
 ## Data organization determines the cost of operations
 
@@ -88,6 +88,6 @@ The shape of a record is not the same as its computational structure; a JSON arr
 - [MIT 6.006: Syllabus and data-structure topics](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/syllabus/).
 - [MIT 6.005: Software Construction, Readings](https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/pages/readings/).
 
-**Editorial status:** Substantive Draft. Doubling-array arithmetic, complexity bounds and invariants require a dedicated scoped technical and source review. No assessments, implementation mandates or new category are introduced.
+**Editorial status:** Reviewed (model-assisted) following the [Wave D Batch 02 scoped 30-family technical audit](../WAVE-D-TECHNICAL-REVIEW-02.md). Exhaustive source verification, independent human expert review and final publication acceptance remain open.
 
 [Computation & Algorithms](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
