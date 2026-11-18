@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-09-09 · Cryptography & Information Protection  
 **Artifact type:** Working article pilot, not a ratified canonical subject  
-**Development state:** Draft · **Source review:** References listed; technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md), five material claim groups; full source verification and independent expert acceptance pending  
 **Architecture:** [Candidate Inventory v0.3](../SUBJECT-INVENTORY-PROPOSAL.md) · [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)
 
 ## Secure primitives do not automatically make a secure protocol
@@ -100,5 +100,7 @@ The working SF-09-07 subject owns broad key lifecycle and cryptographic failure 
 - [RFC 9846: TLS 1.3, July 2026](https://www.rfc-editor.org/info/rfc9846/), **current** TLS 1.3 specification; obsoletes [RFC 8446 (2018)](https://www.rfc-editor.org/info/rfc8446/) with minor backward-compatible updates, tightened requirements, transcript/key-schedule material and explicit early-data replay cautions.
 
 **Source limitation:** These references supply standards-defined claims for specific algorithms, interfaces or protocol versions; no generalized proof of every composition follows. The examples are conceptual, not assertions about any live system. Complete clause-by-clause validation and independent expert peer review remain pending.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md). This is a **working pilot**, not an approved permanent canonical article, source-Verified artifact or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md)
