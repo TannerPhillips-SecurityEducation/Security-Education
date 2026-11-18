@@ -11,7 +11,7 @@
 
 Iteration and recursion can often express the same mathematical function, but their cost and operational behavior depend on the execution model. A recursive mathematical definition is not automatically a stack-using procedure, and iterative code is not automatically memory-efficient or correct.
 
-[Algorithms](algorithms.md) owns general input-output contracts. This article owns **repeated execution, base conditions, progress, termination and recursive/iterative equivalence**. [Programming Languages](../software-programming/README.md) owns language-specific loops and calls.
+[Algorithms](algorithms.md) owns general input-output contracts. This article owns **repeated execution, base conditions, progress, termination and recursive/iterative equivalence**. [Programming Languages](../software-programming/programming-languages.md) owns language-specific loops and calls.
 
 The [MIT 6.005 Software Construction readings](https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/pages/readings/) explicitly cover recursion, recursive data types and representation invariants.
 
