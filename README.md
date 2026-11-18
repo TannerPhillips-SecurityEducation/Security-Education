@@ -2,6 +2,8 @@
 
 A domain-organized knowledge repository with a **hierarchy for navigation** and a **knowledge graph for relationships**.
 
+**Contributor and agent SOP:** [AGENTS.md](AGENTS.md) governs evidence-led collaboration, variable knowledge structure and content depth, canonical ownership, authoring, reviews, approvals and validation across this repository. Subtree instructions refine it without overriding approved architecture.
+
 ## Foundations
 
 - [Fundamentals](foundations/fundamentals/README.md)
