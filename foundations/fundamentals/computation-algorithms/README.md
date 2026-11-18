@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Four of nine approved headings authored as Draft; five not yet authored  
+**Content status:** All 9 approved subjects authored; 4 Reviewed (model-assisted), 5 Draft; independent human acceptance pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -25,24 +25,24 @@ How problems are formulated as computations, how algorithms operate, and how the
 
 | Approved subject | Canonical reference | Development state |
 | --- | --- | --- |
-| Computability | [Computability](computability.md) | Draft |
-| Algorithms | [Algorithms](algorithms.md) | Draft |
-| Algorithm design | [Algorithm Design](algorithm-design.md) | Draft |
-| Complexity | [Complexity](complexity.md) | Draft |
-| Computational data structures | Not authored | Inventoried |
-| Iteration and recursion | Not authored | Inventoried |
-| Concurrency and parallelism | Not authored | Inventoried |
-| Synchronization | Not authored | Inventoried |
-| Computational efficiency | Not authored | Inventoried |
+| Computability | [Computability](computability.md) | Reviewed (model-assisted) |
+| Algorithms | [Algorithms](algorithms.md) | Reviewed (model-assisted) |
+| Algorithm design | [Algorithm design](algorithm-design.md) | Reviewed (model-assisted) |
+| Complexity | [Complexity](complexity.md) | Reviewed (model-assisted) |
+| Computational data structures | [Computational data structures](computational-data-structures.md) | Draft |
+| Iteration and recursion | [Iteration and recursion](iteration-and-recursion.md) | Draft |
+| Concurrency and parallelism | [Concurrency and parallelism](concurrency-and-parallelism.md) | Draft |
+| Synchronization | [Synchronization](synchronization.md) | Draft |
+| Computational efficiency | [Computational efficiency](computational-efficiency.md) | Draft |
 
 ## Development and canonical boundaries
 
-**Wave D Batch 01** contains four substantive reference Drafts awaiting their own technical/source reviews. Computability treats theoretical solvability; Algorithms treats defined procedures and correctness; Algorithm Design treats constructive strategies; Complexity treats mathematical resource growth.
+**All 9 of 9 approved subjects have substantive articles.** The first four passed the [Wave D Batch 01 24-family technical audit](../WAVE-D-TECHNICAL-REVIEW-01.md). The five remaining Batch 02 articles are **Drafts**, with a separate claim-to-source and numerical audit pending.
 
-These are **approved navigation subjects** and not newly ratified theoretical primitives. [Computational Data Structures](README.md), [Iteration and Recursion](README.md), [Concurrency and Parallelism](README.md), [Synchronization](README.md), and [Computational Efficiency](README.md) remain inventoried for subsequent authoring.
+Computability owns the limits of effective computation. Algorithms owns procedures and correctness. Algorithm Design owns construction strategies. Complexity owns formal resource growth. Computational Data Structures owns operation costs of representations, Iteration and Recursion owns repetition and termination, Concurrency and Parallelism owns overlapping activities, Synchronization owns coordination and atomicity, and Computational Efficiency owns workload-sensitive practical resource use.
 
-General logic, discrete mathematics and graph theory remain in [Mathematics & Logic](../mathematics-logic/README.md). Models, representation and evidence retain their own approved areas. Programming-language implementations belong to [Software & Programming](../software-programming/README.md).
+This area is a navigation discipline, not a newly ratified universal ontology of computational primitives. General mathematical and graph concepts remain in [Mathematics & Logic](../mathematics-logic/README.md); data formats remain in [Information & Data](../information-data/README.md); programming-language execution remains in [Software & Programming](../software-programming/README.md).
 
-No Knowledge Checks, Practical Assessments, scoring, new categories or mandatory programming environments are introduced. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved architectural scope decisions.
+G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open scope decisions. No Knowledge Checks, Practical Assessments, scoring, additional approved headings or mandatory computing implementation were introduced.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
