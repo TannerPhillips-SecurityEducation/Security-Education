@@ -71,6 +71,20 @@ An **open-loop** command can be suitable when the process and environment are su
 
 A combined controller may rely on a predicted heat demand plus measured temperature error. That combination can improve response under suitable models, but may also worsen behavior if prediction or measurements are wrong. Comparing alternatives therefore requires performance criteria and evidence.
 
+## PID as one controller family, not a universal feedback architecture
+
+A **proportional–integral–derivative (PID)** controller combines current error, accumulated error and error-change rate under a defined time and sign convention. A commonly idealized continuous-time controller is
+
+u(t) = Kp·e(t) + Ki·∫ e(τ)dτ + Kd·de(t)/dt.
+
+The proportional term responds to current error, the integral term accumulates persistent error, and the derivative term responds to its rate of change. Practical implementations may filter derivatives, sample inputs at discrete times, clamp outputs and reset integral state. The sign and interpretation of e(t) must be consistent with the feedback configuration.
+
+**Worked illustration:** With only proportional control Kp=2, a constant error e=3 yields u=6 in the chosen model's command units. If the physical actuator saturates at u=5, the plant receives at most that limited influence. The commanded value 6 is not evidence of a physical effect of size 6, and adding integral control would not automatically remove the saturation constraint.
+
+An integral term can suffer **windup** when commands remain saturated while error accumulates; a derivative term can amplify measurement noise. Stability, overshoot and steady-state behavior depend on controller gains **and** plant dynamics, sampling, delays and disturbances. Neither adding a PID controller nor drawing a negative-feedback loop proves stability.
+
+[MIT feedback-control teaching materials](https://ocw.mit.edu/courses/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/) and [MathWorks PID controller documentation](https://www.mathworks.com/help/control/ug/proportional-integral-derivative-pid-controllers.html) discuss PID representations and constraints. This subject owns the **abstract controller and loop structure**; [Physical Control Mechanisms](../physical-electrical-principles/physical-control-mechanisms.md) owns actual plant, actuator and energy constraints.
+
 ## Control objectives and limits
 
 Control goals can include tracking a target, rejecting disturbances, remaining within safe bounds, minimizing resource use, or balancing competing demands. These are not all equivalent: a faster response may increase overshoot, energy consumption or actuator wear.
@@ -80,6 +94,10 @@ Control goals can include tracking a target, rejecting disturbances, remaining w
 [Dependencies](dependencies.md) owns necessary resource relations; [Architecture and Composition](architecture-and-composition.md) owns allocation and interaction views. The separate [Physical Control Mechanisms](../physical-electrical-principles/README.md) heading owns physical implementation context. General temporal concepts remain open under [G-04](../COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks).
 
 ## Sources and acceptance boundary
+
+- [MIT OpenCourseWare: Feedback Control Systems](https://ocw.mit.edu/courses/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/).
+- [MathWorks: Proportional–Integral–Derivative Controller Representations](https://www.mathworks.com/help/control/ug/proportional-integral-derivative-pid-controllers.html).
+
 
 - [MIT OpenCourseWare: Analysis and Design of Feedback Control Systems](https://ocw.mit.edu/courses/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/).
 - [NASA: Fundamentals of Systems Engineering](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/).
