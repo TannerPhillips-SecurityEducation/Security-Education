@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Communication & Distributed Systems](README.md)  
 **Approved subject heading:** Protocols and layering  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Communication & Distributed Systems 54-family audit](../WAVE-E-TECHNICAL-REVIEW-02.md); independent human review pending
 
 ## Protocols give exchanges agreed rules
 
@@ -66,6 +66,6 @@ No particular OSI/TCP-IP layer count, network architecture, protocol or vendor p
 - [RFC 768 UDP](https://www.rfc-editor.org/rfc/rfc768).
 - [MIT 6.1800 Computer Systems Engineering](https://catalog.mit.edu/subjects/6/).
 
-**Editorial status:** Substantive Draft. Layer/contract distinctions and overhead arithmetic require separate scoped technical review. No assessment content or new headings introduced.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E Communication & Distributed Systems 54-family technical audit](../WAVE-E-TECHNICAL-REVIEW-02.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Communication & Distributed Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
