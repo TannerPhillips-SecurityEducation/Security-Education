@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Software & Programming](README.md)  
 **Approved subject heading:** Testing and software lifecycle  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical/source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Software Batches 03–04 audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md); independent human review pending
 
 ## Software is evaluated and revised across time
 
@@ -94,6 +94,6 @@ Software testing in this article concerns **testing software**, not student Know
 - [MIT 6.005: Version Control](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/05-version-control/).
 - [NASA: Product Realization](https://www.nasa.gov/reference/5-0-product-realization/).
 
-**Editorial status:** Substantive Draft. The boundary-value example, lifecycle and assurance distinctions require a separate scoped claim-to-source review. No learner assessments or tool mandates are introduced.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave D Software 54-family audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md). Complete source verification, independent expert review and final publication acceptance remain separate outstanding gates.
 
 [Software & Programming](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
