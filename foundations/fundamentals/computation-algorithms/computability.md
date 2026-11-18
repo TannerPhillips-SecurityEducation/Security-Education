@@ -27,7 +27,7 @@ The Church–Turing thesis relates an intuitive notion of effective calculation 
 
 A **decision problem** asks for a yes/no answer to a property of an input. A decision procedure **decides** the problem if it terminates on every input in its specified domain and returns the correct answer.
 
-A **recognizer** for a language may terminate and accept members, while potentially running without termination on nonmembers. Hence **recognizable** does not automatically mean **decidable**. A bounded implementation that halts after a timeout has not thereby solved the original unbounded decision problem.
+A **recognizer** for a language must halt and accept every member of that language; for a nonmember, it may halt and reject or run without termination. A **decider** must halt with a correct yes/no answer on both members and nonmembers. Hence **recognizable** does not automatically mean **decidable**. A bounded implementation that halts after a timeout has not thereby solved the original unbounded decision problem.
 
 For an infinite class of inputs, observing success on a finite sample is not a proof that an algorithm halts correctly for all inputs. Correctness and termination require appropriate justification under the model.
 
@@ -74,6 +74,7 @@ This article does not settle G-06 artificial intelligence/machine learning scope
 
 - [MIT OCW 6.045J: Automata, Computability and Complexity](https://ocw.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/).
 - [MIT OCW 6.045J: Lecture Notes](https://ocw.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/pages/lecture-notes/).
+- [MIT 6.045J: Lecture 6, Turing Machines and the Halting Problem](https://ocw.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/d6c18e634cdf3363ecac909bd2958b8b_MIT6_045JS11_lec06.pdf).
 - [Stanford Encyclopedia of Philosophy: Turing Machines](https://plato.stanford.edu/entries/turing-machine/).
 
 **Editorial status:** Substantive Draft. Formal statements, the diagonal argument and finite-graph example require a separate scoped technical audit. No Knowledge Checks or Practical Assessments are included.
