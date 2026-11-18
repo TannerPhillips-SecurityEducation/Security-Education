@@ -1,6 +1,6 @@
 # Security Foundations: Proposed Canonical Ownership Boundaries
 
-**Working edition:** v0.2 · November 18, 2026  
+**Working edition:** v0.3 · November 18, 2026  
 **Status:** Proposed, **not approved**. These are editorial routing recommendations, not formal knowledge-graph predicates or decisions to move existing content.
 
 ## Purpose
@@ -11,7 +11,7 @@ Use the [Established Security Models Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) 
 
 Security concepts may be **related** across articles without being ontologically identical. Each distinct explanation should have one canonical general home, with linked applications and distinct mechanism-specific homes. A Markdown link demonstrates navigation, **not** correctness of the claimed relationship.
 
-## Working overlap ledger (25 cases)
+## Working overlap ledger (30 cases: original 25 plus 5 new cases)
 
 | Case | Canonical general meaning | Boundary and contextual ownership |
 | --- | --- | --- |
@@ -41,6 +41,12 @@ Security concepts may be **related** across articles without being ontologically
 | B-24: Risk concepts vs risk assessment activities | Risk area owns threat scenarios, likelihood, consequence and uncertainty concepts. | Operational Foundations owns assessment processes, prioritization and treatment execution. |
 | B-25: Supply-chain trust vs purchasing processes | Secure architecture area owns dependency and inherited-trust principles. | Operational Foundations owns supplier-risk processes; cloud, software, endpoint and other domains own concrete dependency mechanisms. |
 
+| B-26: Access-control policy vs enforcement | **SF-06-09** owns generic DAC/MAC/RBAC/ABAC decision models and subject/action/object/condition semantics. | **SF-08-02** owns reference mediation as a mechanism; [Identity Knowledge](../../identity/README.md) owns actual IAM and enforcement implementations. Policy evaluation is not proof of enforcement. |
+| B-27: Information-flow property vs access authorization | **SF-08-09** owns observable dependencies under a declared confidentiality/integrity flow policy, including noninterference assumptions. | **SF-06-09** owns authorization of actions; **SF-04-08** owns possible side/covert leakage pathways. An allowed read is not proof that later information flow is controlled. |
+| B-28: Side channel vs covert channel | **SF-04-08** owns the distinction between unintended observable side effects enabling inference and deliberate hidden communication between cooperating parties. | Network, Endpoint, Application, Industrial and other domains own concrete measurable timing, power, cache, protocol or storage mechanisms. A model of a side channel is not evidence of an actual leak. |
+| B-29: Cryptographic primitive vs composed protocol | **SF-09-09** owns general AEAD/nonce/key-binding/composition and replay-security obligations. | **SF-09-03/04/06/07** own primitive goals and key lifecycle; [Network](../../network/README.md), [Application](../../application/README.md), [Identity](../../identity/README.md) and other domains own specific protocols and deployments. Passing primitive tests is not protocol verification. |
+| B-30: Consolidated harm and attribution owners | **SF-02-05** now owns general adverse outcomes, consequences and harm, with legacy SF-02-06 as an alias; **SF-03-03** owns actor-intent hypotheses. | **SF-05-03** owns estimating loss for a risk scenario; **SF-10-08** owns evidence and attribution inference, absorbing the old SF-03-08 evidence scope. Do not mistake metadata attribution for proof of actor or motive. |
+
 ## Cross-division routing examples
 
 | Candidate topic | Route | Rationale |
@@ -69,10 +75,10 @@ Security concepts may be **related** across articles without being ontologically
 ## Deferred decisions requiring architectural review
 
 1. **Where to split identity semantics from identity implementation:** Avoid creating a second complete IAM theory in Security Foundations. Treat the abstract principal/claim/authority concepts here; preserve the existing Identity Knowledge function tree.
-2. **How far to take cryptography:** Security goals and assumptions are shared; primitive algorithms and proofs may depend on Fundamentals; concrete protocols and key infrastructure belong to domain implementations.
+2. **How far to take cryptography:** Security goals, nonce/AEAD assumptions and protocol-composition principles are shared; algorithm internals may depend on Fundamentals; concrete protocol stacks, deployment mechanisms and key infrastructure belong to domain implementations.
 3. **How far to take security evidence:** Define indicators, anomalies, confidence and inferential limits; do not absorb evidence collection, SOC triage or investigation workflows.
 4. **How to represent safety and privacy:** Include explicit distinctions and consequences while respecting distinct legal, ethical, and technical disciplines; no assumption all three are reducible to cybersecurity.
-5. **Whether 12 proposed categories and 94 headings are the right grain:** Resolve only after checking for duplicate definitions, coverage gaps and maintenance burden.
+5. **Whether 12 provisional categories and 96 working subjects are the right grain:** Both counts can expand or contract after concept/source and overlap evidence; old IDs remain traceable under [Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md).
 6. **How source-specific models are represented:** Preserve NIST, MITRE and other frameworks as accurately attributed references; do not equate their taxonomies or blindly import labels.
 
 ## Acceptance conditions for a boundary
