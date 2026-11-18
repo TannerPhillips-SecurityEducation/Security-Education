@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All 9 approved subjects authored; 9 Reviewed (model-assisted), 0 Draft; independent human review and publication acceptance pending  
+**Content status:** **9/9 current canonical subject articles Reviewed (model-assisted)**; individual scoped audits are recorded in article metadata and the [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md). None is fully source-Verified, independently peer-reviewed or Published.  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
