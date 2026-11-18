@@ -4,6 +4,10 @@
 
 This domain follows **Domain → Function → Implementation**. Functions provide the canonical navigation path; specific implementations are added within the relevant function when approved.
 
+## Contributor and Agent Contract
+
+[**AGENTS.md: Cloud Knowledge Editorial & Engineering Contract**](AGENTS.md) applies to this directory and its descendants. It inherits the [root SOP](../AGENTS.md) and tailors its thirteen operating sections to **Cloud Service Function**, including provider-specific service implementation and control/data-plane boundaries. Function-first navigation is preserved; deeper subject/implementation structures and article counts remain flexible and are **not automatically approved** by this contract.
+
 ## Functions (Primary Navigation)
 
 - [Compute & Execution](compute-execution/README.md)
