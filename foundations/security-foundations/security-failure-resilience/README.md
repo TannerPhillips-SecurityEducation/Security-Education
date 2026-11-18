@@ -3,7 +3,7 @@
 **Division:** [Security Foundations](../README.md)  
 **Working area ID:** SF-11  
 **Architecture status:** **Provisional area membership and naming**, within a user-approved **Fundamentals-style directory architecture**. The number and names of areas and subjects can expand or contract.  
-**Current content:** **8 candidate subjects; 2 substantive articles** with existing scoped reviews; 6 without an article. No source-Verified or Published claims.
+**Current content:** **8 candidate subjects; 3 substantive articles** (2 Reviewed, 1 Draft); 5 without an article. No source-Verified or Published claims.
 
 ## Scope and canonical ownership
 
@@ -21,10 +21,10 @@ The area may be renamed, split, consolidated, or relocated when stronger concept
 | SF-11-04 | [Resilience, survivability, and robustness](resilience-survivability-and-robustness.md) | **Reviewed (model-assisted)** · Core claims checked | Distinguish resistance from continued function and adaptation after stress. |
 | SF-11-05 | Redundancy, diversity, and common-mode failure | **Inventoried / not authored** | Describe why duplication may or may not improve security outcomes. |
 | SF-11-06 | Graceful degradation and safe failure | **Inventoried / not authored** | Balance availability with integrity, safety, and authorization constraints. |
-| SF-11-07 | Recovery objectives and trusted restoration | **Inventoried / not authored** | Explain restoration goals and why recovery must establish trustworthy state. |
+| SF-11-07 | [Recovery objectives and trusted restoration](recovery-objectives-and-trusted-restoration.md) | **Draft** · References listed; scoped review pending | Explain restoration goals and why recovery must establish trustworthy state. |
 | SF-11-08 | Persistent compromise and adaptation | **Inventoried / not authored** | Describe how adversarial persistence changes restoration assumptions. |
 
-**Review interpretation:** The 2 current articles have scoped model-assisted review evidence from [Security Foundations technical reviews](../pilots/README.md). These reviews are **not** independent peer review, complete clause-by-clause source verification or publication. **Inventoried** entries are coverage candidates, not missing files or failed articles.
+**Review interpretation:** The 2 Reviewed articles have scoped model-assisted review evidence from [Security Foundations technical reviews](../pilots/README.md). These reviews are **not** independent peer review, complete clause-by-clause source verification or publication. **Inventoried** entries are coverage candidates, not missing files or failed articles.
 
 ## Development and relationships
 
