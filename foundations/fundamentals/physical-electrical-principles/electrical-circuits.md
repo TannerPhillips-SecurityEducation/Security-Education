@@ -11,7 +11,7 @@ An **electrical circuit** is an arrangement of connected electrical elements and
 
 Common analysis terms include **node** (electrically connected reference region under ideal-wire assumptions), **branch** (an element or defined connecting path), and **loop** (a closed path through the circuit graph). Circuit elements may be modeled as resistors, capacitors, inductors, sources, switches and other ideal or nonideal devices.
 
-[Electricity](electricity.md) owns electrical quantities; this article owns relationships imposed by interconnected elements. [Electronics](README.md) will develop specialized devices and active circuit mechanisms.
+[Electricity](electricity.md) owns electrical quantities; this article owns relationships imposed by interconnected elements. [Electronics](electronics.md) will develop specialized devices and active circuit mechanisms.
 
 ## Ideal versus physical elements
 
