@@ -4,6 +4,10 @@
 
 This domain follows **Domain → Function → Implementation**. Functions establish primary navigation. Specific implementations may be documented under their canonical function when approved.
 
+## Contributor and Agent Contract
+
+[**AGENTS.md: Iot Knowledge Editorial & Engineering Contract**](AGENTS.md) applies to this directory and its descendants. It inherits the [root SOP](../AGENTS.md) and tailors its thirteen operating sections to **Device Function & Role**, including device sensing, actuation, gateways and lifecycle constraints. Function-first navigation is preserved; deeper subject/implementation structures and article counts remain flexible and are **not automatically approved** by this contract.
+
 ## Functions (Primary Navigation)
 
 - [Sensing & Measurement](sensing-measurement/README.md)
