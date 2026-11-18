@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Digital Systems & Hardware](README.md)  
 **Approved subject heading:** Memory and storage  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 03 audit](../WAVE-C-TECHNICAL-REVIEW-03.md); independent human review pending
 
 ## Physical resources retain and retrieve represented state
 
@@ -71,6 +71,6 @@ Latency is not bandwidth: a resource can have a low delay for one access yet lim
 - [MIT OpenCourseWare 6.004: Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/).
 - [NIST: Binary Prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 
-**Editorial status:** Substantive Draft. The cache equation and memory-technology generalizations require a separate scoped claim-to-source and numerical audit. No mandatory hardware design or assessment is introduced.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave C Batch 03 54-family technical review](../WAVE-C-TECHNICAL-REVIEW-03.md). Full source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
 
 [Digital Systems & Hardware](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
