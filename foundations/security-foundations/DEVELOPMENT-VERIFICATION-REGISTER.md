@@ -1,8 +1,8 @@
 # Security Foundations | Development & Verification Register
 
-**Working edition:** v0.9 · November 18, 2026  
+**Working edition:** v0.10 · November 18, 2026  
 **Authority:** [Fundamentals-style area structure decision](AREA-STRUCTURE-ADJUDICATION-03.md); exact labels, 12 areas and 96 subjects remain **provisional and revisionable**.  
-**Status:** **25 authored Reviewed (model-assisted)** and **0 Draft** working-area references; **71 Inventoried without article**, zero Source-Verified or Published.  
+**Status:** **25 authored Reviewed (model-assisted)**, **4 Draft** working area manuscripts; **67 Inventoried without article**; zero source-Verified or Published.  
 **Review evidence:** [Technical Reviews 01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), [06](PILOT-TECHNICAL-REVIEW-06.md), and [07](PILOT-TECHNICAL-REVIEW-07.md), totaling **147 bounded material claim groups** across 25 Reviewed working manuscripts.
 
 ## Current development status
@@ -10,8 +10,8 @@
 | State | Count | Interpretation |
 | --- | ---: | --- |
 | **Reviewed (model-assisted)** | **25** | Twenty-five substantive working-area manuscripts; seven separate bounded technical audits (01–07) |
-| **Draft** | **0** | No currently authored manuscript awaits its first separate scoped technical review |
-| **Inventoried without article** | **71** | Provisional candidate headings without substantive article manuscripts |
+| **Draft** | **4** | SF-03-02, SF-03-03, SF-03-05 and SF-03-06 authored as one coherent threat-behavior batch; separate Review 08 pending |
+| **Inventoried without article** | **67** | Provisional candidate headings without substantive articles |
 | **Source-Verified / Published** | **0** | Full claim-to-passage checking, taxonomy acceptance and qualified publication review remain open |
 
 **Structural baseline:** Each active [working area](README.md#working-knowledge-areas) has a real `README.md`. When a subject is authored its **one substantive article** is in that area directory. The historical [pilot review index](pilots/README.md) and compatibility stubs are **not additional articles**.
@@ -35,11 +35,11 @@
 | SF-02-05 | [Adverse outcomes, consequences, and harm](protected-interests-assets-harm/README.md) | [Reviewed working article](protected-interests-assets-harm/adverse-outcomes-consequences-and-harm.md) | Reviewed (model-assisted) | Core claims checked | [Review 07](PILOT-TECHNICAL-REVIEW-07.md) |
 | SF-02-07 | [Protection priorities and constraints](protected-interests-assets-harm/README.md) | [Reviewed working article](protected-interests-assets-harm/protection-priorities-and-constraints.md) | Reviewed (model-assisted) | Core claims checked | [Review 07](PILOT-TECHNICAL-REVIEW-07.md) |
 | SF-03-01 | [Threat sources and threat events](threats-hazards-adversarial-behavior/README.md) | [Working reviewed article](threats-hazards-adversarial-behavior/threat-sources-and-threat-events.md) | Reviewed (model-assisted) | Core claims checked | [Review 01](PILOT-TECHNICAL-REVIEW-01.md) |
-| SF-03-02 | [Adversarial and non-adversarial threat sources](threats-hazards-adversarial-behavior/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-03-03 | [Capability, opportunity, and intent](threats-hazards-adversarial-behavior/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
+| SF-03-02 | [Adversarial and non-adversarial threat sources](threats-hazards-adversarial-behavior/README.md) | [Working draft article](threats-hazards-adversarial-behavior/adversarial-and-non-adversarial-threat-sources.md) | **Draft** | References listed; scoped review pending | Not reviewed |
+| SF-03-03 | [Capability, opportunity, and intent](threats-hazards-adversarial-behavior/README.md) | [Working draft article](threats-hazards-adversarial-behavior/capability-opportunity-and-intent.md) | **Draft** | References listed; scoped review pending | Not reviewed |
 | SF-03-04 | [Attacks, deception, abuse, and misuse](threats-hazards-adversarial-behavior/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-03-05 | [Adversarial tactics, techniques, and procedures](threats-hazards-adversarial-behavior/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-03-06 | [Attack paths, stages, and dependencies](threats-hazards-adversarial-behavior/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
+| SF-03-05 | [Adversarial tactics, techniques, and procedures](threats-hazards-adversarial-behavior/README.md) | [Working draft article](threats-hazards-adversarial-behavior/adversarial-tactics-techniques-and-procedures.md) | **Draft** | References listed; scoped review pending | Not reviewed |
+| SF-03-06 | [Attack paths, stages, and dependencies](threats-hazards-adversarial-behavior/README.md) | [Working draft article](threats-hazards-adversarial-behavior/attack-paths-stages-and-dependencies.md) | **Draft** | References listed; scoped review pending | Not reviewed |
 | SF-03-07 | [Threat assumptions and models](threats-hazards-adversarial-behavior/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-04-01 | [Weaknesses and root causes](weaknesses-vulnerabilities-exposure/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-04-02 | [Vulnerabilities and exploitability](weaknesses-vulnerabilities-exposure/README.md) | [Working reviewed article](weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md) | Reviewed (model-assisted) | Core claims checked | [Review 01](PILOT-TECHNICAL-REVIEW-01.md) |

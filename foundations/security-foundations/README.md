@@ -4,7 +4,7 @@
 
 **Division status:** Approved.  
 **Structural organization:** **Fundamentals-style division → area README → substantive area article** pattern explicitly adopted; individual area names, subject ownership and 96-candidate inventory remain **provisional and flexible**.  
-**Current coverage:** **12 provisional knowledge-area directories, 96 candidate subjects, 25 Reviewed (model-assisted), 0 Draft, and 71 not yet authored**. All 25 substantive manuscripts reside within their working area directories. The original fourteen [historical pilot aliases](pilots/README.md) remain functional. Seven separate scoped audits checked **147 material claim groups** across the 25 Reviewed manuscripts. The working area and subject taxonomy remains provisional and flexible; none is Published.
+**Current coverage:** **12 provisional knowledge-area directories, 96 candidate subjects, 25 Reviewed (model-assisted), 4 Draft, and 67 not yet authored**. All 29 substantive working manuscripts reside in their provisional area directories. Four new SF-03 threat-behavior drafts have not inherited review status from the 25 articles covered by seven scoped audits (147 material claim groups). The original 14 [historical pilot aliases](pilots/README.md) remain functional; taxonomy and subject totals remain flexible.
 
 ## Contributor and Agent Operating Contract
 
@@ -25,7 +25,7 @@ This file is a reusable **operating guide**, not authorization to claim new user
 ## Architecture adjudication and pilot development
 
 - [**Architecture Adjudication 02**](ARCHITECTURE-ADJUDICATION-02.md): Full 94-to-96 reconciliation, including two consolidated IDs and four added candidate subjects, supported by model/source boundaries. Both the area and subject counts may expand or contract.
-- [**Working Article Register and Historical Compatibility Paths**](pilots/README.md): Indexes 25 Reviewed (model-assisted) working area manuscripts and preserves the original 14 historic pilot aliases without duplicate substantive bodies.
+- [**Working Article Register and Historical Compatibility Paths**](pilots/README.md): Indexes 29 working area manuscripts (25 Reviewed and 4 Draft) and preserves the original 14 historic pilot aliases without duplicate substantive bodies.
 - [**Area Structure Adjudication 03**](AREA-STRUCTURE-ADJUDICATION-03.md): User-approved Fundamentals-style folder pattern, 12 provisional area indexes, 14 relocations and honest structural-versus-taxonomy approval limits.
 - [**Development & Verification Register**](DEVELOPMENT-VERIFICATION-REGISTER.md): All 96 candidate IDs, actual article paths and their independent authoring/source states.
 - [**Working Canonical Ownership Register**](CANONICAL-OWNERSHIP-REGISTER.md): Provisional subject owners, precise conceptual boundaries, actual manuscripts and historical consolidations.
@@ -39,7 +39,7 @@ This file is a reusable **operating guide**, not authorization to claim new user
 - [**Coverage & Gaps Review 03**](COVERAGE-AND-GAPS-REVIEW-03.md): Reconciles the fourteen Reviewed pilots against 96 working subject candidates, identifies eight next subject/depth/overlap priorities, and separates knowledge gaps from unpiloted headings.
 - [**Source Crosswalk v0.3**](ESTABLISHED-MODEL-CROSSWALK.md): 30 evidence groups, including NIST Privacy Framework, ISO/IEC safety principles, recovery-objective guidance, current incident-response methods and earlier cryptographic/formal policy models.
 
-**Governance separation:** The Security Foundations division and Fundamentals-style directory organization are adopted, while the twelve area names and 96 candidate memberships remain provisional. **All 25 authored manuscripts are Reviewed (model-assisted) / Core claims checked**, including the five SF-02 manuscripts covered by [Technical Review 07](PILOT-TECHNICAL-REVIEW-07.md). None is fully Source-Verified, independently expert-reviewed, Published, or permanently approved as a canonical semantic taxonomy.
+**Governance separation:** The Security Foundations division and Fundamentals-style directory pattern are adopted; the twelve working area names and 96 candidate memberships remain provisional. **25 manuscripts are Reviewed (model-assisted) / Core claims checked; SF-03-02, SF-03-03, SF-03-05 and SF-03-06 are Draft / References listed** awaiting their own separate claim-led technical Review 08. None is fully Source-Verified, independently Published or automatically approved as permanent canonical ownership.
 
 ## The governing distinction
 
@@ -59,7 +59,7 @@ The 12 areas below are **working navigation hypotheses**, not a forced reflectio
 | --- | --- | ---: | ---: | ---: | ---: |
 | 01 | [Security Meaning & Objectives](security-meaning-objectives/README.md) | 8 | 2 | 0 | 6 |
 | 02 | [Protected Interests, Assets & Harm](protected-interests-assets-harm/README.md) | 6 | 5 | 0 | 1 |
-| 03 | [Threats, Hazards & Adversarial Behavior](threats-hazards-adversarial-behavior/README.md) | 7 | 1 | 0 | 6 |
+| 03 | [Threats, Hazards & Adversarial Behavior](threats-hazards-adversarial-behavior/README.md) | 7 | 1 | 4 | 2 |
 | 04 | [Weaknesses, Vulnerabilities & Exposure](weaknesses-vulnerabilities-exposure/README.md) | 8 | 2 | 0 | 6 |
 | 05 | [Security Risk & Uncertainty](security-risk-uncertainty/README.md) | 8 | 1 | 0 | 7 |
 | 06 | [Trust, Identity & Authority Principles](trust-identity-authority-principles/README.md) | 9 | 1 | 0 | 8 |
@@ -69,7 +69,7 @@ The 12 areas below are **working navigation hypotheses**, not a forced reflectio
 | 10 | [Security Observation & Evidence](security-observation-evidence/README.md) | 8 | 2 | 0 | 6 |
 | 11 | [Security Failure & Resilience](security-failure-resilience/README.md) | 8 | 3 | 0 | 5 |
 | 12 | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | 8 | 3 | 0 | 5 |
-| **Total** | **12 provisional areas** | **96** | **25** | **0** | **71** |
+| **Total** | **12 provisional areas** | **96** | **25** | **4** | **67** |
 
 **These directories follow the Fundamentals baseline:** each area contains its own `README.md` and the substantive articles currently assigned to it. Some areas have multiple articles; others currently contain only an inventory README. **Do not invent article files to equalize counts.**
 
