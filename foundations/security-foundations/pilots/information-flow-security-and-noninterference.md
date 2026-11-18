@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-08-09 · Secure Design & Architecture  
 **Artifact type:** Substantive working article pilot; canonical subject placement **not ratified**  
-**Development state:** Draft · **Source state:** References listed; scoped technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md), five material claim groups; full source verification and independent expert acceptance pending  
 **Architecture:** [v0.3 proposal](../ARCHITECTURE.md) · [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)
 
 ## Security can depend on the influence of information, not only on access decisions
@@ -119,5 +119,7 @@ A practical security claim requires evidence connecting the abstract property to
 **Authoritative source starting points:** [NIST information-flow control](https://csrc.nist.gov/glossary/term/information_flow_control); [Cornell CS 513 Information Flow](https://www.cs.cornell.edu/courses/cs513/2005fa/MCinfo01.iflow_lecture_1.html); [IETF RFC 4949 Security Glossary](https://www.rfc-editor.org/rfc/rfc4949.html); [NIST SP 800-53 Rev. 5 and current release](https://csrc.nist.gov/news/2025/nist-releases-revision-to-sp-800-53-controls).
 
 **Source and epistemic limits:** High/low examples are intentionally simplified deterministic models. Stronger formal systems, termination-sensitive policies, probabilistic leakage measures and actual product side-channel assurance require separate specifications and evidence. Complete primary-paper verification and independent expert review remain open.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md). This is a **working pilot**, not an approved permanent canonical article, source-Verified artifact or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md)
