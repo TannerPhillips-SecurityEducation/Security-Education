@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Software & Programming](README.md)  
 **Approved subject heading:** Programming languages  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical/source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Software Batches 03–04 audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md); independent human review pending
 
 ## Languages specify how programs can be expressed and interpreted
 
@@ -72,6 +72,6 @@ No new programming-language taxonomy, learner assessment or implementation manda
 - [MIT 6.005: Software Construction, Static Checking](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/01-static-checking/).
 - [MIT 6.005: Software Construction Readings](https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/pages/readings/).
 
-**Editorial status:** Substantive Draft. The type/operator example and cross-language generalizations require a separate technical audit. No Knowledge Checks or Practical Assessments are included.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave D Software 54-family audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md). Complete source verification, independent expert review and final publication acceptance remain separate outstanding gates.
 
 [Software & Programming](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
