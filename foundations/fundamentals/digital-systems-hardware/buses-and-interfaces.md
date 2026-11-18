@@ -73,6 +73,7 @@ This article does not designate a required bus, connector, protocol version, tra
 ### Sources
 
 - [MIT OpenCourseWare 6.004: Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/).
+- [MIT 6.004: Devices and Interrupts](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c18/c18s1/).
 - [MIT OpenCourseWare 6.004: Devices and Interrupts (course materials)](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/).
 - [NASA: Interface Management](https://www.nasa.gov/reference/6-3-interface-management/).
 
