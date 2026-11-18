@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All 9 approved subjects authored; 0 Reviewed (model-assisted), 9 Draft; independent human review and publication acceptance pending  
+**Content status:** All 9 approved subjects authored and Reviewed (model-assisted); human peer review and final publication acceptance remain pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -25,22 +25,22 @@ Methods for exchanging information and coordinating processes or systems across 
 
 | Approved subject | Canonical reference | Development state |
 | --- | --- | --- |
-| Communication models | [Communication models](communication-models.md) | Draft |
-| Transmission and signaling | [Transmission and signaling](transmission-and-signaling.md) | Draft |
-| Communication channels | [Communication channels](communication-channels.md) | Draft |
-| Protocols and layering | [Protocols and layering](protocols-and-layering.md) | Draft |
-| Addressing and naming | [Addressing and naming](addressing-and-naming.md) | Draft |
-| Latency and throughput | [Latency and throughput](latency-and-throughput.md) | Draft |
-| Reliability and ordering | [Reliability and ordering](reliability-and-ordering.md) | Draft |
-| Distributed state | [Distributed state](distributed-state.md) | Draft |
-| Synchronization and coordination | [Synchronization and coordination](synchronization-and-coordination.md) | Draft |
+| Communication models | [Communication models](communication-models.md) | Reviewed (model-assisted) |
+| Transmission and signaling | [Transmission and signaling](transmission-and-signaling.md) | Reviewed (model-assisted) |
+| Communication channels | [Communication channels](communication-channels.md) | Reviewed (model-assisted) |
+| Protocols and layering | [Protocols and layering](protocols-and-layering.md) | Reviewed (model-assisted) |
+| Addressing and naming | [Addressing and naming](addressing-and-naming.md) | Reviewed (model-assisted) |
+| Latency and throughput | [Latency and throughput](latency-and-throughput.md) | Reviewed (model-assisted) |
+| Reliability and ordering | [Reliability and ordering](reliability-and-ordering.md) | Reviewed (model-assisted) |
+| Distributed state | [Distributed state](distributed-state.md) | Reviewed (model-assisted) |
+| Synchronization and coordination | [Synchronization and coordination](synchronization-and-coordination.md) | Reviewed (model-assisted) |
 
-## Review state and canonical boundaries
+## Technical review and canonical boundaries
 
-**All 9 approved headings have substantive articles.** All nine Wave E Communication & Distributed Systems references are substantial Drafts, not yet accepted under a separately documented scoped technical audit. Communication roles, physical transmission, channels, protocol layering, naming, performance, delivery/ordering, replicated state and coordination retain distinct canonical ownership.
+**All 9 of 9 approved subjects are authored and internally Reviewed.** The scoped [Wave E Communication & Distributed Systems Technical Review (54 claim families)](../WAVE-E-TECHNICAL-REVIEW-02.md) documents the material claim-group checks, source corrections, worked-example verification, internal file-target checks and remaining limitations. The source-review status for these articles is **Core claims checked**. This does **not** establish exhaustive clause-level or claim-level source verification, independent human expert peer review, production-system correctness, or final **Published** status.
 
-These approved headings serve as a navigation discipline, **not** a newly ratified universal taxonomy, knowledge-graph predicate schema, mandatory hardware/software stack or vendor implementation. General models, data, mathematics and systems engineering retain their separate canonical homes.
+The subjects remain a navigation discipline in the approved 12-area/109-heading architecture, not newly ratified ontology predicates or a required kernel, protocol, programming language, platform or vendor implementation.
 
-The unresolved G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML decisions remain explicitly open. No Knowledge Checks, Practical Assessments, quizzes or grading are included. Complete source validation, independent expert peer review, corpus-wide link checks and final publication acceptance remain separate obligations.
+G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open architectural scope decisions. No Knowledge Checks, Practical Assessments, quizzes or scoring are introduced.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
