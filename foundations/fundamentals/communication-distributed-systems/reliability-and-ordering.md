@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Communication & Distributed Systems](README.md)  
 **Approved subject heading:** Reliability and ordering  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Communication & Distributed Systems 54-family audit](../WAVE-E-TECHNICAL-REVIEW-02.md); independent human review pending
 
 ## Message delivery is not the same as successful application action
 
@@ -68,6 +68,6 @@ Retries can improve eventual delivery but can also amplify overload and create d
 - [RFC 768: UDP, no guaranteed delivery or duplicate protection](https://www.rfc-editor.org/rfc/rfc768).
 - [MIT 6.5840 Distributed Systems](https://pdos.csail.mit.edu/6.5840/).
 
-**Editorial status:** Substantive Draft. Retry semantics, deduplication and ordering claims require a separate scoped technical/source audit. No protocol or assessment is mandated.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E Communication & Distributed Systems 54-family technical audit](../WAVE-E-TECHNICAL-REVIEW-02.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Communication & Distributed Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
