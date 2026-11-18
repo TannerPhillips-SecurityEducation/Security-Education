@@ -6,6 +6,7 @@ on:
       - "**/*.md"
       - "*.md"
       - "tools/check_repository_integrity.py"
+      - "tools/report_knowledge_coverage.py"
       - ".github/workflows/repository-integrity.yml"
   pull_request:
     paths:
@@ -28,6 +29,8 @@ jobs:
           persist-credentials: false
       - name: Validate all Markdown links and AGENTS inheritance
         run: python3 tools/check_repository_integrity.py
+      - name: Report live knowledge coverage and domain article maturity (diagnostic)
+        run: python3 tools/report_knowledge_coverage.py
       - name: Reconcile Fundamentals live subjects and review states
         run: python3 foundations/fundamentals/tools/check_inventory.py
       - name: Reconcile Security Foundations candidates and pilot states
