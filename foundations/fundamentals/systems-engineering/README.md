@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All **12/12 canonical subject articles** Reviewed (model-assisted), including 1 newly reviewed under [Wave H 24-family audit](../WAVE-H-TECHNICAL-REVIEW-01.md). Source-level Verified and independent Published acceptance remain open.
+**Content status:** **12/12 current canonical articles Reviewed (model-assisted)**, including Queueing and Service-System Models reviewed under [Wave H](../WAVE-H-TECHNICAL-REVIEW-01.md). Full source-level verification, independent peer review and publication acceptance remain open.  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -26,15 +26,15 @@ General principles for describing, designing, operating, verifying, and understa
 
 ## Content Development
 
-This area is a **navigation discipline**. These eleven names are the already approved coverage headings; their presence does not authorize a separate taxonomy of universal primitives. General systems mechanisms belong here, while contextual hardware, software, networking, industrial, human, and security applications extend their canonical references in specialized domains.
+This area is a **navigation discipline**. The original eleven headings formed the historical baseline; twelve subjects are currently tracked; their presence does not authorize a separate taxonomy of universal primitives. General systems mechanisms belong here, while contextual hardware, software, networking, industrial, human, and security applications extend their canonical references in specialized domains.
 
-**All 11 of 11 approved subjects are now authored.** All eleven references are **Reviewed (model-assisted)**. Five were reviewed under the [six-pilot audit](../PILOT-CLAIM-SOURCE-AUDIT.md) and [Wave B Batch 03](../WAVE-B-TECHNICAL-REVIEW-03.md), while the six Batch 04 references passed the [36-family technical audit](../WAVE-B-TECHNICAL-REVIEW-04.md). Independent human peer review and publication acceptance remain open.
-
-
-**Post-authoring status:** The 1 additional article is substantively authored and remain **Draft / References listed**, distinct from the 11 historically Reviewed references. Further validation and publication review remain outstanding.
+**The historical 11/11 articles were Reviewed (model-assisted)**. A twelfth canonical article passed its own [Wave H](../WAVE-H-TECHNICAL-REVIEW-01.md) scoped technical audit, yielding **12/12 current Reviewed articles**. Five were reviewed under the [six-pilot audit](../PILOT-CLAIM-SOURCE-AUDIT.md) and [Wave B Batch 03](../WAVE-B-TECHNICAL-REVIEW-03.md), while the six Batch 04 references passed the [36-family technical audit](../WAVE-B-TECHNICAL-REVIEW-04.md). Independent human peer review and publication acceptance remain open.
 
 
-**Wave H completion (November 18, 2026):** The 1 new subjects have canonical articles and passed [24-family scoped model-assisted technical review](../WAVE-H-TECHNICAL-REVIEW-01.md) with material claim examples and source limitations documented. The area retains 12 subjects, all Reviewed (model-assisted). No article is fully source-level Verified or independently accepted for publication.
+**Historical note:** The Queueing article was initially Draft under Coverage Triage 02; its later Wave H review is the current development status.
+
+
+**Wave H completion (November 18, 2026):** The new subject have canonical articles and passed [24-family scoped model-assisted technical review](../WAVE-H-TECHNICAL-REVIEW-01.md) with material claim examples and source limitations documented. The area retains 12 subjects, all Reviewed (model-assisted). No article is fully source-level Verified or independently accepted for publication.
 
 ## Canonical reference articles
 
@@ -55,10 +55,10 @@ This area is a **navigation discipline**. These eleven names are the already app
 | Queueing and service-system models | [Reviewed article](queueing-and-service-system-models.md) | Reviewed (model-assisted) |
 
 
-**Coverage Triage 02 (November 18, 2026):** F-11-12 Queueing and service-system models is newly Drafted under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 11 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
+**Coverage Triage 02 and Wave H (November 18, 2026):** F-11-12 Queueing and Service-System Models was added, authored and Reviewed (model-assisted) under [Wave H](../WAVE-H-TECHNICAL-REVIEW-01.md). Scope placement is resolved, but complete source verification and publication acceptance remain open.
 
 The [six-pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) covers Systems and Subsystems; the [Wave B Batch 03 technical audit](../WAVE-B-TECHNICAL-REVIEW-03.md) covers the following four articles. Batch 04 has passed its [36-family technical review](../WAVE-B-TECHNICAL-REVIEW-04.md). `Reviewed (model-assisted)` is not the same as independently human peer-reviewed, completely Verified, or finally Published.
 
-No Knowledge Checks, Practical Assessments, quizzes, grades, additional area or heading, mandated graph-predicate vocabulary, or classroom content is introduced. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open scope decisions.
+No Knowledge Checks, Practical Assessments, quizzes, grades, additional area or heading, mandated graph-predicate vocabulary, or classroom content is introduced. G-01 mathematics, G-04 temporality and G-06 AI/ML now have canonical owners and scoped-reviewed articles; full source verification remains open.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
