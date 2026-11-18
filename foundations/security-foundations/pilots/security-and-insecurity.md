@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-01-01 · Security Meaning & Objectives  
 **Artifact type:** Substantive **working article pilot**, not a ratified canonical subject  
-**Development state:** Draft · **Source state:** References listed; technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md), five material claim groups; full source verification and independent expert acceptance pending  
 **Governance:** [Security Foundations Architecture Proposal](../ARCHITECTURE.md) · [Living candidate inventory v0.3](../SUBJECT-INVENTORY-PROPOSAL.md)
 
 ## Security is conditional protection, not an absolute label
@@ -102,5 +102,7 @@ These scenarios are invented to distinguish **objective, mechanism, observation 
 - [Common Criteria / ISO/IEC 15408-1:2026](https://www.iso.org/standard/15408-1), evaluated security properties and scope limits.
 
 **Source limitation:** This article is a bounded conceptual synthesis. The named standards have their own intended environments and do not decree a universal definition of every security problem. Primary publication landing pages and selected scope statements are cited; complete clause verification and independent qualified expert review remain open.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md). This is a **working pilot**, not an approved permanent canonical article, source-Verified artifact or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot register](README.md) · [Candidate inventory](../SUBJECT-INVENTORY-PROPOSAL.md)
