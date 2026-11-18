@@ -121,4 +121,6 @@ This reference does not prescribe a particular architecture-description language
 
 **Editorial status:** Reviewed (model-assisted) following the [Wave B Batch 03 scoped 24-family technical review](../WAVE-B-TECHNICAL-REVIEW-03.md). Complete source verification, independent human expert peer review and final publication approval remain separate outstanding gates.
 
+**Additional technical review (November 18, 2026):** The established-framework/model additions above were checked under the [Wave G 39-family scoped model-assisted review](../WAVE-G-TECHNICAL-REVIEW-01.md) (three material claim groups for this article). The earlier audit record remains historical. This does not establish complete source-level verification, independent expert review, or final publication acceptance.
+
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
