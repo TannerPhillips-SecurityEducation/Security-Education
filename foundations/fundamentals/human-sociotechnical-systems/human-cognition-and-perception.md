@@ -55,6 +55,27 @@ Time pressure, frequent interruptions, unclear priorities, unfamiliar terminolog
 
 Human differences may involve visual, auditory, motor, cognitive, linguistic, situational or experience-related factors. The correct engineering response is not to infer individual ability from a demographic label or a diagnosis; it is to consider documented requirements and observed task performance.
 
+## Cognitive load is a model of task demands, not a universal capacity score
+
+**Cognitive load theory** distinguishes the demands of material and tasks on limited working-memory resources, particularly for novel information. The distinction between **intrinsic task complexity** and **unnecessary presentation burden** can help explain why a cluttered interface or badly ordered explanation requires additional effort. Human performance is not reducible to an invariant numerical working-memory capacity, and a model developed for instructional design is not a universal law for every operator.
+
+An unfamiliar display with eight ambiguous labels may be more difficult to interpret than a display of twelve well-organized values with clear grouping, even though the latter contains more items. Meaningful organization, practiced patterns, prior knowledge, attention, current task demands and the quality of cues all matter. This is a **hypothetical design comparison**, not a measured claim about any particular person's abilities.
+
+**Model boundary:** Cognitive load concerns the interaction among task demands, representations and mental processing. It is related to, but not interchangeable with, [Decision-Making](decision-making.md), perceptual detection, bias, mental fatigue or professional expertise. Accessible and inclusive design requires evidence about actual users, tasks and environments.
+
+## Signal detection distinguishes sensitivity from decision criterion
+
+**Signal detection theory (SDT)** models decisions about whether a signal is present amid noise or uncertainty. It distinguishes an observer's discriminative sensitivity from the criterion used to choose a “signal present” response. A response can be correct or incorrect depending on both the underlying condition and the chosen action.
+
+| Underlying condition | Response: signal | Response: no signal |
+| --- | --- | --- |
+| Signal present | Hit | Miss |
+| Signal absent | False alarm | Correct rejection |
+
+A lower decision threshold can produce more hits but also more false alarms under a fixed evidence model. A higher threshold can reduce false alarms while increasing misses. Changing **sensitivity** and changing a **decision criterion** are not the same intervention; base rates and response costs further affect sensible decision thresholds. The [FAA human-factors analysis of safety alerts](https://hf.tc.faa.gov/publications/2007-human-factors-analysis/full_text.pdf) applies these distinctions to alerting, without claiming the findings automatically transfer to every technical system.
+
+A dashboard's alarm count therefore cannot by itself prove an operator's competence, the accuracy of an event detector, or the true prevalence of the monitored condition. [Evidence](../scientific-analytical-reasoning/evidence.md) owns epistemic support and [Decision-Making](decision-making.md) owns selecting responses under goals and consequences.
+
 ## Knowledge, inference, and neighboring subjects
 
 Perception produces information available for judgment, but a perceived state is not always the physical state. A displayed measurement may be outdated or incorrect. [Observation](../scientific-analytical-reasoning/observation.md) owns the general epistemic acquisition problem; [Uncertainty and Confidence](../scientific-analytical-reasoning/uncertainty-and-confidence.md) owns knowledge limits.
@@ -62,6 +83,10 @@ Perception produces information available for judgment, but a perceived state is
 [Decision-Making](decision-making.md) owns choosing among alternatives under criteria and uncertainty. [Human Error](human-error.md) owns undesired departures in human-system activity and contributing conditions. [Usability and Accessibility](usability-and-accessibility.md) owns evaluation of inclusive and effective use, rather than claiming every cognitive challenge is a user defect.
 
 ### Sources
+
+- [FAA Human Factors Analysis of Safety Alerts in Air Traffic Control, 2007, section 1.4.1](https://hf.tc.faa.gov/publications/2007-human-factors-analysis/full_text.pdf).
+- [SEBoK Human Systems Integration](https://sebokwiki.org/wiki/Human_Systems_Integration).
+
 
 - [NASA: Human Performance and Error](https://www.nasa.gov/reference/5-0-human-performance-and-error-vol-2/).
 - [SEBoK: Human Systems Integration](https://sebokwiki.org/wiki/Human_Systems_Integration).
