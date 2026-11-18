@@ -24,3 +24,7 @@ jobs:
           persist-credentials: false
       - name: Verify working candidate inventory, pilot references and Markdown paths
         run: python3 foundations/security-foundations/tools/check_foundations_structure.py
+      - name: Validate Markdown relative links and heading fragments
+        run: python3 foundations/security-foundations/tools/check_internal_links.py
+      - name: Cross-check dynamic candidate subject inventory and pilot review states
+        run: python3 foundations/security-foundations/tools/check_candidate_inventory.py
