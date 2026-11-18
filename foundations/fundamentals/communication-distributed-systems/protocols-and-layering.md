@@ -21,6 +21,21 @@ A protocol's **state machine** can express permitted transitions and response ru
 
 Version negotiation, capability discovery and backward compatibility are conditional mechanisms. A shared protocol name does not prove two implementations agree on optional features or interpretation.
 
+## Established communication reference architectures
+
+**The OSI reference model and the Internet protocol suite are distinct architectural descriptions.** [ISO/IEC 7498-1:1994](https://www.iso.org/standard/20269.html) describes seven OSI layers: Physical, Data Link, Network, Transport, Session, Presentation and Application. [IETF RFC 1122](https://www.rfc-editor.org/rfc/rfc1122) describes the Internet host communication layering of Link, Internet, Transport and Application. These are *different modeling conventions*, not two claims about one exact physical device stack.
+
+| OSI reference responsibility | Typical Internet-suite representation | Important qualifier |
+| --- | --- | --- |
+| Physical and Data Link | Link | Ethernet, radio and other link mechanisms vary; IP is not an electrical signaling standard |
+| Network | Internet | IP's datagram network service does not inherently promise end-to-end reliability |
+| Transport | Transport | TCP supplies ordered bytes; UDP supplies datagrams without TCP's byte-stream contract |
+| Session, Presentation, Application | Commonly addressed at application level or in supporting protocols | A named session or presentation layer need not be implemented as a separate module |
+
+The table is a **loose functional correspondence**, not an assertion that every OSI layer maps one-to-one onto an Internet layer or that actual protocols can be classified without exceptions. Implementations may cross layers, reuse mechanisms and provide multiple functions. Layering is useful for distinguishing responsibility and interfaces; it is not an automatic isolation boundary.
+
+**Worked interpretation:** An application sends a framed message through TCP. TCP segment boundaries are not application message boundaries, so the receiving program must use its record framing rule. Ethernet frame receipt, an IP datagram, a TCP acknowledgment, and application-level acceptance are different observations. A four- or seven-layer diagram alone cannot prove the intended end-to-end effect.
+
 ## Encapsulation and boundaries
 
 An upper-layer message may be embedded as a lower-layer payload together with additional control information. This is commonly called **encapsulation**. A receiver must remove or interpret the relevant layers to reconstruct the intended information.
@@ -61,6 +76,10 @@ Layered protocols can be tested separately, but end-to-end claims require eviden
 No particular OSI/TCP-IP layer count, network architecture, protocol or vendor product is imposed. Specialized network security mechanisms belong outside Fundamentals.
 
 ### Sources
+
+- [ISO/IEC 7498-1:1994, OSI Basic Reference Model](https://www.iso.org/standard/20269.html).
+- [IETF RFC 1122, Requirements for Internet Hosts: Communication Layers, section 1.1.3](https://www.rfc-editor.org/rfc/rfc1122.html#section-1.1.3).
+
 
 - [RFC 9293 TCP, §3.7 Segmentation and application message boundaries](https://www.rfc-editor.org/rfc/rfc9293.html#section-3.7).
 - [RFC 768 UDP](https://www.rfc-editor.org/rfc/rfc768).
