@@ -44,13 +44,15 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 | Systems & Engineering | [Systems and subsystems](systems-engineering/systems-and-subsystems.md); [Components and interfaces](systems-engineering/components-and-interfaces.md); [Architecture and composition](systems-engineering/architecture-and-composition.md); [Dependencies](systems-engineering/dependencies.md); [State and behavior](systems-engineering/state-and-behavior.md); [Feedback and control](systems-engineering/feedback-and-control.md); [Emergence and complexity](systems-engineering/emergence-and-complexity.md); [Reliability and failure](systems-engineering/reliability-and-failure.md); [Requirements](systems-engineering/requirements.md); [Verification and validation](systems-engineering/verification-and-validation.md); [System lifecycle](systems-engineering/system-lifecycle.md) |
 | Human & Sociotechnical Systems | [Human cognition and perception](human-sociotechnical-systems/human-cognition-and-perception.md); [Decision-making](human-sociotechnical-systems/decision-making.md); [Human-computer interaction](human-sociotechnical-systems/human-computer-interaction.md); [Usability and accessibility](human-sociotechnical-systems/usability-and-accessibility.md); [Human error](human-sociotechnical-systems/human-error.md); [Collaboration and communication](human-sociotechnical-systems/collaboration-and-communication.md); [Organizational structures](human-sociotechnical-systems/organizational-structures.md); [Ethics and professional responsibilities](human-sociotechnical-systems/ethics-and-professional-responsibilities.md) |
 
-The [Development & Verification Register v1.15](DEVELOPMENT-VERIFICATION-REGISTER.md) reconciles **109/109 Reviewed (model-assisted), 0 Draft and 0 Inventoried without articles**. The [Canonical Ownership Register v1.13](CANONICAL-OWNERSHIP-REGISTER.md) links all 109 approved headings directly to their Reviewed articles.
+The [Development & Verification Register v1.16](DEVELOPMENT-VERIFICATION-REGISTER.md) reconciles **109/109 Reviewed (model-assisted), 0 Draft and 0 Inventoried without articles**. The [Canonical Ownership Register v1.13](CANONICAL-OWNERSHIP-REGISTER.md) links all 109 approved headings directly to their Reviewed articles.
 
 ## Publication Readiness
 
 **Complete authoring and internal model-assisted technical review are not the same as publication acceptance.** A scoped technical review establishes that selected material claim groups and examples were checked, not that every sentence has complete source support or that qualified independent experts have reviewed the corpus.
 
-The [Curriculum Development Plan v1.19](CURRICULUM-DEVELOPMENT-PLAN.md) now directs work toward source-level verification, internal/external and fragment link integrity, relationship consistency, subject depth, independent human expert peer review and the existing seven publication completion gates.
+The [Curriculum Development Plan v1.20](CURRICULUM-DEVELOPMENT-PLAN.md) now directs work toward complete source-level verification, external link integrity, semantic relationship and subject-depth consistency, seven-domain coverage, and independent human expert peer review.
+
+The [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) checked the **pre-report snapshot of 152 Fundamentals Markdown files**: **2,681 inline relative Markdown-link occurrences**, **zero missing internal file destinations**, and **55 fragment-link occurrences** resolving to **32 distinct existing heading anchors**. All twelve subject-area indexes and 109 canonical article links aligned with the register. This **preliminary internal navigation check** does not constitute acceptance under every publication gate.
 
 [Wave E Authoring Verification](WAVE-E-AUTHORING-VERIFICATION.md) is a **historical pre-audit authoring snapshot**; the two Wave E technical audits above supersede its pending-review states.
 
@@ -144,7 +146,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 109 substantive reference articles (109 internally Reviewed, zero Draft). Independent human review and final publication acceptance are pending. Complete source validation and all seven corpus-wide completion gates remain open.
+**Current milestone:** All 109 approved headings in twelve areas are substantively authored and internally Reviewed (model-assisted), with a preliminary internal navigation audit completed. Full source validation, independent qualified human review and all seven formal completion gates remain open; none is finally Published.
 
 ## Coverage Across Specialized Domains
 
