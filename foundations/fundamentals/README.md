@@ -22,7 +22,7 @@ The **twelve currently approved knowledge areas are navigation disciplines**, wh
 
 ## Living Inventory Policy
 
-**The historical count of 109 was not an architectural limit.** The current working inventory is **120 subjects**, with the seven additions documented in [Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md). Subjects may be **added, split, merged, renamed or retired** when model-grounded coverage and canonical-ownership analysis justify the change. The twelve existing knowledge areas remain the separate approved navigation baseline. The [governing architecture](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control) defines the change-control and historical-traceability rules.
+**The historical count of 109 was not an architectural limit.** The current working inventory is **120 subjects**, with seven additions documented in [Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) and four more in [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md). Subjects may be **added, split, merged, renamed or retired** when model-grounded coverage and canonical-ownership analysis justify the change. The twelve existing knowledge areas remain the separate approved navigation baseline. The [governing architecture](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control) defines the change-control and historical-traceability rules.
 
 A newly added or materially revised article must be reviewed on its own merits; a past 109/109 model-assisted status must not be projected onto future inventory versions. Historical reports retain their original denominator.
 
@@ -30,7 +30,7 @@ A newly added or materially revised article must be reviewed on its own merits; 
 
 The [Foundational Models, Frameworks & Architectures Review 01](FOUNDATIONAL-MODELS-FRAMEWORKS-ARCHITECTURES-AUDIT-01.md) compares existing explanations and canonical boundaries against established technical knowledge structures. Its reproducible [77-name lexical ledger](NAMED-MODEL-LEXICAL-LEDGER-01.md) scanned the **109 historical subject articles** before the new seven headings were inventoried; a separate sampled content review examines why literal model names are **not** reliable measures of conceptual coverage.
 
-[Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) resolved fourteen audit cases into **seven newly Inventoried subjects** and deeper-treatment recommendations for existing articles. The earlier audit itself changed no subjects; the subsequent adjudication did. The [living-inventory rule](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control) permits growth and contraction with recorded conceptual justification.
+[Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) resolved fourteen audit cases into **seven subjects originally inventoried, subsequently authored and Reviewed** and deeper-treatment recommendations for existing articles. The earlier audit itself changed no subjects; the subsequent adjudication did. The [living-inventory rule](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control) permits growth and contraction with recorded conceptual justification.
 
 ## Wave G | Established Model Depth Pass
 
@@ -47,9 +47,9 @@ The [Coverage & Source Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md) identified f
 - [**Canonical Ownership & Relationship Register**](CANONICAL-OWNERSHIP-REGISTER.md): Maps **120 current subjects, all Reviewed (model-assisted)** to intended conceptual responsibilities and illustrative relationships.
 - [**Concept Overlap & Coverage Review**](CONCEPT-OVERLAP-REVIEW.md): Documents 20 recurrent conceptual overlaps and 10 candidate coverage questions that require review.
 - [**Canonical Concept Boundary Decisions**](CONCEPT-BOUNDARY-DECISIONS.md): Provides approved conceptual boundaries and discriminating examples for all 20 overlap groups, while documenting the former general-temporality ownership exception, now structurally placed under F-03-11; content verification remains open.
-- [**Coverage Gap Decision Register**](COVERAGE-GAP-DECISIONS.md): Preserves ten original gap cases; G-01, G-04 and G-06 now have explicit new-subject placement, while source-verified article content remains pending.
+- [**Coverage Gap Decision Register**](COVERAGE-GAP-DECISIONS.md): Preserves ten original gap cases; G-01, G-04 and G-06 now have explicit new-subject placement, while complete source-level verification remains pending.
 
-**Status distinction:** The existing 12 areas and 109 legacy headings retain their approved historical status. Seven additional subjects are now authored and internally Reviewed under [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md) following documented architectural adjudication; **116 is not fixed**. The detailed ownership boundaries, relationship descriptions, and coverage-gap dispositions are **working proposals**, not automatically ratified conceptual definitions. The register links to existing area indexes until canonical articles are written and verified.
+**Status distinction:** The twelve approved areas and the historical 109 article baseline remain traceable. Seven [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md) and four [Wave H](WAVE-H-TECHNICAL-REVIEW-01.md) articles have since been authored and scoped-reviewed, yielding **120 current article files**, with no fixed quota. Ownership boundaries and relationship descriptions remain working assertions requiring verification; the register links to actual canonical articles, none fully source-Verified or Published.
 
 ## Canonical Reference Development
 
@@ -138,7 +138,7 @@ The [Curriculum Development Plan of Action](CURRICULUM-DEVELOPMENT-PLAN.md) is a
 | 12 | [Human & Sociotechnical Systems](human-sociotechnical-systems/README.md) | 8 |
 | **Total** | **12 knowledge areas** | **120 subject headings (120 Reviewed, model-assisted)** |
 
-All 116 subjects have scoped Reviewed (model-assisted) articles. The legacy 109 and seven Wave F additions retain separate audit records; source-level Verified and final Published acceptance remain open. No subject has achieved independent human publication acceptance.
+All 120 current subjects have scoped Reviewed (model-assisted) articles. The original 109, seven Wave F and four Wave H additions retain separate audit records; source-level Verified and final Published acceptance remain open. No subject has achieved independent human publication acceptance.
 
 ## Scope Boundaries
 
@@ -177,7 +177,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** **116 articles authored and Reviewed (model-assisted) under Wave A–F**, plus four new articles reviewed separately under Wave H. All seven Wave F additions have individual source review evidence, but stronger verification remains open. The preliminary link integrity audit passed within its scope; complete source validation, independent qualified human review and all seven publication gates remain open; none is finally Published.
+**Current milestone:** **120 articles authored and Reviewed (model-assisted)**: 109 original Wave A–E, seven Wave F additions, and four Wave H additions. All seven Wave F additions have individual source review evidence, but stronger verification remains open. The preliminary link integrity audit passed within its scope; complete source validation, independent qualified human review and all seven publication gates remain open; none is finally Published.
 
 ## Coverage Across Specialized Domains
 
