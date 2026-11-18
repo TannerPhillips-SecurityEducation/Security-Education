@@ -1,7 +1,7 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.17  
-**Scope:** **12 approved knowledge areas and 116 currently tracked subject headings:** 109 legacy Reviewed (model-assisted) articles and 7 newly Inventoried headings without articles. The prior 109-heading baseline remains historical, not fixed.  
+**Working edition:** v1.18  
+**Scope:** **12 knowledge areas and 116 tracked subjects:** 109 legacy Reviewed (model-assisted) articles plus 7 new Draft articles with References listed; the 109-heading baseline remains historical, not fixed.  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
 ## Interpretation and status
@@ -36,29 +36,29 @@
 
 Keep retired/superseded IDs and historical per-wave status counts auditable. When the inventory changes, reconcile all area indexes and this register's denominators. New or significantly altered subjects begin with **their own evidence-backed development and source-review state**; do not mechanically transfer the old 109/109 reviewed claim to a different version of the corpus.
 
-## Current progress: 116 inventoried subjects, 109 Reviewed, 7 not yet authored; publication pending
+## Current progress: 116 authored subjects, 109 Reviewed and 7 Draft; publication pending
 
 | Development / evidence state | Current heading count | Evidence |
 | --- | ---: | --- |
 | **Reviewed (model-assisted)** | **109** | Wave A–E audits, including [Wave E OS](WAVE-E-TECHNICAL-REVIEW-01.md) (60 claim families) and [Distributed Systems](WAVE-E-TECHNICAL-REVIEW-02.md) (54 families) |
-| **Draft** | **0** | No outstanding internally unreviewed subject articles; this does not equal publication acceptance |
-| **Inventoried without article** | **7** | [Model and Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) added seven distinct subjects in four existing areas; none has a canonical article or technical review yet |
+| **Draft** | **7** | Seven new substantive reference articles committed; sources listed but separate technical review not yet completed |
+| **Inventoried without article** | **0** | All 116 currently tracked subjects now have article files; the seven new articles remain Draft pending technical review |
 | **Core claims checked** | **109** | Internal model-assisted source checking, not independent expert attestation |
 | **Finally accepted / human peer-reviewed** | **0** | No final independent expert acceptance recorded |
 
 **Wave A authoring coverage:** All 26 of 26 approved Wave A headings have substantive, internally Reviewed articles (26/26). Three additional Reviewed references are original pilot subjects belonging to later waves.
 
-**Scope controls:** G-01, G-04 and G-06 have **canonical subject placements** through [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md), but the seven corresponding articles and their substantive verification remain pending. No new knowledge area, graph predicate vocabulary, Knowledge Checks or Practical Assessments were introduced.
+**Scope controls:** G-01, G-04 and G-06 have canonical subject placements and all seven corresponding Draft articles now exist. **Scoped technical review and independent publication acceptance remain pending.** No new knowledge area, graph predicate vocabulary, Knowledge Checks or Practical Assessments were introduced.
 
 ## Next acceptance gate
 
 1. **Completed historical authoring and internal technical review:** All **109/109 legacy headings** have substantive canonical references and **Reviewed (model-assisted)** development states. Each has **Core claims checked**, not stronger `Verified` or independent human acceptance. The seven newly inventoried subjects start at **Not reviewed**.
 2. **Completed preliminary inventory/navigation audit:** [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) examined the pre-report snapshot of **152 Fundamentals Markdown files**, including all 109 articles and twelve area indexes. It checked **2,681 inline relative Markdown-link occurrences**, finding **zero missing file destinations**. The **55 fragment links** corresponded to **32 existing target heading slugs**. All 109 direct ownership links aligned with the register, and all twelve area indexes showed the correct subjects and review states. This is **not** an external URL or exhaustive Markdown semantic audit.
-3. **Current publication-quality work:** Author and review the seven new subjects, strengthen full material claim-to-source traceability for existing and new articles, verify external links, evaluate conceptual depth/consistency, and review cross-area relationships and seven-domain completeness.
+3. **Current publication-quality work:** Conduct scoped technical review of the seven new Draft subjects, strengthen full material claim-to-source traceability, verify external links, evaluate conceptual depth/consistency, and review cross-area relationships and seven-domain completeness.
 4. **Human acceptance and publication remain pending:** Obtain independent qualified expert peer review, adjudicate findings, and satisfy all seven [Fundamentals completion gates](README.md#completion-gates) before marking any article or the corpus **Published**.
-5. **Architecture scope placement now documented:** G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML have assigned subject owners. Completion of their **content and source verification** remains open. No Knowledge Checks, Practical Assessments or mandatory vendors were added.
+5. **Architecture scope placement and initial article authoring completed:** G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML now have authored Drafts; their independent technical verification and publication approval remain open. No Knowledge Checks, Practical Assessments or mandatory vendors were added.
 
-**Current inventory reconciliation:** **116 headings = 109 legacy Reviewed + 7 Inventoried**. All 7 new subject IDs appear below. Legacy Wave A–E review evidence applies only to the historical 109 articles. Newly inventoried headings do not have linked canonical article files or reviewed source claims.
+**Current inventory reconciliation:** **116 headings = 109 legacy Reviewed + 7 new Drafts**. All seven new canonical paths appear below. Legacy Wave A–E review evidence applies only to the historical 109 articles; a Draft with References listed is not already reviewed.
 
 ## Detailed coverage by approved knowledge area
 
@@ -76,9 +76,9 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | F-01-06 | Graph theory | [Reviewed article](mathematics-logic/graph-theory.md) | Reviewed | Core claims checked | [Wave A Batch 05 audit](WAVE-A-TECHNICAL-REVIEW-05.md); model-assisted, no human peer review |
 | F-01-07 | Probability and statistics | [Reviewed article](mathematics-logic/probability-and-statistics.md) | Reviewed | Core claims checked | [Batch 06 audit](WAVE-A-TECHNICAL-REVIEW-06.md); model-assisted, no human peer review |
 | F-01-08 | Units and quantities | [Reviewed article](mathematics-logic/units-and-quantities.md) | Reviewed | Core claims checked | [Wave A Batch 07 audit](WAVE-A-TECHNICAL-REVIEW-07.md); model-assisted, no human peer review |
-| F-01-09 | Linear algebra and vector spaces | **Article not authored** (inventoried scope only) | **Inventoried** | **Not reviewed** | [Adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); distinct canonical responsibility scoped, sources and technical review pending |
-| F-01-10 | Geometry and spatial reasoning | **Article not authored** (inventoried scope only) | **Inventoried** | **Not reviewed** | [Adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); distinct canonical responsibility scoped, sources and technical review pending |
-| F-01-11 | Topology and continuity | **Article not authored** (inventoried scope only) | **Inventoried** | **Not reviewed** | [Adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); distinct canonical responsibility scoped, sources and technical review pending |
+| F-01-09 | Linear algebra and vector spaces | [Draft article](mathematics-logic/linear-algebra-and-vector-spaces.md) | **Draft** | **References listed** | [New-model adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); initial source-led authoring complete, scoped technical review pending |
+| F-01-10 | Geometry and spatial reasoning | [Draft article](mathematics-logic/geometry-and-spatial-reasoning.md) | **Draft** | **References listed** | [New-model adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); initial source-led authoring complete, scoped technical review pending |
+| F-01-11 | Topology and continuity | [Draft article](mathematics-logic/topology-and-continuity.md) | **Draft** | **References listed** | [New-model adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); initial source-led authoring complete, scoped technical review pending |
 
 ### 02. Scientific & Analytical Reasoning (Wave A; 8 headings)
 
@@ -111,7 +111,7 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | F-03-08 | Schemas | [Reviewed article](models-abstraction/schemas.md) | Reviewed | Core claims checked | [Wave A Batch 07 audit](WAVE-A-TECHNICAL-REVIEW-07.md); model-assisted, no human peer review |
 | F-03-09 | State, events, and transitions | [Reviewed article](models-abstraction/state-events-and-transitions.md) | Reviewed | Core claims checked | [Wave A Batch 01 audit](WAVE-A-TECHNICAL-REVIEW-01.md); model-assisted review, human sign-off not claimed |
 | F-03-10 | Conceptual and formal models | [Reviewed article](models-abstraction/conceptual-and-formal-models.md) | Reviewed | Core claims checked | [Wave A Batch 07 audit](WAVE-A-TECHNICAL-REVIEW-07.md); model-assisted, no human peer review |
-| F-03-11 | Temporal concepts and models | **Article not authored** (inventoried scope only) | **Inventoried** | **Not reviewed** | [Adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); distinct canonical responsibility scoped, sources and technical review pending |
+| F-03-11 | Temporal concepts and models | [Draft article](models-abstraction/temporal-concepts-and-models.md) | **Draft** | **References listed** | [New-model adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); initial source-led authoring complete, scoped technical review pending |
 
 ### 04. Physical & Electrical Principles (Wave C; 9 headings)
 
@@ -160,7 +160,7 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | F-06-07 | Timing and clocks | [Reviewed article](digital-systems-hardware/timing-and-clocks.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
 | F-06-08 | Firmware | [Reviewed article](digital-systems-hardware/firmware.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
 | F-06-09 | Hardware abstraction | [Reviewed article](digital-systems-hardware/hardware-abstraction.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
-| F-06-10 | Computer architecture models | **Article not authored** (inventoried scope only) | **Inventoried** | **Not reviewed** | [Adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); distinct canonical responsibility scoped, sources and technical review pending |
+| F-06-10 | Computer architecture models | [Draft article](digital-systems-hardware/computer-architecture-models.md) | **Draft** | **References listed** | [New-model adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); initial source-led authoring complete, scoped technical review pending |
 
 ### 07. Computation & Algorithms (Wave D; 9 headings)
 
@@ -177,8 +177,8 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | F-07-07 | Concurrency and parallelism | [Reviewed article](computation-algorithms/concurrency-and-parallelism.md) | Reviewed | Core claims checked | [Wave D Batch 02 audit](WAVE-D-TECHNICAL-REVIEW-02.md); model-assisted, human peer review not claimed |
 | F-07-08 | Synchronization | [Reviewed article](computation-algorithms/synchronization.md) | Reviewed | Core claims checked | [Wave D Batch 02 audit](WAVE-D-TECHNICAL-REVIEW-02.md); model-assisted, human peer review not claimed |
 | F-07-09 | Computational efficiency | [Reviewed article](computation-algorithms/computational-efficiency.md) | Reviewed | Core claims checked | [Wave D Batch 02 audit](WAVE-D-TECHNICAL-REVIEW-02.md); model-assisted, human peer review not claimed |
-| F-07-10 | Artificial intelligence foundations | **Article not authored** (inventoried scope only) | **Inventoried** | **Not reviewed** | [Adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); distinct canonical responsibility scoped, sources and technical review pending |
-| F-07-11 | Machine learning foundations | **Article not authored** (inventoried scope only) | **Inventoried** | **Not reviewed** | [Adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); distinct canonical responsibility scoped, sources and technical review pending |
+| F-07-10 | Artificial intelligence foundations | [Draft article](computation-algorithms/artificial-intelligence-foundations.md) | **Draft** | **References listed** | [New-model adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); initial source-led authoring complete, scoped technical review pending |
+| F-07-11 | Machine learning foundations | [Draft article](computation-algorithms/machine-learning-foundations.md) | **Draft** | **References listed** | [New-model adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md); initial source-led authoring complete, scoped technical review pending |
 
 ### 08. Software & Programming (Wave D; 9 headings)
 
