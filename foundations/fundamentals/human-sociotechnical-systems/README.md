@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All eight approved subjects authored as substantive Drafts; scoped technical review pending  
+**Content status:** All eight approved subjects authored and Reviewed (model-assisted); independent human review and final publication acceptance pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -20,33 +20,23 @@ Interactions between people, technologies, organizations, and the contexts withi
 - Organizational structures
 - Ethics and professional responsibilities
 
-## Content Development
-
-This area is a **navigation discipline**. The eight headings are the already approved subject inventory, not a newly established taxonomy of universal human capabilities or ethical frameworks. Articles give domain-neutral mechanisms and context, with cross-links to Mathematics & Logic, Scientific & Analytical Reasoning, Models & Abstraction, Information & Data, and Systems & Engineering.
-
-**All 8 of 8 approved subjects now have substantive reference articles.** Each is currently a **Draft**, pending a separately documented scoped technical and claim-to-source review. No independent human peer review, publication acceptance, accessibility certification, mandatory ethics policy or domain-specific implementation is asserted.
-
 ## Canonical reference articles
 
 | Approved subject | Canonical reference | Development state |
 | --- | --- | --- |
-| Human cognition and perception | [Human Cognition and Perception](human-cognition-and-perception.md) | Draft |
-| Decision-making | [Decision-Making](decision-making.md) | Draft |
-| Human-computer interaction | [Human-Computer Interaction](human-computer-interaction.md) | Draft |
-| Usability and accessibility | [Usability and Accessibility](usability-and-accessibility.md) | Draft |
-| Human error | [Human Error](human-error.md) | Draft |
-| Collaboration and communication | [Collaboration and Communication](collaboration-and-communication.md) | Draft |
-| Organizational structures | [Organizational Structures](organizational-structures.md) | Draft |
-| Ethics and professional responsibilities | [Ethics and Professional Responsibilities](ethics-and-professional-responsibilities.md) | Draft |
+| Human cognition and perception | [Human Cognition and Perception](human-cognition-and-perception.md) | Reviewed (model-assisted) |
+| Decision-making | [Decision-Making](decision-making.md) | Reviewed (model-assisted) |
+| Human-computer interaction | [Human-Computer Interaction](human-computer-interaction.md) | Reviewed (model-assisted) |
+| Usability and accessibility | [Usability and Accessibility](usability-and-accessibility.md) | Reviewed (model-assisted) |
+| Human error | [Human Error](human-error.md) | Reviewed (model-assisted) |
+| Collaboration and communication | [Collaboration and Communication](collaboration-and-communication.md) | Reviewed (model-assisted) |
+| Organizational structures | [Organizational Structures](organizational-structures.md) | Reviewed (model-assisted) |
+| Ethics and professional responsibilities | [Ethics and Professional Responsibilities](ethics-and-professional-responsibilities.md) | Reviewed (model-assisted) |
 
-## Canonical boundaries
+## Development and review boundaries
 
-[Human Cognition and Perception](human-cognition-and-perception.md) owns cognitive capability and limitation; [Decision-Making](decision-making.md) owns choice under uncertainty; [Human-Computer Interaction](human-computer-interaction.md) owns interaction mechanisms; and [Usability and Accessibility](usability-and-accessibility.md) owns inclusive-use evaluation.
+**All 8/8 approved subjects passed the [48-family Wave B Batch 05 technical review](../WAVE-B-TECHNICAL-REVIEW-05.md).** The review corrected the distinction between unintentional human error and deliberate procedural violation. Each article remains **Core claims checked** as its source-review state; none is independently human peer-reviewed, fully source-verified or finally published.
 
-[Human Error](human-error.md) studies deviations and contributing conditions without equating error with blame. [Collaboration and Communication](collaboration-and-communication.md) owns coordination and shared interpretation; [Organizational Structures](organizational-structures.md) owns authority and responsibility arrangements; [Ethics and Professional Responsibilities](ethics-and-professional-responsibilities.md) owns duties, harms and responsible conduct.
-
-These boundaries do not override the separate existing ownership of [Evidence](../scientific-analytical-reasoning/evidence.md), [Requirements](../systems-engineering/requirements.md), or [Systems and Subsystems](../systems-engineering/systems-and-subsystems.md). G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open scope questions.
-
-No Knowledge Checks, Practical Assessments, learner scoring, or new approved subjects have been introduced.
+These headings form a navigational area, not a newly authorized universal taxonomy of cognitive or ethical primitives. They maintain separate ownership of perception, decision, interaction, accessibility, error, collaboration, authority and responsibility, while linking to general evidence, data and systems principles. No assessments, grades or mandatory policies were introduced. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open scope decisions.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
