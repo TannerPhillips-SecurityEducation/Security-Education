@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Software & Programming](README.md)  
 **Approved subject heading:** Runtime environments  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical/source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Software Batches 03–04 audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md); independent human review pending
 
 ## A program executes within a particular environment
 
@@ -76,6 +76,6 @@ This article does not impose a runtime, package manager, OS, virtual machine, co
 - [MIT 6.035 Computer Language Engineering](https://ocw.mit.edu/courses/6-035-computer-language-engineering-spring-2010/).
 - [MIT 6.004 Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/).
 
-**Editorial status:** Substantive Draft. Environment-dependent behavior and resource assumptions require a separate scoped audit. No Knowledge Checks or Practical Assessments are included.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave D Software 54-family audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md). Complete source verification, independent expert review and final publication acceptance remain separate outstanding gates.
 
 [Software & Programming](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
