@@ -1,8 +1,8 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v1.20; all 109 articles internally Reviewed (model-assisted), none Published; stronger claim-level source verification and independent human publication acceptance pending
-**Current inventory baseline:** 12 approved knowledge areas; 109 inventoried subject headings (versioned, may expand or contract)  
+**Document status:** Working plan v1.21; **116 tracked headings = 109 legacy Reviewed (model-assisted) articles + 7 Inventoried subjects without articles**; none Published; technical acceptance remains pending
+**Current inventory:** 12 approved knowledge areas; **116 tracked subjects** (109 historical Reviewed + 7 Inventoried). The original 109-heading plan remains a historical snapshot; the count may expand or contract.  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
 ## Governing Definition and Classification
@@ -16,7 +16,7 @@ Follow the [approved Fundamentals governing architecture](ARCHITECTURE.md) throu
 - **Canonical ownership:** A concept has one general canonical home; specialized areas link to it and develop distinct contextual mechanisms.
 - **Specialized extension:** Domain applications build on Fundamentals, without turning Fundamentals into a technology-specific taxonomy.
 
-The **12 approved knowledge areas are navigational disciplines**, and the **109 headings are the present, revisable coverage inventory**, not 109 presumed one-to-one concepts or a fixed quota. The knowledge graph captures conceptual relationships across disciplinary boundaries. Illustrative primitives are not a separately approved taxonomy.
+The **12 approved knowledge areas are navigational disciplines**, and **116 headings form the current, revisable coverage inventory**, not 109 presumed one-to-one concepts or a fixed quota. The knowledge graph captures conceptual relationships across disciplinary boundaries. Illustrative primitives are not a separately approved taxonomy.
 
 ## 1. Mission
 
@@ -28,13 +28,13 @@ Here, *curriculum* means an organized body of reference knowledge with deliberat
 
 ## 2. Starting Position
 
-- **Current approved snapshot:** 12 knowledge areas containing 109 subject headings. The heading count may expand or contract through documented coverage/ownership review.
+- **Current working snapshot:** 12 knowledge areas and **116 subjects**, including 7 newly Inventoried. The heading count may expand or contract through documented coverage/ownership review.
 - **Implemented today:** 12 area READMEs and a Fundamentals index listing their inventories.
-- **Implemented for architectural review:** [Canonical Ownership & Relationship Register](CANONICAL-OWNERSHIP-REGISTER.md) maps all 109 headings to proposed conceptual scopes and illustrative links; [Concept Overlap & Coverage Review](CONCEPT-OVERLAP-REVIEW.md) catalogs 20 overlap groups and 10 candidate gaps.
+- **Implemented for architectural review:** [Canonical Ownership & Relationship Register](CANONICAL-OWNERSHIP-REGISTER.md) maps all **116 currently tracked headings** to conceptual scopes and illustrative links; [Concept Overlap & Coverage Review](CONCEPT-OVERLAP-REVIEW.md) catalogs 20 overlap groups and 10 candidate gaps.
 - **Not yet demonstrated:** fully developed canonical references, verified concept-level dependency relationships, complete seven-domain coverage, or satisfaction of all seven completion gates.
 - **Unit of work:** A canonical *concept or tightly coherent subject*, not necessarily one file for each inventory heading. Identify the general definition's owner before adding implementations. Some headings may need several canonical entries; others may be adequately covered together. Changes to scope and the canonical map should be recorded before drafting to avoid duplication.
 
-The 109 headings are a **historical/current coverage baseline**, not a maximum, minimum, or final quota. Model- and framework-grounded review may justify added, split, consolidated, or retired subjects.
+The original 109 headings are a **historical baseline**; the seven additional subjects are documented in [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md), yielding 116 tracked subjects. The original count is, not a maximum, minimum, or final quota. Model- and framework-grounded review may justify added, split, consolidated, or retired subjects.
 
 ## Boundary and Gap-Resolution Milestones
 
@@ -56,11 +56,11 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record
 
 ## Living subject inventory rule
 
-**Clarification, November 18, 2026:** The 109-subject inventory is **revisable in either direction**. New foundational frameworks, models, or architectures may expose missing concepts that warrant extra headings; overlapping or mis-scoped subjects may warrant merges or retirement. Neither growth nor contraction is an achievement by itself. Use [architecture-level versioned change control](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control), log the rationale, and reconcile the denominators, paths, status evidence and ownership links after an accepted change.
+**Clarification, November 18, 2026:** The **initial 109-subject inventory** was always revisable in either direction and has now expanded to **116** through adjudication. New foundational frameworks, models, or architectures may expose missing concepts that warrant extra headings; overlapping or mis-scoped subjects may warrant merges or retirement. Neither growth nor contraction is an achievement by itself. Use [architecture-level versioned change control](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control), log the rationale, and reconcile the denominators, paths, status evidence and ownership links after an accepted change.
 
 Historical 109/109 Reviewed (model-assisted) refers only to the audited snapshot. Never equate it to automatic review of additions or merged replacements.
 
-## Execution Status: All 109 subjects authored and internally Reviewed; publication gates open
+## Execution Status: 109 legacy articles Reviewed, seven additional subjects Inventoried; publication gates open
 
 - **Wave A:** 26/26 subject articles authored and Reviewed (model-assisted).
 - **Wave B:** 28/28 subject articles authored and Reviewed (model-assisted).
@@ -68,12 +68,17 @@ Historical 109/109 Reviewed (model-assisted) refers only to the audited snapshot
 - **Wave D:** 18/18 subject articles authored and Reviewed (model-assisted), including the [54-family Software & Programming audit](WAVE-D-TECHNICAL-REVIEW-03-04.md).
 - **Wave E Operating System Principles:** All ten articles passed the [60-family Wave E OS technical audit](WAVE-E-TECHNICAL-REVIEW-01.md). Corrections addressed MIT OS documentation links and strengthened copy-on-write source grounding; model calculations, canonical boundaries and 35 distinct internal file destinations were checked.
 - **Wave E Communication & Distributed Systems:** All nine articles passed the [54-family Wave E Communication technical audit](WAVE-E-TECHNICAL-REVIEW-02.md). Corrections strengthened TCP byte-stream, reserved address/name, linearizability and asynchronous-consensus sources and limits. The mathematical examples and 28 distinct internal file destinations were checked.
-- **Portfolio reconciliation:** All **109/109 approved headings** have substantive articles and **Reviewed (model-assisted)** development states, with **Core claims checked** as their source-review state. The [Development & Verification Register v1.16](DEVELOPMENT-VERIFICATION-REGISTER.md) has **109 Reviewed, 0 Draft, 0 Inventoried**, but this does **not** establish source-level **Verified** or final **Published** status.
+- **New working model inventory (post-Wave E):** [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) adds seven **Inventoried** subjects in Mathematics & Logic (3), Models & Abstraction (1), Digital Systems & Hardware (1), and Computation & Algorithms (2). None has a canonical article or Review/Published status.
+- **Current portfolio reconciliation:** **116 headings** total: **109 historically Reviewed (model-assisted), 7 Inventoried without articles, 0 Draft, 0 Published**. The [Development & Verification Register v1.17](DEVELOPMENT-VERIFICATION-REGISTER.md) records the distinct source states; none of the seven new subjects inherits a Core claims checked status.
 - **Preliminary publication-readiness check completed:** [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) checked the pre-report snapshot of **152 Fundamentals Markdown files**, **2,681 inline relative Markdown-link occurrences**, all twelve area indexes, **109 canonical paths**, and **55 fragment-link occurrences** resolving to 32 distinct heading targets. No missing internal file destinations or heading targets were found within the stated parser and snapshot scope.
 - **Publication remains pending:** Execute the seven [Fundamentals completion gates](README.md#completion-gates), especially complete claim-to-source traceability, editorial/technical depth and relationship consistency, external URL/fragment checks, seven-domain coverage and independent qualified human expert peer review.
-- **Architecture governance remains open:** G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML. The original twelve areas and 109 headings remain unchanged; no Knowledge Checks, Practical Assessments, quizzes or mandated vendor tools were added.
+- **Architecture placement adjudicated:** G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML now have Inventoried canonical owners in the same 12 areas. **Substantive article authoring and verification remain open**. No Knowledge Checks, Practical Assessments, quizzes or mandated vendors were added.
 
-**Next execution:** Build an evidence-backed **claim-to-source verification and conceptual-consistency review** across the 109 articles, prioritizing contested technical definitions and overlapping subject boundaries. Then check external source URLs, seven-domain coverage, open G-01/G-04/G-06 decisions and independent human review before publication acceptance.
+**Next execution:** Author seven source-led F-01-09/10/11, F-03-11, F-06-10 and F-07-10/11 canonical articles, then perform scoped technical review and cross-links. Independently strengthen source verification of the legacy 109 articles, and complete publication gates, external reference checking and human expert acceptance.
+
+## Architecture Adjudication and New-Subject Execution
+
+The [2026-11-18 model-architecture adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) reconciles fourteen original FMA cases: **7 newly Inventoried subjects, 9 deeper-treatment decisions, no subject removals**, and 12 knowledge areas unchanged. The next authoring work begins from the seven new canonical scopes, one article per new heading if appropriate after evidence gathering. Source verification and an accurate internal-link review are prerequisites to marking any new subject Reviewed. The 109/109 audited Wave A–E results apply to the **legacy snapshot only**.
 
 ## 4. Work Packages and Stage Gates
 
@@ -223,7 +228,7 @@ No graph database or universal front-matter schema is required at this stage. Pr
 16. **Completed:** Wave E's ten Operating System Principles articles passed the [60-family scoped technical audit](WAVE-E-TECHNICAL-REVIEW-01.md).
 17. **Completed:** Wave E's nine Communication & Distributed Systems articles passed the [54-family scoped technical audit](WAVE-E-TECHNICAL-REVIEW-02.md). All **109/109 Fundamentals headings** are authored and internally Reviewed (model-assisted).
 18. **Completed preliminary navigation verification:** [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) recorded 152 files, 2,681 relative-link occurrences, zero missing file targets, and 32 valid distinct fragment targets.
-19. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately. The 109-heading corpus is not publication-complete until the seven Fundamentals gates and applicable human acceptance are satisfied.
+19. **Working adjudication:** [Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) assigns seven new subject owners for G-01/G-04/G-06 and Computer Architecture Models. The **116-heading inventory** is not publication-complete until seven new articles and all Fundamentals gates are satisfied.
 
 Production waves guide authors, **not reader prerequisites**. Knowledge Checks and Practical Assessments remain excluded.
 
@@ -234,7 +239,7 @@ Production waves guide authors, **not reader prerequisites**. Knowledge Checks a
 - [Concept Overlap & Coverage Review](CONCEPT-OVERLAP-REVIEW.md)
 - [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md)
 - [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md)
-- [Development & Verification Register (109 headings)](DEVELOPMENT-VERIFICATION-REGISTER.md)
+- [Development & Verification Register (116 tracked headings)](DEVELOPMENT-VERIFICATION-REGISTER.md)
 - [Six-Pilot Technical and Editorial Review](PILOT-TECHNICAL-REVIEW.md)
 - [Pilot Claim-to-Source Audit (50 claim families)](PILOT-CLAIM-SOURCE-AUDIT.md)
 - [Wave A Batch 01 Claim-to-Source Review (21 families)](WAVE-A-TECHNICAL-REVIEW-01.md)
