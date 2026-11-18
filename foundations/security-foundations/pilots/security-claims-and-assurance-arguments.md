@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-12-01 · Security Assurance, Governance & Accountability  
 **Artifact type:** Working article pilot; proposed canonical location not ratified  
-**Development state:** Draft · **Source review:** References listed; technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md), five material claim groups; full source verification and independent expert acceptance pending  
 **Architecture:** [v0.3 proposal](../ARCHITECTURE.md) · [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)
 
 ## Assurance is a reasoned claim supported by bounded evidence
@@ -126,5 +126,7 @@ A change record and a new test can help refresh confidence, but *which evidence 
 - [NIST SP 800-53A Rev.5](https://csrc.nist.gov/pubs/sp/800/53/a/r5/final), selected assessment procedures and their scope.
 
 **Editorial limitation:** This is a conceptual assurance explanation, not an evaluation certification or a claim that any real system complies with a standard. Source passage verification, standards license scope, independent qualified expert review and internal Security Foundations taxonomy ratification remain open.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md). This is a **working pilot**, not an approved permanent canonical article, source-Verified artifact or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md)
