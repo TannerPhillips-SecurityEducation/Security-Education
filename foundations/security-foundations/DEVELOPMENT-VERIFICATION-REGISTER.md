@@ -1,16 +1,16 @@
 # Security Foundations | Development & Verification Register
 
-**Working edition:** v0.2 · November 18, 2026  
+**Working edition:** v0.3 · November 18, 2026  
 **Authority:** [Fundamentals-style area structure decision](AREA-STRUCTURE-ADJUDICATION-03.md); exact labels, 12 areas and 96 subjects remain **provisional and revisionable**.  
-**Status:** **14 authored Reviewed (model-assisted)** and **3 Draft** working-area references; **79 Inventoried, no article**, zero fully source-Verified or Published.  
-**Review evidence:** [Pilot Technical Reviews 01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), totaling 70 bounded material claim groups.
+**Status:** **17 authored Reviewed (model-assisted)** working-area references; **0 Draft**, **79 Inventoried without article**, zero fully source-Verified or Published.  
+**Review evidence:** [Pilot Technical Reviews 01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), and [04](PILOT-TECHNICAL-REVIEW-04.md), totaling **88 bounded material claim groups** across 17 Reviewed manuscripts.
 
 ## Current development status
 
 | State | Count | Interpretation |
 | --- | ---: | --- |
-| **Reviewed (model-assisted)** | **14** | Fourteen substantive manuscripts in actual working area directories; separate bounded reviews 01–03 |
-| **Draft** | **3** | SF-10-08, SF-11-07, and SF-12-05 authored; separate scoped technical review pending |
+| **Reviewed (model-assisted)** | **17** | Seventeen substantive manuscripts in working area directories; four separate bounded technical audits (01–04) |
+| **Draft** | **0** | No currently authored manuscript awaits its initial scoped technical review |
 | **Inventoried without article** | **79** | Provisional conceptual coverage headings with no substantive article yet |
 | **Source-Verified / Published** | **0** | Full claim-to-passage checking, taxonomy acceptance and qualified publication review remain open |
 
@@ -99,20 +99,20 @@
 | SF-10-05 | [Benign, anomalous, suspicious, and malicious interpretations](security-observation-evidence/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-10-06 | [Evidence provenance and integrity](security-observation-evidence/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-10-07 | [False positives, false negatives, and visibility gaps](security-observation-evidence/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-10-08 | [Evidentiary confidence, causality, and attribution limits](security-observation-evidence/README.md) | [Working draft article](security-observation-evidence/evidentiary-confidence-causality-and-attribution-limits.md) | **Draft** | References listed; scoped review pending | Not reviewed |
+| SF-10-08 | [Evidentiary confidence, causality, and attribution limits](security-observation-evidence/README.md) | [Reviewed working article](security-observation-evidence/evidentiary-confidence-causality-and-attribution-limits.md) | Reviewed (model-assisted) | Core claims checked | [Review 04](PILOT-TECHNICAL-REVIEW-04.md) |
 | SF-11-01 | [Compromise and loss of security](security-failure-resilience/README.md) | [Working reviewed article](security-failure-resilience/compromise-and-loss-of-security.md) | Reviewed (model-assisted) | Core claims checked | [Review 03](PILOT-TECHNICAL-REVIEW-03.md) |
 | SF-11-02 | [Failure modes and degraded protection](security-failure-resilience/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-11-03 | [Containment and blast radius](security-failure-resilience/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-11-04 | [Resilience, survivability, and robustness](security-failure-resilience/README.md) | [Working reviewed article](security-failure-resilience/resilience-survivability-and-robustness.md) | Reviewed (model-assisted) | Core claims checked | [Review 03](PILOT-TECHNICAL-REVIEW-03.md) |
 | SF-11-05 | [Redundancy, diversity, and common-mode failure](security-failure-resilience/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-11-06 | [Graceful degradation and safe failure](security-failure-resilience/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-11-07 | [Recovery objectives and trusted restoration](security-failure-resilience/README.md) | [Working draft article](security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | **Draft** | References listed; scoped review pending | Not reviewed |
+| SF-11-07 | [Recovery objectives and trusted restoration](security-failure-resilience/README.md) | [Reviewed working article](security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | Reviewed (model-assisted) | Core claims checked | [Review 04](PILOT-TECHNICAL-REVIEW-04.md) |
 | SF-11-08 | [Persistent compromise and adaptation](security-failure-resilience/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-12-01 | [Security claims and assurance arguments](security-assurance-governance-accountability/README.md) | [Working reviewed article](security-assurance-governance-accountability/security-claims-and-assurance-arguments.md) | Reviewed (model-assisted) | Core claims checked | [Review 01](PILOT-TECHNICAL-REVIEW-01.md) |
 | SF-12-02 | [Verification, validation, and security evaluation](security-assurance-governance-accountability/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-12-03 | [Security policies, standards, and requirements](security-assurance-governance-accountability/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-12-04 | [Governance, ownership, and accountability](security-assurance-governance-accountability/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-12-05 | [Compliance and effective security](security-assurance-governance-accountability/README.md) | [Working draft article](security-assurance-governance-accountability/compliance-and-effective-security.md) | **Draft** | References listed; scoped review pending | Not reviewed |
+| SF-12-05 | [Compliance and effective security](security-assurance-governance-accountability/README.md) | [Reviewed working article](security-assurance-governance-accountability/compliance-and-effective-security.md) | Reviewed (model-assisted) | Core claims checked | [Review 04](PILOT-TECHNICAL-REVIEW-04.md) |
 | SF-12-06 | [Security measurement and assurance limits](security-assurance-governance-accountability/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-12-07 | [Continuous change and assurance decay](security-assurance-governance-accountability/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-12-08 | [Ethical, human, and societal constraints](security-assurance-governance-accountability/README.md) | [Working reviewed article](security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) | Reviewed (model-assisted) | Core claims checked | [Review 03](PILOT-TECHNICAL-REVIEW-03.md) |

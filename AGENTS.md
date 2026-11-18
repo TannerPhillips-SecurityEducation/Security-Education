@@ -218,7 +218,7 @@ The intended working relationship is with an **independent technical collaborato
 **Subtree `AGENTS.md` files** narrow the SOP to local meaning and maturity:
 
 - [Fundamentals AGENTS.md](foundations/fundamentals/AGENTS.md): approved governing architecture, variable subject inventory, substantive canonical content and existing review controls.
-- [Security Foundations AGENTS.md](foundations/security-foundations/AGENTS.md): user-approved **Fundamentals-style area/README/article structure**, with flexible provisional area identities and 14 reviewed working references; source and publication acceptance remain separate.
+- [Security Foundations AGENTS.md](foundations/security-foundations/AGENTS.md): user-approved **Fundamentals-style area/README/article structure**, with flexible provisional area identities and 17 Reviewed (model-assisted) working articles; source and publication acceptance remain separate.
 - [Operational Foundations AGENTS.md](foundations/operational-foundations/AGENTS.md): shared security methodologies with **no approved internal taxonomy or article inventory yet**.
 
 **Specialized domain contracts (all inherit this root SOP):**
@@ -278,6 +278,8 @@ Rules for progression:
 **Never self-certify final publication** from model-assisted reviews, CI, article count or user compliments. Mark unknown states truthfully.
 
 ## 13. Workflow: small coherent changes with complete reconciliation
+
+**User-explicit sequential authoring rule (November 18, 2026): Draft → Review.** When an article or coherent authoring batch is delivered as **Draft**, the **next authoring-related response/execution** must conduct its separate claim-led technical **Review**, apply justified corrections, record source/model limits, reconcile state records and validate the resulting change **before drafting another batch**. Do not treat completing a Draft as license to begin the next Draft without reviewing the previous one. If review evidence is insufficient or blocked, leave that article **Draft** and report the blocker. Historical Reviewed articles with valid linked audits need not be gratuitously re-reviewed; material revisions do require fresh review evidence. This rule governs sequence, **not** fixed article quotas or false promotion to Published.
 
 For a significant repository task:
 

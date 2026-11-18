@@ -4,7 +4,7 @@
 
 **Division status:** Approved.  
 **Structural organization:** **Fundamentals-style division → area README → substantive area article** pattern explicitly adopted; individual area names, subject ownership and 96-candidate inventory remain **provisional and flexible**.  
-**Current coverage:** **12 provisional knowledge-area directories, 96 candidate subjects, 14 Reviewed (model-assisted) articles, 3 Drafts, and 79 not yet authored**. All 17 substantive working articles now live inside their respective area directories; [historical pilot paths](pilots/README.md) redirect only the original 14 Reviewed references. The three existing scoped audits checked 70 material claim groups, not the new drafts. Neither the number of areas/subjects nor final publication status is fixed.
+**Current coverage:** **12 provisional knowledge-area directories, 96 candidate subjects, 17 Reviewed (model-assisted) articles, 0 Draft, and 79 not yet authored**. All 17 substantive articles live inside their provisional knowledge-area directories. [Historical pilot aliases](pilots/README.md) remain available for the original 14 relocated articles. Four scoped audits checked **88 material claim groups**. Area and subject totals remain flexible, and no publication approval is implied.
 
 ## Contributor and Agent Operating Contract
 
@@ -23,17 +23,18 @@ This file is a reusable **operating guide**, not authorization to claim new user
 ## Architecture adjudication and pilot development
 
 - [**Architecture Adjudication 02**](ARCHITECTURE-ADJUDICATION-02.md): Full 94-to-96 reconciliation, including two consolidated IDs and four added candidate subjects, supported by model/source boundaries. Both the area and subject counts may expand or contract.
-- [**Historical Pilot Register and Compatibility Paths**](pilots/README.md): Tracks the 14 Reviewed working articles and their dated audits; each substantive article is now located within its provisional area. Legacy `pilots/` file paths are navigation aliases, not duplicate knowledge.
+- [**Working Article Register and Historical Compatibility Paths**](pilots/README.md): Indexes all 17 Reviewed area manuscripts and preserves the original 14 historic pilot aliases without duplicate substantive bodies.
 - [**Area Structure Adjudication 03**](AREA-STRUCTURE-ADJUDICATION-03.md): User-approved Fundamentals-style folder pattern, 12 provisional area indexes, 14 relocations and honest structural-versus-taxonomy approval limits.
 - [**Development & Verification Register**](DEVELOPMENT-VERIFICATION-REGISTER.md): All 96 candidate IDs, actual article paths and their independent authoring/source states.
 - [**Working Canonical Ownership Register**](CANONICAL-OWNERSHIP-REGISTER.md): Provisional subject owners, precise conceptual boundaries, actual manuscripts and historical consolidations.
 - [**Pilot Technical Review 01**](PILOT-TECHNICAL-REVIEW-01.md): 40 claim groups across the original eight pilots; corrected insecurity/uncertainty and current TLS/Common Criteria versions.
 - [**Pilot Technical Review 02**](PILOT-TECHNICAL-REVIEW-02.md): 10 additional claim groups across the risk and defensive-controls pilots, separating severity from risk and control listings from measured effects.
 - [**Pilot Technical Review 03**](PILOT-TECHNICAL-REVIEW-03.md): 20 additional material claim groups for compromise, resilience, RTO/RPO, privacy harms from authorized processing, safety and human-impact constraints.
+- [**Pilot Technical Review 04**](PILOT-TECHNICAL-REVIEW-04.md): 18 material claim groups covering evidentiary inference, recovery objectives and compliance versus security effectiveness, with source checks, example recomputation and documented corrections.
 - [**Coverage & Gaps Review 03**](COVERAGE-AND-GAPS-REVIEW-03.md): Reconciles the fourteen Reviewed pilots against 96 working subject candidates, identifies eight next subject/depth/overlap priorities, and separates knowledge gaps from unpiloted headings.
 - [**Source Crosswalk v0.3**](ESTABLISHED-MODEL-CROSSWALK.md): 30 evidence groups, including NIST Privacy Framework, ISO/IEC safety principles, recovery-objective guidance, current incident-response methods and earlier cryptographic/formal policy models.
 
-**Governance separation:** The division and **Fundamentals-style directory pattern** are accepted; the **names/membership of the twelve working areas and the 96 candidate subjects remain provisional and revisionable**. Fourteen manuscripts are **Reviewed (model-assisted) / Core claims checked**; three newer manuscripts are **Draft / References listed**. None is source-Verified, independently Published, or automatically approved as a permanent canonical location.
+**Governance separation:** The Security Foundations division and the **Fundamentals-style directory pattern** are accepted; the twelve working area names and 96 candidate subject memberships remain provisional. **All 17 authored manuscripts are Reviewed (model-assisted) / Core claims checked**, including the three reviewed in [Review 04](PILOT-TECHNICAL-REVIEW-04.md). None is source-Verified, independently Published, or automatically accepted as a permanent canonical location.
 
 ## The governing distinction
 
@@ -60,10 +61,10 @@ The 12 areas below are **working navigation hypotheses**, not a forced reflectio
 | 07 | [Security Controls & Defense Mechanisms](security-controls-defense-mechanisms/README.md) | 8 | 1 | 0 | 7 |
 | 08 | [Secure Design & Architecture](secure-design-architecture/README.md) | 9 | 1 | 0 | 8 |
 | 09 | [Cryptography & Information Protection](cryptography-information-protection/README.md) | 9 | 1 | 0 | 8 |
-| 10 | [Security Observation & Evidence](security-observation-evidence/README.md) | 8 | 1 | 1 | 6 |
-| 11 | [Security Failure & Resilience](security-failure-resilience/README.md) | 8 | 2 | 1 | 5 |
-| 12 | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | 8 | 2 | 1 | 5 |
-| **Total** | **12 provisional areas** | **96** | **14** | **3** | **79** |
+| 10 | [Security Observation & Evidence](security-observation-evidence/README.md) | 8 | 2 | 0 | 6 |
+| 11 | [Security Failure & Resilience](security-failure-resilience/README.md) | 8 | 3 | 0 | 5 |
+| 12 | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | 8 | 3 | 0 | 5 |
+| **Total** | **12 provisional areas** | **96** | **17** | **0** | **79** |
 
 **These directories follow the Fundamentals baseline:** each area contains its own `README.md` and the substantive articles currently assigned to it. Some areas have multiple articles; others currently contain only an inventory README. **Do not invent article files to equalize counts.**
 

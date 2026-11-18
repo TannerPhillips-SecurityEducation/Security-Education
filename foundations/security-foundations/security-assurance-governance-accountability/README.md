@@ -3,7 +3,7 @@
 **Division:** [Security Foundations](../README.md)  
 **Working area ID:** SF-12  
 **Architecture status:** **Provisional area membership and naming**, within a user-approved **Fundamentals-style directory architecture**. The number and names of areas and subjects can expand or contract.  
-**Current content:** **8 candidate subjects; 3 substantive articles** (2 Reviewed, 1 Draft); 5 without an article. No source-Verified or Published claims.
+**Current content:** **8 candidate subjects; 3 substantive articles**, all 3 Reviewed (model-assisted); 5 without an article. None is source-Verified or Published.
 
 ## Scope and canonical ownership
 
@@ -19,12 +19,12 @@ The area may be renamed, split, consolidated, or relocated when stronger concept
 | SF-12-02 | Verification, validation, and security evaluation | **Inventoried / not authored** | Distinguish conformance to specifications from suitability for protection needs. |
 | SF-12-03 | Security policies, standards, and requirements | **Inventoried / not authored** | Distinguish normative obligations from technical mechanisms and procedures. |
 | SF-12-04 | Governance, ownership, and accountability | **Inventoried / not authored** | Identify who establishes objectives, authorizes risk, and answers for outcomes. |
-| SF-12-05 | [Compliance and effective security](compliance-and-effective-security.md) | **Draft** · References listed; scoped review pending | Distinguish meeting stated rules from demonstrating protective outcomes. |
+| SF-12-05 | [Compliance and effective security](compliance-and-effective-security.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) | Distinguish meeting stated rules from demonstrating protective outcomes. |
 | SF-12-06 | Security measurement and assurance limits | **Inventoried / not authored** | Describe observable measures, uncertainty, and incomplete guarantees. |
 | SF-12-07 | Continuous change and assurance decay | **Inventoried / not authored** | Explain why protection claims can become stale as systems and threats evolve. |
 | SF-12-08 | [Ethical, human, and societal constraints](ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** · Core claims checked | Account for rights, harm, proportionality, and legitimate authority in protection. |
 
-**Review interpretation:** The 2 Reviewed articles have scoped model-assisted review evidence from [Security Foundations technical reviews](../pilots/README.md); the new Draft has references listed but no separate scoped audit. These are **not** independent peer review, complete clause-by-clause source verification or publication. **Inventoried** entries are coverage candidates, not missing files or failed articles.
+**Review interpretation:** All three articles have scoped model-assisted audit evidence in [Security Foundations technical reviews](../pilots/README.md), including [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) for SF-12-05. Those reviews are **not** independent human peer review, complete clause-by-clause source verification, publication acceptance or ratification of the proposed taxonomy. **Inventoried** entries are coverage candidates, not missing files or failed articles.
 
 ## Development and relationships
 

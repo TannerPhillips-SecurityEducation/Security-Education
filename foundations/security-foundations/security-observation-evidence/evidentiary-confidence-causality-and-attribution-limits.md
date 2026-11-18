@@ -3,7 +3,7 @@
 **Candidate subject:** SF-10-08 · Security Observation & Evidence  
 **Working area:** [Security Observation & Evidence](README.md) · The Fundamentals-style directory pattern is adopted; subject ownership remains provisional  
 **Artifact type:** Substantive working reference, not an approved canonical publication  
-**Development state:** Draft · **Source-review state:** References listed; focused original-source comparison during authoring, no separate technical audit or complete claim-to-passage verification  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Pilot Technical Review 04](../PILOT-TECHNICAL-REVIEW-04.md), six bounded material claim groups; full source verification and independent expert acceptance pending  
 **Architecture:** [Security Foundations proposal](../ARCHITECTURE.md) · [Working inventory](../SUBJECT-INVENTORY-PROPOSAL.md)
 
 ## What evidence can establish
@@ -29,7 +29,7 @@ A useful investigation can distinguish several increasingly demanding propositio
 
 These are not a mandated universal ladder: a direct attestation might support one level without all intermediate logs. Nevertheless, **moving to a stronger proposition requires a new justification**, not a new adjective attached to the same artifact.
 
-Evidence is claim-relative. A checksum can support that bytes have not changed between two trustworthy measurements; it does not show that the initial bytes accurately described reality. Likewise, authenticated logging can support origin of a record without establishing truth of the event text, completeness of the record stream, or correctness of the sender.
+Evidence is claim-relative. A comparison against a trustworthy prior checksum can reveal accidental byte changes, but its resistance to deliberate substitution depends on the integrity mechanism and the trustworthiness of the reference value. Even a cryptographically authenticated digest cannot show that the original bytes accurately described reality. Likewise, authenticated logging can support origin of a record without establishing truth of the event text, completeness of the record stream, or correctness of the sender.
 
 ## Confidence depends on assumptions and competing explanations
 
@@ -42,13 +42,13 @@ Evidence quality has several independent dimensions:
 - **Independence:** Whether apparently corroborating records actually arise from independent capture paths, or share one sensor, clock, parser, data source, or mistaken assumption.
 - **Reproducibility and challenge:** Whether another analyst can examine source material and meaningfully test the claim or an alternative explanation.
 
-The [W3C PROV Data Model](https://www.w3.org/TR/prov-dm/) describes general provenance relations among entities, activities, and agents. It is useful for modeling lineage, but a provenance graph is not by itself a truth certificate. [NIST SP 800-86 (2006)](https://csrc.nist.gov/pubs/sp/800/86/final) discusses acquiring, examining, analyzing, and reporting digital evidence and explicitly scopes its guidance to IT forensics rather than legal advice.
+The [W3C PROV Data Model](https://www.w3.org/TR/prov-dm/) describes general provenance relations among entities, activities, and agents. It is useful for modeling lineage, but a provenance graph is not by itself a truth certificate. PROV-DM's formal relation `wasAttributedTo` associates a provenance entity with an agent; this must not be equated automatically with forensic attribution of a network event to a human adversary. [NIST SP 800-86 (2006)](https://csrc.nist.gov/pubs/sp/800/86/final) discusses acquiring, examining, analyzing, and reporting digital evidence and explicitly scopes its guidance to IT forensics rather than legal advice.
 
 A security conclusion should preserve three things together: the proposition, the supporting evidence, and the assumptions/limitations that determine its strength. Labeling a finding “high confidence” without specifying the claim and its basis does little to distinguish evidence from opinion.
 
 ## Worked example: a high-performing alert can still be weak evidence
 
-Consider a **hypothetical**, calibrated binary detector applied to 10,000 independent opportunities. Suppose the target condition truly holds in 1% of opportunities, the detector alerts for 90% of target cases (sensitivity), and it also alerts for 5% of non-target cases (false-positive rate). These figures are assumptions for illustration, not measurements.
+Consider a **hypothetical** binary detector with stipulated conditional error rates applied to 10,000 comparable opportunities. No calibration experiment has been performed or implied. Suppose the target condition truly holds in 1% of opportunities, the detector alerts for 90% of target cases (sensitivity), and it also alerts for 5% of non-target cases (false-positive rate). These figures are assumptions for illustration, not measurements.
 
 | Modeled outcome | Calculation | Expected count |
 | --- | ---: | ---: |
@@ -58,7 +58,7 @@ Consider a **hypothetical**, calibrated binary detector applied to 10,000 indepe
 | False alerts | 9,900 × 0.05 | 495 |
 | All alerts | 90 + 495 | 585 |
 
-For an alert drawn from this population, the modeled positive predictive value is:
+Let **M** denote the stipulated target condition and **A** denote an alert. For an alert drawn from this population, the modeled positive predictive value is:
 
 \[
 P(M\mid A)=\frac{P(A\mid M)P(M)}{P(A\mid M)P(M)+P(A\mid \neg M)P(\neg M)}
@@ -119,6 +119,6 @@ When new observations arrive, investigators may revise an interpretation while p
 
 **Primary source starting points:** [NIST SP 800-86, Guide to Integrating Forensic Techniques into Incident Response (2006)](https://csrc.nist.gov/pubs/sp/800/86/final), forensic data-source and interpretation scope; [NIST SP 800-61 Rev. 3 (2025)](https://csrc.nist.gov/pubs/sp/800/61/r3/final), current incident-response context; [W3C PROV-DM (2013)](https://www.w3.org/TR/prov-dm/), formal provenance vocabulary; [NIST SP 800-92 (2006)](https://csrc.nist.gov/pubs/sp/800/92/final), historical log-management reference rather than current prescriptive incident-response guidance.
 
-**Editorial limitation:** The causal diagram and detector counts are authored examples, not source experiments. The cited sources inform bounded evidence, provenance, and operations; they do not directly establish the example's assumed probabilities, prove any attribution, or validate a specific monitoring system. The exact meaning of confidence remains tied to a declared proposition and evidence method. Complete source-passage verification, a separate scoped audit, independent expert acceptance, and taxonomy ratification are outstanding.
+**Editorial limitation:** The causal diagram and detector counts are authored examples, not source experiments. The cited sources inform bounded evidence, provenance, and operations; they do not directly establish the example's assumed probabilities, prove any attribution, or validate a specific monitoring system. The exact meaning of confidence remains tied to a declared proposition and evidence method. The separate [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) checked six claim groups and recalculated the hypothetical example. Complete source-passage verification, independent expert acceptance and taxonomy ratification remain outstanding.
 
 [Security Foundations](../README.md) · [Working area](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

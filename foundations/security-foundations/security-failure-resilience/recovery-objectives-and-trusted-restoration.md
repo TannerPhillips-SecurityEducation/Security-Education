@@ -3,7 +3,7 @@
 **Candidate subject:** SF-11-07 · Security Failure & Resilience  
 **Working area:** [Security Failure & Resilience](README.md) · The Fundamentals-style directory structure is adopted; subject ownership remains provisional  
 **Artifact type:** Substantive working reference, not an approved canonical publication  
-**Development state:** Draft · **Source-review state:** References identified; focused primary-source comparison performed during drafting, but no separate scoped technical review or complete claim-to-passage verification  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Pilot Technical Review 04](../PILOT-TECHNICAL-REVIEW-04.md), six bounded material claim groups; full source verification and independent expert acceptance pending  
 **Architecture:** [Security Foundations proposal](../ARCHITECTURE.md) · [Working inventory](../SUBJECT-INVENTORY-PROPOSAL.md)
 
 ## Recovery is not merely restarting a system
@@ -37,9 +37,9 @@ Restoration also depends on the **trustworthiness of the recovery source**. A ba
 
 - **Recovery Time Objective (RTO):** A recovery time limit associated with unacceptable impact on the supporting system resource and mission/business process. The start and end conditions must be defined when measuring performance.
 - **Recovery Point Objective (RPO):** The point in time to which data must be restored, often expressed as the maximum tolerable age or loss window of recoverable data at disruption.
-- **Maximum Tolerable Downtime (MTD):** The amount of disruption a mission/business process can tolerate without significant harm; it is not simply another label for RTO.
+- **Maximum Tolerable Downtime (MTD):** The total disruption a mission/business process can tolerate before significant harm; it is not simply another label for the recovery objective of one supporting system resource. Under the source's business-impact-analysis model, the resource RTO normally must be shorter than the process MTD, including any additional time needed to resume or reprocess work.
 
-These are *objectives*, not measurements of what occurred. An **achieved restoration time** and **achieved recovery point** must be compared against them. Because different organizations and standards may define the recovery interval differently, comparisons must use the same boundaries.
+These are *objectives*, not measurements of what occurred. In NIST SP 800-34 Rev. 1, the RTO/MTD/RPO distinctions appear in Chapter 3, §3.2.1, printed page 17 (PDF page index 30); the RPO is a data-recovery point, not a direct measurement of every transaction ultimately lost. An **achieved restoration time** and **achieved recovery point** must be compared against them. Because different organizations and standards may define the recovery interval differently, comparisons must use the same boundaries.
 
 For a hypothetical service let the failure time be (t_f), restoration of the required function be (t_r), and latest trusted recoverable data point be (t_p). Under an explicitly simplified measurement model:
 
@@ -54,8 +54,8 @@ This illustrative arithmetic assumes clocks are consistent and that the selected
 
 A fictional payment service has an RTO of two hours and an RPO of fifteen minutes. A disruption occurs at **09:40**. Its latest usable checkpoint is **09:30**. The core transaction service is reachable and functionally tested at **10:50**.
 
-- Under the stated event-to-service measurement convention, recovery duration is **70 minutes**, inside the 120-minute RTO.
-- The checkpoint is **10 minutes** before disruption, inside the 15-minute RPO, *if it is complete and valid for the required data*.
+- Under the stated event-to-service measurement convention, recovery duration is **70 minutes** (09:40 to 10:50), inside the 120-minute RTO; this does not by itself establish that all dependent business processing finished within an MTD.
+- The checkpoint is **10 minutes** before disruption (09:30 to 09:40), within the stated 15-minute RPO window *if that point is recoverable, complete and valid for the required data*. Meeting this age window does not prove the precise quantity of lost transactions.
 - During the event an attacker acquired an administrative token. If the token remains usable after restoration, neither successful timing test establishes **trusted restoration**.
 - If investigators cannot establish that the 09:30 checkpoint is free of the attacker's modifications, the claim that its *trusted* recovery point is 09:30 remains **unknown**.
 
@@ -103,6 +103,6 @@ An apparently successful recovery can also reproduce the root cause of failure. 
 - [NIST SP 800-184, *Guide for Cybersecurity Event Recovery* (2016)](https://csrc.nist.gov/pubs/sp/800/184/final): recovery planning, restoration dependencies, testing and continual improvement.
 - [NIST SP 800-160 Vol. 2 Rev. 1, *Developing Cyber-Resilient Systems* (2021)](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final): cyber-resiliency goals and engineering scope.
 
-**Evidence limitation:** Primary-source landing pages and accessible excerpts were consulted for concept and scope selection. This first draft has **not** undergone a separately recorded, full source-passage audit, external-link sweep, independent expert review, or publication acceptance. Its restoration dimensions, example and claim framework are editorial interpretations, not quoted NIST requirements.
+**Evidence limitation:** Primary-source landing pages and accessible excerpts were consulted for concept and scope selection. A separately recorded **scoped model-assisted review** now covers six material claim groups in [Review 04](../PILOT-TECHNICAL-REVIEW-04.md), including direct visual inspection of NIST SP 800-34r1's RTO/RPO/MTD passage. Complete source-passage verification, independent expert review and publication acceptance remain open. Its restoration dimensions, example and claim framework are editorial interpretations, not quoted NIST requirements.
 
 [Security Foundations](../README.md) · [Area index](README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

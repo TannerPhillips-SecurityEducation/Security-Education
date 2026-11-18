@@ -3,12 +3,12 @@
 **Candidate subject:** SF-12-05 · Security Assurance, Governance & Accountability  
 **Working area:** [Security Assurance, Governance & Accountability](README.md) · The Fundamentals-style directory pattern is adopted; subject ownership remains provisional  
 **Artifact type:** Substantive working reference, not an approved canonical publication  
-**Development state:** Draft · **Source-review state:** References listed; focused original-source comparison during authoring, no separate technical audit or complete claim-to-passage verification  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Pilot Technical Review 04](../PILOT-TECHNICAL-REVIEW-04.md), six bounded material claim groups; full source verification and independent expert acceptance pending  
 **Architecture:** [Security Foundations proposal](../ARCHITECTURE.md) · [Working inventory](../SUBJECT-INVENTORY-PROPOSAL.md)
 
 ## Conformity and protection answer different questions
 
-**Compliance** is demonstrated conformity with identified requirements, rules, obligations, or assessment criteria within a declared scope and period. **Effective security** concerns whether protection measures actually achieve specified security objectives against relevant conditions and threats in the environment of use. Both may matter; neither is a substitute for the other.
+**Compliance** means conformity with applicable identified requirements, rules, obligations, or assessment criteria within a declared scope and period. **Evidence of compliance** is the separate basis for claiming or determining that conformity has been achieved. **Effective security** concerns whether protection measures actually achieve specified security objectives against relevant conditions and threats in the environment of use. Both may matter; neither is a substitute for the other.
 
 A compliant system may still experience compromise because the standard did not cover an exposure, the assessment sampled only certain paths, the operating environment changed, or the selected controls are insufficient for the actual threat. Conversely, a protective mechanism may function well while its operator fails a binding reporting, documentation, privacy, or other obligation.
 
@@ -50,22 +50,22 @@ P(S,G,E,T,t)=\text{“S meets goal G under E and T at t.”}
 These are **editorial notation**, not formal symbols defined by a NIST standard. Neither proposition implies the other without additional premises connecting the rule set, evaluation methods, system coverage, and threat assumptions:
 
 \[
-C(S,B,Q,t)\;\not\Rightarrow\;P(S,G,E,T,t).
+C(S,B,Q,t)\;\not\Rightarrow\;P(S,G,E,T,t),\qquad P(S,G,E,T,t)\;\not\Rightarrow\;C(S,B,Q,t).
 \]
 
 For example, proving that a particular log-retention requirement is satisfied says something important about retained audit records. By itself it does not show that an endpoint is resistant to credential theft or that every exploitable interface is monitored. The converse implication also fails in general: a system could demonstrably resist a specified attack while lacking mandatory documentation or retention records.
 
 The need for both claims follows from their **different predicates**. A gap between conformity and effectiveness is not necessarily evidence of negligence; it may expose a mismatch between the protection goal, assessment scope, or rules in force.
 
-## Worked example: full assessment coverage is not full threat coverage
+## Worked example: a completed assessment is not full threat coverage
 
-Consider a hypothetical service with a requirement to retain **90 days of access logs** for **Application A**. An assessment examines sample timestamps and storage configuration and reports that the retention requirement is met for Application A during the assessment window.
+Consider a hypothetical service with a requirement to retain **90 days of access logs** for **Application A**. An assessment examines selected timestamps and storage settings, and reports that the retention requirement is met for Application A within its documented assessment scope. That report is a bounded conformity determination; its strength depends on whether the examined samples and configuration evidence adequately support the full 90-day retention requirement.
 
 Now suppose the organization's protected interest also depends on a separate administrative interface, **Application B**, excluded from the retention assessment. That interface permits a privileged action without producing an audit record.
 
 Both findings can be true:
 
-1. The specified **retention control** for Application A conformed to the tested requirement and scope.
+1. The assessed **retention control** for Application A was reported conformant within the defined scope and method, assuming the underlying evidence supports the required 90-day claim.
 2. The broader organization's **accountability objective** remains incompletely supported because the relevant action path through Application B is not observable.
 
 This does not establish that Application A itself is noncompliant, and it does not say the same rule necessarily applies to Application B. It shows why an authentic, successful assessment cannot be silently promoted to a broader claim it never tested.
@@ -126,6 +126,6 @@ Scope and time are not administrative footnotes. An expired certificate, changed
 
 **Primary source starting points:** [NIST CSF 2.0 (February 2024)](https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20), framework's outcome-based scope; [NIST CSF FAQ](https://www.nist.gov/cyberframework/faqs), certification limits; [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final), control catalog; [NIST SP 800-53A Rev. 5, Release 5.2.0](https://csrc.nist.gov/pubs/sp/800/53/a/r5/final), methods and assessment scope; [NIST SP 800-160 Vol. 1 Rev. 1](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final), engineering/trustworthiness scope.
 
-**Editorial limitation:** The propositions and example are authored explanations, not definitions adopted by NIST or an opinion about any real system's legal compliance. Applicability depends on the actual authority, contract, jurisdiction, baseline, time, and evaluation scope. The sources do not establish the example's fictional facts or a universal mapping from compliance to effectiveness. Full primary-source passage verification, a separate scoped technical review, qualified external acceptance, and the provisional taxonomy decision are outstanding.
+**Editorial limitation:** The propositions and example are authored explanations, not definitions adopted by NIST or an opinion about any real system's legal compliance. Applicability depends on the actual authority, contract, jurisdiction, baseline, time, and evaluation scope. The sources do not establish the example's fictional facts or a universal mapping from compliance to effectiveness. The separate [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) checked six claim groups and qualified the assessment example. Full source-passage verification, qualified external acceptance and the provisional taxonomy decision remain outstanding.
 
 [Security Foundations](../README.md) · [Working area](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

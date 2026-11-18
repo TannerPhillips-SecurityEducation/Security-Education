@@ -21,7 +21,7 @@ The seven specialized [knowledge domains](../README.md#knowledge-domains) own th
 The **three divisions** are approved. Their **internal architecture states are not equal**:
 
 - Fundamentals has an approved governing architecture and twelve current approved navigation areas. Its subject inventory is living and revisionable.
-- Security Foundations is an approved division whose **Fundamentals-style area/README/article directory pattern is explicitly adopted**. Its 12 current area names and 96 subject candidates remain provisional. Fourteen substantive working articles now live within area directories, reviewed in scoped audits; their semantic canonical ownership and publication are not automatically ratified.
+- Security Foundations is an approved division whose **Fundamentals-style area/README/article directory pattern is explicitly adopted**. Its 12 current area names and 96 subject candidates remain provisional. Seventeen substantive working articles now live within area directories and have separate scoped audits; their semantic canonical ownership and publication are not automatically ratified.
 - Operational Foundations is approved as a division but has **no approved internal subject taxonomy**. Do not fabricate one to match sibling divisions.
 
 Proposed taxonomies, mathematical primitives, relationship predicates and fixed numbers of chapters, articles, areas or categories are **not** user-approved merely because they appear in working files. Preserve explicit user approval separately from agent recommendations and historical project proposals.
@@ -90,6 +90,8 @@ Do not create placeholder directories, duplicate root indexes, or fake article f
 ## 10. Independent review state axes
 
 Track separately: **architecture approval**, **content development** (Inventoried/Draft/Reviewed), **source-review depth** (Not reviewed/References listed/Core claims checked/Verified), **relationship review**, and **publication acceptance**.
+
+**Sequential authoring requirement:** After a batch reaches Draft, the next authoring-related response is its separate technical Review with evidence and corrections, **not another new Draft**. Only advance status when the audit actually supports it; unresolved manuscripts stay Draft. Source-level verification and publication are later independent gates.
 
 Model-assisted technical review can support a scoped Reviewed status only with a separate material-claim audit; it is not complete passage verification or independent human peer review. Final Published status requires actual publication gates and authorization. Historical wave review outcomes cannot automatically be inherited by new or merged work.
 
