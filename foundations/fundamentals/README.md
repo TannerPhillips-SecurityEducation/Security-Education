@@ -158,7 +158,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** All 109 approved headings in twelve areas are substantively authored and internally Reviewed (model-assisted), with a preliminary internal navigation audit completed. Full source validation, independent qualified human review and all seven formal completion gates remain open; none is finally Published.
+**Current milestone:** **116 tracked subjects: 109 historical articles internally Reviewed (model-assisted), seven newly Inventoried and awaiting authoring**. The preliminary link integrity audit passed within its scope; complete source validation, independent qualified human review and all seven publication gates remain open; none is finally Published.
 
 ## Coverage Across Specialized Domains
 
