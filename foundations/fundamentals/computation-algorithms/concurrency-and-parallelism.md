@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Computation & Algorithms](README.md)  
 **Approved subject heading:** Concurrency and parallelism  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; separate scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Batch 02 technical audit](../WAVE-D-TECHNICAL-REVIEW-02.md); independent human peer review pending
 
 ## Multiple activities can overlap without executing simultaneously
 
@@ -88,6 +88,6 @@ Some computations require preserving causal or program order; others permit reor
 - [MIT 6.005: Thread Safety](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/20-thread-safety/).
 - [MIT 6.172: Performance Engineering of Software Systems](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/).
 
-**Editorial status:** Substantive Draft. The lost-update schedule, Amdahl calculation and concurrency terminology require a separate scoped technical review before promotion. No new programming model, operating system or assessment is mandated.
+**Editorial status:** Reviewed (model-assisted) following the [Wave D Batch 02 scoped 30-family technical audit](../WAVE-D-TECHNICAL-REVIEW-02.md). Exhaustive source verification, independent human expert review and final publication acceptance remain open.
 
 [Computation & Algorithms](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
