@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Software & Programming](README.md)  
 **Approved subject heading:** Software interfaces  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical/source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Software Batches 03–04 audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md); independent human review pending
 
 ## Software interfaces specify observable contracts
 
@@ -77,6 +77,6 @@ This article does not require a particular API specification, language interface
 - [MIT 6.005: Abstraction and Representation Independence](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/12-abstract-data-types/).
 - [NASA: Interface Management](https://www.nasa.gov/reference/6-3-interface-management/).
 
-**Editorial status:** Substantive Draft. The unit-conversion contract and compatibility discussion require a separately documented technical/source review. No assessments or mandated API conventions are introduced.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave D Software 54-family audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md). Complete source verification, independent expert review and final publication acceptance remain separate outstanding gates.
 
 [Software & Programming](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
