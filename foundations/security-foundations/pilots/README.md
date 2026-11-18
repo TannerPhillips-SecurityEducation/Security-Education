@@ -1,7 +1,7 @@
 # Security Foundations | Working Article Pilots
 
 **Division:** [Security Foundations](../README.md)  
-**Status:** Eight **Reviewed (model-assisted)** source-led working manuscripts; **not ratified canonical article locations**, source-Verified or Published.  
+**Status:** Ten substantive working manuscripts: **8 Reviewed (model-assisted), 2 Draft**; neither the proposed internal taxonomy nor any pilot's permanent canonical location is ratified.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
 **Scope:** This pilot collection supports architectural tests without prematurely creating or approving twelve internal area directories, mandatory category names, or a permanent 96-subject quota.
 
@@ -18,13 +18,16 @@
 | SF-10-02 | [Observable, Observed and Recorded](observable-observed-and-recorded.md) | **Reviewed (model-assisted)** | Core claims checked | What can a security record actually establish about an occurrence or actor? |
 | SF-12-01 | [Security Claims and Assurance Arguments](security-claims-and-assurance-arguments.md) | **Reviewed (model-assisted)** | Core claims checked | What evidence and arguments support a bounded security property claim? |
 
-**Record count:** Eight pilots with separate [40-family scoped technical review](../PILOT-TECHNICAL-REVIEW-01.md). This is **8 reviewed pilot manuscripts, not 8 approved canonical subjects or Published references**. The other 88 working candidate headings have no article in this phase.
+| SF-05-01 | [Risk, Scenarios, and Time Horizon](risk-scenarios-and-time-horizon.md) | **Draft** | References listed | Scenario-relative likelihood, harm, uncertainty, time horizon and why severity is not organizational risk |
+| SF-07-01 | [Controls, Safeguards, and Security Functions](controls-safeguards-and-security-functions.md) | **Draft** | References listed | Protection objective versus selected mechanism, implemented coverage, measured effect and assurance |
+
+**Record count:** **10 article pilots**, with 8 [Reviewed under the initial 40-family audit](../PILOT-TECHNICAL-REVIEW-01.md) and 2 newly Drafted in risk and defensive controls. The other **86** proposed candidates have no pilot article. None is an approved canonical location or Published.
 
 ## Pilot technical review evidence
 
 [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md) checks **40 material claim groups** across the eight articles. The review corrected a conflation between *actual insecurity* and *lack of assurance evidence* and updated standards references to **RFC 9846 (TLS 1.3, July 2026)** and **ISO/IEC 15408-1:2026**.
 
-**All eight currently have development state Reviewed (model-assisted) and source state Core claims checked**. This is a bounded review: no complete claim-to-passage audit, independent human peer review, final taxonomy approval or Published status.
+**The original eight pilots** have development state Reviewed (model-assisted) and source state Core claims checked. The two additional risk/control articles are **Draft / References listed**, pending their own scoped audit. Neither group has complete claim-to-passage verification, independent expert acceptance, final taxonomy approval or Published status.
 
 ## Development states
 
