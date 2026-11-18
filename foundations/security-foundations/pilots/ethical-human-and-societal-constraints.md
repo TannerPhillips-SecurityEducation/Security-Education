@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-12-08 · Security Assurance, Governance & Accountability  
 **Artifact type:** Substantive working article pilot; permanent canonical ownership **not ratified**  
-**Development state:** Draft · **Source review:** References listed; scoped technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (five material claim groups); complete source verification and qualified independent review remain open  
 **Architecture:** [Working subject inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Ownership-boundary review](../OWNERSHIP-BOUNDARIES.md)
 
 ## Security protects interests, including interests of people outside the system owner
@@ -102,5 +102,7 @@ Security policy design can be informed by fairness, access, transparency, consen
 - [NIST SP 800-160 Vol.1 Rev.1](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final), security engineering, stakeholders and protection needs.
 
 **Limits:** This article is a technical-ethical conceptual synthesis, not legal advice, a final moral calculus, a finding of institutional misconduct or a security compliance certificate. The norms and obligations applicable in any given jurisdiction or organization require independent legal and factual evaluation. Source-level review, independent human acceptance and internal taxonomy ratification remain open.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 03](../PILOT-TECHNICAL-REVIEW-03.md). This remains a **pilot**, not a ratified canonical subject, source-Verified artifact or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md)
