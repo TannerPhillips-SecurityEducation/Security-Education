@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.23  
+**Working edition:** v1.24  
 **Scope:** **12 knowledge areas and 120 currently tracked canonical articles, all Reviewed (model-assisted)**: 116 prior articles plus four new subjects reviewed under [Wave H](WAVE-H-TECHNICAL-REVIEW-01.md). The count remains versioned and flexible.  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -9,10 +9,10 @@
 - **Inventoried:** Approved heading exists in its area index, but no canonical subject article is yet claimed.
 - **Pilot queued:** One of the six approved first authoring targets; a queued article is **not** published or technically validated.
 - **Draft:** Substantive article has been committed and can be reviewed; not necessarily source-verified or accepted.
-- **Reviewed:** A documented scoped technical and editorial audit has passed for the stated subject. Across the current 116 articles the reviews are **model-assisted**; no independent human peer review, complete source verification or final publication is implied.
+- **Reviewed:** A documented scoped technical and editorial audit has passed for the stated subject. Across the current 120 articles the reviews are **model-assisted**; no independent human peer review, complete source verification or final publication is implied.
 - **Published:** Canonical reference accepted under the [seven completion gates](README.md#completion-gates), including link and source checks. A commit alone does **not** constitute this status.
 
-**Source review** is tracked separately from development state: **Not reviewed**, **References listed**, **Core claims checked**, or **Verified**. *References listed* indicates linked sources. *Core claims checked* means a documented second-pass source review and example checks occurred, but does not establish complete claim-to-source verification or independent human acceptance. *Verified* requires evidence of a complete scoped technical acceptance review. **Relationship state:** The separate [116-heading canonical ownership register](CANONICAL-OWNERSHIP-REGISTER.md) includes 116 existing canonical article links; they are not a fully verified graph.
+**Source review** is tracked separately from development state: **Not reviewed**, **References listed**, **Core claims checked**, or **Verified**. *References listed* indicates linked sources. *Core claims checked* means a documented second-pass source review and example checks occurred, but does not establish complete claim-to-source verification or independent human acceptance. *Verified* requires evidence of a complete scoped technical acceptance review. **Relationship state:** The separate [120-heading canonical ownership register](CANONICAL-OWNERSHIP-REGISTER.md) includes 120 actual canonical article links; they are not a fully verified graph.
 
 **IDs are administrative tracking identifiers only**, not a ratified formal ontology, graph predicate set, or new knowledge-category taxonomy. No Knowledge Checks, Practical Assessments, or quizzes will appear in this repository.
 
@@ -40,7 +40,7 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 
 | Development / evidence state | Current heading count | Evidence |
 | --- | ---: | --- |
-| **Reviewed (model-assisted)** | **120** | 109 legacy subjects under Wave A–E audits plus 7 new subjects under [Wave F's 42-family technical audit](WAVE-F-TECHNICAL-REVIEW-01.md); independent expert acceptance pending |
+| **Reviewed (model-assisted)** | **120** | 109 historical Wave A–E subjects, seven [Wave F additions](WAVE-F-TECHNICAL-REVIEW-01.md), and four [Wave H additions](WAVE-H-TECHNICAL-REVIEW-01.md); all scoped model-assisted, independent expert acceptance pending |
 | **Draft** | **0** | The four new Wave H drafts passed their separate scoped technical review; stronger source checks remain pending |
 | **Inventoried without article** | **0** | All 120 tracked subjects have substantive canonical article files and scoped review evidence |
 | **Core claims checked** | **120** | Legacy scoped audits plus [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md); not complete sentence-level claim verification |
@@ -52,15 +52,15 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 
 ## Next acceptance gate
 
-1. **Completed scoped internal authoring and technical review:** The legacy **109/109** references retain Wave A–E Reviewed evidence, and all **7/7** newly inventoried references have passed [Wave F's 42-family audit](WAVE-F-TECHNICAL-REVIEW-01.md). The **116/116** current subjects are internally Reviewed (model-assisted), with separate **Core claims checked** states, not stronger `Verified` or independent human acceptance.
+1. **Completed scoped internal authoring and technical review:** The legacy **109/109** references retain Wave A–E Reviewed evidence, and all **7/7** newly inventoried references have passed [Wave F's 42-family audit](WAVE-F-TECHNICAL-REVIEW-01.md). That historical **116/116** intermediate corpus was internally Reviewed (model-assisted), with separate **Core claims checked** states, not stronger `Verified` or independent human acceptance.
 2. **Completed preliminary inventory/navigation audit:** [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) examined the pre-report snapshot of **152 Fundamentals Markdown files**, including all 109 articles and twelve area indexes. It checked **2,681 inline relative Markdown-link occurrences**, finding **zero missing file destinations**. The **55 fragment links** corresponded to **32 existing target heading slugs**. All 109 direct ownership links aligned with the register, and all twelve area indexes showed the correct subjects and review states. This is **not** an external URL or exhaustive Markdown semantic audit.
-3. **Current publication-quality work:** Strengthen comprehensive claim-to-source traceability, verify external links, evaluate depth and consistency, review model/architecture cross-links, and test seven-domain coverage of the 116 subjects.
+3. **Current publication-quality work:** Strengthen comprehensive claim-to-source traceability, verify external links, evaluate depth and consistency, review model/architecture cross-links, and test seven-domain coverage of the 120 current subjects.
 4. **Human acceptance and publication remain pending:** Obtain independent qualified expert peer review, adjudicate findings, and satisfy all seven [Fundamentals completion gates](README.md#completion-gates) before marking any article or the corpus **Published**.
 5. **Architecture placement, authoring and scoped internal review completed:** G-01 mathematics, G-04 temporality and G-06 AI/ML now have Reviewed (model-assisted) articles; complete source validation and independent publication acceptance remain open. No Knowledge Checks, Practical Assessments or mandatory vendors were added.
 
 **Current inventory reconciliation:** **120 headings = 116 historically Reviewed (model-assisted) under Waves A–G + four newly Reviewed under [Wave H's 24-family technical audit](WAVE-H-TECHNICAL-REVIEW-01.md)**. All 120 have **Core claims checked** as bounded source state; none is fully source-Verified, independently human-reviewed or Published.
 
-**Wave G additional technical review:** [Wave G Technical Review 01](WAVE-G-TECHNICAL-REVIEW-01.md) checked 39 material claim groups in 13 revised **existing** articles. It preserves all 116 Review states and their previous audit evidence. No full source-Verified or Published status is implied.
+**Wave G additional technical review:** [Wave G Technical Review 01](WAVE-G-TECHNICAL-REVIEW-01.md) checked 39 material claim groups in 13 revised **existing** articles. It preserved all 116 Review states at the time of the Wave G audit; the current inventory is 120. No full source-Verified or Published status is implied.
 
 **Coverage Triage 02:** Four new subject headings (F-01-12/13, F-05-10, F-11-12) were added without any associated article review claims. Cross-domain links will grow incrementally as contextual content is developed, not according to a link quota. [Full gap adjudication](COVERAGE-AND-SOURCE-TRIAGE-02.md).
 
@@ -85,8 +85,8 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | F-01-09 | Linear algebra and vector spaces | [Reviewed article](mathematics-logic/linear-algebra-and-vector-spaces.md) | Reviewed | Core claims checked | [Wave F 42-family audit](WAVE-F-TECHNICAL-REVIEW-01.md); model-assisted, full source and independent peer review pending |
 | F-01-10 | Geometry and spatial reasoning | [Reviewed article](mathematics-logic/geometry-and-spatial-reasoning.md) | Reviewed | Core claims checked | [Wave F 42-family audit](WAVE-F-TECHNICAL-REVIEW-01.md); model-assisted, full source and independent peer review pending |
 | F-01-11 | Topology and continuity | [Reviewed article](mathematics-logic/topology-and-continuity.md) | Reviewed | Core claims checked | [Wave F 42-family audit](WAVE-F-TECHNICAL-REVIEW-01.md); model-assisted, full source and independent peer review pending |
-| F-01-12 | Calculus and differential equations | [Reviewed article](mathematics-logic/calculus-and-differential-equations.md) | Reviewed | Core claims checked | [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md): substantive article authored; scoped technical review and full source verification pending; [Wave H 24-family technical review](WAVE-H-TECHNICAL-REVIEW-01.md), model-assisted; complete source verification pending |
-| F-01-13 | Stochastic processes and Markov models | [Reviewed article](mathematics-logic/stochastic-processes-and-markov-models.md) | Reviewed | Core claims checked | [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md): substantive article authored; scoped technical review and full source verification pending; [Wave H 24-family technical review](WAVE-H-TECHNICAL-REVIEW-01.md), model-assisted; complete source verification pending |
+| F-01-12 | Calculus and differential equations | [Reviewed article](mathematics-logic/calculus-and-differential-equations.md) | Reviewed | Core claims checked | [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md): historical Draft stage; subsequently passed [Wave H 24-family technical review](WAVE-H-TECHNICAL-REVIEW-01.md), model-assisted; complete source verification pending |
+| F-01-13 | Stochastic processes and Markov models | [Reviewed article](mathematics-logic/stochastic-processes-and-markov-models.md) | Reviewed | Core claims checked | [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md): historical Draft stage; subsequently passed [Wave H 24-family technical review](WAVE-H-TECHNICAL-REVIEW-01.md), model-assisted; complete source verification pending |
 
 ### 02. Scientific & Analytical Reasoning (Wave A; 8 headings)
 
@@ -152,7 +152,7 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | F-05-07 | Metadata | [Reviewed article](information-data/metadata.md) | Reviewed | Core claims checked | [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md); model-assisted, no human peer review |
 | F-05-08 | Databases and queries | [Reviewed article](information-data/databases-and-queries.md) | Reviewed | Core claims checked | [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md); model-assisted, no human peer review; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 | F-05-09 | Data provenance and lifecycle | [Reviewed article](information-data/data-provenance-and-lifecycle.md) | Reviewed | Core claims checked | [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md); model-assisted, no human peer review; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
-| F-05-10 | Search and information retrieval | [Reviewed article](information-data/search-and-information-retrieval.md) | Reviewed | Core claims checked | [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md): substantive article authored; scoped technical review and full source verification pending; [Wave H 24-family technical review](WAVE-H-TECHNICAL-REVIEW-01.md), model-assisted; complete source verification pending |
+| F-05-10 | Search and information retrieval | [Reviewed article](information-data/search-and-information-retrieval.md) | Reviewed | Core claims checked | [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md): historical Draft stage; subsequently passed [Wave H 24-family technical review](WAVE-H-TECHNICAL-REVIEW-01.md), model-assisted; complete source verification pending |
 
 ### 06. Digital Systems & Hardware (Wave C; 9 headings)
 
@@ -255,7 +255,7 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | F-11-09 | Requirements | [Reviewed article](systems-engineering/requirements.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
 | F-11-10 | Verification and validation | [Reviewed article](systems-engineering/verification-and-validation.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
 | F-11-11 | System lifecycle | [Reviewed article](systems-engineering/system-lifecycle.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
-| F-11-12 | Queueing and service-system models | [Reviewed article](systems-engineering/queueing-and-service-system-models.md) | Reviewed | Core claims checked | [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md): substantive article authored; scoped technical review and full source verification pending; [Wave H 24-family technical review](WAVE-H-TECHNICAL-REVIEW-01.md), model-assisted; complete source verification pending |
+| F-11-12 | Queueing and service-system models | [Reviewed article](systems-engineering/queueing-and-service-system-models.md) | Reviewed | Core claims checked | [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md): historical Draft stage; subsequently passed [Wave H 24-family technical review](WAVE-H-TECHNICAL-REVIEW-01.md), model-assisted; complete source verification pending |
 
 ### 12. Human & Sociotechnical Systems (Wave B; 8 headings)
 
