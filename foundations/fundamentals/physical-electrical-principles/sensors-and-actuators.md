@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Physical & Electrical Principles](README.md)  
 **Approved subject heading:** Sensors and actuators  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 03 audit](../WAVE-C-TECHNICAL-REVIEW-03.md); independent human review pending
 
 ## Connecting observable conditions with physical intervention
 
@@ -74,6 +74,6 @@ This subject is foundational and does not mandate one sensor vendor, device cate
 - [MIT OpenCourseWare: Analysis and Design of Feedback Control Systems](https://ocw.mit.edu/courses/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/).
 - [NASA: Interface Management](https://www.nasa.gov/reference/6-3-interface-management/).
 
-**Editorial status:** Substantive Draft with a constructed sensor model. Source, calculations and physical assumptions require a separate scoped technical audit. No learner assessments or new approved categories are introduced.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave C Batch 03 54-family technical review](../WAVE-C-TECHNICAL-REVIEW-03.md). Full source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
 
 [Physical & Electrical Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
