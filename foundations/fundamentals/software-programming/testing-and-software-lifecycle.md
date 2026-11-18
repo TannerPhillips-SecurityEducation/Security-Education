@@ -41,6 +41,8 @@ Representative tests might include:
 | 1 | true |
 | 100 | true |
 | 101 | false |
+| 0.5 | false |
+| "50" (text) | false |
 
 These five cases exercise the specified lower and upper boundaries. They do not prove the function works for every integer, noninteger value, malformed input or runtime environment. Another program could deliberately produce exactly these five expected results and still fail almost everywhere else.
 
@@ -88,6 +90,7 @@ Software testing in this article concerns **testing software**, not student Know
 
 - [MIT 6.005: Software Construction Readings](https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/pages/readings/).
 - [MIT 6.005: Testing](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/).
+- [MIT 6.005: Testing, Partitions and Boundaries](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/index.html).
 - [MIT 6.005: Version Control](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/05-version-control/).
 - [NASA: Product Realization](https://www.nasa.gov/reference/5-0-product-realization/).
 
