@@ -3,7 +3,7 @@
 **Division:** [Security Foundations](../README.md)  
 **Working area ID:** SF-07  
 **Architecture status:** **Provisional area membership and naming**, within a user-approved **Fundamentals-style directory architecture**. The number and names of areas and subjects can expand or contract.  
-**Current content:** **8 candidate subjects; 4 substantive articles (1 Reviewed, 3 Draft)**; 4 candidates not authored. SF-07-04, SF-07-05 and SF-07-06 are **Draft / References listed**, awaiting a separate claim-led Technical Review 09. No article is Source-Verified or Published.
+**Current content:** **8 candidate subjects; 4 substantive Reviewed (model-assisted), 0 Draft** and 4 Inventoried without article. SF-07-04, SF-07-05 and SF-07-06 completed the separate [Technical Review 09](../PILOT-TECHNICAL-REVIEW-09.md) with individual evidence and corrections. No manuscript is fully Source-Verified, independently accepted or Published.
 
 ## Scope and canonical ownership
 
@@ -18,13 +18,13 @@ The area may be renamed, split, consolidated, or relocated when stronger concept
 | SF-07-01 | [Controls, safeguards, and security functions](controls-safeguards-and-security-functions.md) | **Reviewed (model-assisted)** · Core claims checked | Distinguish desired properties, policy, defensive technique, security control, deployment and demonstrated protective effect. |
 | SF-07-02 | Preventive, detective, corrective, and recovery controls | **Inventoried / not authored** | Compare intended effects without implying strict exclusivity. |
 | SF-07-03 | Technical, organizational, and physical controls | **Inventoried / not authored** | Classify by implementation context and shared responsibility. |
-| SF-07-04 | [Defense in depth and diversity](defense-in-depth-and-diversity.md) | **Draft** · References listed; scoped Review 09 pending | Explain complementary layers and common-mode failures. |
-| SF-07-05 | [Control placement and coverage](control-placement-and-coverage.md) | **Draft** · References listed; scoped Review 09 pending | Explain where safeguards apply and what paths remain uncovered. |
-| SF-07-06 | [Control bypass, failure, and evasion](control-bypass-failure-and-evasion.md) | **Draft** · References listed; scoped Review 09 pending | Describe ways safeguards cease to supply their claimed protection. |
+| SF-07-04 | [Defense in depth and diversity](defense-in-depth-and-diversity.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 09](../PILOT-TECHNICAL-REVIEW-09.md) | Explain complementary layers and common-mode failures. |
+| SF-07-05 | [Control placement and coverage](control-placement-and-coverage.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 09](../PILOT-TECHNICAL-REVIEW-09.md) | Explain where safeguards apply and what paths remain uncovered. |
+| SF-07-06 | [Control bypass, failure, and evasion](control-bypass-failure-and-evasion.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 09](../PILOT-TECHNICAL-REVIEW-09.md) | Describe ways safeguards cease to supply their claimed protection. |
 | SF-07-07 | Compensating controls and residual exposure | **Inventoried / not authored** | Explain alternative protections and unsatisfied requirements. |
 | SF-07-08 | Control effectiveness and costs | **Inventoried / not authored** | Distinguish design intent, measured effect, and operational tradeoffs. |
 
-**Review interpretation:** SF-07-01 retains its bounded model-assisted [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) evidence. The three new articles **SF-07-04/05/06 are Draft / References listed** and do **not** inherit that review. Their next authoring-related turn must perform a separate source-led Technical Review 09 with article-specific claim checks, corrections and state reconciliation, alongside the related SF-11-05 Draft. No Source-Verified, independently Published or canonical-taxonomy approval is asserted.
+**Review interpretation:** SF-07-01 retains its independent [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) evidence. SF-07-04, SF-07-05 and SF-07-06 each received separately attributed material-claim checks in [Technical Review 09](../PILOT-TECHNICAL-REVIEW-09.md), coordinated with the distinct SF-11-05 resilience article. All four authored area manuscripts are **Reviewed (model-assisted) / Core claims checked**, not fully source-Verified, externally expert-reviewed, Published or permanently taxonomy-ratified.
 
 ## Development and relationships
 

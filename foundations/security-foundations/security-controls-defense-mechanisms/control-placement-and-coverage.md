@@ -3,7 +3,7 @@
 **Candidate subject:** SF-07-05 · Security Controls & Defense Mechanisms  
 **Working area:** [Security Controls & Defense Mechanisms](README.md) · Fundamentals-style article placement adopted; subject taxonomy provisional  
 **Artifact:** Substantive working knowledge reference, not a final canonical publication or network-hardening guide  
-**Development state:** Draft · **Source-review state:** References listed; source and engineering scopes compared during authoring; separate claim-led Review 09 pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 09](../PILOT-TECHNICAL-REVIEW-09.md), 7 article-specific material claim groups; full source verification and independent expert acceptance pending  
 **Authority:** [Working inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Ownership register](../CANONICAL-OWNERSHIP-REGISTER.md) · [Coverage review SG-08](../COVERAGE-AND-GAPS-REVIEW-03.md)
 
 ## An effective control in the wrong place cannot protect an omitted path
@@ -12,7 +12,7 @@ A control can correctly enforce its assigned policy yet provide no protection ag
 
 These concepts differ from **control effectiveness**, which asks whether a control actually achieved its intended protective effect under the tested conditions. A well-positioned but defective authorization check may have claimed coverage without effective protection. A perfectly functioning check can be irrelevant to an alternate interface that bypasses it.
 
-[NIST SP 800-160 Vol. 1 Rev. 1](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final), Appendix E §E.9 (printed p. 88 / PDF index 103), frames defense in depth around lines of defense along **loss scenarios**. [NIST SP 800-160 Vol. 2 Rev. 1](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final), Appendix D §D.5.1.3 (printed p. 115 / PDF index 130), includes external, internal, development and supply-chain dimensions in the attack-surface discussion. Thus a public network boundary is not a complete model of where security controls may need to apply.
+[NIST SP 800-160 Vol. 1 Rev. 1](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final), Appendix E §E.9 (printed p. 88 / PDF index 103), frames defense in depth around lines of defense along **loss scenarios**. [NIST SP 800-160 Vol. 2 Rev. 1](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final), Appendix D §D.5.1.3 (**printed p. 115 / PDF index 130, visually re-inspected**), includes external, internal, development, operations, maintenance and supply-chain dimensions in the attack-surface discussion. Thus a public network boundary is not a complete model of where security controls may need to apply.
 
 ## The anatomy of a control placement claim
 
@@ -35,7 +35,7 @@ This matrix is an editorial aid, not a NIST-mandated inventory schema. It does n
 
 A safeguard's placement cannot be evaluated only from one architecture diagram. Maintenance, recovery, changeover, cache warmup, emergency operation and delegation can alter the resource-access graph.
 
-Define a modeled set \(\mathcal{P}(s,t)\) of possible paths for a protected action in system state \(s\) at time \(t\). Let \(C(p,s,t)\) denote the set of safeguards that would actually mediate or observe path \(p\) under those conditions.
+Define a modeled set \(\mathcal{P}(s,t)\) of possible paths for a protected action in system state \(s\) at time \(t\). Let \(C(p,s,t)\) denote the set of safeguards that are **structurally applicable** to path \(p\) under those conditions, whether they enforce or merely observe. Separately, \(E(p,s,t)\) is the subset with **applicable enforcement capability** and \(O(p,s,t)\) is the subset with **applicable observation capability**. Their required behavior must be verified rather than inferred from position alone.
 
 A minimal *structural applicability* requirement is:
 
@@ -45,7 +45,7 @@ A minimal *structural applicability* requirement is:
 
 where \(\mathcal{D}\) is the explicitly declared state/time scope. This authored expression is not a formal compliance test or a theorem that the modeled \(\mathcal P\) is complete. It also says nothing about *whether the present control responds correctly*.
 
-If a policy requires every unauthorized read to be blocked, a detector that merely observes the read does not satisfy that policy even when it covers every path. The **function** of each applicable safeguard must match the protection objective.
+If a policy requires every unauthorized read to be blocked, a detector that merely observes the read does not satisfy that policy even when it covers every path. A stronger **structural necessity** for that prevention claim is \(E(p,s,t)\ne\varnothing\) for every relevant unauthorized-read path in the declared scope. **Even that condition is not sufficient**: the applicable enforcement controls must make the correct decisions and remain trustworthy under the tested conditions. The **function** of each safeguard must match the protection objective.
 
 ## Worked coverage matrix: document service
 
@@ -62,7 +62,7 @@ Consider an invented application with a protected document stored in a database.
 | P3: emergency database maintenance | Not traversed | Not traversed | Applicable under its special role | Privileged legitimate operations have a different policy and risk |
 | P4: offline backup restore | Not traversed | Not traversed | May not apply to restored copy | An additional protection boundary may be required |
 
-The table describes **intended applicability** rather than demonstrated effect. C3 allowing an authorized database account to retrieve a record is not proof that every returned document is authorized to its ultimate recipient. P4 may be entirely missing from a design diagram centered only on live requests.
+The table describes **intended applicability**, not demonstrated effect, and treats C3 as a *database identity check*, not an object-authorization system. A valid service account can reach data on behalf of a user whom that service has not properly authorized. C3 allowing an authorized database account to retrieve a record is therefore not proof that every returned document is authorized to its ultimate recipient. P4 may be entirely missing from a design diagram centered only on live requests.
 
 This case illustrates why one component can be correctly implemented and still fail to cover a policy claim that was stated too broadly.
 
@@ -131,6 +131,6 @@ The requirement to substantiate coverage belongs to the assurance argument. This
 - [NIST SP 800-53 Rev. 5, Release 5.2.0](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final), SC-7 boundary protection and control-family context; [SP 800-53A Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/a/r5/final), assessment rather than listing.
 - [MITRE D3FEND FAQ](https://d3fend.mitre.org/faq/), countermeasure technique relationships, explicitly not a proof of effectiveness or prescriptive prioritization.
 
-**Editorial limitations:** The paths, controls, set notation and table are invented and not a demonstration of an actual system, complete path inventory or correctly enforced protection. No assumption that every threat uses a network interface is justified. This manuscript is **Draft / References listed** until the next separate claim-led Review 09. Full passage verification, independent expert acceptance, taxonomy ratification and Published status remain open.
+**Editorial limitations:** The paths, controls, set notation and table are invented and not a demonstration of an actual system, complete path inventory or correctly enforced protection. No assumption that every threat uses a network interface is justified. [Technical Review 09](../PILOT-TECHNICAL-REVIEW-09.md) separately documents seven material claim groups, including inspected attack-surface source text and the corrected enforcement-versus-observation coverage distinction. This article is **Reviewed (model-assisted) / Core claims checked**, not a proof of comprehensive real-world path coverage, fully source-Verified, independently accepted, taxonomy-ratified or Published.
 
 [Security Foundations](../README.md) · [Area index](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

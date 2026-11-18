@@ -3,7 +3,7 @@
 **Candidate subject:** SF-07-04 · Security Controls & Defense Mechanisms  
 **Working area:** [Security Controls & Defense Mechanisms](README.md) · Fundamentals-style directory structure adopted; precise subject ownership provisional  
 **Artifact:** Substantive working knowledge article, not an approved canonical publication or implementation standard  
-**Development state:** Draft · **Source-review state:** References listed; primary-source scope consulted during authoring; separate claim-led Technical Review 09 pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 09](../PILOT-TECHNICAL-REVIEW-09.md), 8 article-specific material claim groups; full source verification and independent expert acceptance pending  
 **Architecture:** [Candidate Inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Coverage & Gaps Review SG-08](../COVERAGE-AND-GAPS-REVIEW-03.md) · [Working Ownership](../CANONICAL-OWNERSHIP-REGISTER.md)
 
 ## Defense in depth is coordinated protection, not a count of products
@@ -43,7 +43,7 @@ For a model of possible loss paths \(\mathcal{P}\), let \(B(p)\) be the set of p
 \forall p\in\mathcal{P}_{\mathrm{modeled}},\quad B(p)\neq\varnothing.
 \]
 
-This is an **authored set model**, not a NIST formula or proof that controls are effective. It only says at least one claimed applicable barrier intersects every modeled path. It does **not** say:
+This is an **authored set model**, not a NIST formula or proof that controls are effective. It only says at least one claimed applicable barrier intersects every modeled path. If a path intersects **only a detector that reports after the loss**, this structural statement may still be true while the stated **prevention** objective is false. Distinguish barrier **presence**, applicable **function**, and independently supported **effectiveness**. It does **not** say:
 - the modeled path set includes every real attack route;
 - a barrier actually prevents loss or is active in the relevant conditions;
 - the same barrier is sufficiently trustworthy;
@@ -75,7 +75,7 @@ This is a **conceptual path**, not a live system or proof that every access trav
 
 Two independent policy enforcement components might both query the **same compromised policy store**. Two authentication stages might accept the **same forged credential**. Different vendors might rely on the **same cloud control plane**. Such cases are distinct from a truly independent layer with its own trust assumptions.
 
-**Diversity** means varying relevant structures, implementations, operating environments, control flows or functions to avoid uniform failure. It is useful only when the relevant failure or attack assumptions differ in a way that matters. NIST SP 800-160 Vol. 1 Rev. 1 **E.11** and Vol. 2 Rev. 1 **§D.5.2.5**, printed p. 126 / PDF index 141, discuss diversity as a means to reduce common-mode vulnerabilities, while cautioning about additional attack surface and lifecycle cost.
+**Diversity** means varying relevant structures, implementations, operating environments, control flows or functions to avoid uniform failure. It is useful only when the relevant failure or attack assumptions differ in a way that matters. NIST SP 800-160 Vol. 1 Rev. 1 **E.11, Diversity (Dynamicity)**, printed p. 89 / PDF page index 104, describes variation in structure, behavior, data and control flow. Vol. 2 Rev. 1 **§D.5.2.5, Plan and Manage Diversity**, printed p. 126 / PDF index 141, discusses reduced homogeneity, **apparent diversity** where underlying components are identical, and possible increases in attack surface, cost and configuration inconsistency. These are engineering design considerations, not proof that different implementations fail independently.
 
 Two products with different logos and identical underlying code or administrators may not be meaningfully diverse.
 
@@ -91,7 +91,7 @@ P(E_1\cap E_2)=P(E_1)\,P(E_2\mid E_1)
 
 when the conditional probability is defined. It becomes \(P(E_1)P(E_2)\) only if the events are independent under the *specified distribution*. The same stolen administrator token, shared configuration flaw or root dependency can cause both safeguards to fail together.
 
-**Worked hypothetical:** If an explicitly stipulated model gives \(P(E_1)=0.2\) and \(P(E_2\mid E_1)=0.6\), the probability of simultaneous bypass is \(0.12\), **not** \(0.04\). The difference illustrates conditional dependence. These invented probabilities are not measured protective effectiveness, attacker behavior forecasts or evidence about a product.
+**Worked hypothetical:** If an explicitly stipulated model gives \(P(E_1)=0.2\) and \(P(E_2\mid E_1)=0.6\), the probability of simultaneous bypass is \(0.12\), **not** \(0.04\). The difference illustrates conditional dependence. To show the assumptions are mutually consistent even if each bypass has a **20% marginal probability**, a hypothetical joint distribution can assign **12% to both bypassed, 8% to only E1, 8% to only E2 and 72% to neither**. Then \(P(E_1)=P(E_2)=0.2\), but \(P(E_2\mid E_1)=0.6\); marginal bypass rates alone do **not** justify multiplying the rates. These invented probabilities are not measured protective effectiveness, attacker behavior forecasts or evidence about a product.
 
 Even independent bypass events do not prove a system's total security: an unmodeled third path could avoid both barriers entirely. Risk probabilities belong to [Security Risk & Uncertainty](../security-risk-uncertainty/README.md), not to a universal "defense depth score."
 
@@ -139,12 +139,12 @@ A security design can fail because an attacker found an alternate route, because
 
 **Primary source starting points:**
 
-- [NIST SP 800-160 Vol. 1 Rev. 1 (final 2022)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-160v1r1.pdf), Appendix **E.9 Defense in Depth**, printed p. 88 / PDF index 103, and **E.11 Diversity**, printed p. 89 / PDF index 104; rendered pages inspected. These are *engineering design principles*, not product certifications.
+- [NIST SP 800-160 Vol. 1 Rev. 1 (final 2022)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-160v1r1.pdf), Appendix **E.9 Defense in Depth**, printed p. 88 / PDF index 103, and **E.11 Diversity (Dynamicity)**, printed p. 89 / PDF index 104; both pages re-inspected for this second-pass review. These are *engineering design principles*, not product certifications.
 - [NIST SP 800-160 Vol. 2 Rev. 1 (final 2021)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-160v2r1.pdf), Appendix D **§§D.5.2.4–D.5.2.5**, printed pp. 125–126 / PDF indexes 140–141, and **Table D-15**, printed p. 136 / PDF index 151; rendered pages inspected. Its named cyber-resiliency techniques are source-specific.
 - [NIST SP 800-53 Rev. 5, Release 5.2.0 (August 2025)](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final), security/privacy control catalog, including architecture (PL-8) and boundary protection (SC-7) constructs. A listed control is not a measurement of effectiveness.
 - [NIST SP 800-53A Rev. 5, Release 5.2.0](https://csrc.nist.gov/pubs/sp/800/53/a/r5/final), control assessment guidance, distinct from a control's mere listing.
 - [MITRE D3FEND FAQ](https://d3fend.mitre.org/faq/), taxonomy of defensive countermeasure techniques; its maintainers explicitly state the knowledge graph does **not** prescribe, prioritize or evaluate effectiveness.
 
-**Editorial limitations:** The four-layer path, probabilities, coverage notation and control interactions are invented teaching examples with stated assumptions. Neither their existence nor official source references establishes a certified design, a deployed control's efficacy or any quantitative attack likelihood. This is a **Draft / References listed** manuscript. A separate source-led Review must verify the original NIST design-principle passages, equations, bypass interpretation, source versions and SF-11-05 ownership before any Reviewed promotion. Full claim-to-passage review, independent expert acceptance, taxonomy ratification and Published status remain open.
+**Editorial limitations:** The four-layer path, probabilities, coverage notation and control interactions are invented teaching examples with stated assumptions. Neither their existence nor official source references establishes a certified design, a deployed control's efficacy or any quantitative attack likelihood. The separate [Technical Review 09](../PILOT-TECHNICAL-REVIEW-09.md) documents eight bounded material claim groups, inspected NIST design-principle passages, a corrected conditional-bypass distribution and the SF-07/SF-11 ownership distinction. This manuscript is **Reviewed (model-assisted) / Core claims checked**, not fully source-Verified, field-certified, independently peer-reviewed, permanently canonical-approved or Published.
 
 [Security Foundations](../README.md) · [Area index](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

@@ -3,12 +3,12 @@
 **Candidate subject:** SF-07-06 · Security Controls & Defense Mechanisms  
 **Working area:** [Security Controls & Defense Mechanisms](README.md) · Approved Fundamentals-style directory pattern; individual subject ownership provisional  
 **Artifact:** Substantive working reference, not a canonical publication or a guide to attacking real systems  
-**Development state:** Draft · **Source-review state:** References listed; primary-source scopes consulted; separate claim-led Technical Review 09 pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 09](../PILOT-TECHNICAL-REVIEW-09.md), 7 article-specific material claim groups; full source verification and independent expert acceptance pending  
 **Architecture:** [Working subject inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Coverage review SG-08](../COVERAGE-AND-GAPS-REVIEW-03.md)
 
 ## A control can be present without providing its claimed protection
 
-A security control may be correctly installed and visible in an inventory while the intended security property is still violated. Explaining that outcome requires distinguishing **bypass**, **failure**, **evasion**, **misconfiguration**, and **non-coverage** rather than treating every adverse event as an attack on the control itself.
+A security control may be correctly installed and visible in an inventory while the intended security property is still violated. **A policy-authorized exception path can also avoid a usual safeguard without establishing a security violation**; whether the intended protection has been lost depends on the actual rule, exception authority, operating state and affected interests. Explaining that outcome requires distinguishing **bypass**, **failure**, **evasion**, **misconfiguration**, and **non-coverage** rather than treating every adverse event as an attack on the control itself.
 
 - **Bypass:** an operation reaches an effect through a route or operating condition that avoids the expected safeguard's mediation or constraint. It may be intentional or accidental.
 - **Failure:** a control is unable to provide its specified protective function under the actual conditions. Failure can arise from a fault, an incorrect dependency, a design flaw, or deliberate interference.
@@ -42,7 +42,7 @@ Each claim has a different **observation and proof obligation**. A legitimate us
 
 A bypass route need not defeat the cryptography or software logic inside a control. Suppose a hypothetical user-facing API correctly enforces document authorization, while an internal maintenance service exposes the same data under a separate authorization rule. If the internal service can be misused by a subject not intended to have access, the original API check has not failed; the claimed **system-wide mediation** is incomplete.
 
-By contrast, an evasion scenario may involve behavior that traverses a detector's observable path but is not classified as suspicious under its current model. That can occur through different content representations, contextual differences, gaps in protocol parsing, timing, or incorrect assumptions about what "normal" behavior means. **An unclassified observation is not evidence of benign intent**, nor is it necessarily evidence of a deliberate evasion attempt.
+By contrast, an evasion scenario may involve behavior that traverses a detector's observable path but is not classified as suspicious under its current model. That can occur through different content representations, contextual differences, gaps in protocol parsing, timing, or incorrect assumptions about what "normal" behavior means. **An unclassified observation is not evidence of benign intent**, nor is it necessarily evidence of a deliberate evasion attempt. The latter adds an **actor-intent hypothesis** requiring separate evidence, not merely a false negative.
 
 A real analyst should keep distinct:
 - **absence of sensor coverage**;
@@ -65,7 +65,7 @@ A component's unavailable or degraded state can be handled by:
 
 These phrases only make sense when tied to **which action, protection property and consequence** are at issue. "Always fail closed" can produce unacceptable safety or availability harm in some systems; "always fail open" can expose confidential information or cause unauthorized control. A safe physical shutdown can reduce one kind of harm while violating an ordinary service-availability target.
 
-[NIST SP 800-160 Vol. 1 Rev. 1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-160v1r1.pdf), Appendix E, names **Protective Failure**, **Protective Recovery** and **Continuous Protection** as separate principles. The presence of one mode or a management override does not establish that all protection conditions survive a transition.
+[NIST SP 800-160 Vol. 1 Rev. 1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-160v1r1.pdf), Appendix E, names **Protective Failure**, **Protective Recovery** and **Continuous Protection** as separate principles. The presence of one mode or a management override does not establish that all protection conditions survive a transition. The source's *Continuous Protection* principle recognizes intentional disablement as an **exception to the stated period of required protection**, not universal permission for an unauthorized actor to disable a control. A legitimate exception still requires an explicitly justified protection policy and attention to any resulting harm.
 
 [Graceful Degradation and Safe Failure](../security-failure-resilience/README.md) is a **currently Inventoried candidate** for the general consequence and fallback-state meanings. This article instead asks how a particular safeguard's **protective claim** can fail in those states, without creating a second full resilience owner.
 
@@ -75,7 +75,7 @@ Imagine a fictional service that checks whether an employee may approve a paymen
 
 **Normal state:** The service asks the policy engine whether the employee can approve the specific transaction. Denials and permits are recorded.
 
-**Fault state A:** The policy engine is temporarily unreachable. The application refuses all requests. This may preserve the no-unauthorized-approval property, but it can interrupt critical legitimate approvals.
+**Fault state A:** The policy engine is temporarily unreachable. The application refuses all requests. Relative to the **declared authorization requirement and assumption that no other decision path exists**, this may prevent unauthorized approvals while interrupting legitimate ones. Rejection does **not** prove that every downstream component preserves confidentiality, integrity or safety.
 
 **Fault state B:** The application temporarily permits all requests to keep transactions flowing. Availability improves, but the original authorization guarantee is absent in this mode.
 
@@ -140,6 +140,6 @@ For example:
 - [MITRE ATT&CK: Defense Evasion](https://attack.mitre.org/tactics/TA0005/), adversarial tactic meaning, not proof of intent in a specific telemetry record.
 - [MITRE D3FEND FAQ](https://d3fend.mitre.org/faq/), nonprescriptive countermeasure categories and explicit effectiveness limitation.
 
-**Editorial limitations:** All incidents and architectures above are hypothetical and avoid practical exploitation directions. The meaning of bypass, evasion and failure is scoped to modeled requirements and observations, not a universal approved taxonomy. This is **Draft / References listed**, requiring a separate technical Review 09 with claim-source checks, counterexamples and coverage/owner-boundary validation before Reviewed promotion. No source-Verified, independently approved or Published state is asserted.
+**Editorial limitations:** All incidents and architectures above are hypothetical and avoid practical exploitation directions. The meaning of bypass, evasion and failure is scoped to modeled requirements and observations, not a universal approved taxonomy. [Technical Review 09](../PILOT-TECHNICAL-REVIEW-09.md) separately documents seven bounded material claim groups and corrections to exception paths, intent-dependent evasion, protective overrides and the fault-state example. This article is **Reviewed (model-assisted) / Core claims checked**, not a claim of universal fail-mode safety, source-Verified status, independent expert approval, permanent ownership or publication.
 
 [Security Foundations](../README.md) · [Area index](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
