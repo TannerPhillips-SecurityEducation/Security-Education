@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-01-08 · Security Meaning & Objectives  
 **Artifact type:** Working article pilot, not a ratified canonical subject  
-**Development state:** Draft · **Source review:** References listed; scoped technical audit pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (five material claim groups); complete source verification and qualified independent review remain open  
 **Architecture:** [Working candidate inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Ownership boundaries](../OWNERSHIP-BOUNDARIES.md)
 
 ## Related protection objectives are not interchangeable
@@ -102,5 +102,7 @@ This pilot describes **which objectives differ**. The ethical/governance subject
 - [NIST SP 800-160 Vol. 2 Rev. 1](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final), cyber-resiliency goals distinct from reliability and safety.
 
 **Limit:** NIST and ISO/IEC sources define terms for particular frameworks; they do not authorize importing one universal cross-domain taxonomy, prove a concrete product is safe/private, or substitute for jurisdiction-specific legal obligations. Complete source-passage validation and independent expert review remain outstanding.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 03](../PILOT-TECHNICAL-REVIEW-03.md). This remains a **pilot**, not a ratified canonical subject, source-Verified artifact or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md)
