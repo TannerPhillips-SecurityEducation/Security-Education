@@ -1,6 +1,6 @@
 # Security Foundations: Proposed Canonical Ownership Boundaries
 
-**Working edition:** v0.3 · November 18, 2026  
+**Working edition:** v0.4 · November 18, 2026  
 **Status:** Proposed, **not approved**. These are editorial routing recommendations, not formal knowledge-graph predicates or decisions to move existing content.
 
 ## Purpose
@@ -11,7 +11,7 @@ Use the [Established Security Models Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) 
 
 Security concepts may be **related** across articles without being ontologically identical. Each distinct explanation should have one canonical general home, with linked applications and distinct mechanism-specific homes. A Markdown link demonstrates navigation, **not** correctness of the claimed relationship.
 
-## Working overlap ledger (30 cases: original 25 plus 5 new cases)
+## Working overlap ledger (34 cases: original 25 plus 9 evidence-led additions)
 
 | Case | Canonical general meaning | Boundary and contextual ownership |
 | --- | --- | --- |
@@ -46,6 +46,11 @@ Security concepts may be **related** across articles without being ontologically
 | B-28: Side channel vs covert channel | **SF-04-08** owns the distinction between unintended observable side effects enabling inference and deliberate hidden communication between cooperating parties. | Network, Endpoint, Application, Industrial and other domains own concrete measurable timing, power, cache, protocol or storage mechanisms. A model of a side channel is not evidence of an actual leak. |
 | B-29: Cryptographic primitive vs composed protocol | **SF-09-09** owns general AEAD/nonce/key-binding/composition and replay-security obligations. | **SF-09-03/04/06/07** own primitive goals and key lifecycle; [Network](../../network/README.md), [Application](../../application/README.md), [Identity](../../identity/README.md) and other domains own specific protocols and deployments. Passing primitive tests is not protocol verification. |
 | B-30: Consolidated harm and attribution owners | **SF-02-05** now owns general adverse outcomes, consequences and harm, with legacy SF-02-06 as an alias; **SF-03-03** owns actor-intent hypotheses. | **SF-05-03** owns estimating loss for a risk scenario; **SF-10-08** owns evidence and attribution inference, absorbing the old SF-03-08 evidence scope. Do not mistake metadata attribution for proof of actor or motive. |
+
+| B-31: Threat/violation vs compromise vs incident handling | **SF-03/SF-04** own threat events and exploitation conditions; **SF-11-01** owns compromised state, loss of protected properties, and the difference between demonstration and suspicion. | **SF-10** owns evidence/attribution limits; [Operational Foundations](../operational-foundations/README.md) owns declaring, investigating and responding to incidents. An alert is not proof of system-wide compromise. |
+| B-32: Resilience goals vs recovery objectives vs executing restoration | **SF-11-04** owns anticipate/withstand/recover/adapt, bounded survivability and robustness; **SF-11-07** owns RTO/RPO/MTD meanings and trusted-restoration requirements. | [Fundamentals](../fundamentals/README.md) owns generic reliability/feedback; [Operational Foundations](../operational-foundations/README.md) owns actual continuity planning and incident recovery. Service availability after restart does not prove security-state restoration. |
+| B-33: Privacy harm vs confidentiality violation | **SF-01-08** owns the distinct protected objectives; **SF-02-05** owns harm to interests; **SF-12-08** owns rights, legitimacy and governance constraints. | A privacy violation can result from **authorized data processing**, without breach or unauthorized disclosure. Identity, Cloud, Application and other domains own implementations; privacy assessment procedures are Operational Foundations. |
+| B-34: Safety and human harm vs security availability/controls | **SF-01-08** owns safety/security/reliability distinctions; **SF-12-08** owns legitimacy and human-impact constraints; **SF-11** owns resilience and purposeful degradation. | [Industrial Knowledge](../../industrial/README.md) owns sector implementations and safety instrumentation. A safe shutdown may reduce availability; security control count is not safety assurance. The applicability of ISO/IEC Guide 51 and IEC 61508 is source-specific. |
 
 ## Cross-division routing examples
 
