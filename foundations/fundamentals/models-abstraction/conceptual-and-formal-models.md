@@ -96,7 +96,7 @@ A verified model can accurately prove a property that is irrelevant to stakehold
 
 ## Boundaries and unresolved coverage
 
-This article does not resolve general temporality [G-04](../COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks), the mathematical breadth decision G-01, or the AI/ML decision G-06. It introduces no mandated formal language, model checker, simulation engine, or additional subject heading.
+General [temporal concepts](temporal-concepts-and-models.md), [linear algebra](../mathematics-logic/linear-algebra-and-vector-spaces.md), [geometry](../mathematics-logic/geometry-and-spatial-reasoning.md), [topology](../mathematics-logic/topology-and-continuity.md), and [AI](../computation-algorithms/artificial-intelligence-foundations.md)/[machine learning](../computation-algorithms/machine-learning-foundations.md) now have distinct canonical owners. Those subjects do not automatically authorize one formal modeling language, model checker, or simulation engine as the universal standard.
 
 ### Sources
 
