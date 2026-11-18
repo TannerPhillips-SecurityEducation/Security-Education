@@ -21,7 +21,7 @@ The seven specialized [knowledge domains](../README.md#knowledge-domains) own th
 The **three divisions** are approved. Their **internal architecture states are not equal**:
 
 - Fundamentals has an approved governing architecture and twelve current approved navigation areas. Its subject inventory is living and revisionable.
-- Security Foundations is an approved division with a proposed internal area/subject architecture and substantive reviewed **pilot** articles. Pilot review does **not** ratify permanent canonical paths.
+- Security Foundations is an approved division whose **Fundamentals-style area/README/article directory pattern is explicitly adopted**. Its 12 current area names and 96 subject candidates remain provisional. Fourteen substantive working articles now live within area directories, reviewed in scoped audits; their semantic canonical ownership and publication are not automatically ratified.
 - Operational Foundations is approved as a division but has **no approved internal subject taxonomy**. Do not fabricate one to match sibling divisions.
 
 Proposed taxonomies, mathematical primitives, relationship predicates and fixed numbers of chapters, articles, areas or categories are **not** user-approved merely because they appear in working files. Preserve explicit user approval separately from agent recommendations and historical project proposals.
@@ -30,7 +30,7 @@ Proposed taxonomies, mathematical primitives, relationship predicates and fixed 
 
 **Approved governing principle:** [Hierarchy for navigation, knowledge graph for relationships](../RELATIONSHIPS.md). A directory is a useful place to discover knowledge, not an ontological assertion that everything beneath it is the same kind of entity.
 
-Do not copy Fundamentals' 12-area structure, Security Foundations' provisional area grouping or arbitrary wave sizes into another division. Build each structure from conceptual ownership, source-grounded scope and explicit approvals.
+**Use Fundamentals' navigational pattern** across developed Foundations corpora: division index → meaningful area directories → area README → substantive subject articles. **Do not copy its exact twelve categories, titles or subject quotas.** Security Foundations currently uses this pattern with provisional area membership; Operational Foundations has no authored taxonomy yet. Build and revise actual area identities from sources and explicit governance.
 
 A foundational concept gets **one general owner**. Other locations explain distinct contextual extensions and link to the owner without duplicating the complete definition.
 
