@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Physical & Electrical Principles](README.md)  
 **Approved subject heading:** Waves and frequency  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 02 audit](../WAVE-C-TECHNICAL-REVIEW-02.md); no independent human expert review
 
 ## Oscillation and propagation describe different behavior
 
@@ -79,6 +79,6 @@ This article does not prescribe a radio band, communications protocol, mechanica
 - [OpenStax University Physics Volume 1: Mathematics of Waves](https://openstax.org/books/university-physics-volume-1/pages/16-2-mathematics-of-waves).
 - [BIPM: The SI Brochure](https://www.bipm.org/en/publications/si-brochure).
 
-**Editorial status:** Substantive Draft. The ideal wave calculation and physical assumptions require a separate scoped claim-to-source and technical audit before promotion. No assessments or new headings introduced.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave C Batch 02 technical audit](../WAVE-C-TECHNICAL-REVIEW-02.md). Exhaustive source verification, independent expert peer review and final publication acceptance remain outstanding.
 
 [Physical & Electrical Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
