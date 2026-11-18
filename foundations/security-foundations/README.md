@@ -6,6 +6,12 @@
 **Internal architecture status:** Model-grounded working proposal **v0.3**, **not ratified**.  
 **Candidate coverage:** **Twelve provisional areas and 96 active candidate subjects** after four source-grounded additions and two consolidations. Both numbers remain flexible. **Fourteen source-led pilot articles have passed three scoped model-assisted reviews (70 material claim groups)** under [pilots](pilots/README.md); no permanent canonical subject tree has been ratified.
 
+## Contributor and Agent Operating Contract
+
+[**AGENTS.md: Security Foundations Editorial & Engineering Contract**](AGENTS.md) applies to this division and its descendants. It transfers the observed **architecture, canonical ownership, substantive authoring, source evidence, scoped technical-review, change-control, and validation discipline** from the [Fundamentals reference corpus](../fundamentals/README.md) while retaining this division's **unratified, flexible working taxonomy**.
+
+This file is a reusable **operating guide**, not authorization to claim new user approvals, automatically promote pilots to permanent canonical pages, or infer publication acceptance from green CI. It also requires reconciliation of current article and review states rather than carrying forward stale historical counts.
+
 ## Architectural documentation
 
 - [**Governing Architecture Proposal**](ARCHITECTURE.md): Definition, conceptual protection model, divisional scope, proposed knowledge areas, placement tests, and editorial requirements.
