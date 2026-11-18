@@ -1,15 +1,20 @@
 # Security Foundations | Working Article Register and Historical Pilot Paths
 
 **Division:** [Security Foundations](../README.md)  
-**Status:** **20 Reviewed (model-assisted), 0 Draft** across six scoped technical audits (**117 material claim groups**). None is fully source-Verified, permanently taxonomically ratified or Published.  
+**Status:** **20 Reviewed (model-assisted), 5 Draft** across six completed scoped reviews (**117 historical material claim groups**). Five newly authored Protected Interests, Assets & Harm drafts await their next separate technical review. None is Source-Verified, permanently canonical-approved or Published.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
-**Scope:** This working article index covers fourteen historically relocated pilots and six later area-first manuscripts, all now separately Reviewed. Substantive content resides inside provisional knowledge-area directories following the Fundamentals pattern. **Only the historical fourteen have `pilots/` navigation aliases**; later articles link directly to their area homes. Area identities and subject totals remain flexible.
+**Scope:** This working article index tracks **14 historically relocated articles and 11 later area-first manuscripts** (6 Reviewed and 5 currently Draft). The substantive content resides within working knowledge-area directories. Only the historical fourteen have legacy `pilots/` navigation aliases; later articles link to area homes without duplicate bodies. Internal area membership and candidate totals remain flexible.
 
 ## Actual working article locations and historical review register
 
 | Candidate ID | Working article | Development | Source review | Distinct conceptual question |
 | --- | --- | --- | --- | --- |
 | SF-01-01 | [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md) | **Reviewed (model-assisted)** | Core claims checked | What counts as a conditional security claim rather than an absolute label? |
+| SF-02-01 | [Stakeholders and protection needs](../protected-interests-assets-harm/stakeholders-and-protection-needs.md) | **Draft** | References listed; separate claim-led review pending | Whose protection needs legitimately shape security requirements? |
+| SF-02-02 | [Assets, resources, and protected interests](../protected-interests-assets-harm/assets-resources-and-protected-interests.md) | **Draft** | References listed; separate claim-led review pending | What is protected and how is it different from the protected interest? |
+| SF-02-04 | [Value, criticality, and dependencies](../protected-interests-assets-harm/value-criticality-and-dependencies.md) | **Draft** | References listed; separate claim-led review pending | How do context, dependencies and criticality affect asset significance? |
+| SF-02-05 | [Adverse outcomes, consequences, and harm](../protected-interests-assets-harm/adverse-outcomes-consequences-and-harm.md) | **Draft** | References listed; separate claim-led review pending | What distinguishes an adverse event, a loss, a consequence and realized harm? |
+| SF-02-07 | [Protection priorities and constraints](../protected-interests-assets-harm/protection-priorities-and-constraints.md) | **Draft** | References listed; separate claim-led review pending | How are conflicting protection demands constrained without imposing one universal ranking? |
 | SF-03-01 | [Threat Sources and Threat Events](../threats-hazards-adversarial-behavior/threat-sources-and-threat-events.md) | **Reviewed (model-assisted)** | Core claims checked | How do adversarial and non-adversarial threat sources differ from occurrences and consequences? |
 | SF-04-02 | [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md) | **Reviewed (model-assisted)** | Core claims checked | How do weakness, vulnerability, exposure, exploitation, severity and risk differ? |
 | SF-04-08 | [Side Channels, Covert Channels, and Unintended Information Leakage](../weaknesses-vulnerabilities-exposure/side-channels-covert-channels-and-unintended-information-leakage.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 05](../PILOT-TECHNICAL-REVIEW-05.md) | How do indirect secret-dependent effects differ from cooperating, policy-violating covert signaling and ordinary disclosure? |
@@ -32,7 +37,7 @@
 | SF-11-07 | [Recovery Objectives and Trusted Restoration](../security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) | Recovery-target measurement versus evidenced trusted restoration |
 | SF-12-08 | [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** | Core claims checked | Legitimate security authority, privacy rights, proportionality and human harm |
 
-**Record count:** **20 substantive Reviewed working manuscripts**: eight under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 material groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10), four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20), three under [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) (18), one under [Review 05](../PILOT-TECHNICAL-REVIEW-05.md) (10), and two under [Review 06](../PILOT-TECHNICAL-REVIEW-06.md) (19). **Total: 117 bounded material claim groups.** 76 of 96 working candidates lack substantive manuscripts; counts and taxonomy remain flexible.
+**Record count:** **20 substantive Reviewed (model-assisted) working articles** across [Reviews 01–06](../PILOT-TECHNICAL-REVIEW-06.md), covering **117 bounded material claim groups**, plus **5 Drafts** in [Protected Interests, Assets & Harm](../protected-interests-assets-harm/README.md) awaiting their own multi-article review. **71 of 96** current candidates lack an article. These are living development figures, not publication or taxonomy acceptance.
 
 ## Pilot technical review evidence
 

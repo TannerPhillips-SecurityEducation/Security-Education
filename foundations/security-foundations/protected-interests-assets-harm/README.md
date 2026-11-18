@@ -3,7 +3,7 @@
 **Division:** [Security Foundations](../README.md)  
 **Working area ID:** SF-02  
 **Architecture status:** **Provisional area membership and naming**, within a user-approved **Fundamentals-style directory architecture**. The number and names of areas and subjects can expand or contract.  
-**Current content:** **6 candidate subjects; 0 substantive articles** with existing scoped reviews; 6 without an article. No source-Verified or Published claims.
+**Current content:** **6 candidate subjects; 5 substantive Draft articles** and 1 candidate not yet authored. No article in this area is Reviewed (model-assisted), Source-Verified or Published; the next authoring-related batch must separately review all five Drafts.
 
 ## Scope and canonical ownership
 
@@ -15,14 +15,14 @@ The area may be renamed, split, consolidated, or relocated when stronger concept
 
 | ID | Proposed subject or actual article | Development and source state | Intended conceptual responsibility |
 | --- | --- | --- | --- |
-| SF-02-01 | Stakeholders and protection needs | **Inventoried / not authored** | Relate legitimate interests, obligations, and stakeholders to protection. |
-| SF-02-02 | Assets, resources, and protected interests | **Inventoried / not authored** | Distinguish valuable assets from the interests they serve. |
+| SF-02-01 | [Stakeholders and protection needs](stakeholders-and-protection-needs.md) | **Draft** · References listed; separate claim-led review pending | Relate legitimate interests, obligations, and stakeholders to protection. |
+| SF-02-02 | [Assets, resources, and protected interests](assets-resources-and-protected-interests.md) | **Draft** · References listed; separate claim-led review pending | Distinguish valuable assets from the interests they serve. |
 | SF-02-03 | Subjects, objects, and protected actions | **Inventoried / not authored** | Identify actors, resources, actions, and protected interactions. |
-| SF-02-04 | Value, criticality, and dependencies | **Inventoried / not authored** | Explain contextual importance and dependent protections. |
-| SF-02-05 | Adverse outcomes, consequences, and harm | **Inventoried / not authored** | Describe effects on protected interests, stakeholders and dependencies; risk-scenario consequence estimates remain SF-05-03. |
-| SF-02-07 | Protection priorities and constraints | **Inventoried / not authored** | Describe competing obligations and the conditions of acceptable protection. |
+| SF-02-04 | [Value, criticality, and dependencies](value-criticality-and-dependencies.md) | **Draft** · References listed; separate claim-led review pending | Explain contextual importance and dependent protections. |
+| SF-02-05 | [Adverse outcomes, consequences, and harm](adverse-outcomes-consequences-and-harm.md) | **Draft** · References listed; separate claim-led review pending | Describe effects on protected interests, stakeholders and dependencies; risk-scenario consequence estimates remain SF-05-03. |
+| SF-02-07 | [Protection priorities and constraints](protection-priorities-and-constraints.md) | **Draft** · References listed; separate claim-led review pending | Describe competing obligations and the conditions of acceptable protection. |
 
-**Review interpretation:** The 0 current articles have scoped model-assisted review evidence from [Security Foundations technical reviews](../pilots/README.md). These reviews are **not** independent peer review, complete clause-by-clause source verification or publication. **Inventoried** entries are coverage candidates, not missing files or failed articles.
+**Review interpretation:** Five substantive working articles have been authored in this area as **Draft / References listed**. None has inherited a model-assisted review from other areas. Their next authoring-related turn must be a separate **multi-article technical review** with individual claim groups, corrections and source boundaries before any promotion to Reviewed. No article is source-Verified, independently peer-reviewed, Published or taxonomy-ratified. SF-02-03 remains Inventoried pending a dedicated access/identity boundary decision.
 
 ## Development and relationships
 

@@ -1,6 +1,6 @@
 # Security Foundations: Architecture & Development Plan
 
-**Working edition:** v0.13 · November 18, 2026  
+**Working edition:** v0.14 · November 18, 2026  
 **Status:** Proposed plan; **no approval of internal taxonomy or article publication is asserted**  
 **Scope:** Security Knowledge → Foundations → Security Foundations  
 **Proposed inputs:** [Architecture](ARCHITECTURE.md) · [96-heading Flexible Working Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [34-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) · [30-group Established Model Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) · [Architecture Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md)
@@ -18,11 +18,11 @@ A complete article must explain not merely *what a term means*, but **why the pr
 | Measure | Current disposition |
 | --- | --- |
 | Approved divisions | Fundamentals; Security Foundations; Operational Foundations |
-| Security Foundations division | Approved; [Fundamentals-style directory structure](AREA-STRUCTURE-ADJUDICATION-03.md) adopted with 12 provisional area indexes and **20 substantive Reviewed (model-assisted)** working manuscripts |
+| Security Foundations division | Approved; [Fundamentals-style directory structure](AREA-STRUCTURE-ADJUDICATION-03.md) adopted with 12 provisional area indexes, now containing **25 substantive manuscripts** (20 Reviewed, 5 Draft) |
 | Internal Security Foundations taxonomy | **Not approved** |
 | Working knowledge areas | 12 **proposed** |
 | Working subject headings | **96 proposed**, revised from 94 by four additions and two consolidations; still flexible |
-| Final approved canonical Security Foundations articles | **0**; all twenty manuscripts have bounded internal model-assisted reviews, but permanent canonical ownership, full source verification and publication are not ratified |
+| Final approved canonical Security Foundations articles | **0**; 20 manuscripts have bounded internal model-assisted reviews and five are new Drafts, but permanent canonical ownership, full verification and publication are not ratified |
 | Substantive technical review of proposed future subject articles | **20 Reviewed (model-assisted) manuscripts** across six separate audits: [Reviews 01–05](pilots/README.md) cover 18 articles (98 claim groups), and [Review 06](PILOT-TECHNICAL-REVIEW-06.md) covers two cryptography articles (19 groups). Full clause-level source verification and independent expert acceptance remain open |
 | Specialized knowledge domains | Seven existing approved domain entries |
 | Formal relationship predicate vocabulary / graph engine | Neither approved nor implemented |
@@ -37,12 +37,12 @@ The subject inventory is a **candidate discovery and coverage instrument**, not 
 | Internal taxonomy | 12 proposed areas / **96 active proposed subjects**, both flexible and unratified |
 | Source map | **30 established source groups** identified with version and non-equivalence cautions |
 | Ownership | **34 working overlap cases** documented; not all individually approved |
-| Article development | **20 Reviewed (model-assisted), 0 Draft** substantive working area manuscripts; 76 candidate subjects have no article. The cryptography candidates [SF-09-02](cryptography-information-protection/randomness-entropy-and-nonces.md) and [SF-09-07](cryptography-information-protection/key-lifecycle-and-cryptographic-failures.md) completed the separate [Review 06](PILOT-TECHNICAL-REVIEW-06.md) |
+| Article development | **20 Reviewed (model-assisted), 5 Draft**, and 71 candidates not yet authored. The newly drafted SF-02 manuscripts are [Stakeholders and Protection Needs](protected-interests-assets-harm/stakeholders-and-protection-needs.md), [Assets, Resources, and Protected Interests](protected-interests-assets-harm/assets-resources-and-protected-interests.md), [Value, Criticality, and Dependencies](protected-interests-assets-harm/value-criticality-and-dependencies.md), [Adverse Outcomes, Consequences, and Harm](protected-interests-assets-harm/adverse-outcomes-consequences-and-harm.md), and [Protection Priorities and Constraints](protected-interests-assets-harm/protection-priorities-and-constraints.md) |
 | Review / publication | Six bounded technical audits ([01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), [06](PILOT-TECHNICAL-REVIEW-06.md)) checked **117 material claim groups** across 20 manuscripts; source-level verification, qualified human review and final publication acceptance remain pending |
 
-**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain historical and traceable. **Twenty Reviewed, zero Draft and 76 Inventoried** among 96 currently proposed candidates describe manuscript development, not architectural acceptance. Candidate counts remain flexible.
+**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain traceable. **Twenty Reviewed, five Draft and 71 Inventoried** among 96 provisional candidates describe manuscript development, not internal-taxonomy acceptance. Subject and area totals remain revisable.
 
-**Next source-led scope priorities:** [Technical Review 06](PILOT-TECHNICAL-REVIEW-06.md) now covers SF-09-02 and SF-09-07 after their separate Draft batch, including the NIST final/draft status distinction, entropy and nonce calculations, key cryptoperiod evidence, and the correction separating rewrapping from direct data re-encryption. With **no pending Drafts**, the next authoring-related work may select a **variable-sized coherent Draft batch** from remaining source-led priorities such as [SF-02-05 harm](protected-interests-assets-harm/README.md), [SF-03-05/06 adversarial behavior](threats-hazards-adversarial-behavior/README.md), or SF-07/11 defense-in-depth versus common-mode failure. Its following authoring turn must separately Review the newly drafted articles, and only then reconcile status. No internal taxonomy or publication acceptance is silently ratified.
+**Next source-led scope priorities:** Five coherent **SF-02 area-first Drafts** are now authored: SF-02-01, SF-02-02, SF-02-04, SF-02-05 and SF-02-07. **The immediate next authoring-related response must be Technical Review 07 covering all five**, with individual claim groups, NIST SP 800-160v1r1 stakeholder/asset-loss interpretation, CSF 2.0 stakeholder outcomes, FIPS 199's federal impact scope, NIST Privacy Framework 1.0's individual harms, ISO/IEC Guide 51's narrower safety scope, and verification of the Boolean dependency and formal tradeoff examples. Apply corrections, reconcile all status records, and run CI before drafting another batch. **SF-02-03 remains Inventoried** pending a separate access-control/subject-object boundary review, not because of a subject-count quota.
 
 ## 3. Engineering workstreams
 
