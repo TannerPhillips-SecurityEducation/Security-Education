@@ -1,9 +1,15 @@
 # Fundamentals | Model, Framework & Architecture Adjudication 01
 
 **Date:** November 18, 2026  
-**Status:** Working inventory architecture implemented; **new subject content remains Inventoried / Not reviewed**, not authored or Published.  
+**Status:** Historical architecture-adjudication snapshot; the seven initially Inventoried subjects were **subsequently authored and scoped-reviewed** under [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md). Full source validation and independent publication acceptance remain open.  
 **Inputs:** [Foundational Models Audit 01](FOUNDATIONAL-MODELS-FRAMEWORKS-ARCHITECTURES-AUDIT-01.md), [Coverage Gap Decisions](COVERAGE-GAP-DECISIONS.md), [Canonical Ownership Register](CANONICAL-OWNERSHIP-REGISTER.md), [Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md), and original canonical subject articles.  
 **Governance:** The 109-heading inventory was never a fixed target. Keep twelve currently approved **navigation areas**. Expand or contract individual subjects only where concept boundaries support it; do not claim this is a new formal ontology or graph-predicate set.
+
+## Post-adjudication execution update (November 18, 2026)
+
+**Current state after the subsequent Wave F technical audit:** All seven new subjects now have substantive canonical articles and documented **Reviewed (model-assisted) / Core claims checked** states. The [Wave F Technical Review 01](WAVE-F-TECHNICAL-REVIEW-01.md) checked **42 material claim groups** across the seven articles and separately records its evidence limits. The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) now tracks **116 Reviewed, 0 Draft, 0 Inventoried without article, 0 Published**. The twelve knowledge-area navigation groups remain unchanged.
+
+**Historical interpretation:** All tables and phrases below that say "new subjects Inventoried" or "article pending" describe the original **inventory-adjudication point in time**, before the subsequent authoring and technical review. They are preserved as a decision-history snapshot, not as a current-status claim. Stronger complete claim-to-source verification, independent human peer review and final publication acceptance are still outstanding.
 
 ## 1. Adjudicated subject-inventory change
 
