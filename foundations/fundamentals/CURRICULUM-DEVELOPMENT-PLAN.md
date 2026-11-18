@@ -1,8 +1,8 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v1.21; **116 tracked headings = 109 legacy Reviewed (model-assisted) articles + 7 Inventoried subjects without articles**; none Published; technical acceptance remains pending
-**Current inventory:** 12 approved knowledge areas; **116 tracked subjects** (109 historical Reviewed + 7 Inventoried). The original 109-heading plan remains a historical snapshot; the count may expand or contract.  
+**Document status:** Working plan v1.22; **116/116 substantive articles internally Reviewed (model-assisted)** following Wave A–F scoped audits; none source-level Verified or Published; independent human acceptance pending
+**Current inventory:** 12 approved knowledge areas; **116 authored and internally Reviewed subjects** (109 legacy plus 7 Wave F). The original 109-heading plan remains a historical snapshot; the count may expand or contract.  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
 ## Governing Definition and Classification
@@ -28,7 +28,7 @@ Here, *curriculum* means an organized body of reference knowledge with deliberat
 
 ## 2. Starting Position
 
-- **Current working snapshot:** 12 knowledge areas and **116 subjects**, including 7 newly Inventoried. The heading count may expand or contract through documented coverage/ownership review.
+- **Current working snapshot:** 12 knowledge areas and **116 Reviewed (model-assisted) subjects**, including seven added and reviewed under Wave F. The heading count may expand or contract through documented coverage/ownership review.
 - **Implemented today:** 12 area READMEs and a Fundamentals index listing their inventories.
 - **Implemented for architectural review:** [Canonical Ownership & Relationship Register](CANONICAL-OWNERSHIP-REGISTER.md) maps all **116 currently tracked headings** to conceptual scopes and illustrative links; [Concept Overlap & Coverage Review](CONCEPT-OVERLAP-REVIEW.md) catalogs 20 overlap groups and 10 candidate gaps.
 - **Not yet demonstrated:** fully developed canonical references, verified concept-level dependency relationships, complete seven-domain coverage, or satisfaction of all seven completion gates.
@@ -60,7 +60,7 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record
 
 Historical 109/109 Reviewed (model-assisted) refers only to the audited snapshot. Never equate it to automatic review of additions or merged replacements.
 
-## Execution Status: 109 legacy articles Reviewed, seven additional subjects Inventoried; publication gates open
+## Execution Status: 116/116 authored and internally Reviewed; publication gates open
 
 - **Wave A:** 26/26 subject articles authored and Reviewed (model-assisted).
 - **Wave B:** 28/28 subject articles authored and Reviewed (model-assisted).
@@ -68,17 +68,17 @@ Historical 109/109 Reviewed (model-assisted) refers only to the audited snapshot
 - **Wave D:** 18/18 subject articles authored and Reviewed (model-assisted), including the [54-family Software & Programming audit](WAVE-D-TECHNICAL-REVIEW-03-04.md).
 - **Wave E Operating System Principles:** All ten articles passed the [60-family Wave E OS technical audit](WAVE-E-TECHNICAL-REVIEW-01.md). Corrections addressed MIT OS documentation links and strengthened copy-on-write source grounding; model calculations, canonical boundaries and 35 distinct internal file destinations were checked.
 - **Wave E Communication & Distributed Systems:** All nine articles passed the [54-family Wave E Communication technical audit](WAVE-E-TECHNICAL-REVIEW-02.md). Corrections strengthened TCP byte-stream, reserved address/name, linearizability and asynchronous-consensus sources and limits. The mathematical examples and 28 distinct internal file destinations were checked.
-- **New working model inventory (post-Wave E):** [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) adds seven **Inventoried** subjects in Mathematics & Logic (3), Models & Abstraction (1), Digital Systems & Hardware (1), and Computation & Algorithms (2). None has a canonical article or Review/Published status.
-- **Current portfolio reconciliation:** **116 headings** total: **109 historically Reviewed (model-assisted), 7 Inventoried without articles, 0 Draft, 0 Published**. The [Development & Verification Register v1.17](DEVELOPMENT-VERIFICATION-REGISTER.md) records the distinct source states; none of the seven new subjects inherits a Core claims checked status.
+- **Wave F authored and internally reviewed:** [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) added seven subjects in four existing areas; all seven now have substantive articles and passed the [42-family Wave F audit](WAVE-F-TECHNICAL-REVIEW-01.md). Source state is Core claims checked, not complete Verified or final Published.
+- **Current portfolio reconciliation:** **116 headings/116 canonical articles internally Reviewed (model-assisted), 0 Draft, 0 Inventoried without article, 0 Published**. The [Development & Verification Register v1.19](DEVELOPMENT-VERIFICATION-REGISTER.md) records separate legacy Wave A–E and Wave F evidence. Core claims checked is not exhaustive source Verified.
 - **Preliminary publication-readiness check completed:** [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) checked the pre-report snapshot of **152 Fundamentals Markdown files**, **2,681 inline relative Markdown-link occurrences**, all twelve area indexes, **109 canonical paths**, and **55 fragment-link occurrences** resolving to 32 distinct heading targets. No missing internal file destinations or heading targets were found within the stated parser and snapshot scope.
 - **Publication remains pending:** Execute the seven [Fundamentals completion gates](README.md#completion-gates), especially complete claim-to-source traceability, editorial/technical depth and relationship consistency, external URL/fragment checks, seven-domain coverage and independent qualified human expert peer review.
-- **Architecture placement adjudicated:** G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML now have Inventoried canonical owners in the same 12 areas. **Substantive article authoring and verification remain open**. No Knowledge Checks, Practical Assessments, quizzes or mandated vendors were added.
+- **Architecture scope and scoped authoring/review completed:** G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML now have canonical owners and internally Reviewed articles. **Complete source-passage verification and final publication acceptance remain open**. No Knowledge Checks, Practical Assessments, quizzes or mandated vendors were added.
 
-**Next execution:** Author seven source-led F-01-09/10/11, F-03-11, F-06-10 and F-07-10/11 canonical articles, then perform scoped technical review and cross-links. Independently strengthen source verification of the legacy 109 articles, and complete publication gates, external reference checking and human expert acceptance.
+**Next execution:** Move from scoped article-level review to corpus-wide publication-readiness work: stronger source-passage traceability across all 116 articles, external-reference freshness and anchors, model/architecture relationship consistency, seven-domain coverage, editorial depth and qualified independent expert review.
 
 ## Architecture Adjudication and New-Subject Execution
 
-The [2026-11-18 model-architecture adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) reconciles fourteen original FMA cases: **7 newly Inventoried subjects, 9 deeper-treatment decisions, no subject removals**, and 12 knowledge areas unchanged. The next authoring work begins from the seven new canonical scopes, one article per new heading if appropriate after evidence gathering. Source verification and an accurate internal-link review are prerequisites to marking any new subject Reviewed. The 109/109 audited Wave A–E results apply to the **legacy snapshot only**.
+The [2026-11-18 model-architecture adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) resolved fourteen FMA cases into seven additional subjects and nine deeper-treatment decisions, with no removals and the twelve-area navigation intact. All seven subjects have since been authored and passed the [Wave F 42-family scoped technical audit](WAVE-F-TECHNICAL-REVIEW-01.md). **The 109/109 audited Wave A–E results remain historical**, while Wave F separately substantiates the seven additions. Comprehensive source verification and final publication acceptance remain pending.
 
 ## 4. Work Packages and Stage Gates
 
@@ -228,7 +228,7 @@ No graph database or universal front-matter schema is required at this stage. Pr
 16. **Completed:** Wave E's ten Operating System Principles articles passed the [60-family scoped technical audit](WAVE-E-TECHNICAL-REVIEW-01.md).
 17. **Completed:** Wave E's nine Communication & Distributed Systems articles passed the [54-family scoped technical audit](WAVE-E-TECHNICAL-REVIEW-02.md). All **109/109 Fundamentals headings** are authored and internally Reviewed (model-assisted).
 18. **Completed preliminary navigation verification:** [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) recorded 152 files, 2,681 relative-link occurrences, zero missing file targets, and 32 valid distinct fragment targets.
-19. **Working adjudication:** [Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) assigns seven new subject owners for G-01/G-04/G-06 and Computer Architecture Models. The **116-heading inventory** is not publication-complete until seven new articles and all Fundamentals gates are satisfied.
+19. **Completed scoped Wave F review:** Seven model-grounded additional subjects were authored and passed the [Wave F Technical Review 01](WAVE-F-TECHNICAL-REVIEW-01.md) (42 material claim groups). The **116-heading inventory** remains not publication-complete until the Fundamentals gates, full source evidence and independent acceptance are satisfied.
 
 Production waves guide authors, **not reader prerequisites**. Knowledge Checks and Practical Assessments remain excluded.
 
@@ -263,6 +263,7 @@ Production waves guide authors, **not reader prerequisites**. Knowledge Checks a
 - [Wave E Authoring Verification (19 draft references)](WAVE-E-AUTHORING-VERIFICATION.md)
 - [Wave E Operating System Principles Technical Review (60 claim families)](WAVE-E-TECHNICAL-REVIEW-01.md)
 - [Wave E Communication & Distributed Systems Technical Review (54 claim families)](WAVE-E-TECHNICAL-REVIEW-02.md)
+- [Wave F Model & Architecture References Technical Review (42 claim families)](WAVE-F-TECHNICAL-REVIEW-01.md)
 - [Publication Readiness Audit 01: Corpus Inventory and Internal Navigation](PUBLICATION-READINESS-AUDIT-01.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
