@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Physical & Electrical Principles](README.md)  
 **Approved subject heading:** Analog and digital signals  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 02 audit](../WAVE-C-TECHNICAL-REVIEW-02.md); no independent human expert review
 
 ## A signal is a varying physical or modeled quantity carrying information
 
@@ -79,6 +79,6 @@ This article introduces no mandated modulation scheme, converter, radio protocol
 - [MIT 6.003: Sampling and Quantization, lecture notes index](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/pages/lecture-notes/).
 - [OpenStax University Physics Volume 1: Traveling Waves](https://openstax.org/books/university-physics-volume-1/pages/16-1-traveling-waves).
 
-**Editorial status:** Substantive Draft. The sampling and quantization examples are stipulated; theorem conditions, physical caveats and numbers require a separate scoped technical/source review.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave C Batch 02 technical audit](../WAVE-C-TECHNICAL-REVIEW-02.md). Exhaustive source verification, independent expert peer review and final publication acceptance remain outstanding.
 
 [Physical & Electrical Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
