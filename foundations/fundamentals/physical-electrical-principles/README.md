@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Six of nine headings authored (three Reviewed model-assisted; three Draft); three not yet authored  
+**Content status:** All 9 approved subjects authored; 6 Reviewed (model-assisted), 3 Draft; independent human review and final publication acceptance pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -25,26 +25,22 @@ Physical processes and electrical mechanisms that underpin digital systems, sens
 
 | Approved subject | Canonical reference | Development state |
 | --- | --- | --- |
-| Matter and energy | [Matter and Energy](matter-and-energy.md) | Reviewed (model-assisted) |
+| Matter and energy | [Matter And Energy](matter-and-energy.md) | Reviewed (model-assisted) |
 | Electricity | [Electricity](electricity.md) | Reviewed (model-assisted) |
 | Electrical circuits | [Electrical Circuits](electrical-circuits.md) | Reviewed (model-assisted) |
-| Electronics | [Electronics](electronics.md) | Draft |
-| Analog and digital signals | [Analog and Digital Signals](analog-and-digital-signals.md) | Draft |
-| Waves and frequency | [Waves and Frequency](waves-and-frequency.md) | Draft |
-| Sensors and actuators | Not authored | Inventoried |
-| Signal conversion | Not authored | Inventoried |
-| Physical control mechanisms | Not authored | Inventoried |
+| Electronics | [Electronics](electronics.md) | Reviewed (model-assisted) |
+| Analog and digital signals | [Analog And Digital Signals](analog-and-digital-signals.md) | Reviewed (model-assisted) |
+| Waves and frequency | [Waves And Frequency](waves-and-frequency.md) | Reviewed (model-assisted) |
+| Sensors and actuators | [Sensors And Actuators](sensors-and-actuators.md) | Draft |
+| Signal conversion | [Signal Conversion](signal-conversion.md) | Draft |
+| Physical control mechanisms | [Physical Control Mechanisms](physical-control-mechanisms.md) | Draft |
 
 ## Technical review and canonical boundaries
 
-The first three articles passed the scoped [Wave C Batch 01 24-family technical audit](../WAVE-C-TECHNICAL-REVIEW-01.md). The remaining three authored articles are Batch 02 substantive **Drafts**, requiring their own scoped technical/source reviews. Neither a git commit nor an authoritative reference list constitutes independent human peer review or publication acceptance.
+**Wave C authoring coverage: 9/9.** The earlier [Wave C Batch 01](../WAVE-C-TECHNICAL-REVIEW-01.md) and [Wave C Batch 02](../WAVE-C-TECHNICAL-REVIEW-02.md) audits establish scoped model-assisted review for their corresponding articles. The **nine newly authored Batch 03 articles across both Wave C areas remain Draft**, awaiting a separate scoped technical/source review.
 
-The area separates material and energy constraints; electrical quantity behavior; interconnected circuits; active/nonlinear electronic devices; signal representations; and wave propagation. These are approved navigational subject headings, not a new universal ontology or mandatory device taxonomy.
+The physical articles distinguish material/energy constraints, electrical quantities, circuit relationships, electronic devices, signal representations, wave propagation, sensors/actuators, conversion, and plant-level intervention. **Feedback and Control** owns general regulation, while this area owns physical realizations. G-05 signal processing is placed within existing approved headings without new categories.
 
-[Units and Quantities](../mathematics-logic/units-and-quantities.md) owns the general dimensional calculus; [Measurement](../scientific-analytical-reasoning/measurement.md) owns measurement uncertainty; [Digital Systems & Hardware](../digital-systems-hardware/README.md) owns specialized computing-hardware organization; [Feedback and Control](../systems-engineering/feedback-and-control.md) owns general regulation.
-
-The remaining subjects Sensors and Actuators, Signal Conversion, and Physical Control Mechanisms are still inventoried without articles. G-05 signal processing uses its previously assigned coverage path. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved scope decisions.
-
-No Knowledge Checks, Practical Assessments or new subject areas were introduced.
+This area is a **navigation discipline**, not a new universal ontology or a mandate for any particular vendor, electrical implementation, chip architecture, operating system or data format. The original 12-area/109-heading approved architecture is unchanged. G-01, G-04 and G-06 remain unresolved scope questions; no Knowledge Checks or Practical Assessments are introduced.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
