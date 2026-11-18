@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Communication & Distributed Systems](README.md)  
 **Approved subject heading:** Communication models  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Communication & Distributed Systems 54-family audit](../WAVE-E-TECHNICAL-REVIEW-02.md); independent human review pending
 
 ## Communication requires an exchange contract
 
@@ -56,6 +56,6 @@ This article does not mandate a network topology, message broker, API transport,
 - [RFC 9293, TCP: ordered byte-stream service](https://www.rfc-editor.org/rfc/rfc9293.html).
 - [RFC 768, UDP: datagram service](https://www.rfc-editor.org/rfc/rfc768).
 
-**Editorial status:** Substantive Draft; exchange states, message patterns and outcome example require separate scoped technical review. Independent human review and final publication acceptance remain open.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E Communication & Distributed Systems 54-family technical audit](../WAVE-E-TECHNICAL-REVIEW-02.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Communication & Distributed Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
