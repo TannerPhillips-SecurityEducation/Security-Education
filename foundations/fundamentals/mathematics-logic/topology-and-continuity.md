@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Mathematics & Logic](README.md)  
 **Subject ID:** F-01-11  
-**Development status:** Draft; substantive article newly authored  
-**Source review:** References listed; scoped technical review pending  
+**Development status:** Reviewed (model-assisted; independent human acceptance not claimed)  
+**Source review:** Core claims checked; [Wave F 42-family scoped technical audit](../WAVE-F-TECHNICAL-REVIEW-01.md); comprehensive source-level verification not claimed  
 **Inventory authority:** [Model and Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md)
 
 ## Topology describes structure without requiring distance
@@ -73,6 +73,6 @@ However, the Euclidean distance from 0 to 1 is 1, while the distance from their 
 
 This is an introductory account of point-set topology, not an exhaustive treatment of algebraic or differential topology. Citations are starting points; independent source-passage verification and human peer review remain pending.
 
-**Editorial status:** Draft.
+**Editorial status:** Reviewed (model-assisted) under the [Wave F scoped technical review](../WAVE-F-TECHNICAL-REVIEW-01.md). Full source-passage verification, independent expert review and final publication acceptance remain open.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
