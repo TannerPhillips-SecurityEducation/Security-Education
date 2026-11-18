@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Partially authored; individual references have distinct review states  
+**Content status:** All 8 approved subjects authored and Reviewed (model-assisted); independent human review and final publication acceptance pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -20,24 +20,27 @@ Methods for producing, interpreting, and testing knowledge from observations and
 - Uncertainty and confidence
 - Validation and falsification
 
-## Content Development
-
-This area is a **navigation discipline**. Its headings organize coverage but do not constitute a separate list of conceptual primitives. Establish one canonical home for each underlying concept and link contextual realizations rather than repeating general definitions.
-
-Each subject will eventually receive a canonical explanation, key distinctions, mechanisms, relevant examples, explicit relationships, and credible references. These items are **not yet completed** merely by being listed.
-
-The content belongs in Fundamentals only insofar as it is domain-agnostic. Security-specific treatment belongs in Security Foundations; security practice belongs in Operational Foundations. Cross-domain references should link to canonical subjects rather than duplicate them.
-
 ## Canonical reference articles
 
-- [Uncertainty and confidence](uncertainty-and-confidence.md) — Draft; substantive source-based reference, article-level audit pending.
-- [Observation](observation.md) — Reviewed (model-assisted; [scope audit](../PILOT-CLAIM-SOURCE-AUDIT.md)); independent human acceptance not claimed.
-- [Measurement](measurement.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-02.md)); independent human acceptance not claimed.
-- [Evidence](evidence.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-01.md)); independent human acceptance not claimed.
-- [Hypotheses and experiments](hypotheses-and-experiments.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-03.md)); independent human acceptance not claimed.
-- [Deduction, induction, and abduction](deduction-induction-abduction.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-04.md)); independent human acceptance not claimed.
-- [Causality and correlation](causality-and-correlation.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-05.md)); independent human acceptance not claimed.
+| Approved subject | Canonical reference | Development state | Scoped review evidence |
+| --- | --- | --- | --- |
+| Observation | [Observation](observation.md) | Reviewed (model-assisted) | [50-claim-family audit](../PILOT-CLAIM-SOURCE-AUDIT.md) |
+| Measurement | [Measurement](measurement.md) | Reviewed (model-assisted) | [Wave A Batch 02 audit](../WAVE-A-TECHNICAL-REVIEW-02.md) |
+| Evidence | [Evidence](evidence.md) | Reviewed (model-assisted) | [Wave A Batch 01 audit](../WAVE-A-TECHNICAL-REVIEW-01.md) |
+| Hypotheses and experiments | [Hypotheses and experiments](hypotheses-and-experiments.md) | Reviewed (model-assisted) | [Wave A Batch 03 audit](../WAVE-A-TECHNICAL-REVIEW-03.md) |
+| Deduction, induction, and abduction | [Deduction, induction, and abduction](deduction-induction-abduction.md) | Reviewed (model-assisted) | [Wave A Batch 04 audit](../WAVE-A-TECHNICAL-REVIEW-04.md) |
+| Causality and correlation | [Causality and correlation](causality-and-correlation.md) | Reviewed (model-assisted) | [Wave A Batch 05 audit](../WAVE-A-TECHNICAL-REVIEW-05.md) |
+| Uncertainty and confidence | [Uncertainty and confidence](uncertainty-and-confidence.md) | Reviewed (model-assisted) | [Batch 06 audit](../WAVE-A-TECHNICAL-REVIEW-06.md) |
+| Validation and falsification | [Validation and falsification](validation-and-falsification.md) | Reviewed (model-assisted) | [Wave A Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md) |
 
-No approved subject heading is changed by article status. Links to area inventories remain for subjects without articles; the review evidence does not constitute independent human peer review or final publication.
+## Development and canonical boundaries
 
-[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
+**All 8/8 approved headings have substantive, internally Reviewed references.** The scoped technical/claim-to-source audits in the table document model-assisted review. They are **not** exhaustive verification of source material, independent human peer review or final publication acceptance.
+
+This area is an approved navigation discipline. Its headings organize domain-agnostic knowledge but do not ratify additional universal primitives, category families, a formal ontology or a mandatory technical system.
+
+Canonical ownership of general mathematical, analytical and modeling ideas remains here even when later articles apply those ideas to hardware, computation, software or distributed systems. The [Canonical Ownership Register](../CANONICAL-OWNERSHIP-REGISTER.md) records the working cross-area relationships.
+
+G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No Knowledge Checks, Practical Assessments, quizzes or scoring are included.
+
+[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
