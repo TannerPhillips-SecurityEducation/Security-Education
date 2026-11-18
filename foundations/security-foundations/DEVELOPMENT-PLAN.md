@@ -1,9 +1,9 @@
 # Security Foundations: Architecture & Development Plan
 
-**Working edition:** v0.2 · November 18, 2026  
+**Working edition:** v0.3 · November 18, 2026  
 **Status:** Proposed plan; **no approval of internal taxonomy or article publication is asserted**  
 **Scope:** Security Knowledge → Foundations → Security Foundations  
-**Proposed inputs:** [Architecture](ARCHITECTURE.md) · [94-heading Candidate Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [25-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) · [Established Models Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md)
+**Proposed inputs:** [Architecture](ARCHITECTURE.md) · [96-heading Flexible Working Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [30-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) · [26-group Established Model Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) · [Architecture Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md)
 
 ## 1. Mission and deliverable
 
@@ -19,37 +19,50 @@ A complete article must explain not merely *what a term means*, but **why the pr
 | Security Foundations division | Approved, existing index only before this proposal |
 | Internal Security Foundations taxonomy | **Not approved** |
 | Working knowledge areas | 12 **proposed** |
-| Working subject headings | 94 **proposed** |
-| Canonical Security Foundations subject articles created by this architecture pass | **0** |
+| Working subject headings | **96 proposed**, revised from 94 by four additions and two consolidations; still flexible |
+| Final approved canonical Security Foundations articles | **0**; distinct proposed article pilots may be authored without ratifying the taxonomy |
 | Substantive technical review of the proposed future subject articles | Not started |
 | Specialized knowledge domains | Seven existing approved domain entries |
 | Formal relationship predicate vocabulary / graph engine | Neither approved nor implemented |
 
-The subject inventory is a **candidate discovery and coverage instrument**, not an immutable quota or authorization to create 94 article directories. The area IDs are planning references only.
+The subject inventory is a **candidate discovery and coverage instrument**, not an immutable quota or authorization to create 96 article directories. The area IDs are planning references only.
+
+## 2A. Progress and status separation (working)
+
+| Workstream | Current status |
+| --- | --- |
+| Division | Approved |
+| Internal taxonomy | 12 proposed areas / **96 active proposed subjects**, both flexible and unratified |
+| Source map | **26 established source groups** identified with version and non-equivalence cautions |
+| Ownership | **30 working overlap cases** documented; not all individually approved |
+| Article development | Controlled pilots permitted under [pilots/](pilots/README.md), **not** permanent canonical placement |
+| Review / publication | Source-passage verification, qualified independent human review, and publication acceptance separate from article creation |
+
+**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain traceable. An article pilot's completion does not change the candidate count unless a separate architectural change is recorded.
 
 ## 3. Engineering workstreams
 
 ### Workstream A: Scope approval, established-model reconciliation and canonical ownership
 
 - **Begin with the [Established Models Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md):** Test each area and material concept against the model's actual scope, unit of analysis, assumptions, sources, and limits. Do not copy a framework's categories into the subject tree solely because it is well known.
-- Review all 12 candidate areas and 94 proposed subjects for coverage, overlap, clarity, and correct granularity; merge, split, rename or remove as justified. Preserve administrative IDs through revisions until a different baseline is explicitly approved.
-- Resolve the [25 proposed ownership boundaries](OWNERSHIP-BOUNDARIES.md) with special care around identity, cryptography, risk assessment, security observations, privacy and safety.
-- Cross-check against the **109 approved Fundamentals headings**. Do not reopen the approved Fundamentals structure by stealth, and do not treat its internally Reviewed articles as fully published.
+- Reconcile the twelve provisional areas and 96 current candidates against established sources and real prose. **Both counts may expand or contract**; merge, split, rename, move, retire, or add subjects as evidence justifies. Preserve administrative IDs through revisions until a different baseline is explicitly approved.
+- Examine the [30 working ownership boundaries](OWNERSHIP-BOUNDARIES.md) with special care around identity, cryptography, risk assessment, security observations, privacy and safety.
+- Cross-check against the **120 currently tracked Fundamentals articles**, recognizing that this count can evolve. Do not reopen the approved Fundamentals structure by stealth, and do not treat its internally Reviewed articles as fully published.
 - Review the current [Operational Foundations](../operational-foundations/README.md) remit without inventing or approving its internal subject taxonomy.
 - Map relationships to the seven specialized domains using canonical function links, not duplicate technical definitions.
-- **Exit condition:** An explicitly approved Security Foundations governing definition, model-grounded area list, subject inventory and recorded unresolved exceptions. The existing 12/94 counts alone do not establish completeness.
+- **Exit condition:** An explicitly approved Security Foundations governing definition, model-grounded area list, subject inventory and recorded unresolved exceptions. The working 12/96 counts alone do not establish completeness.
 
 ### Workstream B: Reference and source mapping
 
 For each future approved subject, establish:
 
-0. The relevant **established models and source type** (formal model, explanatory model, heuristic, taxonomy, scoring system, control catalog or framework), or a documented reason a concept cannot be reduced to any one source model.
+1. The relevant **established models and source type** (formal model, explanatory model, heuristic, taxonomy, scoring system, control catalog or framework), or a documented reason a concept cannot be reduced to any one source model.
 
-1. Canonical definition and adjacent non-equivalent terms.
-2. Claims requiring proof, derivation or cited primary-source authority.
-3. Sources appropriate to the claim: original specifications, authoritative scientific/technical publications, or primary project documentation.
-4. Limits of applicability: threat model, assumptions, architecture, jurisdiction, time, uncertainty, exceptions and contradictory guidance.
-5. A source-to-claim ledger that distinguishes verified evidence from editorial interpretation.
+2. Canonical definition and adjacent non-equivalent terms.
+3. Claims requiring proof, derivation or cited primary-source authority.
+4. Sources appropriate to the claim: original specifications, authoritative scientific/technical publications, or primary project documentation.
+5. Limits of applicability: threat model, assumptions, architecture, jurisdiction, time, uncertainty, exceptions and contradictory guidance.
+6. A source-to-claim ledger that distinguishes verified evidence from editorial interpretation.
 
 Example source families: NIST SP 800-160 (systems security engineering and resilience), SP 800-30 (risk), SP 800-53 (control catalog, with active updates), SP 800-207 (zero trust), SP 800-63-4 (digital identity), NIST CSF 2.0 (organizational outcome framing), MITRE CWE (weakness), MITRE ATT&CK (adversary behavior). These references are **not** interchangeable, exhaustive, or necessarily generalizable outside their original scopes.
 
@@ -57,7 +70,7 @@ Example source families: NIST SP 800-160 (systems security engineering and resil
 
 ### Workstream C: Controlled article pilots
 
-After taxonomy approval, start with a deliberately varied sample to calibrate security-specific depth and boundary integrity. **Illustrative candidates, not a commitment to author before approval:**
+**Begin bounded article pilots before internal taxonomy ratification**, under [pilots/](pilots/README.md), to test terminology and conceptual ownership without creating an unapproved canonical area tree. Only later approval may determine final canonical paths. Source evidence and technical-review status are independent of that governance decision.
 
 | Pilot candidate | Why test it early |
 | --- | --- |
@@ -147,10 +160,10 @@ Do not instantiate a formal ontology, graph engine, vendor-specific learning pat
 ## 8. Immediate next decision package
 
 1. Review the proposed [governing definition and twelve categories](ARCHITECTURE.md).
-2. Adjudicate the [94 candidate headings](SUBJECT-INVENTORY-PROPOSAL.md), adjusting grain and placement to avoid duplication.
-3. Resolve [25 boundary cases](OWNERSHIP-BOUNDARIES.md) or mark them explicitly deferred.
-4. Adopt a final architecture baseline, **then** create the canonical subject structure and begin source-led pilot articles.
+2. Review the [96 active working candidates](SUBJECT-INVENTORY-PROPOSAL.md), allowing further justified expansion or contraction.
+3. Evaluate the [30 working boundary cases](OWNERSHIP-BOUNDARIES.md) and record unresolved collisions.
+4. Develop source-led **pilot articles now** under [pilots](pilots/README.md), with separate technical-review records. Ratify internal area/subject structure before promoting any pilot into a permanent canonical subject path.
 
-**Current disposition:** The architecture package is **implemented as a working proposal**. No new internal Security Foundations area or subject has been approved or published by this work.
+**Current disposition:** [Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md) implements a revised working architecture, not a ratified 12-area/96-subject taxonomy. Pilot texts, if written, remain pre-publication content and do not imply automatic editorial or expert acceptance.
 
 [Security Foundations](README.md) · [Foundations](../README.md) · [Security Knowledge](../../README.md)
