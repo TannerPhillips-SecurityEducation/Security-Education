@@ -1,9 +1,9 @@
 # Security Foundations: Governing Architecture Proposal
 
-**Edition:** v0.1 · November 17, 2026  
+**Edition:** v0.2 · November 18, 2026  
 **Status:** **Proposed; not ratified**  
 **Approved parent:** Security Knowledge → Foundations → Security Foundations  
-**Candidate inventory:** [12 knowledge areas and 94 subjects](SUBJECT-INVENTORY-PROPOSAL.md), all pending architectural approval  
+**Candidate inventory:** [12 knowledge areas and 94 subjects, revised v0.2](SUBJECT-INVENTORY-PROPOSAL.md), all pending architectural approval  
 **Repository constraints:** Hierarchy for navigation; knowledge graph through explicit links; no formal graph schema adopted; no Knowledge Checks or Practical Assessments.
 
 ## 1. Governing definition (proposed)
@@ -78,7 +78,7 @@ The grouping is proposed navigation, **not** the approved twelve-area Fundamenta
 | --- | --- |
 | 01. Security Meaning & Objectives | What must be protected, and which properties count? |
 | 02. Protected Interests, Assets & Harm | Whose interests matter and what loss would be adverse? |
-| 03. Threats & Adversarial Behavior | What actors or conditions could produce unwanted events? |
+| 03. Threats, Hazards & Adversarial Behavior | What actors or conditions could produce unwanted events, including non-adversarial causes? |
 | 04. Weaknesses, Vulnerabilities & Exposure | What conditions enable or amplify failures? |
 | 05. Security Risk & Uncertainty | How might harms occur and how uncertain are our judgments? |
 | 06. Trust, Identity & Authority Principles | On what grounds do entities and actions receive trust or permission? |
@@ -90,6 +90,25 @@ The grouping is proposed navigation, **not** the approved twelve-area Fundamenta
 | 12. Security Assurance, Governance & Accountability | What supports credible claims and legitimate decisions? |
 
 Full candidate headings and working scopes appear in the [Subject Inventory Proposal](SUBJECT-INVENTORY-PROPOSAL.md). No subject articles or implementation-specific directories are created merely by this proposal.
+
+## 4A. Established security models as primary conceptual anchors
+
+**Architecture requirement (proposed):** The division must use **existing, accurately characterized security models, theories, technical standards, and scholarly frameworks** to develop and test its concepts. The repo shall not invent a replacement security model just to obtain symmetrical navigation categories. The [Established Model & Framework Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) is the evidence-oriented review register and source map.
+
+The four examples below illustrate complementary scopes; they are **not a new security lifecycle**:
+
+| Concern | Established external anchors | Distinction |
+| --- | --- | --- |
+| **Protection properties** | CIA Triad; classical confidentiality/integrity models | A required property differs from a mechanism and from proof that the property holds |
+| **Threats and adversarial actions** | STRIDE; Diamond Model; MITRE ATT&CK; Unified Kill Chain; CAPEC | Threat class, intrusion event, tactic/technique, and ordered attack progression are different units of analysis |
+| **Weakness, risk and defense** | MITRE CWE; CVSS; NIST SP 800-30; D3FEND; NIST SP 800-53; Zero Trust | Weakness, vulnerability severity, contextual risk, defensive technique, control catalog and architecture are not equivalent |
+| **Observation, resilience and assurance** | Pyramid of Pain; NIST SP 800-160 Vol. 1 and Vol. 2; NIST CSF 2.0 | An indicator, inference, control claim, resilience capability and organizational outcome require distinct evidence |
+
+**Source precedence and classification:** Use original papers and current normative documents for model definitions. Identify whether each source is a formal model, explanatory model, heuristic, taxonomy, scoring system, technical catalog, engineering guidance, or operational framework. Record publication versions and limits. A framework's authority in its own scope does not make its internal structure the approved hierarchy of Security Foundations.
+
+**Key limits:** The CIA Triad is foundational but non-exhaustive; an ATT&CK tactic is not necessarily a temporal attack phase; the Unified Kill Chain is not an assertion that all attacks follow one sequence; CVSS Base describes severity rather than organizational risk; D3FEND does not independently establish control effectiveness; and the six NIST CSF functions are concurrent risk-management outcomes, not concept areas.
+
+**Architectural consequence:** The 12-area/94-subject inventory is **revisionable** and should be reconciled against established models before ratification. The vocabulary, assumptions and boundaries of published models can inform article scopes, but imported model categories must not automatically become new root directories or formal graph predicates.
 
 ## 5. Governing architectural requirements
 
@@ -180,6 +199,12 @@ Authoritative source starting points, not blanket endorsement of every proposed 
 - [MITRE ATT&CK](https://attack.mitre.org/resources/pre-introduction/), observed cyber-adversary behaviors.
 
 **Verification limit:** These documents ground the *choice to investigate* candidate concepts; they have not been used here to verify every future claim or certify the candidate taxonomy.
+
+## 9A. Required model-to-concept cross-references
+
+For a future Security Foundations article where an established model is material, document the model's original purpose, unit of analysis, represented concepts/relations, assumptions, supported security claims, important counterexamples, primary source/version, and explicit non-equivalences with adjacent models. An external model may inform multiple candidate areas; that is a **cross-link**, not duplicate conceptual ownership.
+
+Article development starts only after deciding the relevant canonical subject placement. The [proposed inventory](SUBJECT-INVENTORY-PROPOSAL.md) now includes v0.2 boundary refinements for harm/risk, exploitation/compromise, adversarial and non-adversarial threats, and evidentiary confidence versus risk uncertainty.
 
 ## 10. Architectural acceptance boundary
 
