@@ -63,6 +63,7 @@ No particular database, replication technology, cloud vendor, consensus algorith
 ### Sources
 
 - [MIT 6.5840: Distributed Systems](https://pdos.csail.mit.edu/6.5840/).
+- [Linearizability: A Correctness Condition for Concurrent Objects (original published result)](https://doi.org/10.1145/78969.78972).
 - [MIT 6.5840: Course Project Ideas and Consistency Models](https://pdos.csail.mit.edu/6.5840/project.html).
 - [MIT 6.1800: Computer Systems Engineering](https://catalog.mit.edu/subjects/6/).
 
