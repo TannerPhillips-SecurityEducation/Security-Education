@@ -41,7 +41,7 @@ Constants, cache behavior and small inputs may matter greatly in practice even w
 
 A data structure can sometimes make an individual operation expensive while bounding the total cost of many operations. A convincing amortized argument uses an accounting, aggregate, or potential method rather than an unsupported claim about what happens “on average.”
 
-[Probability and Statistics](../mathematics-logic/probability-and-statistics.md) owns probabilistic mathematics; [Computational Data Structures](README.md) owns how implementation structures influence operation costs.
+[Probability and Statistics](../mathematics-logic/probability-and-statistics.md) owns probabilistic mathematics; [Computational Data Structures](computational-data-structures.md) owns how implementation structures influence operation costs.
 
 ## Worked example: a divide-and-conquer recurrence
 
@@ -78,7 +78,7 @@ Whether P equals NP remains unresolved in the standard theory. This article neit
 
 Two procedures with the same `Θ(n log n)` growth can have different constant factors, memory locality, power demand or parallel overhead. A procedure with a worse asymptotic bound can be faster over a practical range of input sizes.
 
-[Computational Efficiency](README.md) retains the separate approved heading for applying resource tradeoffs in actual computational systems. [Memory and Storage](../digital-systems-hardware/memory-and-storage.md) owns the physical memory hierarchy; it does not redefine mathematical asymptotic notation.
+[Computational Efficiency](computational-efficiency.md) retains the separate approved heading for applying resource tradeoffs in actual computational systems. [Memory and Storage](../digital-systems-hardware/memory-and-storage.md) owns the physical memory hierarchy; it does not redefine mathematical asymptotic notation.
 
 ## Canonical scope
 
