@@ -3,7 +3,7 @@
 **Division:** [Security Foundations](../README.md)  
 **Working area ID:** SF-10  
 **Architecture status:** **Provisional area membership and naming**, within a user-approved **Fundamentals-style directory architecture**. The number and names of areas and subjects can expand or contract.  
-**Current content:** **8 candidate subjects; 1 substantive article** with existing scoped reviews; 7 without an article. No source-Verified or Published claims.
+**Current content:** **8 candidate subjects; 2 substantive articles** (1 Reviewed, 1 Draft); 6 without an article. No source-Verified or Published claims.
 
 ## Scope and canonical ownership
 
@@ -22,9 +22,9 @@ The area may be renamed, split, consolidated, or relocated when stronger concept
 | SF-10-05 | Benign, anomalous, suspicious, and malicious interpretations | **Inventoried / not authored** | Distinguish baseline deviation, suspicion, and intent claims; unknown remains valid. |
 | SF-10-06 | Evidence provenance and integrity | **Inventoried / not authored** | Explain source, transformation history, completeness, and authenticity of evidence. |
 | SF-10-07 | False positives, false negatives, and visibility gaps | **Inventoried / not authored** | Describe errors in judgments and limitations of observing systems. |
-| SF-10-08 | Evidentiary confidence, causality, and attribution limits | **Inventoried / not authored** | Distinguish recorded fact, security inference and unsupported certainty; risk-estimation confidence is treated separately in SF-05-04. |
+| SF-10-08 | [Evidentiary confidence, causality, and attribution limits](evidentiary-confidence-causality-and-attribution-limits.md) | **Draft** · References listed; scoped review pending | Distinguish recorded fact, security inference and unsupported certainty; risk-estimation confidence is treated separately in SF-05-04. |
 
-**Review interpretation:** The 1 current article has scoped model-assisted review evidence from [Security Foundations technical reviews](../pilots/README.md). These reviews are **not** independent peer review, complete clause-by-clause source verification or publication. **Inventoried** entries are coverage candidates, not missing files or failed articles.
+**Review interpretation:** The 1 Reviewed article has scoped model-assisted review evidence from [Security Foundations technical reviews](../pilots/README.md); the new Draft has reference starting points but no separate scoped audit. These are **not** independent peer review, complete clause-by-clause source verification or publication. **Inventoried** entries are coverage candidates, not missing files or failed articles.
 
 ## Development and relationships
 

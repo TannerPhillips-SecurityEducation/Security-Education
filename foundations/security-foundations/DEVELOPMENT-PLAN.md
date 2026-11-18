@@ -1,6 +1,6 @@
 # Security Foundations: Architecture & Development Plan
 
-**Working edition:** v0.7 · November 18, 2026  
+**Working edition:** v0.8 · November 18, 2026  
 **Status:** Proposed plan; **no approval of internal taxonomy or article publication is asserted**  
 **Scope:** Security Knowledge → Foundations → Security Foundations  
 **Proposed inputs:** [Architecture](ARCHITECTURE.md) · [96-heading Flexible Working Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [34-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) · [30-group Established Model Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) · [Architecture Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md)
@@ -18,11 +18,11 @@ A complete article must explain not merely *what a term means*, but **why the pr
 | Measure | Current disposition |
 | --- | --- |
 | Approved divisions | Fundamentals; Security Foundations; Operational Foundations |
-| Security Foundations division | Approved; [Fundamentals-style area structure](AREA-STRUCTURE-ADJUDICATION-03.md) now implemented with 12 provisional area indexes and 14 substantive working articles |
+| Security Foundations division | Approved; [Fundamentals-style area structure](AREA-STRUCTURE-ADJUDICATION-03.md) implemented with 12 provisional area indexes and 17 substantive working articles (14 Reviewed, 3 Draft) |
 | Internal Security Foundations taxonomy | **Not approved** |
 | Working knowledge areas | 12 **proposed** |
 | Working subject headings | **96 proposed**, revised from 94 by four additions and two consolidations; still flexible |
-| Final approved canonical Security Foundations articles | **0**; fourteen substantive working area articles are internally Reviewed, but their proposed canonical ownership and publication remain unratified |
+| Final approved canonical Security Foundations articles | **0**; fourteen area articles are internally Reviewed and three further articles are Draft, but none has approved permanent ownership or publication |
 | Substantive technical review of proposed future subject articles | **14 pilots Reviewed (model-assisted)** across [40 groups](PILOT-TECHNICAL-REVIEW-01.md), [10 groups](PILOT-TECHNICAL-REVIEW-02.md) and [20 groups](PILOT-TECHNICAL-REVIEW-03.md) checked; complete source-level and independent reviews pending |
 | Specialized knowledge domains | Seven existing approved domain entries |
 | Formal relationship predicate vocabulary / graph engine | Neither approved nor implemented |
@@ -37,12 +37,12 @@ The subject inventory is a **candidate discovery and coverage instrument**, not 
 | Internal taxonomy | 12 proposed areas / **96 active proposed subjects**, both flexible and unratified |
 | Source map | **30 established source groups** identified with version and non-equivalence cautions |
 | Ownership | **34 working overlap cases** documented; not all individually approved |
-| Article development | **Fourteen substantive Reviewed working area articles** in the [provisional area directory structure](README.md#working-knowledge-areas); [historical pilot paths](pilots/README.md) redirect, and 82 candidates have no manuscript |
+| Article development | **14 substantive Reviewed and 3 Draft working area articles** in the [provisional area directories](README.md#working-knowledge-areas); [historical pilot paths](pilots/README.md) preserve aliases for the original fourteen, and 79 candidate subjects have no manuscript |
 | Review / publication | [70-family cumulative pilot audits](PILOT-TECHNICAL-REVIEW-01.md) (40 in Review 01, [10 in Review 02](PILOT-TECHNICAL-REVIEW-02.md), [20 in Review 03](PILOT-TECHNICAL-REVIEW-03.md)) completed; complete source-passage verification, qualified human review, and publication acceptance remain open |
 
-**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain traceable. **Fourteen currently Reviewed pilots out of 96 working candidate subjects is a manuscript coverage indicator, not a percentage of architectural approval.** Pilot completion does not change the candidate count without a separately recorded conceptual decision.
+**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain traceable. **Fourteen Reviewed and three Draft articles within 96 working candidate subjects** reflect current manuscript development, not architectural approval. Pilot completion does not change the candidate count without a separately recorded conceptual decision.
 
-**Next source-led scope priorities:** [Coverage & Gaps Review 03](COVERAGE-AND-GAPS-REVIEW-03.md) identifies remaining piloting and content-depth work, especially recovery objectives, side/covert channels, evidence/attribution limits, compliance versus effectiveness, cryptographic key lifecycle and harm. It **does not** change either proposed count or claim ratification.
+**Next source-led scope priorities:** [Coverage & Gaps Review 03](COVERAGE-AND-GAPS-REVIEW-03.md) remains the dated rationale. SF-11-07 (recovery), SF-10-08 (evidentiary attribution) and SF-12-05 (compliance/effectiveness) now have **Draft** manuscripts requiring separate scoped technical reviews and stronger claim-to-passage checks. Remaining source-led priorities include side/covert channels, key lifecycle, adversarial behavior, harm, and defense-in-depth overlap review. This work **does not** ratify the proposed counts or subject ownership.
 
 ## 3. Engineering workstreams
 

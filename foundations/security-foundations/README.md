@@ -4,7 +4,7 @@
 
 **Division status:** Approved.  
 **Structural organization:** **Fundamentals-style division → area README → substantive area article** pattern explicitly adopted; individual area names, subject ownership and 96-candidate inventory remain **provisional and flexible**.  
-**Current coverage:** **12 provisional knowledge-area directories, 96 candidate subjects, 14 Reviewed (model-assisted) articles, 1 Draft, and 81 not yet authored**. The fourteen real articles now live within their respective areas; [historical pilot paths](pilots/README.md) redirect to those working homes. Three scoped audits checked 70 material claim groups. Neither the number of areas/subjects nor final publication status is fixed.
+**Current coverage:** **12 provisional knowledge-area directories, 96 candidate subjects, 14 Reviewed (model-assisted) articles, 3 Drafts, and 79 not yet authored**. All 17 substantive working articles now live inside their respective area directories; [historical pilot paths](pilots/README.md) redirect only the original 14 Reviewed references. The three existing scoped audits checked 70 material claim groups, not the new drafts. Neither the number of areas/subjects nor final publication status is fixed.
 
 ## Contributor and Agent Operating Contract
 
@@ -33,7 +33,7 @@ This file is a reusable **operating guide**, not authorization to claim new user
 - [**Coverage & Gaps Review 03**](COVERAGE-AND-GAPS-REVIEW-03.md): Reconciles the fourteen Reviewed pilots against 96 working subject candidates, identifies eight next subject/depth/overlap priorities, and separates knowledge gaps from unpiloted headings.
 - [**Source Crosswalk v0.3**](ESTABLISHED-MODEL-CROSSWALK.md): 30 evidence groups, including NIST Privacy Framework, ISO/IEC safety principles, recovery-objective guidance, current incident-response methods and earlier cryptographic/formal policy models.
 
-**Governance separation:** The division and **Fundamentals-style directory pattern** are accepted; the **names/membership of the twelve working areas and the 96 candidate subjects remain provisional and revisionable**. The fourteen substantive working articles are **Reviewed (model-assisted) / Core claims checked**, not source-Verified, independently Published or automatically approved as permanent canonical locations.
+**Governance separation:** The division and **Fundamentals-style directory pattern** are accepted; the **names/membership of the twelve working areas and the 96 candidate subjects remain provisional and revisionable**. Fourteen manuscripts are **Reviewed (model-assisted) / Core claims checked**; three newer manuscripts are **Draft / References listed**. None is source-Verified, independently Published, or automatically approved as a permanent canonical location.
 
 ## The governing distinction
 
@@ -49,21 +49,21 @@ The 12 areas below are **working navigation hypotheses**, not a forced reflectio
 
 ## Working knowledge areas
 
-| Area | Working knowledge area | Candidate subjects | Reviewed substantive articles | Not authored |
-| --- | --- | ---: | ---: | ---: |
-| 01 | [Security Meaning & Objectives](security-meaning-objectives/README.md) | 8 | 2 | 6 |
-| 02 | [Protected Interests, Assets & Harm](protected-interests-assets-harm/README.md) | 6 | 0 | 6 |
-| 03 | [Threats, Hazards & Adversarial Behavior](threats-hazards-adversarial-behavior/README.md) | 7 | 1 | 6 |
-| 04 | [Weaknesses, Vulnerabilities & Exposure](weaknesses-vulnerabilities-exposure/README.md) | 8 | 1 | 7 |
-| 05 | [Security Risk & Uncertainty](security-risk-uncertainty/README.md) | 8 | 1 | 7 |
-| 06 | [Trust, Identity & Authority Principles](trust-identity-authority-principles/README.md) | 9 | 1 | 8 |
-| 07 | [Security Controls & Defense Mechanisms](security-controls-defense-mechanisms/README.md) | 8 | 1 | 7 |
-| 08 | [Secure Design & Architecture](secure-design-architecture/README.md) | 9 | 1 | 8 |
-| 09 | [Cryptography & Information Protection](cryptography-information-protection/README.md) | 9 | 1 | 8 |
-| 10 | [Security Observation & Evidence](security-observation-evidence/README.md) | 8 | 1 | 7 |
-| 11 | [Security Failure & Resilience](security-failure-resilience/README.md) | 8 | 2 | 6 |
-| 12 | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | 8 | 2 | 6 |
-| **Total** | **12 provisional areas** | **96** | **14** | **82** |
+| Area | Working knowledge area | Candidate subjects | Reviewed substantive articles | Draft | Not authored |
+| --- | --- | ---: | ---: | ---: | ---: |
+| 01 | [Security Meaning & Objectives](security-meaning-objectives/README.md) | 8 | 2 | 0 | 6 |
+| 02 | [Protected Interests, Assets & Harm](protected-interests-assets-harm/README.md) | 6 | 0 | 0 | 6 |
+| 03 | [Threats, Hazards & Adversarial Behavior](threats-hazards-adversarial-behavior/README.md) | 7 | 1 | 0 | 6 |
+| 04 | [Weaknesses, Vulnerabilities & Exposure](weaknesses-vulnerabilities-exposure/README.md) | 8 | 1 | 0 | 7 |
+| 05 | [Security Risk & Uncertainty](security-risk-uncertainty/README.md) | 8 | 1 | 0 | 7 |
+| 06 | [Trust, Identity & Authority Principles](trust-identity-authority-principles/README.md) | 9 | 1 | 0 | 8 |
+| 07 | [Security Controls & Defense Mechanisms](security-controls-defense-mechanisms/README.md) | 8 | 1 | 0 | 7 |
+| 08 | [Secure Design & Architecture](secure-design-architecture/README.md) | 9 | 1 | 0 | 8 |
+| 09 | [Cryptography & Information Protection](cryptography-information-protection/README.md) | 9 | 1 | 0 | 8 |
+| 10 | [Security Observation & Evidence](security-observation-evidence/README.md) | 8 | 1 | 1 | 6 |
+| 11 | [Security Failure & Resilience](security-failure-resilience/README.md) | 8 | 2 | 1 | 5 |
+| 12 | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | 8 | 2 | 1 | 5 |
+| **Total** | **12 provisional areas** | **96** | **14** | **3** | **79** |
 
 **These directories follow the Fundamentals baseline:** each area contains its own `README.md` and the substantive articles currently assigned to it. Some areas have multiple articles; others currently contain only an inventory README. **Do not invent article files to equalize counts.**
 

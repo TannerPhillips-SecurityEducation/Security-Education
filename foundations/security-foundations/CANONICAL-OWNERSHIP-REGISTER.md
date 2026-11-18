@@ -1,8 +1,8 @@
 # Security Foundations | Canonical Ownership Register (Working Hypotheses)
 
-**Working edition:** v0.1 · November 18, 2026  
+**Working edition:** v0.2 · November 18, 2026  
 **Architectural status:** **One working owner per coherent shared security-specific concept** under the user-approved Fundamentals-style directory pattern. The actual names, boundaries and area/subject numbers are **provisional** until independently ratified; the current inventory is **96 candidates within twelve provisional areas**.  
-**Implementation state:** 14 subject manuscripts Reviewed (model-assisted); 1 Draft; 81 inventoried without article. No human Approved/Published claim.
+**Implementation state:** 14 subject manuscripts Reviewed (model-assisted); 3 Draft; 79 inventoried without article. No human Approved/Published claim.
 
 ## Meaning of ownership
 
@@ -93,7 +93,7 @@ The single-owner rule prevents a security property or threat concept from being 
 | SF-10-05 | Benign, anomalous, suspicious, and malicious interpretations | [Security Observation & Evidence](security-observation-evidence/README.md) | **Provisional owner; article pending** | Distinguish baseline deviation, suspicion, and intent claims; unknown remains valid. |
 | SF-10-06 | Evidence provenance and integrity | [Security Observation & Evidence](security-observation-evidence/README.md) | **Provisional owner; article pending** | Explain source, transformation history, completeness, and authenticity of evidence. |
 | SF-10-07 | False positives, false negatives, and visibility gaps | [Security Observation & Evidence](security-observation-evidence/README.md) | **Provisional owner; article pending** | Describe errors in judgments and limitations of observing systems. |
-| SF-10-08 | Evidentiary confidence, causality, and attribution limits | [Security Observation & Evidence](security-observation-evidence/README.md) | **Provisional owner; article pending** | Distinguish recorded fact, security inference and unsupported certainty; risk-estimation confidence is treated separately in SF-05-04. |
+| SF-10-08 | Evidentiary confidence, causality, and attribution limits | [Security Observation & Evidence](security-observation-evidence/README.md) | [Draft working concept](security-observation-evidence/evidentiary-confidence-causality-and-attribution-limits.md) | Distinguish recorded fact, security inference and unsupported certainty; risk-estimation confidence is treated separately in SF-05-04. |
 | SF-11-01 | Compromise and loss of security | [Security Failure & Resilience](security-failure-resilience/README.md) | [Reviewed working concept](security-failure-resilience/compromise-and-loss-of-security.md) | Distinguish boundary violation, adverse outcomes, and evidence of compromise. |
 | SF-11-02 | Failure modes and degraded protection | [Security Failure & Resilience](security-failure-resilience/README.md) | **Provisional owner; article pending** | Describe partial, latent, and cascading protection failures. |
 | SF-11-03 | Containment and blast radius | [Security Failure & Resilience](security-failure-resilience/README.md) | **Provisional owner; article pending** | Explain limits on propagation and damage scope. |
@@ -106,7 +106,7 @@ The single-owner rule prevents a security property or threat concept from being 
 | SF-12-02 | Verification, validation, and security evaluation | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | **Provisional owner; article pending** | Distinguish conformance to specifications from suitability for protection needs. |
 | SF-12-03 | Security policies, standards, and requirements | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | **Provisional owner; article pending** | Distinguish normative obligations from technical mechanisms and procedures. |
 | SF-12-04 | Governance, ownership, and accountability | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | **Provisional owner; article pending** | Identify who establishes objectives, authorizes risk, and answers for outcomes. |
-| SF-12-05 | Compliance and effective security | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | **Provisional owner; article pending** | Distinguish meeting stated rules from demonstrating protective outcomes. |
+| SF-12-05 | Compliance and effective security | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | [Draft working concept](security-assurance-governance-accountability/compliance-and-effective-security.md) | Distinguish meeting stated rules from demonstrating protective outcomes. |
 | SF-12-06 | Security measurement and assurance limits | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | **Provisional owner; article pending** | Describe observable measures, uncertainty, and incomplete guarantees. |
 | SF-12-07 | Continuous change and assurance decay | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | **Provisional owner; article pending** | Explain why protection claims can become stale as systems and threats evolve. |
 | SF-12-08 | Ethical, human, and societal constraints | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | [Reviewed working concept](security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) | Account for rights, harm, proportionality, and legitimate authority in protection. |

@@ -180,7 +180,7 @@ foundations/security-foundations/
 └── tools/                            # Mechanical validation of live structure and states
 ```
 
-**Current stage:** 12 provisional area directories each have an index, 14 substantive articles occupy their working areas, and 82 subjects remain Inventoried without content. Both area/subject counts are variable. The folder pattern is adopted, but its exact semantic taxonomy is still under source-grounded evaluation.
+**Current stage:** 12 provisional area directories with indexes, 14 Reviewed (model-assisted) and 3 Draft substantive articles occupy their working areas, and 79 subjects remain Inventoried without content. Both area/subject counts are variable. The folder pattern is adopted, but its exact semantic taxonomy is still under source-grounded evaluation.
 
 **File roles are distinct:** Area and division `README.md` files provide navigation; `ARCHITECTURE.md` governs proposed semantic scope; candidate inventories and working ownership records track concepts; **area article files contain the substantive knowledge**; `pilots/` now preserves review links and aliases; technical reviews contain **what was checked**; tools test mechanical consistency.
 
