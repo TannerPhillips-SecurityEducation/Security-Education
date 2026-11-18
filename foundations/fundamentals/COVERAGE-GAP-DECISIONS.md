@@ -17,6 +17,14 @@ A subject is **covered by existing headings, pending authoring** when an approve
 | Approved areas or headings added/renamed | 0 | None |
 | Published canonical articles created by this register | 0 | None |
 
+## Framework, Model & Architecture coverage pass (November 18, 2026)
+
+The [Foundational Models, Frameworks & Architectures Audit 01](FOUNDATIONAL-MODELS-FRAMEWORKS-ARCHITECTURES-AUDIT-01.md) introduces an **evidence-backed review of 77 named technical models/frameworks/architectures** over the current 109-article snapshot. Its 14 FMA review cases are **candidate changes and deepening tasks**, not eleven new gaps, additional approved headings, or an automatic amendment to the ten G-01–G-10 cases below.
+
+**Count clarification:** The **109 tracked subject headings are not fixed**. Changes can add, split, merge, rename or retire headings after recorded coverage/ownership analysis. The old 12-area/109-heading counts remain the **historical baseline for previous audits**, not a requirement to accommodate every new model within existing headings.
+
+**Impact on the three original open decisions:** G-01 may warrant dedicated linear algebra and geometric/topological subjects; G-04 may warrant a canonical general temporal-model subject; G-06 may warrant explicit AI/ML subjects or a separately approved area-level decision. This review **does not resolve or approve** those choices.
+
 ## Ten coverage cases
 
 ### G-01: Linear algebra, geometry, topology
