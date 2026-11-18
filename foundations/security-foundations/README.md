@@ -4,25 +4,26 @@
 
 **Division status:** Approved.  
 **Internal architecture status:** Model-grounded working proposal **v0.3**, **not ratified**.  
-**Candidate coverage:** **Twelve provisional areas and 96 active candidate subjects** after four source-grounded additions and two consolidations. Both numbers remain flexible. **Ten source-led pilot articles have passed two scoped model-assisted reviews (50 material claim groups)** under [pilots](pilots/README.md); no permanent canonical subject tree has been ratified.
+**Candidate coverage:** **Twelve provisional areas and 96 active candidate subjects** after four source-grounded additions and two consolidations. Both numbers remain flexible. **Fourteen source-led pilot articles have passed three scoped model-assisted reviews (70 material claim groups)** under [pilots](pilots/README.md); no permanent canonical subject tree has been ratified.
 
 ## Architectural documentation
 
 - [**Governing Architecture Proposal**](ARCHITECTURE.md): Definition, conceptual protection model, divisional scope, proposed knowledge areas, placement tests, and editorial requirements.
 - [**Candidate Subject Inventory**](SUBJECT-INVENTORY-PROPOSAL.md): 12 proposed areas, 96 active candidate subjects, with documented earlier-ID aliases, and revised intended canonical scopes.
-- [**Established Security Models & Frameworks Crosswalk**](ESTABLISHED-MODEL-CROSSWALK.md): 26 established model, standard, taxonomy and technical-reference groups aligned to candidate conceptual responsibilities, with primary-source starting points and limits.
-- [**Canonical Ownership & Boundary Review**](OWNERSHIP-BOUNDARIES.md): 30 working cross-division, cross-model and cross-domain boundary cases requiring architectural review.
+- [**Established Security Models & Frameworks Crosswalk**](ESTABLISHED-MODEL-CROSSWALK.md): 30 established model, standard, taxonomy and technical-reference groups aligned to candidate conceptual responsibilities, with primary-source starting points and limits.
+- [**Canonical Ownership & Boundary Review**](OWNERSHIP-BOUNDARIES.md): 34 working cross-division, cross-model and cross-domain boundary cases requiring architectural review.
 - [**Development & Verification Plan**](DEVELOPMENT-PLAN.md): Scope approval, sources, controlled pilots, article authoring, technical review, and publication acceptance.
 
 ## Architecture adjudication and pilot development
 
 - [**Architecture Adjudication 02**](ARCHITECTURE-ADJUDICATION-02.md): Full 94-to-96 reconciliation, including two consolidated IDs and four added candidate subjects, supported by model/source boundaries. Both the area and subject counts may expand or contract.
-- [**Ten Source-Led Article Pilots**](pilots/README.md): Internally Reviewed (model-assisted) exploratory references covering security objectives, threats, vulnerabilities, risk, controls, access policy, information flow, cryptography, observation and assurance. **They are not ratified canonical locations or Published articles.**
+- [**Fourteen Source-Led Article Pilots**](pilots/README.md): Internally Reviewed (model-assisted) exploratory references covering security objectives, threats, vulnerabilities, risk, controls, access policy, information flow, cryptography, observation, assurance, compromise, resilience, privacy, safety, and ethical constraints. **They are not ratified canonical locations or Published articles.**
 - [**Pilot Technical Review 01**](PILOT-TECHNICAL-REVIEW-01.md): 40 claim groups across the original eight pilots; corrected insecurity/uncertainty and current TLS/Common Criteria versions.
 - [**Pilot Technical Review 02**](PILOT-TECHNICAL-REVIEW-02.md): 10 additional claim groups across the risk and defensive-controls pilots, separating severity from risk and control listings from measured effects.
-- [**Source Crosswalk v0.2**](ESTABLISHED-MODEL-CROSSWALK.md): 26 reference groups, including 2025/2026 source-version context, cryptographic specifications and noninterference/side-channel distinctions.
+- [**Pilot Technical Review 03**](PILOT-TECHNICAL-REVIEW-03.md): 20 additional material claim groups for compromise, resilience, RTO/RPO, privacy harms from authorized processing, safety and human-impact constraints.
+- [**Source Crosswalk v0.3**](ESTABLISHED-MODEL-CROSSWALK.md): 30 evidence groups, including NIST Privacy Framework, ISO/IEC safety principles, recovery-objective guidance, current incident-response methods and earlier cryptographic/formal policy models.
 
-**Governance separation:** The division is approved; the internal hierarchy and 96 candidate subjects are **not yet ratified**. The ten pilots are **Reviewed (model-assisted) / Core claims checked**, but complete source-passage verification, qualified independent review and final publication acceptance remain separate evidence states. No draft count or working model is a required future quota.
+**Governance separation:** The division is approved; the internal hierarchy and 96 candidate subjects are **not yet ratified**. The fourteen pilots are **Reviewed (model-assisted) / Core claims checked**, but complete source-passage verification, qualified independent review and final publication acceptance remain separate evidence states. No draft count or working model is a required future quota.
 
 ## The governing distinction
 
