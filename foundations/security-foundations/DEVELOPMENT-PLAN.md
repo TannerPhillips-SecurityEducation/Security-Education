@@ -5,6 +5,8 @@
 **Scope:** Security Knowledge → Foundations → Security Foundations  
 **Proposed inputs:** [Architecture](ARCHITECTURE.md) · [96-heading Flexible Working Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [34-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) · [30-group Established Model Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) · [Architecture Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md)
 
+**Execution contract:** The subtree-wide [AGENTS.md](AGENTS.md) supplies repeatable editorial, source-validation, architecture-change and review behavior, derived from a direct review of the Fundamentals directory and its tools. This operational contract does **not** ratify the proposed 12-area/96-candidate internal hierarchy or grant publication acceptance.
+
 ## 1. Mission and deliverable
 
 Develop an authoritative, technically detailed, vendor-neutral, interconnected **security knowledge reference** whose concepts can be understood and applied across the seven specialized domains. This is not an introductory certification syllabus or an operations handbook.
