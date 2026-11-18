@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-11-01 · Security Failure & Resilience  
 **Artifact type:** Substantive working article pilot; proposed canonical ownership, **not ratified**  
-**Development state:** Draft · **Source review:** References listed; scoped technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (five material claim groups); complete source verification and qualified independent review remain open  
 **Architecture:** [Flexible working inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Proposed ownership boundaries](../OWNERSHIP-BOUNDARIES.md)
 
 ## A security violation, a compromised state and evidence about either are distinct
@@ -94,6 +94,8 @@ Likewise, a suspected intrusion event can be represented under the Diamond Model
 - [NIST SP 800-160 Vol. 2 Rev. 1 (2021)](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final), systems security engineering under adverse and compromised conditions.
 - [NIST SP 800-61 Rev. 3 (2025)](https://csrc.nist.gov/pubs/sp/800/61/r3/final), incident-response recommendations (operational methodology, not canonical compromise ontology).
 
-**Editorial limitation:** The examples are hypothetical. Distinct NIST glossary senses are not interchangeable definitions; a specific regulatory or technical scope must be documented. This is a Draft pilot, not a forensic conclusion, a certified recovery procedure or a ratified canonical article. Claim-to-passage technical review remains pending.
+**Editorial limitation:** The examples are hypothetical. Distinct NIST glossary senses are not interchangeable definitions; a specific regulatory or technical scope must be documented. This is a working pilot, not a forensic conclusion, a certified recovery procedure or a ratified canonical article. Claim-to-passage technical review remains pending.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 03](../PILOT-TECHNICAL-REVIEW-03.md). This remains a **pilot**, not a ratified canonical subject, source-Verified artifact or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md)
