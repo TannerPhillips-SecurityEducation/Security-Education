@@ -96,3 +96,13 @@ A source-linked article and a source-Verified article are different. A control c
 **Parity is a maturity standard, not a numeric target.** A Security Foundations corpus comparable to Fundamentals would have approved canonical ownership, substantive navigable articles for the justified inventory, per-article scoped technical evidence, mechanical integrity and clear remaining source/publication gates. It need **not** have exactly twelve areas or 120 subjects.
 
 [Root SOP](AGENTS.md) · [Foundations SOP](foundations/AGENTS.md) · [Repository integrity workflow](.github/workflows/repository-integrity.yml) · [Coverage diagnostic](tools/report_knowledge_coverage.py)
+
+## Dated structural update: Fundamentals-style Security Foundations areas (November 18, 2026)
+
+The original tables above remain a **prior snapshot**. The repository owner subsequently explicitly adopted the **same navigation pattern as Fundamentals** for Security Foundations: a division README, knowledge-area directories, an area README for each, and substantive Markdown files within their respective area. This updates the **directory convention**, not final approval of the precise area taxonomy.
+
+The [Security Foundations Area Structure Adjudication 03](foundations/security-foundations/AREA-STRUCTURE-ADJUDICATION-03.md) records this decision and all old/new article paths. There are now **twelve provisional area directories**, **ninety-six candidate subjects**, **fourteen internally Reviewed substantive article files**, **eighty-two inventoried headings without an article**, and **fourteen historical pilot-link aliases**. The article bodies are not duplicated. Both area and subject counts remain flexible.
+
+The [Security Foundations area indexes](foundations/security-foundations/README.md#working-knowledge-areas), [Development & Verification Register](foundations/security-foundations/DEVELOPMENT-VERIFICATION-REGISTER.md) and [Working Ownership Register](foundations/security-foundations/CANONICAL-OWNERSHIP-REGISTER.md) now track the actual area/subject structure. The [dynamic area validation script](foundations/security-foundations/tools/check_area_structure.py) verifies directory/README/article consistency, register paths, historical aliases and review-state alignment. Structural integrity does not mean full source-Verified, independent human reviewed or Published.
+
+**Historical status note:** Earlier references above to articles *under* `pilots/` and the future intent to migrate them describe the pre-migration state; those instructions have now been executed. The former pilot paths remain redirect-compatible, while new work is authored directly within provisional area directories.
