@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v1.22; **116/116 substantive articles internally Reviewed (model-assisted)** following Wave A–F scoped audits; none source-level Verified or Published; independent human acceptance pending
+**Document status:** Working plan v1.23; **116/116 substantive articles internally Reviewed (model-assisted)** under Wave A–F with 13 existing articles re-reviewed under Wave G; none source-level Verified or Published; independent human acceptance pending
 **Current inventory:** 12 approved knowledge areas; **116 authored and internally Reviewed subjects** (109 legacy plus 7 Wave F). The original 109-heading plan remains a historical snapshot; the count may expand or contract.  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -69,6 +69,7 @@ Historical 109/109 Reviewed (model-assisted) refers only to the audited snapshot
 - **Wave E Operating System Principles:** All ten articles passed the [60-family Wave E OS technical audit](WAVE-E-TECHNICAL-REVIEW-01.md). Corrections addressed MIT OS documentation links and strengthened copy-on-write source grounding; model calculations, canonical boundaries and 35 distinct internal file destinations were checked.
 - **Wave E Communication & Distributed Systems:** All nine articles passed the [54-family Wave E Communication technical audit](WAVE-E-TECHNICAL-REVIEW-02.md). Corrections strengthened TCP byte-stream, reserved address/name, linearizability and asynchronous-consensus sources and limits. The mathematical examples and 28 distinct internal file destinations were checked.
 - **Wave F authored and internally reviewed:** [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) added seven subjects in four existing areas; all seven now have substantive articles and passed the [42-family Wave F audit](WAVE-F-TECHNICAL-REVIEW-01.md). Source state is Core claims checked, not complete Verified or final Published.
+- **Wave G established-model depth pass:** [Wave G 39-family audit](WAVE-G-TECHNICAL-REVIEW-01.md) strengthened 13 existing canonical articles with primary model/standard grounding and explicit limitations. The 116-subject inventory and bounded Review states are unchanged.
 - **Current portfolio reconciliation:** **116 headings/116 canonical articles internally Reviewed (model-assisted), 0 Draft, 0 Inventoried without article, 0 Published**. The [Development & Verification Register v1.19](DEVELOPMENT-VERIFICATION-REGISTER.md) records separate legacy Wave A–E and Wave F evidence. Core claims checked is not exhaustive source Verified.
 - **Preliminary publication-readiness check completed:** [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) checked the pre-report snapshot of **152 Fundamentals Markdown files**, **2,681 inline relative Markdown-link occurrences**, all twelve area indexes, **109 canonical paths**, and **55 fragment-link occurrences** resolving to 32 distinct heading targets. No missing internal file destinations or heading targets were found within the stated parser and snapshot scope.
 - **Publication remains pending:** Execute the seven [Fundamentals completion gates](README.md#completion-gates), especially complete claim-to-source traceability, editorial/technical depth and relationship consistency, external URL/fragment checks, seven-domain coverage and independent qualified human expert peer review.
@@ -79,6 +80,9 @@ Historical 109/109 Reviewed (model-assisted) refers only to the audited snapshot
 ## Architecture Adjudication and New-Subject Execution
 
 The [2026-11-18 model-architecture adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) resolved fourteen FMA cases into seven additional subjects and nine deeper-treatment decisions, with no removals and the twelve-area navigation intact. All seven subjects have since been authored and passed the [Wave F 42-family scoped technical audit](WAVE-F-TECHNICAL-REVIEW-01.md). **The 109/109 audited Wave A–E results remain historical**, while Wave F separately substantiates the seven additions. Comprehensive source verification and final publication acceptance remain pending.
+
+
+**Subsequent deepening:** The [Wave G 39-family technical review](WAVE-G-TECHNICAL-REVIEW-01.md) covers 13 pre-existing subjects associated with the nine deeper-treatment decisions, including modeling notations, architecture, lifecycle standards, transport layering, distributed consistency, measurement uncertainty, provenance, human factors and control. It does not equate a standards citation with full conformance or advance any article to Published.
 
 ## 4. Work Packages and Stage Gates
 
@@ -264,6 +268,7 @@ Production waves guide authors, **not reader prerequisites**. Knowledge Checks a
 - [Wave E Operating System Principles Technical Review (60 claim families)](WAVE-E-TECHNICAL-REVIEW-01.md)
 - [Wave E Communication & Distributed Systems Technical Review (54 claim families)](WAVE-E-TECHNICAL-REVIEW-02.md)
 - [Wave F Model & Architecture References Technical Review (42 claim families)](WAVE-F-TECHNICAL-REVIEW-01.md)
+- [Wave G Established Models & Frameworks Depth Review (39 claim families)](WAVE-G-TECHNICAL-REVIEW-01.md)
 - [Publication Readiness Audit 01: Corpus Inventory and Internal Navigation](PUBLICATION-READINESS-AUDIT-01.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
