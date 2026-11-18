@@ -25,8 +25,8 @@ ACTIVE_ROW = re.compile(r"^\| (SF-\d\d-\d\d) \| ([^|]+) \| ([^|]+) \|$")
 AREA = re.compile(r"^### SF-(\d\d)\. (.+?) \((\d+) candidates\)$")
 PILOT_ROW = re.compile(
     r"^\| (SF-\d\d-\d\d) \| \[([^\]]+)\]\(([^)]+\.md)\) \| (.*?) \| (.*?) \|")
-SOURCE = re.compile(r"^\| (R-\d\d) [^|]+ \|")
-BOUNDARY = re.compile(r"^\| (B-\d\d):")
+SOURCE = re.compile(r"^\| (R-\d\d) [^|]+ \|", re.M)
+BOUNDARY = re.compile(r"^\| (B-\d\d):", re.M)
 MD_LINK = re.compile(r"!?\[[^\]]+\]\(([^)]+)\)")
 FRAGMENT_RE = re.compile(r"[^\w\s-]", re.UNICODE)
 
@@ -91,10 +91,14 @@ def main() -> int:
             issues.append(f"README still describes 12 areas but found {len(counts)}")
     cross = CROSS.read_text(encoding="utf-8")
     source_refs = SOURCE.findall(cross)
+    if not source_refs:
+        issues.append("No model/source register entries parsed")
     if len(source_refs) != len(set(source_refs)):
         issues.append("Duplicate model/source R-IDs")
     btext = BOUNDS.read_text(encoding="utf-8")
     boundary_refs = BOUNDARY.findall(btext)
+    if not boundary_refs:
+        issues.append("No ownership boundary entries parsed")
     if len(boundary_refs) != len(set(boundary_refs)):
         issues.append("Duplicate boundary B-IDs")
     ptext = PILOTS.read_text(encoding="utf-8")
