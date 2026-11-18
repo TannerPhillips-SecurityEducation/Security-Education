@@ -3,7 +3,7 @@
 **Candidate subject:** SF-11-07 · Security Failure & Resilience  
 **Working area:** [Security Failure & Resilience](README.md) · The Fundamentals-style directory structure is adopted; subject ownership remains provisional  
 **Artifact type:** Substantive working reference, not an approved canonical publication  
-**Development state:** **Draft** · **Source-review state:** References identified; focused primary-source comparison performed during drafting, but no separate scoped technical review or complete claim-to-passage verification  
+**Development state:** Draft · **Source-review state:** References identified; focused primary-source comparison performed during drafting, but no separate scoped technical review or complete claim-to-passage verification  
 **Architecture:** [Security Foundations proposal](../ARCHITECTURE.md) · [Working inventory](../SUBJECT-INVENTORY-PROPOSAL.md)
 
 ## Recovery is not merely restarting a system
