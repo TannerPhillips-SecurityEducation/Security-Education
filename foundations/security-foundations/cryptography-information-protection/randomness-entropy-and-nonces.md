@@ -3,7 +3,7 @@
 **Candidate subject:** SF-09-02 · Cryptography & Information Protection  
 **Working area:** [Cryptography & Information Protection](README.md) · Fundamentals-style structure adopted; subject ownership and area taxonomy remain provisional  
 **Artifact type:** Substantive working security-knowledge reference, not a permanently approved canonical publication  
-**Development state:** Draft · **Source-review state:** References listed; original standards and source status checked during authoring, **separate claim-led technical Review batch pending**  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 06](../PILOT-TECHNICAL-REVIEW-06.md), nine material claim groups with independent arithmetic and source checks; full source verification, taxonomy ratification and independent expert acceptance pending  
 **Architecture:** [Working inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Source crosswalk](../ESTABLISHED-MODEL-CROSSWALK.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
 
 ## Randomness, entropy, and uniqueness solve different security problems
@@ -61,7 +61,7 @@ The [NIST SP 800-90 series](https://csrc.nist.gov/projects/random-bit-generation
 - **SP 800-90A Revision 1 (final, 2015):** deterministic random bit generator (**DRBG**) mechanisms using cryptographic constructions based on hash functions or block ciphers, including state/seed handling. [Rev. 2 remains a pre-draft proposal in the current NIST project listing](https://csrc.nist.gov/projects/random-bit-generation/publications).
 - **SP 800-90C (final, September 2025):** complete random bit generator (**RBG**) constructions combining relevant DRBG and entropy-source capabilities, with separate RBG1/RBG2/RBG3/RBGC classes. [NIST publication](https://csrc.nist.gov/pubs/sp/800/90/c/final).
 
-An entropy source can pass a statistical health check and still fail outside its tested environmental conditions. A DRBG can implement an approved algorithm while receiving weak or duplicated initial state. A system can gather strong initial entropy yet expose its generator state through memory disclosure, debugging, virtualization or a compromised dependency.
+An entropy source can pass a statistical health check and still fail outside its tested environmental conditions. **SP 800-90B does not require raw noise output to resemble independent unbiased bits**: its Section 4.1 explains that source-specific health tests are necessary, and Section 6 distinguishes IID and non-IID estimation approaches. A visual randomness test is therefore not a substitute for entropy-source validation, a health-test rationale, or a threat model. The 2025 errata notice remains a potential-update notice rather than a silently incorporated revision. A DRBG can implement an approved algorithm while receiving weak or duplicated initial state. A system can gather strong initial entropy yet expose its generator state through memory disclosure, debugging, virtualization or a compromised dependency.
 
 **The whole generation path is the security boundary.** Compliance with an individual generator primitive does not automatically establish an application's end-to-end key unpredictability.
 
@@ -94,7 +94,7 @@ H(X)=-0.75\log_2 0.75-0.25\log_2 0.25
 H_\infty(X)=-\log_2 0.75\approx0.415037\ {\rm bits/sample}.
 \]
 
-The most likely guess succeeds with probability 0.75 for one sample. Under the stipulated **independent** samples, the probability of guessing the entire \(n\)-sample vector by always choosing its most likely outcome is \(0.75^n\), and the min-entropy of the vector is \(n\,H_\infty(X)\). If the samples are correlated, or if an attacker learns relevant hidden state, that multiplication may be invalid.
+The most likely guess succeeds with probability 0.75 for one sample. These mathematical quantities describe a **known Bernoulli distribution**, not estimates obtained from an observed finite sample and not a claim of NIST SP 800-90B conformance. Source assessment in SP 800-90B uses specified estimators and confidence treatments, including distinct methods for IID and non-IID data. Under the stipulated **independent** samples, the probability of guessing the entire \(n\)-sample vector by always choosing its most likely outcome is \(0.75^n\), and the min-entropy of the vector is \(n\,H_\infty(X)\). If the samples are correlated, or if an attacker learns relevant hidden state, that multiplication may be invalid.
 
 An ordinary program printing a long hash of a constant input still contains **zero fresh unpredictability** to an attacker who knows the input and algorithm. Deterministic processing can condition and distribute the unpredictability it receives under relevant assumptions, but cannot create independent secret entropy from known data.
 
@@ -132,7 +132,7 @@ The same number of bits may be placed into different protocol fields and serve f
 
 These labels are not globally disjoint. Some standards use *IV* as the concrete input that functions as a nonce, and some handshake specifications call values “random” while additionally requiring their cryptographic role to be precisely defined.
 
-For the widely used [RFC 8439 AEAD_CHACHA20_POLY1305](https://www.rfc-editor.org/rfc/rfc8439.html), the 96-bit nonce must **not repeat with the same key**; the RFC expressly recommends generating it so that uniqueness is assured rather than assuming that random sampling can never collide. Its counter and multi-sender examples are protocol-specific. [RFC 5116](https://www.rfc-editor.org/rfc/rfc5116.html) describes the authenticated-encryption interface and nonce handling, and [NIST SP 800-38D](https://csrc.nist.gov/pubs/sp/800/38/d/final) specifies GCM/GMAC IV requirements. The latter remains a 2007 final publication with a revision announced in 2024; readers must not assume that every AEAD inherits one mode's nonce rules.
+For the [RFC 8439 AEAD_CHACHA20_POLY1305](https://www.rfc-editor.org/rfc/rfc8439.html), the 96-bit nonce must **not repeat with the same key**. RFC 8439 Section 2.6 explicitly rejects randomly generating nonces for that construction and recommends assured uniqueness, for example through counters, rather than relying on the chance that two random draws differ. This source-specific obligation must not be imported uncritically into every algorithm bearing a nonce or IV field. Its counter and multi-sender examples are protocol-specific. [RFC 5116](https://www.rfc-editor.org/rfc/rfc5116.html) describes the authenticated-encryption interface and nonce handling, and [NIST SP 800-38D](https://csrc.nist.gov/pubs/sp/800/38/d/final) specifies GCM/GMAC IV requirements. The latter remains a 2007 final publication with a revision announced in 2024; readers must not assume that every AEAD inherits one mode's nonce rules.
 
 ## The birthday collision is a probability, not a uniqueness guarantee
 
@@ -161,7 +161,7 @@ or about **39.3% chance of at least one repeat**. That is *not* the collision pr
 
 A counter that is never reset, wrapped or shared incorrectly can meet a defined uniqueness obligation without any randomness whatsoever. But a counter stored only in volatile memory may repeat after power loss. A server farm whose instances use the same key and begin counters at zero may generate duplicate key/nonce pairs even though each instance is locally monotonic.
 
-**Uniqueness is a system property of key scope, state ownership and lifecycle**, not a visual property of nonce bytes.
+**Uniqueness is a system property of key scope, state ownership and lifecycle**, not a visual property of nonce bytes. In a distributed system, two individually increasing counters are insufficient unless their domains are disjoint for the lifetime of the **same key**; durable recovery rules also matter.
 
 ## What repeated key/nonce pairs can break
 
@@ -208,13 +208,13 @@ These are plausible *mechanisms*, not allegations about a particular vendor or p
 
 - [NIST Random Bit Generation project publication register](https://csrc.nist.gov/projects/random-bit-generation/publications): source status for **SP 800-90A Rev.1 final (2015)**, **90B final (2018, 2025 errata noted)**, and **90C final (September 2025)**. **90A Rev.2 is a 2025 pre-draft call**, not a final standard as of this edition.
 - [NIST SP 800-90A Rev.1](https://csrc.nist.gov/pubs/sp/800/90/a/r1/final), DRBG constructions and state model.
-- [NIST SP 800-90B](https://csrc.nist.gov/pubs/sp/800/90/b/final), entropy-source characterization, estimation and health testing.
+- [NIST SP 800-90B](https://csrc.nist.gov/pubs/sp/800/90/b/final), entropy-source characterization, estimation and health testing. **Sections 4.1 and 6.3**, visually checked in the final 2018 PDF (printed pages 22 and 41), distinguish source-specific health checks from non-IID statistical entropy estimation; NIST notes two potential errata corrections identified in May 2025.
 - [NIST SP 800-90C](https://csrc.nist.gov/pubs/sp/800/90/c/final), complete random-bit generator constructions and defined RBG classes.
 - [RFC 8439](https://www.rfc-editor.org/rfc/rfc8439.html), ChaCha20-Poly1305 nonce and repeated-key/nonce consequences, especially §§2.8, 4.
 - [RFC 5116](https://www.rfc-editor.org/rfc/rfc5116.html), authenticated-encryption interface, nonce formation and uniqueness scope.
 - [NIST SP 800-38D](https://csrc.nist.gov/pubs/sp/800/38/d/final), GCM/GMAC modes and IV constraints; final 2007 with later revision planning.
 - [RFC 5869](https://www.rfc-editor.org/rfc/rfc5869.html), HKDF extraction, expansion, non-secret salt and contextual separation.
 
-**Editorial limitation:** The entropy and collision examples are mathematics under *stipulated distributions and independence*, not results of a real RNG or measured security incident. The article makes no claim that passing statistical tests proves entropy-source validation or that a universal rule applies to all AEAD algorithms. Its source references and calculations require a **separate scoped Review batch** with article-specific claim groups before the manuscript may become Reviewed (model-assisted). Full standards-passage verification, expert peer review, taxonomy ratification and publication acceptance remain open.
+**Editorial limitation:** The entropy and collision examples are mathematics under *stipulated distributions and independence*, not results of a real RNG or measured security incident. The article makes no claim that passing statistical tests proves entropy-source validation or that a universal rule applies to all AEAD algorithms. A separate [Technical Review 06](../PILOT-TECHNICAL-REVIEW-06.md) now records nine material claim groups, inspected source passages, calculation checks and justified corrections. This scoped model-assisted review is **not** full standards-passage verification, physical entropy-source testing, independent expert peer review, taxonomy ratification or publication acceptance.
 
 [Security Foundations](../README.md) · [Working area](README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

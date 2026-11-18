@@ -1,16 +1,16 @@
 # Security Foundations | Development & Verification Register
 
-**Working edition:** v0.6 · November 18, 2026  
+**Working edition:** v0.7 · November 18, 2026  
 **Authority:** [Fundamentals-style area structure decision](AREA-STRUCTURE-ADJUDICATION-03.md); exact labels, 12 areas and 96 subjects remain **provisional and revisionable**.  
-**Status:** **18 authored Reviewed (model-assisted)** and **2 Draft** working-area references; **76 Inventoried without article**; zero source-Verified or Published.  
-**Review evidence:** [Pilot Technical Reviews 01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), and [05](PILOT-TECHNICAL-REVIEW-05.md), totaling **98 bounded material claim groups** across 18 Reviewed manuscripts.
+**Status:** **20 authored Reviewed (model-assisted)**, **0 Draft** working-area references; **76 Inventoried without article**; zero Source-Verified or Published.  
+**Review evidence:** [Pilot Technical Reviews 01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), and [06](PILOT-TECHNICAL-REVIEW-06.md), totaling **117 bounded material claim groups** across 20 Reviewed manuscripts.
 
 ## Current development status
 
 | State | Count | Interpretation |
 | --- | ---: | --- |
-| **Reviewed (model-assisted)** | **18** | Eighteen substantive manuscripts in working area directories; five separate bounded technical audits (01–05) |
-| **Draft** | **2** | SF-09-02 and SF-09-07 authored together; both require a separate claim-led Review batch before further drafting |
+| **Reviewed (model-assisted)** | **20** | Twenty substantive manuscripts in area directories; six separate bounded technical reviews (01–06) |
+| **Draft** | **0** | No authored manuscript currently awaits its first claim-led review |
 | **Inventoried without article** | **76** | Working candidate coverage headings with no substantive article yet |
 | **Source-Verified / Published** | **0** | Full claim-to-passage checking, taxonomy acceptance and qualified publication review remain open |
 
@@ -84,12 +84,12 @@
 | SF-08-08 | [Security requirements and design tradeoffs](secure-design-architecture/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-08-09 | [Information-flow security and noninterference](secure-design-architecture/README.md) | [Working reviewed article](secure-design-architecture/information-flow-security-and-noninterference.md) | Reviewed (model-assisted) | Core claims checked | [Review 01](PILOT-TECHNICAL-REVIEW-01.md) |
 | SF-09-01 | [Cryptographic security properties and assumptions](cryptography-information-protection/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-09-02 | [Randomness, entropy, and nonces](cryptography-information-protection/README.md) | [Working draft article](cryptography-information-protection/randomness-entropy-and-nonces.md) | **Draft** | References listed; review pending | Not reviewed |
+| SF-09-02 | [Randomness, entropy, and nonces](cryptography-information-protection/README.md) | [Reviewed working article](cryptography-information-protection/randomness-entropy-and-nonces.md) | Reviewed (model-assisted) | Core claims checked | [Review 06](PILOT-TECHNICAL-REVIEW-06.md) |
 | SF-09-03 | [Encryption and confidentiality](cryptography-information-protection/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-09-04 | [Hashes and message authentication](cryptography-information-protection/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-09-05 | [Digital signatures and origin evidence](cryptography-information-protection/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-09-06 | [Key establishment and trust anchors](cryptography-information-protection/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-09-07 | [Key lifecycle and cryptographic failures](cryptography-information-protection/README.md) | [Working draft article](cryptography-information-protection/key-lifecycle-and-cryptographic-failures.md) | **Draft** | References listed; review pending | Not reviewed |
+| SF-09-07 | [Key lifecycle and cryptographic failures](cryptography-information-protection/README.md) | [Reviewed working article](cryptography-information-protection/key-lifecycle-and-cryptographic-failures.md) | Reviewed (model-assisted) | Core claims checked | [Review 06](PILOT-TECHNICAL-REVIEW-06.md) |
 | SF-09-08 | [Data protection across states](cryptography-information-protection/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-09-09 | [Cryptographic composition and protocol security](cryptography-information-protection/README.md) | [Working reviewed article](cryptography-information-protection/cryptographic-composition-and-protocol-security.md) | Reviewed (model-assisted) | Core claims checked | [Review 01](PILOT-TECHNICAL-REVIEW-01.md) |
 | SF-10-01 | [Security-relevant events and conditions](security-observation-evidence/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |

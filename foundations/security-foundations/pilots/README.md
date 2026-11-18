@@ -1,9 +1,9 @@
 # Security Foundations | Working Article Register and Historical Pilot Paths
 
 **Division:** [Security Foundations](../README.md)  
-**Status:** **18 Reviewed (model-assisted), 2 Draft** across five completed scoped audits (**98 material claim groups**). The SF-09-02 and SF-09-07 Drafts await their next separate Review batch; none is source-Verified, permanently approved or Published.  
+**Status:** **20 Reviewed (model-assisted), 0 Draft** across six scoped technical audits (**117 material claim groups**). None is fully source-Verified, permanently taxonomically ratified or Published.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
-**Scope:** This register indexes 14 historically relocated manuscripts and 6 newer area-first manuscripts (four Reviewed, **two current Drafts**). All substantive articles live inside provisional knowledge-area directories following the Fundamentals pattern. **Only the historical 14 have `pilots/` navigation aliases**; later articles link directly to their area homes. Current area identities and inventory counts remain revisionable.
+**Scope:** This working article index covers fourteen historically relocated pilots and six later area-first manuscripts, all now separately Reviewed. Substantive content resides inside provisional knowledge-area directories following the Fundamentals pattern. **Only the historical fourteen have `pilots/` navigation aliases**; later articles link directly to their area homes. Area identities and subject totals remain flexible.
 
 ## Actual working article locations and historical review register
 
@@ -15,8 +15,8 @@
 | SF-04-08 | [Side Channels, Covert Channels, and Unintended Information Leakage](../weaknesses-vulnerabilities-exposure/side-channels-covert-channels-and-unintended-information-leakage.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 05](../PILOT-TECHNICAL-REVIEW-05.md) | How do indirect secret-dependent effects differ from cooperating, policy-violating covert signaling and ordinary disclosure? |
 | SF-06-09 | [Access-Control Policy Models](../trust-identity-authority-principles/access-control-policy-models.md) | **Reviewed (model-assisted)** | Core claims checked | What differentiates policy decision models from authentication and enforcement? |
 | SF-08-09 | [Information-Flow Security and Noninterference](../secure-design-architecture/information-flow-security-and-noninterference.md) | **Reviewed (model-assisted)** | Core claims checked | When is a flow/observation permitted and why can access control be insufficient? |
-| SF-09-02 | [Randomness, Entropy, and Nonces](../cryptography-information-protection/randomness-entropy-and-nonces.md) | **Draft** | References listed; separate review pending | How do entropy, pseudorandomness, nonces and uniqueness differ, and what failure conditions defeat them? |
-| SF-09-07 | [Key Lifecycle and Cryptographic Failures](../cryptography-information-protection/key-lifecycle-and-cryptographic-failures.md) | **Draft** | References listed; separate review pending | How do keys acquire, retain and lose justified protection across generation, deployment, compromise and transition? |
+| SF-09-02 | [Randomness, Entropy, and Nonces](../cryptography-information-protection/randomness-entropy-and-nonces.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 06](../PILOT-TECHNICAL-REVIEW-06.md) | How do entropy, pseudorandomness, nonces and uniqueness differ, and what failure conditions defeat them? |
+| SF-09-07 | [Key Lifecycle and Cryptographic Failures](../cryptography-information-protection/key-lifecycle-and-cryptographic-failures.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 06](../PILOT-TECHNICAL-REVIEW-06.md) | How do keys acquire, retain and lose justified protection across generation, deployment, compromise and transition? |
 | SF-09-09 | [Cryptographic Composition and Protocol Security](../cryptography-information-protection/cryptographic-composition-and-protocol-security.md) | **Reviewed (model-assisted)** | Core claims checked | When do secure primitives fail to establish complete protocol objectives? |
 | SF-10-02 | [Observable, Observed and Recorded](../security-observation-evidence/observable-observed-and-recorded.md) | **Reviewed (model-assisted)** | Core claims checked | What can a security record actually establish about an occurrence or actor? |
 | SF-10-08 | [Evidentiary Confidence, Causality, and Attribution Limits](../security-observation-evidence/evidentiary-confidence-causality-and-attribution-limits.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) | How far can records support causal explanations and attribution at different identity levels? |
@@ -32,7 +32,7 @@
 | SF-11-07 | [Recovery Objectives and Trusted Restoration](../security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) | Recovery-target measurement versus evidenced trusted restoration |
 | SF-12-08 | [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** | Core claims checked | Legitimate security authority, privacy rights, proportionality and human harm |
 
-**Record count:** **18 substantive Reviewed working area manuscripts** across [Reviews 01–05](../PILOT-TECHNICAL-REVIEW-05.md), checking **98 bounded material claim groups**, plus **2 new Drafts** (SF-09-02 and SF-09-07) awaiting a separately recorded technical Review batch. **76 of 96** working subject candidates have no substantive article. Historical review counts and the working taxonomy remain distinct from publication approval.
+**Record count:** **20 substantive Reviewed working manuscripts**: eight under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 material groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10), four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20), three under [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) (18), one under [Review 05](../PILOT-TECHNICAL-REVIEW-05.md) (10), and two under [Review 06](../PILOT-TECHNICAL-REVIEW-06.md) (19). **Total: 117 bounded material claim groups.** 76 of 96 working candidates lack substantive manuscripts; counts and taxonomy remain flexible.
 
 ## Pilot technical review evidence
 
@@ -49,6 +49,8 @@
 **Fourth pilot audit:** [Pilot Technical Review 04](../PILOT-TECHNICAL-REVIEW-04.md) checks **18 material claim groups** across evidentiary inference, trusted recovery and compliance/effectiveness. It recomputes conditional detector and recovery-timing examples, clarifies NIST source boundaries, and records the review-first continuation rule.
 
 **Fifth pilot audit:** [Pilot Technical Review 05](../PILOT-TECHNICAL-REVIEW-05.md) checks ten material claim groups for SF-04-08, recomputes the hypothetical channel-capacity model, distinguishes storage/timing channel categories, and records assumptions and source-version limitations. The manuscript advanced only after the separate review and documented corrections.
+
+**Sixth technical review:** [Pilot Technical Review 06](../PILOT-TECHNICAL-REVIEW-06.md) checks nineteen material claim groups across SF-09-02 and SF-09-07. It verifies official standards edition status, inspects NIST entropy-source and cryptoperiod passages, recomputes the mathematical examples and corrects key hierarchy and nonce usage distinctions. Both manuscripts were independently reviewed after drafting, rather than inheriting earlier article statuses.
 
 ## Development states
 

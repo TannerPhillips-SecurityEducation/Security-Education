@@ -180,7 +180,7 @@ foundations/security-foundations/
 └── tools/                            # Mechanical validation of live structure and states
 ```
 
-**Current stage:** Twelve provisional area indexes now contain **18 Reviewed (model-assisted), 2 Draft (SF-09-02 and SF-09-07)** substantive articles; **76** active candidates have no article. The **next authoring-related response must separately review both Draft manuscripts**, potentially in one multi-article Review 06 ledger, before a different Draft batch. The directory pattern is adopted; current area/subject taxonomy remains provisional and all counts remain variable.
+**Current stage:** Twelve provisional area directories contain **20 substantive Reviewed (model-assisted), 0 Draft** manuscripts; **76 active candidate subjects remain Inventoried without an article**. The Fundamentals-style directory pattern is adopted, but area membership and subject taxonomy remain provisional and variable. [Technical Review 06](PILOT-TECHNICAL-REVIEW-06.md) cleared the SF-09-02 and SF-09-07 Draft batch. The next authoring batch may contain multiple coherent articles, followed by a separate review batch covering each of them.
 
 **File roles are distinct:** Area and division `README.md` files provide navigation; `ARCHITECTURE.md` governs proposed semantic scope; candidate inventories and working ownership records track concepts; **area article files contain the substantive knowledge**; `pilots/` now preserves review links and aliases; technical reviews contain **what was checked**; tools test mechanical consistency.
 
