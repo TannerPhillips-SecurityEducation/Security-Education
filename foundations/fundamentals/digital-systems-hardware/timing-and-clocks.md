@@ -35,10 +35,9 @@ A sequential element may require an input to be stable for a minimum **setup tim
 For an idealized register-to-register path, a simplified setup inequality is:
 
 ```text
-clock period ≥ launch clock-to-Q delay
-             + combinational path delay
-             + receiving-register setup time
-             + relevant clock-skew/uncertainty margin
+T ≥ t_clock-to-Q + t_path + t_setup + U − S
+
+where S is defined as the capture-clock arrival time minus the launch-clock arrival time, and U is a nonnegative allowance for relevant uncertainty. Positive S provides more time for this setup check; negative S reduces it.
 ```
 
 Actual timing analysis may require separate minimum-delay/hold constraints, multiple clock paths, variation and detailed device models. The inequality is an explanatory sketch, not a complete timing signoff method.
@@ -79,6 +78,8 @@ Hardware can exhibit timing violations because of supply, temperature, process v
 ### Sources
 
 - [MIT OpenCourseWare 6.004 Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/).
+- [MIT 6.004: Sequential Logic (setup and hold)](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c5/c5s1/).
+- [MIT 6.004: Synchronization and Metastability](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c6/c6s1/).
 - [MIT OpenCourseWare 6.003 Signals and Systems](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/).
 - [BIPM: SI Brochure](https://www.bipm.org/en/publications/si-brochure).
 
