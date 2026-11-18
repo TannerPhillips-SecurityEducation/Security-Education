@@ -54,7 +54,7 @@ This step is about 19.53 mV. A mid-bin reconstruction estimate has a maximum abs
 
 ## Sampling, aliasing and reconstruction conditions
 
-Sampling can make different continuous-time frequencies produce indistinguishable sample sequences, a phenomenon called **aliasing**. For a sinusoid sampled at 1000 Hz, a 600 Hz component and an appropriately phased 400 Hz component can produce related or indistinguishable sampled sequences under the declared sampling model.
+Sampling can make different continuous-time frequencies produce indistinguishable sample sequences, a phenomenon called **aliasing**. For **cosine** waves sampled at 1000 samples/s with the same zero phase, the sequences at 600 Hz and 400 Hz are exactly identical: `cos(2π·600n/1000) = cos(2π·400n/1000)` for every integer sample index `n`. This is a concrete aliasing identity, not a claim that arbitrary phase-shifted waveforms or physical receivers behave identically.
 
 For a suitably band-limited signal, the classical ideal sampling theorem provides reconstruction conditions when the sampling frequency exceeds twice the highest relevant signal frequency, with appropriate reconstruction and assumptions. This is not a guarantee that every real converter reconstructs arbitrary inputs, or that an unbounded signal can be perfectly sampled.
 
@@ -76,6 +76,7 @@ This article introduces no mandated modulation scheme, converter, radio protocol
 
 - [MIT OpenCourseWare: Signals and Systems](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/).
 - [MIT 6.003 Lecture 21: Sampling](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/resources/lecture-21-sampling/).
+- [MIT 6.003: Sampling and Quantization, lecture notes index](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/pages/lecture-notes/).
 - [OpenStax University Physics Volume 1: Traveling Waves](https://openstax.org/books/university-physics-volume-1/pages/16-1-traveling-waves).
 
 **Editorial status:** Substantive Draft. The sampling and quantization examples are stipulated; theorem conditions, physical caveats and numbers require a separate scoped technical/source review.
