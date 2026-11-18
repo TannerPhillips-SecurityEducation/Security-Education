@@ -27,7 +27,7 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 
 ## Canonical Reference Development
 
-**Eighty-one substantive references are Reviewed (model-assisted)** across the original pilot review, completed Waves A, B, C and the [Wave D Batch 01](WAVE-D-TECHNICAL-REVIEW-01.md) and [Batch 02](WAVE-D-TECHNICAL-REVIEW-02.md) audits. Scoped internal reviews do **not** establish full source verification, independent human peer review or final publication acceptance.
+**All 109 approved Fundamentals headings now have substantive canonical reference articles.** **Ninety** are Reviewed (model-assisted), covering the original pilots and the completed Wave A–D scoped audits, including the [54-family Wave D Software technical review](WAVE-D-TECHNICAL-REVIEW-03-04.md). **Nineteen** Wave E articles remain Draft, pending their own technical audits.
 
 | Approved knowledge area | Reviewed canonical reference articles |
 | --- | --- |
@@ -38,25 +38,24 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 | Information & Data | [Symbols and encoding](information-data/symbols-and-encoding.md); [Bits and bytes](information-data/bits-and-bytes.md); [Information theory](information-data/information-theory.md); [Data types](information-data/data-types.md); [Datasets, records, fields, and values](information-data/datasets-records-fields-and-values.md); [Data structures and formats](information-data/data-structures-and-formats.md); [Metadata](information-data/metadata.md); [Databases and queries](information-data/databases-and-queries.md); [Data provenance and lifecycle](information-data/data-provenance-and-lifecycle.md) |
 | Digital Systems & Hardware | [Digital logic](digital-systems-hardware/digital-logic.md); [Computing components](digital-systems-hardware/computing-components.md); [Processors and instruction sets](digital-systems-hardware/processors-and-instruction-sets.md); [Memory and storage](digital-systems-hardware/memory-and-storage.md); [Buses and interfaces](digital-systems-hardware/buses-and-interfaces.md); [Input/output](digital-systems-hardware/input-output.md); [Timing and clocks](digital-systems-hardware/timing-and-clocks.md); [Firmware](digital-systems-hardware/firmware.md); [Hardware abstraction](digital-systems-hardware/hardware-abstraction.md) |
 | Computation & Algorithms | [Computability](computation-algorithms/computability.md); [Algorithms](computation-algorithms/algorithms.md); [Algorithm design](computation-algorithms/algorithm-design.md); [Complexity](computation-algorithms/complexity.md); [Computational data structures](computation-algorithms/computational-data-structures.md); [Iteration and recursion](computation-algorithms/iteration-and-recursion.md); [Concurrency and parallelism](computation-algorithms/concurrency-and-parallelism.md); [Synchronization](computation-algorithms/synchronization.md); [Computational efficiency](computation-algorithms/computational-efficiency.md) |
+| Software & Programming | [Programming languages](software-programming/programming-languages.md); [Syntax and semantics](software-programming/syntax-and-semantics.md); [Programming paradigms](software-programming/programming-paradigms.md); [Compilation and interpretation](software-programming/compilation-and-interpretation.md); [Runtime environments](software-programming/runtime-environments.md); [Modules and dependencies](software-programming/modules-and-dependencies.md); [Software interfaces](software-programming/software-interfaces.md); [Error handling](software-programming/error-handling.md); [Testing and software lifecycle](software-programming/testing-and-software-lifecycle.md) |
 | Systems & Engineering | [Systems and subsystems](systems-engineering/systems-and-subsystems.md); [Components and interfaces](systems-engineering/components-and-interfaces.md); [Architecture and composition](systems-engineering/architecture-and-composition.md); [Dependencies](systems-engineering/dependencies.md); [State and behavior](systems-engineering/state-and-behavior.md); [Feedback and control](systems-engineering/feedback-and-control.md); [Emergence and complexity](systems-engineering/emergence-and-complexity.md); [Reliability and failure](systems-engineering/reliability-and-failure.md); [Requirements](systems-engineering/requirements.md); [Verification and validation](systems-engineering/verification-and-validation.md); [System lifecycle](systems-engineering/system-lifecycle.md) |
 | Human & Sociotechnical Systems | [Human cognition and perception](human-sociotechnical-systems/human-cognition-and-perception.md); [Decision-making](human-sociotechnical-systems/decision-making.md); [Human-computer interaction](human-sociotechnical-systems/human-computer-interaction.md); [Usability and accessibility](human-sociotechnical-systems/usability-and-accessibility.md); [Human error](human-sociotechnical-systems/human-error.md); [Collaboration and communication](human-sociotechnical-systems/collaboration-and-communication.md); [Organizational structures](human-sociotechnical-systems/organizational-structures.md); [Ethics and professional responsibilities](human-sociotechnical-systems/ethics-and-professional-responsibilities.md) |
 
-The [Development & Verification Register v1.13](DEVELOPMENT-VERIFICATION-REGISTER.md) accounts for all **109 approved headings**: **81 Reviewed (model-assisted), 9 Draft and 19 Inventoried without articles**. Waves A, B and C remain internally Reviewed.
+The [Development & Verification Register v1.14](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks **109/109 authored**: **90 Reviewed (model-assisted)**, **19 Draft**, and **0 Inventoried without articles**.
 
-## Wave D Authoring
+## Wave E Authoring
 
-**All 18 Wave D headings are substantively authored.** [Computation & Algorithms](computation-algorithms/README.md) has **9/9 internally Reviewed** following the [30-family Batch 02 technical audit](WAVE-D-TECHNICAL-REVIEW-02.md).
+**Operating System Principles (10/10) and Communication & Distributed Systems (9/9) have been fully authored as Drafts.** Their canonical article links and current review states appear below.
 
-[Software & Programming](software-programming/README.md) now has **9/9 substantive Drafts** awaiting their own technical review. Their canonical references are:
+| Approved area | Draft count | Authored canonical Draft references |
+| --- | ---: | --- |
+| [Operating System Principles](operating-system-principles/README.md) | 10 | [Kernels](operating-system-principles/kernels.md); [System calls](operating-system-principles/system-calls.md); [Processes and threads](operating-system-principles/processes-and-threads.md); [Scheduling](operating-system-principles/scheduling.md); [Memory management](operating-system-principles/memory-management.md); [Filesystems](operating-system-principles/filesystems.md); [Drivers and devices](operating-system-principles/drivers-and-devices.md); [Execution contexts](operating-system-principles/execution-contexts.md); [System initialization](operating-system-principles/system-initialization.md); [Resource management](operating-system-principles/resource-management.md) |
+| [Communication & Distributed Systems](communication-distributed-systems/README.md) | 9 | [Communication models](communication-distributed-systems/communication-models.md); [Transmission and signaling](communication-distributed-systems/transmission-and-signaling.md); [Communication channels](communication-distributed-systems/communication-channels.md); [Protocols and layering](communication-distributed-systems/protocols-and-layering.md); [Addressing and naming](communication-distributed-systems/addressing-and-naming.md); [Latency and throughput](communication-distributed-systems/latency-and-throughput.md); [Reliability and ordering](communication-distributed-systems/reliability-and-ordering.md); [Distributed state](communication-distributed-systems/distributed-state.md); [Synchronization and coordination](communication-distributed-systems/synchronization-and-coordination.md) |
 
-| Batch | New Draft references |
-| --- | --- |
-| Wave D Software Batch 03 | [Programming Languages](software-programming/programming-languages.md); [Syntax and Semantics](software-programming/syntax-and-semantics.md); [Programming Paradigms](software-programming/programming-paradigms.md); [Compilation and Interpretation](software-programming/compilation-and-interpretation.md) |
-| Wave D Software Batch 04 | [Runtime Environments](software-programming/runtime-environments.md); [Modules and Dependencies](software-programming/modules-and-dependencies.md); [Software Interfaces](software-programming/software-interfaces.md); [Error Handling](software-programming/error-handling.md); [Testing and Software Lifecycle](software-programming/testing-and-software-lifecycle.md) |
+These drafts include original worked examples and source references, but **no scoped Wave E technical audit has yet been accepted**. The next milestone is a separate claim-to-source and technical review of all nineteen articles, then full-corpus completion gates.
 
-The remaining **19 un-authored** headings belong to Wave E: [Operating System Principles](operating-system-principles/README.md) (10) and [Communication & Distributed Systems](communication-distributed-systems/README.md) (9).
-
-**Next:** Audit the nine Software & Programming Drafts before any review-state promotion, then author Wave E. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No new headings, assessments, or mandated technology stacks have been introduced.
+The **12-area/109-heading approved architecture is unchanged**. The scope decisions G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No Knowledge Checks, Practical Assessments, new headings or mandatory vendor technologies have been introduced.
 
 ## Technical Audit Evidence
 
@@ -79,6 +78,7 @@ The remaining **19 un-authored** headings belong to Wave E: [Operating System Pr
 - [Wave C Batch 03 Review](WAVE-C-TECHNICAL-REVIEW-03.md): 54 claim families.
 - [Wave D Batch 01 Review](WAVE-D-TECHNICAL-REVIEW-01.md): 24 claim families.
 - [Wave D Batch 02 Review](WAVE-D-TECHNICAL-REVIEW-02.md): 30 claim families.
+- [Wave D Software Batches 03–04 Review](WAVE-D-TECHNICAL-REVIEW-03-04.md): 54 claim families.
 
 **Reviewed** denotes a documented internal model-assisted technical/editorial evaluation, not independent human approval, a ratified graph predicate vocabulary, or completion of the seven Fundamentals gates. G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML remain outstanding architectural scope decisions.
 
@@ -143,7 +143,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 90 substantive reference articles (81 internally Reviewed, nine Draft). Complete source validation and all seven corpus-wide completion gates remain open.
+**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 109 substantive reference articles (90 internally Reviewed, nineteen Draft). Complete source validation and all seven corpus-wide completion gates remain open.
 
 ## Coverage Across Specialized Domains
 
