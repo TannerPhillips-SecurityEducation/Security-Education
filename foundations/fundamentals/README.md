@@ -14,16 +14,22 @@ Fundamentals establishes domain-agnostic concepts, structures, principles, and m
 3. **Canonical knowledge ownership:** Define a general concept once, then link its contextual applications.
 4. **Specialized extension:** Let the seven specialized domains build upon general fundamentals without redefining them.
 
-The **twelve approved knowledge areas are navigation disciplines**, while their 109 subject headings form a coverage inventory. Underlying concepts and their relationships provide conceptual coherence across disciplines. Proposed universal primitives do not become additional categories without separate approval.
+The **twelve currently approved knowledge areas are navigation disciplines**, while the **109 presently tracked subject headings** form a **versioned, revisable coverage inventory**, not a fixed quota. Underlying concepts and their relationships provide conceptual coherence across disciplines. Proposed universal primitives do not become additional categories without separate approval.
+
+## Living Inventory Policy
+
+**The count of 109 is not an architectural limit.** It is the currently implemented, previously approved subject inventory. Subjects may be **added, split, merged, renamed or retired** when model-grounded coverage and canonical-ownership analysis justify the change. The twelve existing knowledge areas remain the separate approved navigation baseline. The [governing architecture](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control) defines the change-control and historical-traceability rules.
+
+A newly added or materially revised article must be reviewed on its own merits; a past 109/109 model-assisted status must not be projected onto future inventory versions. Historical reports retain their original denominator.
 
 ## Canonical Ownership & Concept Relationships
 
 - [**Canonical Ownership & Relationship Register**](CANONICAL-OWNERSHIP-REGISTER.md): Maps all 109 approved subject headings to proposed general responsibilities and 109 cross-subject relationship references.
 - [**Concept Overlap & Coverage Review**](CONCEPT-OVERLAP-REVIEW.md): Documents 20 recurrent conceptual overlaps and 10 candidate coverage questions that require review.
 - [**Canonical Concept Boundary Decisions**](CONCEPT-BOUNDARY-DECISIONS.md): Provides approved conceptual boundaries and discriminating examples for all 20 overlap groups, while retaining the general-temporality coverage exception.
-- [**Coverage Gap Decision Register**](COVERAGE-GAP-DECISIONS.md): Dispositions all ten coverage questions: seven assigned to existing headings for authoring and three requiring explicit scope decisions. No change to the 12/109 baseline.
+- [**Coverage Gap Decision Register**](COVERAGE-GAP-DECISIONS.md): Dispositions all ten coverage questions: seven assigned to existing headings for authoring and three requiring explicit scope decisions. No inventory change was made in that historical review; future subject additions and consolidations remain permitted through documented architecture review.
 
-**Status distinction:** The 12 areas and 109 headings are approved. The detailed ownership boundaries, relationship descriptions, and coverage-gap dispositions are **working proposals**, not automatically ratified conceptual definitions. The register links to existing area indexes until canonical articles are written and verified.
+**Status distinction:** The existing 12 areas and the 109-heading *current snapshot* have prior approval; the 109 count is **not fixed**. The detailed ownership boundaries, relationship descriptions, and coverage-gap dispositions are **working proposals**, not automatically ratified conceptual definitions. The register links to existing area indexes until canonical articles are written and verified.
 
 ## Canonical Reference Development
 
@@ -56,7 +62,7 @@ The [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) checked 
 
 [Wave E Authoring Verification](WAVE-E-AUTHORING-VERIFICATION.md) is a **historical pre-audit authoring snapshot**; the two Wave E technical audits above supersede its pending-review states.
 
-**Scope decisions G-01 (mathematical breadth), G-04 (general temporality), and G-06 (AI/ML) remain open.** The original twelve knowledge areas and 109 approved headings remain unchanged. No Knowledge Checks, Practical Assessments, new categories or mandatory vendor technologies were introduced.
+**Scope decisions G-01 (mathematical breadth), G-04 (general temporality), and G-06 (AI/ML) remain open.** The historical 12-area/109-heading snapshot remains traceable, while justified subject inventory changes may expand or contract the total. No Knowledge Checks, Practical Assessments, new categories or mandatory vendor technologies were introduced.
 
 ## Technical Audit Evidence
 
@@ -87,7 +93,7 @@ The [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) checked 
 
 ## Development Plan of Action
 
-The [Curriculum Development Plan of Action](CURRICULUM-DEVELOPMENT-PLAN.md) is a working production roadmap for expanding the 109 inventoried subjects into an accurate, connected technical knowledge reference. It defines authoring waves, source requirements, editorial workflow, progress tracking, cross-domain integration, and completion gates. It excludes Knowledge Checks and Practical Assessments.
+The [Curriculum Development Plan of Action](CURRICULUM-DEVELOPMENT-PLAN.md) is a working production roadmap for developing and, when justified, **revising** the current 109-subject inventory into an accurate, connected technical knowledge reference. It defines authoring waves, source requirements, editorial workflow, progress tracking, cross-domain integration, and completion gates. It excludes Knowledge Checks and Practical Assessments.
 
 ## Approved Knowledge Areas
 
