@@ -2,14 +2,14 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All 8 approved subjects authored and Reviewed (model-assisted); independent human review and final publication acceptance pending  
+**Content status:** 8 legacy articles Reviewed (model-assisted); 3 additional headings Inventoried, not authored; no subject Published
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
 
 Formal structures and quantitative reasoning used to represent, compare, and reason about technical systems.
 
-## Approved Subject Inventory
+## Subject Inventory (versioned)
 
 - Numbers and numerical systems
 - Sets and relations
@@ -19,6 +19,12 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 - Graph theory
 - Probability and statistics
 - Units and quantities
+
+**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 3 headings are **Inventoried**, not yet authored, Reviewed, Verified or Published. These expand the original 8-heading article snapshot; the area now tracks **11 headings**.
+
+- **Linear algebra and vector spaces** (Inventoried; article pending)
+- **Geometry and spatial reasoning** (Inventoried; article pending)
+- **Topology and continuity** (Inventoried; article pending)
 
 ## Canonical reference articles
 
@@ -33,7 +39,13 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 | Probability and statistics | [Probability and statistics](probability-and-statistics.md) | Reviewed (model-assisted) | [Batch 06 audit](../WAVE-A-TECHNICAL-REVIEW-06.md) |
 | Units and quantities | [Units and quantities](units-and-quantities.md) | Reviewed (model-assisted) | [Wave A Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md) |
 
+| Linear algebra and vector spaces | Article pending (no canonical file yet) | **Inventoried** | [Architecture adjudication](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) |
+| Geometry and spatial reasoning | Article pending (no canonical file yet) | **Inventoried** | [Architecture adjudication](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) |
+| Topology and continuity | Article pending (no canonical file yet) | **Inventoried** | [Architecture adjudication](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) |
+
 ## Development and canonical boundaries
+**Current inventory reconciliation (November 18, 2026):** **11 tracked headings = 8 previously Reviewed articles + 3 newly Inventoried subjects**. The historical 8/8 internal review statements below apply only to those existing articles. The additional subject headings are not yet canonical reference articles and do not inherit prior Wave review outcomes.
+
 
 **All 8/8 approved headings have substantive, internally Reviewed references.** The scoped technical/claim-to-source audits in the table document model-assisted review. They are **not** exhaustive verification of source material, independent human peer review or final publication acceptance.
 
