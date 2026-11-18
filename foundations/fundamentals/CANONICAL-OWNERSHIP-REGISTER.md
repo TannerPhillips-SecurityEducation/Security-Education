@@ -2,9 +2,9 @@
 
 **Status:** Working architectural register v1.19. Twelve knowledge areas remain unchanged. **All 120 tracked subjects have Reviewed (model-assisted) canonical articles**, 116 in earlier Waves and four scoped-reviewed under [Wave H](WAVE-H-TECHNICAL-REVIEW-01.md). Full source and relationship verification remain open.
 
-This register connects the evolving subject inventory to the [governing architecture](ARCHITECTURE.md). It describes each heading's intended **canonical conceptual responsibility** and illustrative relationships; the seven new headings reference existing article owners while their own articles remain pending.
+This register connects the evolving subject inventory to the [governing architecture](ARCHITECTURE.md). It describes each heading's intended **canonical conceptual responsibility** and illustrative relationships; all 120 subjects have substantive canonical articles and separately scoped review evidence.
 
-**Living-inventory clarification (November 18, 2026):** The 109 approved headings and direct article links recorded here are the **versioned historical/current snapshot**, not an immutable total. A model-grounded [frameworks/models/architectures audit](FOUNDATIONAL-MODELS-FRAMEWORKS-ARCHITECTURES-AUDIT-01.md) identifies candidates for new subjects, deeper existing scopes, and possible consolidation. No subject is added or retired by that report. Future adopted changes must maintain historical ID/heading traceability and revise this register's counts and cross-links.
+**Living-inventory clarification (November 18, 2026):** The original 109 headings and their references were a **historical baseline**, not an immutable total. A model-grounded [frameworks/models/architectures audit](FOUNDATIONAL-MODELS-FRAMEWORKS-ARCHITECTURES-AUDIT-01.md) identifies candidates for new subjects, deeper existing scopes, and possible consolidation. No subject was added or retired by that original audit alone; later adjudications and Wave H added eleven subjects with separate evidence. Future adopted changes must maintain historical ID/heading traceability and revise this register's counts and cross-links.
 
 ## Reading this register
 
