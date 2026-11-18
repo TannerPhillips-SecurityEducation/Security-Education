@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Subject inventory only; canonical explanations and references are pending  
+**Content status:** Three of nine approved subjects authored as Drafts; six not yet authored  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -21,12 +21,26 @@ Physical processes and electrical mechanisms that underpin digital systems, sens
 - Signal conversion
 - Physical control mechanisms
 
-## Content Development
+## Canonical reference articles
 
-This area is a **navigation discipline**. Its headings organize coverage but do not constitute a separate list of conceptual primitives. Establish one canonical home for each underlying concept and link contextual realizations rather than repeating general definitions.
+| Approved subject | Canonical reference | Development state |
+| --- | --- | --- |
+| Matter and energy | [Matter and Energy](matter-and-energy.md) | Draft |
+| Electricity | [Electricity](electricity.md) | Draft |
+| Electrical circuits | [Electrical Circuits](electrical-circuits.md) | Draft |
+| Electronics | Not authored | Inventoried |
+| Analog and digital signals | Not authored | Inventoried |
+| Waves and frequency | Not authored | Inventoried |
+| Sensors and actuators | Not authored | Inventoried |
+| Signal conversion | Not authored | Inventoried |
+| Physical control mechanisms | Not authored | Inventoried |
 
-Each subject will eventually receive a canonical explanation, key distinctions, mechanisms, relevant examples, explicit relationships, and credible references. These items are **not yet completed** merely by being listed.
+## Development boundaries
 
-The content belongs in Fundamentals only insofar as it is domain-agnostic. Security-specific treatment belongs in Security Foundations; security practice belongs in Operational Foundations. Cross-domain references should link to canonical subjects rather than duplicate them.
+Wave C Batch 01 contains three substantive source-linked drafts, with separate scoped claim-to-source technical audits still pending. The subjects distinguish energy and material constraints, electric quantities, and circuit relationships. Their examples are idealized; physical implementation, electrical safety certification and validated equipment performance are **not** claimed.
 
-[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
+Digital implementations belong under [Digital Systems & Hardware](../digital-systems-hardware/README.md). [Units and Quantities](../mathematics-logic/units-and-quantities.md), [Measurement](../scientific-analytical-reasoning/measurement.md) and [Feedback and Control](../systems-engineering/feedback-and-control.md) retain their general canonical scope. G-05 signal processing has an existing proposed placement without new approved headings; G-01, G-04 and G-06 remain unresolved scope decisions.
+
+No assessments or new subject categories were introduced.
+
+[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
