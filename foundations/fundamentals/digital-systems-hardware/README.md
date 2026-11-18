@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** 9 legacy articles Reviewed (model-assisted); 1 additional headings Inventoried, not authored; no subject Published
+**Content status:** 9 legacy articles Reviewed (model-assisted), 1 newly authored Draft articles (source references listed); none Published
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -21,9 +21,9 @@ Components and mechanisms by which physical hardware represents information and 
 - Firmware
 - Hardware abstraction
 
-**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 1 headings are **Inventoried**, not yet authored, Reviewed, Verified or Published. These expand the original 9-heading article snapshot; the area now tracks **10 headings**.
+**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 1 headings now have **Draft articles** with references listed, but have not passed scoped technical review, independent verification, or publication approval. These expand the original 9-heading article snapshot; the area now tracks **10 headings**.
 
-- **Computer architecture models** (Inventoried; article pending)
+- Computer architecture models
 
 ## Canonical reference articles
 
@@ -39,16 +39,16 @@ Components and mechanisms by which physical hardware represents information and 
 | Firmware | [Firmware](firmware.md) | Reviewed (model-assisted) |
 | Hardware abstraction | [Hardware Abstraction](hardware-abstraction.md) | Reviewed (model-assisted) |
 
-| Computer architecture models | Article pending (no canonical file yet) | **Inventoried** |
+| Computer architecture models | [Draft article](computer-architecture-models.md) | **Draft** |
 
 ## Technical review and canonical boundaries
-**Current inventory reconciliation (November 18, 2026):** **10 tracked headings = 9 previously Reviewed articles + 1 newly Inventoried subjects**. The historical 9/9 internal review statements below apply only to those existing articles. The additional subject headings are not yet canonical reference articles and do not inherit prior Wave review outcomes.
+**Current inventory reconciliation (November 18, 2026):** **10 tracked headings = 9 previously Reviewed articles + 1 newly authored Draft articles**. The historical 9/9 internal review statements below apply only to existing articles. New Drafts carry a separate References listed source state; technical and publication acceptance remain open.
 
 
 **Wave C authoring and internal review coverage: 9/9.** The [Batch 01](../WAVE-C-TECHNICAL-REVIEW-01.md), [Batch 02](../WAVE-C-TECHNICAL-REVIEW-02.md), and [Batch 03](../WAVE-C-TECHNICAL-REVIEW-03.md) audits document scoped model-assisted technical checks across the area. All nine articles are Reviewed (model-assisted). This does not establish full source-level verification, independent human peer review or final publication acceptance.
 
 This area distinguishes logical switching, hardware roles, ISA contracts, physical memory, interconnects, I/O, clocks, firmware, and abstraction. Operating-system memory management, device drivers and other software mechanisms retain separate ownership. Hardware timing does not settle the general-temporality decision G-04.
 
-This area is a **navigation discipline**, not a new universal ontology or a mandate for any particular vendor, electrical implementation, chip architecture, operating system or data format. The original 12-area/109-heading approved architecture is unchanged. G-01, G-04 and G-06 remain unresolved scope questions; no Knowledge Checks or Practical Assessments are introduced.
+This area is a **navigation discipline**, not a new universal ontology or a mandate for any particular vendor, electrical implementation, chip architecture, operating system or data format. G-01, G-04 and G-06 now have named subject owners; the new articles' source-level review and final acceptance remain pending. no Knowledge Checks or Practical Assessments are introduced.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
