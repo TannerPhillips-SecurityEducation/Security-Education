@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** 9 legacy articles Reviewed (model-assisted), 1 newly authored Draft articles (source references listed); none Published
+**Content status:** All **10/10** canonical articles Reviewed (model-assisted): 9 prior Wave articles and 1 under [Wave F 42-family review](../WAVE-F-TECHNICAL-REVIEW-01.md); none Published
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -21,7 +21,7 @@ Components and mechanisms by which physical hardware represents information and 
 - Firmware
 - Hardware abstraction
 
-**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 1 headings now have **Draft articles** with references listed, but have not passed scoped technical review, independent verification, or publication approval. These expand the original 9-heading article snapshot; the area now tracks **10 headings**.
+**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 1 newly authored references have now passed [Wave F's scoped model-assisted review](../WAVE-F-TECHNICAL-REVIEW-01.md). Their full source verification, independent expert review and publication acceptance remain pending. These expand the original 9-heading article snapshot; the area now tracks **10 headings**.
 
 - Computer architecture models
 
@@ -39,10 +39,10 @@ Components and mechanisms by which physical hardware represents information and 
 | Firmware | [Firmware](firmware.md) | Reviewed (model-assisted) |
 | Hardware abstraction | [Hardware Abstraction](hardware-abstraction.md) | Reviewed (model-assisted) |
 
-| Computer architecture models | [Draft article](computer-architecture-models.md) | **Draft** |
+| Computer architecture models | [Reviewed article](computer-architecture-models.md) | Reviewed (model-assisted) |
 
 ## Technical review and canonical boundaries
-**Current inventory reconciliation (November 18, 2026):** **10 tracked headings = 9 previously Reviewed articles + 1 newly authored Draft articles**. The historical 9/9 internal review statements below apply only to existing articles. New Drafts carry a separate References listed source state; technical and publication acceptance remain open.
+**Current inventory reconciliation (November 18, 2026):** **10 tracked headings and 10 internally Reviewed articles**. The first 9 retain their prior-wave review evidence; the 1 additions have separate [Wave F review evidence](../WAVE-F-TECHNICAL-REVIEW-01.md). None has final independent publication acceptance.
 
 
 **Wave C authoring and internal review coverage: 9/9.** The [Batch 01](../WAVE-C-TECHNICAL-REVIEW-01.md), [Batch 02](../WAVE-C-TECHNICAL-REVIEW-02.md), and [Batch 03](../WAVE-C-TECHNICAL-REVIEW-03.md) audits document scoped model-assisted technical checks across the area. All nine articles are Reviewed (model-assisted). This does not establish full source-level verification, independent human peer review or final publication acceptance.
