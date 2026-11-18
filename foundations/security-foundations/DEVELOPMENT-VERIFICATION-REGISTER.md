@@ -1,8 +1,8 @@
 # Security Foundations | Development & Verification Register
 
-**Working edition:** v0.3 · November 18, 2026  
+**Working edition:** v0.4 · November 18, 2026  
 **Authority:** [Fundamentals-style area structure decision](AREA-STRUCTURE-ADJUDICATION-03.md); exact labels, 12 areas and 96 subjects remain **provisional and revisionable**.  
-**Status:** **17 authored Reviewed (model-assisted)** working-area references; **0 Draft**, **79 Inventoried without article**, zero fully source-Verified or Published.  
+**Status:** **17 authored Reviewed (model-assisted)** and **1 Draft** working-area references; **78 Inventoried without article**; zero source-Verified or Published.  
 **Review evidence:** [Pilot Technical Reviews 01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), and [04](PILOT-TECHNICAL-REVIEW-04.md), totaling **88 bounded material claim groups** across 17 Reviewed manuscripts.
 
 ## Current development status
@@ -10,8 +10,8 @@
 | State | Count | Interpretation |
 | --- | ---: | --- |
 | **Reviewed (model-assisted)** | **17** | Seventeen substantive manuscripts in working area directories; four separate bounded technical audits (01–04) |
-| **Draft** | **0** | No currently authored manuscript awaits its initial scoped technical review |
-| **Inventoried without article** | **79** | Provisional conceptual coverage headings with no substantive article yet |
+| **Draft** | **1** | SF-04-08 substantive manuscript authored; separate claim-led technical review required before additional drafting |
+| **Inventoried without article** | **78** | Provisional conceptual coverage headings with no substantive article yet |
 | **Source-Verified / Published** | **0** | Full claim-to-passage checking, taxonomy acceptance and qualified publication review remain open |
 
 **Structural baseline:** Each active [working area](README.md#working-knowledge-areas) has a real `README.md`. When a subject is authored its **one substantive article** is in that area directory. The historical [pilot review index](pilots/README.md) and compatibility stubs are **not additional articles**.
@@ -48,7 +48,7 @@
 | SF-04-05 | [Exploitation and security violations](weaknesses-vulnerabilities-exposure/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-04-06 | [Severity, exploitability, and context](weaknesses-vulnerabilities-exposure/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-04-07 | [Weakness chains and dependency failures](weaknesses-vulnerabilities-exposure/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-04-08 | [Side channels, covert channels, and unintended information leakage](weaknesses-vulnerabilities-exposure/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
+| SF-04-08 | [Side channels, covert channels, and unintended information leakage](weaknesses-vulnerabilities-exposure/README.md) | [Working draft article](weaknesses-vulnerabilities-exposure/side-channels-covert-channels-and-unintended-information-leakage.md) | **Draft** | References listed; scoped review pending | Not reviewed |
 | SF-05-01 | [Risk, scenarios, and time horizon](security-risk-uncertainty/README.md) | [Working reviewed article](security-risk-uncertainty/risk-scenarios-and-time-horizon.md) | Reviewed (model-assisted) | Core claims checked | [Review 02](PILOT-TECHNICAL-REVIEW-02.md) |
 | SF-05-02 | [Likelihood, frequency, and probability](security-risk-uncertainty/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-05-03 | [Risk consequence estimation and loss](security-risk-uncertainty/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |

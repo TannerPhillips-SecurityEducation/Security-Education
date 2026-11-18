@@ -1,9 +1,9 @@
 # Security Foundations | Working Article Register and Historical Pilot Paths
 
 **Division:** [Security Foundations](../README.md)  
-**Status:** **17 Reviewed (model-assisted), 0 Draft** across four scoped audits (88 material claim groups). None has a ratified permanent canonical location or Published status.  
+**Status:** **17 Reviewed (model-assisted), 1 Draft** across four completed scoped audits (88 material claim groups). The new SF-04-08 Draft awaits the next separate review; no article is source-Verified, permanently ratified, or Published.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
-**Scope:** This register indexes fourteen historically relocated pilots and three subsequently authored/reviewed area-first manuscripts. **All substantive content resides in provisional area directories, following Fundamentals' README-plus-articles pattern.** Only the original fourteen have legacy `pilots/` navigation aliases; later articles link to their area homes. Individual taxonomy and candidate counts remain revisionable.
+**Scope:** This register indexes fourteen historically relocated pilots and four newer area-first manuscripts (three already Reviewed, SF-04-08 currently Draft). **All substantive content resides in provisional area directories, following Fundamentals' README-plus-articles pattern.** Only the original fourteen have legacy `pilots/` navigation aliases; newer articles link directly to their area homes. Internal taxonomy and subject counts remain flexible.
 
 ## Actual working article locations and historical review register
 
@@ -12,6 +12,7 @@
 | SF-01-01 | [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md) | **Reviewed (model-assisted)** | Core claims checked | What counts as a conditional security claim rather than an absolute label? |
 | SF-03-01 | [Threat Sources and Threat Events](../threats-hazards-adversarial-behavior/threat-sources-and-threat-events.md) | **Reviewed (model-assisted)** | Core claims checked | How do adversarial and non-adversarial threat sources differ from occurrences and consequences? |
 | SF-04-02 | [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md) | **Reviewed (model-assisted)** | Core claims checked | How do weakness, vulnerability, exposure, exploitation, severity and risk differ? |
+| SF-04-08 | [Side Channels, Covert Channels, and Unintended Information Leakage](../weaknesses-vulnerabilities-exposure/side-channels-covert-channels-and-unintended-information-leakage.md) | **Draft** | References listed; next-cycle claim-led review pending | How do indirect secret-dependent effects differ from cooperating, policy-violating covert signaling and ordinary disclosure? |
 | SF-06-09 | [Access-Control Policy Models](../trust-identity-authority-principles/access-control-policy-models.md) | **Reviewed (model-assisted)** | Core claims checked | What differentiates policy decision models from authentication and enforcement? |
 | SF-08-09 | [Information-Flow Security and Noninterference](../secure-design-architecture/information-flow-security-and-noninterference.md) | **Reviewed (model-assisted)** | Core claims checked | When is a flow/observation permitted and why can access control be insufficient? |
 | SF-09-09 | [Cryptographic Composition and Protocol Security](../cryptography-information-protection/cryptographic-composition-and-protocol-security.md) | **Reviewed (model-assisted)** | Core claims checked | When do secure primitives fail to establish complete protocol objectives? |
@@ -29,7 +30,7 @@
 | SF-11-07 | [Recovery Objectives and Trusted Restoration](../security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) | Recovery-target measurement versus evidenced trusted restoration |
 | SF-12-08 | [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** | Core claims checked | Legitimate security authority, privacy rights, proportionality and human harm |
 
-**Record count:** **17 substantive Reviewed working area articles**: eight checked under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10 groups), four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20 groups), and three under [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) (18 groups). **79 of 96 current working candidates have no substantive article yet**; neither count is fixed.
+**Record count:** **17 substantive Reviewed working area articles** (Reviews [01](../PILOT-TECHNICAL-REVIEW-01.md), [02](../PILOT-TECHNICAL-REVIEW-02.md), [03](../PILOT-TECHNICAL-REVIEW-03.md) and [04](../PILOT-TECHNICAL-REVIEW-04.md), **88 material groups**) **plus 1 new Draft (SF-04-08)** awaiting its own audit. **78 of 96 current working candidates have no substantive manuscript**. Counts are living observations, not quotas or publication approval.
 
 ## Pilot technical review evidence
 
