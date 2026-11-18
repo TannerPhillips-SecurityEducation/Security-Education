@@ -29,7 +29,7 @@ AREAS = (
 )
 AREA_HEADER = re.compile(r"^### (\d\d)\. (.+?) \(Wave")
 ROW = re.compile(r"^\| (F-\d\d-\d\d) \|")
-OWNER = re.compile(r"^\| \*\*(.+?)\*\*(?: \(F-\d\d-\d\d; Inventoried\))? \|")
+OWNER = re.compile(r"^\| \*\*(.+?)\*\*(?: \(F-\d\d-\d\d; (?:Inventoried|Draft|Reviewed)\))? \|")
 ARTICLE = re.compile(r"\[Reviewed article\]\(([^)]+)\)")
 INVENTORY = re.compile(r"^## (?:Approved Subject Inventory|Subject Inventory \(versioned\))$")
 
