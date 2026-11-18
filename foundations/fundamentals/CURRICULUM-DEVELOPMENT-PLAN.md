@@ -16,7 +16,7 @@ Follow the [approved Fundamentals governing architecture](ARCHITECTURE.md) throu
 - **Canonical ownership:** A concept has one general canonical home; specialized areas link to it and develop distinct contextual mechanisms.
 - **Specialized extension:** Domain applications build on Fundamentals, without turning Fundamentals into a technology-specific taxonomy.
 
-The **12 approved knowledge areas are navigational disciplines**, and **116 headings form the current, revisable coverage inventory**, not 109 presumed one-to-one concepts or a fixed quota. The knowledge graph captures conceptual relationships across disciplinary boundaries. Illustrative primitives are not a separately approved taxonomy.
+The **12 approved knowledge areas are navigational disciplines**, and **116 headings form the current, revisable coverage inventory**, not 116 presumed one-to-one concepts or a fixed quota. The knowledge graph captures conceptual relationships across disciplinary boundaries. Illustrative primitives are not a separately approved taxonomy.
 
 ## 1. Mission
 
@@ -34,7 +34,7 @@ Here, *curriculum* means an organized body of reference knowledge with deliberat
 - **Not yet demonstrated:** fully developed canonical references, verified concept-level dependency relationships, complete seven-domain coverage, or satisfaction of all seven completion gates.
 - **Unit of work:** A canonical *concept or tightly coherent subject*, not necessarily one file for each inventory heading. Identify the general definition's owner before adding implementations. Some headings may need several canonical entries; others may be adequately covered together. Changes to scope and the canonical map should be recorded before drafting to avoid duplication.
 
-The original 109 headings are a **historical baseline**; the seven additional subjects are documented in [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md), yielding 116 tracked subjects. The original count is, not a maximum, minimum, or final quota. Model- and framework-grounded review may justify added, split, consolidated, or retired subjects.
+The original 109 headings are a **historical baseline**; the seven additional subjects are documented in [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md), yielding 116 tracked subjects. The original count is **not** a maximum, minimum, or final quota. Model- and framework-grounded review may justify added, split, consolidated, or retired subjects.
 
 ## Boundary and Gap-Resolution Milestones
 
