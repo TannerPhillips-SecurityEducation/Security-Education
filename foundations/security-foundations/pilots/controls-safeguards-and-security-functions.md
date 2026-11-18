@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-07-01 · Security Controls & Defense Mechanisms  
 **Artifact type:** Working pilot article, not a ratified canonical subject  
-**Development state:** Draft · **Source review:** References listed; scoped technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 02](../PILOT-TECHNICAL-REVIEW-02.md); five material claim groups; full source verification and qualified independent approval remain pending  
 **Architecture:** [Flexible proposed inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)
 
 ## Protection objectives and controls are different kinds of things
@@ -106,5 +106,7 @@ Control effectiveness also changes with the environment. New dependencies, evolv
 - [NIST CSF 2.0](https://www.nist.gov/cyberframework), organizational security/risk-management outcomes.
 
 **Editorial limitations:** This is a source-led conceptual pilot. Neither controls in a catalog nor compliance with a checklist demonstrate security effectiveness in a deployed system. The examples are invented, not live evaluations. Complete passage-level standards verification, independent expert review and canonical taxonomy approval remain open. No Knowledge Checks or Practical Assessments.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 02](../PILOT-TECHNICAL-REVIEW-02.md). This remains a working pilot, not a ratified canonical path or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md)
