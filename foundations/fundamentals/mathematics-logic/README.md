@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** 11 canonical articles Reviewed (model-assisted) + 2 additional subjects Inventoried (no articles); none Published.
+**Content status:** 11 legacy articles Reviewed (model-assisted), 2 additional articles Draft (References listed); no subjects Published.
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -28,6 +28,9 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 - Calculus and differential equations
 - Stochastic processes and Markov models
 
+
+**Post-authoring status:** The 2 additional articles are substantively authored and remain **Draft / References listed**, distinct from the 11 historically Reviewed references. Further validation and publication review remain outstanding.
+
 ## Canonical reference articles
 
 | Approved subject | Canonical reference | Development state | Scoped review evidence |
@@ -45,11 +48,11 @@ Formal structures and quantitative reasoning used to represent, compare, and rea
 | Geometry and spatial reasoning | [Reviewed article](geometry-and-spatial-reasoning.md) | Reviewed (model-assisted) | [Wave F 42-family audit](../WAVE-F-TECHNICAL-REVIEW-01.md) |
 | Topology and continuity | [Reviewed article](topology-and-continuity.md) | Reviewed (model-assisted) | [Wave F 42-family audit](../WAVE-F-TECHNICAL-REVIEW-01.md) |
 
-| Calculus and differential equations | Article not yet authored; [scope decision](../COVERAGE-AND-SOURCE-TRIAGE-02.md) | **Inventoried** |
-| Stochastic processes and Markov models | Article not yet authored; [scope decision](../COVERAGE-AND-SOURCE-TRIAGE-02.md) | **Inventoried** |
+| Calculus and differential equations | [Draft article](calculus-and-differential-equations.md) | **Draft** |
+| Stochastic processes and Markov models | [Draft article](stochastic-processes-and-markov-models.md) | **Draft** |
 
 
-**Coverage Triage 02 (November 18, 2026):** F-01-12 Calculus and differential equations; F-01-13 Stochastic processes and Markov models are newly Inventoried under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 11 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
+**Coverage Triage 02 (November 18, 2026):** F-01-12 Calculus and differential equations; F-01-13 Stochastic processes and Markov models are newly Drafted under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 11 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
 
 ## Development and canonical boundaries
 **Current inventory reconciliation (November 18, 2026):** **11 tracked headings and 11 internally Reviewed articles**. The first 8 retain their prior-wave review evidence; the 3 additions have separate [Wave F review evidence](../WAVE-F-TECHNICAL-REVIEW-01.md). None has final independent publication acceptance.
