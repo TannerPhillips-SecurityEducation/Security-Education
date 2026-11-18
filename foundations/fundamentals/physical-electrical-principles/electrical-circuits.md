@@ -82,6 +82,7 @@ The labels do not make three isolated physical domains. A processor is a digital
 
 ### References
 
+- [OpenStax: Kirchhoff's Rules](https://openstax.org/books/university-physics-volume-2/pages/10-3-kirchhoffs-rules).
 - [OpenStax: Resistors in Series and Parallel](https://openstax.org/books/university-physics-volume-2/pages/10-2-resistors-in-series-and-parallel).
 - [OpenStax: Resistivity and Resistance](https://openstax.org/books/university-physics-volume-2/pages/9-3-resistivity-and-resistance).
 - [MIT OpenCourseWare: Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/).
