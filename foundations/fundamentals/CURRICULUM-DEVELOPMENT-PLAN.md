@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v1.17; 81 internally reviewed references, 9 drafts, 19 inventoried headings; external human acceptance pending
+**Document status:** Working plan v1.18; 90 internally reviewed references, 19 drafts, 0 inventoried headings; external human acceptance pending
 **Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -54,20 +54,18 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record
 6. **No assessments.** No Knowledge Checks or Practical Assessments appear anywhere in this development plan or in the resulting knowledge reference.
 7. **Versioned evolution.** Preserve approved category identities while documenting proposed additions, merges, relocations, and corrections before changing canonical structure.
 
-## Execution Status: Wave D Batch 02 reviewed; Software & Programming authored
+## Execution Status: Full authoring coverage; Wave E technical reviews pending
 
-- **Wave A:** 26/26 approved headings internally Reviewed (model-assisted).
-- **Wave B:** 28/28 approved headings internally Reviewed (model-assisted).
-- **Wave C:** 18/18 approved headings internally Reviewed (model-assisted).
-- **Wave D Computation & Algorithms:** **9/9 internally Reviewed** following [Batch 01](WAVE-D-TECHNICAL-REVIEW-01.md) and [Batch 02](WAVE-D-TECHNICAL-REVIEW-02.md). Batch 02 audited 30 claim families across five articles, including amortized dynamic-array growth, recursion, synchronization, and practical efficiency.
-- **Wave D Software & Programming, Batch 03 Drafts:** [Programming Languages](software-programming/programming-languages.md), [Syntax and Semantics](software-programming/syntax-and-semantics.md), [Programming Paradigms](software-programming/programming-paradigms.md), and [Compilation and Interpretation](software-programming/compilation-and-interpretation.md).
-- **Wave D Software & Programming, Batch 04 Drafts:** [Runtime Environments](software-programming/runtime-environments.md), [Modules and Dependencies](software-programming/modules-and-dependencies.md), [Software Interfaces](software-programming/software-interfaces.md), [Error Handling](software-programming/error-handling.md), and [Testing and Software Lifecycle](software-programming/testing-and-software-lifecycle.md).
-- **Wave D authoring coverage:** **18/18 approved subjects authored**, nine internally Reviewed and nine Draft. The Software & Programming drafts have authoritative references and verified file destinations but **have not passed their own scoped technical audits**.
-- **Wave E remains un-authored:** 19 approved subjects, consisting of ten Operating System Principles and nine Communication & Distributed Systems headings.
-- **Portfolio reconciliation:** The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) accounts for all **109 approved headings: 81 Reviewed (model-assisted), 9 Draft and 19 Inventoried without article**.
-- G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open architectural decisions. No new headings, knowledge areas, learner assessments, or mandatory language/runtime stacks were introduced.
+- **Wave A:** 26/26 subjects authored and internally Reviewed (model-assisted).
+- **Wave B:** 28/28 subjects authored and internally Reviewed (model-assisted).
+- **Wave C:** 18/18 subjects authored and internally Reviewed (model-assisted).
+- **Wave D:** 18/18 subjects authored and internally Reviewed (model-assisted). All nine Software & Programming references passed the [54-family technical audit for Batches 03–04](WAVE-D-TECHNICAL-REVIEW-03-04.md). The audit clarified version-tuple comparison, integer-only type boundaries and interface contracts. Independent human acceptance remains open.
+- **Wave E Operating System Principles:** All **10 approved headings** have substantive Drafts: [Kernels](operating-system-principles/kernels.md), [System Calls](operating-system-principles/system-calls.md), [Processes and Threads](operating-system-principles/processes-and-threads.md), [Scheduling](operating-system-principles/scheduling.md), [Memory Management](operating-system-principles/memory-management.md), [Filesystems](operating-system-principles/filesystems.md), [Drivers and Devices](operating-system-principles/drivers-and-devices.md), [Execution Contexts](operating-system-principles/execution-contexts.md), [System Initialization](operating-system-principles/system-initialization.md), and [Resource Management](operating-system-principles/resource-management.md).
+- **Wave E Communication & Distributed Systems:** All **9 approved headings** have substantive Drafts: [Communication Models](communication-distributed-systems/communication-models.md), [Transmission and Signaling](communication-distributed-systems/transmission-and-signaling.md), [Communication Channels](communication-distributed-systems/communication-channels.md), [Protocols and Layering](communication-distributed-systems/protocols-and-layering.md), [Addressing and Naming](communication-distributed-systems/addressing-and-naming.md), [Latency and Throughput](communication-distributed-systems/latency-and-throughput.md), [Reliability and Ordering](communication-distributed-systems/reliability-and-ordering.md), [Distributed State](communication-distributed-systems/distributed-state.md), and [Synchronization and Coordination](communication-distributed-systems/synchronization-and-coordination.md).
+- **Portfolio reconciliation:** All **109/109 approved headings now have substantive articles**. The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) records **90 Reviewed (model-assisted), 19 Draft, 0 Inventoried without an article**.
+- **Scope:** Twelve approved areas and 109 heading identities remain unchanged. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No Knowledge Checks, Practical Assessments, quizzes, additional headings or mandated vendor/system implementation were introduced.
 
-**Next execution:** Audit the nine Software & Programming Drafts under separately documented scoped technical/source reviews, then proceed to approved Wave E authoring. Independent human expert peer review, comprehensive source-level verification, corpus-wide link/anchor integrity and the seven publication gates remain separate outstanding responsibilities.
+**Next execution:** Conduct separately documented scoped technical, source and example audits of the ten OS and nine distributed-systems Wave E Drafts. These are internal model-assisted acceptance gates, **not** independent human expert review or final publication. Afterwards pursue the seven corpus-wide completion gates, comprehensive source verification, external/fragment link review, depth/consistency checks, and human publication acceptance.
 
 ## 4. Work Packages and Stage Gates
 
@@ -213,8 +211,9 @@ No graph database or universal front-matter schema is required at this stage. Pr
 12. **Completed:** Wave C Batch 03's nine articles passed the [54-family technical audit](WAVE-C-TECHNICAL-REVIEW-03.md). Wave C is 18/18 internally Reviewed.
 13. **Completed:** The four Wave D Batch 01 references passed the [24-family scoped review](WAVE-D-TECHNICAL-REVIEW-01.md).
 14. **Completed:** Five Wave D Batch 02 articles passed the [30-family scoped technical review](WAVE-D-TECHNICAL-REVIEW-02.md); Computation & Algorithms is 9/9 internally Reviewed.
-15. **Completed authoring:** Nine Software & Programming substantive Drafts committed in Wave D Batches 03–04; their separate review gates remain pending.
-16. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately. The 109-heading corpus is not publication-complete until the seven Fundamentals gates and applicable human acceptance are satisfied.
+15. **Completed:** Nine Software & Programming articles passed the [54-family Wave D Software Batches 03–04 technical audit](WAVE-D-TECHNICAL-REVIEW-03-04.md); Wave D is 18/18 internally Reviewed.
+16. **Completed authoring:** The final ten Operating System Principles and nine Communication & Distributed Systems articles committed as Wave E Drafts. All 109 approved headings are substantively authored; technical audit for these 19 remains pending.
+17. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately. The 109-heading corpus is not publication-complete until the seven Fundamentals gates and applicable human acceptance are satisfied.
 
 Production waves guide authors, **not reader prerequisites**. Knowledge Checks and Practical Assessments remain excluded.
 
@@ -245,6 +244,7 @@ Production waves guide authors, **not reader prerequisites**. Knowledge Checks a
 - [Wave C Batch 03 Claim-to-Source Review (54 families)](WAVE-C-TECHNICAL-REVIEW-03.md)
 - [Wave D Batch 01 Claim-to-Source Review (24 families)](WAVE-D-TECHNICAL-REVIEW-01.md)
 - [Wave D Batch 02 Claim-to-Source Review (30 families)](WAVE-D-TECHNICAL-REVIEW-02.md)
+- [Wave D Software Batches 03–04 Claim-to-Source Review (54 families)](WAVE-D-TECHNICAL-REVIEW-03-04.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
 - [Knowledge relationship conventions](../../RELATIONSHIPS.md)
