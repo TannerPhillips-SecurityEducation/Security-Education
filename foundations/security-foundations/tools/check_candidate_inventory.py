@@ -16,7 +16,7 @@ INVENTORY = ROOT / "SUBJECT-INVENTORY-PROPOSAL.md"
 PILOT_INDEX = ROOT / "pilots" / "README.md"
 AREA = re.compile(r"^### (SF-\d{2})\. .+? \((\d+) candidates\)\s*$")
 SUBJECT = re.compile(r"^\| (SF-\d{2}-\d{2}) \| ([^|]+) \| ([^|]+) \|$")
-PILOT = re.compile(r"^\| (SF-\d{2}-\d{2}) \| \[([^\]]+)\]\(([^)]+\.md)\) \| \*\*(Draft|Reviewed \(model-assisted\))\*\* \| ([^|]+) \|")
+PILOT = re.compile(r"^\| (SF-\d{2}-\d{2}) \| \[([^\]]+)\]\(([^)]+\.md)\) \| \*\*(Draft|Reviewed \(model-assisted\))\*\* \| ([^|]+) \|", re.M)
 
 def main() -> int:
     errors: list[str] = []
