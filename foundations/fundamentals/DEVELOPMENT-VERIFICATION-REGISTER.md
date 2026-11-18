@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.15  
+**Working edition:** v1.16  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -46,11 +46,11 @@
 
 ## Next acceptance gate
 
-1. **Completed authoring:** All **109/109 approved headings** across the **12 unchanged knowledge areas** have substantial canonical reference articles.
-2. **Completed model-assisted scoped technical review:** All **109/109 articles** have a **Reviewed (model-assisted)** development status and a separate **Core claims checked** source-review state. The [Wave E Operating System Principles audit](WAVE-E-TECHNICAL-REVIEW-01.md) reviewed 60 material claim groups; the [Wave E Communication & Distributed Systems audit](WAVE-E-TECHNICAL-REVIEW-02.md) reviewed 54 groups, with corrections and explicit verification limits.
-3. **Current publication-quality work:** Conduct corpus-wide link and fragment integrity checks, evaluate technical completeness and depth against approved subject scope, reconcile cross-domain relationship and boundary claims, and pursue stronger claim-to-source verification rather than assuming the existence of cited links proves each statement.
-4. **Human acceptance remains pending:** Obtain independent qualified human peer review, adjudicate resulting corrections, and apply the seven [Fundamentals completion gates](README.md#completion-gates) before declaring any article or the corpus **Published**.
-5. **Architecture governance remains open:** G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No Knowledge Checks, Practical Assessments, new headings or required vendor technologies have been adopted.
+1. **Completed authoring and internal technical review:** All **109/109 approved headings** across twelve unchanged knowledge areas have substantive canonical references and **Reviewed (model-assisted)** development states. Each has a separate **Core claims checked** source-review state, not the stronger `Verified` status or independent human acceptance.
+2. **Completed preliminary inventory/navigation audit:** [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) examined the pre-report snapshot of **152 Fundamentals Markdown files**, including all 109 articles and twelve area indexes. It checked **2,681 inline relative Markdown-link occurrences**, finding **zero missing file destinations**. The **55 fragment links** corresponded to **32 existing target heading slugs**. All 109 direct ownership links aligned with the register, and all twelve area indexes showed the correct subjects and review states. This is **not** an external URL or exhaustive Markdown semantic audit.
+3. **Current publication-quality work:** Strengthen full material claim-to-source traceability, verify external URLs and external anchors, evaluate the conceptual depth/consistency of the 109 articles, and review cross-area relationships and seven-domain completeness under the approved coverage architecture.
+4. **Human acceptance and publication remain pending:** Obtain independent qualified expert peer review, adjudicate findings, and satisfy all seven [Fundamentals completion gates](README.md#completion-gates) before marking any article or the corpus **Published**.
+5. **Architecture governance remains open:** G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No Knowledge Checks, Practical Assessments, new headings or mandatory vendors have been introduced.
 
 ## Detailed coverage by approved knowledge area
 
