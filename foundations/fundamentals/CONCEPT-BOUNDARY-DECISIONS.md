@@ -1,8 +1,8 @@
 # Fundamentals: Canonical Concept Boundary Decisions
 
 **Version:** v0.2  
-**Status:** Approved conceptual boundary guidance (20 groups); new [model architecture adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) assigned seven Inventoried subjects without changing the twelve knowledge areas or formal graph schema. New technical articles and source verification pending.  
-**Baseline:** 12 knowledge areas; **109-heading historical snapshot, 116 current headings** (seven new Inventoried).  
+**Status:** Approved conceptual boundary guidance (20 groups); [model architecture adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) assigned seven additional subjects subsequently authored and scoped-reviewed under [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md). Twelve areas unchanged; comprehensive source verification and independent publication acceptance pending.  
+**Baseline:** 12 knowledge areas; **109-heading historical snapshot, 116 current headings**, all 116 internally Reviewed (model-assisted) under Wave A–F.  
 **Inputs:** [Original 20 overlaps and 10 open gaps](CONCEPT-OVERLAP-REVIEW.md), [canonical ownership crosswalk](CANONICAL-OWNERSHIP-REGISTER.md), and [governing architecture](ARCHITECTURE.md).
 
 ## Resolution method
@@ -25,7 +25,7 @@ The canonical-owner distinctions below are **approved architectural guidance**, 
 | [B-08](#b-08) | Control, feedback, and industrial controllers | Systems & Engineering: general feedback and control | Physical & Electrical Principles owns actuation; Industrial Knowledge owns controllers and OT mechanisms. Feedback is one control strategy, not all control. |
 | [B-09](#b-09) | Algorithmic and emergent complexity | Computation & Algorithms: computational complexity; Systems & Engineering: emergence/complexity | Asymptotic resource growth, implementation performance, and interaction-driven system complexity are not interchangeable. |
 | [B-10](#b-10) | Probability, uncertainty, and confidence | Mathematics & Logic: probability/statistical models | Scientific & Analytical Reasoning owns epistemic confidence, uncertainty qualification and evidence limits; Measurement owns metrological uncertainty. |
-| [B-11](#b-11) | Time, hardware clocks, and event ordering | Mathematics & Logic: units/duration; Models & Abstraction: modeled events | Digital Systems owns physical clocks; Distributed Systems owns event ordering and synchronization. General temporality lacks an adequately established canonical home. |
+| [B-11](#b-11) | Time, hardware clocks, and event ordering | Mathematics & Logic: units/duration; Models & Abstraction: modeled events | Digital Systems owns physical clocks; Distributed Systems owns event ordering and synchronization. General temporal-model concepts now have a canonical home in [Temporal Concepts and Models](models-abstraction/temporal-concepts-and-models.md), separately reviewed under Wave F. |
 | [B-12](#b-12) | Software interfaces, APIs, and protocols | Software & Programming: software interfaces and contracts | Communication & Distributed Systems owns protocol/layering rules; Application Knowledge owns concrete APIs. An API contract and exchange protocol overlap but differ. |
 | [B-13](#b-13) | Concurrency, threads, and coordination | Computation & Algorithms: concurrency, parallelism, synchronization | OS Principles owns process/thread mechanisms; Distributed Systems owns cross-node coordination under partial failure. Concurrency need not imply parallel execution. |
 | [B-14](#b-14) | Drivers, buses, devices, and I/O | Digital Systems & Hardware: general I/O and buses/interfaces | Operating System Principles owns driver abstractions; Endpoint owns platform drivers. OS requests are not electrical bus operations themselves. |
@@ -118,9 +118,9 @@ The canonical-owner distinctions below are **approved architectural guidance**, 
 
 **Sensors, devices, and IoT/industrial systems:** A thermistor is a sensor; a thermostat or industrial transmitter combines more mechanisms.
 
-## General temporality: owner assigned, content exception remains (B-11; G-04)
+## General temporality: owner and scoped article reviewed; full source verification remains (B-11; G-04)
 
-**Canonical owner now assigned, substantive review open.** F-03-11 [Temporal Concepts and Models](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) is newly Inventoried within Models & Abstraction for general instants, intervals, durations and ordering. Time *units* remain in Mathematics & Logic, hardware timing in Digital Systems, and concrete distributed causal ordering in Communication & Distributed Systems. **No F-03-11 article exists yet**; B-11 still has a content/source-verification exception, although the previously open owner-placement question is resolved. See [G-04](COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks).
+**Canonical owner and scoped technical review now established.** F-03-11 [Temporal Concepts and Models](models-abstraction/temporal-concepts-and-models.md) owns general instants, intervals, durations and temporal ordering, supported by the [Wave F six-family review of that article](WAVE-F-TECHNICAL-REVIEW-01.md). Time *units* remain in Mathematics & Logic; hardware timing remains in Digital Systems; distributed causal-order algorithms remain in Communication & Distributed Systems. **B-11's owner-placement and initial content gap are resolved; complete source-passage verification and cross-domain acceptance remain open.** See [G-04](COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks).
 
 ## Rules for future canonical authoring
 
@@ -144,8 +144,8 @@ These sources inform selected terms. The conceptual ownership boundaries were ap
 
 ## Resolution status
 
-- **20 of 20 groups mapped and approved as architectural boundaries:** general owners, contextual distinctions, and discriminating examples. The B-11 general-temporality coverage decision remains open.
-- **B-11 exception:** general temporality remains an open coverage decision.
+- **20 of 20 groups mapped and approved as architectural boundaries:** general owners, contextual distinctions, and discriminating examples. The B-11 owner-placement decision is resolved, while comprehensive source and cross-domain verification remain open.
+- **B-11 exception:** the formerly missing general-temporality canonical home and scoped explanation are established; complete source verification and publication acceptance remain open.
 - **10 candidate gaps:** have separate working dispositions in the [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md); seven are assigned to existing headings for authoring, and three require architectural decisions.
 - **Approved taxonomy:** untouched; no additional areas or subject headings.
 - **Reference articles:** not yet written or validated.
