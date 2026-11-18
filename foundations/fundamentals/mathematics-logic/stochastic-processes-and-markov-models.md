@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Mathematics & Logic](README.md)  
 **Subject ID:** F-01-13  
-**Development status:** Draft; newly authored foundational reference  
-**Source review:** References listed; scoped technical review pending  
+**Development status:** Reviewed (model-assisted; independent human approval not claimed)  
+**Source review:** Core claims checked under [Wave H 24-family scoped technical review](../WAVE-H-TECHNICAL-REVIEW-01.md); full source-passage verification not claimed  
 **Inventory authority:** [Coverage & Source Triage 02](../COVERAGE-AND-SOURCE-TRIAGE-02.md)
 
 ## Stochastic processes describe uncertain change
@@ -97,6 +97,6 @@ A model that treats each observation as an independent Bernoulli draw cannot aut
 - [MIT 6.041SC resource materials](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/), discrete and continuous random variables, stochastic processes and probabilistic systems.
 - [MIT 6.041SC Markov Chains, Lecture 17](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/0c7babf5725ef87aa95cf623253a68e4_MIT6_041SCF13_lec17_300k.pdf), an introductory time-homogeneous, finite-state treatment.
 
-**Editorial state:** Draft. The equations and numbers are model illustrations; passage-level source verification, empirical validation, and independent human review remain open. No Knowledge Checks or Practical Assessments.
+**Editorial status:** Reviewed (model-assisted) under [Wave H Technical Review 01](../WAVE-H-TECHNICAL-REVIEW-01.md). Complete source-passage verification, independent qualified expert acceptance and Published status remain open.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
