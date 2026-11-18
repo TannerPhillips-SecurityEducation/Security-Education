@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** 9 legacy articles Reviewed (model-assisted); 2 additional headings Inventoried, not authored; no subject Published
+**Content status:** 9 legacy articles Reviewed (model-assisted), 2 newly authored Draft articles (source references listed); none Published
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -21,10 +21,10 @@ How problems are formulated as computations, how algorithms operate, and how the
 - Synchronization
 - Computational efficiency
 
-**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 2 headings are **Inventoried**, not yet authored, Reviewed, Verified or Published. These expand the original 9-heading article snapshot; the area now tracks **11 headings**.
+**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 2 headings now have **Draft articles** with references listed, but have not passed scoped technical review, independent verification, or publication approval. These expand the original 9-heading article snapshot; the area now tracks **11 headings**.
 
-- **Artificial intelligence foundations** (Inventoried; article pending)
-- **Machine learning foundations** (Inventoried; article pending)
+- Artificial intelligence foundations
+- Machine learning foundations
 
 ## Canonical reference articles
 
@@ -40,11 +40,11 @@ How problems are formulated as computations, how algorithms operate, and how the
 | Synchronization | [Synchronization](synchronization.md) | Reviewed (model-assisted) |
 | Computational efficiency | [Computational efficiency](computational-efficiency.md) | Reviewed (model-assisted) |
 
-| Artificial intelligence foundations | Article pending (no canonical file yet) | **Inventoried** |
-| Machine learning foundations | Article pending (no canonical file yet) | **Inventoried** |
+| Artificial intelligence foundations | [Draft article](artificial-intelligence-foundations.md) | **Draft** |
+| Machine learning foundations | [Draft article](machine-learning-foundations.md) | **Draft** |
 
 ## Development and canonical boundaries
-**Current inventory reconciliation (November 18, 2026):** **11 tracked headings = 9 previously Reviewed articles + 2 newly Inventoried subjects**. The historical 9/9 internal review statements below apply only to those existing articles. The additional subject headings are not yet canonical reference articles and do not inherit prior Wave review outcomes.
+**Current inventory reconciliation (November 18, 2026):** **11 tracked headings = 9 previously Reviewed articles + 2 newly authored Draft articles**. The historical 9/9 internal review statements below apply only to existing articles. New Drafts carry a separate References listed source state; technical and publication acceptance remain open.
 
 
 **All 9/9 approved subjects have substantive articles.** Every article passed the [Wave D Batch 01](../WAVE-D-TECHNICAL-REVIEW-01.md) or [Wave D Batch 02](../WAVE-D-TECHNICAL-REVIEW-02.md) scoped model-assisted audit. All nine are internally Reviewed, with source state Core claims checked.
