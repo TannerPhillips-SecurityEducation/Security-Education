@@ -1,0 +1,69 @@
+# Security Foundations: Proposed Canonical Ownership Boundaries
+
+**Working edition:** v0.1 · November 17, 2026  
+**Status:** Proposed, **not approved**. These are editorial routing recommendations, not formal knowledge-graph predicates or decisions to move existing content.
+
+## Purpose
+
+Prevent the future Security Foundations inventory from becoming a second copy of the approved [Fundamentals](../fundamentals/README.md) corpus or a catch-all container for domain implementations and security operations. The [Architecture Proposal](ARCHITECTURE.md) supplies the governing selection rules; the [Candidate Subject Inventory](SUBJECT-INVENTORY-PROPOSAL.md) supplies provisional navigation.
+
+Security concepts may be **related** across articles without being ontologically identical. Each distinct explanation should have one canonical general home, with linked applications and distinct mechanism-specific homes. A Markdown link demonstrates navigation, **not** correctness of the claimed relationship.
+
+## Working overlap ledger (25 cases)
+
+| Case | Canonical general meaning | Boundary and contextual ownership |
+| --- | --- | --- |
+| B-01: General events vs security events | [Fundamentals](../fundamentals/README.md) owns general event/state models. | Security Foundations owns security-relevant conditions, observables, interpretations and assertions; Operational Foundations owns incident work. |
+| B-02: Identity as distinction vs acting principal | [Fundamentals](../fundamentals/README.md) owns generic identity, distinction and representation. | Security Foundations owns principal/authority/trust meanings; [Identity Knowledge](../../identity/README.md) owns proofing, authentication and IAM mechanisms. |
+| B-03: Threat vs risk | Security Foundations' threat area owns potential sources and events. | Security Foundations' risk area owns scenario-specific consequences, likelihood, uncertainty and decisions; avoid treating a threat as a risk score. |
+| B-04: Threat vs vulnerability | Threat area owns potential adverse acts or causes. | Weakness/exposure area owns enabling system conditions; either may exist without the other. |
+| B-05: Weakness vs vulnerability | Weakness/exposure area owns generic flaw classes. | Same area owns context-dependent exploitable conditions; MITRE CWE is a reference for weakness classes, not universal vulnerability diagnosis. |
+| B-06: Exposure vs attack surface | Weakness/exposure area owns both terms and their differences. | Network, cloud, application and other domains own concrete externally reachable interfaces, assets and configurations. |
+| B-07: Severity vs risk | Weakness/exposure area owns generic severity and exploitability distinctions. | Risk area owns scenario- and stakeholder-dependent risk; a published severity rating is not automatically an organization's risk. |
+| B-08: Intent vs behavioral evidence | Threat area owns actor motives as a conditional hypothesis. | Evidence area owns observations and limits on inferring intent; operational intelligence production belongs in Operational Foundations. |
+| B-09: Security objectives vs controls | Security meaning/objectives area owns desired outcomes. | Controls area owns protective mechanisms; the presence of a control does not establish that an objective was achieved. |
+| B-10: Security requirements vs policy | Security meaning/objectives area owns property-oriented goals and requirement concepts. | Assurance/governance area owns normative requirements, policy distinctions and obligations; implementation rules remain contextual. |
+| B-11: Trust boundary vs architectural barrier | Trust/authority area owns meanings and assumptions of trust boundaries. | Secure architecture area owns mediation, isolation and structural enforcement; specific segmentations remain in their domain. |
+| B-12: Authentication vs authorization | Trust/authority area owns the general separation. | [Identity Knowledge](../../identity/README.md) owns implementing authentication, identity services, authorization and lifecycle processes. |
+| B-13: Zero trust vs network segmentation | Trust/authority area owns the security principle of no implicit trust by location alone. | Secure architecture owns system-level application; networks, identity and cloud own implementation mechanisms. |
+| B-14: Cryptographic mathematics vs security claims | [Fundamentals](../fundamentals/README.md) owns general mathematics, encoding, algorithms and computation. | Cryptography/information protection area owns security properties, assumptions and failure modes; implementation in relevant domain. |
+| B-15: Cryptographic keys vs IAM credentials | Cryptography area owns general purpose and limits of key establishment, secrecy, and rotation. | [Identity Knowledge](../../identity/README.md) owns credential/key management as an identity function; other domains own concrete key uses. |
+| B-16: Information integrity vs evidence integrity | [Fundamentals](../fundamentals/README.md) owns general data and representation. | Cryptography area owns integrity properties; evidence area owns provenance/continuity of security evidence. |
+| B-17: Monitoring vs security interpretation | Evidence area owns security-relevant observations and alert/indicator semantics. | Operational Foundations owns monitoring and triage practice; specialized domains own sensor pipelines. |
+| B-18: Detection algorithm vs detection practice | [Fundamentals](../fundamentals/README.md) owns general algorithmic/statistical principles. | Evidence area owns error/coverage/uncertainty implications; Operational Foundations owns detection engineering and execution. |
+| B-19: Compromise vs incident response | Failure/resilience area owns conditions and consequences of compromise. | Operational Foundations owns declaring, responding to and learning from incidents; domains own product behaviors. |
+| B-20: Resilience vs continuity and recovery work | Failure/resilience area owns properties of resistance, survivability, trusted restoration. | Operational Foundations owns recovery planning and execution; specialized systems own specific failover mechanisms. |
+| B-21: Assurance vs compliance | Assurance/governance area owns claims, evidence, confidence, requirements and limitations. | Operational Foundations owns assessment/audit workflows; conformity with a rule is not automatically proof of effective security. |
+| B-22: Security vs privacy vs safety | Security meaning/objectives area owns their distinct foundational meanings and interactions. | Other areas and domains elaborate relevant requirements without forcing one objective to subsume all others. |
+| B-23: Threat models vs modeling workshops | Threat area owns concepts, explicit assumptions and model limitations. | Operational Foundations owns performing threat-modeling activities and maintaining model artifacts. |
+| B-24: Risk concepts vs risk assessment activities | Risk area owns threat scenarios, likelihood, consequence and uncertainty concepts. | Operational Foundations owns assessment processes, prioritization and treatment execution. |
+| B-25: Supply-chain trust vs purchasing processes | Secure architecture area owns dependency and inherited-trust principles. | Operational Foundations owns supplier-risk processes; cloud, software, endpoint and other domains own concrete dependency mechanisms. |
+
+## Cross-division routing examples
+
+| Candidate topic | Route | Rationale |
+| --- | --- | --- |
+| Causal inference, probability, logical implication | Fundamentals | General analytical structures used by security, not intrinsically security-specific |
+| Confidentiality, threat source, exploitable weakness, least privilege, trust assumption | Security Foundations (proposed article home) | Shared security semantics, protection properties and mechanisms |
+| Vulnerability prioritization process, triage, threat hunting, detection engineering, incident response | Operational Foundations | Cross-domain methods of practice; this division's detailed taxonomy remains unapproved |
+| Zeek sensor/telemetry pipelines, Suricata rule engines, endpoint protection drivers | Specialized Network/Endpoint domain as appropriate | Concrete technology mechanisms and domain-specific functions |
+| Authenticating a person with a device and credential | Identity domain, linked to shared authentication principles | Mechanism, protocol and lifecycle, not the definition of security authority |
+| Assessing the quality of evidence from a security event | Security Foundations for concepts; Operational Foundations for procedures | Evidence meaning versus applying an investigation workflow |
+| Mapping concepts to NIST CSF, ATT&CK, CWE | Secondary relationship/index | These are established external frameworks, not this repository's automatic canonical hierarchy |
+
+## Deferred decisions requiring architectural review
+
+1. **Where to split identity semantics from identity implementation:** Avoid creating a second complete IAM theory in Security Foundations. Treat the abstract principal/claim/authority concepts here; preserve the existing Identity Knowledge function tree.
+2. **How far to take cryptography:** Security goals and assumptions are shared; primitive algorithms and proofs may depend on Fundamentals; concrete protocols and key infrastructure belong to domain implementations.
+3. **How far to take security evidence:** Define indicators, anomalies, confidence and inferential limits; do not absorb evidence collection, SOC triage or investigation workflows.
+4. **How to represent safety and privacy:** Include explicit distinctions and consequences while respecting distinct legal, ethical, and technical disciplines; no assumption all three are reducible to cybersecurity.
+5. **Whether 12 proposed categories and 94 headings are the right grain:** Resolve only after checking for duplicate definitions, coverage gaps and maintenance burden.
+6. **How source-specific models are represented:** Preserve NIST, MITRE and other frameworks as accurately attributed references; do not equate their taxonomies or blindly import labels.
+
+## Acceptance conditions for a boundary
+
+A placement can be adopted only when its proposed subject has a clear definition, purpose, exclusion cases, related canonical general concept, intended operational/divisional owner, and at least one practical cross-domain application without duplicated canonical explanation. Record unresolved collisions explicitly rather than pretending the correct home is self-evident.
+
+**No approvals implied:** Neither these case IDs nor the descriptive relationship words form an approved ontology or machine-enforced relation vocabulary.
+
+[Security Foundations](README.md) · [Architecture](ARCHITECTURE.md) · [Development plan](DEVELOPMENT-PLAN.md) · [Repository relationships](../../RELATIONSHIPS.md)
