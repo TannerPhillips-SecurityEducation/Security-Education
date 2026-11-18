@@ -1,7 +1,7 @@
 # Fundamentals
 
 **Division:** [Foundations](../README.md)  
-**Status:** 12 approved knowledge areas; **116/116 canonical subjects internally Reviewed (model-assisted)** following Wave A–F, with 13 existing articles strengthened under Wave G; none Published
+**Status:** 12 approved knowledge areas; **120 tracked subjects = 116 Reviewed (model-assisted) + 4 new Inventoried without articles**. None is Published.
 
 Fundamentals establishes domain-agnostic concepts, structures, principles, and mechanisms needed to understand technical systems and their behavior. It supports the seven specialized knowledge domains without making any one technology, vendor, or security practice the organizing principle.
 
@@ -14,11 +14,11 @@ Fundamentals establishes domain-agnostic concepts, structures, principles, and m
 3. **Canonical knowledge ownership:** Define a general concept once, then link its contextual applications.
 4. **Specialized extension:** Let the seven specialized domains build upon general fundamentals without redefining them.
 
-The **twelve currently approved knowledge areas are navigation disciplines**, while the **116 currently tracked subject headings** (109 legacy Reviewed + 7 newly Reviewed under Wave F) form a **versioned, revisable coverage inventory**, not a fixed quota. Underlying concepts and their relationships provide conceptual coherence across disciplines. Proposed universal primitives do not become additional categories without separate approval.
+The **twelve currently approved knowledge areas are navigation disciplines**, while the **120 currently tracked subject headings** (116 historically Reviewed + four Inventoried) form a **versioned, revisable coverage inventory**, not a fixed quota. Underlying concepts and their relationships provide conceptual coherence across disciplines. Proposed universal primitives do not become additional categories without separate approval.
 
 ## Living Inventory Policy
 
-**The historical count of 109 was not an architectural limit.** The current working inventory is **116 subjects**, with the seven additions documented in [Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md). Subjects may be **added, split, merged, renamed or retired** when model-grounded coverage and canonical-ownership analysis justify the change. The twelve existing knowledge areas remain the separate approved navigation baseline. The [governing architecture](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control) defines the change-control and historical-traceability rules.
+**The historical count of 109 was not an architectural limit.** The current working inventory is **120 subjects**, with the seven additions documented in [Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md). Subjects may be **added, split, merged, renamed or retired** when model-grounded coverage and canonical-ownership analysis justify the change. The twelve existing knowledge areas remain the separate approved navigation baseline. The [governing architecture](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control) defines the change-control and historical-traceability rules.
 
 A newly added or materially revised article must be reviewed on its own merits; a past 109/109 model-assisted status must not be projected onto future inventory versions. Historical reports retain their original denominator.
 
@@ -32,9 +32,15 @@ The [Foundational Models, Frameworks & Architectures Review 01](FOUNDATIONAL-MOD
 
 The [Wave G 39-family technical review](WAVE-G-TECHNICAL-REVIEW-01.md) documents scoped model-assisted validation of **13 revised existing articles**, including ISO 42010/15288, OMG modeling languages, Internet/OSI reference architectures, CAP, JCGM GUM 2026 publication changes, W3C PROV, relational/ER structures, signal detection, human-error models, and PID feedback. **No subject headings were added or removed**. The 116-subject review state remains bounded: complete claim-to-source verification, external URL integrity, cross-domain acceptance and qualified human peer review are still open.
 
+## Source-led Gap Triage 02
+
+The [Coverage & Source Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md) identified four distinct domain-independent subjects absent as canonical references in the 116-article snapshot: **Calculus and Differential Equations**, **Stochastic Processes and Markov Models**, **Search and Information Retrieval**, and **Queueing and Service-System Models**. These are now Inventoried within existing areas, bringing the current total to **120**. Other possible gaps remain under depth/source review rather than automatic subject expansion.
+
+**Cross-domain links are incremental maintenance:** We will connect Foundations to specialized functions as those technical pages develop. The present count of direct domain links is **not** used as a knowledge-completeness score.
+
 ## Canonical Ownership & Concept Relationships
 
-- [**Canonical Ownership & Relationship Register**](CANONICAL-OWNERSHIP-REGISTER.md): Maps the current **116 Reviewed subjects** (109 legacy + seven newly audited) to intended conceptual responsibilities and illustrative relationships.
+- [**Canonical Ownership & Relationship Register**](CANONICAL-OWNERSHIP-REGISTER.md): Maps **120 current subjects** (116 Reviewed + four Inventoried) to intended conceptual responsibilities and illustrative relationships.
 - [**Concept Overlap & Coverage Review**](CONCEPT-OVERLAP-REVIEW.md): Documents 20 recurrent conceptual overlaps and 10 candidate coverage questions that require review.
 - [**Canonical Concept Boundary Decisions**](CONCEPT-BOUNDARY-DECISIONS.md): Provides approved conceptual boundaries and discriminating examples for all 20 overlap groups, while documenting the former general-temporality ownership exception, now structurally placed under F-03-11; content verification remains open.
 - [**Coverage Gap Decision Register**](COVERAGE-GAP-DECISIONS.md): Preserves ten original gap cases; G-01, G-04 and G-06 now have explicit new-subject placement, while source-verified article content remains pending.
@@ -43,7 +49,7 @@ The [Wave G 39-family technical review](WAVE-G-TECHNICAL-REVIEW-01.md) documents
 
 ## Canonical Reference Development
 
-**All 116 current Fundamentals subjects** have substantive canonical articles and have passed scoped model-assisted technical review. The first 109 retain their earlier Wave A–E audit evidence; the seven newly authored references passed [Wave F's 42-family review](WAVE-F-TECHNICAL-REVIEW-01.md). This includes the final [Wave E Operating System Principles review](WAVE-E-TECHNICAL-REVIEW-01.md) (60 material claim groups) and [Wave E Communication & Distributed Systems review](WAVE-E-TECHNICAL-REVIEW-02.md) (54 claim groups).
+**All 116 previously authored Fundamentals subjects** have substantive canonical articles and have passed scoped model-assisted technical review; four newly Inventoried subjects remain without articles. The first 109 retain their earlier Wave A–E audit evidence; the seven newly authored references passed [Wave F's 42-family review](WAVE-F-TECHNICAL-REVIEW-01.md). This includes the final [Wave E Operating System Principles review](WAVE-E-TECHNICAL-REVIEW-01.md) (60 material claim groups) and [Wave E Communication & Distributed Systems review](WAVE-E-TECHNICAL-REVIEW-02.md) (54 claim groups).
 
 | Approved knowledge area | Reviewed canonical reference articles |
 | --- | --- |
@@ -60,7 +66,7 @@ The [Wave G 39-family technical review](WAVE-G-TECHNICAL-REVIEW-01.md) documents
 | Systems & Engineering | [Systems and subsystems](systems-engineering/systems-and-subsystems.md); [Components and interfaces](systems-engineering/components-and-interfaces.md); [Architecture and composition](systems-engineering/architecture-and-composition.md); [Dependencies](systems-engineering/dependencies.md); [State and behavior](systems-engineering/state-and-behavior.md); [Feedback and control](systems-engineering/feedback-and-control.md); [Emergence and complexity](systems-engineering/emergence-and-complexity.md); [Reliability and failure](systems-engineering/reliability-and-failure.md); [Requirements](systems-engineering/requirements.md); [Verification and validation](systems-engineering/verification-and-validation.md); [System lifecycle](systems-engineering/system-lifecycle.md) |
 | Human & Sociotechnical Systems | [Human cognition and perception](human-sociotechnical-systems/human-cognition-and-perception.md); [Decision-making](human-sociotechnical-systems/decision-making.md); [Human-computer interaction](human-sociotechnical-systems/human-computer-interaction.md); [Usability and accessibility](human-sociotechnical-systems/usability-and-accessibility.md); [Human error](human-sociotechnical-systems/human-error.md); [Collaboration and communication](human-sociotechnical-systems/collaboration-and-communication.md); [Organizational structures](human-sociotechnical-systems/organizational-structures.md); [Ethics and professional responsibilities](human-sociotechnical-systems/ethics-and-professional-responsibilities.md) |
 
-The [Development & Verification Register v1.19](DEVELOPMENT-VERIFICATION-REGISTER.md) reconciles **116 Reviewed (model-assisted), 0 Draft, 0 Inventoried without article**, with Core claims checked as the bounded source-review state. The [Canonical Ownership Register v1.16](CANONICAL-OWNERSHIP-REGISTER.md) links all 116 actual articles and their separate review evidence.
+The [Development & Verification Register v1.21](DEVELOPMENT-VERIFICATION-REGISTER.md) reconciles **120 subjects: 116 Reviewed (model-assisted), 0 Draft, 4 Inventoried without articles**. The [Canonical Ownership Register v1.17](CANONICAL-OWNERSHIP-REGISTER.md) distinguishes established article links from new subject scope proposals.
 
 ## Publication Readiness
 
@@ -72,7 +78,7 @@ The [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) checked 
 
 [Wave E Authoring Verification](WAVE-E-AUTHORING-VERIFICATION.md) is a **historical pre-audit authoring snapshot**; the two Wave E technical audits above supersede its pending-review states.
 
-**G-01, G-04 and G-06 now have canonical subject placement, substantive articles and Wave F scoped technical review**. Complete source-passage validation and publication acceptance remain separate gates. Twelve area categories are unchanged. No Knowledge Checks, Practical Assessments, or mandatory vendor technologies were introduced.
+**G-01, G-04 and G-06 retain canonical subject placement, substantive articles and Wave F scoped technical review**. Complete source-passage validation and publication acceptance remain separate gates. Twelve area categories are unchanged. No Knowledge Checks, Practical Assessments, or mandatory vendor technologies were introduced.
 
 ## Technical Audit Evidence
 
@@ -105,25 +111,25 @@ The [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) checked 
 
 ## Development Plan of Action
 
-The [Curriculum Development Plan of Action](CURRICULUM-DEVELOPMENT-PLAN.md) is a working production roadmap for developing and, when justified, **revising** the current 116-subject inventory into an accurate, connected technical knowledge reference. It defines authoring waves, source requirements, editorial workflow, progress tracking, cross-domain integration, and completion gates. It excludes Knowledge Checks and Practical Assessments.
+The [Curriculum Development Plan of Action](CURRICULUM-DEVELOPMENT-PLAN.md) is a working production roadmap for developing and, when justified, **revising** the current 120-subject inventory into an accurate, connected technical knowledge reference. It defines authoring waves, source requirements, editorial workflow, progress tracking, cross-domain integration, and completion gates. It excludes Knowledge Checks and Practical Assessments.
 
 ## Approved Knowledge Areas
 
 | # | Area | Subject inventory |
 | --- | --- | ---: |
-| 01 | [Mathematics & Logic](mathematics-logic/README.md) | 11 Reviewed |
+| 01 | [Mathematics & Logic](mathematics-logic/README.md) | 13 (11 Reviewed + 2 Inventoried) |
 | 02 | [Scientific & Analytical Reasoning](scientific-analytical-reasoning/README.md) | 8 |
 | 03 | [Models & Abstraction](models-abstraction/README.md) | 11 Reviewed |
 | 04 | [Physical & Electrical Principles](physical-electrical-principles/README.md) | 9 |
-| 05 | [Information & Data](information-data/README.md) | 9 |
+| 05 | [Information & Data](information-data/README.md) | 10 (9 Reviewed + 1 Inventoried) |
 | 06 | [Digital Systems & Hardware](digital-systems-hardware/README.md) | 10 Reviewed |
 | 07 | [Computation & Algorithms](computation-algorithms/README.md) | 11 Reviewed |
 | 08 | [Software & Programming](software-programming/README.md) | 9 |
 | 09 | [Operating System Principles](operating-system-principles/README.md) | 10 |
 | 10 | [Communication & Distributed Systems](communication-distributed-systems/README.md) | 9 |
-| 11 | [Systems & Engineering](systems-engineering/README.md) | 11 |
+| 11 | [Systems & Engineering](systems-engineering/README.md) | 12 (11 Reviewed + 1 Inventoried) |
 | 12 | [Human & Sociotechnical Systems](human-sociotechnical-systems/README.md) | 8 |
-| **Total** | **12 knowledge areas** | **116 subject headings (116 Reviewed, model-assisted)** |
+| **Total** | **12 knowledge areas** | **120 subject headings (116 Reviewed + 4 Inventoried)** |
 
 All 116 subjects have scoped Reviewed (model-assisted) articles. The legacy 109 and seven Wave F additions retain separate audit records; source-level Verified and final Published acceptance remain open. No subject has achieved independent human publication acceptance.
 
@@ -164,7 +170,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** **116/116 authored and Reviewed (model-assisted)** under Wave A–F audits. All seven Wave F additions have individual source review evidence, but stronger verification remains open. The preliminary link integrity audit passed within its scope; complete source validation, independent qualified human review and all seven publication gates remain open; none is finally Published.
+**Current milestone:** **116 articles authored and Reviewed (model-assisted) under Wave A–F**, plus four new headings Inventoried but awaiting articles. All seven Wave F additions have individual source review evidence, but stronger verification remains open. The preliminary link integrity audit passed within its scope; complete source validation, independent qualified human review and all seven publication gates remain open; none is finally Published.
 
 ## Coverage Across Specialized Domains
 
