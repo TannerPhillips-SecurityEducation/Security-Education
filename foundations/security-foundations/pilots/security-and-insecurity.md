@@ -97,7 +97,7 @@ These scenarios are invented to distinguish **objective, mechanism, observation 
 - [NIST information security glossary](https://csrc.nist.gov/glossary/term/information_security), CIA and information-system protection terms.
 - [NIST SP 800-160 Vol. 1 Rev. 1](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final), stakeholder protection needs, trustworthiness and security engineering.
 - [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), threat/risk assessment concepts and conditions.
-- [Common Criteria ISO/IEC 15408-1:2022](https://www.iso.org/standard/72891.html), evaluated security properties and scope limits.
+- [Common Criteria / ISO/IEC 15408-1:2026](https://www.iso.org/standard/15408-1), evaluated security properties and scope limits.
 
 **Source limitation:** This article is a bounded conceptual synthesis. The named standards have their own intended environments and do not decree a universal definition of every security problem. Primary publication landing pages and selected scope statements are cited; complete clause verification and independent qualified expert review remain open.
 
