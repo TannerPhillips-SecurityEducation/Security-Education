@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v1.6. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
+**Status:** Working architectural register v1.7. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
 
 This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
 
@@ -9,7 +9,7 @@ This register connects the existing subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** Live direct links now point to **fifty-five Reviewed (model-assisted) articles** and **four Wave C Batch 01 Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
+- **Links:** Live direct links now point to **fifty-nine Reviewed (model-assisted) articles** and **four Wave C Batch 02 Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
 - **Granularity:** One heading may require multiple articles, and a single well-scoped explanation can serve more than one heading. Do not assume 109 headings equal 109 indivisible concepts.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -61,12 +61,12 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Matter and energy** | [Draft canonical article](physical-electrical-principles/matter-and-energy.md) · Physical matter, energy, transfer, and constraints on physical systems | *constrains* → [Computing components](digital-systems-hardware/computing-components.md) |
-| **Electricity** | [Draft canonical article](physical-electrical-principles/electricity.md) · Charge, voltage, current, resistance, and electrical power | *governs* → [Electrical circuits](physical-electrical-principles/electrical-circuits.md) |
-| **Electrical circuits** | [Draft canonical article](physical-electrical-principles/electrical-circuits.md) · Behavior of interconnected passive and active electrical elements | *forms the physical basis of* → [Electronics](physical-electrical-principles/README.md) |
-| **Electronics** | Semiconductors, switching, amplification, and electronic component functions | *enables* → [Digital logic](digital-systems-hardware/digital-logic.md) |
-| **Analog and digital signals** | Physical continuous signals versus sampled or discrete representations | *processed through* → [Signal conversion](physical-electrical-principles/README.md) |
-| **Waves and frequency** | Oscillation, frequency, phase, wavelength, and propagation | *supports* → [Transmission and signaling](communication-distributed-systems/README.md) |
+| **Matter and energy** | [Reviewed canonical article](physical-electrical-principles/matter-and-energy.md) · Physical matter, energy, transfer, and constraints on physical systems | *constrains* → [Computing components](digital-systems-hardware/computing-components.md) |
+| **Electricity** | [Reviewed canonical article](physical-electrical-principles/electricity.md) · Charge, voltage, current, resistance, and electrical power | *governs* → [Electrical circuits](physical-electrical-principles/electrical-circuits.md) |
+| **Electrical circuits** | [Reviewed canonical article](physical-electrical-principles/electrical-circuits.md) · Behavior of interconnected passive and active electrical elements | *forms the physical basis of* → [Electronics](physical-electrical-principles/electronics.md) |
+| **Electronics** | [Draft canonical article](physical-electrical-principles/electronics.md) · Semiconductors, switching, amplification, and electronic component functions | *enables* → [Digital logic](digital-systems-hardware/digital-logic.md) |
+| **Analog and digital signals** | [Draft canonical article](physical-electrical-principles/analog-and-digital-signals.md) · Physical continuous signals versus sampled or discrete representations | *processed through* → [Signal conversion](physical-electrical-principles/README.md) |
+| **Waves and frequency** | [Draft canonical article](physical-electrical-principles/waves-and-frequency.md) · Oscillation, frequency, phase, wavelength, and propagation | *supports* → [Transmission and signaling](communication-distributed-systems/README.md) |
 | **Sensors and actuators** | Transduction between physical phenomena and actionable system inputs/outputs | *used in system* → [Feedback and control](systems-engineering/feedback-and-control.md) |
 | **Signal conversion** | Sampling, quantization, analog-digital and digital-analog conversion | *supports data capture for* → [Measurement](scientific-analytical-reasoning/measurement.md) |
 | **Physical control mechanisms** | Actuation and regulation of physical processes | *generalized by* → [Feedback and control](systems-engineering/feedback-and-control.md) |
@@ -90,8 +90,8 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
 | **Digital logic** | [Reviewed canonical article](digital-systems-hardware/digital-logic.md) · Physical switching systems implementing logical and sequential behavior | *realizes* → [Boolean and predicate logic](mathematics-logic/boolean-and-predicate-logic.md) |
-| **Computing components** | [Draft canonical article](digital-systems-hardware/computing-components.md) · Hardware organization of processors, memory, peripherals, and interconnects | *is a type of* → [Systems and subsystems](systems-engineering/systems-and-subsystems.md) |
-| **Processors and instruction sets** | Processor execution organization, instruction encoding, and ISA models | *is a target of* → [Compilation and interpretation](software-programming/README.md) |
+| **Computing components** | [Reviewed canonical article](digital-systems-hardware/computing-components.md) · Hardware organization of processors, memory, peripherals, and interconnects | *is a type of* → [Systems and subsystems](systems-engineering/systems-and-subsystems.md) |
+| **Processors and instruction sets** | [Draft canonical article](digital-systems-hardware/processors-and-instruction-sets.md) · Processor execution organization, instruction encoding, and ISA models | *is a target of* → [Compilation and interpretation](software-programming/README.md) |
 | **Memory and storage** | Volatile and nonvolatile storage media, latency, and memory hierarchy | *managed abstractly by* → [Memory management](operating-system-principles/README.md) |
 | **Buses and interfaces** | Physical/logical device interconnects and signal transfer | *accessed using* → [Drivers and devices](operating-system-principles/README.md) |
 | **Input/output** | Hardware interactions with peripherals and physical environments | *exposed through* → [System calls](operating-system-principles/README.md) |
@@ -120,7 +120,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Programming languages** | Software language forms, grammars, execution constructs, and ecosystems | *express* → [Algorithms](computation-algorithms/README.md) |
 | **Syntax and semantics** | Programming grammar, syntactic structure, semantic meaning, and interpretation | *uses* → [Symbols and encoding](information-data/symbols-and-encoding.md) |
 | **Programming paradigms** | Imperative, declarative, functional, object, and event-driven styles | *structure* → [Algorithms](computation-algorithms/README.md) |
-| **Compilation and interpretation** | Translation, parsing, intermediate forms, linking, and interpretation | *targets* → [Processors and instruction sets](digital-systems-hardware/README.md) |
+| **Compilation and interpretation** | Translation, parsing, intermediate forms, linking, and interpretation | *targets* → [Processors and instruction sets](digital-systems-hardware/processors-and-instruction-sets.md) |
 | **Runtime environments** | Execution libraries, services, managed runtimes, and memory lifetimes | *interacts with* → [Kernels](operating-system-principles/README.md) |
 | **Modules and dependencies** | Packages, imports, modularity, versioning, and dependency management | *specializes* → [Dependencies](systems-engineering/dependencies.md) |
 | **Software interfaces** | Function, API, ABI, and compatibility contracts between software components | *specializes* → [Components and interfaces](systems-engineering/components-and-interfaces.md) |
@@ -147,7 +147,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
 | **Communication models** | Generic senders, receivers, channels, messages, and exchange patterns | *applies* → [Relationships](models-abstraction/relationships.md) |
-| **Transmission and signaling** | Encoding and propagation of signals carrying information | *uses* → [Analog and digital signals](physical-electrical-principles/README.md) |
+| **Transmission and signaling** | Encoding and propagation of signals carrying information | *uses* → [Analog and digital signals](physical-electrical-principles/analog-and-digital-signals.md) |
 | **Communication channels** | Communication paths and constraints including medium, capacity, and noise | *constrained by* → [Information theory](information-data/information-theory.md) |
 | **Protocols and layering** | Communication conventions, protocol rules, state, layering, and encapsulation | *complements interface contracts in* → [Software interfaces](software-programming/README.md) |
 | **Addressing and naming** | Names, locators, address scopes, binding, and resolution | *extends reference concepts in* → [Identity and distinction](models-abstraction/identity-and-distinction.md) |
@@ -187,7 +187,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 ## Canonical article integration
 
-The original **109 approved subject headings and 12 area assignments** remain unchanged. There are **55 Reviewed (model-assisted)** articles, including the [Wave B Batch 05 48-family audit](WAVE-B-TECHNICAL-REVIEW-05.md), plus **four substantive Wave C Batch 01 Drafts**. All 26 Wave A and 28 Wave B headings are internally Reviewed; Digital Logic is the additional Reviewed pilot in Wave C. Human expert review, complete source validation and final publication acceptance remain outstanding. The crosswalk is navigational and conceptual, not a ratified formal knowledge-graph schema.
+The original **109 approved headings** and **12 area assignments** remain unchanged. **59 references are Reviewed (model-assisted)**, including the [Wave C Batch 01 technical audit](WAVE-C-TECHNICAL-REVIEW-01.md), and **four new Wave C Batch 02 references are Drafts**. Wave A's 26 and Wave B's 28 headings remain internally Reviewed. Nine of the eighteen Wave C headings are authored, with five Reviewed (including Digital Logic) and four Draft. Independent human peer review, complete source verification and final publication acceptance remain outstanding. This crosswalk is navigational and conceptual, not a ratified formal graph schema.
 
 ## Register integrity
 
