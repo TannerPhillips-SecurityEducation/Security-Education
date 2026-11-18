@@ -1,9 +1,9 @@
 # Security Foundations: Architecture & Development Plan
 
-**Working edition:** v0.1 · November 17, 2026  
+**Working edition:** v0.2 · November 18, 2026  
 **Status:** Proposed plan; **no approval of internal taxonomy or article publication is asserted**  
 **Scope:** Security Knowledge → Foundations → Security Foundations  
-**Proposed inputs:** [Architecture](ARCHITECTURE.md) · [94-heading Candidate Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [25-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md)
+**Proposed inputs:** [Architecture](ARCHITECTURE.md) · [94-heading Candidate Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [25-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) · [Established Models Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md)
 
 ## 1. Mission and deliverable
 
@@ -29,18 +29,21 @@ The subject inventory is a **candidate discovery and coverage instrument**, not 
 
 ## 3. Engineering workstreams
 
-### Workstream A: Scope approval and canonical ownership
+### Workstream A: Scope approval, established-model reconciliation and canonical ownership
 
-- Review all 12 candidate areas and 94 proposed subjects for coverage, overlap, clarity, and correct granularity; merge, split, rename or remove as justified.
+- **Begin with the [Established Models Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md):** Test each area and material concept against the model's actual scope, unit of analysis, assumptions, sources, and limits. Do not copy a framework's categories into the subject tree solely because it is well known.
+- Review all 12 candidate areas and 94 proposed subjects for coverage, overlap, clarity, and correct granularity; merge, split, rename or remove as justified. Preserve administrative IDs through revisions until a different baseline is explicitly approved.
 - Resolve the [25 proposed ownership boundaries](OWNERSHIP-BOUNDARIES.md) with special care around identity, cryptography, risk assessment, security observations, privacy and safety.
 - Cross-check against the **109 approved Fundamentals headings**. Do not reopen the approved Fundamentals structure by stealth, and do not treat its internally Reviewed articles as fully published.
 - Review the current [Operational Foundations](../operational-foundations/README.md) remit without inventing or approving its internal subject taxonomy.
 - Map relationships to the seven specialized domains using canonical function links, not duplicate technical definitions.
-- **Exit condition:** An explicitly approved Security Foundations governing definition, area list, subject inventory and recorded unresolved exceptions.
+- **Exit condition:** An explicitly approved Security Foundations governing definition, model-grounded area list, subject inventory and recorded unresolved exceptions. The existing 12/94 counts alone do not establish completeness.
 
 ### Workstream B: Reference and source mapping
 
 For each future approved subject, establish:
+
+0. The relevant **established models and source type** (formal model, explanatory model, heuristic, taxonomy, scoring system, control catalog or framework), or a documented reason a concept cannot be reduced to any one source model.
 
 1. Canonical definition and adjacent non-equivalent terms.
 2. Claims requiring proof, derivation or cited primary-source authority.
@@ -87,7 +90,7 @@ Each article should connect to the necessary Fundamentals concepts, sibling Secu
 
 ### Workstream E: Review, verification and acceptance
 
-- Validate each material technical claim at the **source-passage** level, not merely via presence of an external link.
+- Validate each material technical claim at the **source-passage** level, not merely via presence of an external link; distinguish a source's formal definition from a heuristic or an illustrative model.
 - Independently recompute quantitative examples and inspect assumptions, boundary conditions and failure cases.
 - Verify internal Markdown paths, fragment anchors and relevant external source addresses; distinguish availability from semantic support.
 - Reconcile contradictions and duplicates across Security Foundations, Fundamentals, Operational Foundations and specialized domain functions.
@@ -103,7 +106,7 @@ These gates are **proposed for Security Foundations**, modeled on the repository
 
 | Gate | Evidence needed |
 | --- | --- |
-| G1 Architecture | Definition, area inventory and ownership boundaries explicitly ratified |
+| G1 Architecture | Definition, established-model coverage rationale, area inventory and ownership boundaries explicitly ratified |
 | G2 Coverage | Shared security concepts necessary across all seven domains have a home |
 | G3 Consistency | No material contradiction or unnecessary duplicated canonical definition |
 | G4 Explanation | Every approved subject has substantive concepts, mechanisms, distinctions and meaningful examples |
