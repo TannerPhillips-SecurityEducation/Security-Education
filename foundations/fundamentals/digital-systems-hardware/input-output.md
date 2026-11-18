@@ -66,6 +66,7 @@ The detailed software driver, operating system kernel and application interface 
 ### Sources
 
 - [MIT 6.004 Computation Structures: Course Outline (Devices and Interrupts)](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/).
+- [MIT 6.004: Devices and Interrupts, Annotated Slides](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c18/c18s1/).
 - [MIT 6.004 Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/).
 - [NASA: Interface Management](https://www.nasa.gov/reference/6-3-interface-management/).
 
