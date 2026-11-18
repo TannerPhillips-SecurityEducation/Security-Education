@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.10  
+**Working edition:** v1.11  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -30,14 +30,14 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
-## Current progress: Wave C Batch 02 reviewed; all Wave C subjects authored
+## Current progress: Wave C Batch 03 reviewed; Wave D Batch 01 authored
 
 | Development state | Approved heading count | Evidence |
 | --- | ---: | --- |
-| **Reviewed (model-assisted)** | **63** | Original pilots; Wave A and Wave B audits; Wave C Batches [01](WAVE-C-TECHNICAL-REVIEW-01.md) and [02](WAVE-C-TECHNICAL-REVIEW-02.md) |
-| **Draft** | **9** | All remaining Wave C subjects authored in the new Batch 03 as substantive Drafts; scoped audit pending |
-| **Inventoried without article** | **37** | Approved 109-heading baseline retained |
-| **Core claims checked** | **63** | Internal model-assisted source checking, not independent expert attestation |
+| **Reviewed (model-assisted)** | **72** | Original pilot and Wave A/B/C audits, including [Wave C Batch 03](WAVE-C-TECHNICAL-REVIEW-03.md) |
+| **Draft** | **4** | Four Wave D Batch 01 Computation & Algorithms references awaiting scoped technical audit |
+| **Inventoried without article** | **33** | Approved 109-heading baseline retained |
+| **Core claims checked** | **72** | Internal model-assisted source checking, not independent expert attestation |
 | **Finally accepted / human peer-reviewed** | **0** | No final independent expert acceptance recorded |
 
 **Wave A authoring coverage:** All 26 of 26 approved Wave A headings have substantive, internally Reviewed articles (26/26). Three additional Reviewed references are original pilot subjects belonging to later waves.
@@ -46,12 +46,11 @@
 
 ## Next acceptance gate
 
-1. **Completed:** All 26 Wave A and 28 Wave B approved subject headings remain internally Reviewed (model-assisted), with their separate scoped technical-review records.
-2. **Completed:** Four Wave C Batch 02 articles (Electronics, Analog and Digital Signals, Waves and Frequency, Processors and Instruction Sets) passed the [24-family Wave C Batch 02 audit](WAVE-C-TECHNICAL-REVIEW-02.md). The aliasing example was corrected to a precise sampled-cosine identity.
-3. **Completed authoring:** The nine remaining Wave C headings now have substantive Batch 03 Drafts: Sensors and Actuators; Signal Conversion; Physical Control Mechanisms; Memory and Storage; Buses and Interfaces; Input/Output; Timing and Clocks; Firmware; Hardware Abstraction.
-4. **Current:** Conduct a separate scoped technical and source review of the nine Batch 03 Drafts before promoting any to Reviewed. **All 18 of 18 Wave C headings are authored**: nine Reviewed (including the original Digital Logic pilot) and nine Draft.
-5. **Following:** Continue authoring Wave D and Wave E, preserving the existing approved subject and area identities.
-6. **Ongoing:** Complete source-level validation, corpus-wide link/fragment checks, independent human expert peer review and seven publication acceptance gates. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain open.
+1. **Completed:** Wave A (26 headings), Wave B (28 headings), and Wave C (18 headings) are authored and internally Reviewed (model-assisted), including the [54-family Wave C Batch 03 technical audit](WAVE-C-TECHNICAL-REVIEW-03.md).
+2. **Completed authoring:** Wave D Batch 01 provides substantial Drafts for Computability, Algorithms, Algorithm Design and Complexity in the already-approved Computation & Algorithms knowledge area.
+3. **Current:** Conduct a separate scoped technical/source review of these four Wave D Drafts, including the halting argument, proof of linear search, coin-change recurrence and asymptotic recurrence.
+4. **Next authoring:** Continue the five remaining Computation & Algorithms headings, then the nine Software & Programming headings; Wave E operating-system and distributed-system subjects remain inventoried.
+5. **Ongoing:** Source-level verification, full link and anchor checks, independent human peer review and seven publication gates remain open. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML are unresolved.
 
 ## Detailed coverage by approved knowledge area
 
@@ -114,9 +113,9 @@
 | F-04-04 | Electronics | [Reviewed article](physical-electrical-principles/electronics.md) | Reviewed | Core claims checked | [Wave C Batch 02 audit](WAVE-C-TECHNICAL-REVIEW-02.md); model-assisted, independent human review not claimed |
 | F-04-05 | Analog and digital signals | [Reviewed article](physical-electrical-principles/analog-and-digital-signals.md) | Reviewed | Core claims checked | [Wave C Batch 02 audit](WAVE-C-TECHNICAL-REVIEW-02.md); model-assisted, independent human review not claimed |
 | F-04-06 | Waves and frequency | [Reviewed article](physical-electrical-principles/waves-and-frequency.md) | Reviewed | Core claims checked | [Wave C Batch 02 audit](WAVE-C-TECHNICAL-REVIEW-02.md); model-assisted, independent human review not claimed |
-| F-04-07 | Sensors and actuators | [Draft article](physical-electrical-principles/sensors-and-actuators.md) | Draft | References listed | Wave C Batch 03 substantive draft; separate technical audit pending |
-| F-04-08 | Signal conversion | [Draft article](physical-electrical-principles/signal-conversion.md) | Draft | References listed | Wave C Batch 03 substantive draft; separate technical audit pending |
-| F-04-09 | Physical control mechanisms | [Draft article](physical-electrical-principles/physical-control-mechanisms.md) | Draft | References listed | Wave C Batch 03 substantive draft; separate technical audit pending |
+| F-04-07 | Sensors and actuators | [Reviewed article](physical-electrical-principles/sensors-and-actuators.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
+| F-04-08 | Signal conversion | [Reviewed article](physical-electrical-principles/signal-conversion.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
+| F-04-09 | Physical control mechanisms | [Reviewed article](physical-electrical-principles/physical-control-mechanisms.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
 
 ### 05. Information & Data (Wave B; 9 headings)
 
@@ -143,12 +142,12 @@
 | F-06-01 | Digital logic | [Reviewed article](digital-systems-hardware/digital-logic.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
 | F-06-02 | Computing components | [Reviewed article](digital-systems-hardware/computing-components.md) | Reviewed | Core claims checked | [Wave C Batch 01 audit](WAVE-C-TECHNICAL-REVIEW-01.md); model-assisted, independent human review not claimed |
 | F-06-03 | Processors and instruction sets | [Reviewed article](digital-systems-hardware/processors-and-instruction-sets.md) | Reviewed | Core claims checked | [Wave C Batch 02 audit](WAVE-C-TECHNICAL-REVIEW-02.md); model-assisted, independent human review not claimed |
-| F-06-04 | Memory and storage | [Draft article](digital-systems-hardware/memory-and-storage.md) | Draft | References listed | Wave C Batch 03 substantive draft; separate technical audit pending |
-| F-06-05 | Buses and interfaces | [Draft article](digital-systems-hardware/buses-and-interfaces.md) | Draft | References listed | Wave C Batch 03 substantive draft; separate technical audit pending |
-| F-06-06 | Input/output | [Draft article](digital-systems-hardware/input-output.md) | Draft | References listed | Wave C Batch 03 substantive draft; separate technical audit pending |
-| F-06-07 | Timing and clocks | [Draft article](digital-systems-hardware/timing-and-clocks.md) | Draft | References listed | Wave C Batch 03 substantive draft; separate technical audit pending |
-| F-06-08 | Firmware | [Draft article](digital-systems-hardware/firmware.md) | Draft | References listed | Wave C Batch 03 substantive draft; separate technical audit pending |
-| F-06-09 | Hardware abstraction | [Draft article](digital-systems-hardware/hardware-abstraction.md) | Draft | References listed | Wave C Batch 03 substantive draft; separate technical audit pending |
+| F-06-04 | Memory and storage | [Reviewed article](digital-systems-hardware/memory-and-storage.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
+| F-06-05 | Buses and interfaces | [Reviewed article](digital-systems-hardware/buses-and-interfaces.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
+| F-06-06 | Input/output | [Reviewed article](digital-systems-hardware/input-output.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
+| F-06-07 | Timing and clocks | [Reviewed article](digital-systems-hardware/timing-and-clocks.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
+| F-06-08 | Firmware | [Reviewed article](digital-systems-hardware/firmware.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
+| F-06-09 | Hardware abstraction | [Reviewed article](digital-systems-hardware/hardware-abstraction.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
 
 ### 07. Computation & Algorithms (Wave D; 9 headings)
 
@@ -156,10 +155,10 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-07-01 | Computability | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-07-02 | Algorithms | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-07-03 | Algorithm design | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-07-04 | Complexity | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-07-01 | Computability | [Draft article](computation-algorithms/computability.md) | Draft | References listed | Wave D Batch 01 substantive draft; scoped technical audit pending |
+| F-07-02 | Algorithms | [Draft article](computation-algorithms/algorithms.md) | Draft | References listed | Wave D Batch 01 substantive draft; scoped technical audit pending |
+| F-07-03 | Algorithm design | [Draft article](computation-algorithms/algorithm-design.md) | Draft | References listed | Wave D Batch 01 substantive draft; scoped technical audit pending |
+| F-07-04 | Complexity | [Draft article](computation-algorithms/complexity.md) | Draft | References listed | Wave D Batch 01 substantive draft; scoped technical audit pending |
 | F-07-05 | Computational data structures | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-07-06 | Iteration and recursion | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-07-07 | Concurrency and parallelism | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
