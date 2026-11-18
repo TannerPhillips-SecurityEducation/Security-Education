@@ -62,7 +62,7 @@ No particular OSI/TCP-IP layer count, network architecture, protocol or vendor p
 
 ### Sources
 
-- [RFC 9293 TCP](https://www.rfc-editor.org/rfc/rfc9293.html).
+- [RFC 9293 TCP, §3.7 Segmentation and application message boundaries](https://www.rfc-editor.org/rfc/rfc9293.html#section-3.7).
 - [RFC 768 UDP](https://www.rfc-editor.org/rfc/rfc768).
 - [MIT 6.1800 Computer Systems Engineering](https://catalog.mit.edu/subjects/6/).
 
