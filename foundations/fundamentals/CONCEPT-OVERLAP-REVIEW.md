@@ -1,12 +1,12 @@
 # Fundamentals: Concept Overlap and Coverage Review
 
-**Status:** Working architectural review register, v0.3. The 20 overlap boundaries have been approved as conceptual ownership guidance. The 10 coverage questions remain open; no new areas, headings, or graph predicates are ratified.
+**Status:** Working architectural review register v0.4. Twenty overlap boundaries remain approved as conceptual-ownership guidance. Ten original coverage cases remain recorded, but G-01/G-04/G-06 now have assigned subject owners and scoped-reviewed articles under [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md); no new knowledge area or graph-predicate schema has been adopted.
 
-The approved baseline is 12 knowledge areas and 109 subject headings. The table below records the original candidate boundaries; their approved architectural resolutions are maintained in the linked boundary-decision document. They are not evidence that the underlying canonical concept articles already exist.
+The **historical** baseline was 12 knowledge areas and 109 subjects; the current inventory is **12 areas and 116 internally Reviewed (model-assisted) subject articles**. The tables below preserve the original 20 overlap and ten coverage questions as historical working-review input; current owner decisions are documented in the linked [boundary](CONCEPT-BOUNDARY-DECISIONS.md), [gap](COVERAGE-GAP-DECISIONS.md) and [adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) records. These decisions do not establish complete source verification or final publication.
 
 ## Boundary-resolution cross-reference
 
-The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) document contains 20 approved conceptual ownership distinctions with discriminating examples. **B-11 retains a general-temporality coverage exception**. These boundaries are approved for architectural placement, not published canonical articles or comprehensive technical validation of every underlying mechanism.
+The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) document contains 20 approved conceptual ownership distinctions with discriminating examples. **B-11's canonical owner and scoped article are now established**, with comprehensive source verification still open. These boundaries are approved for architectural placement, not published canonical articles or comprehensive technical validation of every underlying mechanism.
 
 ## Twenty recurring concept-overlap groups
 
@@ -22,7 +22,7 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) docume
 | Control, feedback, and industrial controllers | [Feedback and control](systems-engineering/README.md) | Physical & Electrical Principles owns actuation mechanisms; Industrial Knowledge owns ICS implementations. |
 | Algorithm complexity and emergent complexity | [Complexity](computation-algorithms/README.md) and [Emergence and complexity](systems-engineering/README.md) | Separate computational resource-growth measures from nonlinear interactions of whole systems. |
 | Probability and confidence | [Probability and statistics](mathematics-logic/README.md) | Scientific & Analytical Reasoning owns epistemic uncertainty and evidential confidence. |
-| Time, clock hardware, and ordering | [Units and quantities](mathematics-logic/README.md) owns units and durations only; general temporality unresolved | Digital Systems & Hardware owns physical clocks; Distributed Systems owns logical ordering. See boundary decision B-11 and the open temporality coverage question. |
+| Time, clock hardware, and ordering | [Units and quantities](mathematics-logic/README.md) owns units, while [Temporal Concepts and Models](models-abstraction/temporal-concepts-and-models.md) now owns general temporal representations | Digital Systems & Hardware owns physical clocks; Distributed Systems owns causal-order mechanisms. See resolved owner placement under B-11, with full source-level verification still pending. |
 | APIs and communication protocols | [Software interfaces](software-programming/README.md) | Communication & Distributed Systems owns exchange protocols and layering; Application Knowledge owns concrete APIs. |
 | Concurrency, threads, and distributed coordination | [Concurrency and parallelism](computation-algorithms/README.md) | Operating System Principles owns thread/process implementation; Distributed Systems owns cross-node coordination. |
 | Drivers, buses, and input/output | [Buses and interfaces](digital-systems-hardware/README.md) | Operating System Principles owns driver abstractions; Endpoint Knowledge owns platform-specific implementations. |
@@ -37,9 +37,9 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) docume
 
 ## Ten candidate coverage questions
 
-**Working dispositions:** See the [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md): seven candidates are assigned to existing approved headings for authoring and three (mathematics breadth, general temporality, AI/ML) require explicit architectural decisions. **No canonical articles are thereby completed, and no new headings have been approved.**
+**Current dispositions:** [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) retains seven existing-home cases for deeper source validation; the other three (mathematics breadth, general temporality, AI/ML) have assigned additional subjects and scoped-reviewed articles under Wave F. The original table is retained for traceability; complete verification and publication are not asserted.
 
-These are **open questions**, not approved new sections.
+These were **original review questions**, not automatic mandates for new sections. Subsequent adjudication assigned seven distinct new subjects across the previously approved twelve areas; the inventory remains open to further justified changes.
 
 | Candidate gap | Investigate within | Decision needed |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ These are **open questions**, not approved new sections.
 | Scientific and engineering validation | Scientific Reasoning; Systems & Engineering; Software & Programming | Clarify experimental falsification, requirements verification, acceptance, and software testing. |
 | Lifecycle evolution and versioning | Information & Data; Software & Programming; Systems & Engineering | Separate data, software, schema, and whole-system evolution and versioning. |
 
-Every candidate now has a **working placement disposition** in the linked register. Those placements are not evidence of finished content; the three architectural-decision cases remain open until separately approved.
+Every candidate has a recorded placement disposition. G-01/G-04/G-06 have newly authored, scoped-reviewed canonical articles; stronger source-passage verification, seven-domain coverage and independent human publication acceptance remain open.
 
 ## Relationship safeguards
 
