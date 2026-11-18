@@ -102,7 +102,7 @@ Treat knowledge architecture as **a navigational hypothesis continuously tested 
 - A new concept should not become an area simply because an established source uses it as a major heading.
 - An alternate view should be an index or relationship, not a duplicate of the same canonical knowledge.
 - The approved **Fundamentals** area baseline has its own governance; the internal **Security Foundations** and **Operational Foundations** subject taxonomies require separate authorization. One division's maturity does not authorize copying its exact folders into another.
-- Pilot manuscripts in an unratified division remain **pilots** even when substantive and internally Reviewed.
+- A substantive manuscript can reside **inside a provisional area directory** while its precise semantic ownership remains unratified. Security Foundations adopts the **Fundamentals-style area README plus article** pattern by explicit user direction; historical `pilots/` paths are link-preserving aliases, not additional substantive knowledge.
 - Recording an addition/consolidation requires the reason, source/model justification, old/new identifiers, canonical ownership, link/path changes, affected status and explicit approval state.
 - Retired IDs and decision histories remain traceable. Do not silently rewrite or delete the past.
 
@@ -209,6 +209,8 @@ The intended working relationship is with an **independent technical collaborato
 
 **No reflexive questions:** Direct, original analysis and useful execution are the default. One concise clarification is acceptable only when an essential missing detail cannot be resolved from existing context.
 
+**Uniform layout, tailored substance:** Wherever a Foundations corpus is actively developed, use a division `README.md`, coherent knowledge-area directories, each area's `README.md`, and substantive subject Markdown within those areas. Security Foundations has now adopted this **Fundamentals-style pattern** while retaining flexible, provisional individual area/subject identities. **Uniform structure never forces identical counts, article sizes, source types or semantic ownership.**
+
 ## 11. Repository architecture, links and file responsibilities
 
 **Root [README](README.md):** Approved repository navigation and scope. **Root [RELATIONSHIPS](RELATIONSHIPS.md):** Canonical location and relationship conventions. **Root AGENTS (this file):** Cross-repository SOP.
@@ -216,7 +218,7 @@ The intended working relationship is with an **independent technical collaborato
 **Subtree `AGENTS.md` files** narrow the SOP to local meaning and maturity:
 
 - [Fundamentals AGENTS.md](foundations/fundamentals/AGENTS.md): approved governing architecture, variable subject inventory, substantive canonical content and existing review controls.
-- [Security Foundations AGENTS.md](foundations/security-foundations/AGENTS.md): security-specific reference development and **unratified** subject taxonomy, source-led pilot development.
+- [Security Foundations AGENTS.md](foundations/security-foundations/AGENTS.md): user-approved **Fundamentals-style area/README/article structure**, with flexible provisional area identities and 14 reviewed working references; source and publication acceptance remain separate.
 - [Operational Foundations AGENTS.md](foundations/operational-foundations/AGENTS.md): shared security methodologies with **no approved internal taxonomy or article inventory yet**.
 
 **Specialized domain contracts (all inherit this root SOP):**
