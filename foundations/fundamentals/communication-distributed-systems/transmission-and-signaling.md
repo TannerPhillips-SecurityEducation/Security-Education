@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Communication & Distributed Systems](README.md)  
 **Approved subject heading:** Transmission and signaling  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Communication & Distributed Systems 54-family audit](../WAVE-E-TECHNICAL-REVIEW-02.md); independent human review pending
 
 ## Transmission carries represented information through a medium
 
@@ -65,6 +65,6 @@ This article does not mandate a cabling type, optical transceiver, radio modulat
 - [NIST Binary Prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 - [RFC 9293 TCP Specification](https://www.rfc-editor.org/rfc/rfc9293.html).
 
-**Editorial status:** Substantive Draft; unit calculations, signaling claims and framing limitations require separate scoped audit. No physical implementation or assessment is mandated.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E Communication & Distributed Systems 54-family technical audit](../WAVE-E-TECHNICAL-REVIEW-02.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Communication & Distributed Systems](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
