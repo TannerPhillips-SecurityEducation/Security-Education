@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Physical & Electrical Principles](README.md)  
 **Approved subject heading:** Electricity  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 01 technical audit](../WAVE-C-TECHNICAL-REVIEW-01.md); independent human review pending
 
 ## Electrical phenomena concern charges and fields
 
@@ -77,6 +77,6 @@ Ground potential, reference directions and current return paths depend on actual
 - [OpenStax: Model of Conduction in Metals](https://openstax.org/books/university-physics-volume-2/pages/9-2-model-of-conduction-in-metals).
 - [BIPM: SI Brochure](https://www.bipm.org/en/publications/si-brochure).
 
-**Editorial status:** Substantive Draft. Charge-flow, current, resistance and electrical power examples are idealized. Claims require separate technical audit before Reviewed status; no live-electrical instruction is prescribed.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave C Batch 01 24-group audit](../WAVE-C-TECHNICAL-REVIEW-01.md). Complete source verification, independent human expert peer review and final publication acceptance remain outstanding.
 
 [Physical & Electrical Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
