@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Mathematics & Logic](README.md)  
 **Subject ID:** F-01-10  
-**Development status:** Draft; substantive article newly authored  
-**Source review:** References listed; scoped technical review pending  
+**Development status:** Reviewed (model-assisted; independent human acceptance not claimed)  
+**Source review:** Core claims checked; [Wave F 42-family scoped technical audit](../WAVE-F-TECHNICAL-REVIEW-01.md); comprehensive source-level verification not claimed  
 **Inventory authority:** [Model and Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md)
 
 ## Geometry models spatial properties and relationships
@@ -85,6 +85,6 @@ The Euclidean distance is `√(3²+4²)=5 m`. A counterclockwise 90° rotation a
 
 The example uses idealized 2D Euclidean geometry. Neither actual sensor uncertainty nor non-Euclidean geospatial projections is solved by its formulas.
 
-**Editorial disposition:** Draft; sources listed, verification pending. No Knowledge Checks or Practical Assessments.
+**Editorial status:** Reviewed (model-assisted) under the [Wave F scoped technical review](../WAVE-F-TECHNICAL-REVIEW-01.md). Full source-passage verification, independent expert review and final publication acceptance remain open.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
