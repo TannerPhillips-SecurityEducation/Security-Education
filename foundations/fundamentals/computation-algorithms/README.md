@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All **11/11** canonical articles Reviewed (model-assisted): 9 prior Wave articles and 2 under [Wave F 42-family review](../WAVE-F-TECHNICAL-REVIEW-01.md); none Published
+**Content status:** **11/11 current canonical subject articles Reviewed (model-assisted)**; individual scoped audits are recorded in article metadata and the [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md). None is fully source-Verified, independently peer-reviewed or Published.  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -25,6 +25,8 @@ How problems are formulated as computations, how algorithms operate, and how the
 
 - Artificial intelligence foundations
 - Machine learning foundations
+
+**Current area snapshot (November 18, 2026):** **11 actual article files**, each internally Reviewed (model-assisted). Nine references predate the two AI/ML articles, reviewed separately under [Wave F](../WAVE-F-TECHNICAL-REVIEW-01.md). Earlier counts in wave documents are historical; no independently source-Verified or Published status is implied.
 
 ## Canonical reference articles
 
@@ -51,7 +53,7 @@ How problems are formulated as computations, how algorithms operate, and how the
 
 Computability owns theoretical solvability; Algorithms and Algorithm Design own procedure contracts and construction strategies; Complexity owns formal resource growth. Computational Data Structures, Iteration and Recursion, Concurrency and Parallelism, Synchronization, and Computational Efficiency retain their separate operational mechanisms and cost boundaries.
 
-This area remains a **navigation discipline**, not a new universal ontology or a required implementation stack. The approved 12-area/109-heading architecture, and the unresolved G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML decisions are unchanged.
+This area remains a **navigation discipline**, not a new universal ontology or a required implementation stack. The approved 12-area/109-heading architecture, and G-01 mathematics, G-04 general temporality and G-06 AI/ML now have assigned owners and scoped-reviewed articles under [Wave F](../WAVE-F-TECHNICAL-REVIEW-01.md); complete source-level verification remains open.
 
 No Knowledge Checks, Practical Assessments, learner scoring, or mandatory toolchain have been introduced. Complete source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
 
