@@ -1,8 +1,8 @@
 # Security Foundations | Development & Verification Register
 
-**Working edition:** v0.11 · November 18, 2026  
+**Working edition:** v0.12 · November 18, 2026  
 **Authority:** [Fundamentals-style area structure decision](AREA-STRUCTURE-ADJUDICATION-03.md); exact labels, 12 areas and 96 subjects remain **provisional and revisionable**.  
-**Status:** **29 authored Reviewed (model-assisted)**, **0 Draft** working-area manuscripts; **67 Inventoried without article**; zero Source-Verified or Published.  
+**Status:** **29 authored Reviewed (model-assisted)** and **4 Draft** working-area manuscripts; **63 Inventoried without article**, zero Source-Verified or Published.  
 **Review evidence:** [Technical Reviews 01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), [06](PILOT-TECHNICAL-REVIEW-06.md), [07](PILOT-TECHNICAL-REVIEW-07.md), and [08](PILOT-TECHNICAL-REVIEW-08.md), totaling **179 bounded material claim groups** across 29 Reviewed working manuscripts.
 
 ## Current development status
@@ -10,8 +10,8 @@
 | State | Count | Interpretation |
 | --- | ---: | --- |
 | **Reviewed (model-assisted)** | **29** | Twenty-nine substantive working-area manuscripts; eight separate scoped technical reviews (01–08) |
-| **Draft** | **0** | No authored manuscript currently awaits its first separate scoped technical review |
-| **Inventoried without article** | **67** | Provisional candidate headings without substantive articles |
+| **Draft** | **4** | SG-08 Draft Batch 09: SF-07-04, SF-07-05, SF-07-06 and SF-11-05; independent review pending |
+| **Inventoried without article** | **63** | Provisional subject headings without substantive manuscript yet |
 | **Source-Verified / Published** | **0** | Full claim-to-passage checking, taxonomy acceptance and qualified publication review remain open |
 
 **Structural baseline:** Each active [working area](README.md#working-knowledge-areas) has a real `README.md`. When a subject is authored its **one substantive article** is in that area directory. The historical [pilot review index](pilots/README.md) and compatibility stubs are **not additional articles**.
@@ -69,9 +69,9 @@
 | SF-07-01 | [Controls, safeguards, and security functions](security-controls-defense-mechanisms/README.md) | [Working reviewed article](security-controls-defense-mechanisms/controls-safeguards-and-security-functions.md) | Reviewed (model-assisted) | Core claims checked | [Review 02](PILOT-TECHNICAL-REVIEW-02.md) |
 | SF-07-02 | [Preventive, detective, corrective, and recovery controls](security-controls-defense-mechanisms/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-07-03 | [Technical, organizational, and physical controls](security-controls-defense-mechanisms/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-07-04 | [Defense in depth and diversity](security-controls-defense-mechanisms/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-07-05 | [Control placement and coverage](security-controls-defense-mechanisms/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-07-06 | [Control bypass, failure, and evasion](security-controls-defense-mechanisms/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
+| SF-07-04 | [Defense in depth and diversity](security-controls-defense-mechanisms/README.md) | [Working draft article](security-controls-defense-mechanisms/defense-in-depth-and-diversity.md) | **Draft** | References listed; Review 09 pending | Not reviewed |
+| SF-07-05 | [Control placement and coverage](security-controls-defense-mechanisms/README.md) | [Working draft article](security-controls-defense-mechanisms/control-placement-and-coverage.md) | **Draft** | References listed; Review 09 pending | Not reviewed |
+| SF-07-06 | [Control bypass, failure, and evasion](security-controls-defense-mechanisms/README.md) | [Working draft article](security-controls-defense-mechanisms/control-bypass-failure-and-evasion.md) | **Draft** | References listed; Review 09 pending | Not reviewed |
 | SF-07-07 | [Compensating controls and residual exposure](security-controls-defense-mechanisms/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-07-08 | [Control effectiveness and costs](security-controls-defense-mechanisms/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-08-01 | [Security architecture and formal protection models](secure-design-architecture/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
@@ -104,7 +104,7 @@
 | SF-11-02 | [Failure modes and degraded protection](security-failure-resilience/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-11-03 | [Containment and blast radius](security-failure-resilience/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-11-04 | [Resilience, survivability, and robustness](security-failure-resilience/README.md) | [Working reviewed article](security-failure-resilience/resilience-survivability-and-robustness.md) | Reviewed (model-assisted) | Core claims checked | [Review 03](PILOT-TECHNICAL-REVIEW-03.md) |
-| SF-11-05 | [Redundancy, diversity, and common-mode failure](security-failure-resilience/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
+| SF-11-05 | [Redundancy, diversity, and common-mode failure](security-failure-resilience/README.md) | [Working draft article](security-failure-resilience/redundancy-diversity-and-common-mode-failure.md) | **Draft** | References listed; Review 09 pending | Not reviewed |
 | SF-11-06 | [Graceful degradation and safe failure](security-failure-resilience/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-11-07 | [Recovery objectives and trusted restoration](security-failure-resilience/README.md) | [Reviewed working article](security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | Reviewed (model-assisted) | Core claims checked | [Review 04](PILOT-TECHNICAL-REVIEW-04.md) |
 | SF-11-08 | [Persistent compromise and adaptation](security-failure-resilience/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |

@@ -1,6 +1,6 @@
 # Security Foundations: Architecture & Development Plan
 
-**Working edition:** v0.17 · November 18, 2026  
+**Working edition:** v0.18 · November 18, 2026  
 **Status:** Proposed plan; **no approval of internal taxonomy or article publication is asserted**  
 **Scope:** Security Knowledge → Foundations → Security Foundations  
 **Proposed inputs:** [Architecture](ARCHITECTURE.md) · [96-heading Flexible Working Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [34-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) · [30-group Established Model Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) · [Architecture Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md)
@@ -18,11 +18,11 @@ A complete article must explain not merely *what a term means*, but **why the pr
 | Measure | Current disposition |
 | --- | --- |
 | Approved divisions | Fundamentals; Security Foundations; Operational Foundations |
-| Security Foundations division | Approved; [Fundamentals-style directory structure](AREA-STRUCTURE-ADJUDICATION-03.md) adopted with twelve provisional area indexes, containing **29 substantive Reviewed (model-assisted)** working articles |
+| Security Foundations division | Approved; [Fundamentals-style directory structure](AREA-STRUCTURE-ADJUDICATION-03.md) adopted with twelve provisional area indexes, now containing **33 substantive working articles** (29 Reviewed, 4 Draft) |
 | Internal Security Foundations taxonomy | **Not approved** |
 | Working knowledge areas | 12 **proposed** |
 | Working subject headings | **96 proposed**, revised from 94 by four additions and two consolidations; still flexible |
-| Final approved canonical Security Foundations articles | **0**; 29 manuscripts have bounded internal model-assisted reviews; permanent semantic ownership, full source verification, independent expert approval and publication remain unratified |
+| Final approved canonical Security Foundations articles | **0**; 29 manuscripts have bounded internal model-assisted reviews and four newly authored SG-08 manuscripts are Draft. Permanent semantic ownership, full source verification, independent expert acceptance and publication remain unratified |
 | Substantive technical review of proposed future subject articles | **29 Reviewed (model-assisted) manuscripts** across eight separate technical audits: [Reviews 01–07](pilots/README.md) cover 25 manuscripts (147 claim groups); [Review 08](PILOT-TECHNICAL-REVIEW-08.md) covers four SF-03 manuscripts (32 groups). Complete source-passage and independent expert reviews remain open |
 | Specialized knowledge domains | Seven existing approved domain entries |
 | Formal relationship predicate vocabulary / graph engine | Neither approved nor implemented |
@@ -37,12 +37,12 @@ The subject inventory is a **candidate discovery and coverage instrument**, not 
 | Internal taxonomy | 12 proposed areas / **96 active proposed subjects**, both flexible and unratified |
 | Source map | **30 established source groups** identified with version and non-equivalence cautions |
 | Ownership | **34 working overlap cases** documented; not all individually approved |
-| Article development | **29 Reviewed (model-assisted), 0 Draft** substantive working-area manuscripts; 67 candidates remain Inventoried without article. The SF-03-02, SF-03-03, SF-03-05 and SF-03-06 articles completed the separate [Technical Review 08](PILOT-TECHNICAL-REVIEW-08.md), including claim-specific correction records |
+| Article development | **29 Reviewed (model-assisted), 4 Draft** working articles and 63 candidates without manuscripts. The new Drafts are [SF-07-04](security-controls-defense-mechanisms/defense-in-depth-and-diversity.md), [SF-07-05](security-controls-defense-mechanisms/control-placement-and-coverage.md), [SF-07-06](security-controls-defense-mechanisms/control-bypass-failure-and-evasion.md) and [SF-11-05](security-failure-resilience/redundancy-diversity-and-common-mode-failure.md) |
 | Review / publication | Eight bounded audits ([01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), [06](PILOT-TECHNICAL-REVIEW-06.md), [07](PILOT-TECHNICAL-REVIEW-07.md), [08](PILOT-TECHNICAL-REVIEW-08.md)) checked **179 bounded material claim groups** across 29 manuscripts; source-Verified, qualified independent peer review and Published remain separate and incomplete |
 
-**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain historical and traceable. **Twenty-nine Reviewed, zero Draft and 67 Inventoried** among 96 provisional candidate subjects describe manuscript progress, not approved canonical taxonomy. Area/subject counts may expand or contract after evidence-based adjudication.
+**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain traceable historical snapshots. **Twenty-nine Reviewed, four Draft and 63 Inventoried** among 96 provisional candidates describe manuscript progress, not an approved permanent taxonomy. Area and subject totals remain variable.
 
-**Next source-led scope priorities:** [Technical Review 08](PILOT-TECHNICAL-REVIEW-08.md) completed its separate audit for SF-03-02, SF-03-03, SF-03-05 and SF-03-06 after Draft Batch 08. With **no pending Drafts**, the next authoring batch can follow a source-supported conceptual cluster, including [SF-03-04 attacks/deception/abuse](threats-hazards-adversarial-behavior/README.md), [SF-03-07 threat assumptions/models](threats-hazards-adversarial-behavior/README.md), and [SF-07-04 defense in depth](security-controls-defense-mechanisms/README.md) versus resilience/independence. Other working gaps remain eligible. Choose a *variable-sized* cohesive Draft batch with substantive depth, then perform a **separate claim-led Review batch on the next authoring turn**. Approval of permanent taxonomy, source verification and publication remains outstanding.
+**Next source-led scope priorities:** Draft Batch 09 addresses SG-08 through four **distinct** working owners across two areas: SF-07-04 coordinated defense in depth, SF-07-05 control placement/coverage, SF-07-06 control bypass/failure/evasion, and SF-11-05 replicated function, diversity and common-mode failure. **The immediately following authoring turn must separately Review all four Drafts in Technical Review 09**, checking NIST SP 800-160 Vol. 1 Rev. 1 Appendix E.9/E.26, Vol. 2 Rev. 1 §§D.5.2.4–5, NIST SP 800-53 Release 5.2.0 control versus 53A assessment, D3FEND's non-efficacy caveat, explicit conditional-probability calculations and independence assumptions, path-coverage formalism, fail modes, and SF-07/SF-11 ownership boundaries. Reconcile audit evidence and CI before authoring more. No taxonomy or publication approval is implied.
 
 ## 3. Engineering workstreams
 

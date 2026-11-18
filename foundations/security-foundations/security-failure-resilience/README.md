@@ -3,7 +3,7 @@
 **Division:** [Security Foundations](../README.md)  
 **Working area ID:** SF-11  
 **Architecture status:** **Provisional area membership and naming**, within a user-approved **Fundamentals-style directory architecture**. The number and names of areas and subjects can expand or contract.  
-**Current content:** **8 candidate subjects; 3 substantive articles**, all 3 Reviewed (model-assisted); 5 without an article. None is source-Verified or Published.
+**Current content:** **8 candidate subjects; 4 substantive articles (3 Reviewed, 1 Draft)**, with 4 not authored. SF-11-05 is **Draft / References listed** and awaits a separate source-led Technical Review 09 with the related SF-07 articles. None is Source-Verified or Published.
 
 ## Scope and canonical ownership
 
@@ -19,12 +19,12 @@ The area may be renamed, split, consolidated, or relocated when stronger concept
 | SF-11-02 | Failure modes and degraded protection | **Inventoried / not authored** | Describe partial, latent, and cascading protection failures. |
 | SF-11-03 | Containment and blast radius | **Inventoried / not authored** | Explain limits on propagation and damage scope. |
 | SF-11-04 | [Resilience, survivability, and robustness](resilience-survivability-and-robustness.md) | **Reviewed (model-assisted)** · Core claims checked | Distinguish resistance from continued function and adaptation after stress. |
-| SF-11-05 | Redundancy, diversity, and common-mode failure | **Inventoried / not authored** | Describe why duplication may or may not improve security outcomes. |
+| SF-11-05 | [Redundancy, diversity, and common-mode failure](redundancy-diversity-and-common-mode-failure.md) | **Draft** · References listed; scoped Review 09 pending | Describe why duplication may or may not improve security outcomes. |
 | SF-11-06 | Graceful degradation and safe failure | **Inventoried / not authored** | Balance availability with integrity, safety, and authorization constraints. |
 | SF-11-07 | [Recovery objectives and trusted restoration](recovery-objectives-and-trusted-restoration.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) | Explain restoration goals and why recovery must establish trustworthy state. |
 | SF-11-08 | Persistent compromise and adaptation | **Inventoried / not authored** | Describe how adversarial persistence changes restoration assumptions. |
 
-**Review interpretation:** All three articles have scoped model-assisted audit evidence in [Security Foundations technical reviews](../pilots/README.md), including [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) for SF-11-07. Those reviews are **not** independent human peer review, complete clause-by-clause source verification, publication acceptance or ratification of the proposed taxonomy. **Inventoried** entries are coverage candidates, not missing files or failed articles.
+**Review interpretation:** Three existing working area articles remain Reviewed (model-assisted), including [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) for SF-11-07. The new **SF-11-05 Draft** awaits its own distinct claim-led [Technical Review 09](../DEVELOPMENT-PLAN.md) after this authoring batch and has no inherited Reviewed status. The current subject ownership remains provisional, not source-Verified, independently Published or ratified.
 
 ## Development and relationships
 
