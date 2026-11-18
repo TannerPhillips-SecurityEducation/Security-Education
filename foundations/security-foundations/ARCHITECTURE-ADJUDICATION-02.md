@@ -73,6 +73,8 @@ This is **not removal of the concepts**. Old planning identifiers are historical
 
 ## 6. Source updates and verification guards
 
+**Common Criteria edition correction:** [ISO/IEC 15408-1:2026](https://www.iso.org/standard/15408-1) is the current ISO Part 1 edition, superseding 2022. Distinguish the ISO revision from [CC:2022 Revision 1](https://www.commoncriteriaportal.org/files/ccfiles/CC2022PART1R1.pdf) as a separately published scheme reference.
+
 **TLS source update:** [RFC 9846 (July 2026)](https://www.rfc-editor.org/info/rfc9846/) supersedes RFC 8446 while retaining TLS 1.3, tightening key-share reuse constraints and clarifying protocol security. Do not cite RFC 8446 as the latest specification.
 
 The source crosswalk should explicitly include:
@@ -81,7 +83,7 @@ The source crosswalk should explicitly include:
 - [NIST SP 800-53 Release 5.2.0 (2025)](https://csrc.nist.gov/news/2025/nist-releases-revision-to-sp-800-53-controls) as a current control catalog/version note, without assuming a listed safeguard is effective.
 - [FIRST CVSS v4.0 specification](https://www.first.org/cvss/v4.0/specification-document) for Base/Threat/Environmental/Supplemental distinction; CVSS-B is severity, not organizational risk.
 - [NIST SP 800-57 Rev.5](https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final), [SP 800-90A Rev.1](https://csrc.nist.gov/pubs/sp/800/90/a/r1/final), [FIPS 197 updated 2023](https://csrc.nist.gov/pubs/fips/197/final), [SP 800-38D](https://csrc.nist.gov/pubs/sp/800/38/d/final), [NIST PQC FIPS 203/204/205](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography), and [SP 800-227 (2025)](https://csrc.nist.gov/pubs/sp/800/227/final) for separate crypto concept scopes.
-- [Common Criteria ISO/IEC 15408-1:2022](https://www.iso.org/standard/72891.html) for a technical evaluation model; certification applies to a specified **target of evaluation and evaluated security properties**, not to any unexamined deployment.
+- [Common Criteria / ISO/IEC 15408-1:2026](https://www.iso.org/standard/15408-1) for a technical evaluation model; certification applies to a specified **target of evaluation and evaluated security properties**, not to any unexamined deployment.
 - [NIST SP 800-30 Rev.1](https://csrc.nist.gov/pubs/sp/800/30/r1/final) for risk vocabulary and separation of adversarial/non-adversarial sources, while risk-assessment execution belongs in Operational Foundations.
 
 These are **primary reference starting points**. Their source type and publisher-specified scope are identified, but no complete norm-by-norm verification or empirical security assertion has been performed.
