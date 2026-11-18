@@ -15,7 +15,7 @@ Foundations establishes shared knowledge used throughout the specialized domains
 Each approved Foundations division has a **uniform, thirteen-section operating contract** with instructions tailored to its actual scope and current governance state:
 
 - [Fundamentals AGENTS.md](fundamentals/AGENTS.md): approved governing architecture, canonical domain-agnostic reference articles and evidence review.
-- [Security Foundations AGENTS.md](security-foundations/AGENTS.md): the adopted **Fundamentals-style area/README/article directory pattern**, with provisional security-area semantics, [18 Reviewed (model-assisted) manuscripts](security-foundations/DEVELOPMENT-VERIFICATION-REGISTER.md), and flexible candidate counts.
+- [Security Foundations AGENTS.md](security-foundations/AGENTS.md): the adopted **Fundamentals-style area/README/article directory pattern**, with provisional security-area semantics, [18 Reviewed (model-assisted) and 2 Draft manuscripts](security-foundations/DEVELOPMENT-VERIFICATION-REGISTER.md), and flexible candidate counts.
 - [Operational Foundations AGENTS.md](operational-foundations/AGENTS.md): cross-domain security methods and decision workflows, with internal taxonomy still unapproved.
 
 These are **subtree-scoped working instructions**, not a new root-level ontology, a declaration that all divisions have equal maturity, or an approval of unratified internal subject hierarchies. All inventories may be revised under their applicable architecture/governance rules.

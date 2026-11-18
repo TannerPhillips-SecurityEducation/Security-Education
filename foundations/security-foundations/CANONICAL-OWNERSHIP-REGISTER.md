@@ -1,8 +1,8 @@
 # Security Foundations | Canonical Ownership Register (Working Hypotheses)
 
-**Working edition:** v0.5 · November 18, 2026  
+**Working edition:** v0.6 · November 18, 2026  
 **Architectural status:** **One working owner per coherent shared security-specific concept** under the user-approved Fundamentals-style directory pattern. The actual names, boundaries and area/subject numbers are **provisional** until independently ratified; the current inventory is **96 candidates within twelve provisional areas**.  
-**Implementation state:** 18 subject manuscripts Reviewed (model-assisted); 0 Draft; 78 inventoried without article. No human Approved/Published claim.
+**Implementation state:** 18 subject manuscripts Reviewed (model-assisted); 2 Draft (SF-09-02 and SF-09-07); 76 inventoried without article. No human Approved/Published claim.
 
 ## Meaning of ownership
 
@@ -78,12 +78,12 @@ The single-owner rule prevents a security property or threat concept from being 
 | SF-08-08 | Security requirements and design tradeoffs | [Secure Design & Architecture](secure-design-architecture/README.md) | **Provisional owner; article pending** | Relate protection claims to performance, usability, safety, and lifecycle constraints. |
 | SF-08-09 | Information-flow security and noninterference | [Secure Design & Architecture](secure-design-architecture/README.md) | [Reviewed working concept](secure-design-architecture/information-flow-security-and-noninterference.md) | Define restrictions on information influence and observable outputs; distinguish policy proofs from access decisions and empirical absence of leaks. |
 | SF-09-01 | Cryptographic security properties and assumptions | [Cryptography & Information Protection](cryptography-information-protection/README.md) | **Provisional owner; article pending** | Distinguish confidentiality, integrity, authenticity, and security models. |
-| SF-09-02 | Randomness, entropy, and nonces | [Cryptography & Information Protection](cryptography-information-protection/README.md) | **Provisional owner; article pending** | Explain unpredictable values, uniqueness, and misuse consequences. |
+| SF-09-02 | Randomness, entropy, and nonces | [Cryptography & Information Protection](cryptography-information-protection/README.md) | [Draft working concept](cryptography-information-protection/randomness-entropy-and-nonces.md) | Explain unpredictable values, uniqueness, and misuse consequences. |
 | SF-09-03 | Encryption and confidentiality | [Cryptography & Information Protection](cryptography-information-protection/README.md) | **Provisional owner; article pending** | Distinguish encryption goals from authorization and secure endpoint operation. |
 | SF-09-04 | Hashes and message authentication | [Cryptography & Information Protection](cryptography-information-protection/README.md) | **Provisional owner; article pending** | Distinguish digest computation, keyed authentication, and integrity evidence. |
 | SF-09-05 | Digital signatures and origin evidence | [Cryptography & Information Protection](cryptography-information-protection/README.md) | **Provisional owner; article pending** | Explain signed-message verification and limits of signer attribution. |
 | SF-09-06 | Key establishment and trust anchors | [Cryptography & Information Protection](cryptography-information-protection/README.md) | **Provisional owner; article pending** | Describe how participants obtain keys and establish justified reliance. |
-| SF-09-07 | Key lifecycle and cryptographic failures | [Cryptography & Information Protection](cryptography-information-protection/README.md) | **Provisional owner; article pending** | Explain creation, storage, rotation, compromise, expiration, and recovery. |
+| SF-09-07 | Key lifecycle and cryptographic failures | [Cryptography & Information Protection](cryptography-information-protection/README.md) | [Draft working concept](cryptography-information-protection/key-lifecycle-and-cryptographic-failures.md) | Explain creation, storage, rotation, compromise, expiration, and recovery. |
 | SF-09-08 | Data protection across states | [Cryptography & Information Protection](cryptography-information-protection/README.md) | **Provisional owner; article pending** | Compare at rest, in transit, and in use without claiming one mechanism solves all. |
 | SF-09-09 | Cryptographic composition and protocol security | [Cryptography & Information Protection](cryptography-information-protection/README.md) | [Reviewed working concept](cryptography-information-protection/cryptographic-composition-and-protocol-security.md) | Define AEAD, nonce and associated-data obligations, key binding, authentication, replay context and why individually secure primitives do not automatically establish secure protocols. |
 | SF-10-01 | Security-relevant events and conditions | [Security Observation & Evidence](security-observation-evidence/README.md) | **Provisional owner; article pending** | Distinguish occurrences from enduring states and conditions of interest. |

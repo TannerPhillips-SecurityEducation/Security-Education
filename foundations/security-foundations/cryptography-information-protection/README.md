@@ -3,7 +3,7 @@
 **Division:** [Security Foundations](../README.md)  
 **Working area ID:** SF-09  
 **Architecture status:** **Provisional area membership and naming**, within a user-approved **Fundamentals-style directory architecture**. The number and names of areas and subjects can expand or contract.  
-**Current content:** **9 candidate subjects; 1 substantive article** with existing scoped reviews; 8 without an article. No source-Verified or Published claims.
+**Current content:** **9 candidate subjects; 3 substantive articles** (1 Reviewed, 2 Draft), with 6 without an article. No source-Verified or Published claims.
 
 ## Scope and canonical ownership
 
@@ -16,16 +16,16 @@ The area may be renamed, split, consolidated, or relocated when stronger concept
 | ID | Proposed subject or actual article | Development and source state | Intended conceptual responsibility |
 | --- | --- | --- | --- |
 | SF-09-01 | Cryptographic security properties and assumptions | **Inventoried / not authored** | Distinguish confidentiality, integrity, authenticity, and security models. |
-| SF-09-02 | Randomness, entropy, and nonces | **Inventoried / not authored** | Explain unpredictable values, uniqueness, and misuse consequences. |
+| SF-09-02 | [Randomness, entropy, and nonces](randomness-entropy-and-nonces.md) | **Draft** · References listed; separate claim-led review pending | Explain unpredictable values, uniqueness, and misuse consequences. |
 | SF-09-03 | Encryption and confidentiality | **Inventoried / not authored** | Distinguish encryption goals from authorization and secure endpoint operation. |
 | SF-09-04 | Hashes and message authentication | **Inventoried / not authored** | Distinguish digest computation, keyed authentication, and integrity evidence. |
 | SF-09-05 | Digital signatures and origin evidence | **Inventoried / not authored** | Explain signed-message verification and limits of signer attribution. |
 | SF-09-06 | Key establishment and trust anchors | **Inventoried / not authored** | Describe how participants obtain keys and establish justified reliance. |
-| SF-09-07 | Key lifecycle and cryptographic failures | **Inventoried / not authored** | Explain creation, storage, rotation, compromise, expiration, and recovery. |
+| SF-09-07 | [Key lifecycle and cryptographic failures](key-lifecycle-and-cryptographic-failures.md) | **Draft** · References listed; separate claim-led review pending | Explain creation, storage, rotation, compromise, expiration, and recovery. |
 | SF-09-08 | Data protection across states | **Inventoried / not authored** | Compare at rest, in transit, and in use without claiming one mechanism solves all. |
 | SF-09-09 | [Cryptographic composition and protocol security](cryptographic-composition-and-protocol-security.md) | **Reviewed (model-assisted)** · Core claims checked | Define AEAD, nonce and associated-data obligations, key binding, authentication, replay context and why individually secure primitives do not automatically establish secure protocols. |
 
-**Review interpretation:** The 1 current article has scoped model-assisted review evidence from [Security Foundations technical reviews](../pilots/README.md). These reviews are **not** independent peer review, complete clause-by-clause source verification or publication. **Inventoried** entries are coverage candidates, not missing files or failed articles.
+**Review interpretation:** The existing SF-09-09 article is Reviewed (model-assisted) under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md). The newly authored SF-09-02 and SF-09-07 articles are **Draft / References listed**; their next authoring-related batch must be a separate **technical Review** before either can advance. No article here is source-Verified, Published, or permanent-taxonomy approved. Inventoried entries are proposed coverage headings.
 
 ## Development and relationships
 
