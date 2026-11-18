@@ -1,7 +1,7 @@
 # Fundamentals: Coverage Gap Decision Register
 
-**Status:** Working architectural disposition v0.1; recommendations are not new ratified subject headings, finished reference articles, or a change to the governing taxonomy.  
-**Baseline:** 12 approved areas and 109 original subject headings unchanged.  
+**Status:** Working architectural disposition v0.2; seven new headings Inventoried through [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md), not yet authored or technically reviewed.  
+**Baseline:** 12 knowledge areas unchanged; **116 current headings = 109 historical Reviewed articles + 7 new Inventoried subjects**. The earlier 109-heading snapshot remains in audit history.  
 **Input:** [Concept Overlap and Coverage Review](CONCEPT-OVERLAP-REVIEW.md), [Canonical Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md), [Canonical Ownership Register](CANONICAL-OWNERSHIP-REGISTER.md).
 
 ## Decision rule
@@ -12,9 +12,9 @@ A subject is **covered by existing headings, pending authoring** when an approve
 
 | Disposition | Count | Cases |
 | --- | ---: | --- |
-| Covered by existing headings, pending authoring | 7 | G-02, G-03, G-05, G-07, G-08, G-09, G-10 |
-| Architectural decision required | 3 | G-01, G-04, G-06 |
-| Approved areas or headings added/renamed | 0 | None |
+| Existing canonical owners, depth/source verification still required | 7 | G-02, G-03, G-05, G-07, G-08, G-09, G-10 |
+| Canonical subject placement assigned, article content pending | 3 | G-01, G-04, G-06 |
+| New **Inventoried** headings added | 7 | 3 mathematics, 1 temporal model, 1 computer architecture, 2 AI/ML; no new knowledge area |
 | Published canonical articles created by this register | 0 | None |
 
 ## Framework, Model & Architecture coverage pass (November 18, 2026)
@@ -23,13 +23,13 @@ The [Foundational Models, Frameworks & Architectures Audit 01](FOUNDATIONAL-MODE
 
 **Count clarification:** The **109 tracked subject headings are not fixed**. Changes can add, split, merge, rename or retire headings after recorded coverage/ownership analysis. The old 12-area/109-heading counts remain the **historical baseline for previous audits**, not a requirement to accommodate every new model within existing headings.
 
-**Impact on the three original open decisions:** G-01 may warrant dedicated linear algebra and geometric/topological subjects; G-04 may warrant a canonical general temporal-model subject; G-06 may warrant explicit AI/ML subjects or a separately approved area-level decision. This review **does not resolve or approve** those choices.
+**Later adjudication:** [Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) subsequently assigned G-01 to F-01-09/10/11, G-04 to F-03-11 and G-06 to F-07-10/11, and inventoried F-06-10 computer architecture models. **The original audit by itself did not approve those changes; the later recorded adjudication changed the inventory.**
 
 ## Ten coverage cases
 
 ### G-01: Linear algebra, geometry, topology
 
-**Disposition:** Architectural decision required
+**Disposition:** **Canonical placement resolved**, new subjects F-01-09/10/11 Inventoried; explanatory content and technical review pending
 
 **Canonical responsibilities:** Mathematics & Logic: Algebra and functions; Discrete mathematics; Graph theory.
 
@@ -37,7 +37,7 @@ The [Foundational Models, Frameworks & Architectures Audit 01](FOUNDATIONAL-MODE
 
 **Rationale:** Approved headings support some mathematical prerequisites, but do not guarantee coverage of these distinct topics.
 
-**Next action:** Approve explicit depth under existing headings or additional named Mathematics subject headings. No new top-level area proposed.
+**Next action:** Author and source-verify F-01-09 Linear Algebra and Vector Spaces, F-01-10 Geometry and Spatial Reasoning, and F-01-11 Topology and Continuity as distinct canonical subjects. No new area required.
 
 **Evidence required to close the content gap:** Cross-domain demonstrations of a vector/matrix operation, geometric transformation and graph-vs-topological-space distinction.
 
@@ -71,7 +71,7 @@ The [Foundational Models, Frameworks & Architectures Audit 01](FOUNDATIONAL-MODE
 
 ### G-04: Time, temporality, clocks
 
-**Disposition:** Architectural decision required
+**Disposition:** **Canonical placement resolved** at F-03-11 Temporal Concepts and Models; article and technical verification pending
 
 **Canonical responsibilities:** Models & Abstraction: State/events/transitions (candidate general owner); Mathematics: Units and quantities; Digital Systems: Timing and clocks; Distributed Systems: Synchronization and coordination.
 
@@ -79,7 +79,7 @@ The [Foundational Models, Frameworks & Architectures Audit 01](FOUNDATIONAL-MODE
 
 **Rationale:** Existing headings cover units and implementations but do not explicitly establish the general canonical theory of temporality. Boundary exception B-11 remains.
 
-**Next action:** Approve an explicit temporal-concepts treatment within Models & Abstraction or a separately named subject within an existing area; keep physical clock and distributed-order mechanisms distinct.
+**Next action:** Author F-03-11 within Models & Abstraction; keep units, physical clocks and distributed causal-order mechanisms with their existing distinct owners.
 
 **Evidence required to close the content gap:** A coherent comparison of duration, instant, timestamp and causal partial order, including unsynchronized clocks.
 
@@ -99,7 +99,7 @@ The [Foundational Models, Frameworks & Architectures Audit 01](FOUNDATIONAL-MODE
 
 ### G-06: Artificial intelligence and machine learning
 
-**Disposition:** Architectural decision required
+**Disposition:** **Canonical placement resolved** at F-07-10 Artificial Intelligence Foundations and F-07-11 Machine Learning Foundations; content and source verification pending
 
 **Canonical responsibilities:** Mathematics: Probability and statistics; Computation: Algorithms and Algorithm design; Information & Data: Data types, datasets, provenance; Human & Sociotechnical Systems: Decision-making.
 
@@ -107,7 +107,7 @@ The [Foundational Models, Frameworks & Architectures Audit 01](FOUNDATIONAL-MODE
 
 **Rationale:** CS2023 treats AI as a substantial distinct knowledge area. Distributed prerequisite topics in the existing twelve do not guarantee discoverable, complete AI/ML treatment.
 
-**Next action:** Approve an AI/ML cross-area index as an interim path, then decide whether explicit added subjects or a thirteenth area are justified; neither is created here.
+**Next action:** Author distinct AI and machine-learning foundational articles under Computation & Algorithms, using the existing mathematics, data and sociotechnical prerequisites. A thirteenth area was not created.
 
 **Evidence required to close the content gap:** An approved core concept inventory and canonical placement map covering both ML and non-ML AI foundations.
 
@@ -168,13 +168,13 @@ The [Foundational Models, Frameworks & Architectures Audit 01](FOUNDATIONAL-MODE
 **Evidence required to close the content gap:** Traceable example linking schema revision, software API release, deployment and system lifecycle effects.
 
 
-## Three explicit architectural decisions
+## Three scoped canonical placements (content not yet verified)
 
-**G-01 Mathematics breadth.** Should linear algebra, geometry and essential topology become explicit approved subject headings in Mathematics & Logic, or be covered through formal scope expansions of the existing headings? A new knowledge area is not automatically needed.
+**G-01 Mathematics breadth.** Three distinct subject headings (F-01-09/10/11) are now Inventoried in Mathematics & Logic. The mathematical depth and source-supported examples remain to be developed; no new area was required.
 
-**G-04 General temporality.** Recommend a single canonical general discussion of time-related concepts in Models & Abstraction, clearly distinguished from physical SI measurements, clock hardware and distributed causal ordering. **This remains open**, corresponding to the B-11 exception.
+**G-04 General temporality.** F-03-11 Temporal Concepts and Models is now Inventoried in Models & Abstraction. The B-11 owner-placement question is resolved, but source-verified content and cross-domain alignment are still open.
 
-**G-06 AI/ML.** Recommend treating a cross-area AI/ML index as an initial discovery path, while separately evaluating whether a dedicated knowledge area or additional named headings are needed for comprehensive foundational coverage. **No thirteenth area has been added.**
+**G-06 AI/ML.** F-07-10 Artificial Intelligence Foundations and F-07-11 Machine Learning Foundations are now Inventoried in Computation & Algorithms. AI is not defined as synonymous with ML. **No thirteenth area was added**; content depth and cross-domain completeness remain unverified.
 
 ## Cross-domain coverage check
 
@@ -192,7 +192,7 @@ The [Foundational Models, Frameworks & Architectures Audit 01](FOUNDATIONAL-MODE
 
 - Keep **general concepts** in Fundamentals, security objectives and protections in Security Foundations, security practice in Operational Foundations, and vendor/domain implementations in the seven specialized domains.
 - Distinguish scope from source validation: even a justified canonical location does **not** mean a subject is completed.
-- Preserve the current 12-area / 109-heading baseline until explicit changes are approved.
+- Preserve the **historical** 12-area/109-heading audit snapshot; the newly adjudicated **current inventory is 12 areas/116 headings**. Further changes require versioned rationale, cross-links and status reconciliation.
 - Do **not** add Knowledge Checks, Practical Assessments, quizzes, or grading.
 - Use Markdown links to real canonical pages once those pages exist; do not manufacture uncreated article URLs or formally ratify graph predicates here.
 - When coverage is judged insufficient, document an explicit expansion request instead of silently enlarging a heading's meaning.
@@ -211,6 +211,6 @@ The references support technical coverage checks; none independently authorizes 
 
 ## Current outcome
 
-All ten cases have **working dispositions**. Seven have plausible existing homes and **still require actual authoring and verification**; three require explicit architectural approval of their scope/placement. General temporality is not declared resolved. The 12 approved areas and 109 approved subject headings remain unmodified.
+All ten cases have **working dispositions**. Seven retain plausible existing canonical homes requiring depth/source verification; **three now have newly inventoried canonical placement but still require articles and technical review**. General temporality's *owner* is assigned while its substantive coverage is not verified. The 12 approved areas remain unchanged; the current subject inventory contains **116 headings**.
 
 [Fundamentals index](README.md) · [Governing architecture](ARCHITECTURE.md) · [Development plan](CURRICULUM-DEVELOPMENT-PLAN.md)
