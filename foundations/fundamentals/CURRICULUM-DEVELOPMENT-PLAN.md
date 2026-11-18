@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v1.15; 72 internally reviewed references, 4 drafts, 33 inventoried headings; external human acceptance pending
+**Document status:** Working plan v1.16; 76 internally reviewed references, 5 drafts, 28 inventoried headings; external human acceptance pending
 **Baseline:** 12 approved knowledge areas; 109 inventoried subject headings  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -54,18 +54,18 @@ The [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md) record
 6. **No assessments.** No Knowledge Checks or Practical Assessments appear anywhere in this development plan or in the resulting knowledge reference.
 7. **Versioned evolution.** Preserve approved category identities while documenting proposed additions, merges, relocations, and corrections before changing canonical structure.
 
-## Execution Status: Wave C fully Reviewed; Wave D Batch 01 authored
+## Execution Status: Wave D Batch 01 Reviewed; Batch 02 fully authored
 
-- **Wave A:** 26/26 approved headings authored and internally Reviewed (model-assisted).
-- **Wave B:** 28/28 approved headings authored and internally Reviewed (model-assisted).
-- **Wave C:** 18/18 approved headings authored and internally Reviewed (model-assisted), following [Batch 01](WAVE-C-TECHNICAL-REVIEW-01.md), [Batch 02](WAVE-C-TECHNICAL-REVIEW-02.md) and the [54-family Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md). Batch 03 corrected the hardware clock-skew setup inequality and strengthened primary sources for quantization, thermal balance, I/O and metastability.
-- **Wave D Batch 01 Drafts:** [Computability](computation-algorithms/computability.md), [Algorithms](computation-algorithms/algorithms.md), [Algorithm Design](computation-algorithms/algorithm-design.md) and [Complexity](computation-algorithms/complexity.md) are four substantive source-linked references awaiting their own technical review.
-- **Wave D authoring coverage:** Computation & Algorithms is **4/9 authored, all Draft**; Software & Programming is **0/9 authored**.
-- **Wave E:** Operating System Principles and Communication & Distributed Systems comprise 19 additional approved headings, not yet authored.
-- **Portfolio reconciliation:** The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) accounts for **109 approved headings: 72 Reviewed (model-assisted), 4 Draft, 33 Inventoried without article**.
-- G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No new headings, area definitions, learner assessments or mandated runtime environments have been introduced.
+- **Wave A:** 26 of 26 approved subjects internally Reviewed (model-assisted).
+- **Wave B:** 28 of 28 approved subjects internally Reviewed (model-assisted).
+- **Wave C:** 18 of 18 approved subjects internally Reviewed (model-assisted).
+- **Wave D Batch 01 Reviewed:** [Computability](computation-algorithms/computability.md), [Algorithms](computation-algorithms/algorithms.md), [Algorithm Design](computation-algorithms/algorithm-design.md), and [Complexity](computation-algorithms/complexity.md) passed the [24-family scoped technical audit](WAVE-D-TECHNICAL-REVIEW-01.md). The language recognizer definition was clarified; the halting proof, coin-change recurrence and complexity recurrence were checked.
+- **Wave D Batch 02 Drafts:** [Computational Data Structures](computation-algorithms/computational-data-structures.md), [Iteration and Recursion](computation-algorithms/iteration-and-recursion.md), [Concurrency and Parallelism](computation-algorithms/concurrency-and-parallelism.md), [Synchronization](computation-algorithms/synchronization.md), and [Computational Efficiency](computation-algorithms/computational-efficiency.md) are substantive, source-linked articles awaiting their own scoped technical audit.
+- **Computation & Algorithms authoring coverage:** **9/9 approved headings authored** (four Reviewed, five Draft). **Software & Programming:** 0/9 authored. **Wave E:** 19 approved operating-system and distributed-system headings not yet authored.
+- **Portfolio reconciliation:** The [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) accounts for **109 approved headings: 76 Reviewed (model-assisted), 5 Draft, 28 Inventoried without articles**.
+- G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No new subject headings, knowledge areas, learner assessments or required implementation stacks have been added.
 
-**Next execution:** Conduct a separately documented scoped technical/source audit of the four Wave D Batch 01 Drafts, then author the other five Computation & Algorithms subjects and approved Software & Programming subjects. Full source verification, corpus-wide link/anchor checks, independent human peer review and the seven publication gates remain open.
+**Next execution:** Conduct the five-article Wave D Batch 02 technical/source and example audit before promoting any Drafts. Then author the nine approved Software & Programming subjects, followed by Wave E. Independent human expert peer review, comprehensive source verification and seven corpus-wide publication gates remain separate pending responsibilities.
 
 ## 4. Work Packages and Stage Gates
 
@@ -209,8 +209,9 @@ No graph database or universal front-matter schema is required at this stage. Pr
 10. **Completed:** Four Wave C Batch 01 references passed the [24-family scoped technical audit](WAVE-C-TECHNICAL-REVIEW-01.md).
 11. **Completed:** Four Wave C Batch 02 articles passed the [24-family technical audit](WAVE-C-TECHNICAL-REVIEW-02.md), with an exact aliasing-example correction.
 12. **Completed:** Wave C Batch 03's nine articles passed the [54-family technical audit](WAVE-C-TECHNICAL-REVIEW-03.md). Wave C is 18/18 internally Reviewed.
-13. **Completed authoring:** Wave D Batch 01 created four substantive Computation & Algorithms Drafts, pending separate technical review.
-14. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately. The 109-heading corpus is not publication-complete until the seven Fundamentals gates and applicable human acceptance are satisfied.
+13. **Completed:** The four Wave D Batch 01 references passed the [24-family scoped review](WAVE-D-TECHNICAL-REVIEW-01.md).
+14. **Completed authoring:** Five Wave D Batch 02 Computation & Algorithms Drafts committed; their separate technical audit remains pending.
+15. **Ongoing governance:** Resolve G-01, G-04 and G-06 separately. The 109-heading corpus is not publication-complete until the seven Fundamentals gates and applicable human acceptance are satisfied.
 
 Production waves guide authors, **not reader prerequisites**. Knowledge Checks and Practical Assessments remain excluded.
 
@@ -239,6 +240,7 @@ Production waves guide authors, **not reader prerequisites**. Knowledge Checks a
 - [Wave C Batch 01 Claim-to-Source Review (24 families)](WAVE-C-TECHNICAL-REVIEW-01.md)
 - [Wave C Batch 02 Claim-to-Source Review (24 families)](WAVE-C-TECHNICAL-REVIEW-02.md)
 - [Wave C Batch 03 Claim-to-Source Review (54 families)](WAVE-C-TECHNICAL-REVIEW-03.md)
+- [Wave D Batch 01 Claim-to-Source Review (24 families)](WAVE-D-TECHNICAL-REVIEW-01.md)
 - [Fundamentals approved index](README.md)
 - [Foundations divisions](../README.md)
 - [Knowledge relationship conventions](../../RELATIONSHIPS.md)
