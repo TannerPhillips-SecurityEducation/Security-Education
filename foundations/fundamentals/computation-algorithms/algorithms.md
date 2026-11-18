@@ -11,7 +11,7 @@ An **algorithm** is a defined, effective procedure for transforming admissible i
 
 An **implementation** expresses an algorithm in a programming language or machine representation. Multiple implementations can realize the same abstract algorithm, while the same program text can behave differently when language semantics, input interpretation or environment differ.
 
-The [MIT 6.006 Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/) references treat algorithmic problem formulation, correctness, efficiency and data-structure selection. [Programming Languages](../software-programming/README.md) owns language-specific realization.
+The [MIT 6.006 Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/) references treat algorithmic problem formulation, correctness, efficiency and data-structure selection. [Programming Languages](../software-programming/programming-languages.md) owns language-specific realization.
 
 ## Problem contracts, inputs and outputs
 
