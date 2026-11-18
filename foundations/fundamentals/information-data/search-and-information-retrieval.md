@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Information & Data](README.md)  
 **Subject ID:** F-05-10  
-**Development status:** Draft; newly authored foundational reference  
-**Source review:** References listed; scoped technical review pending  
+**Development status:** Reviewed (model-assisted; independent human approval not claimed)  
+**Source review:** Core claims checked under [Wave H 24-family scoped technical review](../WAVE-H-TECHNICAL-REVIEW-01.md); full source-passage verification not claimed  
 **Inventory authority:** [Coverage & Source Triage 02](../COVERAGE-AND-SOURCE-TRIAGE-02.md)
 
 ## Search selects candidate information; retrieval supplies results under a model
@@ -117,6 +117,6 @@ Search analytics can summarize results, but counting matches is not automaticall
 
 Related canonical knowledge: [Databases and Queries](databases-and-queries.md) for structured query operators; [Information Theory](information-theory.md) for probabilistic information quantities, not semantic relevance; [Evidence](../scientific-analytical-reasoning/evidence.md) for claim support; and [Algorithms](../computation-algorithms/algorithms.md) for implementation-independent algorithm design.
 
-**Editorial status:** Draft. Source links are starting points and may require URL/section verification; full sentence-level claim-to-source checking, domain-specific implementations and independent human publication review remain open. No Knowledge Checks or Practical Assessments.
+**Editorial status:** Reviewed (model-assisted) under [Wave H Technical Review 01](../WAVE-H-TECHNICAL-REVIEW-01.md). Complete source-passage verification, independent qualified expert acceptance and Published status remain open.
 
 [Information & Data](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
