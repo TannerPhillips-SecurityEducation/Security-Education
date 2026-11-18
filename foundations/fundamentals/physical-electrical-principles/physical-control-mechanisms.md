@@ -44,6 +44,16 @@ If the control command were issued but the heater transferred **zero actual ener
 
 [Matter and Energy](matter-and-energy.md) owns conservation and transfer quantities, while [Units and Quantities](../mathematics-logic/units-and-quantities.md) owns unit/interval semantics.
 
+## Physical realization of feedback and controller limits
+
+A controller can compute a mathematically valid command while its physical plant receives a different influence. **Actuator saturation**, mechanical backlash, friction, power-supply limitations, thermal inertia, sensor lag, transport delay and measurement noise can each invalidate an ideal instantaneous command-to-effect assumption.
+
+A PID-style control law belongs conceptually to [Feedback and Control](../systems-engineering/feedback-and-control.md). A physical heating element has a **finite power limit**, while a valve or motor has finite travel, speed and load capacity. An integral controller that continues to accumulate error while the actuator is saturated can demand ever larger impossible commands; this is the well-known *integral windup* mechanism. Anti-windup measures alter the controller implementation, but their effect requires plant-specific engineering evaluation.
+
+**Worked idealized comparison:** A heater is rated for a maximum delivered thermal power of 500 W under stipulated conditions. A control computation requests 700 W. Under a saturating actuator model, the physical input is at most 500 W. If a simple lossless plant model has heat capacity C=1000 J/K and no other heat transfer, its instantaneous ideal temperature-rise rate is at most P/C=0.5 K/s, not 0.7 K/s. Real heat losses, temperature-dependent behavior and thermal delays may reduce the observed rate. This is not a guarantee of thermal safety or physical temperature response.
+
+The distinction is between **desired effect**, **computed instruction**, **accepted actuator command**, and **observed physical result**. These may disagree without the control algorithm's mathematical specification being internally inconsistent.
+
 ## Response, stability and physical feedback
 
 A physical plant may be modeled with differential equations or discrete-time approximations. Different models can predict different responses because of uncertainty, neglected thermal gradients, nonlinear heat loss or evolving environmental conditions.
@@ -59,6 +69,10 @@ Engineered physical control can create mechanical, electrical, thermal or other 
 [Requirements](../systems-engineering/requirements.md) owns performance and functional acceptance criteria, and [Verification and Validation](../systems-engineering/verification-and-validation.md) owns evaluation of the built system. The general time/temporality scope decision G-04 remains open, notwithstanding the applied thermal evolution described here.
 
 ### Sources
+
+- [MIT OpenCourseWare: Feedback Control Systems, physical and control design](https://ocw.mit.edu/courses/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/).
+- [MathWorks: PID Controller Representations and Practical Filter Terms](https://www.mathworks.com/help/control/ug/proportional-integral-derivative-pid-controllers.html).
+
 
 - [MIT 2.14: Analysis and Design of Feedback Control Systems](https://ocw.mit.edu/courses/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/).
 - [NASA: Fundamentals of Systems Engineering](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/).
