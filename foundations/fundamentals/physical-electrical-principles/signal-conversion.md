@@ -83,6 +83,7 @@ This article owns signal conversion, not all filter design (G-05 remains assigne
 ### Sources
 
 - [MIT 6.003: Signals and Systems](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/).
+- [MIT 6.003: Lecture 22 Sampling and Quantization](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/resources/lecture-22-sampling-and-quantization/).
 - [MIT 6.003: Lecture Notes including Sampling and Quantization](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/pages/lecture-notes/).
 - [NIST: International System of Units and metrology](https://www.nist.gov/pml).
 - [JCGM: International Vocabulary of Metrology](https://jcgm.bipm.org/vim/en/).
