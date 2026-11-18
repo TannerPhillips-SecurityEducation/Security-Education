@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Physical & Electrical Principles](README.md)  
 **Approved subject heading:** Physical control mechanisms  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 03 audit](../WAVE-C-TECHNICAL-REVIEW-03.md); independent human review pending
 
 ## Control objectives must be realized through physical processes
 
@@ -67,6 +67,6 @@ Engineered physical control can create mechanical, electrical, thermal or other 
 - [OpenStax: Heat Transfer, Specific Heat and Calorimetry](https://openstax.org/books/university-physics-volume-2/pages/1-4-heat-transfer-specific-heat-and-calorimetry).
 - [BIPM: The SI Brochure](https://www.bipm.org/en/publications/si-brochure).
 
-**Editorial status:** Substantive Draft. Heat-balance arithmetic and model assumptions require their own scoped technical/source audit. No mandatory physical design, operation, assessment or certification is introduced.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave C Batch 03 54-family technical review](../WAVE-C-TECHNICAL-REVIEW-03.md). Full source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
 
 [Physical & Electrical Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
