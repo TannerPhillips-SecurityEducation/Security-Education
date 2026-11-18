@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Partially authored; individual references have distinct review states  
+**Content status:** All 10 approved subjects authored and Reviewed (model-assisted); independent human review and final publication acceptance pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -22,24 +22,29 @@ Ways to describe entities, relations, boundaries, classifications, and dynamic b
 - State, events, and transitions
 - Conceptual and formal models
 
-## Content Development
-
-This area is a **navigation discipline**. Its headings organize coverage but do not constitute a separate list of conceptual primitives. Establish one canonical home for each underlying concept and link contextual realizations rather than repeating general definitions.
-
-Each subject will eventually receive a canonical explanation, key distinctions, mechanisms, relevant examples, explicit relationships, and credible references. These items are **not yet completed** merely by being listed.
-
-The content belongs in Fundamentals only insofar as it is domain-agnostic. Security-specific treatment belongs in Security Foundations; security practice belongs in Operational Foundations. Cross-domain references should link to canonical subjects rather than duplicate them.
-
 ## Canonical reference articles
 
-- [Classification](classification.md) — Draft; substantive source-based reference, article-level audit pending.
-- [Entities and attributes](entities-and-attributes.md) — Reviewed (model-assisted; [scope audit](../PILOT-CLAIM-SOURCE-AUDIT.md)); independent human acceptance not claimed.
-- [Identity and distinction](identity-and-distinction.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-03.md)); independent human acceptance not claimed.
-- [Relationships](relationships.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-02.md)); independent human acceptance not claimed.
-- [Boundaries](boundaries.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-04.md)); independent human acceptance not claimed.
-- [Abstraction](abstraction.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-05.md)); independent human acceptance not claimed.
-- [State, events, and transitions](state-events-and-transitions.md) — Reviewed (model-assisted; [scope audit](../WAVE-A-TECHNICAL-REVIEW-01.md)); independent human acceptance not claimed.
+| Approved subject | Canonical reference | Development state | Scoped review evidence |
+| --- | --- | --- | --- |
+| Entities and attributes | [Entities and attributes](entities-and-attributes.md) | Reviewed (model-assisted) | [50-claim-family audit](../PILOT-CLAIM-SOURCE-AUDIT.md) |
+| Identity and distinction | [Identity and distinction](identity-and-distinction.md) | Reviewed (model-assisted) | [Wave A Batch 03 audit](../WAVE-A-TECHNICAL-REVIEW-03.md) |
+| Relationships | [Relationships](relationships.md) | Reviewed (model-assisted) | [Wave A Batch 02 audit](../WAVE-A-TECHNICAL-REVIEW-02.md) |
+| Boundaries | [Boundaries](boundaries.md) | Reviewed (model-assisted) | [Wave A Batch 04 audit](../WAVE-A-TECHNICAL-REVIEW-04.md) |
+| Abstraction | [Abstraction](abstraction.md) | Reviewed (model-assisted) | [Wave A Batch 05 audit](../WAVE-A-TECHNICAL-REVIEW-05.md) |
+| Classification | [Classification](classification.md) | Reviewed (model-assisted) | [Batch 06 audit](../WAVE-A-TECHNICAL-REVIEW-06.md) |
+| Ontologies and taxonomies | [Ontologies and taxonomies](ontologies-and-taxonomies.md) | Reviewed (model-assisted) | [Wave A Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md) |
+| Schemas | [Schemas](schemas.md) | Reviewed (model-assisted) | [Wave A Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md) |
+| State, events, and transitions | [State, events, and transitions](state-events-and-transitions.md) | Reviewed (model-assisted) | [Wave A Batch 01 audit](../WAVE-A-TECHNICAL-REVIEW-01.md) |
+| Conceptual and formal models | [Conceptual and formal models](conceptual-and-formal-models.md) | Reviewed (model-assisted) | [Wave A Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md) |
 
-No approved subject heading is changed by article status. Links to area inventories remain for subjects without articles; the review evidence does not constitute independent human peer review or final publication.
+## Development and canonical boundaries
 
-[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
+**All 10/10 approved headings have substantive, internally Reviewed references.** The scoped technical/claim-to-source audits in the table document model-assisted review. They are **not** exhaustive verification of source material, independent human peer review or final publication acceptance.
+
+This area is an approved navigation discipline. Its headings organize domain-agnostic knowledge but do not ratify additional universal primitives, category families, a formal ontology or a mandatory technical system.
+
+Canonical ownership of general mathematical, analytical and modeling ideas remains here even when later articles apply those ideas to hardware, computation, software or distributed systems. The [Canonical Ownership Register](../CANONICAL-OWNERSHIP-REGISTER.md) records the working cross-area relationships.
+
+G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No Knowledge Checks, Practical Assessments, quizzes or scoring are included.
+
+[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
