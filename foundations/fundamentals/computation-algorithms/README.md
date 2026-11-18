@@ -53,7 +53,7 @@ How problems are formulated as computations, how algorithms operate, and how the
 
 Computability owns theoretical solvability; Algorithms and Algorithm Design own procedure contracts and construction strategies; Complexity owns formal resource growth. Computational Data Structures, Iteration and Recursion, Concurrency and Parallelism, Synchronization, and Computational Efficiency retain their separate operational mechanisms and cost boundaries.
 
-This area remains a **navigation discipline**, not a new universal ontology or a required implementation stack. The approved 12-area/109-heading architecture, and G-01 mathematics, G-04 general temporality and G-06 AI/ML now have assigned owners and scoped-reviewed articles under [Wave F](../WAVE-F-TECHNICAL-REVIEW-01.md); complete source-level verification remains open.
+This area remains a **navigation discipline**, not a new universal ontology or a required implementation stack. The twelve approved navigation areas remain unchanged, and the current subject inventory includes 120 articles. G-01 mathematics, G-04 temporality and G-06 AI/ML have assigned owners and [Wave F](../WAVE-F-TECHNICAL-REVIEW-01.md) scoped-reviewed references; complete source verification remains open.
 
 No Knowledge Checks, Practical Assessments, learner scoring, or mandatory toolchain have been introduced. Complete source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
 
