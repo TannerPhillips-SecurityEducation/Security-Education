@@ -20,13 +20,15 @@ For example, [Boolean logic](foundations/fundamentals/mathematics-logic/README.m
 
 See the [governing Fundamentals architecture](foundations/fundamentals/ARCHITECTURE.md). Illustrative conceptual primitives are **not** a newly ratified universal primitive taxonomy.
 
-## Fundamentals Crosswalks
+## Foundations crosswalks and current reference state
 
-The [Coverage Gap Decision Register](foundations/fundamentals/COVERAGE-GAP-DECISIONS.md) tracks seven existing-heading placements and three pending architectural scope decisions without introducing new categories or relation predicates.
+The [Fundamentals Development and Verification Register](foundations/fundamentals/DEVELOPMENT-VERIFICATION-REGISTER.md) currently tracks **120 authored canonical subject references**, with bounded **Reviewed (model-assisted)** evidence. Its earlier **109** and **116** inventories remain historical snapshots, not fixed limits.
 
-The [Canonical Ownership & Relationship Register](foundations/fundamentals/CANONICAL-OWNERSHIP-REGISTER.md) gives all 109 approved subject headings a proposed general scope and an illustrative connection to another approved subject. The [Concept Overlap & Coverage Review](foundations/fundamentals/CONCEPT-OVERLAP-REVIEW.md) tracks proposed ownership boundaries and unresolved gaps. The [Canonical Concept Boundary Decisions](foundations/fundamentals/CONCEPT-BOUNDARY-DECISIONS.md) distinguishes 20 recurring overlaps, without creating a new graph schema or hiding the open temporality issue.
+The [Canonical Ownership Register](foundations/fundamentals/CANONICAL-OWNERSHIP-REGISTER.md) records concept responsibilities and illustrative relationships. The [Concept Boundary Decisions](foundations/fundamentals/CONCEPT-BOUNDARY-DECISIONS.md), [Coverage Gap Decisions](foundations/fundamentals/COVERAGE-GAP-DECISIONS.md), [Model Architecture Adjudication](foundations/fundamentals/FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md), and [Coverage Triage 02](foundations/fundamentals/COVERAGE-AND-SOURCE-TRIAGE-02.md) preserve the source-backed evolution of the inventory. Not every illustrated relationship has a completed semantic or source verification.
 
-Both are **working architectural maps**. Their relationship labels are not an approved, machine-enforced graph vocabulary. The links lead to actual knowledge-area indexes until individual canonical articles are published.
+[Security Foundations](foundations/security-foundations/README.md) has an approved division but an **unratified internal area/subject proposal**, with Reviewed (model-assisted) working article pilots. [Operational Foundations](foundations/operational-foundations/README.md) is an approved division whose internal subject taxonomy is not yet approved. Neither inherits Fundamentals' approval or publication states.
+
+**Cross-domain relationships develop incrementally** as real articles are created. A missing direct link is not by itself evidence that the underlying concept is absent. Related implementation and functional views should link to the actual canonical article, not assume it has been Published.
 
 ## Explicit relationships
 
