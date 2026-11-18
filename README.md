@@ -16,15 +16,15 @@ A domain-organized knowledge repository with a **hierarchy for navigation** and 
 
 The approved navigation model is **Domain → Function → Implementation**. Functions are primary; specific technologies, platforms, operating systems, providers, and other contexts can also be found through secondary indexes and cross-domain relationships.
 
-| Domain | Primary functional navigation |
-| --- | --- |
-| [Network Knowledge](network/README.md) | Network functions |
-| [Endpoint Knowledge](endpoint/README.md) | Host system functions |
-| [Application Knowledge](application/README.md) | Application functions |
-| [Cloud Knowledge](cloud/README.md) | Cloud service functions |
-| [Industrial Knowledge](industrial/README.md) | Industrial system functions |
-| [IoT Knowledge](iot/README.md) | Connected-device functions and roles |
-| [Identity Knowledge](identity/README.md) | Identity and access functions |
+| Domain | Primary functional navigation | Tailored contributor SOP |
+| --- | --- | --- |
+| [Network Knowledge](network/README.md) | Network functions | [Network AGENTS](network/AGENTS.md) |
+| [Endpoint Knowledge](endpoint/README.md) | Host system functions | [Endpoint AGENTS](endpoint/AGENTS.md) |
+| [Application Knowledge](application/README.md) | Application functions | [Application AGENTS](application/AGENTS.md) |
+| [Cloud Knowledge](cloud/README.md) | Cloud service functions | [Cloud AGENTS](cloud/AGENTS.md) |
+| [Industrial Knowledge](industrial/README.md) | Industrial system functions | [Industrial AGENTS](industrial/AGENTS.md) |
+| [IoT Knowledge](iot/README.md) | Connected-device functions and roles | [IoT AGENTS](iot/AGENTS.md) |
+| [Identity Knowledge](identity/README.md) | Identity and access functions | [Identity AGENTS](identity/AGENTS.md) |
 
 ### Alternate Navigation Perspectives
 
@@ -49,6 +49,10 @@ This repository is a **technical knowledge reference**. It contains concepts, ex
 7. **Extensibility** without redefining established categories.
 
 [Knowledge relationship conventions](RELATIONSHIPS.md)
+
+## Repository Automation SOP
+
+[**GitHub Automation AGENTS.md**](.github/AGENTS.md) governs workflow changes, least-privilege permissions, dynamic structural checks, accurate evidence reporting and safe failure handling. Automation validates what its scripts actually test; it does not certify technical claims or publication readiness.
 
 ## Related
 
