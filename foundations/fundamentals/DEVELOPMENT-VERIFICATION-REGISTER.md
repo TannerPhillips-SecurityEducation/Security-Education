@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.8  
+**Working edition:** v1.9  
 **Scope:** 12 approved knowledge areas and exactly 109 approved subject headings, transcribed from the [area inventories](README.md).  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -30,14 +30,14 @@
 
 > The table above is the baseline **at initial register creation**. Current item states are below and must be updated as authoring proceeds.
 
-## Current progress: Wave B Batch 05 reviewed; Wave C Batch 01 authored
+## Current progress: Wave C Batch 01 reviewed; Batch 02 authored
 
 | Development state | Approved heading count | Evidence |
 | --- | ---: | --- |
-| **Reviewed (model-assisted)** | **55** | Original pilots, Wave A Batches 01–07 and Wave B Batches 01–05 including the [Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md) |
-| **Draft** | **4** | Four Wave C Batch 01 Physical & Electrical / Digital Hardware articles awaiting scoped technical review |
-| **Inventoried without article** | **50** | Approved 109-heading baseline retained |
-| **Core claims checked** | **55** | Internal model-assisted source checking, not independent expert attestation |
+| **Reviewed (model-assisted)** | **59** | Wave A and Wave B audits, original pilots and [Wave C Batch 01](WAVE-C-TECHNICAL-REVIEW-01.md) |
+| **Draft** | **4** | Four Wave C Batch 02 Physical & Electrical / Digital Hardware articles awaiting scoped technical review |
+| **Inventoried without article** | **46** | Approved 109-heading baseline retained |
+| **Core claims checked** | **59** | Internal model-assisted source checking, not independent expert attestation |
 | **Finally accepted / human peer-reviewed** | **0** | No final independent expert acceptance recorded |
 
 **Wave A authoring coverage:** All 26 of 26 approved Wave A headings have substantive, internally Reviewed articles (26/26). Three additional Reviewed references are original pilot subjects belonging to later waves.
@@ -46,10 +46,11 @@
 
 ## Next acceptance gate
 
-1. **Completed:** All 26 Wave A and all 28 Wave B approved subject headings are authored and internally Reviewed (model-assisted); the final eight Human & Sociotechnical Systems articles passed the [48-family Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md).
-2. **Completed authoring:** Wave C Batch 01 contains four substantive Drafts: Matter and Energy, Electricity, Electrical Circuits, and Computing Components. These are approved headings in Physical & Electrical Principles and Digital Systems & Hardware, **not** new architectural categories.
-3. **Current:** Conduct a separately documented technical/source and example audit of the four Wave C Drafts before promoting any to Reviewed; continue authoring the other approved Wave C subjects.
-4. **Ongoing:** Complete source validation, independent human peer review, corpus-wide link/fragment checks and the seven publication gates. G-01, G-04 and G-06 are unresolved scope decisions.
+1. **Completed:** All 26 Wave A and 28 Wave B approved headings remain internally Reviewed (model-assisted), with their documented scoped audits.
+2. **Completed:** Four Wave C Batch 01 subjects (Matter and Energy, Electricity, Electrical Circuits, Computing Components) passed the [24-family scoped technical review](WAVE-C-TECHNICAL-REVIEW-01.md). A direct Kirchhoff source was added before acceptance.
+3. **Completed authoring:** Wave C Batch 02 consists of four substantive Drafts: Electronics, Analog and Digital Signals, Waves and Frequency, and Processors and Instruction Sets. These are already approved subject headings.
+4. **Current:** Audit Batch 02 claims, numbers and source boundaries. Continue authoring the nine remaining Wave C headings without changing their approved names or adding subjects.
+5. **Ongoing:** Complete source-level validation, corpus-wide link checks, independent human peer review and the seven publication gates. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved.
 
 ## Detailed coverage by approved knowledge area
 
@@ -106,12 +107,12 @@
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-04-01 | Matter and energy | [Draft article](physical-electrical-principles/matter-and-energy.md) | Draft | References listed | Wave C Batch 01 substantive draft; scoped technical audit pending |
-| F-04-02 | Electricity | [Draft article](physical-electrical-principles/electricity.md) | Draft | References listed | Wave C Batch 01 substantive draft; scoped technical audit pending |
-| F-04-03 | Electrical circuits | [Draft article](physical-electrical-principles/electrical-circuits.md) | Draft | References listed | Wave C Batch 01 substantive draft; scoped technical audit pending |
-| F-04-04 | Electronics | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-04-05 | Analog and digital signals | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
-| F-04-06 | Waves and frequency | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-04-01 | Matter and energy | [Reviewed article](physical-electrical-principles/matter-and-energy.md) | Reviewed | Core claims checked | [Wave C Batch 01 audit](WAVE-C-TECHNICAL-REVIEW-01.md); model-assisted, independent human review not claimed |
+| F-04-02 | Electricity | [Reviewed article](physical-electrical-principles/electricity.md) | Reviewed | Core claims checked | [Wave C Batch 01 audit](WAVE-C-TECHNICAL-REVIEW-01.md); model-assisted, independent human review not claimed |
+| F-04-03 | Electrical circuits | [Reviewed article](physical-electrical-principles/electrical-circuits.md) | Reviewed | Core claims checked | [Wave C Batch 01 audit](WAVE-C-TECHNICAL-REVIEW-01.md); model-assisted, independent human review not claimed |
+| F-04-04 | Electronics | [Draft article](physical-electrical-principles/electronics.md) | Draft | References listed | Wave C Batch 02 substantive draft; scoped technical audit pending |
+| F-04-05 | Analog and digital signals | [Draft article](physical-electrical-principles/analog-and-digital-signals.md) | Draft | References listed | Wave C Batch 02 substantive draft; scoped technical audit pending |
+| F-04-06 | Waves and frequency | [Draft article](physical-electrical-principles/waves-and-frequency.md) | Draft | References listed | Wave C Batch 02 substantive draft; scoped technical audit pending |
 | F-04-07 | Sensors and actuators | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-04-08 | Signal conversion | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-04-09 | Physical control mechanisms | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
@@ -139,8 +140,8 @@
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
 | F-06-01 | Digital logic | [Reviewed article](digital-systems-hardware/digital-logic.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
-| F-06-02 | Computing components | [Draft article](digital-systems-hardware/computing-components.md) | Draft | References listed | Wave C Batch 01 substantive draft; scoped technical audit pending |
-| F-06-03 | Processors and instruction sets | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
+| F-06-02 | Computing components | [Reviewed article](digital-systems-hardware/computing-components.md) | Reviewed | Core claims checked | [Wave C Batch 01 audit](WAVE-C-TECHNICAL-REVIEW-01.md); model-assisted, independent human review not claimed |
+| F-06-03 | Processors and instruction sets | [Draft article](digital-systems-hardware/processors-and-instruction-sets.md) | Draft | References listed | Wave C Batch 02 substantive draft; scoped technical audit pending |
 | F-06-04 | Memory and storage | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-06-05 | Buses and interfaces | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
 | F-06-06 | Input/output | Not authored | Inventoried | Not reviewed | Proposed ownership crosswalk; pending article links |
