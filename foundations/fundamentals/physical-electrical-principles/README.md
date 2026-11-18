@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All 9 approved subjects authored and Reviewed (model-assisted); human peer review and final publication acceptance remain pending  
+**Content status:** **9/9 current canonical subject articles Reviewed (model-assisted)**; individual scoped audits are recorded in article metadata and the [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md). None is fully source-Verified, independently peer-reviewed or Published.  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -41,6 +41,6 @@ Physical processes and electrical mechanisms that underpin digital systems, sens
 
 The physical articles distinguish material/energy constraints, electrical quantities, circuit relationships, electronic devices, signal representations, wave propagation, sensors/actuators, conversion, and plant-level intervention. **Feedback and Control** owns general regulation, while this area owns physical realizations. G-05 signal processing is placed within existing approved headings without new categories.
 
-This area is a **navigation discipline**, not a new universal ontology or a mandate for any particular vendor, electrical implementation, chip architecture, operating system or data format. The original 12-area/109-heading approved architecture is unchanged. G-01, G-04 and G-06 remain unresolved scope questions; no Knowledge Checks or Practical Assessments are introduced.
+This area is a **navigation discipline**, not a new universal ontology or a mandate for any particular vendor, electrical implementation, chip architecture, operating system or data format. The twelve area identities remain approved, and the subject inventory has grown to 120 with recorded changes. G-01, G-04 and G-06 remain unresolved scope questions; No Knowledge Checks or Practical Assessments are introduced.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
