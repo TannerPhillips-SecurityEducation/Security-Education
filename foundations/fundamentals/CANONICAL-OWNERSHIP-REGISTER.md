@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v1.17. Twelve approved knowledge areas are unchanged. **120 tracked headings** consist of **116 Reviewed (model-assisted) articles and 4 new Inventoried subjects** under [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md). Canonical relation correctness and full source verification remain open.
+**Status:** Working architectural register v1.18. Twelve approved knowledge areas remain unchanged. **120 current headings** consist of **116 Reviewed (model-assisted) articles and 4 newly Drafted subjects** under [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md). Full source and relationship verification remain open.
 
 This register connects the evolving subject inventory to the [governing architecture](ARCHITECTURE.md). It describes each heading's intended **canonical conceptual responsibility** and illustrative relationships; the seven new headings reference existing article owners while their own articles remain pending.
 
@@ -11,7 +11,7 @@ This register connects the evolving subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** Direct canonical article links exist for the **116 Reviewed subjects**; the four new Inventoried subjects have no article paths yet and point to existing related articles. The Wave F and G review results retain their historical scopes. This is not independent source Verified or final publication acceptance.
+- **Links:** Direct canonical article links exist for the **116 Reviewed subjects**; the four newly Drafted subjects have canonical article links with a separate References listed source state. The Wave F and G review results retain their historical scopes. This is not independent source Verified or final publication acceptance.
 - **Granularity:** A heading need not equal an indivisible concept or one permanent article. The current **120-heading inventory** can expand or contract after supported architectural decisions.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -33,8 +33,8 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Linear algebra and vector spaces** (F-01-09; Reviewed) | [Reviewed canonical article](mathematics-logic/linear-algebra-and-vector-spaces.md) · Vector spaces, matrices, bases, linear transformations, rank, and eigenstructure under explicit assumptions | *extends* → [Algebra and functions](mathematics-logic/algebra-and-functions.md) |
 | **Geometry and spatial reasoning** (F-01-10; Reviewed) | [Reviewed canonical article](mathematics-logic/geometry-and-spatial-reasoning.md) · Coordinates, distances, geometric relations and transformations; distinct from topology | *uses* → [Linear algebra and vector spaces planning scope](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) |
 | **Topology and continuity** (F-01-11; Reviewed) | [Reviewed canonical article](mathematics-logic/topology-and-continuity.md) · Topological structure, neighborhoods, continuity, connectedness and invariants without assuming a metric | *distinguishes from* → [Graph theory](mathematics-logic/graph-theory.md) |
-| **Calculus and differential equations** (F-01-12; Inventoried) | **Article pending** · Limits, differentiation, integration, ordinary differential equations and initial-value models | *extends* → [Algebra and functions](mathematics-logic/algebra-and-functions.md) |
-| **Stochastic processes and Markov models** (F-01-13; Inventoried) | **Article pending** · Indexed random variables, conditional transitions, Markov and Poisson models, trajectories and dependence assumptions | *extends* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
+| **Calculus and differential equations** (F-01-12; Draft) | [Draft canonical article](mathematics-logic/calculus-and-differential-equations.md) · Limits, differentiation, integration, ordinary differential equations and initial-value models | *extends* → [Algebra and functions](mathematics-logic/algebra-and-functions.md) |
+| **Stochastic processes and Markov models** (F-01-13; Draft) | [Draft canonical article](mathematics-logic/stochastic-processes-and-markov-models.md) · Indexed random variables, conditional transitions, Markov and Poisson models, trajectories and dependence assumptions | *extends* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
 
 ## 02. Scientific & Analytical Reasoning (8 headings)
 
@@ -92,7 +92,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Metadata** | [Reviewed canonical article](information-data/metadata.md) · Descriptions of structure, semantics, context, and lineage | *supports* → [Data provenance and lifecycle](information-data/data-provenance-and-lifecycle.md) |
 | **Databases and queries** | [Reviewed canonical article](information-data/databases-and-queries.md) · Data persistence, logical models, query operations, and retrieval concepts | *uses* → [Data structures and formats](information-data/data-structures-and-formats.md) |
 | **Data provenance and lifecycle** | [Reviewed canonical article](information-data/data-provenance-and-lifecycle.md) · Origin, lineage, transformation, retention, and change history | *supports evaluation of* → [Evidence](scientific-analytical-reasoning/evidence.md) |
-| **Search and information retrieval** (F-05-10; Inventoried) | **Article pending** · Full-text and field-aware matching, inverted/positional indexes, tolerant retrieval, relevance ranking and evaluation | *distinguishes from* → [Databases and queries](information-data/databases-and-queries.md) |
+| **Search and information retrieval** (F-05-10; Draft) | [Draft canonical article](information-data/search-and-information-retrieval.md) · Full-text and field-aware matching, inverted/positional indexes, tolerant retrieval, relevance ranking and evaluation | *distinguishes from* → [Databases and queries](information-data/databases-and-queries.md) |
 
 ## 06. Digital Systems & Hardware (9 headings)
 
@@ -183,7 +183,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Requirements** | [Reviewed canonical article](systems-engineering/requirements.md) · Stakeholder needs, functional/quality specifications, and traceability | *evaluated through* → [Verification and validation](systems-engineering/verification-and-validation.md) |
 | **Verification and validation** | [Reviewed canonical article](systems-engineering/verification-and-validation.md) · Conformance to requirements versus fitness for intended use | *distinct from empirical* → [Validation and falsification](scientific-analytical-reasoning/validation-and-falsification.md) |
 | **System lifecycle** | [Reviewed canonical article](systems-engineering/system-lifecycle.md) · Conception, design, operation, maintenance, evolution, and retirement | *specialized for software in* → [Testing and software lifecycle](software-programming/testing-and-software-lifecycle.md) |
-| **Queueing and service-system models** (F-11-12; Inventoried) | **Article pending** · Arrivals, service capacity, occupancy, Little's law, stability, wait and resource constraints | *applies* → [Feedback and control](systems-engineering/feedback-and-control.md) |
+| **Queueing and service-system models** (F-11-12; Draft) | [Draft canonical article](systems-engineering/queueing-and-service-system-models.md) · Arrivals, service capacity, occupancy, Little's law, stability, wait and resource constraints | *applies* → [Feedback and control](systems-engineering/feedback-and-control.md) |
 
 ## 12. Human & Sociotechnical Systems (8 headings)
 
@@ -198,7 +198,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Organizational structures** | [Reviewed canonical article](human-sociotechnical-systems/organizational-structures.md) · Roles, responsibilities, authority, governance, and organizational relationships | *shape* → [Requirements](systems-engineering/requirements.md) |
 | **Ethics and professional responsibilities** | [Reviewed canonical article](human-sociotechnical-systems/ethics-and-professional-responsibilities.md) · Professional obligations, harms, accountability, and responsible conduct | *informs human* → [Decision-making](human-sociotechnical-systems/decision-making.md) |
 
-**Coverage Triage 02 update (November 18, 2026):** This register now adds four Inventoried owners without article files. The preceding account of **116/116 Reviewed** is the historical pre-expansion snapshot, not the current denominator; cross-domain links will be introduced as corresponding domain knowledge develops, without an arbitrary link quota.
+**Coverage Triage 02 update (November 18, 2026):** This register now includes four newly authored Draft references with distinct canonical scope. The preceding account of **116/116 Reviewed** is the historical pre-expansion snapshot, not the current denominator; cross-domain links will be introduced as corresponding domain knowledge develops, without an arbitrary link quota.
 
 ## Canonical article integration
 
