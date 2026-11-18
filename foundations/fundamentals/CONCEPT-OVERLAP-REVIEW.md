@@ -2,7 +2,7 @@
 
 **Status:** Working architectural review register v0.4. Twenty overlap boundaries remain approved as conceptual-ownership guidance. Ten original coverage cases remain recorded, but G-01/G-04/G-06 now have assigned subject owners and scoped-reviewed articles under [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md); no new knowledge area or graph-predicate schema has been adopted.
 
-The **historical** baseline was 12 knowledge areas and 109 subjects; the current inventory is **12 areas and 116 internally Reviewed (model-assisted) subject articles**. The tables below preserve the original 20 overlap and ten coverage questions as historical working-review input; current owner decisions are documented in the linked [boundary](CONCEPT-BOUNDARY-DECISIONS.md), [gap](COVERAGE-GAP-DECISIONS.md) and [adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) records. These decisions do not establish complete source verification or final publication.
+The **historical** baseline was 12 knowledge areas and 109 subjects; the current inventory is **12 areas and 120 internally Reviewed (model-assisted) subject articles**, following the subsequent [Coverage Triage 02](COVERAGE-AND-SOURCE-TRIAGE-02.md) and [Wave H review](WAVE-H-TECHNICAL-REVIEW-01.md). The tables below preserve the original 20 overlap and ten coverage questions as historical working-review input; current owner decisions are documented in the linked [boundary](CONCEPT-BOUNDARY-DECISIONS.md), [gap](COVERAGE-GAP-DECISIONS.md) and [adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) records. These decisions do not establish complete source verification or final publication.
 
 ## Boundary-resolution cross-reference
 
