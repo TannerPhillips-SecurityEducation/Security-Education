@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v1.9. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
+**Status:** Working architectural register v1.10. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
 
 This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
 
@@ -9,7 +9,7 @@ This register connects the existing subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** Live direct links now point to **seventy-two Reviewed (model-assisted) articles** and **four Wave D Batch 01 Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
+- **Links:** Live direct links now point to **seventy-six Reviewed (model-assisted) articles** and **five Wave D Batch 02 Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
 - **Granularity:** One heading may require multiple articles, and a single well-scoped explanation can serve more than one heading. Do not assume 109 headings equal 109 indivisible concepts.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -80,7 +80,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Information theory** | [Reviewed canonical article](information-data/information-theory.md) · Entropy, information content, and theoretical communication constraints | *constrains* → [Communication channels](communication-distributed-systems/README.md) |
 | **Data types** | [Reviewed canonical article](information-data/data-types.md) · Value domains, types, constraints, and interpretation | *used in* → [Programming languages](software-programming/README.md) |
 | **Datasets, records, fields, and values** | [Reviewed canonical article](information-data/datasets-records-fields-and-values.md) · Collections, records, field granularity, and field values | *models properties of* → [Entities and attributes](models-abstraction/entities-and-attributes.md) |
-| **Data structures and formats** | [Reviewed canonical article](information-data/data-structures-and-formats.md) · Logical containers, structured formats, serialization, and data representations | *distinct from operational* → [Computational data structures](computation-algorithms/README.md) |
+| **Data structures and formats** | [Reviewed canonical article](information-data/data-structures-and-formats.md) · Logical containers, structured formats, serialization, and data representations | *distinct from operational* → [Computational data structures](computation-algorithms/computational-data-structures.md) |
 | **Metadata** | [Reviewed canonical article](information-data/metadata.md) · Descriptions of structure, semantics, context, and lineage | *supports* → [Data provenance and lifecycle](information-data/data-provenance-and-lifecycle.md) |
 | **Databases and queries** | [Reviewed canonical article](information-data/databases-and-queries.md) · Data persistence, logical models, query operations, and retrieval concepts | *uses* → [Data structures and formats](information-data/data-structures-and-formats.md) |
 | **Data provenance and lifecycle** | [Reviewed canonical article](information-data/data-provenance-and-lifecycle.md) · Origin, lineage, transformation, retention, and change history | *supports evaluation of* → [Evidence](scientific-analytical-reasoning/evidence.md) |
@@ -103,15 +103,15 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Computability** | [Draft canonical article](computation-algorithms/computability.md) · Computational models, decidability, and the limits of computable problems | *sets limits on* → [Algorithms](computation-algorithms/algorithms.md) |
-| **Algorithms** | [Draft canonical article](computation-algorithms/algorithms.md) · Defined procedures transforming inputs into outputs | *realized through* → [Programming languages](software-programming/README.md) |
-| **Algorithm design** | [Draft canonical article](computation-algorithms/algorithm-design.md) · Construction strategies, invariants, correctness, and choice of procedures | *evaluated using* → [Complexity](computation-algorithms/complexity.md) |
-| **Complexity** | [Draft canonical article](computation-algorithms/complexity.md) · Theoretical asymptotic time/space growth of procedures | *distinct from system-wide* → [Emergence and complexity](systems-engineering/emergence-and-complexity.md) |
-| **Computational data structures** | Abstract data types, operation costs, and implementation tradeoffs | *represented through* → [Data structures and formats](information-data/data-structures-and-formats.md) |
-| **Iteration and recursion** | Repeated and recursively defined computation, termination, and base cases | *expressed using* → [Programming paradigms](software-programming/README.md) |
-| **Concurrency and parallelism** | Overlapping versus simultaneous computational progress | *implemented through* → [Processes and threads](operating-system-principles/README.md) |
-| **Synchronization** | Mutual exclusion, ordering, races, deadlock, and coordination of computations | *specialized across nodes in* → [Synchronization and coordination](communication-distributed-systems/README.md) |
-| **Computational efficiency** | Practical performance costs, locality, profiling, and resource tradeoffs | *compared with asymptotic* → [Complexity](computation-algorithms/complexity.md) |
+| **Computability** | [Reviewed canonical article](computation-algorithms/computability.md) · Computational models, decidability, and the limits of computable problems | *sets limits on* → [Algorithms](computation-algorithms/algorithms.md) |
+| **Algorithms** | [Reviewed canonical article](computation-algorithms/algorithms.md) · Defined procedures transforming inputs into outputs | *realized through* → [Programming languages](software-programming/README.md) |
+| **Algorithm design** | [Reviewed canonical article](computation-algorithms/algorithm-design.md) · Construction strategies, invariants, correctness, and choice of procedures | *evaluated using* → [Complexity](computation-algorithms/complexity.md) |
+| **Complexity** | [Reviewed canonical article](computation-algorithms/complexity.md) · Theoretical asymptotic time/space growth of procedures | *distinct from system-wide* → [Emergence and complexity](systems-engineering/emergence-and-complexity.md) |
+| **Computational data structures** | [Draft canonical article](computation-algorithms/computational-data-structures.md) · Abstract data types, operation costs, and implementation tradeoffs | *represented through* → [Data structures and formats](information-data/data-structures-and-formats.md) |
+| **Iteration and recursion** | [Draft canonical article](computation-algorithms/iteration-and-recursion.md) · Repeated and recursively defined computation, termination, and base cases | *expressed using* → [Programming paradigms](software-programming/README.md) |
+| **Concurrency and parallelism** | [Draft canonical article](computation-algorithms/concurrency-and-parallelism.md) · Overlapping versus simultaneous computational progress | *implemented through* → [Processes and threads](operating-system-principles/README.md) |
+| **Synchronization** | [Draft canonical article](computation-algorithms/synchronization.md) · Mutual exclusion, ordering, races, deadlock, and coordination of computations | *specialized across nodes in* → [Synchronization and coordination](communication-distributed-systems/README.md) |
+| **Computational efficiency** | [Draft canonical article](computation-algorithms/computational-efficiency.md) · Practical performance costs, locality, profiling, and resource tradeoffs | *compared with asymptotic* → [Complexity](computation-algorithms/complexity.md) |
 
 ## 08. Software & Programming (9 headings)
 
@@ -133,14 +133,14 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | --- | --- | --- |
 | **Kernels** | Privileged coordination of execution, resource protection, and OS abstraction | *builds on* → [Hardware abstraction](digital-systems-hardware/hardware-abstraction.md) |
 | **System calls** | Protected OS interfaces and kernel transitions for requested operations | *exposes* → [Software interfaces](software-programming/README.md) |
-| **Processes and threads** | Process isolation, address spaces, execution threads, and states | *realizes* → [Concurrency and parallelism](computation-algorithms/README.md) |
-| **Scheduling** | Allocation of processor time among runnable work | *influences* → [Computational efficiency](computation-algorithms/README.md) |
+| **Processes and threads** | Process isolation, address spaces, execution threads, and states | *realizes* → [Concurrency and parallelism](computation-algorithms/concurrency-and-parallelism.md) |
+| **Scheduling** | Allocation of processor time among runnable work | *influences* → [Computational efficiency](computation-algorithms/computational-efficiency.md) |
 | **Memory management** | Virtual addressing, allocation, page translation, and memory protection | *manages* → [Memory and storage](digital-systems-hardware/memory-and-storage.md) |
 | **Filesystems** | Persistent file/directory organization, access paths, and metadata | *implements structured storage for* → [Data structures and formats](information-data/data-structures-and-formats.md) |
 | **Drivers and devices** | Operating-system abstractions for hardware device operations | *uses* → [Buses and interfaces](digital-systems-hardware/buses-and-interfaces.md) |
 | **Execution contexts** | Privilege modes, environments, address spaces, and executing state | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
 | **System initialization** | Boot sequence, firmware handoff, kernel start, and service initialization | *follows* → [Firmware](digital-systems-hardware/firmware.md) |
-| **Resource management** | Allocation, quotas, accounting, and contention for shared system resources | *constrains* → [Computational efficiency](computation-algorithms/README.md) |
+| **Resource management** | Allocation, quotas, accounting, and contention for shared system resources | *constrains* → [Computational efficiency](computation-algorithms/computational-efficiency.md) |
 
 ## 10. Communication & Distributed Systems (9 headings)
 
@@ -154,7 +154,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Latency and throughput** | Delay, data rates, queueing, jitter, and performance measures | *uses* → [Units and quantities](mathematics-logic/units-and-quantities.md) |
 | **Reliability and ordering** | Message loss, duplication, delivery guarantees, acknowledgements, and ordering | *extends system* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
 | **Distributed state** | Replication, consistency, clocks, and partial-failure uncertainty | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
-| **Synchronization and coordination** | Coordination among autonomous processes through ordering, clocks, and agreement | *extends computational* → [Synchronization](computation-algorithms/README.md) |
+| **Synchronization and coordination** | Coordination among autonomous processes through ordering, clocks, and agreement | *extends computational* → [Synchronization](computation-algorithms/synchronization.md) |
 
 ## 11. Systems & Engineering (11 headings)
 
@@ -187,7 +187,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 ## Canonical article integration
 
-The **109 approved subject headings** and **12 area assignments** remain unchanged. **72 articles are Reviewed (model-assisted)**, including all 18 Wave C references following the [Wave C Batch 03 54-family audit](WAVE-C-TECHNICAL-REVIEW-03.md). Four Wave D Computation & Algorithms articles are substantive **Drafts**, awaiting their own review; the remaining 33 approved Wave D/E headings are un-authored. Source-level validation, independent human peer review and final publication acceptance are outstanding. The relationship crosswalk remains proposed conceptual navigation rather than a ratified formal graph schema.
+The original **109 approved subject headings** and **12 area assignments** remain unchanged. **76 articles are Reviewed (model-assisted)**, including the four Computation & Algorithms articles accepted under the [24-family Wave D Batch 01 audit](WAVE-D-TECHNICAL-REVIEW-01.md). Five additional Computation & Algorithms references are substantive **Drafts**, awaiting their own scoped review. The remaining **28 approved subjects** are inventoried and un-authored. Independent expert peer review, complete source-level verification and final publication acceptance remain separate outstanding gates; the crosswalk is working navigation rather than a ratified formal graph schema.
 
 ## Register integrity
 
