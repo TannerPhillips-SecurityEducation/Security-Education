@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Operating System Principles](README.md)  
 **Approved subject heading:** Processes and threads  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; separate scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Operating System Principles 60-family audit](../WAVE-E-TECHNICAL-REVIEW-01.md); independent human review pending
 
 ## Execution needs ownership and scheduling context
 
@@ -55,6 +55,6 @@ Interprocess communication may use pipes, shared memory, messages or other mecha
 - [MIT 6.1810 Operating System Engineering](https://pdos.csail.mit.edu/6.S081/2026/schedule.html).
 - [Operating Systems: Three Easy Pieces](https://research.cs.wisc.edu/wind/OSTEP/).
 
-**Editorial status:** Substantive Draft. Shared-state examples and OS process/thread generalizations require a separate scoped technical review. No required programming API or learner assessment is introduced.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E OS 60-family technical audit](../WAVE-E-TECHNICAL-REVIEW-01.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Operating System Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
