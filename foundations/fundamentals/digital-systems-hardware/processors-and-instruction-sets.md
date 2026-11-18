@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Digital Systems & Hardware](README.md)  
 **Approved subject heading:** Processors and instruction sets  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 02 audit](../WAVE-C-TECHNICAL-REVIEW-02.md); no independent human expert review
 
 ## Instruction sets define programmer-visible machine behavior
 
@@ -80,6 +80,6 @@ No specific ISA, chip vendor, assembler, emulator, assessment, or new knowledge 
 - [MIT OCW 6.004: Caches and the Memory Hierarchy](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c14/c14s1/).
 - [NIST: Binary Prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 
-**Editorial status:** Substantive Draft. The unsigned-register example, ISA and microarchitecture claims require a separately documented scoped technical/source review. No platform adoption or learner assessment introduced.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave C Batch 02 technical audit](../WAVE-C-TECHNICAL-REVIEW-02.md). Exhaustive source verification, independent expert peer review and final publication acceptance remain outstanding.
 
 [Digital Systems & Hardware](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
