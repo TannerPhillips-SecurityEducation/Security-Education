@@ -1,9 +1,9 @@
-# Security Foundations | Reviewed Working Articles and Historical Pilot Paths
+# Security Foundations | Working Article Register and Historical Pilot Paths
 
 **Division:** [Security Foundations](../README.md)  
-**Status:** **14 Reviewed (model-assisted) and 1 Draft** across three scoped audits; none has a ratified permanent canonical location or Published status.  
+**Status:** **14 Reviewed (model-assisted) and 3 Draft** working area articles. The fourteen reviewed manuscripts have three scoped audits; the Drafts await separate technical review. None has a ratified permanent canonical location or Published status.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
-**Scope:** This register covers fourteen historically reviewed pilots and one new area-first Draft. **Their substantive content has been organized within provisional area directories following Fundamentals' README-plus-articles pattern.** The old pilot file paths remain navigation aliases; no individual taxonomy or 96-subject quota is ratified.
+**Scope:** This register indexes fourteen historically reviewed pilots and three new area-first Drafts. **All substantive content resides in provisional area directories, following Fundamentals' README-plus-articles pattern.** Only the original fourteen pilot paths have historical navigation aliases; new Drafts are links, not additional bodies or aliases. Individual taxonomy and candidate counts remain revisionable.
 
 ## Actual working article locations and historical review register
 
@@ -16,7 +16,9 @@
 | SF-08-09 | [Information-Flow Security and Noninterference](../secure-design-architecture/information-flow-security-and-noninterference.md) | **Reviewed (model-assisted)** | Core claims checked | When is a flow/observation permitted and why can access control be insufficient? |
 | SF-09-09 | [Cryptographic Composition and Protocol Security](../cryptography-information-protection/cryptographic-composition-and-protocol-security.md) | **Reviewed (model-assisted)** | Core claims checked | When do secure primitives fail to establish complete protocol objectives? |
 | SF-10-02 | [Observable, Observed and Recorded](../security-observation-evidence/observable-observed-and-recorded.md) | **Reviewed (model-assisted)** | Core claims checked | What can a security record actually establish about an occurrence or actor? |
+| SF-10-08 | [Evidentiary Confidence, Causality, and Attribution Limits](../security-observation-evidence/evidentiary-confidence-causality-and-attribution-limits.md) | **Draft** | References listed; scoped review pending | How far can records support causal explanations and attribution at different identity levels? |
 | SF-12-01 | [Security Claims and Assurance Arguments](../security-assurance-governance-accountability/security-claims-and-assurance-arguments.md) | **Reviewed (model-assisted)** | Core claims checked | What evidence and arguments support a bounded security property claim? |
+| SF-12-05 | [Compliance and Effective Security](../security-assurance-governance-accountability/compliance-and-effective-security.md) | **Draft** | References listed; scoped review pending | Why can conformity evidence and demonstrated security outcomes diverge? |
 
 | SF-05-01 | [Risk, Scenarios, and Time Horizon](../security-risk-uncertainty/risk-scenarios-and-time-horizon.md) | **Reviewed (model-assisted)** | Core claims checked | Scenario-relative likelihood, harm, uncertainty, time horizon and why severity is not organizational risk |
 | SF-07-01 | [Controls, Safeguards, and Security Functions](../security-controls-defense-mechanisms/controls-safeguards-and-security-functions.md) | **Reviewed (model-assisted)** | Core claims checked | Protection objective versus selected mechanism, implemented coverage, measured effect and assurance |
@@ -27,7 +29,7 @@
 | SF-11-07 | [Recovery Objectives and Trusted Restoration](../security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | **Draft** | References listed; scoped review pending | Recovery-target measurement versus evidenced trusted restoration |
 | SF-12-08 | [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** | Core claims checked | Legitimate security authority, privacy rights, proportionality and human harm |
 
-**Record count:** **14 substantive Reviewed working area articles**: eight checked under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10 groups), and four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20 groups). **81 of 96 working candidates have no substantive article yet**; neither count is fixed.
+**Record count:** **14 substantive Reviewed and 3 Draft working area articles**: eight reviewed under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10 groups), and four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20 groups). **79 of 96 working candidates have no substantive article yet**; neither count is fixed.
 
 ## Pilot technical review evidence
 
