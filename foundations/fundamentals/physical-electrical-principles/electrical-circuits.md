@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Physical & Electrical Principles](README.md)  
 **Approved subject heading:** Electrical circuits  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 01 technical audit](../WAVE-C-TECHNICAL-REVIEW-01.md); independent human review pending
 
 ## Connections and element behavior determine circuit outcomes
 
@@ -87,6 +87,6 @@ The labels do not make three isolated physical domains. A processor is a digital
 - [OpenStax: Resistivity and Resistance](https://openstax.org/books/university-physics-volume-2/pages/9-3-resistivity-and-resistance).
 - [MIT OpenCourseWare: Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/).
 
-**Editorial status:** Substantive Draft with a verified-on-paper ideal parallel-circuit example. The conceptual claims, model assumptions and numeric results require a separate scoped technical audit before Reviewed status.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave C Batch 01 24-group audit](../WAVE-C-TECHNICAL-REVIEW-01.md). Complete source verification, independent human expert peer review and final publication acceptance remain outstanding.
 
 [Physical & Electrical Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
