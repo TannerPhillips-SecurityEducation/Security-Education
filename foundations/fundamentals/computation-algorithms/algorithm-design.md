@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Computation & Algorithms](README.md)  
 **Approved subject heading:** Algorithm design  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Batch 01 audit](../WAVE-D-TECHNICAL-REVIEW-01.md); independent human expert review pending
 
 ## Designing an algorithm means selecting and justifying a strategy
 
@@ -100,6 +100,6 @@ This article does not prescribe a programming language, optimization library, co
 - [MIT 6.046J: Lecture Videos](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/pages/lecture-videos/).
 - [MIT 6.046J: Syllabus and course outcomes](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/pages/syllabus/).
 
-**Editorial status:** Substantive Draft. The greedy counterexample, recurrence and proof claims require a separate scoped technical/source audit. No Knowledge Checks or Practical Assessments are included.
+**Editorial status:** Reviewed (model-assisted) following the [Wave D Batch 01 24-family technical audit](../WAVE-D-TECHNICAL-REVIEW-01.md). Complete source verification, independent expert peer review and final publication approval remain separate outstanding gates.
 
 [Computation & Algorithms](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
