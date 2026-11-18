@@ -1,9 +1,9 @@
 # Security Foundations | Working Article Register and Historical Pilot Paths
 
 **Division:** [Security Foundations](../README.md)  
-**Status:** **17 Reviewed (model-assisted), 1 Draft** across four completed scoped audits (88 material claim groups). The new SF-04-08 Draft awaits the next separate review; no article is source-Verified, permanently ratified, or Published.  
+**Status:** **18 Reviewed (model-assisted), 0 Draft** across five completed scoped audits (**98 material claim groups**). No article is source-Verified, permanently ratified or Published.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
-**Scope:** This register indexes fourteen historically relocated pilots and four newer area-first manuscripts (three already Reviewed, SF-04-08 currently Draft). **All substantive content resides in provisional area directories, following Fundamentals' README-plus-articles pattern.** Only the original fourteen have legacy `pilots/` navigation aliases; newer articles link directly to their area homes. Internal taxonomy and subject counts remain flexible.
+**Scope:** This register indexes fourteen historically relocated pilots and four newer area-first manuscripts (all now separately Reviewed). All substantive content resides in provisional knowledge-area directories following the Fundamentals README-and-article pattern. **Only the original fourteen have legacy `pilots/` navigation aliases**; the newer four link directly to their working homes. Internal area identities and subject counts remain revisionable.
 
 ## Actual working article locations and historical review register
 
@@ -12,7 +12,7 @@
 | SF-01-01 | [Security and Insecurity](../security-meaning-objectives/security-and-insecurity.md) | **Reviewed (model-assisted)** | Core claims checked | What counts as a conditional security claim rather than an absolute label? |
 | SF-03-01 | [Threat Sources and Threat Events](../threats-hazards-adversarial-behavior/threat-sources-and-threat-events.md) | **Reviewed (model-assisted)** | Core claims checked | How do adversarial and non-adversarial threat sources differ from occurrences and consequences? |
 | SF-04-02 | [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md) | **Reviewed (model-assisted)** | Core claims checked | How do weakness, vulnerability, exposure, exploitation, severity and risk differ? |
-| SF-04-08 | [Side Channels, Covert Channels, and Unintended Information Leakage](../weaknesses-vulnerabilities-exposure/side-channels-covert-channels-and-unintended-information-leakage.md) | **Draft** | References listed; next-cycle claim-led review pending | How do indirect secret-dependent effects differ from cooperating, policy-violating covert signaling and ordinary disclosure? |
+| SF-04-08 | [Side Channels, Covert Channels, and Unintended Information Leakage](../weaknesses-vulnerabilities-exposure/side-channels-covert-channels-and-unintended-information-leakage.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 05](../PILOT-TECHNICAL-REVIEW-05.md) | How do indirect secret-dependent effects differ from cooperating, policy-violating covert signaling and ordinary disclosure? |
 | SF-06-09 | [Access-Control Policy Models](../trust-identity-authority-principles/access-control-policy-models.md) | **Reviewed (model-assisted)** | Core claims checked | What differentiates policy decision models from authentication and enforcement? |
 | SF-08-09 | [Information-Flow Security and Noninterference](../secure-design-architecture/information-flow-security-and-noninterference.md) | **Reviewed (model-assisted)** | Core claims checked | When is a flow/observation permitted and why can access control be insufficient? |
 | SF-09-09 | [Cryptographic Composition and Protocol Security](../cryptography-information-protection/cryptographic-composition-and-protocol-security.md) | **Reviewed (model-assisted)** | Core claims checked | When do secure primitives fail to establish complete protocol objectives? |
@@ -30,7 +30,7 @@
 | SF-11-07 | [Recovery Objectives and Trusted Restoration](../security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) | Recovery-target measurement versus evidenced trusted restoration |
 | SF-12-08 | [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** | Core claims checked | Legitimate security authority, privacy rights, proportionality and human harm |
 
-**Record count:** **17 substantive Reviewed working area articles** (Reviews [01](../PILOT-TECHNICAL-REVIEW-01.md), [02](../PILOT-TECHNICAL-REVIEW-02.md), [03](../PILOT-TECHNICAL-REVIEW-03.md) and [04](../PILOT-TECHNICAL-REVIEW-04.md), **88 material groups**) **plus 1 new Draft (SF-04-08)** awaiting its own audit. **78 of 96 current working candidates have no substantive manuscript**. Counts are living observations, not quotas or publication approval.
+**Record count:** **18 substantive Reviewed working area manuscripts**: eight under [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) (40 claim groups), two under [Review 02](../PILOT-TECHNICAL-REVIEW-02.md) (10), four under [Review 03](../PILOT-TECHNICAL-REVIEW-03.md) (20), three under [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) (18), and one under [Review 05](../PILOT-TECHNICAL-REVIEW-05.md) (10). **Total: 98 bounded material claim groups.** 78 of 96 working candidates lack a substantive manuscript. Counts are living observations, not publication approval.
 
 ## Pilot technical review evidence
 
@@ -45,6 +45,8 @@
 **Third pilot audit:** [Pilot Technical Review 03](../PILOT-TECHNICAL-REVIEW-03.md) checked 20 material claim groups for compromise, cyber resiliency, recovery constraints, privacy from authorized data use, functional safety and legitimacy. It visually inspected the RTO/RPO/MTD definitions in NIST SP 800-34r1, recomputed the example timings/reliability value, and separated publication from technical review.
 
 **Fourth pilot audit:** [Pilot Technical Review 04](../PILOT-TECHNICAL-REVIEW-04.md) checks **18 material claim groups** across evidentiary inference, trusted recovery and compliance/effectiveness. It recomputes conditional detector and recovery-timing examples, clarifies NIST source boundaries, and records the review-first continuation rule.
+
+**Fifth pilot audit:** [Pilot Technical Review 05](../PILOT-TECHNICAL-REVIEW-05.md) checks ten material claim groups for SF-04-08, recomputes the hypothetical channel-capacity model, distinguishes storage/timing channel categories, and records assumptions and source-version limitations. The manuscript advanced only after the separate review and documented corrections.
 
 ## Development states
 

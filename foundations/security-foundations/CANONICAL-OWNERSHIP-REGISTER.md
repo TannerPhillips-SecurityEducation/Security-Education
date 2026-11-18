@@ -1,8 +1,8 @@
 # Security Foundations | Canonical Ownership Register (Working Hypotheses)
 
-**Working edition:** v0.4 · November 18, 2026  
+**Working edition:** v0.5 · November 18, 2026  
 **Architectural status:** **One working owner per coherent shared security-specific concept** under the user-approved Fundamentals-style directory pattern. The actual names, boundaries and area/subject numbers are **provisional** until independently ratified; the current inventory is **96 candidates within twelve provisional areas**.  
-**Implementation state:** 17 subject manuscripts Reviewed (model-assisted); 1 Draft (SF-04-08); 78 inventoried without article. No human Approved/Published claim.
+**Implementation state:** 18 subject manuscripts Reviewed (model-assisted); 0 Draft; 78 inventoried without article. No human Approved/Published claim.
 
 ## Meaning of ownership
 
@@ -42,7 +42,7 @@ The single-owner rule prevents a security property or threat concept from being 
 | SF-04-05 | Exploitation and security violations | [Weaknesses, Vulnerabilities & Exposure](weaknesses-vulnerabilities-exposure/README.md) | **Provisional owner; article pending** | Distinguish attempted exploitation, successful violation of a security property, and compromise; the broader state and consequences of compromise belong to SF-11-01. |
 | SF-04-06 | Severity, exploitability, and context | [Weaknesses, Vulnerabilities & Exposure](weaknesses-vulnerabilities-exposure/README.md) | **Provisional owner; article pending** | Separate generic severity labels from system-specific consequences and risk. |
 | SF-04-07 | Weakness chains and dependency failures | [Weaknesses, Vulnerabilities & Exposure](weaknesses-vulnerabilities-exposure/README.md) | **Provisional owner; article pending** | Describe interacting flaws and upstream or transitive exposure. |
-| SF-04-08 | Side channels, covert channels, and unintended information leakage | [Weaknesses, Vulnerabilities & Exposure](weaknesses-vulnerabilities-exposure/README.md) | [Draft working concept](weaknesses-vulnerabilities-exposure/side-channels-covert-channels-and-unintended-information-leakage.md) | Distinguish leakage inferred from side effects, deliberate hidden communication and unintended disclosure; specific hardware/protocol cases remain specialized. |
+| SF-04-08 | Side channels, covert channels, and unintended information leakage | [Weaknesses, Vulnerabilities & Exposure](weaknesses-vulnerabilities-exposure/README.md) | [Reviewed working concept](weaknesses-vulnerabilities-exposure/side-channels-covert-channels-and-unintended-information-leakage.md) | Distinguish leakage inferred from side effects, deliberate hidden communication and unintended disclosure; specific hardware/protocol cases remain specialized. |
 | SF-05-01 | Risk, scenarios, and time horizon | [Security Risk & Uncertainty](security-risk-uncertainty/README.md) | [Reviewed working concept](security-risk-uncertainty/risk-scenarios-and-time-horizon.md) | Describe risk relative to a scenario, protected interest, and period. |
 | SF-05-02 | Likelihood, frequency, and probability | [Security Risk & Uncertainty](security-risk-uncertainty/README.md) | **Provisional owner; article pending** | Distinguish probabilistic quantities and avoid unsupported numerical precision. |
 | SF-05-03 | Risk consequence estimation and loss | [Security Risk & Uncertainty](security-risk-uncertainty/README.md) | **Provisional owner; article pending** | Apply harm and consequence concepts to a specified risk scenario, stakeholder and horizon; general adverse outcomes remain in SF-02-05. |

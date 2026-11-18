@@ -4,7 +4,7 @@
 
 **Division status:** Approved.  
 **Structural organization:** **Fundamentals-style division → area README → substantive area article** pattern explicitly adopted; individual area names, subject ownership and 96-candidate inventory remain **provisional and flexible**.  
-**Current coverage:** **12 provisional knowledge-area directories, 96 candidate subjects, 17 Reviewed (model-assisted) articles, 1 Draft, and 78 not yet authored**. All 18 substantive working articles reside within their provisional knowledge-area directories. The original 14 [historical pilot aliases](pilots/README.md) remain functional. Four existing scoped audits checked **88 material claim groups** across the 17 Reviewed manuscripts; the SF-04-08 Draft has **not** inherited that review. Area and subject totals remain flexible.
+**Current coverage:** **12 provisional knowledge-area directories, 96 candidate subjects, 18 Reviewed (model-assisted) articles, 0 Draft and 78 not yet authored**. All 18 substantive working articles reside in provisional area directories. Original [historical pilot aliases](pilots/README.md) remain functional for the fourteen relocated articles. Five separate scoped audits checked **98 material claim groups**. Area names and subject totals remain flexible; no publication approval is implied.
 
 ## Contributor and Agent Operating Contract
 
@@ -33,10 +33,11 @@ This file is a reusable **operating guide**, not authorization to claim new user
 - [**Pilot Technical Review 02**](PILOT-TECHNICAL-REVIEW-02.md): 10 additional claim groups across the risk and defensive-controls pilots, separating severity from risk and control listings from measured effects.
 - [**Pilot Technical Review 03**](PILOT-TECHNICAL-REVIEW-03.md): 20 additional material claim groups for compromise, resilience, RTO/RPO, privacy harms from authorized processing, safety and human-impact constraints.
 - [**Pilot Technical Review 04**](PILOT-TECHNICAL-REVIEW-04.md): 18 material claim groups covering evidentiary inference, recovery objectives and compliance versus security effectiveness, with source checks, example recomputation and documented corrections.
+- [**Pilot Technical Review 05**](PILOT-TECHNICAL-REVIEW-05.md): 10 material claim groups for SF-04-08 (side/covert channels, information leakage), including source terminology, SC-31 bandwidth scope and verified information-theory arithmetic.
 - [**Coverage & Gaps Review 03**](COVERAGE-AND-GAPS-REVIEW-03.md): Reconciles the fourteen Reviewed pilots against 96 working subject candidates, identifies eight next subject/depth/overlap priorities, and separates knowledge gaps from unpiloted headings.
 - [**Source Crosswalk v0.3**](ESTABLISHED-MODEL-CROSSWALK.md): 30 evidence groups, including NIST Privacy Framework, ISO/IEC safety principles, recovery-objective guidance, current incident-response methods and earlier cryptographic/formal policy models.
 
-**Governance separation:** The Security Foundations division and **Fundamentals-style directory pattern** are accepted; the twelve working area names and 96 candidate memberships remain provisional. **17 manuscripts are Reviewed (model-assisted) / Core claims checked; SF-04-08 is Draft / References listed**, requiring a distinct review in the next authoring turn before drafting another subject. None is source-Verified, independently Published, or automatically accepted as a permanent canonical location.
+**Governance separation:** The Security Foundations division and Fundamentals-style directory pattern are accepted; the twelve working area names and 96 candidate memberships remain provisional. **All 18 authored manuscripts are Reviewed (model-assisted) / Core claims checked**, including SF-04-08 under [Review 05](PILOT-TECHNICAL-REVIEW-05.md). None is source-Verified, independently Published or automatically accepted as a permanent canonical location.
 
 ## The governing distinction
 
@@ -57,7 +58,7 @@ The 12 areas below are **working navigation hypotheses**, not a forced reflectio
 | 01 | [Security Meaning & Objectives](security-meaning-objectives/README.md) | 8 | 2 | 0 | 6 |
 | 02 | [Protected Interests, Assets & Harm](protected-interests-assets-harm/README.md) | 6 | 0 | 0 | 6 |
 | 03 | [Threats, Hazards & Adversarial Behavior](threats-hazards-adversarial-behavior/README.md) | 7 | 1 | 0 | 6 |
-| 04 | [Weaknesses, Vulnerabilities & Exposure](weaknesses-vulnerabilities-exposure/README.md) | 8 | 1 | 1 | 6 |
+| 04 | [Weaknesses, Vulnerabilities & Exposure](weaknesses-vulnerabilities-exposure/README.md) | 8 | 2 | 0 | 6 |
 | 05 | [Security Risk & Uncertainty](security-risk-uncertainty/README.md) | 8 | 1 | 0 | 7 |
 | 06 | [Trust, Identity & Authority Principles](trust-identity-authority-principles/README.md) | 9 | 1 | 0 | 8 |
 | 07 | [Security Controls & Defense Mechanisms](security-controls-defense-mechanisms/README.md) | 8 | 1 | 0 | 7 |
@@ -66,7 +67,7 @@ The 12 areas below are **working navigation hypotheses**, not a forced reflectio
 | 10 | [Security Observation & Evidence](security-observation-evidence/README.md) | 8 | 2 | 0 | 6 |
 | 11 | [Security Failure & Resilience](security-failure-resilience/README.md) | 8 | 3 | 0 | 5 |
 | 12 | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | 8 | 3 | 0 | 5 |
-| **Total** | **12 provisional areas** | **96** | **17** | **1** | **78** |
+| **Total** | **12 provisional areas** | **96** | **18** | **0** | **78** |
 
 **These directories follow the Fundamentals baseline:** each area contains its own `README.md` and the substantive articles currently assigned to it. Some areas have multiple articles; others currently contain only an inventory README. **Do not invent article files to equalize counts.**
 

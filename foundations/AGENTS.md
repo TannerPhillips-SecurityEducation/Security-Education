@@ -21,7 +21,7 @@ The seven specialized [knowledge domains](../README.md#knowledge-domains) own th
 The **three divisions** are approved. Their **internal architecture states are not equal**:
 
 - Fundamentals has an approved governing architecture and twelve current approved navigation areas. Its subject inventory is living and revisionable.
-- Security Foundations is an approved division whose **Fundamentals-style area/README/article directory pattern is explicitly adopted**. Its 12 current area names and 96 subject candidates remain provisional. Eighteen substantive working articles now live within area directories: 17 have separate scoped audits, and the new SF-04-08 Draft awaits its own next-turn review. Their semantic canonical ownership and publication are not automatically ratified.
+- Security Foundations is an approved division whose **Fundamentals-style area/README/article directory pattern is explicitly adopted**. Its 12 current area names and 96 subject candidates remain provisional. Eighteen substantive working articles now live within area directories, each covered by its own bounded claim-led model-assisted review (Reviews 01–05). No Drafts are outstanding; semantic canonical ownership, complete source verification and publication remain separate, unratified gates.
 - Operational Foundations is approved as a division but has **no approved internal subject taxonomy**. Do not fabricate one to match sibling divisions.
 
 Proposed taxonomies, mathematical primitives, relationship predicates and fixed numbers of chapters, articles, areas or categories are **not** user-approved merely because they appear in working files. Preserve explicit user approval separately from agent recommendations and historical project proposals.
