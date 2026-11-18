@@ -83,4 +83,6 @@ Engineered physical control can create mechanical, electrical, thermal or other 
 
 **Editorial status:** Reviewed (model-assisted) following the scoped [Wave C Batch 03 54-family technical review](../WAVE-C-TECHNICAL-REVIEW-03.md). Full source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
 
+**Additional technical review (November 18, 2026):** The established-framework/model additions above were checked under the [Wave G 39-family scoped model-assisted review](../WAVE-G-TECHNICAL-REVIEW-01.md) (three material claim groups for this article). The earlier audit record remains historical. This does not establish complete source-level verification, independent expert review, or final publication acceptance.
+
 [Physical & Electrical Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
