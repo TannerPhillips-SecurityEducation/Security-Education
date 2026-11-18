@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Operating System Principles](README.md)  
 **Approved subject heading:** Memory management  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Operating System Principles 60-family audit](../WAVE-E-TECHNICAL-REVIEW-01.md); independent human review pending
 
 ## Virtual addresses and physical storage are different
 
@@ -63,6 +63,6 @@ TLB misses, page faults, swapping, locality and contention affect practical perf
 - [MIT 6.1810 Operating Systems course](https://pdos.csail.mit.edu/6.S081/2026/schedule.html).
 - [Operating Systems: Three Easy Pieces, address-space chapters](https://research.cs.wisc.edu/wind/OSTEP/).
 
-**Editorial status:** Substantive Draft. Translation arithmetic, permission semantics and paging claims require scoped technical review. No mandated operating system or learner assessments introduced.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E OS 60-family technical audit](../WAVE-E-TECHNICAL-REVIEW-01.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Operating System Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
