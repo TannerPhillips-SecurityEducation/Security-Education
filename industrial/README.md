@@ -2,6 +2,10 @@
 
 Industrial Knowledge is organized primarily by **Industrial System Function**.
 
+## Contributor and Agent Contract
+
+[**AGENTS.md: Industrial Knowledge Editorial & Engineering Contract**](AGENTS.md) applies to this directory and its descendants. It inherits the [root SOP](../AGENTS.md) and tailors its thirteen operating sections to **Industrial System Function**, including plant processes, controllers, safety systems and physical effects. Function-first navigation is preserved; deeper subject/implementation structures and article counts remain flexible and are **not automatically approved** by this contract.
+
 ## Approved Navigation Categories
 
 - [Physical Processes & Equipment](physical-processes-equipment/README.md): Production processes, machinery, motors, pumps, and industrial equipment
