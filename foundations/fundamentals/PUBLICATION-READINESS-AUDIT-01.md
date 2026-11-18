@@ -63,6 +63,12 @@ The link scan identified **55 inline relative links containing a fragment**, rep
 
 The source files and target headings were opened in GitHub. All **32 distinct fragment IDs** match GitHub-style slugs of the intended headings; there were **zero missing target headings** in this set. A heading-slug check is not the same as exercising clicks through the live GitHub rendered UI, and does not validate external web-page fragments.
 
+### Continuous GitHub Actions link check (post-snapshot)
+
+A [reproducible Python link checker](tools/check_internal_links.py) and a [push/PR workflow](https://github.com/TannerPhillips-SecurityEducation/Security-Education/blob/main/.github/workflows/fundamentals-internal-links.yml) now provide ongoing checks of simple Markdown inline links, image destinations, reference definitions, HTML href/src destinations, relative file paths and GitHub-style Markdown heading fragments. The first [successful CI run](https://github.com/TannerPhillips-SecurityEducation/Security-Education/actions/runs/44223563539) reported **153 Markdown files examined, 3,769 simple link occurrences parsed, 2,693 local references resolved to 164 distinct internal targets, 56 fragment occurrences checked, and zero detected internal path/fragment errors**. The additional file compared with the original 152-file snapshot is this audit report; the 2,681 original inline relative links and the 2,693 broader parser's internal-link occurrences are **different counting scopes**, not contradictory results.
+
+The CI scanner also encountered **1,076 external link occurrences**, which it **did not retrieve or validate**. Its regex-based parsing is not a complete CommonMark implementation; semantic relationship quality, external URL/anchor status, every Markdown edge case, source accuracy and human review remain outside this check. Green CI is one reproducible navigation-quality signal, not publication acceptance.
+
 ## 4. Article development metadata and minimum depth
 
 Every one of the 109 canonical article bodies was inspected for the presence of:
