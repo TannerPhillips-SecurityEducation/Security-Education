@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Operating System Principles](README.md)  
 **Approved subject heading:** System calls  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; separate scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Operating System Principles 60-family audit](../WAVE-E-TECHNICAL-REVIEW-01.md); independent human review pending
 
 ## System calls expose controlled operating-system services
 
@@ -63,6 +63,6 @@ System calls are a privilege-mediated interface, not the entire kernel, a progra
 - [MIT 6.1810 Operating System Engineering](https://pdos.csail.mit.edu/6.S081/2026/schedule.html).
 - [POSIX System Interfaces, The Open Group](https://pubs.opengroup.org/onlinepubs/9799919799/).
 
-**Editorial status:** Substantive Draft. Short-read behavior and protection distinctions require scoped technical/source review. No syscall API or training assessment is mandated.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E OS 60-family technical audit](../WAVE-E-TECHNICAL-REVIEW-01.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Operating System Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
