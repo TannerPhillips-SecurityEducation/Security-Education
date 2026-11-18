@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Computation & Algorithms](README.md)  
 **Subject ID:** F-07-11  
-**Development status:** Draft; substantive article newly authored  
-**Source review:** References listed; scoped technical review pending  
+**Development status:** Reviewed (model-assisted; independent human acceptance not claimed)  
+**Source review:** Core claims checked; [Wave F 42-family scoped technical audit](../WAVE-F-TECHNICAL-REVIEW-01.md); comprehensive source-level verification not claimed  
 **Inventory authority:** [Model and Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md)
 
 ## Machine learning fits models to data or experience
@@ -86,8 +86,8 @@ A classifier's validation metrics cannot by themselves demonstrate that a securi
 - [Stanford CS221 Artificial Intelligence: Principles and Techniques](https://bulletin-new.stanford.edu/courses/cs-221), machine learning in the broader AI decision context.
 - [CS2023 Knowledge Areas](https://csed.acm.org/knowledge-areas/), curricular placement of AI and mathematical/statistical foundations; not a machine-learning conformance standard.
 
-The worked data are invented and evaluated under exact arithmetic. They are not measured evidence about a real population, deployed model, or a guarantee of performance. Sources are listed but not yet checked claim by claim.
+The worked data are invented and evaluated under exact arithmetic. They are not measured evidence about a real population, deployed model, or a guarantee of performance. Six material claim groups were checked in the Wave F scoped audit; comprehensive sentence-level source verification remains outstanding.
 
-**Editorial status:** Draft. No Knowledge Checks, Practical Assessments, or graded exercise content.
+**Editorial status:** Reviewed (model-assisted) under the [Wave F scoped technical review](../WAVE-F-TECHNICAL-REVIEW-01.md). Full source-passage verification, independent expert review and final publication acceptance remain open.
 
 [Computation & Algorithms](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
