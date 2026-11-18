@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Digital Systems & Hardware](README.md)  
 **Approved subject heading:** Timing and clocks  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 03 audit](../WAVE-C-TECHNICAL-REVIEW-03.md); independent human review pending
 
 ## Timing determines when hardware behavior is evaluated
 
@@ -83,6 +83,6 @@ Hardware can exhibit timing violations because of supply, temperature, process v
 - [MIT OpenCourseWare 6.003 Signals and Systems](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/).
 - [BIPM: SI Brochure](https://www.bipm.org/en/publications/si-brochure).
 
-**Editorial status:** Substantive Draft. Clock arithmetic, timing-path explanation and metastability limitations require a separate scoped technical audit. No hardware implementation or general-temporality scope change is approved.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave C Batch 03 54-family technical review](../WAVE-C-TECHNICAL-REVIEW-03.md). Full source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
 
 [Digital Systems & Hardware](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
