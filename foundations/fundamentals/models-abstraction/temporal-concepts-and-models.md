@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Models & Abstraction](README.md)  
 **Subject ID:** F-03-11  
-**Development status:** Draft; substantive article newly authored  
-**Source review:** References listed; scoped technical review pending  
+**Development status:** Reviewed (model-assisted; independent human acceptance not claimed)  
+**Source review:** Core claims checked; [Wave F 42-family scoped technical audit](../WAVE-F-TECHNICAL-REVIEW-01.md); comprehensive source-level verification not claimed  
 **Inventory authority:** [Model and Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md)
 
 ## Time and temporal representation are not the same thing
@@ -91,6 +91,6 @@ A formal transition system can express legal sequences without specifying how mu
 
 A chosen time scale and data model determine which interval/order calculations are meaningful. This article does not settle the philosophy or physics of time, nor establish operational timestamp accuracy in any deployed system.
 
-**Editorial status:** Draft. Primary sources are identified; complete source-level validation and independent human acceptance remain pending.
+**Editorial status:** Reviewed (model-assisted) under the [Wave F scoped technical review](../WAVE-F-TECHNICAL-REVIEW-01.md). Full source-passage verification, independent expert review and final publication acceptance remain open.
 
 [Models & Abstraction](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
