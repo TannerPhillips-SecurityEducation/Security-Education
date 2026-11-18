@@ -15,7 +15,7 @@ Common analysis terms include **node** (electrically connected reference region 
 
 ## Ideal versus physical elements
 
-A model may represent an ideal resistor through `v=iR`, a capacitor through `i=C,dv/dt`, or an inductor through `v=L,di/dt` under stated passive sign conventions. These relations are local device models with assumptions about linearity, time variation and applicability.
+A model may represent an ideal resistor through `v=iR`, a capacitor through `i = C(dv/dt)`, or an inductor through `v = L(di/dt)` under stated passive sign conventions. These relations are local device models with assumptions about linearity, time variation and applicability.
 
 Real components can have parasitic resistance, capacitance, inductance, thermal limits, finite response times and frequency-dependent behavior. Their practical behavior may require detailed distributed or electromagnetic models.
 
