@@ -8,6 +8,8 @@
 
 **Inherited root SOP:** [Repository AGENTS.md](../../AGENTS.md) governs evidence, variable depth/granularity, editorial autonomy, non-Socratic collaboration, approvals, provenance and validation across the repository. This file adds division-specific requirements; it does not override higher-priority instructions or turn proposed knowledge structures into approved ones.
 
+**Foundations-level inheritance:** [Foundations AGENTS.md](../AGENTS.md) governs shared cross-division ownership, flexible inventories, evidence and review boundaries; this file supplies the domain-specific rules.
+
 ## 1. Mission and non-negotiable boundaries
 
 Security Foundations explains **what security and insecurity mean, what can go wrong, how security properties and controls operate, and what evidence justifies protection claims** across technical systems and the seven specialized knowledge domains.
