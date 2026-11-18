@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Computation & Algorithms](README.md)  
 **Approved subject heading:** Computability  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Batch 01 audit](../WAVE-D-TECHNICAL-REVIEW-01.md); independent human expert review pending
 
 ## Some precisely stated problems can be computed; others cannot
 
@@ -77,6 +77,6 @@ This article does not settle G-06 artificial intelligence/machine learning scope
 - [MIT 6.045J: Lecture 6, Turing Machines and the Halting Problem](https://ocw.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/d6c18e634cdf3363ecac909bd2958b8b_MIT6_045JS11_lec06.pdf).
 - [Stanford Encyclopedia of Philosophy: Turing Machines](https://plato.stanford.edu/entries/turing-machine/).
 
-**Editorial status:** Substantive Draft. Formal statements, the diagonal argument and finite-graph example require a separate scoped technical audit. No Knowledge Checks or Practical Assessments are included.
+**Editorial status:** Reviewed (model-assisted) following the [Wave D Batch 01 24-family technical audit](../WAVE-D-TECHNICAL-REVIEW-01.md). Complete source verification, independent expert peer review and final publication approval remain separate outstanding gates.
 
 [Computation & Algorithms](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
