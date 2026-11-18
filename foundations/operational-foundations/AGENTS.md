@@ -57,7 +57,7 @@ Use this uniform **responsibility architecture** as a planning pattern, creating
 
 When authorized development starts, take the **mature responsibilities** from [Fundamentals](../fundamentals/ARCHITECTURE.md) and [the Security Foundations pilot approach](../security-foundations/AGENTS.md), not their exact filenames or counts. Prefer a division index, explicitly provisional architecture, versioned concept boundaries, substantive articles and review evidence.
 
-**Do not create empty directories or placeholder subject pages simply to imitate another division.** An internal area README should describe a real coherent area and link to actual article files, not imaginary destinations.
+**Use the shared Fundamentals-style navigational pattern when Operational Foundations begins substantive development**: division index → provisional or approved area directory → area `README.md` → multiple substantive working articles as justified. The directory pattern can be adopted without claiming its specific area taxonomy is approved. Do not invent articles or force equal content volume merely to imitate another division.
 
 ## 4. Editorial operating loop: Observe → Derive → Infer → Act
 
@@ -166,7 +166,7 @@ Do not describe imagined files as present. As substantive architecture and artic
 - **Article pilot directory (if actually created):** Stores long-form working drafts without asserting canonical placement.
 - **Development and verification register:** Tracks real files, state, sources, review batches and unresolved decisions.
 - **Technical review and evidence files:** Capture claim-family checks, worked case validation, source versions and corrections.
-- **Area README and canonical articles:** Only once internal architecture and subject ownership are explicitly approved.
+- **Area README and working articles:** May be created in clearly marked **provisional** area directories when real scope/content warrants it, following the adopted shared pattern; **permanent canonical ownership/publication** still requires separate architecture approval.
 - **Validation scripts and GitHub workflow:** Add when real content justifies them; check existing files, navigation and status without freezing counts.
 
 **Use real links.** An illustrative path in a plan does not become a valid file link until it exists. Prefer a single canonical method explanation over parallel role-specific duplicates; role contexts can link to the general method and add genuinely distinct responsibilities.
