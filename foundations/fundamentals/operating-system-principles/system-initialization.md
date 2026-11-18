@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Operating System Principles](README.md)  
 **Approved subject heading:** System initialization  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave E Operating System Principles 60-family audit](../WAVE-E-TECHNICAL-REVIEW-01.md); independent human review pending
 
 ## Startup converts a system into an operating condition
 
@@ -78,6 +78,6 @@ System initialization is neither the entire system lifecycle nor a guarantee of 
 - [MIT 6.1810 xv6 overview](https://pdos.csail.mit.edu/6.S081/2026/xv6.html).
 - [NIST SP 800-193 Platform Firmware Resiliency](https://csrc.nist.gov/pubs/sp/800/193/final).
 
-**Editorial status:** Substantive Draft. Startup dependency calculation and stage semantics require scoped technical review. No new knowledge category or assessment introduced.
+**Editorial status:** Reviewed (model-assisted) following the [Wave E OS 60-family technical audit](../WAVE-E-TECHNICAL-REVIEW-01.md). Complete source-level verification, independently performed expert review and final publication acceptance remain outstanding.
 
 [Operating System Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
