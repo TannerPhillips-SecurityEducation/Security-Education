@@ -1,0 +1,24 @@
+name: Fundamentals internal links
+
+on:
+  push:
+    paths:
+      - "foundations/fundamentals/**"
+      - ".github/workflows/fundamentals-internal-links.yml"
+  pull_request:
+    paths:
+      - "foundations/fundamentals/**"
+      - ".github/workflows/fundamentals-internal-links.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  internal-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Verify Fundamentals relative links and fragments
+        run: python3 foundations/fundamentals/tools/check_internal_links.py
