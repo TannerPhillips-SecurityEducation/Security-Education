@@ -3,7 +3,7 @@
 **Review date:** November 18, 2026  
 **Scope:** 116 canonical Fundamentals articles in the twelve existing knowledge areas, with source/coverage diagnostics and targeted direct article reading.  
 **Purpose:** Decide whether remaining knowledge gaps require **new canonical subjects**, more depth in existing subjects, source-passage checking, or only future cross-links.  
-**Status:** Adopted as a **working architecture disposition**. All article-writing and technical-review outcomes remain separate. The subject count is **not fixed**.
+**Status:** Working architecture disposition, initially recorded before the four new articles were written. **Post-triage status:** all four have since been authored and scoped-reviewed under [Wave H](WAVE-H-TECHNICAL-REVIEW-01.md). The detailed inventory table below is a historical decision snapshot; full source verification and independent publication acceptance remain open. The subject count is **not fixed**.
 
 ## 1. Evidence and diagnostic limits
 
