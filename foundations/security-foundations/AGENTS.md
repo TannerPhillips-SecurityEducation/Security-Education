@@ -36,7 +36,7 @@ The approved repository principle is **hierarchy for navigation, knowledge graph
 - The [Security Foundations architecture](ARCHITECTURE.md), [subject inventory](SUBJECT-INVENTORY-PROPOSAL.md), [ownership boundaries](OWNERSHIP-BOUNDARIES.md) and [development plan](DEVELOPMENT-PLAN.md) are **working proposals**, not a ratified internal taxonomy.
 - The current working inventory has **12 proposed areas and 96 active subject candidates**, and **both numbers can increase or decrease**. These are descriptive snapshots, **not quotas or completion targets**.
 - Earlier candidate identifiers and decisions must remain traceable. [Architecture Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md) records four additions and two consolidations from an earlier 94-candidate snapshot.
-- [Pilots](pilots/README.md) are substantive working manuscripts under an unratified internal structure; their technical review does **not** approve final canonical placement.
+- The **Fundamentals-style division → area README → substantive article** structure is now explicitly adopted by the repository owner. The [twelve current area directories](README.md#working-knowledge-areas) are working navigation homes with **provisional names/memberships**, not final subject-taxonomy ratification. The fourteen reviewed working articles have moved into those areas; [legacy pilot paths](pilots/README.md) are navigation aliases.
 - The existing model/source map and boundary ledger are evidence catalogs, not standardized universal taxonomies or permanently fixed-size lists.
 
 **Do not convert:** proposed → approved, mentioned → covered, authored → reviewed, reviewed → verified, verified → published, or a model's original labels → repository governing ontology **without corresponding evidence and authorization**.
@@ -51,11 +51,11 @@ The **observed architecture** of [Fundamentals](../fundamentals/README.md) is a 
 | --- | --- | --- |
 | [Governing architecture](../fundamentals/ARCHITECTURE.md) | Definition, scope, non-goals, ownership and placement rules | [Working Security Foundations architecture](ARCHITECTURE.md), with explicit approval status |
 | [Division index](../fundamentals/README.md) | Navigable entry point, accurate inventory, development and review evidence | [Security Foundations index](README.md) |
-| Area `README.md` indexes, e.g. [Mathematics & Logic](../fundamentals/mathematics-logic/README.md) | Area scope, active subject list, actual article links, current status | **Only after the proposed Security Foundations areas are ratified**; do not create fake canonical area trees |
-| Canonical subject articles, e.g. [Search and Information Retrieval](../fundamentals/information-data/search-and-information-retrieval.md) | Definition, structures, mechanisms, source-grounded examples, boundaries, limitations, related concepts | [Working substantive pilots](pilots/README.md) before canonical ratification |
+| Area `README.md` indexes, e.g. [Mathematics & Logic](../fundamentals/mathematics-logic/README.md) | Area scope, active subject list, actual article links, current status | **Already implemented** as [twelve provisional working area READMEs](README.md#working-knowledge-areas), following the user-approved structural pattern without ratifying each area identity |
+| Canonical subject articles, e.g. [Search and Information Retrieval](../fundamentals/information-data/search-and-information-retrieval.md) | Definition, structures, mechanisms, source-grounded examples, boundaries, limitations, related concepts | **Working substantive security articles now live directly inside their proposed area directories**; exact ownership and final publication still require separate ratification |
 | [Canonical ownership register](../fundamentals/CANONICAL-OWNERSHIP-REGISTER.md) | One general meaning owner, bounded related concepts and relationship links | [Ownership boundaries](OWNERSHIP-BOUNDARIES.md); add a formal subject-owner register when needed, not by inventing relationships |
 | [Overlap and gap decisions](../fundamentals/CONCEPT-BOUNDARY-DECISIONS.md), [coverage triage](../fundamentals/COVERAGE-AND-SOURCE-TRIAGE-02.md) | Non-equivalences, source-backed additions/splits/merges, historical identifiers | [Security architecture adjudication](ARCHITECTURE-ADJUDICATION-02.md) and [coverage review](COVERAGE-AND-GAPS-REVIEW-03.md) |
-| [Development/verification register](../fundamentals/DEVELOPMENT-VERIFICATION-REGISTER.md) | Path, current state, separate source evidence, review batch and known open work | [Pilot index](pilots/README.md) now; expand to a dynamic development register as article count and ratification warrant |
+| [Development/verification register](../fundamentals/DEVELOPMENT-VERIFICATION-REGISTER.md) | Path, current state, separate source evidence, review batch and known open work | [Security Foundations Development Register](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks 96 working subjects and actual area articles; [historical pilot index](pilots/README.md) preserves previous audit links |
 | [Technical review waves](../fundamentals/WAVE-H-TECHNICAL-REVIEW-01.md) | Claim families, source scope, recomputation, corrections, review limitations | [Security pilot technical reviews](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md) |
 | [Publication-readiness audit](../fundamentals/PUBLICATION-READINESS-AUDIT-01.md) | Inventory and link integrity separated from complete verification/publication | Explicit Security Foundations publication gates; an automated pass is **not** publication acceptance |
 | [Fundamentals inventory validator](../fundamentals/tools/check_inventory.py) and [Fundamentals CI](../../.github/workflows/fundamentals-internal-links.yml) | Link, heading fragment, inventory, model-mention and source-coverage diagnostics | [Security Foundations structure validator](tools/check_foundations_structure.py) and [Security CI](../../.github/workflows/security-foundations-integrity.yml) |
@@ -130,7 +130,7 @@ Start with the [established model crosswalk](ESTABLISHED-MODEL-CROSSWALK.md), bu
 
 **No false content:** Do not invent standards text, URLs, versions, file paths, observations, test results, authority names, citations or completed source checks. Avoid “always,” “never,” “proven secure,” and similar absolute guarantees unless genuinely supported by a formal scope and evidence.
 
-**Article placement now:** `pilots/<lowercase-kebab-subject>.md`. **Do not** create the proposed `SF-01/` or similarly named canonical area trees merely to mirror Fundamentals. After internal architecture ratification, migrate approved canonical owners with real redirects/updated links and preserved history as necessary.
+**Article placement now:** `<working-area>/<lowercase-kebab-subject>.md`, using the actual [working knowledge-area directories](README.md#working-knowledge-areas). Each area **must** have a scope/index `README.md`, and any substantive article belongs alongside it, as in Fundamentals. This is an **approved organizational convention**, not approval of the twelve area labels or permanent candidate owners. **Do not** add articles solely to balance area counts. The historical `pilots/` files are **redirect aliases**; do not write new substantive work there. If an area's conceptual owner changes, update links and the old-to-new mapping without destroying review history.
 
 ## 8. Knowledge gap, overlap and inventory change policy
 
@@ -156,31 +156,37 @@ Distinguish a **coverage deficit** from a **missing article**, a **missing named
 
 ## 9. File responsibilities and repository navigation
 
-**Current Security Foundations working layout:**
+**Current Security Foundations working layout (Fundamentals baseline):**
 
 ```text
 foundations/security-foundations/
-├── AGENTS.md                         # This subtree-wide editorial/engineering contract
-├── README.md                         # Division index; current working and review status
-├── ARCHITECTURE.md                   # Proposed governing concept and placement rules
-├── SUBJECT-INVENTORY-PROPOSAL.md     # Active, revisionable candidate area/subject map
-├── ARCHITECTURE-ADJUDICATION-*.md    # Versioned add/split/merge/retire decisions
-├── ESTABLISHED-MODEL-CROSSWALK.md    # Model types, primary sources, versions, limits
-├── OWNERSHIP-BOUNDARIES.md           # Cross-division/within-security overlap cases
-├── COVERAGE-AND-GAPS-REVIEW-*.md     # Diagnosed gaps and next depth work
-├── DEVELOPMENT-PLAN.md              # Workstreams, state transitions, proposed gates
-├── PILOT-TECHNICAL-REVIEW-*.md       # Bounded article-level claim audits
-├── pilots/
-│   ├── README.md                     # Actual pilot paths and current states
-│   └── <descriptive-subject>.md      # Substantive manuscripts with candidate IDs
-└── tools/                            # Link, inventory and structure checks
+├── AGENTS.md                         # This subtree-wide SOP
+├── README.md                         # Division navigation / real current status
+├── ARCHITECTURE.md                   # Governing concept proposal and placement rules
+├── SUBJECT-INVENTORY-PROPOSAL.md     # 96 working subjects in 12 provisional areas
+├── AREA-STRUCTURE-ADJUDICATION-03.md # Explicitly adopted folder pattern, not semantic ratification
+├── DEVELOPMENT-VERIFICATION-REGISTER.md # Actual article paths and source states
+├── CANONICAL-OWNERSHIP-REGISTER.md   # Provisional owners and concept boundaries
+├── ESTABLISHED-MODEL-CROSSWALK.md    # Model sources, versions and limits
+├── OWNERSHIP-BOUNDARIES.md           # Overlap decisions / non-equivalences
+├── <working-area>/                  # One of the current 12 provisional areas
+│   ├── README.md                     # Scope + full subject list + actual links/statuses
+│   ├── <substantive-subject>.md       # One working substantive knowledge article
+│   └── <other-subject>.md            # Additional articles as knowledge warrants
+├── pilots/                           # Historical review index and redirect-only aliases
+│   ├── README.md
+│   └── <historical-subject>.md        # Links to actual area article; not duplicated prose
+├── PILOT-TECHNICAL-REVIEW-*.md       # Dated technical evidence
+└── tools/                            # Mechanical validation of live structure and states
 ```
 
-**File roles are distinct:** `README.md` is navigation and current status; `ARCHITECTURE.md` governs *proposed* scope; inventory lists active candidate coverage; adjudications preserve decisions and history; sources ground model claims; ownership ledgers describe concept homes; the development plan governs workflow; article pilots contain **knowledge**; technical reviews contain **what was checked**; tools test mechanical consistency.
+**Current stage:** 12 provisional area directories each have an index, 14 substantive articles occupy their working areas, and 82 subjects remain Inventoried without content. Both area/subject counts are variable. The folder pattern is adopted, but its exact semantic taxonomy is still under source-grounded evaluation.
+
+**File roles are distinct:** Area and division `README.md` files provide navigation; `ARCHITECTURE.md` governs proposed semantic scope; candidate inventories and working ownership records track concepts; **area article files contain the substantive knowledge**; `pilots/` now preserves review links and aliases; technical reviews contain **what was checked**; tools test mechanical consistency.
 
 **Do not** bury the only canonical explanation inside an audit file, mistake a review artifact for a substantive article, multiply competing root indexes, or treat article publication state as a directory naming convention.
 
-If the working structure is ratified later, follow Fundamentals' pattern of **a division index + an area README + a substantive canonical article in its one proper home**, with ownership/development registers and versioned reviews maintained at division scope. Exact directories and counts require their own approval.
+The **Fundamentals-style file-and-directory pattern is already established**. Future semantic ratification determines which specific area identities, article scopes and owner relationships become canonical. If labels or boundaries change, migrate substantive area content with redirects, history and fresh review where necessary; do not collapse back into one flat directory.
 
 ## 10. Development, evidence and publication states
 
@@ -210,9 +216,9 @@ Every substantive batch should yield:
 
 1. **A bounded review ledger:** candidate IDs, real article links, material claim groups, source versions, inspected passage/range where possible, worked arithmetic, counterexamples, corrections and outstanding unknowns.
 2. **An article state update:** only after the review exists, with explicit evidence links and correct source-review level.
-3. **A pilot/index reconciliation:** paths, names, IDs, statuses, source groups and count denominators all reflect the same current snapshot.
+3. **An area/index/register reconciliation:** each area's README, the [Development Register](DEVELOPMENT-VERIFICATION-REGISTER.md), [working ownership register](CANONICAL-OWNERSHIP-REGISTER.md) and historical pilot index agree on paths, IDs, development state, source reviews and current counts.
 4. **Mechanical validation:** internal Markdown targets, heading fragments, candidate IDs, source/boundary register uniqueness and pilot development-state consistency.
-5. **A concise completion report:** what changed, what passed, what is still unverified and which higher-level approvals remain open.
+5. **A concise completion report:** what changed, what passed, what is still unverified and which higher-level approvals remain open. Cite the actual working-area article rather than its historical pilot redirect whenever possible.
 
 When a local checkout is available, run from repository root:
 
@@ -234,7 +240,7 @@ These scripts discover the current inventory instead of enforcing a permanent su
 
 **When reconciling:** Treat approved architecture decisions and current real article files as higher-confidence evidence than an older audit snapshot. Correct stale claims in active navigation/plans as needed; preserve original audit reports as dated evidence, or add a dated clarification instead of silently rewriting history.
 
-**When reporting:** Say exactly **what was changed**, **where**, **what checks passed**, and **what is unknown or still proposed**. Include direct links to actual committed GitHub files and passing run evidence. Never say “complete” without naming the scope of completion. Do not claim peer review, full verification, or final publication just because an AI reviewed a batch.
+**When reporting:** Say exactly **what was changed**, **where**, **what checks passed**, and **what is unknown or still proposed**. The presence of a working area directory is not the ratification of its semantic scope. Include direct links to actual committed GitHub files and passing run evidence. Never say “complete” without naming the scope of completion. Do not claim peer review, full verification, or final publication just because an AI reviewed a batch.
 
 **Operating priority:** prefer substantive new knowledge, model-grounded corrections, defensible ownership boundaries, coverage-gap closure and inspectable evidence over decorative documents or metric inflation. When a better route becomes evident, redirect transparently while preserving user-approved constraints.
 
@@ -242,7 +248,7 @@ These scripts discover the current inventory instead of enforcing a permanent su
 
 On entering this subtree:
 
-1. Read [this division's README](README.md), [architecture](ARCHITECTURE.md), [working inventory](SUBJECT-INVENTORY-PROPOSAL.md), [development plan](DEVELOPMENT-PLAN.md), and [pilot register](pilots/README.md).
+1. Read [this division's README](README.md), [architecture](ARCHITECTURE.md), [working inventory](SUBJECT-INVENTORY-PROPOSAL.md), [development register](DEVELOPMENT-VERIFICATION-REGISTER.md), [provisional ownership register](CANONICAL-OWNERSHIP-REGISTER.md), and the relevant area README. The [pilot register](pilots/README.md) is historical.
 2. Check [the latest coverage review](COVERAGE-AND-GAPS-REVIEW-03.md), [model crosswalk](ESTABLISHED-MODEL-CROSSWALK.md), [ownership boundaries](OWNERSHIP-BOUNDARIES.md), and [architecture adjudication](ARCHITECTURE-ADJUDICATION-02.md).
 3. Compare candidate content with actual [Fundamentals](../fundamentals/README.md) and [Operational Foundations](../operational-foundations/README.md) definitions before asserting a new canonical owner.
 4. Identify one high-value gap or review batch, determine whether it is **source deficiency**, **technical depth**, **ownership** or **truly new concept**.
