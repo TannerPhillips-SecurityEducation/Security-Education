@@ -1,7 +1,7 @@
 # Wave G | Established Frameworks, Models & Architectures: Depth Audit 01
 
 **Audit date:** November 18, 2026  
-**Scope:** Thirteen existing Fundamentals articles across eight approved knowledge areas, revised after the [77-name model-diagnostic pass](FOUNDATIONAL-MODELS-FRAMEWORKS-ARCHITECTURES-AUDIT-01.md) and [adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md).  
+**Scope:** Thirteen existing Fundamentals articles across seven approved knowledge areas, revised after the [77-name model-diagnostic pass](FOUNDATIONAL-MODELS-FRAMEWORKS-ARCHITECTURES-AUDIT-01.md) and [adjudication](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md).  
 **Review method:** Reopened the canonical GitHub articles; examined model definitions and primary reference summaries from ISO, IETF, OMG, BIPM/JCGM, W3C, MIT, the FAA, UK HSE and engineering references; checked three material claim families per revised article, recomputed quantitative illustrations and reviewed canonical ownership. The FAA report's signal-detection matrix and the Gilbert/Lynch CAP exposition were also inspected as PDF page images.  
 **Outcome:** **39 material claim families across 13 article revisions pass the bounded model-assisted review.** The model-assisted Reviewed status of these articles remains supported within this new scope, with existing review histories retained separately.
 
@@ -161,7 +161,7 @@ This review is **not** complete ISO/OMG standard clause verification, exhaustive
 | Saturating ideal proportional controller | Kp·e=2·3=6, output capped at 5 | Command 6, physical modeled input at most 5; no plant-stability inference |
 | Ideal heat-transfer rate | 500 W / (1000 J/K) | **0.5 K/s** maximum in lossless lumped model, not measured temperature |
 | Customer/order join grain | 3 matching orders for C1 plus 1 for C2 | **4 matched rows, 2 distinct customer IDs**, contingent on unique order keys |
-| Two-way illustrative system-provenance relationship | Used(R,C); WasGeneratedBy(N,C); WasDerivedFrom(N,R) | Distinct PROV claims; generation and use need not universally establish derivation |
+| Three distinct illustrated PROV assertions | Used(R,C); WasGeneratedBy(N,C); WasDerivedFrom(N,R) | Distinct PROV claims; generation and use need not universally establish derivation |
 
 The engineering/measurement/decision values are hypothetical; their exact arithmetic does not establish the proposed model's empirical validity.
 
@@ -183,7 +183,7 @@ The engineering/measurement/decision values are hypothetical; their exact arithm
 2. **Model identity:** ISO 42010:2022 and ISO 15288:2023 have distinct scopes; OMG UML 2.5.1 and SysML v1/v2 should not be conflated; the original MIT Petri-net material was used for conceptual comparison, not proof of full model-checker semantics.
 3. **PDF/authority checks:** The FAA 2007 report's printed page 8 supports the SDT matrix and criterion discussion. MIT's CAP review supports atomic-consistency and eventual-response definitions within its system model. Neither source should be generalized into an empirical claim about unrelated environments.
 4. **Source limits:** Some full ISO standards and referenced original papers may be licensed or incompletely accessible. Primary publisher abstracts and reference landing pages were used for scope where the full text was not available. The audit does not claim exhaustive normative compliance checks.
-5. **Portfolio:** The twelve-area, **116-subject** inventory remains unchanged. All 116 retain a **Reviewed (model-assisted)** development state and a separate **Core claims checked** source-review state. No new Known Checks, Practical Assessments, mandatory platform or graph schema introduced.
+5. **Portfolio:** The twelve-area, **116-subject** inventory remains unchanged. All 116 retain a **Reviewed (model-assisted)** development state and a separate **Core claims checked** source-review state. No Knowledge Checks, Practical Assessments, mandatory platform or graph schema introduced.
 6. **Outstanding publication work:** Full claim-to-passage verification, external link/fragment freshness, semantic relationship consistency across the corpus, seven-domain adequacy and qualified human expert acceptance.
 
 ## Reproducible checks
