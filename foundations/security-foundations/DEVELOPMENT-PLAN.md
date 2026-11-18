@@ -40,6 +40,8 @@ The subject inventory is a **candidate discovery and coverage instrument**, not 
 
 **Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain traceable. **Fourteen currently Reviewed pilots out of 96 working candidate subjects is a manuscript coverage indicator, not a percentage of architectural approval.** Pilot completion does not change the candidate count without a separately recorded conceptual decision.
 
+**Next source-led scope priorities:** [Coverage & Gaps Review 03](COVERAGE-AND-GAPS-REVIEW-03.md) identifies remaining piloting and content-depth work, especially recovery objectives, side/covert channels, evidence/attribution limits, compliance versus effectiveness, cryptographic key lifecycle and harm. It **does not** change either proposed count or claim ratification.
+
 ## 3. Engineering workstreams
 
 ### Workstream A: Scope approval, established-model reconciliation and canonical ownership
