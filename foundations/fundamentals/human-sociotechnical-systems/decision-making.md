@@ -59,6 +59,16 @@ Option A has the lower **expected cost in this toy model**. That arithmetic does
 
 The parameters are invented; neither option describes a real product or incident.
 
+## Decision thresholds, evidence and asymmetric consequences
+
+A decision rule under uncertainty combines **information about the condition**, **action alternatives**, **objectives**, and **relative consequences**. Changing the required evidence threshold is not the same as changing the underlying ability to distinguish conditions.
+
+In signal detection theory, a more permissive threshold can increase the hit rate and false alarm rate simultaneously; a more restrictive threshold can reduce both hit rate and false alarm rate. [Human Cognition and Perception](human-cognition-and-perception.md) owns the perceptual discrimination model, while this article owns **how action criteria reflect objectives and consequences**.
+
+**Worked illustration:** Under a stipulated model, acting on a false alarm costs 2 units, failing to act when a true hazard is present costs 20, and the probability of the hazard given current information is p. If doing nothing costs 20p and acting costs 2(1−p), then acting has lower expected loss when 2(1−p)<20p, or **p>1/11 ≈ 0.0909**. This is a *toy* two-action expected-loss model; it omits action cost during true hazards, additional harms, prior decisions, delayed effects and estimation uncertainty. The numerical threshold is **not** a recommended alarm policy.
+
+The model illustrates why a decision can be justified under a specific preference/risk representation while its outcome remains unfavorable, and why avoiding all false alarms is not the same as choosing the safest decision rule.
+
 ## Decision quality and outcome quality
 
 A defensible choice can produce an unfavorable result because of genuine uncertainty, while a poorly grounded choice can appear successful by chance. **Outcome quality and decision-process quality must be assessed separately**.
@@ -76,6 +86,9 @@ A decision log should preserve the original information set, not rewrite the pas
 [Collaboration and Communication](collaboration-and-communication.md) owns how alternatives and rationale move between people. [Organizational Structures](organizational-structures.md) owns roles and authority. [Requirements](../systems-engineering/requirements.md) owns specified system needs, not the entire psychology of choosing among them.
 
 ### Sources
+
+- [FAA Human Factors Analysis of Safety Alerts, Signal Detection Theory, 2007](https://hf.tc.faa.gov/publications/2007-human-factors-analysis/full_text.pdf).
+
 
 - [APA Dictionary: Heuristic](https://dictionary.apa.org/heuristic).
 - [APA Dictionary: Availability Heuristic](https://dictionary.apa.org/availability-heuristic).
