@@ -2,14 +2,14 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All 11 approved subjects authored and Reviewed (model-assisted); independent human and final publication acceptance pending  
+**Content status:** 11 canonical articles Reviewed (model-assisted) + 1 additional subjects Inventoried (no articles); none Published.
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
 
 General principles for describing, designing, operating, verifying, and understanding composed systems and their behavior.
 
-## Approved Subject Inventory
+## Subject Inventory (versioned)
 
 - Systems and subsystems
 - Components and interfaces
@@ -22,6 +22,7 @@ General principles for describing, designing, operating, verifying, and understa
 - Requirements
 - Verification and validation
 - System lifecycle
+- Queueing and service-system models
 
 ## Content Development
 
@@ -44,6 +45,11 @@ This area is a **navigation discipline**. These eleven names are the already app
 | Requirements | [Requirements](requirements.md) | Reviewed (model-assisted) |
 | Verification and validation | [Verification and Validation](verification-and-validation.md) | Reviewed (model-assisted) |
 | System lifecycle | [System Lifecycle](system-lifecycle.md) | Reviewed (model-assisted) |
+
+| Queueing and service-system models | Article not yet authored; [scope decision](../COVERAGE-AND-SOURCE-TRIAGE-02.md) | **Inventoried** |
+
+
+**Coverage Triage 02 (November 18, 2026):** F-11-12 Queueing and service-system models is newly Inventoried under the [source-grounded gap disposition](../COVERAGE-AND-SOURCE-TRIAGE-02.md). The previously Reviewed 11 articles keep their historical review states. New subject content, source validation and review remain pending; no new knowledge area or implementation-specific mandate was introduced.
 
 The [six-pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) covers Systems and Subsystems; the [Wave B Batch 03 technical audit](../WAVE-B-TECHNICAL-REVIEW-03.md) covers the following four articles. Batch 04 has passed its [36-family technical review](../WAVE-B-TECHNICAL-REVIEW-04.md). `Reviewed (model-assisted)` is not the same as independently human peer-reviewed, completely Verified, or finally Published.
 
