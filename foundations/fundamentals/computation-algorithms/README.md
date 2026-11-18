@@ -2,14 +2,14 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All nine approved subjects authored, 9 Reviewed (model-assisted), 0 Draft; independent expert review and final publication acceptance pending  
+**Content status:** 9 legacy articles Reviewed (model-assisted); 2 additional headings Inventoried, not authored; no subject Published
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
 
 How problems are formulated as computations, how algorithms operate, and how their behavior and efficiency can be evaluated.
 
-## Approved Subject Inventory
+## Subject Inventory (versioned)
 
 - Computability
 - Algorithms
@@ -20,6 +20,11 @@ How problems are formulated as computations, how algorithms operate, and how the
 - Concurrency and parallelism
 - Synchronization
 - Computational efficiency
+
+**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 2 headings are **Inventoried**, not yet authored, Reviewed, Verified or Published. These expand the original 9-heading article snapshot; the area now tracks **11 headings**.
+
+- **Artificial intelligence foundations** (Inventoried; article pending)
+- **Machine learning foundations** (Inventoried; article pending)
 
 ## Canonical reference articles
 
@@ -35,7 +40,12 @@ How problems are formulated as computations, how algorithms operate, and how the
 | Synchronization | [Synchronization](synchronization.md) | Reviewed (model-assisted) |
 | Computational efficiency | [Computational efficiency](computational-efficiency.md) | Reviewed (model-assisted) |
 
+| Artificial intelligence foundations | Article pending (no canonical file yet) | **Inventoried** |
+| Machine learning foundations | Article pending (no canonical file yet) | **Inventoried** |
+
 ## Development and canonical boundaries
+**Current inventory reconciliation (November 18, 2026):** **11 tracked headings = 9 previously Reviewed articles + 2 newly Inventoried subjects**. The historical 9/9 internal review statements below apply only to those existing articles. The additional subject headings are not yet canonical reference articles and do not inherit prior Wave review outcomes.
+
 
 **All 9/9 approved subjects have substantive articles.** Every article passed the [Wave D Batch 01](../WAVE-D-TECHNICAL-REVIEW-01.md) or [Wave D Batch 02](../WAVE-D-TECHNICAL-REVIEW-02.md) scoped model-assisted audit. All nine are internally Reviewed, with source state Core claims checked.
 
