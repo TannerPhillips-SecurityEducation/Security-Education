@@ -62,6 +62,8 @@ The planning IDs here are references for **this document only**; they are not pr
 
 ## 2A. Version and source-fidelity notes
 
+- [RFC 9846 (July 2026)](https://www.rfc-editor.org/info/rfc9846/) **obsoletes RFC 8446** as the current TLS 1.3 specification. Its continued 0-RTT anti-replay caveats and updated key-share rules are relevant to cryptographic composition; historical RFC 8446 citations must be labeled superseded.
+
 **As of November 18, 2026:** NIST SP 800-53 has Release 5.2.0 (August 2025). NIST SP 800-63 Rev. 4 was finalized in July 2025. NIST SP 800-162's `upd2` URL reflects updates published in August 2019, **not a separately numbered Revision 2**. NIST SP 800-38D remains the published GCM reference with a notice of planned revision. NIST SP 800-227 (2025) supplies final KEM guidance, and FIPS 203, 204 and 205 have distinct encapsulation/signature purposes.
 
 The original twenty references remain R-01 through R-20. **Six supplemental source groups R-21 through R-26** extend this source map; the four new active candidate IDs are defined in [Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md). The earlier two consolidated IDs remain historically traceable. Standards scope and publisher metadata have been inspected, but full proofs and standards clauses have not been independently validated.
