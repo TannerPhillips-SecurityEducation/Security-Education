@@ -1,6 +1,6 @@
 # Security Foundations: Established Models, Frameworks, and Evidence Crosswalk
 
-**Working edition:** v0.2 · November 18, 2026  
+**Working edition:** v0.3 · November 18, 2026  
 **Status:** Research-backed **architectural review aid**, not ratification of the Security Foundations taxonomy or model choices.  
 **Input inventory:** [12 candidate areas / 96 active candidate subjects (v0.3)](SUBJECT-INVENTORY-PROPOSAL.md); historical 94-ID snapshot in Git.  
 **Purpose:** Derive concept coverage and boundaries from existing security scholarship and primary technical references instead of inventing an independent security theory.
@@ -60,7 +60,18 @@ The planning IDs here are references for **this document only**; they are not pr
 | R-25 Common Criteria ISO/IEC 15408:2026 | IT-product security evaluation criteria | Target of Evaluation, protection profiles, security targets, functionality and assurance criteria | SF-12-01–03; SF-08-01 | [ISO/IEC 15408-1:2026](https://www.iso.org/standard/15408-1). Evaluation scope and measured properties condition any claim about security |
 | R-26 NIST post-quantum cryptography standards | Cryptographic algorithms and migration references | FIPS 203 ML-KEM key establishment, FIPS 204 ML-DSA and FIPS 205 SLH-DSA signature families, and key lifecycle constraints | SF-09-05–07/09 | [FIPS 203](https://csrc.nist.gov/pubs/fips/203/final), [FIPS 204](https://csrc.nist.gov/pubs/fips/204/final), [FIPS 205](https://csrc.nist.gov/pubs/fips/205/final), [SP 800-227](https://csrc.nist.gov/pubs/sp/800/227/final). KEMs and signature algorithms have different purposes |
 
+| R-27 NIST Privacy Framework 1.0 and PF 1.1 draft | Voluntary privacy-risk management outcome framework | Harm from data processing, including authorized processing with adverse impacts on individuals; privacy is not only confidentiality | SF-01-08; SF-02-05/07; SF-12-08 | [PF 1.0 final (2020)](https://csrc.nist.gov/pubs/cswp/10/nist-privacy-framework-version-10/final); [1.1 project status](https://www.nist.gov/privacy-framework/new-projects/privacy-framework-version-11). **PF 1.1's 2025 IPD is not a final edition** |
+| R-28 ISO/IEC Guide 51 and IEC 61508-1 | Safety engineering concepts and functional-safety standard | Safety, intolerable risk of harm, safety functions and safety-related programmable systems, distinct from CIA and ordinary uptime | SF-01-08; SF-02-05; SF-11-04; SF-12-08 | [ISO/IEC Guide 51:2014](https://www.iso.org/standard/53940.html) confirmed in 2025; [IEC 61508-1:2010](https://webstore.iec.ch/en/publication/5515) current valid edition alongside 2026 pre-release work. These are not general cybersecurity definitions |
+| R-29 NIST SP 800-34 Rev. 1 | Contingency planning and recovery-objective reference | RTO, RPO, MTD and system-specific recovery requirements, which describe different time/data objectives | SF-11-04/07; SF-02-04; SF-05-01 | [NIST SP 800-34 Rev. 1 (2010)](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final), [NIST RPO glossary](https://csrc.nist.gov/glossary/term/recovery_point_objective). Concepts aid foundational distinctions; planning workflows remain in Operational Foundations |
+| R-30 NIST SP 800-61 Rev. 3 (2025) | Operational incident-response / cybersecurity risk-management guidance | Incident response recommendations across preparation, detection, response and recovery aligned to NIST CSF 2.0 | SF-11-01/04; SF-10-04/08; Operational Foundations | [NIST SP 800-61 Rev. 3 final (April 2025)](https://csrc.nist.gov/pubs/sp/800/61/r3/final). Supersedes Rev. 2, but **incident-response workflows are operational**, not an alternative conceptual taxonomy of compromise |
+
 ## 2A. Version and source-fidelity notes
+
+- **2026 source update:** The [NIST Privacy Framework 1.0 (2020)](https://csrc.nist.gov/pubs/cswp/10/nist-privacy-framework-version-10/final) is a final publication. The [Privacy Framework 1.1 project page](https://www.nist.gov/privacy-framework/new-projects/privacy-framework-version-11) still identifies an **Initial Public Draft**, not a published final version. Its concepts may inform comparison but should not be cited as a final normative edition.
+- **Safety version:** [ISO/IEC Guide 51:2014](https://www.iso.org/standard/53940.html) was confirmed current in 2025; the IEC webstore identifies [IEC 61508-1:2010](https://webstore.iec.ch/en/publication/5515) as a valid edition with a 2026 edition preview. Do not treat a preview as the mandatory edition for evaluated products.
+- **Operational boundary:** [NIST SP 800-61r3 (2025)](https://csrc.nist.gov/pubs/sp/800/61/r3/final) supersedes Rev. 2 and concerns incident-response practices. **NIST SP 800-160v2r1** describes resilience goals, not a four-step response workflow; NIST SP 800-34r1 distinguishes RTO/RPO/MTD.
+- **Source-group count:** R-27 through R-30 are four supplemental source groups for privacy, safety and resilience/incident boundaries; the register now has **30 groups**, not a fixed target or proof of full model coverage.
+
 
 - [ISO/IEC 15408-1:2026 (fifth edition, May 2026)](https://www.iso.org/standard/15408-1) **supersedes ISO/IEC 15408-1:2022**. The Common Criteria portal still publishes CC:2022 Revision 1; cite it explicitly as that version rather than representing it as the current ISO Part 1 edition.
 
