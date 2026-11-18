@@ -2,7 +2,7 @@
 
 **Audit date:** November 17, 2026  
 **Repository:** [Security-Education](https://github.com/TannerPhillips-SecurityEducation/Security-Education)  
-**Scope:** All canonical Fundamentals articles, twelve approved area indexes and root-level Fundamentals Markdown governance/review files on the repository default branch.  
+**Scope:** Pre-audit repository snapshot: all canonical Fundamentals articles, twelve approved area indexes and 31 existing root-level Fundamentals Markdown governance/review files on the default branch. This report was created **after** that snapshot, so it is not included in the 152-file denominator.  
 **Status:** **Internal inventory and relative Markdown file-target integrity checks pass within scope**. This is a **preliminary publication-readiness audit**, not acceptance under all seven publication gates, a completed source audit or qualified independent human peer review.
 
 ## 1. Verified inventory
@@ -31,7 +31,7 @@ The [Canonical Ownership Register v1.13](CANONICAL-OWNERSHIP-REGISTER.md) has **
 | 31 root Fundamentals Markdown files | 31 | **1,045** | **0** |
 | **Total** | **152** | **2,681** | **0** |
 
-Counting method: Examine Markdown inline links of the form `[text](target)` (and inline image variants), skip external HTTP(S), mail and data URLs, resolve relative paths against their source directories, normalize `.` and `..` segments, and match destination paths to the GitHub repository tree. Links with an anchor but no file path are resolved to the **source file**, not to its directory. This is **file-target integrity**, not a full parser-based semantic link review.
+Counting method: Examine standard inline Markdown links and image references, skip external HTTP(S), mail and data URLs, resolve relative paths against their source directories, normalize dot and parent-directory segments, and match destination paths to the GitHub repository tree. Links with an anchor but no file path are resolved to the **source file**, not to its directory. This is **file-target integrity**, not a complete Markdown-compiler or semantic relationship audit; for example, the lightweight matcher does not fully parse reference-style links, HTML links or every code-span edge case.
 
 ### Relative link results by approved knowledge area
 
