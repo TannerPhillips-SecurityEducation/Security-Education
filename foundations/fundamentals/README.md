@@ -5,6 +5,10 @@
 
 Fundamentals establishes domain-agnostic concepts, structures, principles, and mechanisms needed to understand technical systems and their behavior. It supports the seven specialized knowledge domains without making any one technology, vendor, or security practice the organizing principle.
 
+## Contributor and Agent Operating Contract
+
+[**AGENTS.md: Fundamentals Editorial & Engineering Contract**](AGENTS.md) applies across the Fundamentals directory. It records the approved scope, canonical ownership, living-inventory policy, model/source validation, article development, independent review gates and current GitHub checks. It is aligned in structure with the tailored [Security Foundations](../security-foundations/AGENTS.md) and [Operational Foundations](../operational-foundations/AGENTS.md) contracts; it introduces no new taxonomy or publication approval.
+
 ## Governing Architecture
 
 [**Fundamentals: Governing Knowledge Architecture**](ARCHITECTURE.md) defines the approved four requirements:
