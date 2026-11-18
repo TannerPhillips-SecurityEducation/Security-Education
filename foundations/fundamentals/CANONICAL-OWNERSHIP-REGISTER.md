@@ -4,6 +4,8 @@
 
 This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
 
+**Living-inventory clarification (November 18, 2026):** The 109 approved headings and direct article links recorded here are the **versioned historical/current snapshot**, not an immutable total. A model-grounded [frameworks/models/architectures audit](FOUNDATIONAL-MODELS-FRAMEWORKS-ARCHITECTURES-AUDIT-01.md) identifies candidates for new subjects, deeper existing scopes, and possible consolidation. No subject is added or retired by that report. Future adopted changes must maintain historical ID/heading traceability and revise this register's counts and cross-links.
+
 ## Reading this register
 
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
