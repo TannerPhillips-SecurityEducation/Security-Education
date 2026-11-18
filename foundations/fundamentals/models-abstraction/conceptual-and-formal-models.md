@@ -68,6 +68,24 @@ This illustrates a **conditional modeling guarantee**, not a general theorem tha
 
 These are **illustrative forms**, not newly approved ontology classes. A model can combine several forms. Formality concerns precise syntax/semantics, while execution is a separate property; not all formal models are executable.
 
+## Established modeling languages and behavioral formalisms
+
+The language chosen to express a model is not the model's target or proof that the target behaves as described. Several established representations illustrate different modeling commitments:
+
+| Representation | Basic structure and intended use | Boundary |
+| --- | --- | --- |
+| Finite-state transition system | A set of states, initial states and a transition relation; useful for reachability and invariant questions | State abstraction may omit time, probability and physically continuous behavior |
+| Petri net | Places, transitions, directed arcs and token markings; useful for reasoning about concurrent enabling, firing and resource dependencies | A marking/firing rule needs explicit arc weights and firing semantics; it is not an empirical execution trace |
+| UML | Object Management Group (OMG) Unified Modeling Language for selected software/system structural and behavioral views | A class diagram, activity diagram and state machine emphasize different information; drawing one does not establish correctness |
+| SysML | OMG Systems Modeling Language for system requirements, structure and behavior across hardware, software and other system constituents | A SysML model is not automatically a verified implementation; version 1 and version 2 have substantially different language foundations |
+| Formal specification / model checker | Formalized state and behavior plus properties checked under a chosen semantics | Model-checker success pertains to the model and checked properties, not all real-world behavior |
+
+For a simple Petri net with one token in place READY, a transition can consume that token and produce one in DONE when enabled. This represents an ordering/resource condition distinct from a general finite-state-machine edge, but neither representation is intrinsically "more true" about a real process. The choice depends on the questions to be answered.
+
+The OMG [UML 2.5.1 specification](https://www.omg.org/spec/UML/2.5.1/) defines one standardized modeling language. OMG [SysML documentation](https://www.omg.org/sysml/) reports both version 1 and the version 2 family, whose 2025 final adoption introduced KerML and systems-modeling API foundations. Not every SysML or UML diagram kind is a separate ontology or Fundamentals subject.
+
+An **architectural view** is a representation selected to address specific concerns; a modeling language can express a view without determining the architecture itself. [Architecture and Composition](../systems-engineering/architecture-and-composition.md) owns the general architecture/description distinction, while [State, Events, and Transitions](state-events-and-transitions.md) owns state/event vocabulary. [Temporal Concepts and Models](temporal-concepts-and-models.md) owns general time and temporal-order descriptions.
+
 ## Verification versus empirical validation
 
 **Formal verification** asks whether a property follows from a formal representation under declared assumptions. **Empirical validation** asks whether the representation or derived predictions are adequately supported for an intended real-world purpose. **Engineering verification and validation** evaluate requirements and intended use of an engineered system. These activities intersect but are not synonyms.
@@ -81,6 +99,11 @@ A verified model can accurately prove a property that is irrelevant to stakehold
 This article does not resolve general temporality [G-04](../COVERAGE-GAP-DECISIONS.md#g-04-time-temporality-clocks), the mathematical breadth decision G-01, or the AI/ML decision G-06. It introduces no mandated formal language, model checker, simulation engine, or additional subject heading.
 
 ### Sources
+
+- [OMG: Unified Modeling Language 2.5.1 specification](https://www.omg.org/spec/UML/2.5.1/).
+- [OMG: Systems Modeling Language and SysML v2](https://www.omg.org/sysml/).
+- [MIT LCS: Petri Net definition and execution concepts](https://publications.csail.mit.edu/lcs/pubs/pdf/MIT-LCS-TR-094.pdf).
+
 
 - [Stanford Encyclopedia of Philosophy: Models in Science](https://plato.stanford.edu/entries/models-science/).
 - [NASA: Fundamentals of Systems Engineering](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/).
