@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Computation & Algorithms](README.md)  
 **Approved subject heading:** Algorithms  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Batch 01 audit](../WAVE-D-TECHNICAL-REVIEW-01.md); independent human expert review pending
 
 ## An algorithm specifies a procedure, not its implementation language
 
@@ -83,6 +83,6 @@ No programming language, code runner, vendor environment, grading or learner ass
 - [MIT OCW 6.006: Lecture 1, Introduction](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-videos/lecture-1-introduction/).
 - [MIT OCW 6.046J: Design and Analysis of Algorithms](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/).
 
-**Editorial status:** Substantive Draft with an original linear-search example. Formal correctness and source references require a separate scoped technical review before Reviewed status.
+**Editorial status:** Reviewed (model-assisted) following the [Wave D Batch 01 24-family technical audit](../WAVE-D-TECHNICAL-REVIEW-01.md). Complete source verification, independent expert peer review and final publication approval remain separate outstanding gates.
 
 [Computation & Algorithms](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
