@@ -4,6 +4,10 @@
 
 This domain follows **Domain → Function → Implementation**. Functions establish primary navigation. Specific implementations may be documented under their canonical function when approved.
 
+## Contributor and Agent Contract
+
+[**AGENTS.md: Identity Knowledge Editorial & Engineering Contract**](AGENTS.md) applies to this directory and its descendants. It inherits the [root SOP](../AGENTS.md) and tailors its thirteen operating sections to **Identity & Access Function**, including proofing, credentials, authorization, federation and trust. Function-first navigation is preserved; deeper subject/implementation structures and article counts remain flexible and are **not automatically approved** by this contract.
+
 ## Functions (Primary Navigation)
 
 - [Identity Registration & Proofing](identity-registration-proofing/README.md)
