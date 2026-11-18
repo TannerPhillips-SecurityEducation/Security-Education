@@ -98,6 +98,7 @@ This article does not prescribe a programming language, optimization library, co
 - [MIT 6.046J: Design and Analysis of Algorithms](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/).
 - [MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/).
 - [MIT 6.046J: Lecture Videos](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/pages/lecture-videos/).
+- [MIT 6.046J: Syllabus and course outcomes](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/pages/syllabus/).
 
 **Editorial status:** Substantive Draft. The greedy counterexample, recurrence and proof claims require a separate scoped technical/source audit. No Knowledge Checks or Practical Assessments are included.
 
