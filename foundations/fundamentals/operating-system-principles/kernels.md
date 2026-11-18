@@ -55,7 +55,7 @@ The kernel is not synonymous with an operating system, an ISA, a bootloader, a f
 ### Sources
 
 - [MIT 6.1810 Operating System Engineering, Fall 2026](https://pdos.csail.mit.edu/6.S081/2026/schedule.html).
-- [MIT 6.1810 OS overview](https://pdos.lcs.mit.edu/6.828/2026/overview.html).
+- [MIT 6.1810 OS overview](https://pdos.csail.mit.edu/6.S081/2026/overview.html).
 - [Operating Systems: Three Easy Pieces, official chapter index](https://research.cs.wisc.edu/wind/OSTEP/).
 
 **Editorial status:** Substantive Draft. Architecture and privilege-boundary claims require a separately documented technical/source audit. No OS implementation, security product, or learner assessment is mandated.
