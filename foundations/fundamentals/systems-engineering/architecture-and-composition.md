@@ -47,6 +47,27 @@ These are useful **illustrative views**, not five additional knowledge areas or 
 
 NASA's [Logical Decomposition](https://www.nasa.gov/reference/4-3-logical-decomposition/) emphasizes functional analysis, requirements allocation, interfaces, and iterations across architectural alternatives.
 
+## Architecture, descriptions, views and viewpoints
+
+**An architecture is not an architecture description.** Architecture concerns the fundamental concepts or properties of a system or other entity in its environment, embodied in elements, relationships and organizing principles. An **architecture description** is a work product expressing that architecture from selected concerns and viewpoints. A successful diagram can be a valid part of a description while still omitting critical system properties.
+
+[ISO/IEC/IEEE 42010:2022](https://www.iso.org/standard/74393.html) specifies requirements for *architecture descriptions* and supporting architectural concepts. It explicitly does **not** prescribe a particular architecting method, model, notation, tool or format, nor does it specify an architecture for the entity of interest.
+
+| Concept | What it contributes |
+| --- | --- |
+| Entity of interest | The system, product, enterprise, service, or other subject whose architecture is considered |
+| Stakeholder | A party with relevant interests in the entity |
+| Concern | An interest relevant to stakeholders, such as behavior, resource use, interoperability or safety |
+| Viewpoint | Conventions for constructing and interpreting a view addressing one or more concerns |
+| View | The resulting architectural representation for selected concerns |
+| Model kind | Conventions and semantics for a class of architecture models |
+
+A **viewpoint** is not a completed view, and a **model kind** is not a universal architectural level. A logical, physical, operational and information view may overlap or require reconciliation. If a capacity concern appears in one view and a conflicting interface limit appears in another, the combined description requires consistency assessment rather than arbitrary choice of a favored diagram.
+
+**Worked illustration:** For a heating system, one model can show sensor → controller → heater interactions; another shows installation and wiring; a third describes temperature and safety timing requirements. A diagram proving the heater is connected does not prove the control loop meets those timing requirements. Verification needs specific claims, evidence and assumptions.
+
+[Conceptual and Formal Models](../models-abstraction/conceptual-and-formal-models.md) owns modeling-language semantics; this article owns **architectural composition and the distinction between architecture, concerns and descriptions**.
+
 ## Architecture constrains possible compositions
 
 Architecture can impose **allocation**, **interaction**, **capacity**, **resource**, **safety**, **performance**, or **lifecycle** constraints. It may also express conventions such as separation of concerns, redundancy, modular replacement, or controlled shared services.
@@ -89,6 +110,9 @@ Architectural descriptions must identify the relevant **system of interest**, bo
 This reference does not prescribe a particular architecture-description language, vendor product, design pattern, or formal ontology. [Dependencies](dependencies.md) develops necessary relationships and propagation; [State and Behavior](state-and-behavior.md) develops permitted behavior of integrated systems. Architecture uses these concepts without absorbing their definitions.
 
 ### Sources
+
+- [ISO/IEC/IEEE 42010:2022: Architecture Description (scope and requirements)](https://www.iso.org/standard/74393.html).
+
 
 - [NASA: Fundamentals of Systems Engineering](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/).
 - [NASA: Logical Decomposition](https://www.nasa.gov/reference/4-3-logical-decomposition/).
