@@ -59,7 +59,7 @@ For an input of length `n≥0`, the example examines at most `n` elements and th
 
 If every comparison has constant cost, worst-case comparison count is `n`, with a successful match in the first position requiring one comparison for nonempty inputs. Exact wall time depends on data representation, memory access and implementation.
 
-[Complexity](complexity.md) owns asymptotic growth analysis, while [Computational Efficiency](README.md) will own engineering efficiency and practical resource tradeoffs. A count of abstract comparisons is not a measured CPU duration.
+[Complexity](complexity.md) owns asymptotic growth analysis, while [Computational Efficiency](computational-efficiency.md) will own engineering efficiency and practical resource tradeoffs. A count of abstract comparisons is not a measured CPU duration.
 
 ## Correctness, proofs, and tests
 
