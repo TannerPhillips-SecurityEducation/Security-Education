@@ -1,9 +1,9 @@
 # Security Foundations: Governing Architecture Proposal
 
-**Edition:** v0.3 · November 18, 2026  
-**Status:** **Proposed; not ratified**  
+**Edition:** v0.4 · November 18, 2026  
+**Status:** **Fundamentals-style directory organization adopted by explicit user direction**; exact security area/subject taxonomy **proposed and not ratified**  
 **Approved parent:** Security Knowledge → Foundations → Security Foundations  
-**Current working inventory:** [12 proposed knowledge areas and 96 active candidate subjects (v0.3)](SUBJECT-INVENTORY-PROPOSAL.md); neither count is fixed, and both remain pending architectural approval  
+**Current working inventory:** [12 provisional knowledge-area directories and 96 candidate subjects](SUBJECT-INVENTORY-PROPOSAL.md), both flexible. Actual working area files, IDs and statuses are in the [Development Register](DEVELOPMENT-VERIFICATION-REGISTER.md). Directory pattern adopted; final semantic taxonomy approval remains open.  
 **Repository constraints:** Hierarchy for navigation; knowledge graph through explicit links; no formal graph schema adopted; no Knowledge Checks or Practical Assessments.
 
 ## 1. Governing definition (proposed)
@@ -146,15 +146,21 @@ MITRE ATT&CK describes observed adversary behavior; CWE describes weakness class
 
 No Knowledge Checks, Practical Assessments, quizzes, graded labs or certification tracks. Proposed headings, relation types, source authority rules, state vocabularies and technical architecture changes are not approved merely by being placed in Markdown.
 
+## 4B. Adopting the Fundamentals structural baseline
+
+The repository owner explicitly selected **uniform directory organization while preserving knowledge-specific content**. [Adjudication 03](AREA-STRUCTURE-ADJUDICATION-03.md) applies the same **division → knowledge area → area `README.md` → substantive subject articles** pattern as Fundamentals. Area directories currently host fourteen reviewed working articles, while unpiloted concepts are visible as Inventoried entries in area indexes. This *structural convention* is approved; **the twelve specific area names, memberships and ninety-six current subjects remain working hypotheses, both variable**. No additional article is required merely to make area counts symmetrical.
+
+[Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks all candidates and actual article paths, while the [Working Canonical Ownership Register](CANONICAL-OWNERSHIP-REGISTER.md) records proposed semantic homes. Neither register alone ratifies a formal taxonomy.
+
 ## 5A. Living architecture, consolidation and pilot contract
 
 This architecture is governed as **a hypothesis that must survive source-backed concept comparison**, not as a number to complete. The number and identity of **areas** and **subjects** can independently expand or contract. Proposed divisions/subjects are not automatically approved by editing an index.
 
 The [second source-grounded adjudication](ARCHITECTURE-ADJUDICATION-02.md) consolidated **SF-02-06 into SF-02-05**, split **SF-03-08** responsibilities across **SF-03-03 and SF-10-08**, and added four conceptually distinct candidates **SF-04-08, SF-06-09, SF-08-09, SF-09-09**. The historical IDs are preserved by an explicit mapping rather than reused.
 
-**Pilot rule:** A pilot article may be authored and scoped-reviewed within the approved Security Foundations division **without ratifying a proposed internal navigation tree**. Such drafts live under [pilots](pilots/README.md), state their candidate IDs, identify what evidence supports the material, and mark any uncertain scope. Only a subsequent recorded architectural decision can promote their location or internal hierarchy to an approved canonical subject structure.
+**Working article rule (revised by explicit user direction):** New substantive knowledge articles belong inside the relevant **provisional knowledge-area directory**, adjacent to its `README.md`, following the [Fundamentals baseline](../fundamentals/README.md). The organization is adopted, but the exact area/subject identities and semantic ownership remain unratified. Existing 14 substantive articles have been relocated; former [pilot paths](pilots/README.md) are compatibility aliases, not duplicate bodies. Review status and source-verification level are independent of this relocation; see [Area Structure Adjudication 03](AREA-STRUCTURE-ADJUDICATION-03.md).
 
-**Source authority rule:** Current standards and original papers control claims within their actual scopes. [The expanded 26-source crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) includes authentication and access models, noninterference, leakage mechanisms, cryptographic protocols and evaluations. Cite version/date and distinguish policy models, claims, implemented mechanisms, observed outcomes and operational procedures.
+**Source authority rule:** Current standards and original papers control claims within their actual scopes. [The current 30-source crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) includes authentication and access models, noninterference, leakage mechanisms, cryptographic protocols and evaluations. Cite version/date and distinguish policy models, claims, implemented mechanisms, observed outcomes and operational procedures.
 
 ## 6. Editorial contract for future canonical articles (proposed)
 
@@ -214,7 +220,7 @@ Authoritative source starting points, not blanket endorsement of every proposed 
 
 For a future Security Foundations article where an established model is material, document the model's original purpose, unit of analysis, represented concepts/relations, assumptions, supported security claims, important counterexamples, primary source/version, and explicit non-equivalences with adjacent models. An external model may inform multiple candidate areas; that is a **cross-link**, not duplicate conceptual ownership.
 
-Durable canonical publication depends on ratifying the relevant subject placement. Before ratification, bounded **article pilots** may be authored under [`pilots/`](pilots/README.md) as proposed canonical text without creating unapproved area directories. The [v0.3 inventory](SUBJECT-INVENTORY-PROPOSAL.md) contains four additions and two consolidations and retains the earlier harm/risk, exploitation/compromise and evidence/risk distinctions.
+Durable canonical publication still depends on ratifying the relevant subject placement. **Before that ratification, substantive working articles are authored directly within [the provisional area directories](README.md#working-knowledge-areas), with each area `README.md` listing all candidate subjects and existing articles.** The [historical pilot register](pilots/README.md) preserves old links. The current [working inventory](SUBJECT-INVENTORY-PROPOSAL.md) records four additions and two consolidations from an earlier baseline and remains revisionable.
 
 ## 10. Architectural acceptance boundary
 
