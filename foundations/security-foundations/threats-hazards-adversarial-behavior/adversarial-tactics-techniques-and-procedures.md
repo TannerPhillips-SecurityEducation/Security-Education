@@ -3,7 +3,7 @@
 **Candidate subject:** SF-03-05 · Threats, Hazards & Adversarial Behavior  
 **Working area:** [Threats, Hazards & Adversarial Behavior](README.md) · Approved Fundamentals-style directory pattern; internal area/subject ownership provisional  
 **Artifact type:** Substantive security-knowledge working manuscript, not an accepted permanent canonical publication  
-**Development state:** Draft · **Source-review state:** References listed; official model terminology compared during drafting; separate scoped technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 08](../PILOT-TECHNICAL-REVIEW-08.md), 8 article-specific material claim groups; full source-passage verification and independent expert acceptance pending  
 **Architecture:** [Working candidate inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Coverage review SG-06](../COVERAGE-AND-GAPS-REVIEW-03.md)
 
 ## An objective is not the method, and the method is not an occurrence
@@ -31,7 +31,7 @@ MITRE ATT&CK's [Enterprise introduction](https://attack.mitre.org/resources/ente
 
 A single behavior may serve multiple goals, and an adversary might repeat techniques, skip some, pursue different objectives in parallel, or act through legitimate credentials. A classification of behavior can therefore remain correct without establishing the order of the broader intrusion.
 
-Likewise, an ATT&CK technique may be used through a variety of procedures or technological platforms, and a procedure can include **multiple** techniques. This is explicitly discussed in the [MITRE ATT&CK Design and Philosophy paper, §3.4.1](https://www.mitre.org/sites/default/files/2021-11/prs-19-01075-28-mitre-attack-design-and-philosophy.pdf). This publication is historical source design evidence; the [live ATT&CK catalog](https://attack.mitre.org/) remains subject to release updates, renamed techniques, revised platforms and changing coverage.
+Likewise, an ATT&CK technique may be used through a variety of procedures or technological platforms, and one procedure can include **multiple** techniques. This is stated in the [MITRE ATT&CK Design and Philosophy paper, §3.4.1, printed p. 9 / PDF page index 18](https://www.mitre.org/sites/default/files/2021-11/prs-19-01075-28-mitre-attack-design-and-philosophy.pdf), **visually inspected**. That paper was revised in **March 2020**; it records the model's then-current design, not the complete technique inventory or detection coverage in November 2026. The [live ATT&CK catalog](https://attack.mitre.org/) may rename, deprecate or revise techniques and platforms.
 
 **ATT&CK coverage is evidence-based but not exhaustive**: absence of a technique from a currently examined matrix does not prove an action is impossible or has never occurred. Nor does the existence of a technique in a matrix establish a specific organization's exposure.
 
@@ -62,7 +62,7 @@ An ATT&CK label should be linked to the behavior it describes. It should never f
 
 ## What is a procedure?
 
-A procedure is not simply “the last item in a list.” In ATT&CK, procedures describe **specific observed implementations of behavior** that can include several techniques, tools and environmental choices. A published tool's theoretical capabilities do not establish that a particular actor deployed all of them.
+A procedure is not simply “the last item in a list.” In ATT&CK, procedures describe **specific observed implementations of behavior** that can include several techniques, tools and environmental choices. A published tool's theoretical capabilities do not establish that a particular actor deployed all of them. In ATT&CK, the **Procedure Examples** field documents source-reported observed-in-the-wild uses of techniques; a locally hypothesized procedure is a useful analytic description but should not be presented as a catalog-verified observed procedure without its own evidence.
 
 For a hypothetical, defensive incident record, imagine three observed phenomena:
 1. a new session uses an existing authorized credential;
@@ -75,7 +75,7 @@ The sequence alone does not prove a single malicious procedure. A legitimate adm
 
 ## ATT&CK, CAPEC, and Diamond describe different objects
 
-[MITRE CAPEC](https://capec.mitre.org/about/new_to_capec.html) catalogs **attack patterns**: recurrent abstractions of how certain kinds of attacks can be performed. CAPEC entries can describe prerequisites, mechanisms, consequences, execution-flow concepts and relationships to weakness classes such as CWE. This is not the same as ATT&CK's emphasis on observed adversarial behaviors in operations, nor is a CAPEC pattern proof of a past exploit.
+[MITRE CAPEC](https://capec.mitre.org/about/new_to_capec.html) catalogs **attack patterns**: recurrent abstractions of how certain kinds of attacks can be performed. CAPEC entries can describe prerequisites, mechanisms, consequences, execution flows and relationships to weakness classes such as CWE. MITRE's [CAPEC-versus-ATT&CK comparison](https://capec.mitre.org/about/attack_comparison.html) emphasizes CAPEC's **application weakness/attack-pattern** use and ATT&CK's **operational adversary-behavior** use; the scopes overlap but are not interchangeable. CAPEC's execution-flow steps are pattern-level possible actions, **not** a transcript of a particular incident or proof of an exploited weakness.
 
 The [Diamond Model of Intrusion Analysis](https://securityandtechnology.org/wp-content/uploads/2020/07/diamond.pdf) describes an *intrusion event* through **adversary, capability, infrastructure and victim**. In its Figure 1 (printed p. 9), capability and infrastructure are related to the event's other features. A Diamond event can be enriched with method/phase/time metadata; a method label by itself does not establish all four features.
 
@@ -122,7 +122,7 @@ When a security narrative assigns an ATT&CK technique, three questions should be
 2. **Model fit:** Does the behavior satisfy the technique's actual definition and platform scope, including the chosen ATT&CK release?
 3. **Adversarial relevance:** Is there evidence that the activity was adversarial, and is the attributed actor/intent justified?
 
-Answering the second question does not settle the other two. One could correctly map a legitimate red-team exercise to a technique without asserting a malicious criminal event. An analyst might observe a suspicious artifact that fits several techniques, requiring further evidence.
+Answering the second question does not settle the other two. **ATT&CK coverage is neither a truth label for a telemetry record nor an identity-attribution mechanism**; the analyst must distinguish the behavior's evidence, mapping fit, and adversarial interpretation. A single documented procedure may span several mapped techniques, and a technique may be used in legitimate activity. One could correctly map a legitimate red-team exercise to a technique without asserting a malicious criminal event. An analyst might observe a suspicious artifact that fits several techniques, requiring further evidence.
 
 Not every model entry supplies a unique detection rule. ATT&CK's observed behavior classes are not normative requirements for software, and CAPEC's attack-pattern fields are not a complete security-testing program. Procedures for performing the mapping, managing detections and conducting hunts belong to [Operational Foundations](../../operational-foundations/README.md).
 
@@ -138,6 +138,6 @@ Not every model entry supplies a unique detection rule. ATT&CK's observed behavi
 
 **Primary source starting points:** [MITRE ATT&CK FAQ](https://attack.mitre.org/resources/faq/), source-defined tactic/technique/sub-technique/procedure meanings; [ATT&CK Enterprise introduction](https://attack.mitre.org/resources/enterprise-introduction/), intended scope and observed behavior; [MITRE ATT&CK Design and Philosophy](https://www.mitre.org/sites/default/files/2021-11/prs-19-01075-28-mitre-attack-design-and-philosophy.pdf), §3.4.1 on procedures spanning multiple techniques; [MITRE CAPEC introduction](https://capec.mitre.org/about/new_to_capec.html), attack patterns versus weaknesses and observations; [Diamond Model of Intrusion Analysis](https://securityandtechnology.org/wp-content/uploads/2020/07/diamond.pdf), Figure 1, printed p. 9; [Unified Kill Chain](https://www.unifiedkillchain.com/), progression model and three named clusters.
 
-**Editorial limitations:** The session and catalog examples are hypothetical. Framework names and publication references are source starting points, not proof that each taxonomy is comprehensive, current in every detail or validated against a real incident. This article is **Draft / References listed** and must undergo a separate scoped technical Review with claim-level sources, corrections and model-boundary checks before promotion. No independent peer review, source-Verified claim, or approval of permanent canonical ownership is asserted.
+**Editorial limitations:** The session and catalog examples are hypothetical. Framework names and publication references are source starting points, not proof that each taxonomy is comprehensive, current in every detail or validated against a real incident. The separate [Technical Review 08](../PILOT-TECHNICAL-REVIEW-08.md) documented eight material claim groups, ATT&CK's live tactic/technique/procedure vocabulary, the inspected MITRE 2020 design paper and CAPEC/Diamond/UKC boundary checks. Status is **Reviewed (model-assisted) / Core claims checked**; no exhaustive current ATT&CK release audit, independently verified incident mapping, complete passage-level source review, independent peer acceptance, canonical taxonomy ratification or Published status is asserted.
 
 [Security Foundations](../README.md) · [Working area](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

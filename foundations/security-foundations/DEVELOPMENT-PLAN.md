@@ -1,6 +1,6 @@
 # Security Foundations: Architecture & Development Plan
 
-**Working edition:** v0.16 · November 18, 2026  
+**Working edition:** v0.17 · November 18, 2026  
 **Status:** Proposed plan; **no approval of internal taxonomy or article publication is asserted**  
 **Scope:** Security Knowledge → Foundations → Security Foundations  
 **Proposed inputs:** [Architecture](ARCHITECTURE.md) · [96-heading Flexible Working Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [34-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) · [30-group Established Model Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) · [Architecture Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md)
@@ -18,12 +18,12 @@ A complete article must explain not merely *what a term means*, but **why the pr
 | Measure | Current disposition |
 | --- | --- |
 | Approved divisions | Fundamentals; Security Foundations; Operational Foundations |
-| Security Foundations division | Approved; [Fundamentals-style directory structure](AREA-STRUCTURE-ADJUDICATION-03.md) adopted with 12 provisional area indexes, currently containing **29 substantive working manuscripts** (25 Reviewed, 4 Draft) |
+| Security Foundations division | Approved; [Fundamentals-style directory structure](AREA-STRUCTURE-ADJUDICATION-03.md) adopted with twelve provisional area indexes, containing **29 substantive Reviewed (model-assisted)** working articles |
 | Internal Security Foundations taxonomy | **Not approved** |
 | Working knowledge areas | 12 **proposed** |
 | Working subject headings | **96 proposed**, revised from 94 by four additions and two consolidations; still flexible |
-| Final approved canonical Security Foundations articles | **0**; twenty-five manuscripts have bounded internal model-assisted reviews and four new threat-behavior manuscripts are Draft; permanent semantic ownership, full verification and publication remain unratified |
-| Substantive technical review of proposed future subject articles | **25 Reviewed (model-assisted) manuscripts**, seven separate audits: [Reviews 01–06](pilots/README.md) cover 20 articles (117 claim groups); [Review 07](PILOT-TECHNICAL-REVIEW-07.md) covers five SF-02 manuscripts (30 groups). Full clause-level source verification and qualified independent expert acceptance remain pending |
+| Final approved canonical Security Foundations articles | **0**; 29 manuscripts have bounded internal model-assisted reviews; permanent semantic ownership, full source verification, independent expert approval and publication remain unratified |
+| Substantive technical review of proposed future subject articles | **29 Reviewed (model-assisted) manuscripts** across eight separate technical audits: [Reviews 01–07](pilots/README.md) cover 25 manuscripts (147 claim groups); [Review 08](PILOT-TECHNICAL-REVIEW-08.md) covers four SF-03 manuscripts (32 groups). Complete source-passage and independent expert reviews remain open |
 | Specialized knowledge domains | Seven existing approved domain entries |
 | Formal relationship predicate vocabulary / graph engine | Neither approved nor implemented |
 
@@ -37,12 +37,12 @@ The subject inventory is a **candidate discovery and coverage instrument**, not 
 | Internal taxonomy | 12 proposed areas / **96 active proposed subjects**, both flexible and unratified |
 | Source map | **30 established source groups** identified with version and non-equivalence cautions |
 | Ownership | **34 working overlap cases** documented; not all individually approved |
-| Article development | **25 Reviewed (model-assisted), 4 Draft**, and 67 candidate subjects without manuscript. The new Drafts are [SF-03-02](threats-hazards-adversarial-behavior/adversarial-and-non-adversarial-threat-sources.md), [SF-03-03](threats-hazards-adversarial-behavior/capability-opportunity-and-intent.md), [SF-03-05](threats-hazards-adversarial-behavior/adversarial-tactics-techniques-and-procedures.md) and [SF-03-06](threats-hazards-adversarial-behavior/attack-paths-stages-and-dependencies.md) |
-| Review / publication | Seven bounded audits ([01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), [06](PILOT-TECHNICAL-REVIEW-06.md), [07](PILOT-TECHNICAL-REVIEW-07.md)) checked **147 material claim groups** across 25 manuscripts; full source-passage verification, independent human review and final publication acceptance remain open |
+| Article development | **29 Reviewed (model-assisted), 0 Draft** substantive working-area manuscripts; 67 candidates remain Inventoried without article. The SF-03-02, SF-03-03, SF-03-05 and SF-03-06 articles completed the separate [Technical Review 08](PILOT-TECHNICAL-REVIEW-08.md), including claim-specific correction records |
+| Review / publication | Eight bounded audits ([01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), [06](PILOT-TECHNICAL-REVIEW-06.md), [07](PILOT-TECHNICAL-REVIEW-07.md), [08](PILOT-TECHNICAL-REVIEW-08.md)) checked **179 bounded material claim groups** across 29 manuscripts; source-Verified, qualified independent peer review and Published remain separate and incomplete |
 
-**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain traceable historical snapshots. **Twenty-five Reviewed, four Draft and 67 Inventoried** among 96 provisional candidates describe current manuscript development, not architectural approval. Both subject and area counts may expand or contract with source-grounded decisions.
+**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain historical and traceable. **Twenty-nine Reviewed, zero Draft and 67 Inventoried** among 96 provisional candidate subjects describe manuscript progress, not approved canonical taxonomy. Area/subject counts may expand or contract after evidence-based adjudication.
 
-**Next source-led scope priorities:** Draft Batch 08 covers four coherent but distinct SF-03 concepts: adversarial/non-adversarial sources, capability/opportunity/intent, ATT&CK tactics/techniques/procedures, and multi-step paths/progression dependencies. **The next authoring-related turn must be separate Technical Review 08 across all four Drafts**. Review should check NIST SP 800-30 Rev.1 Task 2-1/2-2, MITRE ATT&CK TTP meanings, CAPEC patterns, the Diamond Model's event features, Unified Kill Chain's model-specific stages, example logic and attribution limits, then reconcile statuses and CI before drafting more. SF-03-04 and SF-03-07 remain Inventoried with separate conceptual questions. No new taxonomy or publication approval follows from drafting.
+**Next source-led scope priorities:** [Technical Review 08](PILOT-TECHNICAL-REVIEW-08.md) completed its separate audit for SF-03-02, SF-03-03, SF-03-05 and SF-03-06 after Draft Batch 08. With **no pending Drafts**, the next authoring batch can follow a source-supported conceptual cluster, including [SF-03-04 attacks/deception/abuse](threats-hazards-adversarial-behavior/README.md), [SF-03-07 threat assumptions/models](threats-hazards-adversarial-behavior/README.md), and [SF-07-04 defense in depth](security-controls-defense-mechanisms/README.md) versus resilience/independence. Other working gaps remain eligible. Choose a *variable-sized* cohesive Draft batch with substantive depth, then perform a **separate claim-led Review batch on the next authoring turn**. Approval of permanent taxonomy, source verification and publication remains outstanding.
 
 ## 3. Engineering workstreams
 
@@ -168,7 +168,7 @@ Do not instantiate a formal ontology, graph engine, vendor-specific learning pat
 1. Review the proposed [governing definition and twelve categories](ARCHITECTURE.md).
 2. Review the [96 active working candidates](SUBJECT-INVENTORY-PROPOSAL.md), allowing further justified expansion or contraction.
 3. Evaluate the [34 working boundary cases](OWNERSHIP-BOUNDARIES.md) and record unresolved collisions.
-4. Preserve the [twenty-five reviewed working area articles](DEVELOPMENT-VERIFICATION-REGISTER.md) with [Reviews 01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), [06](PILOT-TECHNICAL-REVIEW-06.md), and [07](PILOT-TECHNICAL-REVIEW-07.md) as distinct bounded audit evidence. Continue authoring within provisional area directories using **variable-sized Draft batch → separately documented next-turn Review batch**, reconciling all article-specific review and status states before drafting further subjects.
+4. Preserve the [twenty-nine reviewed working area articles](DEVELOPMENT-VERIFICATION-REGISTER.md), with [Reviews 01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), [06](PILOT-TECHNICAL-REVIEW-06.md), [07](PILOT-TECHNICAL-REVIEW-07.md) and [08](PILOT-TECHNICAL-REVIEW-08.md) as distinct scoped evidence. Continue using flexible Draft batch → separate next-turn Review batch sequencing, with individual claim-level findings and reconciled state records before further drafting.
 
 **Current disposition:** [Adjudication 03](AREA-STRUCTURE-ADJUDICATION-03.md) implements the **approved Fundamentals-style directory pattern**, while [Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md) retains source-grounded but unratified area/subject semantics. Substantive working articles are pre-publication content; neither file placement nor model-assisted audit implies final expert acceptance.
 

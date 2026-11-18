@@ -3,7 +3,7 @@
 **Candidate subject:** SF-03-02 · Threats, Hazards & Adversarial Behavior  
 **Working area:** [Threats, Hazards & Adversarial Behavior](README.md) · Fundamentals-style directory pattern adopted; individual area identities and canonical ownership remain provisional  
 **Artifact type:** Substantive working knowledge reference, not an approved final canonical publication  
-**Development state:** Draft · **Source-review state:** References listed, primary-source scopes consulted; separate scoped technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 08](../PILOT-TECHNICAL-REVIEW-08.md), 7 article-specific material claim groups; full source-passage verification and independent expert acceptance pending  
 **Architecture:** [Working subject inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Coverage and gaps review, SG-06](../COVERAGE-AND-GAPS-REVIEW-03.md) · [Provisional ownership register](../CANONICAL-OWNERSHIP-REGISTER.md)
 
 ## Harmful potential does not imply a malicious actor
@@ -12,7 +12,7 @@ A **threat source** is a contextual origin of circumstances or activity capable 
 
 **Adversarial sources** involve agents who can intentionally attempt to defeat, circumvent, misuse or undermine protection. **Non-adversarial sources** may involve accidental human action, technology or process failures, or environmental conditions without an adversarial objective. Whether a situation qualifies as a threat depends on the protected interests, system, time and security property under consideration.
 
-[NIST SP 800-30 Revision 1 (2012)](https://csrc.nist.gov/pubs/sp/800/30/r1/final) distinguishes adversarial and non-adversarial threat sources in federal risk assessment. Chapter 3, Task 2-1 (printed p. 30), explicitly examines adversarial **capability, intent and targeting** and non-adversarial **range of effects**; the source's Appendix D provides *exemplary* classifications, not a universal ontology. [NIST's glossary entry for non-adversarial threat](https://csrc.nist.gov/glossary/term/non_adversarial_threat) identifies accidents, human error, structural failure and environmental causes, citing SP 800-160 Vol. 2 Rev. 1.
+[NIST SP 800-30 Revision 1 (2012)](https://csrc.nist.gov/pubs/sp/800/30/r1/final) distinguishes adversarial and non-adversarial threat sources in federal risk assessment. Chapter 3, Task 2-1 (**printed p. 30 / PDF page index 38, visually inspected**), explicitly examines adversarial **capability, intent and targeting** and non-adversarial **range of effects**; Appendix D's scales and taxonomies are *exemplary and tailorable*, not universally measured properties of every source. Its two assessment branches are different: it does **not** define adversarial intent for a storm or a machine failure. [NIST's glossary entry for non-adversarial threat](https://csrc.nist.gov/glossary/term/non_adversarial_threat) identifies accidents, human error, structural failure and environmental causes, citing SP 800-160 Vol. 2 Rev. 1.
 
 The distinction is about **how an event can arise**, not a rule that hostile actors always produce worse consequences than accidents. Either type can defeat confidentiality, integrity, availability, physical safety, or another specified protection objective.
 
@@ -57,11 +57,11 @@ Consider a fictional scheduling application with a shared identity service and a
 
 **Scenario C, composite:** A misconfigured failover mode temporarily broadens access permissions after the power outage. An actor later uses those permissions deliberately to access another user's record. The initial condition arose without hostile intent, while the later action might be adversarial. Describing the complete episode as exclusively a natural disaster or exclusively an attack would erase important causal differences.
 
-This example is constructed, not a report about an actual system. It demonstrates that **a timeline can contain several kinds of sources and mechanisms**. The presence of a power failure does not establish that the later login was malicious, and the appearance of a suspicious login does not show the power failure was engineered by an adversary.
+This example is constructed, not a report about an actual system. It demonstrates that **a timeline can contain several kinds of sources and mechanisms**. The presence of a power failure does not establish that the later login was malicious, and the appearance of a suspicious login does not show the power failure was engineered by an adversary. **The category can change with the causal question**: an accidental failure may create an opportunity later exploited deliberately, while the failure itself remains non-adversarial under the assumed facts.
 
 ## Multiple sources and one event: the relationship is not one-to-one
 
-NIST SP 800-30 Rev. 1, Task 2-2, printed p. 31, describes **many-to-many relationships** between threat sources and threat events. A service disruption might be initiated by an insider, a software error, a power outage or a supplier failure. One adversary might initiate multiple distinct types of threat events.
+NIST SP 800-30 Rev. 1, Task 2-2 (**printed p. 31 / PDF page index 39, visually inspected**), describes **many-to-many relationships** between threat sources and threat events and explicitly notes different possible likelihoods for different source-event pairings. This is a *candidate association in a risk-assessment context*, not a claim that every source/event pairing is plausible or observed. A service disruption might be initiated by an insider, a software error, a power outage or a supplier failure. One adversary might initiate multiple distinct types of threat events.
 
 A simple conceptual relation can be written as:
 
@@ -89,7 +89,7 @@ For an intentional threat source, a model may classify behavior using [MITRE ATT
 
 The presence of an ATT&CK tactic or an attack stage does not establish malicious motivation for a specific unknown event. Conversely, non-adversarial sources cannot generally be explained by importing adversarial “tactics” into a storm, failed cooling system or ordinary operator mistake.
 
-The proper use of a model is to clarify **which distinctions the model supports**, not to force every event into its vocabulary. SF-03-05 covers tactics, techniques and procedures. SF-03-06 covers paths, stage assumptions and prerequisite dependencies. This subject owns the source-category boundary.
+The proper use of a model is to clarify **which distinctions the model supports**, not to force every event into its vocabulary. This matters for mixed-source cases, where one *episode* may contain non-adversarial conditions and adversarial actions; the appropriate unit for classification is the source or event being claimed, not the entire episode given one unqualified label. SF-03-05 covers tactics, techniques and procedures. SF-03-06 covers paths, stage assumptions and prerequisite dependencies. This subject owns the source-category boundary.
 
 ## Which consequences can a source produce?
 
@@ -130,6 +130,6 @@ The diagram is **illustrative, not a deterministic causal proof**. The event may
 
 **Primary reference starting points:** [NIST SP 800-30 Rev. 1 (final 2012)](https://csrc.nist.gov/pubs/sp/800/30/r1/final), Chapter 3 Tasks 2-1 and 2-2 (printed pp. 30–31) and Appendix D; [NIST non-adversarial threat glossary](https://csrc.nist.gov/glossary/term/non_adversarial_threat) citing SP 800-160 Vol. 2 Rev. 1; [NIST threat-event glossary](https://csrc.nist.gov/glossary/term/threat_event); [NIST predisposing-condition glossary](https://csrc.nist.gov/glossary/term/Predisposing_Condition); [NIST threat-source glossary](https://csrc.nist.gov/glossary/term/threat_source), which includes multiple source-attributed definitions and should not be flattened into one universal sentence.
 
-**Editorial limitations:** The categories, relation notation and scenarios are explanatory interpretations of primary-source concepts. This Draft does not determine the origin or intent of any real incident, quantify risk or prove security implications for a deployed system. It is **Draft / References listed**, requiring a separate claim-level review before becoming Reviewed (model-assisted); full standards passage verification, qualified expert acceptance, canonical taxonomy ratification and Published status remain open.
+**Editorial limitations:** The categories, relation notation and scenarios are explanatory interpretations of primary-source concepts. The separate [Technical Review 08](../PILOT-TECHNICAL-REVIEW-08.md) checks seven material claim groups, including the NIST adversarial/non-adversarial assessment branches, the source-event relationship and mixed-cause limitations. **Reviewed (model-assisted) / Core claims checked** does not determine origin or intent of any real incident, quantify organizational risk, verify the complete standards text, establish independent expert acceptance, ratify canonical taxonomy or authorize Published status.
 
 [Security Foundations](../README.md) · [Working area](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

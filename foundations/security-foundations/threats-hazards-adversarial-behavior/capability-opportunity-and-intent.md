@@ -3,7 +3,7 @@
 **Candidate subject:** SF-03-03 · Threats, Hazards & Adversarial Behavior  
 **Working area:** [Threats, Hazards & Adversarial Behavior](README.md) · Fundamentals-style directory adopted; individual ownership remains provisional  
 **Artifact type:** Substantive security-knowledge working article, not an approved permanent canonical publication  
-**Development state:** Draft · **Source-review state:** References listed; primary-source terminology examined during authoring, separate scoped technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 08](../PILOT-TECHNICAL-REVIEW-08.md), 8 article-specific material claim groups; full source-passage verification and independent expert acceptance pending  
 **Architecture:** [Working subject inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md) · [Working ownership](../CANONICAL-OWNERSHIP-REGISTER.md)
 
 ## What an adversary can do, can reach, and wants are different claims
@@ -38,7 +38,7 @@ For example, a phishing message template may show an ability to craft messages, 
 
 An *observed successful action* can provide evidence of some capability in that circumstance, but it does not reveal its maximum extent. Seeing one account read one file does not prove the ability to read all files, nor does it prove that the actor is a human directly operating the account.
 
-The [Diamond Model of Intrusion Analysis](https://securityandtechnology.org/wp-content/uploads/2020/07/diamond.pdf), Figure 1, printed p. 9 (PDF index 8), treats **adversary, capability, infrastructure, and victim** as related features of a modeled *intrusion event*. The model does not turn those features into four independent empirical facts or certify the named adversary's identity.
+The [Diamond Model of Intrusion Analysis](https://securityandtechnology.org/wp-content/uploads/2020/07/diamond.pdf), Figure 1, printed p. 9 (PDF index 8), treats **adversary, capability, infrastructure, and victim** as related features of a modeled *intrusion event*. The Diamond Model's **capability feature** describes a capability deployed within a modeled intrusion event, such as relevant tools or techniques. It is **not identical to NIST's threat-source capability assessment**, which considers the actor's broader means to affect a target. The model does not turn all four event features into independently established empirical facts or certify the named adversary's identity.
 
 ## Opportunity is composed of necessary conditions
 
@@ -48,7 +48,7 @@ An opportunity may require a relevant interface, required privilege, usable time
 O = R \land A \land T \land P,
 \]
 
-where \(R\) is relevant reachability, \(A\) is required access/authority state, \(T\) is an applicable time condition, and \(P\) is a remaining prerequisite. If all four are required, **losing one makes this particular modeled opportunity unavailable**.
+where \(R\) is relevant reachability, \(A\) is required access/authority state, \(T\) is an applicable time condition, and \(P\) is a remaining prerequisite. If all four are required, **losing one makes this particular modeled opportunity unavailable**. Conversely, *all four being true is only sufficient for the simplified model's Boolean expression to evaluate true*; it does not establish an actual exploitable security condition, a knowledgeable actor, or an executed attack. A genuine path may include additional constraints or alternatives.
 
 This is an authored Boolean abstraction. It is **not** a probability equation, a real exploit path, or proof that all attacks require exactly those conditions. Another path might satisfy the objective without any one of them; some threats use deception or legitimate access rather than a software vulnerability.
 
@@ -88,7 +88,7 @@ The former proposed **SF-03-08 Attribution and Intent Uncertainty** was delibera
 
 **Targeting** can refer to selection, preparation or action toward a particular entity. An externally reachable service could receive internet-wide scans without being specifically selected by a named organization. A deliberately crafted message addressed to a particular account may support a narrower selection claim, though it still may not identify the source's real-world operator.
 
-NIST SP 800-30 Appendix D contains **example assessment scales** for capability, intent and targeting. Such scales are task-specific ordinal judgments; they are not direct probabilities of a successful attack, independently validated measurements of expertise, or universal constants across organizations.
+NIST SP 800-30 Appendix D (Tables D-3 to D-5) contains **example assessment scales** for capability, intent and targeting. Their qualitative ratings are risk-assessment judgments requiring rationale and evidence, not direct probabilities of successful attack, independently calibrated measures of expertise, or universal constants. Task 2-1 (**printed p. 30 / PDF index 38, visually inspected**) explicitly allows organizations to tailor the source taxonomy and state assumptions when credible source information is missing.
 
 A model can distinguish:
 - **potential target:** something an actor might choose;
@@ -108,7 +108,7 @@ A time-indexed description makes those changes explicit:
 C_a(t),\quad O_{a,s}(t),\quad I_a(t),\quad T_{a,s}(t),
 \]
 
-where \(a\) is the modeled actor and \(s\) the target system. These functions are **editorial variables**, not necessarily measurable scalars. Intent may be a set of uncertain hypotheses rather than a single known value. Treating them as functions does not imply they are continuous or known at every time.
+where \(a\) is the modeled actor and \(s\) the target system. These functions are **editorial variables**, not necessarily measurable scalars. Intent may be a set of uncertain hypotheses rather than a single known value. **No arithmetic operation over C, O, I, or T is licensed by this notation** without an independently defined measurement scale and model; the symbols do not represent calibrated threat probabilities. Treating them as functions does not imply they are continuous or known at every time.
 
 This distinguishes possible action from observed action: an attacker with capability and opportunity **may** act, but no attack event has been established until appropriate evidence supports occurrence. The probability of action under uncertainty belongs to [Security Risk & Uncertainty](../security-risk-uncertainty/README.md), not to a fictional multiplication of capability and intent scores.
 
@@ -138,6 +138,6 @@ The sequence illustrates how **capability and opportunity can be supported more 
 
 **Primary source starting points:** [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), Chapter 3 Task 2-1 printed p. 30 and Appendix D (adversarial capability, intent and targeting example criteria); [MITRE ATT&CK FAQ](https://attack.mitre.org/resources/faq/) (tactic as tactical goal); [Diamond Model of Intrusion Analysis](https://securityandtechnology.org/wp-content/uploads/2020/07/diamond.pdf), Figure 1 printed p. 9, event features and capability relations; [NIST predisposing-condition glossary](https://csrc.nist.gov/glossary/term/Predisposing_Condition).
 
-**Editorial limitations:** No direct source defines the invented Boolean opportunity equation or the time-indexed actor variables. An attacker capability claim must be qualified by context and evidence; this article does not attribute a specific real person, predict a campaign, or compute an organizational risk score. Its state is **Draft / References listed**, requiring independent next-cycle technical review of material claims, examples and primary-source limits before promotion. Source-Verified and Published remain unclaimed.
+**Editorial limitations:** No direct source defines the invented Boolean opportunity equation or the time-indexed actor variables. An attacker capability claim must be qualified by context and evidence; this article does not attribute a specific real person, predict a campaign, or compute an organizational risk score. The separate [Technical Review 08](../PILOT-TECHNICAL-REVIEW-08.md) checked eight material claim groups, including NIST threat-source traits, the distinct Diamond *event capability*, and the complete 16-case opportunity truth table. Its status is **Reviewed (model-assisted) / Core claims checked**, **not** calibrated actor capability/intent measurement, full source passage verification, independently established attribution, permanent taxonomy approval or Published.
 
 [Security Foundations](../README.md) · [Working area](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

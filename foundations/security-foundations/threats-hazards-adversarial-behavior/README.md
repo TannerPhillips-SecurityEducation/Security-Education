@@ -3,7 +3,7 @@
 **Division:** [Security Foundations](../README.md)  
 **Working area ID:** SF-03  
 **Architecture status:** **Provisional area membership and naming**, within a user-approved **Fundamentals-style directory architecture**. The number and names of areas and subjects can expand or contract.  
-**Current content:** **7 candidate subjects; 5 substantive manuscripts** (1 Reviewed, 4 Draft); 2 Inventoried without an article. The four new articles await a separate multi-article technical review. No source-Verified or Published claim.
+**Current content:** **7 candidate subjects; 5 substantive Reviewed (model-assisted) articles, 0 Draft**, and 2 Inventoried without article. The four area-first articles in Draft Batch 08 have their own separate [Technical Review 08](../PILOT-TECHNICAL-REVIEW-08.md), with 32 bounded material claim groups across the batch. None is fully Source-Verified, independently accepted or Published.
 
 ## Scope and canonical ownership
 
@@ -16,14 +16,14 @@ The area may be renamed, split, consolidated, or relocated when stronger concept
 | ID | Proposed subject or actual article | Development and source state | Intended conceptual responsibility |
 | --- | --- | --- | --- |
 | SF-03-01 | [Threat sources and threat events](threat-sources-and-threat-events.md) | **Reviewed (model-assisted)** · Core claims checked | Distinguish a source capable of causing harm from an event it may cause. |
-| SF-03-02 | [Adversarial and non-adversarial threat sources](adversarial-and-non-adversarial-threat-sources.md) | **Draft** · References listed; separate claim-led review pending | Separate intentional actors from hazardous conditions, accidental events, and system failures; not every harmful event has an adversary. |
-| SF-03-03 | [Capability, opportunity, and intent](capability-opportunity-and-intent.md) | **Draft** · References listed; separate claim-led review pending | Distinguish ability, circumstances, objectives, and uncertainty about intent. |
+| SF-03-02 | [Adversarial and non-adversarial threat sources](adversarial-and-non-adversarial-threat-sources.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 08](../PILOT-TECHNICAL-REVIEW-08.md) | Separate intentional actors from hazardous conditions, accidental events, and system failures; not every harmful event has an adversary. |
+| SF-03-03 | [Capability, opportunity, and intent](capability-opportunity-and-intent.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 08](../PILOT-TECHNICAL-REVIEW-08.md) | Distinguish ability, circumstances, objectives, and uncertainty about intent. |
 | SF-03-04 | Attacks, deception, abuse, and misuse | **Inventoried / not authored** | Describe intentional attacks, deception and social engineering alongside unauthorized or harmful uses; not every misuse is an external exploit. |
-| SF-03-05 | [Adversarial tactics, techniques, and procedures](adversarial-tactics-techniques-and-procedures.md) | **Draft** · References listed; separate claim-led review pending | Distinguish objectives, behavioral methods, and concrete executions. |
-| SF-03-06 | [Attack paths, stages, and dependencies](attack-paths-stages-and-dependencies.md) | **Draft** · References listed; separate claim-led review pending | Explain sequences and conditions for multi-step adverse action. |
+| SF-03-05 | [Adversarial tactics, techniques, and procedures](adversarial-tactics-techniques-and-procedures.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 08](../PILOT-TECHNICAL-REVIEW-08.md) | Distinguish objectives, behavioral methods, and concrete executions. |
+| SF-03-06 | [Attack paths, stages, and dependencies](attack-paths-stages-and-dependencies.md) | **Reviewed (model-assisted)** · Core claims checked in [Review 08](../PILOT-TECHNICAL-REVIEW-08.md) | Explain sequences and conditions for multi-step adverse action. |
 | SF-03-07 | Threat assumptions and models | **Inventoried / not authored** | Explain model scope and assumptions without prescribing an operational modeling workshop. |
 
-**Review interpretation:** SF-03-01 was Reviewed (model-assisted) in [Review 01](../PILOT-TECHNICAL-REVIEW-01.md). SF-03-02, SF-03-03, SF-03-05 and SF-03-06 are **Draft / References listed** and require their own separate material-claim **Review 08** before promotion. This stage does not ratify the provisional area taxonomy or any independent publication status. SF-03-04 and SF-03-07 remain Inventoried with distinct ownership.
+**Review interpretation:** SF-03-01 retains its [Review 01](../PILOT-TECHNICAL-REVIEW-01.md) evidence. **SF-03-02, SF-03-03, SF-03-05 and SF-03-06** each have their own article-specific material claim checks in [Technical Review 08](../PILOT-TECHNICAL-REVIEW-08.md). All five authored area articles are **Reviewed (model-assisted) / Core claims checked**, not fully Source-Verified, independently peer-reviewed, Published or canonical taxonomy-approved. SF-03-04 and SF-03-07 remain Inventoried without authored manuscripts.
 
 ## Development and relationships
 

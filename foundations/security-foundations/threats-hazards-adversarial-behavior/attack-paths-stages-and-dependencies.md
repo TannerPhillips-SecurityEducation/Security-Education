@@ -3,7 +3,7 @@
 **Candidate subject:** SF-03-06 · Threats, Hazards & Adversarial Behavior  
 **Working area:** [Threats, Hazards & Adversarial Behavior](README.md) · Fundamentals-style directory adopted; working area and subject semantics remain provisional  
 **Artifact type:** Substantive security-knowledge reference, not an approved canonical publication or operational attack playbook  
-**Development state:** Draft · **Source-review state:** References listed; original source scopes inspected during authoring, separate technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 08](../PILOT-TECHNICAL-REVIEW-08.md), 9 article-specific material claim groups; full source-passage verification and independent expert acceptance pending  
 **Architecture:** [Subject inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [SG-06 coverage finding](../COVERAGE-AND-GAPS-REVIEW-03.md) · [Working ownership register](../CANONICAL-OWNERSHIP-REGISTER.md)
 
 ## An attack is not necessarily a linear story
@@ -34,7 +34,7 @@ A more precise model needs:
 - **Evidence map:** which changes or attempts could actually be observed at a given sensor or record source.
 - **Time and continuity:** which transitions must precede others, which may overlap, and which records truly refer to the same actor or session.
 
-The graph is an **authored abstraction**. It does not establish that a transition is exploitable, occurred in the world, or belongs to a named adversarial campaign. A path may be **possible but unobserved**, **observed only in part**, or **contradicted** by reliable evidence.
+The graph is an **authored abstraction**. It does not establish that a transition is exploitable, occurred in the world, or belongs to a named adversarial campaign. A path may be **logically permitted by a specified model**, **feasible under a real configuration**, **observed in part**, or **contradicted by reliable evidence**. These are separate evidential claims. One feasible modeled path does not prove that a real actor knows or attempts it.
 
 ## Feasibility is not probability, and a path is not proof
 
@@ -46,9 +46,9 @@ Let \(P=(e_1,\ldots,e_k)\) be a proposed path. Its feasibility can be described 
 \bigwedge_{i=1}^{k} g_{e_i}(s_{i-1}),
 \]
 
-where \(s_{i-1}\) is the state before transition \(e_i\). This is **an implication within the constructed model** rather than an exact universal characterization of exploitation. It deliberately allows additional constraints and requires the correct state evolution.
+where \(s_{i-1}\) is the state before transition \(e_i\). This is **a necessary-condition implication within the constructed model**, not a sufficient test of exploitation. It requires **the guards to hold in the evolving states actually reached**, plus a valid transition relation. Checking every guard against one initial configuration snapshot would be incorrect. The notation itself does not establish that the model's edges are executable on a deployed system.
 
-Even if every guard is satisfied in the model, there may be no evidence that the actor selected this path, that an event occurred, or that an observed action was unauthorized. A configuration snapshot can support a precondition claim, but cannot prove the state was identical during an earlier incident.
+Even if every guard is satisfied in the model and the transitions are defined, there may be no evidence that the actor selected this path, that an event occurred, or that an observed action was unauthorized. Model feasibility, environmental reachability and **observed traversal** are distinct claim levels. A configuration snapshot can support a precondition claim, but cannot prove the state was identical during an earlier incident.
 
 A proposed path also need not yield a meaningful **probability of success**. Multiplying individually guessed probabilities such as “70% chance at step A × 50% at step B” is unjustified if steps share dependencies, the attacker can retry, or probabilities are conditional on earlier states. Probabilistic risk modeling belongs to [Security Risk & Uncertainty](../security-risk-uncertainty/README.md).
 
@@ -70,7 +70,7 @@ If there are two alternative paths,
 \operatorname{AnyPath}=P_A\lor P_B.
 \]
 
-For the constructed model, blocking \(P_A\) does not eliminate \(P_B\). Equally, a control common to both branches can be a shared dependency whose compromise or failure affects both. These Boolean expressions describe logical structure, not event frequencies or bypass instructions.
+For the constructed model, blocking \(P_A\) does not eliminate \(P_B\). Equally, a control common to both branches can be a shared dependency whose compromise or failure affects both. These Boolean expressions describe logical structure, not event frequencies, empirically complete coverage, or bypass instructions. In particular, **blocking the represented Route A only eliminates the represented Route A**. To claim the goal itself is prevented, all feasible alternative routes and any shared state transitions in the declared boundary must be considered.
 
 ~~~text
                      Modeled objective
@@ -96,7 +96,7 @@ A **temporal sequence** says events appear in an order. A **causal explanation**
 
 For example, an event timestamped after a suspected credential theft might be causally unrelated. A login can succeed without the visible earlier failed-login events having contributed to its success. An access to one resource does not automatically imply earlier compromise of every intermediate system.
 
-The [Diamond Model of Intrusion Analysis](https://securityandtechnology.org/wp-content/uploads/2020/07/diamond.pdf), printed p. 9 (Figure 1, PDF index 8), defines a modeled intrusion **event** with adversary, capability, infrastructure and victim. Its activity-thread and activity-group concepts relate events at higher levels. This is an analyst's explanatory event-relationship framework; a graph of related events is not by itself proof of shared human authorship.
+The [Diamond Model of Intrusion Analysis](https://securityandtechnology.org/wp-content/uploads/2020/07/diamond.pdf), printed p. 9 (**Figure 1, PDF index 8, visually inspected**), defines a modeled intrusion **event** with adversary, capability, infrastructure and victim. The four core features and optional meta-features help relate event hypotheses, even when particular features remain unknown; recording a diamond does not independently prove all four features. Its activity-thread and activity-group concepts relate events at higher levels. This is an analyst's explanatory event-relationship framework; a graph of related events is not by itself proof of shared human authorship.
 
 ## A progression model has its own unit of analysis
 
@@ -165,6 +165,6 @@ A layer described as “preventing lateral movement” needs a defined adversari
 
 **Primary source starting points:** [NIST SP 800-30 Rev. 1 (final 2012)](https://csrc.nist.gov/pubs/sp/800/30/r1/final), Chapter 3 Tasks 2-1/2-2, relevant threat-event dependencies and Appendix E; [MITRE ATT&CK FAQ](https://attack.mitre.org/resources/faq/) and [Enterprise introduction](https://attack.mitre.org/resources/enterprise-introduction/) for behavior categories rather than fixed chronology; [MITRE CAPEC](https://capec.mitre.org/about/new_to_capec.html), pattern prerequisites/execution flow; [Diamond Model](https://securityandtechnology.org/wp-content/uploads/2020/07/diamond.pdf), Figure 1 printed p. 9 plus activity-thread relationship; [Unified Kill Chain](https://www.unifiedkillchain.com/), source-specific progression framing.
 
-**Editorial limitations:** The formal graph, transition guards, AND/OR constraints and all examples are authored models, not measured paths, exploitation instructions, attack-likelihood calculations or proofs about a live incident. The cited progression frameworks have different purposes and are not translated one-to-one. This is a **Draft / References listed** manuscript: a separate scoped technical review must test the graph logic, model boundary claims and source-version limits before promotion. Full passage verification, independent expert acceptance, taxonomy approval and Published status remain open.
+**Editorial limitations:** The formal graph, transition guards, AND/OR constraints and all examples are authored models, not measured paths, exploitation instructions, attack-likelihood calculations or proofs about a live incident. The cited progression frameworks have different purposes and are not translated one-to-one. The separate [Technical Review 08](../PILOT-TECHNICAL-REVIEW-08.md) checked nine material claim groups, including guarded transitions, two-path logic, model-versus-reality boundaries and the original Diamond/UKC/ATT&CK source distinctions. This manuscript is **Reviewed (model-assisted) / Core claims checked**, not a verified live attack graph, empirically calibrated threat likelihood, forensic reconstruction, full source-passage verification, independent expert acceptance, fixed taxonomy or Published article.
 
 [Security Foundations](../README.md) · [Working area](README.md) · [Development register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
