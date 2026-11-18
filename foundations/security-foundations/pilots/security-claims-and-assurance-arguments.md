@@ -25,7 +25,7 @@ Methods, Tools, People, and Conditions
 
 An evidence file may be authentic while still irrelevant to a claim. A proof may be valid relative to a mathematical model that omits important implementation behavior. A test can demonstrate a selected outcome in a tested configuration without establishing the result for untested versions, environments or adversaries.
 
-[NIST SP 800-160 Volume 1 Revision 1](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final) provides systems security engineering and trustworthiness terminology; the [Common Criteria ISO/IEC 15408 family](https://www.iso.org/standard/72891.html) supplies security evaluation concepts for specified IT products and evaluated security properties. Their scopes are not universal proof of all security requirements.
+[NIST SP 800-160 Volume 1 Revision 1](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final) provides systems security engineering and trustworthiness terminology; the [Current Common Criteria Part 1 / ISO/IEC 15408-1:2026](https://www.iso.org/standard/15408-1) supplies security evaluation concepts for specified IT products and evaluated security properties. Their scopes are not universal proof of all security requirements.
 
 ## A claim requires a precise target and conditions
 
