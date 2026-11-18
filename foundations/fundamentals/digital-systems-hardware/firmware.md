@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Digital Systems & Hardware](README.md)  
 **Approved subject heading:** Firmware  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 03 audit](../WAVE-C-TECHNICAL-REVIEW-03.md); independent human review pending
 
 ## Executable behavior near hardware boundaries
 
@@ -77,6 +77,6 @@ Firmware is not equivalent to the operating system, a hardware schematic, a part
 - [MIT 6.004: Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/).
 - [NASA: Configuration Management](https://www.nasa.gov/reference/6-5-configuration-management/).
 
-**Editorial status:** Substantive Draft. The size example and platform-firmware generalizations require their own scoped source and technical audit before promotion. Independent human expert review and publication acceptance remain open.
+**Editorial status:** Reviewed (model-assisted) following the scoped [Wave C Batch 03 54-family technical review](../WAVE-C-TECHNICAL-REVIEW-03.md). Full source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
 
 [Digital Systems & Hardware](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
