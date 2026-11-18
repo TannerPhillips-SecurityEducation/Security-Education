@@ -1,6 +1,6 @@
 # Security Foundations: Candidate Subject Inventory
 
-**Working proposal:** v0.1 · November 17, 2026  
+**Working proposal:** v0.2 · November 18, 2026  
 **Approved:** The Security Foundations division exists.  
 **Not approved:** The twelve candidate knowledge areas and 94 candidate subject headings listed below.  
 **Purpose:** A reviewable concept-and-mechanism coverage map, not a committed subject taxonomy or publication record.
@@ -26,7 +26,7 @@ Define the meaning, limits, and desired properties of protection.
 | SF-01-04 | Integrity and correctness | Distinguish unauthorized alteration from correctness and data quality. |
 | SF-01-05 | Availability and accessibility | Describe intended service accessibility under specified conditions. |
 | SF-01-06 | Authenticity and origin assurance | Describe warranted origin or identity claims and their limits. |
-| SF-01-07 | Accountability and non-repudiation | Distinguish attribution, accountability, evidence, and non-repudiation claims. |
+| SF-01-07 | Accountability, attribution, and non-repudiation | Distinguish responsibility, actor attribution and evidence of participation; non-repudiation claims are conditional and do not eliminate dispute. |
 | SF-01-08 | Security, privacy, safety, and reliability | Separate related objectives rather than treating them as synonyms. |
 
 ### SF-02. Protected Interests, Assets & Harm (7 candidates)
@@ -40,19 +40,19 @@ Identify whose interests matter, what is protected, and what losses count.
 | SF-02-03 | Subjects, objects, and protected actions | Identify actors, resources, actions, and protected interactions. |
 | SF-02-04 | Value, criticality, and dependencies | Explain contextual importance and dependent protections. |
 | SF-02-05 | Adverse outcomes and harm | Distinguish unauthorized outcomes, loss, damage, and harm. |
-| SF-02-06 | Impact and consequences | Describe affected parties, time horizons, and types of consequence. |
+| SF-02-06 | Adverse consequences and affected interests | Describe harm to affected parties, assets and dependencies over time; scenario-specific risk estimation belongs to SF-05-03. |
 | SF-02-07 | Protection priorities and constraints | Describe competing obligations and the conditions of acceptable protection. |
 
-### SF-03. Threats & Adversarial Behavior (8 candidates)
+### SF-03. Threats, Hazards & Adversarial Behavior (8 candidates)
 
-Explain potential sources of adverse events, including intent and non-adversarial causes.
+Explain potential sources of adverse events across intentional adversarial action, accidental causes, hazardous conditions, and system failures.
 
 | Planning ID | Candidate subject | Intended ownership / treatment |
 | --- | --- | --- |
 | SF-03-01 | Threat sources and threat events | Distinguish a source capable of causing harm from an event it may cause. |
-| SF-03-02 | Adversaries, hazards, and accidents | Separate intentional actors from non-adversarial threats. |
+| SF-03-02 | Adversarial and non-adversarial threat sources | Separate intentional actors from hazardous conditions, accidental events, and system failures; not every harmful event has an adversary. |
 | SF-03-03 | Capability, opportunity, and intent | Distinguish ability, circumstances, objectives, and uncertainty about intent. |
-| SF-03-04 | Attacks, abuse, and misuse | Describe harmful or unauthorized actions without making every misuse an external attack. |
+| SF-03-04 | Attacks, deception, abuse, and misuse | Describe intentional attacks, deception and social engineering alongside unauthorized or harmful uses; not every misuse is an external exploit. |
 | SF-03-05 | Adversarial tactics, techniques, and procedures | Distinguish objectives, behavioral methods, and concrete executions. |
 | SF-03-06 | Attack paths, stages, and dependencies | Explain sequences and conditions for multi-step adverse action. |
 | SF-03-07 | Threat assumptions and models | Explain model scope and assumptions without prescribing an operational modeling workshop. |
@@ -68,7 +68,7 @@ Explain conditions that make adverse outcomes feasible or more likely.
 | SF-04-02 | Vulnerabilities and exploitability | Describe context-dependent ways a weakness can be used to violate protection. |
 | SF-04-03 | Exposure and attack surface | Describe accessible interfaces, paths, assets, and reachable opportunities. |
 | SF-04-04 | Preconditions and reachability | Explain required state, authority, location, timing, and access conditions. |
-| SF-04-05 | Exploitation and compromise | Distinguish exploit activity, successful violation, and subsequent compromise. |
+| SF-04-05 | Exploitation and security violations | Distinguish attempted exploitation, successful violation of a security property, and compromise; the broader state and consequences of compromise belong to SF-11-01. |
 | SF-04-06 | Severity, exploitability, and context | Separate generic severity labels from system-specific consequences and risk. |
 | SF-04-07 | Weakness chains and dependency failures | Describe interacting flaws and upstream or transitive exposure. |
 
@@ -80,8 +80,8 @@ Reason about potential adverse outcomes and choices under incomplete information
 | --- | --- | --- |
 | SF-05-01 | Risk, scenarios, and time horizon | Describe risk relative to a scenario, protected interest, and period. |
 | SF-05-02 | Likelihood, frequency, and probability | Distinguish probabilistic quantities and avoid unsupported numerical precision. |
-| SF-05-03 | Impact estimation and loss | Apply consequence concepts to a specified risk scenario. |
-| SF-05-04 | Uncertainty, confidence, and assumptions | Identify aleatory and epistemic uncertainty and confidence limits where relevant. |
+| SF-05-03 | Risk consequence estimation and loss | Apply harm and consequence concepts to an explicit risk scenario, stakeholder and horizon; general adverse outcomes remain in SF-02-06. |
+| SF-05-04 | Risk uncertainty, confidence, and assumptions | Identify uncertainty within risk scenarios, likelihoods, consequences and assumptions; evidence and attribution uncertainty belong to SF-10-08. |
 | SF-05-05 | Inherent and residual risk | Compare risk under explicitly stated control and baseline assumptions. |
 | SF-05-06 | Risk appetite, tolerance, and acceptance | Distinguish institutional priorities, thresholds, and accountable decisions. |
 | SF-05-07 | Risk treatment and tradeoffs | Explain conceptual choices such as avoidance, reduction, transfer, or acceptance. |
@@ -96,7 +96,7 @@ Explain who or what may make claims, receive authority, and cross boundaries.
 | SF-06-01 | Trust and trust assumptions | Treat trust as a contextual reliance claim, not a universal safe/unsafe label. |
 | SF-06-02 | Trust boundaries and zones | Explain changes in assumed authority and verification conditions across boundaries. |
 | SF-06-03 | Principals, identities, and claims | Distinguish an acting principal, identifiers, represented identity, and assertions. |
-| SF-06-04 | Identification, authentication, and authorization | Separate claiming an identity, checking a claim, and permitting an action. |
+| SF-06-04 | Identification, authentication, and authorization | Separate identification, authenticating asserted identities, and authorizing actions; implementation procedures and mechanisms belong to Identity Knowledge. |
 | SF-06-05 | Privileges, permissions, and entitlements | Describe authority granted to subjects over resources. |
 | SF-06-06 | Least privilege and separation of duties | Explain restrictions on scope and concentration of authority. |
 | SF-06-07 | Delegation, impersonation, and confused deputies | Describe delegated authority and misuse of legitimate powers. |
@@ -108,7 +108,7 @@ Explain safeguards as mechanisms that alter threats, exposure, effects, or evide
 
 | Planning ID | Candidate subject | Intended ownership / treatment |
 | --- | --- | --- |
-| SF-07-01 | Controls, safeguards, and security functions | Distinguish security objectives, mechanisms, policies, and implemented controls. |
+| SF-07-01 | Controls, safeguards, and security functions | Distinguish desired properties, policy, defensive technique, security control, deployment and demonstrated protective effect. |
 | SF-07-02 | Preventive, detective, corrective, and recovery controls | Compare intended effects without implying strict exclusivity. |
 | SF-07-03 | Technical, organizational, and physical controls | Classify by implementation context and shared responsibility. |
 | SF-07-04 | Defense in depth and diversity | Explain complementary layers and common-mode failures. |
@@ -123,7 +123,7 @@ Express protection goals in system structures and design constraints.
 
 | Planning ID | Candidate subject | Intended ownership / treatment |
 | --- | --- | --- |
-| SF-08-01 | Security architecture and protection models | Describe system arrangements that allocate security responsibilities. |
+| SF-08-01 | Security architecture and formal protection models | Distinguish architecture from explicit policy models, including classical confidentiality/integrity models, and from implementing their mechanisms. |
 | SF-08-02 | Reference mediation and complete mediation | Explain how protected actions are checked against security decisions. |
 | SF-08-03 | Isolation, segmentation, and containment | Distinguish separation mechanisms from their placement in specific domains. |
 | SF-08-04 | Minimization and least functionality | Explain reducing exposed functionality, permissions, and complexity. |
@@ -160,7 +160,7 @@ Explain how security-relevant claims arise from incomplete, mediated observation
 | SF-10-05 | Benign, anomalous, suspicious, and malicious interpretations | Distinguish baseline deviation, suspicion, and intent claims; unknown remains valid. |
 | SF-10-06 | Evidence provenance and integrity | Explain source, transformation history, completeness, and authenticity of evidence. |
 | SF-10-07 | False positives, false negatives, and visibility gaps | Describe errors in judgments and limitations of observing systems. |
-| SF-10-08 | Confidence, causality, and attribution limits | Distinguish documented fact, reasoned inference, and unsupported certainty. |
+| SF-10-08 | Evidentiary confidence, causality, and attribution limits | Distinguish recorded fact, security inference and unsupported certainty; risk-estimation confidence is treated separately in SF-05-04. |
 
 ### SF-11. Security Failure & Resilience (8 candidates)
 
@@ -191,6 +191,23 @@ Explain grounds for security confidence and the principles governing protection 
 | SF-12-06 | Security measurement and assurance limits | Describe observable measures, uncertainty, and incomplete guarantees. |
 | SF-12-07 | Continuous change and assurance decay | Explain why protection claims can become stale as systems and threats evolve. |
 | SF-12-08 | Ethical, human, and societal constraints | Account for rights, harm, proportionality, and legitimate authority in protection. |
+
+## Established-model grounding, v0.2 review
+
+The [Established Model & Framework Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) tests all twelve candidate areas against named external models and standards, including the CIA Triad, STRIDE, Diamond Model, MITRE ATT&CK, Unified Kill Chain, Pyramid of Pain, NIST SP 800-30, classical access-control models, Zero Trust, D3FEND, NIST SP 800-160, and NIST CSF 2.0.
+
+Those references have different units of analysis and limitations. The model crosswalk **does not ratify this 12-area structure**, prove its completeness, or convert the 94 administrative IDs into a permanent quota. This v0.2 draft tightens several distinctions while preserving all 94 candidate IDs for change tracking. In particular:
+
+- **SF-03:** Security threats are not all adversarial; deception and social engineering require explicit coverage.
+- **SF-02 versus SF-05:** Actual or possible harm to interests differs from risk-scenario consequence estimation.
+- **SF-04 versus SF-11:** Exploitation mechanisms and security violations differ from subsequent compromise states and consequences.
+- **SF-05 versus SF-10:** Risk-estimation uncertainty differs from uncertainty in evidence, intent and attribution.
+- **SF-06 versus Identity Knowledge:** Shared authentication and authority concepts differ from identity implementation and IAM functions.
+- **SF-07 versus SF-08:** Defensive controls, architecture/policy models, and demonstrated effects require separate explanations.
+- **SF-09:** Dedicated cryptographic sources, beyond system-wide control frameworks, still need primary-reference review.
+- **SF-12:** NIST CSF 2.0 is a secondary mapping, not a mandate to use its six risk-management outcome functions as knowledge-area headings.
+
+**Open architectural question:** Whether the twelve categories and 94 subjects are the right grain. No claim of approval or article publication is implied.
 
 ## Breadth and ownership checks
 
