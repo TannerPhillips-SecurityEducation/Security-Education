@@ -4,6 +4,8 @@
 **Scope:** All ten approved Operating System Principles headings and all nine approved Communication & Distributed Systems headings.  
 **Purpose:** Record **authored coverage and mechanical consistency**, **not** a scoped technical claim-to-source audit or publication acceptance.
 
+**Historical snapshot:** This document records the **pre-audit Wave E authoring state**. Later on November 17, 2026, the ten OS articles passed the [Wave E OS 60-family scoped technical audit](WAVE-E-TECHNICAL-REVIEW-01.md) and the nine communication articles passed the [Wave E Communication 54-family scoped technical audit](WAVE-E-TECHNICAL-REVIEW-02.md). Their **current** states are **Reviewed (model-assisted)**, not Draft. Refer to the [Development & Verification Register](DEVELOPMENT-VERIFICATION-REGISTER.md) for the live status (109 Reviewed, 0 Draft). Historical counts below are intentionally preserved and must not be presented as current.
+
 ## Disposition
 
 All **19 of 19 Wave E subject articles** were committed as substantive **Drafts**, without changing the approved heading names, twelve-area architecture, or 109-heading inventory. Together with the 90 internally Reviewed articles from Waves A–D, this establishes **109/109 authored**.
