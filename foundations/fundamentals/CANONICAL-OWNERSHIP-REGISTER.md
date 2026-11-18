@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v1.12. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
+**Status:** Working architectural register v1.13. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
 
 This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
 
@@ -9,7 +9,7 @@ This register connects the existing subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** Live direct links now point to **ninety Reviewed (model-assisted) articles** and **nineteen Wave E Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
+- **Links:** Live direct links now point to **109 Reviewed (model-assisted) articles**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
 - **Granularity:** One heading may require multiple articles, and a single well-scoped explanation can serve more than one heading. Do not assume 109 headings equal 109 indivisible concepts.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -131,30 +131,30 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Kernels** | [Draft canonical article](operating-system-principles/kernels.md) · Privileged coordination of execution, resource protection, and OS abstraction | *builds on* → [Hardware abstraction](digital-systems-hardware/hardware-abstraction.md) |
-| **System calls** | [Draft canonical article](operating-system-principles/system-calls.md) · Protected OS interfaces and kernel transitions for requested operations | *exposes* → [Software interfaces](software-programming/software-interfaces.md) |
-| **Processes and threads** | [Draft canonical article](operating-system-principles/processes-and-threads.md) · Process isolation, address spaces, execution threads, and states | *realizes* → [Concurrency and parallelism](computation-algorithms/concurrency-and-parallelism.md) |
-| **Scheduling** | [Draft canonical article](operating-system-principles/scheduling.md) · Allocation of processor time among runnable work | *influences* → [Computational efficiency](computation-algorithms/computational-efficiency.md) |
-| **Memory management** | [Draft canonical article](operating-system-principles/memory-management.md) · Virtual addressing, allocation, page translation, and memory protection | *manages* → [Memory and storage](digital-systems-hardware/memory-and-storage.md) |
-| **Filesystems** | [Draft canonical article](operating-system-principles/filesystems.md) · Persistent file/directory organization, access paths, and metadata | *implements structured storage for* → [Data structures and formats](information-data/data-structures-and-formats.md) |
-| **Drivers and devices** | [Draft canonical article](operating-system-principles/drivers-and-devices.md) · Operating-system abstractions for hardware device operations | *uses* → [Buses and interfaces](digital-systems-hardware/buses-and-interfaces.md) |
-| **Execution contexts** | [Draft canonical article](operating-system-principles/execution-contexts.md) · Privilege modes, environments, address spaces, and executing state | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
-| **System initialization** | [Draft canonical article](operating-system-principles/system-initialization.md) · Boot sequence, firmware handoff, kernel start, and service initialization | *follows* → [Firmware](digital-systems-hardware/firmware.md) |
-| **Resource management** | [Draft canonical article](operating-system-principles/resource-management.md) · Allocation, quotas, accounting, and contention for shared system resources | *constrains* → [Computational efficiency](computation-algorithms/computational-efficiency.md) |
+| **Kernels** | [Reviewed canonical article](operating-system-principles/kernels.md) · Privileged coordination of execution, resource protection, and OS abstraction | *builds on* → [Hardware abstraction](digital-systems-hardware/hardware-abstraction.md) |
+| **System calls** | [Reviewed canonical article](operating-system-principles/system-calls.md) · Protected OS interfaces and kernel transitions for requested operations | *exposes* → [Software interfaces](software-programming/software-interfaces.md) |
+| **Processes and threads** | [Reviewed canonical article](operating-system-principles/processes-and-threads.md) · Process isolation, address spaces, execution threads, and states | *realizes* → [Concurrency and parallelism](computation-algorithms/concurrency-and-parallelism.md) |
+| **Scheduling** | [Reviewed canonical article](operating-system-principles/scheduling.md) · Allocation of processor time among runnable work | *influences* → [Computational efficiency](computation-algorithms/computational-efficiency.md) |
+| **Memory management** | [Reviewed canonical article](operating-system-principles/memory-management.md) · Virtual addressing, allocation, page translation, and memory protection | *manages* → [Memory and storage](digital-systems-hardware/memory-and-storage.md) |
+| **Filesystems** | [Reviewed canonical article](operating-system-principles/filesystems.md) · Persistent file/directory organization, access paths, and metadata | *implements structured storage for* → [Data structures and formats](information-data/data-structures-and-formats.md) |
+| **Drivers and devices** | [Reviewed canonical article](operating-system-principles/drivers-and-devices.md) · Operating-system abstractions for hardware device operations | *uses* → [Buses and interfaces](digital-systems-hardware/buses-and-interfaces.md) |
+| **Execution contexts** | [Reviewed canonical article](operating-system-principles/execution-contexts.md) · Privilege modes, environments, address spaces, and executing state | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
+| **System initialization** | [Reviewed canonical article](operating-system-principles/system-initialization.md) · Boot sequence, firmware handoff, kernel start, and service initialization | *follows* → [Firmware](digital-systems-hardware/firmware.md) |
+| **Resource management** | [Reviewed canonical article](operating-system-principles/resource-management.md) · Allocation, quotas, accounting, and contention for shared system resources | *constrains* → [Computational efficiency](computation-algorithms/computational-efficiency.md) |
 
 ## 10. Communication & Distributed Systems (9 headings)
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Communication models** | [Draft canonical article](communication-distributed-systems/communication-models.md) · Generic senders, receivers, channels, messages, and exchange patterns | *applies* → [Relationships](models-abstraction/relationships.md) |
-| **Transmission and signaling** | [Draft canonical article](communication-distributed-systems/transmission-and-signaling.md) · Encoding and propagation of signals carrying information | *uses* → [Analog and digital signals](physical-electrical-principles/analog-and-digital-signals.md) |
-| **Communication channels** | [Draft canonical article](communication-distributed-systems/communication-channels.md) · Communication paths and constraints including medium, capacity, and noise | *constrained by* → [Information theory](information-data/information-theory.md) |
-| **Protocols and layering** | [Draft canonical article](communication-distributed-systems/protocols-and-layering.md) · Communication conventions, protocol rules, state, layering, and encapsulation | *complements interface contracts in* → [Software interfaces](software-programming/software-interfaces.md) |
-| **Addressing and naming** | [Draft canonical article](communication-distributed-systems/addressing-and-naming.md) · Names, locators, address scopes, binding, and resolution | *extends reference concepts in* → [Identity and distinction](models-abstraction/identity-and-distinction.md) |
-| **Latency and throughput** | [Draft canonical article](communication-distributed-systems/latency-and-throughput.md) · Delay, data rates, queueing, jitter, and performance measures | *uses* → [Units and quantities](mathematics-logic/units-and-quantities.md) |
-| **Reliability and ordering** | [Draft canonical article](communication-distributed-systems/reliability-and-ordering.md) · Message loss, duplication, delivery guarantees, acknowledgements, and ordering | *extends system* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
-| **Distributed state** | [Draft canonical article](communication-distributed-systems/distributed-state.md) · Replication, consistency, clocks, and partial-failure uncertainty | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
-| **Synchronization and coordination** | [Draft canonical article](communication-distributed-systems/synchronization-and-coordination.md) · Coordination among autonomous processes through ordering, clocks, and agreement | *extends computational* → [Synchronization](computation-algorithms/synchronization.md) |
+| **Communication models** | [Reviewed canonical article](communication-distributed-systems/communication-models.md) · Generic senders, receivers, channels, messages, and exchange patterns | *applies* → [Relationships](models-abstraction/relationships.md) |
+| **Transmission and signaling** | [Reviewed canonical article](communication-distributed-systems/transmission-and-signaling.md) · Encoding and propagation of signals carrying information | *uses* → [Analog and digital signals](physical-electrical-principles/analog-and-digital-signals.md) |
+| **Communication channels** | [Reviewed canonical article](communication-distributed-systems/communication-channels.md) · Communication paths and constraints including medium, capacity, and noise | *constrained by* → [Information theory](information-data/information-theory.md) |
+| **Protocols and layering** | [Reviewed canonical article](communication-distributed-systems/protocols-and-layering.md) · Communication conventions, protocol rules, state, layering, and encapsulation | *complements interface contracts in* → [Software interfaces](software-programming/software-interfaces.md) |
+| **Addressing and naming** | [Reviewed canonical article](communication-distributed-systems/addressing-and-naming.md) · Names, locators, address scopes, binding, and resolution | *extends reference concepts in* → [Identity and distinction](models-abstraction/identity-and-distinction.md) |
+| **Latency and throughput** | [Reviewed canonical article](communication-distributed-systems/latency-and-throughput.md) · Delay, data rates, queueing, jitter, and performance measures | *uses* → [Units and quantities](mathematics-logic/units-and-quantities.md) |
+| **Reliability and ordering** | [Reviewed canonical article](communication-distributed-systems/reliability-and-ordering.md) · Message loss, duplication, delivery guarantees, acknowledgements, and ordering | *extends system* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
+| **Distributed state** | [Reviewed canonical article](communication-distributed-systems/distributed-state.md) · Replication, consistency, clocks, and partial-failure uncertainty | *specializes* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
+| **Synchronization and coordination** | [Reviewed canonical article](communication-distributed-systems/synchronization-and-coordination.md) · Coordination among autonomous processes through ordering, clocks, and agreement | *extends computational* → [Synchronization](computation-algorithms/synchronization.md) |
 
 ## 11. Systems & Engineering (11 headings)
 
@@ -187,7 +187,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 ## Canonical article integration
 
-The original **109 approved headings and 12 knowledge areas** remain unchanged. All 109 headings have substantive articles: **90 Reviewed (model-assisted)**, including the nine Software & Programming articles that passed the [Wave D Software 54-family audit](WAVE-D-TECHNICAL-REVIEW-03-04.md), and **19 Wave E Drafts** across Operating System Principles (10) and Communication & Distributed Systems (9). No headings remain un-authored. The canonical ownership and relationship crosswalk is still proposed conceptual navigation, not a ratified formal ontology. Full source-level verification, independent human peer review and final publication acceptance remain outstanding.
+The original **109 approved headings and 12 knowledge areas** remain unchanged. All **109/109 headings** have substantive articles and **Reviewed (model-assisted)** development status, following the [Wave E Operating System Principles 60-family audit](WAVE-E-TECHNICAL-REVIEW-01.md) and [Wave E Communication & Distributed Systems 54-family audit](WAVE-E-TECHNICAL-REVIEW-02.md). The canonical ownership and relationship crosswalk remains proposed conceptual navigation, **not a ratified formal ontology or completed relationship-verification gate**. Full source-level verification, independent human peer review and final publication acceptance remain outstanding.
 
 ## Register integrity
 
@@ -207,6 +207,6 @@ The original **109 approved headings and 12 knowledge areas** remain unchanged. 
 4. Consult the [20 overlap groups and 10 candidate gap questions](CONCEPT-OVERLAP-REVIEW.md) before creating a new canonical document.
 5. Replace broad area-index links with precise subject links after meaningful, source-verified reference articles exist.
 
-The register **does not** demonstrate that the subject explanations or review gates have been completed.
+This register records article locations and proposed relationships. It does **not** establish full source-level verification, consistency of every relation, qualified human acceptance, or satisfaction of all publication gates.
 
 [Fundamentals](README.md) · [Knowledge relationships](../../RELATIONSHIPS.md)
