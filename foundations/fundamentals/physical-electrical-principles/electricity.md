@@ -69,7 +69,7 @@ Charge distributions create electric fields; moving charges and changing fields 
 
 Ground potential, reference directions and current return paths depend on actual circuit architecture and environmental conditions. An electrical connection labeled `ground` does not guarantee zero potential difference between every point in a real system.
 
-[Electrical Circuits](electrical-circuits.md) owns circuit connections and current/voltage constraints; [Electronics](README.md) will develop active devices and implementations. Detailed electrical safety practices are outside this conceptual reference.
+[Electrical Circuits](electrical-circuits.md) owns circuit connections and current/voltage constraints; [Electronics](electronics.md) will develop active devices and implementations. Detailed electrical safety practices are outside this conceptual reference.
 
 ### References
 
