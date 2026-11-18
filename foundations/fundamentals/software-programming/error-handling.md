@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Software & Programming](README.md)  
 **Approved subject heading:** Error handling  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical/source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Software Batches 03–04 audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md); independent human review pending
 
 ## Detecting a problem differs from recovering from it
 
@@ -74,6 +74,6 @@ No exception hierarchy, error-code standard, monitoring platform, logging format
 - [MIT 6.005: Debugging and Avoiding Debugging](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/08-avoiding-debugging/).
 - [NASA: Fundamentals of Systems Engineering](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/).
 
-**Editorial status:** Substantive Draft. The parsing result and recovery semantics require a separate scoped technical review. No assessments or mandatory exception model are introduced.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave D Software 54-family audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md). Complete source verification, independent expert review and final publication acceptance remain separate outstanding gates.
 
 [Software & Programming](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
