@@ -2,14 +2,14 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All 10 approved subjects authored and Reviewed (model-assisted); independent human review and final publication acceptance pending  
+**Content status:** 10 legacy articles Reviewed (model-assisted); 1 additional headings Inventoried, not authored; no subject Published
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
 
 Ways to describe entities, relations, boundaries, classifications, and dynamic behavior without assuming any particular technology.
 
-## Approved Subject Inventory
+## Subject Inventory (versioned)
 
 - Entities and attributes
 - Identity and distinction
@@ -21,6 +21,10 @@ Ways to describe entities, relations, boundaries, classifications, and dynamic b
 - Schemas
 - State, events, and transitions
 - Conceptual and formal models
+
+**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 1 headings are **Inventoried**, not yet authored, Reviewed, Verified or Published. These expand the original 10-heading article snapshot; the area now tracks **11 headings**.
+
+- **Temporal concepts and models** (Inventoried; article pending)
 
 ## Canonical reference articles
 
@@ -37,7 +41,11 @@ Ways to describe entities, relations, boundaries, classifications, and dynamic b
 | State, events, and transitions | [State, events, and transitions](state-events-and-transitions.md) | Reviewed (model-assisted) | [Wave A Batch 01 audit](../WAVE-A-TECHNICAL-REVIEW-01.md) |
 | Conceptual and formal models | [Conceptual and formal models](conceptual-and-formal-models.md) | Reviewed (model-assisted) | [Wave A Batch 07 audit](../WAVE-A-TECHNICAL-REVIEW-07.md) |
 
+| Temporal concepts and models | Article pending (no canonical file yet) | **Inventoried** | [Architecture adjudication](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) |
+
 ## Development and canonical boundaries
+**Current inventory reconciliation (November 18, 2026):** **11 tracked headings = 10 previously Reviewed articles + 1 newly Inventoried subjects**. The historical 10/10 internal review statements below apply only to those existing articles. The additional subject headings are not yet canonical reference articles and do not inherit prior Wave review outcomes.
+
 
 **All 10/10 approved headings have substantive, internally Reviewed references.** The scoped technical/claim-to-source audits in the table document model-assisted review. They are **not** exhaustive verification of source material, independent human peer review or final publication acceptance.
 
