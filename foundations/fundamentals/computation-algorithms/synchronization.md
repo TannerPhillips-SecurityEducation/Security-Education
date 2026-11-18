@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Computation & Algorithms](README.md)  
 **Approved subject heading:** Synchronization  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; separate scoped technical audit pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Batch 02 technical audit](../WAVE-D-TECHNICAL-REVIEW-02.md); independent human peer review pending
 
 ## Coordination constrains concurrent operation
 
@@ -89,6 +89,6 @@ No mutex API, CPU architecture, threading library, verification platform or lear
 - [MIT 6.005: Thread Safety](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/20-thread-safety/).
 - [MIT 6.005: Software Construction Course](https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/).
 
-**Editorial status:** Substantive Draft. Atomic-counter, lock-order and progress claims require a separate technical/source audit. No specific synchronization primitive or formal memory model is adopted for the repository.
+**Editorial status:** Reviewed (model-assisted) following the [Wave D Batch 02 scoped 30-family technical audit](../WAVE-D-TECHNICAL-REVIEW-02.md). Exhaustive source verification, independent human expert review and final publication acceptance remain open.
 
 [Computation & Algorithms](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
