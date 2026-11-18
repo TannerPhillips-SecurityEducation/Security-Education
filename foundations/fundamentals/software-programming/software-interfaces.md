@@ -72,6 +72,8 @@ This article does not require a particular API specification, language interface
 ### Sources
 
 - [MIT 6.005: Specifications and Interfaces](https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/pages/readings/).
+- [MIT 6.005: Specifications, Preconditions and Postconditions](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/06-specifications/).
+- [MIT 6.005: Interfaces](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/14-interfaces/index.html).
 - [MIT 6.005: Abstraction and Representation Independence](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/12-abstract-data-types/).
 - [NASA: Interface Management](https://www.nasa.gov/reference/6-3-interface-management/).
 
