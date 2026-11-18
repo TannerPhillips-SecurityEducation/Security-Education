@@ -51,7 +51,7 @@ A stored-program system makes instructions available in a representation accessi
 
 The number of address bits does not by itself establish physical memory capacity or imply that every address is valid. Byte-addressed and word-addressed architectures can use the same address width while referring to different sized units.
 
-[Memory and Storage](README.md) and [Buses and Interfaces](README.md) remain separate approved headings for physical memory and interconnect mechanisms. Their not-yet-authored status does not make the ISA the canonical owner of those physical details.
+[Memory and Storage](memory-and-storage.md) and [Buses and Interfaces](buses-and-interfaces.md) remain separate approved headings for physical memory and interconnect mechanisms. Their not-yet-authored status does not make the ISA the canonical owner of those physical details.
 
 ## Performance and execution are different quantities
 
@@ -65,7 +65,7 @@ A correct ISA description can coexist with vastly different microarchitectural p
 
 The ISA is one boundary between machine-level software and hardware. An **application binary interface (ABI)** may add conventions for calling functions, register usage and binary layout, while an operating system defines services, process models and access policies. A compatible ISA does not automatically imply compatible ABIs, operating-system environments or applications.
 
-[Hardware Abstraction](README.md) will develop the specialized mechanisms hiding hardware details. [System Calls](../operating-system-principles/README.md) belongs to the separately approved operating-system area, not to all processors universally.
+[Hardware Abstraction](hardware-abstraction.md) will develop the specialized mechanisms hiding hardware details. [System Calls](../operating-system-principles/README.md) belongs to the separately approved operating-system area, not to all processors universally.
 
 ## Canonical boundaries and references
 
