@@ -91,7 +91,7 @@ Do not create placeholder directories, duplicate root indexes, or fake article f
 
 Track separately: **architecture approval**, **content development** (Inventoried/Draft/Reviewed), **source-review depth** (Not reviewed/References listed/Core claims checked/Verified), **relationship review**, and **publication acceptance**.
 
-**Sequential authoring requirement:** After a batch reaches Draft, the next authoring-related response is its separate technical Review with evidence and corrections, **not another new Draft**. Only advance status when the audit actually supports it; unresolved manuscripts stay Draft. Source-level verification and publication are later independent gates.
+**Flexible-batch authoring requirement:** **Draft batch → Review batch.** A batch may contain **one or multiple articles**, with size chosen for concept coherence and the depth of evidence rather than an arbitrary quota. The next authoring-related response following a Draft batch reviews **all articles from that batch that remain Draft**, optionally together with other outstanding Drafts, before a different Draft batch begins. A Review can cover several articles in one bounded, article-attributed audit. Only promote articles actually supported by their own review evidence; unresolved manuscripts stay Draft. Source-level verification and publication remain separate gates.
 
 Model-assisted technical review can support a scoped Reviewed status only with a separate material-claim audit; it is not complete passage verification or independent human peer review. Final Published status requires actual publication gates and authorization. Historical wave review outcomes cannot automatically be inherited by new or merged work.
 

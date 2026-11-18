@@ -12,7 +12,7 @@
 
 This file is a reusable **operating guide**, not authorization to claim new user approvals, automatically promote pilots to permanent canonical pages, or infer publication acceptance from green CI. It also requires reconciliation of current article and review states rather than carrying forward stale historical counts.
 
-**Authoring sequence:** Each new Draft batch is followed by its own separate claim-led **Review** in the next authoring-related response, including corrections, a dated audit, register reconciliation and validation **before drafting additional subjects**. Reviewed is not Verified or Published. [Review 04](PILOT-TECHNICAL-REVIEW-04.md) demonstrates this cycle for the three November 18 area-first manuscripts. Historical `pilots/` redirects are mandatory only for manuscripts documented in [Adjudication 03's relocation map](AREA-STRUCTURE-ADJUDICATION-03.md).
+**Authoring sequence:** **Draft batch → Review batch.** Both stages may involve **multiple articles**, with variable batch size and technical depth governed by concepts and evidence, not a one-article limit. The next authoring-related response after a Draft batch reviews all its pending manuscripts; a single documented audit may cover several articles, but each needs its own material-claim findings and evidence status. Reconcile article and area registers and validate **before drafting another batch**. Reviewed is not Verified or Published. [Review 04](PILOT-TECHNICAL-REVIEW-04.md) demonstrates a three-article review batch. Historical `pilots/` redirects are mandatory only for manuscripts documented in [Adjudication 03's relocation map](AREA-STRUCTURE-ADJUDICATION-03.md).
 
 ## Architectural documentation
 
