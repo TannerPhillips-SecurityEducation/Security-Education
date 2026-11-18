@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Mathematics & Logic](README.md)  
 **Subject ID:** F-01-09  
-**Development status:** Draft; substantive article newly authored  
-**Source review:** References listed; scoped claim-to-source technical review pending  
+**Development status:** Reviewed (model-assisted; independent human acceptance not claimed)  
+**Source review:** Core claims checked; [Wave F 42-family scoped technical audit](../WAVE-F-TECHNICAL-REVIEW-01.md); comprehensive source-level verification not claimed  
 **Inventory authority:** [Model and Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md)
 
 ## Linear algebra describes structure-preserving transformations
@@ -78,6 +78,6 @@ The determinant is `2·3−0·1=6`, so the transformation is invertible. Its col
 
 Definitions and the worked matrix computation use the standard finite-dimensional real-vector-space setting. Extension to complex fields, infinite-dimensional spaces, normed spaces or numerical linear algebra requires extra assumptions and treatment.
 
-**Editorial disposition:** Draft. References are starting points, not a completed claim-to-passage audit or independent expert review.
+**Editorial status:** Reviewed (model-assisted) under the [Wave F scoped technical review](../WAVE-F-TECHNICAL-REVIEW-01.md). Full source-passage verification, independent expert review and final publication acceptance remain open.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
