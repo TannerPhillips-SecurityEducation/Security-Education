@@ -74,8 +74,8 @@ def main() -> int:
                 continue
             groups[area].append({
                 "id": fields[0], "name": fields[1],
-                "canonical": fields[2], "status": fields[3],
-                "source": fields[4],
+                "canonical": fields[2], "status": fields[3].strip("* "),
+                "source": fields[4].strip("* "),
             })
     ids = [r["id"] for rows in groups.values() for r in rows]
     if len(ids) != len(set(ids)):
@@ -110,8 +110,10 @@ def main() -> int:
                 inventoried += 1
                 if "Article not authored" not in row["canonical"] or row["source"] != "Not reviewed":
                     problems.append(f"{row['id']}: Inventoried row misleadingly claims article/source review")
-            else:
+            elif row["status"] in {"Draft", "Scoped", "Researched", "Pilot queued"}:
                 other += 1
+            else:
+                problems.append(f"{row['id']}: unknown development state: {row['status']!r}")
     owners = (ROOT / "CANONICAL-OWNERSHIP-REGISTER.md").read_text(encoding="utf-8")
     owner_names = [normal(m.group(1)) for line in owners.splitlines()
                    if (m := OWNER.match(line))]
