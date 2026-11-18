@@ -2,7 +2,7 @@
 
 **Knowledge area:** [Mathematics & Logic](README.md)  
 **Subject ID:** F-01-12  
-**Development status:** Draft; newly authored foundational reference  
+**Development status:** Reviewed (model-assisted; independent human approval not claimed)  
 **Source review:** References listed; separate scoped technical review pending  
 **Inventory authority:** [Coverage & Source Triage 02](../COVERAGE-AND-SOURCE-TRIAGE-02.md)
 
@@ -103,6 +103,6 @@ Assume a nonnegative modeled quantity x obeys dx/dt=−0.2x per second, with x(0
 - [MIT 18.03SC syllabus and course goals](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/pages/syllabus/syllabus/), prerequisites, modeling, graphical and numerical solutions.
 - [MIT Mathematics course catalog: Differential Equations](https://catalog.mit.edu/subjects/18/), scope and distinctions between ordinary, nonlinear and partial differential models.
 
-**Editorial state:** Draft. These are source starting points; a complete claim-to-passage audit and independent expert review remain pending. No student assessments are included.
+**Editorial status:** Reviewed (model-assisted) under [Wave H Technical Review 01](../WAVE-H-TECHNICAL-REVIEW-01.md). Complete source-passage verification, independent qualified expert acceptance and Published status remain open.
 
 [Mathematics & Logic](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
