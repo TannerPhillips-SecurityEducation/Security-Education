@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-10-02 · Security Observation & Evidence  
 **Artifact type:** Working article pilot; not an approved canonical subject path  
-**Development state:** Draft · **Source review:** References listed; scoped technical audit pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md), five material claim groups; full source verification and independent expert acceptance pending  
 **Architecture:** [Candidate inventory v0.3](../SUBJECT-INVENTORY-PROPOSAL.md) · [Source crosswalk](../ESTABLISHED-MODEL-CROSSWALK.md)
 
 ## Reality, observation and records are different epistemic objects
@@ -130,5 +130,7 @@ A security classification can be revised as additional evidence arrives. That re
 **Source starting points:** [NIST SP 800-53 Rev.5, Release 5.2.0](https://csrc.nist.gov/news/2025/nist-releases-revision-to-sp-800-53-controls); [NIST SP 800-92: Guide to Computer Security Log Management](https://csrc.nist.gov/pubs/sp/800/92/final) (older reference, check revisions before operational guidance); [RFC 5424 Syslog](https://www.rfc-editor.org/info/rfc5424/); [W3C PROV-DM](https://www.w3.org/TR/prov-dm/), general provenance framework.
 
 **Editorial limits:** This is a conceptual model of security visibility and evidence. Logging semantics, measurement quality, integrity, timestamp correctness and claims about real actors must be independently validated. No universal security event taxonomy or sensor design is mandated. Full primary-source review and independent expert acceptance remain open.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 01](../PILOT-TECHNICAL-REVIEW-01.md). This is a **working pilot**, not an approved permanent canonical article, source-Verified artifact or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md)
