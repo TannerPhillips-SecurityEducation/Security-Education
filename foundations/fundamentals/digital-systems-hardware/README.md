@@ -2,14 +2,14 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All 9 approved subjects authored and Reviewed (model-assisted); human peer review and final publication acceptance remain pending  
+**Content status:** 9 legacy articles Reviewed (model-assisted); 1 additional headings Inventoried, not authored; no subject Published
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
 
 Components and mechanisms by which physical hardware represents information and executes digital operations.
 
-## Approved Subject Inventory
+## Subject Inventory (versioned)
 
 - Digital logic
 - Computing components
@@ -20,6 +20,10 @@ Components and mechanisms by which physical hardware represents information and 
 - Timing and clocks
 - Firmware
 - Hardware abstraction
+
+**Additional subjects from [Model/Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) (November 18, 2026):** The following 1 headings are **Inventoried**, not yet authored, Reviewed, Verified or Published. These expand the original 9-heading article snapshot; the area now tracks **10 headings**.
+
+- **Computer architecture models** (Inventoried; article pending)
 
 ## Canonical reference articles
 
@@ -35,7 +39,11 @@ Components and mechanisms by which physical hardware represents information and 
 | Firmware | [Firmware](firmware.md) | Reviewed (model-assisted) |
 | Hardware abstraction | [Hardware Abstraction](hardware-abstraction.md) | Reviewed (model-assisted) |
 
+| Computer architecture models | Article pending (no canonical file yet) | **Inventoried** |
+
 ## Technical review and canonical boundaries
+**Current inventory reconciliation (November 18, 2026):** **10 tracked headings = 9 previously Reviewed articles + 1 newly Inventoried subjects**. The historical 9/9 internal review statements below apply only to those existing articles. The additional subject headings are not yet canonical reference articles and do not inherit prior Wave review outcomes.
+
 
 **Wave C authoring and internal review coverage: 9/9.** The [Batch 01](../WAVE-C-TECHNICAL-REVIEW-01.md), [Batch 02](../WAVE-C-TECHNICAL-REVIEW-02.md), and [Batch 03](../WAVE-C-TECHNICAL-REVIEW-03.md) audits document scoped model-assisted technical checks across the area. All nine articles are Reviewed (model-assisted). This does not establish full source-level verification, independent human peer review or final publication acceptance.
 
