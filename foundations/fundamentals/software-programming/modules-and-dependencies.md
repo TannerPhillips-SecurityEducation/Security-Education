@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Software & Programming](README.md)  
 **Approved subject heading:** Modules and dependencies  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical/source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Software Batches 03–04 audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md); independent human review pending
 
 ## Modules organize software responsibility and coupling
 
@@ -80,6 +80,6 @@ No dependency manager, packaging convention, version standard, programming langu
 - [MIT 6.005: Software Construction Syllabus](https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/pages/syllabus/).
 - [NASA: Interface Management](https://www.nasa.gov/reference/6-3-interface-management/).
 
-**Editorial status:** Substantive Draft. Version-range arithmetic and claims about module contracts require their own scoped technical review. No testing assignments or new knowledge categories are introduced.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave D Software 54-family audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md). Complete source verification, independent expert review and final publication acceptance remain separate outstanding gates.
 
 [Software & Programming](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
