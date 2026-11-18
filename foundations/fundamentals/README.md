@@ -27,35 +27,33 @@ The **twelve approved knowledge areas are navigation disciplines**, while their 
 
 ## Canonical Reference Development
 
-**Fifty-nine substantive references are Reviewed (model-assisted)** under scoped technical audits through [Wave C Batch 01](WAVE-C-TECHNICAL-REVIEW-01.md). This does not imply complete claim-to-source verification, independent human peer review, or final publication acceptance.
+**Sixty-three substantive references are Reviewed (model-assisted)** under the original pilot review, Wave A and Wave B audits, and Wave C Batches [01](WAVE-C-TECHNICAL-REVIEW-01.md) and [02](WAVE-C-TECHNICAL-REVIEW-02.md). This is not independent human peer review, complete source verification, or final publication acceptance.
 
 | Approved knowledge area | Reviewed canonical reference articles |
 | --- | --- |
 | Mathematics & Logic | [Numbers and numerical systems](mathematics-logic/numbers-and-numerical-systems.md); [Sets and relations](mathematics-logic/sets-and-relations.md); [Boolean and predicate logic](mathematics-logic/boolean-and-predicate-logic.md); [Algebra and functions](mathematics-logic/algebra-and-functions.md); [Discrete mathematics](mathematics-logic/discrete-mathematics.md); [Graph theory](mathematics-logic/graph-theory.md); [Probability and statistics](mathematics-logic/probability-and-statistics.md); [Units and quantities](mathematics-logic/units-and-quantities.md) |
 | Scientific & Analytical Reasoning | [Observation](scientific-analytical-reasoning/observation.md); [Measurement](scientific-analytical-reasoning/measurement.md); [Evidence](scientific-analytical-reasoning/evidence.md); [Hypotheses and experiments](scientific-analytical-reasoning/hypotheses-and-experiments.md); [Deduction, induction, and abduction](scientific-analytical-reasoning/deduction-induction-abduction.md); [Causality and correlation](scientific-analytical-reasoning/causality-and-correlation.md); [Uncertainty and confidence](scientific-analytical-reasoning/uncertainty-and-confidence.md); [Validation and falsification](scientific-analytical-reasoning/validation-and-falsification.md) |
 | Models & Abstraction | [Entities and attributes](models-abstraction/entities-and-attributes.md); [Identity and distinction](models-abstraction/identity-and-distinction.md); [Relationships](models-abstraction/relationships.md); [Boundaries](models-abstraction/boundaries.md); [Abstraction](models-abstraction/abstraction.md); [Classification](models-abstraction/classification.md); [Ontologies and taxonomies](models-abstraction/ontologies-and-taxonomies.md); [Schemas](models-abstraction/schemas.md); [State, events, and transitions](models-abstraction/state-events-and-transitions.md); [Conceptual and formal models](models-abstraction/conceptual-and-formal-models.md) |
-| Physical & Electrical Principles | [Matter and energy](physical-electrical-principles/matter-and-energy.md); [Electricity](physical-electrical-principles/electricity.md); [Electrical circuits](physical-electrical-principles/electrical-circuits.md) |
+| Physical & Electrical Principles | [Matter and energy](physical-electrical-principles/matter-and-energy.md); [Electricity](physical-electrical-principles/electricity.md); [Electrical circuits](physical-electrical-principles/electrical-circuits.md); [Electronics](physical-electrical-principles/electronics.md); [Analog and digital signals](physical-electrical-principles/analog-and-digital-signals.md); [Waves and frequency](physical-electrical-principles/waves-and-frequency.md) |
 | Information & Data | [Symbols and encoding](information-data/symbols-and-encoding.md); [Bits and bytes](information-data/bits-and-bytes.md); [Information theory](information-data/information-theory.md); [Data types](information-data/data-types.md); [Datasets, records, fields, and values](information-data/datasets-records-fields-and-values.md); [Data structures and formats](information-data/data-structures-and-formats.md); [Metadata](information-data/metadata.md); [Databases and queries](information-data/databases-and-queries.md); [Data provenance and lifecycle](information-data/data-provenance-and-lifecycle.md) |
-| Digital Systems & Hardware | [Digital logic](digital-systems-hardware/digital-logic.md); [Computing components](digital-systems-hardware/computing-components.md) |
+| Digital Systems & Hardware | [Digital logic](digital-systems-hardware/digital-logic.md); [Computing components](digital-systems-hardware/computing-components.md); [Processors and instruction sets](digital-systems-hardware/processors-and-instruction-sets.md) |
 | Systems & Engineering | [Systems and subsystems](systems-engineering/systems-and-subsystems.md); [Components and interfaces](systems-engineering/components-and-interfaces.md); [Architecture and composition](systems-engineering/architecture-and-composition.md); [Dependencies](systems-engineering/dependencies.md); [State and behavior](systems-engineering/state-and-behavior.md); [Feedback and control](systems-engineering/feedback-and-control.md); [Emergence and complexity](systems-engineering/emergence-and-complexity.md); [Reliability and failure](systems-engineering/reliability-and-failure.md); [Requirements](systems-engineering/requirements.md); [Verification and validation](systems-engineering/verification-and-validation.md); [System lifecycle](systems-engineering/system-lifecycle.md) |
 | Human & Sociotechnical Systems | [Human cognition and perception](human-sociotechnical-systems/human-cognition-and-perception.md); [Decision-making](human-sociotechnical-systems/decision-making.md); [Human-computer interaction](human-sociotechnical-systems/human-computer-interaction.md); [Usability and accessibility](human-sociotechnical-systems/usability-and-accessibility.md); [Human error](human-sociotechnical-systems/human-error.md); [Collaboration and communication](human-sociotechnical-systems/collaboration-and-communication.md); [Organizational structures](human-sociotechnical-systems/organizational-structures.md); [Ethics and professional responsibilities](human-sociotechnical-systems/ethics-and-professional-responsibilities.md) |
 
-The [Development & Verification Register v1.9](DEVELOPMENT-VERIFICATION-REGISTER.md) accounts for **109 approved subject headings**: **59 Reviewed (model-assisted)**, **4 Draft**, **46 Inventoried without articles**. Wave A (26/26) and Wave B (28/28) are internally Reviewed; Wave C is partially authored.
+The [Development & Verification Register v1.10](DEVELOPMENT-VERIFICATION-REGISTER.md) tracks all **109 approved headings**: **63 Reviewed (model-assisted), 9 Draft, 37 Inventoried without article**. Waves A and B remain fully authored and internally Reviewed.
 
 ## Wave C Authoring
 
-**Wave C Batch 01 reviewed:** [Matter and Energy](physical-electrical-principles/matter-and-energy.md), [Electricity](physical-electrical-principles/electricity.md), [Electrical Circuits](physical-electrical-principles/electrical-circuits.md), and [Computing Components](digital-systems-hardware/computing-components.md) passed the [24-family technical audit](WAVE-C-TECHNICAL-REVIEW-01.md).
+**All 18 Wave C headings are now substantively authored.** Physical & Electrical Principles has six internally Reviewed references and three Drafts. Digital Systems & Hardware has three internally Reviewed references (including the original Digital Logic pilot) and six Drafts.
 
-**Wave C Batch 02 Drafts** remain awaiting technical acceptance:
+The four Wave C Batch 02 references passed the [24-family technical audit](WAVE-C-TECHNICAL-REVIEW-02.md). These **nine Wave C Batch 03 Drafts** await a separate technical and source review:
 
-- [Electronics](physical-electrical-principles/electronics.md)
-- [Analog and Digital Signals](physical-electrical-principles/analog-and-digital-signals.md)
-- [Waves and Frequency](physical-electrical-principles/waves-and-frequency.md)
-- [Processors and Instruction Sets](digital-systems-hardware/processors-and-instruction-sets.md)
+| Knowledge area | New Draft references |
+| --- | --- |
+| [Physical & Electrical Principles](physical-electrical-principles/README.md) | [Sensors and Actuators](physical-electrical-principles/sensors-and-actuators.md); [Signal Conversion](physical-electrical-principles/signal-conversion.md); [Physical Control Mechanisms](physical-electrical-principles/physical-control-mechanisms.md) |
+| [Digital Systems & Hardware](digital-systems-hardware/README.md) | [Memory and Storage](digital-systems-hardware/memory-and-storage.md); [Buses and Interfaces](digital-systems-hardware/buses-and-interfaces.md); [Input/Output](digital-systems-hardware/input-output.md); [Timing and Clocks](digital-systems-hardware/timing-and-clocks.md); [Firmware](digital-systems-hardware/firmware.md); [Hardware Abstraction](digital-systems-hardware/hardware-abstraction.md) |
 
-**Wave C authoring coverage:** Physical & Electrical Principles 6/9; Digital Systems & Hardware 3/9, including the previously Reviewed Digital Logic pilot. Total **9/18 authored**. The remaining nine approved Wave C headings are not yet authored.
-
-G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML are unresolved scope decisions. No new headings, mandatory modeling technology, or learner assessments are introduced.
+**Next:** Audit the nine Drafts, then begin the 37 remaining approved Wave D/E headings. G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved; no assessments or new categories have been added.
 
 ## Technical Audit Evidence
 
@@ -74,6 +72,7 @@ G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML are unresolve
 - [Wave B Batch 04 Review](WAVE-B-TECHNICAL-REVIEW-04.md): 36 claim families.
 - [Wave B Batch 05 Review](WAVE-B-TECHNICAL-REVIEW-05.md): 48 claim families.
 - [Wave C Batch 01 Review](WAVE-C-TECHNICAL-REVIEW-01.md): 24 claim families.
+- [Wave C Batch 02 Review](WAVE-C-TECHNICAL-REVIEW-02.md): 24 claim families.
 
 **Reviewed** denotes a documented internal model-assisted technical/editorial evaluation, not independent human approval, a ratified graph predicate vocabulary, or completion of the seven Fundamentals gates. G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML remain outstanding architectural scope decisions.
 
@@ -138,7 +137,7 @@ A claim of *complete Fundamentals* requires evidence for all seven gates:
 | Verification | Technical claims have been reviewed against credible references |
 | Navigation | Every canonical subject can be discovered without requiring fixed reading order |
 
-**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 63 substantive reference articles (59 internally Reviewed, four Draft). Complete source validation and all seven corpus-wide completion gates remain open.
+**Current milestone:** Twelve knowledge areas and 109 approved headings preserved, with 72 substantive reference articles (63 internally Reviewed, nine Draft). Complete source validation and all seven corpus-wide completion gates remain open.
 
 ## Coverage Across Specialized Domains
 
