@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All 8 approved subjects authored and Reviewed (model-assisted); independent human review and final publication acceptance pending  
+**Content status:** **8/8 current canonical subject articles Reviewed (model-assisted)**; individual scoped audits are recorded in article metadata and the [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md). None is fully source-Verified, independently peer-reviewed or Published.  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -41,6 +41,6 @@ This area is an approved navigation discipline. Its headings organize domain-agn
 
 Canonical ownership of general mathematical, analytical and modeling ideas remains here even when later articles apply those ideas to hardware, computation, software or distributed systems. The [Canonical Ownership Register](../CANONICAL-OWNERSHIP-REGISTER.md) records the working cross-area relationships.
 
-G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML remain unresolved. No Knowledge Checks, Practical Assessments, quizzes or scoring are included.
+G-01 mathematics, G-04 general temporality and G-06 AI/ML now have assigned owners and scoped-reviewed articles under [Wave F](../WAVE-F-TECHNICAL-REVIEW-01.md); complete source-level verification remains open. No Knowledge Checks, Practical Assessments, quizzes or scoring are included.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
