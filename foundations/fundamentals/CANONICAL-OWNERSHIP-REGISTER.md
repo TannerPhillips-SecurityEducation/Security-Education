@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v1.5. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
+**Status:** Working architectural register v1.6. The **12 area identities and 109 subject headings are approved**; the particular subject scope explanations and relationships here are **proposed for review**, not newly ratified canonical definitions.
 
 This register connects the existing subject inventory to the [governing architecture](ARCHITECTURE.md). It establishes the intended **general canonical responsibility** for each approved heading and an illustrative relationship to another **existing approved heading**.
 
@@ -9,7 +9,7 @@ This register connects the existing subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** Live direct links now point to **forty-seven Reviewed (model-assisted) articles** and **eight Human & Sociotechnical Systems Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
+- **Links:** Live direct links now point to **fifty-five Reviewed (model-assisted) articles** and **four Wave C Batch 01 Drafts**; headings without articles still link to their approved area indexes. Direct references do not mean independent human peer review or final publication.
 - **Granularity:** One heading may require multiple articles, and a single well-scoped explanation can serve more than one heading. Do not assume 109 headings equal 109 indivisible concepts.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -61,9 +61,9 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Matter and energy** | Physical matter, energy, transfer, and constraints on physical systems | *constrains* → [Computing components](digital-systems-hardware/README.md) |
-| **Electricity** | Charge, voltage, current, resistance, and electrical power | *governs* → [Electrical circuits](physical-electrical-principles/README.md) |
-| **Electrical circuits** | Behavior of interconnected passive and active electrical elements | *forms the physical basis of* → [Electronics](physical-electrical-principles/README.md) |
+| **Matter and energy** | [Draft canonical article](physical-electrical-principles/matter-and-energy.md) · Physical matter, energy, transfer, and constraints on physical systems | *constrains* → [Computing components](digital-systems-hardware/computing-components.md) |
+| **Electricity** | [Draft canonical article](physical-electrical-principles/electricity.md) · Charge, voltage, current, resistance, and electrical power | *governs* → [Electrical circuits](physical-electrical-principles/electrical-circuits.md) |
+| **Electrical circuits** | [Draft canonical article](physical-electrical-principles/electrical-circuits.md) · Behavior of interconnected passive and active electrical elements | *forms the physical basis of* → [Electronics](physical-electrical-principles/README.md) |
 | **Electronics** | Semiconductors, switching, amplification, and electronic component functions | *enables* → [Digital logic](digital-systems-hardware/digital-logic.md) |
 | **Analog and digital signals** | Physical continuous signals versus sampled or discrete representations | *processed through* → [Signal conversion](physical-electrical-principles/README.md) |
 | **Waves and frequency** | Oscillation, frequency, phase, wavelength, and propagation | *supports* → [Transmission and signaling](communication-distributed-systems/README.md) |
@@ -90,7 +90,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
 | **Digital logic** | [Reviewed canonical article](digital-systems-hardware/digital-logic.md) · Physical switching systems implementing logical and sequential behavior | *realizes* → [Boolean and predicate logic](mathematics-logic/boolean-and-predicate-logic.md) |
-| **Computing components** | Hardware organization of processors, memory, peripherals, and interconnects | *is a type of* → [Systems and subsystems](systems-engineering/systems-and-subsystems.md) |
+| **Computing components** | [Draft canonical article](digital-systems-hardware/computing-components.md) · Hardware organization of processors, memory, peripherals, and interconnects | *is a type of* → [Systems and subsystems](systems-engineering/systems-and-subsystems.md) |
 | **Processors and instruction sets** | Processor execution organization, instruction encoding, and ISA models | *is a target of* → [Compilation and interpretation](software-programming/README.md) |
 | **Memory and storage** | Volatile and nonvolatile storage media, latency, and memory hierarchy | *managed abstractly by* → [Memory management](operating-system-principles/README.md) |
 | **Buses and interfaces** | Physical/logical device interconnects and signal transfer | *accessed using* → [Drivers and devices](operating-system-principles/README.md) |
@@ -176,18 +176,18 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 | Approved subject | Proposed canonical responsibility | Illustrative relationship to another approved subject |
 | --- | --- | --- |
-| **Human cognition and perception** | [Draft canonical article](human-sociotechnical-systems/human-cognition-and-perception.md) · Human attention, memory, perception, interpretation, and cognitive limits | *shapes* → [Human-computer interaction](human-sociotechnical-systems/human-computer-interaction.md) |
-| **Decision-making** | [Draft canonical article](human-sociotechnical-systems/decision-making.md) · Choice under constraints, incomplete knowledge, uncertainty, and goals | *informed by* → [Evidence](scientific-analytical-reasoning/evidence.md) |
-| **Human-computer interaction** | [Draft canonical article](human-sociotechnical-systems/human-computer-interaction.md) · People interacting with software, devices, and whole technical systems | *evaluated for* → [Usability and accessibility](human-sociotechnical-systems/usability-and-accessibility.md) |
-| **Usability and accessibility** | [Draft canonical article](human-sociotechnical-systems/usability-and-accessibility.md) · Inclusive, usable, effective, and accessible human-system experiences | *informs* → [Requirements](systems-engineering/requirements.md) |
-| **Human error** | [Draft canonical article](human-sociotechnical-systems/human-error.md) · Human mistakes, slips, and organizational conditions contributing to error | *may affect* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
-| **Collaboration and communication** | [Draft canonical article](human-sociotechnical-systems/collaboration-and-communication.md) · Human coordination, collaboration, shared language, and information exchange | *structured by* → [Organizational structures](human-sociotechnical-systems/organizational-structures.md) |
-| **Organizational structures** | [Draft canonical article](human-sociotechnical-systems/organizational-structures.md) · Roles, responsibilities, authority, governance, and organizational relationships | *shape* → [Requirements](systems-engineering/requirements.md) |
-| **Ethics and professional responsibilities** | [Draft canonical article](human-sociotechnical-systems/ethics-and-professional-responsibilities.md) · Professional obligations, harms, accountability, and responsible conduct | *informs human* → [Decision-making](human-sociotechnical-systems/decision-making.md) |
+| **Human cognition and perception** | [Reviewed canonical article](human-sociotechnical-systems/human-cognition-and-perception.md) · Human attention, memory, perception, interpretation, and cognitive limits | *shapes* → [Human-computer interaction](human-sociotechnical-systems/human-computer-interaction.md) |
+| **Decision-making** | [Reviewed canonical article](human-sociotechnical-systems/decision-making.md) · Choice under constraints, incomplete knowledge, uncertainty, and goals | *informed by* → [Evidence](scientific-analytical-reasoning/evidence.md) |
+| **Human-computer interaction** | [Reviewed canonical article](human-sociotechnical-systems/human-computer-interaction.md) · People interacting with software, devices, and whole technical systems | *evaluated for* → [Usability and accessibility](human-sociotechnical-systems/usability-and-accessibility.md) |
+| **Usability and accessibility** | [Reviewed canonical article](human-sociotechnical-systems/usability-and-accessibility.md) · Inclusive, usable, effective, and accessible human-system experiences | *informs* → [Requirements](systems-engineering/requirements.md) |
+| **Human error** | [Reviewed canonical article](human-sociotechnical-systems/human-error.md) · Human mistakes, slips, and organizational conditions contributing to error | *may affect* → [Reliability and failure](systems-engineering/reliability-and-failure.md) |
+| **Collaboration and communication** | [Reviewed canonical article](human-sociotechnical-systems/collaboration-and-communication.md) · Human coordination, collaboration, shared language, and information exchange | *structured by* → [Organizational structures](human-sociotechnical-systems/organizational-structures.md) |
+| **Organizational structures** | [Reviewed canonical article](human-sociotechnical-systems/organizational-structures.md) · Roles, responsibilities, authority, governance, and organizational relationships | *shape* → [Requirements](systems-engineering/requirements.md) |
+| **Ethics and professional responsibilities** | [Reviewed canonical article](human-sociotechnical-systems/ethics-and-professional-responsibilities.md) · Professional obligations, harms, accountability, and responsible conduct | *informs human* → [Decision-making](human-sociotechnical-systems/decision-making.md) |
 
 ## Canonical article integration
 
-The original **109 subject headings and 12 area assignments** remain unchanged. There are **47 Reviewed (model-assisted)** articles, including [Wave B Batch 04's 36-family audit](WAVE-B-TECHNICAL-REVIEW-04.md), and **eight Human & Sociotechnical Systems Drafts**. All 28 approved Wave B headings are authored: 20 internally Reviewed and eight Draft. Wave A's 26 headings remain internally Reviewed. No independent human review, complete source verification, or final publication acceptance is asserted. Direct navigation links are a working conceptual crosswalk, not a formally ratified graph schema. Direct navigation links do not claim independent human verification or create a formal graph schema.
+The original **109 approved subject headings and 12 area assignments** remain unchanged. There are **55 Reviewed (model-assisted)** articles, including the [Wave B Batch 05 48-family audit](WAVE-B-TECHNICAL-REVIEW-05.md), plus **four substantive Wave C Batch 01 Drafts**. All 26 Wave A and 28 Wave B headings are internally Reviewed; Digital Logic is the additional Reviewed pilot in Wave C. Human expert review, complete source validation and final publication acceptance remain outstanding. The crosswalk is navigational and conceptual, not a ratified formal knowledge-graph schema.
 
 ## Register integrity
 
