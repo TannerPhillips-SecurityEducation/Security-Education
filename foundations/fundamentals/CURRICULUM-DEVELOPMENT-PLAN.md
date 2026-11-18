@@ -1,7 +1,7 @@
 # Curriculum Development Plan of Action
 
 **Program:** Security Knowledge → Foundations → Fundamentals  
-**Document status:** Working plan v1.24; **120/120 substantive articles internally Reviewed (model-assisted)** across Waves A–H, including Wave G depth reviews; none fully source-level Verified or independently Published; none source-level Verified or Published; independent human acceptance pending
+**Document status:** Working plan v1.25; **120/120 substantive articles internally Reviewed (model-assisted)** across Waves A–H, including Wave G depth reviews; none fully source-level Verified or independently Published; qualified human acceptance remains pending.
 **Current inventory:** 12 knowledge areas, **120 authored and Reviewed (model-assisted) subjects** (116 earlier + four Wave H). Historical 109- and 116-heading snapshots remain traceable; count may expand or contract.  
 **Source of authority:** [Fundamentals governing architecture](ARCHITECTURE.md), [Fundamentals index](README.md), and the [repository's publication scope](../../README.md)
 
@@ -16,7 +16,7 @@ Follow the [approved Fundamentals governing architecture](ARCHITECTURE.md) throu
 - **Canonical ownership:** A concept has one general canonical home; specialized areas link to it and develop distinct contextual mechanisms.
 - **Specialized extension:** Domain applications build on Fundamentals, without turning Fundamentals into a technology-specific taxonomy.
 
-The **12 approved knowledge areas are navigational disciplines**, and **116 headings form the current, revisable coverage inventory**, not 116 presumed one-to-one concepts or a fixed quota. The knowledge graph captures conceptual relationships across disciplinary boundaries. Illustrative primitives are not a separately approved taxonomy.
+The **12 approved knowledge areas are navigational disciplines**, and **120 headings form the current, revisable coverage inventory**, not 116 presumed one-to-one concepts or a fixed quota. The knowledge graph captures conceptual relationships across disciplinary boundaries. Illustrative primitives are not a separately approved taxonomy.
 
 ## 1. Mission
 
@@ -76,7 +76,7 @@ Historical 109/109 Reviewed (model-assisted) refers only to the audited snapshot
 - **Publication remains pending:** Execute the seven [Fundamentals completion gates](README.md#completion-gates), especially complete claim-to-source traceability, editorial/technical depth and relationship consistency, external URL/fragment checks, seven-domain coverage and independent qualified human expert peer review.
 - **Architecture scope and scoped authoring/review completed:** G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML now have canonical owners and internally Reviewed articles. **Complete source-passage verification and final publication acceptance remain open**. No Knowledge Checks, Practical Assessments, quizzes or mandated vendors were added.
 
-**Next execution:** Move from scoped article-level review to corpus-wide publication-readiness work: stronger source-passage traceability across all 116 articles, external-reference freshness and anchors, model/architecture relationship consistency, seven-domain coverage, editorial depth and qualified independent expert review.
+**Next execution:** Move from scoped article-level review to corpus-wide publication-readiness work: stronger source-passage traceability across all 120 current articles, external-reference freshness and anchors, model/architecture relationship consistency, seven-domain coverage, editorial depth and qualified independent expert review.
 
 ## Architecture Adjudication and New-Subject Execution
 
@@ -244,7 +244,7 @@ Production waves guide authors, **not reader prerequisites**. Knowledge Checks a
 - [Concept Overlap & Coverage Review](CONCEPT-OVERLAP-REVIEW.md)
 - [Canonical Concept Boundary Decisions](CONCEPT-BOUNDARY-DECISIONS.md)
 - [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md)
-- [Development & Verification Register (116 tracked headings)](DEVELOPMENT-VERIFICATION-REGISTER.md)
+- [Development & Verification Register (120 current tracked headings)](DEVELOPMENT-VERIFICATION-REGISTER.md)
 - [Six-Pilot Technical and Editorial Review](PILOT-TECHNICAL-REVIEW.md)
 - [Pilot Claim-to-Source Audit (50 claim families)](PILOT-CLAIM-SOURCE-AUDIT.md)
 - [Wave A Batch 01 Claim-to-Source Review (21 families)](WAVE-A-TECHNICAL-REVIEW-01.md)
