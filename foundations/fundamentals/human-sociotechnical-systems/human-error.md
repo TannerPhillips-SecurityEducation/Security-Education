@@ -37,6 +37,22 @@ The same visible outcome can arise through several pathways. Clicking an incorre
 
 The purpose of distinguishing mechanisms is to choose proportionate interventions; it is not to infer someone’s character from a single event.
 
+## Barrier models and the limits of blame-oriented explanations
+
+A **layered-defense or Swiss-cheese illustration** depicts several protections, each with limitations; adverse outcomes may occur when failure paths traverse weaknesses in multiple layers. This is a useful **heuristic**, not a predictive physical law or a mathematical guarantee that a particular number of defenses yields a certain probability of safety.
+
+Barrier analysis should distinguish three claims:
+
+1. **A potential barrier existed**: a procedure, interface affordance, supervisory review or technical interlock was specified.
+2. **The barrier was available and effective at the relevant time**: design specifications alone are insufficient; placement, functioning and environmental constraints matter.
+3. **The observed event could have been prevented by the barrier**: this is a causal claim requiring a model and evidence, not an inference from the diagram's holes.
+
+The [UK Health and Safety Executive](https://www.hse.gov.uk/humanfactors/topics/humanfail.htm) explicitly separates unintentional **slips/lapses**, errors of judgment or **mistakes**, and intentional **violations**. Intentional deviation is not automatically malicious: rules may be impractical or workarounds may be normalized. Their causal conditions can involve workload, equipment design, incentives, communication, incomplete procedures or other interacting factors.
+
+**Worked comparison:** A controller enters the wrong value because two fields look similar. Retraining might not correct an ambiguous field mapping; distinguishing fields, constraining input ranges and displaying a confirmation can alter error opportunity or detect errors before effect. Whether those measures worked requires observed evidence.
+
+No single human-failure framework can determine legal responsibility, individual intent or guaranteed causal attribution from a final incident outcome. [Human Cognition and Perception](human-cognition-and-perception.md) owns attention and memory; [Reliability and Failure](../systems-engineering/reliability-and-failure.md) owns systemic failure models.
+
 ## Error tolerance and recovery
 
 A **robust human-system design** may make unintended actions less likely, detectable, reversible or less consequential. Potential mechanisms include differentiation of similar controls, feedback confirming the affected object, validation of critical inputs, safe defaults, meaningful undo, staged authorization and well-designed recovery procedures.
@@ -64,6 +80,10 @@ A well-grounded review distinguishes observations, missing data, explanations, r
 [Organizational Structures](organizational-structures.md) owns authority and role allocation. [Ethics and Professional Responsibilities](ethics-and-professional-responsibilities.md) owns duties and harm-related judgments. [Reliability and Failure](../systems-engineering/reliability-and-failure.md) owns system-level failure criteria and models, rather than defining human behavior as a component failure probability.
 
 ### Sources
+
+- [UK HSE: Managing Human Failures and Performance Influencing Factors](https://www.hse.gov.uk/humanfactors/topics/humanfail.htm).
+- [UK HSE: Workload and Human Performance](https://www.hse.gov.uk/humanfactors/topics/workload.htm).
+
 
 - [UK Health and Safety Executive: Managing Human Failures](https://www.hse.gov.uk/humanfactors/topics/humanfail.htm).
 - [NASA: Human Performance and Error](https://www.nasa.gov/reference/5-0-human-performance-and-error-vol-2/).
