@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Physical & Electrical Principles](README.md)  
 **Approved subject heading:** Electronics  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped claim-to-source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave C Batch 02 audit](../WAVE-C-TECHNICAL-REVIEW-02.md); no independent human expert review
 
 ## Controlling electrical behavior using devices and circuits
 
@@ -63,6 +63,6 @@ A board's microcontroller, power stage and sensor inputs may all contain electro
 - [OpenStax University Physics Volume 3: Semiconductor Devices](https://openstax.org/books/university-physics-volume-3/pages/9-7-semiconductor-devices).
 - [OpenStax University Physics Volume 2: Resistors in Series and Parallel](https://openstax.org/books/university-physics-volume-2/pages/10-2-resistors-in-series-and-parallel).
 
-**Editorial status:** Substantive Draft. The idealized rectifier example and semiconductor generalizations require a scoped independent second-pass technical review. No learner assessments, wiring instructions, or new subject categories are introduced.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave C Batch 02 technical audit](../WAVE-C-TECHNICAL-REVIEW-02.md). Exhaustive source verification, independent expert peer review and final publication acceptance remain outstanding.
 
 [Physical & Electrical Principles](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
