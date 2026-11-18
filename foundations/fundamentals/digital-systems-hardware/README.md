@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Two of nine approved subjects authored (one Reviewed model-assisted; one Draft); seven not yet authored  
+**Content status:** Three of nine headings authored (two Reviewed model-assisted; one Draft); six not yet authored  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -26,8 +26,8 @@ Components and mechanisms by which physical hardware represents information and 
 | Approved subject | Canonical reference | Development state |
 | --- | --- | --- |
 | Digital logic | [Digital Logic](digital-logic.md) | Reviewed (model-assisted) |
-| Computing components | [Computing Components](computing-components.md) | Draft |
-| Processors and instruction sets | Not authored | Inventoried |
+| Computing components | [Computing Components](computing-components.md) | Reviewed (model-assisted) |
+| Processors and instruction sets | [Processors and Instruction Sets](processors-and-instruction-sets.md) | Draft |
 | Memory and storage | Not authored | Inventoried |
 | Buses and interfaces | Not authored | Inventoried |
 | Input/output | Not authored | Inventoried |
@@ -35,12 +35,16 @@ Components and mechanisms by which physical hardware represents information and 
 | Firmware | Not authored | Inventoried |
 | Hardware abstraction | Not authored | Inventoried |
 
-## Development boundaries
+## Technical review and canonical boundaries
 
-[Digital Logic](digital-logic.md) previously passed the [six-pilot audit](../PILOT-CLAIM-SOURCE-AUDIT.md) and remains Reviewed (model-assisted). [Computing Components](computing-components.md) is a substantive Wave C Batch 01 Draft awaiting its own scoped technical audit. It introduces general roles of processors, registers, memory, storage, interconnects, input/output and physical support without claiming a mandatory processor implementation.
+[Digital Logic](digital-logic.md) passed the [six-pilot claim-to-source review](../PILOT-CLAIM-SOURCE-AUDIT.md). [Computing Components](computing-components.md) passed the [Wave C Batch 01 technical audit](../WAVE-C-TECHNICAL-REVIEW-01.md). Both are internally Reviewed (model-assisted). [Processors and Instruction Sets](processors-and-instruction-sets.md) is a substantive Wave C Batch 02 **Draft** awaiting its own technical audit.
 
-[Bits and Bytes](../information-data/bits-and-bytes.md) owns binary representation units. [Electrical Circuits](../physical-electrical-principles/electrical-circuits.md) owns circuit physics. [State, Events, and Transitions](../models-abstraction/state-events-and-transitions.md) owns abstract state semantics. General temporality G-04 remains a separately unresolved architectural decision, rather than being decided by this hardware area.
+The subjects distinguish physically implemented logic, overall hardware roles, and the software-visible instruction-set contract. An ISA is not synonymous with a microarchitecture, and an address space's capacity is not proof of installed memory. The remaining six headings retain separate canonical scope when authored.
 
-No assessments, new areas, subject headings, or platform mandates are introduced.
+[Bits and Bytes](../information-data/bits-and-bytes.md) owns binary units, [Data Types](../information-data/data-types.md) owns value interpretation, [Electrical Circuits](../physical-electrical-principles/electrical-circuits.md) owns circuit physics, and [State, Events, and Transitions](../models-abstraction/state-events-and-transitions.md) owns general state semantics.
+
+General time and temporality G-04 remain an unresolved architectural decision; a future article on Timing and Clocks does not settle that decision by default. G-01 and G-06 also remain open.
+
+No assessments, new approved subjects, mandated CPU architecture or publication acceptance are introduced.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
