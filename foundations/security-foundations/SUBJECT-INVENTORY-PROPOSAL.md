@@ -1,13 +1,13 @@
 # Security Foundations: Candidate Subject Inventory
 
-**Working proposal:** v0.3 · November 18, 2026  
+**Working proposal:** v0.4 · November 18, 2026  
 **Approved:** The Security Foundations division exists.  
 **Not approved:** The twelve candidate knowledge areas and **96 active candidate subject headings** listed below. Neither count is fixed.  
-**Purpose:** A reviewable concept-and-mechanism coverage map, not a committed subject taxonomy or publication record.
+**Purpose:** A reviewable concept-and-mechanism coverage map, **now navigable through the explicitly adopted Fundamentals-style provisional area directories**. The area/subject semantic taxonomy and publication status remain unratified.
 
 ## Inventory interpretation
 
-Each proposed area is a **navigation grouping**, not a claim that its members share a single ontological parent type. Titles are provisional. Descriptions mark the intended canonical focus and help prevent duplicate ownership. A heading is **not** a finished article, endorsed curriculum objective, or mandatory reading sequence. After architectural approval, approved subjects can be assigned stable canonical locations.
+Each proposed area has a real **provisional working directory with an area `README.md` and substantive articles when authored**, following the [Fundamentals baseline](../fundamentals/README.md). A directory is a navigational grouping, not an ontological parent assertion. Titles and memberships remain provisional. An Inventoried heading is **not** a finished article or mandatory reading step; existing substantive articles have working homes in these area directories, without automatically ratifying their semantic placement.
 
 The proposed inventory draws boundaries between **security-specific principles** and their general mathematical, computational, scientific, or systemic prerequisites in [Fundamentals](../fundamentals/README.md); between principles and **security practices** in [Operational Foundations](../operational-foundations/README.md); and between cross-domain principles and **implemented functions** in the [seven specialized domains](../../README.md#knowledge-domains).
 
@@ -233,6 +233,6 @@ Four active candidates were added: **SF-04-08, SF-06-09, SF-08-09, SF-09-09**. O
 
 ## Explicit approval boundary
 
-This document is a **proposal for review**. Approval of the existing Security Foundations division does **not** approve the candidate grouping, individual subjects, their boundaries, or the 96-heading working count. Reconcile with [the governing architecture proposal](ARCHITECTURE.md), [the ownership/overlap review](OWNERSHIP-BOUNDARIES.md), and [the development plan](DEVELOPMENT-PLAN.md) before generating a canonical subject tree.
+This document is a **proposal for review** of individual area/subject meaning, **not** the directory pattern. The user has explicitly adopted the [Fundamentals-style area/README/article layout](AREA-STRUCTURE-ADJUDICATION-03.md). The twelve area names, 96 candidate subjects and their memberships remain flexible, and final canonical taxonomy approval remains separate. Reconcile [current article paths](DEVELOPMENT-VERIFICATION-REGISTER.md), [working owners](CANONICAL-OWNERSHIP-REGISTER.md), [boundaries](OWNERSHIP-BOUNDARIES.md), and [development plan](DEVELOPMENT-PLAN.md) before adding or relocating content.
 
 [Security Foundations index](README.md) · [Foundations](../README.md) · [Repository knowledge relationships](../../RELATIONSHIPS.md)
