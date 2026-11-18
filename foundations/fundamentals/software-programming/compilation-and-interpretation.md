@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Software & Programming](README.md)  
 **Approved subject heading:** Compilation and interpretation  
-**Development status:** Draft  
-**Source review:** Authoritative references listed; scoped technical/source review pending
+**Development status:** Reviewed (model-assisted)  
+**Source review:** Core claims checked; [Wave D Software Batches 03–04 audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md); independent human review pending
 
 ## A program can be translated, executed directly, or both
 
@@ -85,6 +85,6 @@ This article does not prescribe a compiler, bytecode format, target ISA, interpr
 - [MIT 6.035: Lecture Notes](https://ocw.mit.edu/courses/6-035-computer-language-engineering-spring-2010/pages/lecture-notes/).
 - [MIT 6.005: Parser Generators](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/18-parser-generators/index.html).
 
-**Editorial status:** Substantive Draft. The compiler pipeline, JIT interpretation and constant-folding example await separate source and technical review. No assessments or mandatory toolchains are introduced.
+**Editorial status:** Reviewed (model-assisted) after the scoped [Wave D Software 54-family audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md). Complete source verification, independent expert review and final publication acceptance remain separate outstanding gates.
 
 [Software & Programming](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
