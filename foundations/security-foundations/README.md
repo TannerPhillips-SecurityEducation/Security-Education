@@ -4,7 +4,7 @@
 
 **Division status:** Approved.  
 **Structural organization:** **Fundamentals-style division → area README → substantive area article** pattern explicitly adopted; individual area names, subject ownership and 96-candidate inventory remain **provisional and flexible**.  
-**Current coverage:** **12 provisional knowledge-area directories, 96 candidate subjects, 14 substantive articles Reviewed (model-assisted), and 82 not yet authored**. The fourteen real articles now live within their respective areas; [historical pilot paths](pilots/README.md) redirect to those working homes. Three scoped audits checked 70 material claim groups. Neither the number of areas/subjects nor final publication status is fixed.
+**Current coverage:** **12 provisional knowledge-area directories, 96 candidate subjects, 14 Reviewed (model-assisted) articles, 1 Draft, and 81 not yet authored**. The fourteen real articles now live within their respective areas; [historical pilot paths](pilots/README.md) redirect to those working homes. Three scoped audits checked 70 material claim groups. Neither the number of areas/subjects nor final publication status is fixed.
 
 ## Contributor and Agent Operating Contract
 
