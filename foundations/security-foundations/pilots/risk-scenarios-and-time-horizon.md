@@ -2,7 +2,7 @@
 
 **Candidate subject:** SF-05-01 · Security Risk & Uncertainty  
 **Artifact type:** Working pilot article, not a ratified permanent canonical subject  
-**Development state:** Draft · **Source review:** References listed; separate scoped technical review pending  
+**Development state:** Reviewed (model-assisted) · **Source review:** Core claims checked in [Pilot Technical Review 02](../PILOT-TECHNICAL-REVIEW-02.md); five material claim groups; full source verification and qualified independent approval remain pending  
 **Architecture:** [Flexible Security Foundations inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)
 
 ## Security risk is conditional on an adverse scenario
@@ -105,5 +105,7 @@ The CVSS Base score may be identical because it concerns the vulnerability's int
 - [NIST SP 800-160 Vol. 1 Rev. 1](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final), stakeholder protection needs and security engineering assumptions.
 
 **Editorial limitation:** The two-outcome model and organizational comparison are invented teaching examples. This article is not a forecast, audit, risk score, financial estimate or operational risk-assessment method. Source-passage verification, independent human review and canonical taxonomy approval remain separate and pending.
+
+**Editorial status:** Reviewed (model-assisted) under [Pilot Technical Review 02](../PILOT-TECHNICAL-REVIEW-02.md). This remains a working pilot, not a ratified canonical path or independently Published reference.
 
 [Security Foundations](../README.md) · [Pilot Register](README.md)
