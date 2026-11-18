@@ -3,8 +3,8 @@
 > **Scope:** Shared concepts and principles for understanding security and insecurity across technical systems and the seven specialized knowledge domains.
 
 **Division status:** Approved.  
-**Internal architecture status:** Model-grounded working proposal **v0.3**, **not ratified**.  
-**Candidate coverage:** **Twelve provisional areas and 96 active candidate subjects** after four source-grounded additions and two consolidations. Both numbers remain flexible. **Fourteen source-led pilot articles have passed three scoped model-assisted reviews (70 material claim groups)** under [pilots](pilots/README.md); no permanent canonical subject tree has been ratified.
+**Structural organization:** **Fundamentals-style division → area README → substantive area article** pattern explicitly adopted; individual area names, subject ownership and 96-candidate inventory remain **provisional and flexible**.  
+**Current coverage:** **12 provisional knowledge-area directories, 96 candidate subjects, 14 substantive articles Reviewed (model-assisted), and 82 not yet authored**. The fourteen real articles now live within their respective areas; [historical pilot paths](pilots/README.md) redirect to those working homes. Three scoped audits checked 70 material claim groups. Neither the number of areas/subjects nor final publication status is fixed.
 
 ## Contributor and Agent Operating Contract
 
@@ -23,14 +23,17 @@ This file is a reusable **operating guide**, not authorization to claim new user
 ## Architecture adjudication and pilot development
 
 - [**Architecture Adjudication 02**](ARCHITECTURE-ADJUDICATION-02.md): Full 94-to-96 reconciliation, including two consolidated IDs and four added candidate subjects, supported by model/source boundaries. Both the area and subject counts may expand or contract.
-- [**Fourteen Source-Led Article Pilots**](pilots/README.md): Internally Reviewed (model-assisted) exploratory references covering security objectives, threats, vulnerabilities, risk, controls, access policy, information flow, cryptography, observation, assurance, compromise, resilience, privacy, safety, and ethical constraints. **They are not ratified canonical locations or Published articles.**
+- [**Historical Pilot Register and Compatibility Paths**](pilots/README.md): Tracks the 14 Reviewed working articles and their dated audits; each substantive article is now located within its provisional area. Legacy `pilots/` file paths are navigation aliases, not duplicate knowledge.
+- [**Area Structure Adjudication 03**](AREA-STRUCTURE-ADJUDICATION-03.md): User-approved Fundamentals-style folder pattern, 12 provisional area indexes, 14 relocations and honest structural-versus-taxonomy approval limits.
+- [**Development & Verification Register**](DEVELOPMENT-VERIFICATION-REGISTER.md): All 96 candidate IDs, actual article paths and their independent authoring/source states.
+- [**Working Canonical Ownership Register**](CANONICAL-OWNERSHIP-REGISTER.md): Provisional subject owners, precise conceptual boundaries, actual manuscripts and historical consolidations.
 - [**Pilot Technical Review 01**](PILOT-TECHNICAL-REVIEW-01.md): 40 claim groups across the original eight pilots; corrected insecurity/uncertainty and current TLS/Common Criteria versions.
 - [**Pilot Technical Review 02**](PILOT-TECHNICAL-REVIEW-02.md): 10 additional claim groups across the risk and defensive-controls pilots, separating severity from risk and control listings from measured effects.
 - [**Pilot Technical Review 03**](PILOT-TECHNICAL-REVIEW-03.md): 20 additional material claim groups for compromise, resilience, RTO/RPO, privacy harms from authorized processing, safety and human-impact constraints.
 - [**Coverage & Gaps Review 03**](COVERAGE-AND-GAPS-REVIEW-03.md): Reconciles the fourteen Reviewed pilots against 96 working subject candidates, identifies eight next subject/depth/overlap priorities, and separates knowledge gaps from unpiloted headings.
 - [**Source Crosswalk v0.3**](ESTABLISHED-MODEL-CROSSWALK.md): 30 evidence groups, including NIST Privacy Framework, ISO/IEC safety principles, recovery-objective guidance, current incident-response methods and earlier cryptographic/formal policy models.
 
-**Governance separation:** The division is approved; the internal hierarchy and 96 candidate subjects are **not yet ratified**. The fourteen pilots are **Reviewed (model-assisted) / Core claims checked**, but complete source-passage verification, qualified independent review and final publication acceptance remain separate evidence states. No draft count or working model is a required future quota.
+**Governance separation:** The division and **Fundamentals-style directory pattern** are accepted; the **names/membership of the twelve working areas and the 96 candidate subjects remain provisional and revisionable**. The fourteen substantive working articles are **Reviewed (model-assisted) / Core claims checked**, not source-Verified, independently Published or automatically approved as permanent canonical locations.
 
 ## The governing distinction
 
@@ -44,25 +47,26 @@ Security Foundations should not invent new laws of security where tested models 
 
 The 12 areas below are **working navigation hypotheses**, not a forced reflection of any one of those models. Their names, number and 96-subject working inventory remain open to revision based on model coverage, conceptual overlap and source evidence.
 
-## Candidate coverage at a glance
+## Working knowledge areas
 
-| Area | Provisional knowledge area | Active candidate subjects |
-| --- | --- | ---: |
-| 01 | Security Meaning & Objectives | 8 |
-| 02 | Protected Interests, Assets & Harm | 6 |
-| 03 | Threats, Hazards & Adversarial Behavior | 7 |
-| 04 | Weaknesses, Vulnerabilities & Exposure | 8 |
-| 05 | Security Risk & Uncertainty | 8 |
-| 06 | Trust, Identity & Authority Principles | 9 |
-| 07 | Security Controls & Defense Mechanisms | 8 |
-| 08 | Secure Design & Architecture | 9 |
-| 09 | Cryptography & Information Protection | 9 |
-| 10 | Security Observation & Evidence | 8 |
-| 11 | Security Failure & Resilience | 8 |
-| 12 | Security Assurance, Governance & Accountability | 8 |
+| Area | Working knowledge area | Candidate subjects | Reviewed substantive articles | Not authored |
+| --- | --- | ---: | ---: | ---: |
+| 01 | [Security Meaning & Objectives](security-meaning-objectives/README.md) | 8 | 2 | 6 |
+| 02 | [Protected Interests, Assets & Harm](protected-interests-assets-harm/README.md) | 6 | 0 | 6 |
+| 03 | [Threats, Hazards & Adversarial Behavior](threats-hazards-adversarial-behavior/README.md) | 7 | 1 | 6 |
+| 04 | [Weaknesses, Vulnerabilities & Exposure](weaknesses-vulnerabilities-exposure/README.md) | 8 | 1 | 7 |
+| 05 | [Security Risk & Uncertainty](security-risk-uncertainty/README.md) | 8 | 1 | 7 |
+| 06 | [Trust, Identity & Authority Principles](trust-identity-authority-principles/README.md) | 9 | 1 | 8 |
+| 07 | [Security Controls & Defense Mechanisms](security-controls-defense-mechanisms/README.md) | 8 | 1 | 7 |
+| 08 | [Secure Design & Architecture](secure-design-architecture/README.md) | 9 | 1 | 8 |
+| 09 | [Cryptography & Information Protection](cryptography-information-protection/README.md) | 9 | 1 | 8 |
+| 10 | [Security Observation & Evidence](security-observation-evidence/README.md) | 8 | 1 | 7 |
+| 11 | [Security Failure & Resilience](security-failure-resilience/README.md) | 8 | 2 | 6 |
+| 12 | [Security Assurance, Governance & Accountability](security-assurance-governance-accountability/README.md) | 8 | 2 | 6 |
+| **Total** | **12 provisional areas** | **96** | **14** | **82** |
 
-| **Total** | **12 proposed areas** | **96 active candidates** |
+**These directories follow the Fundamentals baseline:** each area contains its own `README.md` and the substantive articles currently assigned to it. Some areas have multiple articles; others currently contain only an inventory README. **Do not invent article files to equalize counts.**
 
-**None of these proposed areas or their 96 current subjects is automatically approved by being listed here.** The area count, subject names, ownership decisions and precise definition remain subject to architectural review. This is a knowledge reference, not a course or assessment platform: no Knowledge Checks or Practical Assessments.
+**The shared directory pattern is explicitly adopted, but the individual proposed area identities and 96 candidate subjects are not automatically ratified merely by appearing here.** The area count, subject names, ownership decisions and precise definition remain subject to architectural review. This is a knowledge reference, not a course or assessment platform: no Knowledge Checks or Practical Assessments.
 
 [Foundations](../README.md) · [Security Knowledge](../../README.md) · [Knowledge relationship conventions](../../RELATIONSHIPS.md)
