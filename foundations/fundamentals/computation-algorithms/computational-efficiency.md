@@ -43,7 +43,7 @@ Procedure B: C_B(n) = 50 n log₂(n)
 
 At `n=100`, A costs `10,000` units while B costs approximately `33,219.3` units. A is cheaper under the stipulated model. At `n=1,000`, A costs `1,000,000` units while B costs approximately `498,289.2` units, so B is cheaper.
 
-This illustrates why an asymptotically better algorithm may lose to one with lower constants for some practical input sizes. It does **not** establish that either cost function represents an existing implementation, nor that every large input favors B without additional domain/constant conditions.
+This illustrates why an asymptotically better algorithm may lose to one with lower constants for some input sizes. **Under these stipulated formulas, B eventually costs less than A for all sufficiently large n**, because `50n log₂(n) = o(n²)`. That mathematical conclusion is not a benchmark of any real implementation; real workload, constant factors and hardware effects require their own evidence.
 
 A model comparison is a derivation from stipulated formulas, not measured performance. Hardware measurements require actual implementations and defined workloads.
 
