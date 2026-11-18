@@ -2,6 +2,8 @@
 
 Foundations establishes shared knowledge used throughout the specialized domains.
 
+**Foundations contributor SOP:** [AGENTS.md](AGENTS.md) governs shared knowledge ownership, evidence, variable article/subject depth, and the different approval states of our three divisions. It inherits the [root repository SOP](../AGENTS.md); each division adds its own tailored instructions.
+
 ## Approved Divisions
 
 1. [Fundamentals](fundamentals/README.md): Domain-agnostic concepts, structures, principles, and mechanisms; governed by its [approved knowledge architecture](fundamentals/ARCHITECTURE.md).
