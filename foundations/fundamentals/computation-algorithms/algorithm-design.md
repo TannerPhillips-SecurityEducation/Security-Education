@@ -39,7 +39,7 @@ These are explanatory families, not new approved knowledge categories. Practical
 
 Suppose unlimited coins with denominations `{1,3,4}` must sum to `6`, with the **objective of using as few coins as possible**.
 
-A largest-denomination-first greedy procedure chooses `4`, then `1`, then `1`: a valid representation using **three coins**. Another feasible representation is `3+3=6), using **two coins**. Since no allowed single coin has denomination 6, two coins are optimal.
+A largest-denomination-first greedy procedure chooses `4`, then `1`, then `1`: a valid representation using **three coins**. Another feasible representation is `3+3=6`, using **two coins**. Since no allowed single coin has denomination 6, two coins are optimal.
 
 ```text
 Greedy: 4 + 1 + 1 = 6  (3 coins)
