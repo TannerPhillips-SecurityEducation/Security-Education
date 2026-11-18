@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** All nine approved subjects authored, 0 Reviewed (model-assisted), 9 Draft; independent expert review and final publication acceptance pending  
+**Content status:** All 9 approved subjects authored; 9 Reviewed (model-assisted), 0 Draft; independent human review and publication acceptance pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -25,24 +25,22 @@ How software is expressed, organized, translated, executed, tested, maintained, 
 
 | Approved subject | Canonical reference | Development state |
 | --- | --- | --- |
-| Programming languages | [Programming languages](programming-languages.md) | Draft |
-| Syntax and semantics | [Syntax and semantics](syntax-and-semantics.md) | Draft |
-| Programming paradigms | [Programming paradigms](programming-paradigms.md) | Draft |
-| Compilation and interpretation | [Compilation and interpretation](compilation-and-interpretation.md) | Draft |
-| Runtime environments | [Runtime environments](runtime-environments.md) | Draft |
-| Modules and dependencies | [Modules and dependencies](modules-and-dependencies.md) | Draft |
-| Software interfaces | [Software interfaces](software-interfaces.md) | Draft |
-| Error handling | [Error handling](error-handling.md) | Draft |
-| Testing and software lifecycle | [Testing and software lifecycle](testing-and-software-lifecycle.md) | Draft |
+| Programming languages | [Programming languages](programming-languages.md) | Reviewed (model-assisted) |
+| Syntax and semantics | [Syntax and semantics](syntax-and-semantics.md) | Reviewed (model-assisted) |
+| Programming paradigms | [Programming paradigms](programming-paradigms.md) | Reviewed (model-assisted) |
+| Compilation and interpretation | [Compilation and interpretation](compilation-and-interpretation.md) | Reviewed (model-assisted) |
+| Runtime environments | [Runtime environments](runtime-environments.md) | Reviewed (model-assisted) |
+| Modules and dependencies | [Modules and dependencies](modules-and-dependencies.md) | Reviewed (model-assisted) |
+| Software interfaces | [Software interfaces](software-interfaces.md) | Reviewed (model-assisted) |
+| Error handling | [Error handling](error-handling.md) | Reviewed (model-assisted) |
+| Testing and software lifecycle | [Testing and software lifecycle](testing-and-software-lifecycle.md) | Reviewed (model-assisted) |
 
-## Development and canonical boundaries
+## Review state and canonical boundaries
 
-**All 9/9 approved subjects have substantive articles.** All nine Wave D Software Batch 03–04 articles remain **Draft**, pending separate scoped claim-to-source and example audits. Their existence and primary references do not constitute technical acceptance.
+**All 9 approved headings have substantive articles.** All nine Software & Programming references passed the [Wave D Software Batches 03–04 54-family technical audit](../WAVE-D-TECHNICAL-REVIEW-03-04.md). Their source-review state is Core claims checked, not full source-level Verified or final Published. Language semantics, runtime implementations, software interfaces, dependency management and software testing retain distinct canonical ownership.
 
-Language definitions, syntax/semantics, paradigms, compilation, runtime, modules, interfaces, errors, and software testing have separate canonical responsibilities. General algorithm theory belongs to Computation & Algorithms; physical processor behavior belongs to Digital Systems & Hardware; operating-system kernels and processes belong to Operating System Principles.
+These approved headings serve as a navigation discipline, **not** a newly ratified universal taxonomy, knowledge-graph predicate schema, mandatory hardware/software stack or vendor implementation. General models, data, mathematics and systems engineering retain their separate canonical homes.
 
-This area remains a **navigation discipline**, not a new universal ontology or a required implementation stack. The approved 12-area/109-heading architecture, and the unresolved G-01 mathematical breadth, G-04 general temporality, and G-06 AI/ML decisions are unchanged.
-
-No Knowledge Checks, Practical Assessments, learner scoring, or mandatory toolchain have been introduced. Complete source verification, independent human peer review and final publication acceptance remain separate outstanding gates.
+The unresolved G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML decisions remain explicitly open. No Knowledge Checks, Practical Assessments, quizzes or grading are included. Complete source validation, independent expert peer review, corpus-wide link checks and final publication acceptance remain separate obligations.
 
 [Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
