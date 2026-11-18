@@ -110,7 +110,16 @@ def main() -> int:
                 inventoried += 1
                 if "Article not authored" not in row["canonical"] or row["source"] != "Not reviewed":
                     problems.append(f"{row['id']}: Inventoried row misleadingly claims article/source review")
-            elif row["status"] in {"Draft", "Scoped", "Researched", "Pilot queued"}:
+            elif row["status"] == "Draft":
+                other += 1
+                m = re.search(r"\[Draft article\]\(([^)]+)\)", row["canonical"])
+                if not m:
+                    problems.append(f"{row['id']}: Draft missing canonical file link")
+                elif not (ROOT / m.group(1)).is_file():
+                    problems.append(f"{row['id']}: missing Draft article {m.group(1)}")
+                if row["source"] != "References listed":
+                    problems.append(f"{row['id']}: Draft source state is {row['source']!r}")
+            elif row["status"] in {"Scoped", "Researched", "Pilot queued"}:
                 other += 1
             else:
                 problems.append(f"{row['id']}: unknown development state: {row['status']!r}")
