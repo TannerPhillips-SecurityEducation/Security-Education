@@ -1,6 +1,6 @@
 # Fundamentals: Development and Verification Register
 
-**Working edition:** v1.19  
+**Working edition:** v1.20  
 **Scope:** **12 knowledge areas and 116 tracked subjects, all internally Reviewed (model-assisted):** 109 legacy articles plus 7 newly audited under Wave F. The 109-heading baseline remains historical, and the total is not fixed.  
 **Purpose:** Track authoring, source validation, relationships, canonical article paths, and outstanding architecture decisions without overstating completion.
 
@@ -9,10 +9,10 @@
 - **Inventoried:** Approved heading exists in its area index, but no canonical subject article is yet claimed.
 - **Pilot queued:** One of the six approved first authoring targets; a queued article is **not** published or technically validated.
 - **Draft:** Substantive article has been committed and can be reviewed; not necessarily source-verified or accepted.
-- **Reviewed:** A documented scoped technical and editorial audit has passed for the stated subject. Across the present 109 articles the reviews are **model-assisted**; no independent human peer review, complete source verification or final publication is implied.
+- **Reviewed:** A documented scoped technical and editorial audit has passed for the stated subject. Across the current 116 articles the reviews are **model-assisted**; no independent human peer review, complete source verification or final publication is implied.
 - **Published:** Canonical reference accepted under the [seven completion gates](README.md#completion-gates), including link and source checks. A commit alone does **not** constitute this status.
 
-**Source review** is tracked separately from development state: **Not reviewed**, **References listed**, **Core claims checked**, or **Verified**. *References listed* indicates linked sources. *Core claims checked* means a documented second-pass source review and example checks occurred, but does not establish complete claim-to-source verification or independent human acceptance. *Verified* requires evidence of a complete scoped technical acceptance review. **Relationship state:** The separate [116-heading canonical ownership register](CANONICAL-OWNERSHIP-REGISTER.md) includes the 109 historical article links and seven proposed conceptual links; they are not a fully verified graph.
+**Source review** is tracked separately from development state: **Not reviewed**, **References listed**, **Core claims checked**, or **Verified**. *References listed* indicates linked sources. *Core claims checked* means a documented second-pass source review and example checks occurred, but does not establish complete claim-to-source verification or independent human acceptance. *Verified* requires evidence of a complete scoped technical acceptance review. **Relationship state:** The separate [116-heading canonical ownership register](CANONICAL-OWNERSHIP-REGISTER.md) includes 116 existing canonical article links; they are not a fully verified graph.
 
 **IDs are administrative tracking identifiers only**, not a ratified formal ontology, graph predicate set, or new knowledge-category taxonomy. No Knowledge Checks, Practical Assessments, or quizzes will appear in this repository.
 
@@ -60,6 +60,8 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 
 **Current inventory reconciliation:** **116 headings = 109 previously Reviewed articles + 7 independently scoped Wave F Reviewed articles**. All seven new canonical paths appear below. Source state is **Core claims checked** for all 116; none is fully source-Verified, independently expert reviewed or Published.
 
+**Wave G additional technical review:** [Wave G Technical Review 01](WAVE-G-TECHNICAL-REVIEW-01.md) checked 39 material claim groups in 13 revised **existing** articles. It preserves all 116 Review states and their previous audit evidence. No full source-Verified or Published status is implied.
+
 ## Detailed coverage by approved knowledge area
 
 ### 01. Mathematics & Logic (Wave A; 8 headings)
@@ -87,7 +89,7 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
 | F-02-01 | Observation | [Reviewed article](scientific-analytical-reasoning/observation.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
-| F-02-02 | Measurement | [Reviewed article](scientific-analytical-reasoning/measurement.md) | Reviewed | Core claims checked | [Wave A Batch 02 audit](WAVE-A-TECHNICAL-REVIEW-02.md); model-assisted, human peer review not claimed |
+| F-02-02 | Measurement | [Reviewed article](scientific-analytical-reasoning/measurement.md) | Reviewed | Core claims checked | [Wave A Batch 02 audit](WAVE-A-TECHNICAL-REVIEW-02.md); model-assisted, human peer review not claimed; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 | F-02-03 | Evidence | [Reviewed article](scientific-analytical-reasoning/evidence.md) | Reviewed | Core claims checked | [Wave A Batch 01 audit](WAVE-A-TECHNICAL-REVIEW-01.md); model-assisted review, human sign-off not claimed |
 | F-02-04 | Hypotheses and experiments | [Reviewed article](scientific-analytical-reasoning/hypotheses-and-experiments.md) | Reviewed | Core claims checked | [Wave A Batch 03 audit](WAVE-A-TECHNICAL-REVIEW-03.md); model-assisted, human approval not claimed |
 | F-02-05 | Deduction, induction, and abduction | [Reviewed article](scientific-analytical-reasoning/deduction-induction-abduction.md) | Reviewed | Core claims checked | [Wave A Batch 04 audit](WAVE-A-TECHNICAL-REVIEW-04.md); model-assisted review, human acceptance not claimed |
@@ -110,7 +112,7 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | F-03-07 | Ontologies and taxonomies | [Reviewed article](models-abstraction/ontologies-and-taxonomies.md) | Reviewed | Core claims checked | [Wave A Batch 07 audit](WAVE-A-TECHNICAL-REVIEW-07.md); model-assisted, no human peer review |
 | F-03-08 | Schemas | [Reviewed article](models-abstraction/schemas.md) | Reviewed | Core claims checked | [Wave A Batch 07 audit](WAVE-A-TECHNICAL-REVIEW-07.md); model-assisted, no human peer review |
 | F-03-09 | State, events, and transitions | [Reviewed article](models-abstraction/state-events-and-transitions.md) | Reviewed | Core claims checked | [Wave A Batch 01 audit](WAVE-A-TECHNICAL-REVIEW-01.md); model-assisted review, human sign-off not claimed |
-| F-03-10 | Conceptual and formal models | [Reviewed article](models-abstraction/conceptual-and-formal-models.md) | Reviewed | Core claims checked | [Wave A Batch 07 audit](WAVE-A-TECHNICAL-REVIEW-07.md); model-assisted, no human peer review |
+| F-03-10 | Conceptual and formal models | [Reviewed article](models-abstraction/conceptual-and-formal-models.md) | Reviewed | Core claims checked | [Wave A Batch 07 audit](WAVE-A-TECHNICAL-REVIEW-07.md); model-assisted, no human peer review; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 | F-03-11 | Temporal concepts and models | [Reviewed article](models-abstraction/temporal-concepts-and-models.md) | Reviewed | Core claims checked | [Wave F 42-family audit](WAVE-F-TECHNICAL-REVIEW-01.md); model-assisted, full source and independent peer review pending |
 
 ### 04. Physical & Electrical Principles (Wave C; 9 headings)
@@ -127,7 +129,7 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | F-04-06 | Waves and frequency | [Reviewed article](physical-electrical-principles/waves-and-frequency.md) | Reviewed | Core claims checked | [Wave C Batch 02 audit](WAVE-C-TECHNICAL-REVIEW-02.md); model-assisted, independent human review not claimed |
 | F-04-07 | Sensors and actuators | [Reviewed article](physical-electrical-principles/sensors-and-actuators.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
 | F-04-08 | Signal conversion | [Reviewed article](physical-electrical-principles/signal-conversion.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
-| F-04-09 | Physical control mechanisms | [Reviewed article](physical-electrical-principles/physical-control-mechanisms.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending |
+| F-04-09 | Physical control mechanisms | [Reviewed article](physical-electrical-principles/physical-control-mechanisms.md) | Reviewed | Core claims checked | [Wave C Batch 03 audit](WAVE-C-TECHNICAL-REVIEW-03.md); model-assisted, independent human peer review pending; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 
 ### 05. Information & Data (Wave B; 9 headings)
 
@@ -142,8 +144,8 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | F-05-05 | Datasets, records, fields, and values | [Reviewed article](information-data/datasets-records-fields-and-values.md) | Reviewed | Core claims checked | [Wave B Batch 01 audit](WAVE-B-TECHNICAL-REVIEW-01.md); model-assisted, no human peer review |
 | F-05-06 | Data structures and formats | [Reviewed article](information-data/data-structures-and-formats.md) | Reviewed | Core claims checked | [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md); model-assisted, no human peer review |
 | F-05-07 | Metadata | [Reviewed article](information-data/metadata.md) | Reviewed | Core claims checked | [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md); model-assisted, no human peer review |
-| F-05-08 | Databases and queries | [Reviewed article](information-data/databases-and-queries.md) | Reviewed | Core claims checked | [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md); model-assisted, no human peer review |
-| F-05-09 | Data provenance and lifecycle | [Reviewed article](information-data/data-provenance-and-lifecycle.md) | Reviewed | Core claims checked | [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md); model-assisted, no human peer review |
+| F-05-08 | Databases and queries | [Reviewed article](information-data/databases-and-queries.md) | Reviewed | Core claims checked | [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md); model-assisted, no human peer review; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
+| F-05-09 | Data provenance and lifecycle | [Reviewed article](information-data/data-provenance-and-lifecycle.md) | Reviewed | Core claims checked | [Wave B Batch 02 audit](WAVE-B-TECHNICAL-REVIEW-02.md); model-assisted, no human peer review; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 
 ### 06. Digital Systems & Hardware (Wave C; 9 headings)
 
@@ -222,11 +224,11 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | F-10-01 | Communication models | [Reviewed article](communication-distributed-systems/communication-models.md) | Reviewed | Core claims checked | [Wave E Communication & Distributed Systems technical audit](WAVE-E-TECHNICAL-REVIEW-02.md); model-assisted, independent human peer review pending |
 | F-10-02 | Transmission and signaling | [Reviewed article](communication-distributed-systems/transmission-and-signaling.md) | Reviewed | Core claims checked | [Wave E Communication & Distributed Systems technical audit](WAVE-E-TECHNICAL-REVIEW-02.md); model-assisted, independent human peer review pending |
 | F-10-03 | Communication channels | [Reviewed article](communication-distributed-systems/communication-channels.md) | Reviewed | Core claims checked | [Wave E Communication & Distributed Systems technical audit](WAVE-E-TECHNICAL-REVIEW-02.md); model-assisted, independent human peer review pending |
-| F-10-04 | Protocols and layering | [Reviewed article](communication-distributed-systems/protocols-and-layering.md) | Reviewed | Core claims checked | [Wave E Communication & Distributed Systems technical audit](WAVE-E-TECHNICAL-REVIEW-02.md); model-assisted, independent human peer review pending |
+| F-10-04 | Protocols and layering | [Reviewed article](communication-distributed-systems/protocols-and-layering.md) | Reviewed | Core claims checked | [Wave E Communication & Distributed Systems technical audit](WAVE-E-TECHNICAL-REVIEW-02.md); model-assisted, independent human peer review pending; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 | F-10-05 | Addressing and naming | [Reviewed article](communication-distributed-systems/addressing-and-naming.md) | Reviewed | Core claims checked | [Wave E Communication & Distributed Systems technical audit](WAVE-E-TECHNICAL-REVIEW-02.md); model-assisted, independent human peer review pending |
 | F-10-06 | Latency and throughput | [Reviewed article](communication-distributed-systems/latency-and-throughput.md) | Reviewed | Core claims checked | [Wave E Communication & Distributed Systems technical audit](WAVE-E-TECHNICAL-REVIEW-02.md); model-assisted, independent human peer review pending |
 | F-10-07 | Reliability and ordering | [Reviewed article](communication-distributed-systems/reliability-and-ordering.md) | Reviewed | Core claims checked | [Wave E Communication & Distributed Systems technical audit](WAVE-E-TECHNICAL-REVIEW-02.md); model-assisted, independent human peer review pending |
-| F-10-08 | Distributed state | [Reviewed article](communication-distributed-systems/distributed-state.md) | Reviewed | Core claims checked | [Wave E Communication & Distributed Systems technical audit](WAVE-E-TECHNICAL-REVIEW-02.md); model-assisted, independent human peer review pending |
+| F-10-08 | Distributed state | [Reviewed article](communication-distributed-systems/distributed-state.md) | Reviewed | Core claims checked | [Wave E Communication & Distributed Systems technical audit](WAVE-E-TECHNICAL-REVIEW-02.md); model-assisted, independent human peer review pending; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 | F-10-09 | Synchronization and coordination | [Reviewed article](communication-distributed-systems/synchronization-and-coordination.md) | Reviewed | Core claims checked | [Wave E Communication & Distributed Systems technical audit](WAVE-E-TECHNICAL-REVIEW-02.md); model-assisted, independent human peer review pending |
 
 ### 11. Systems & Engineering (Wave B; 11 headings)
@@ -237,15 +239,15 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 | --- | --- | --- | --- | --- | --- |
 | F-11-01 | Systems and subsystems | [Reviewed article](systems-engineering/systems-and-subsystems.md) | Reviewed | Core claims checked | [50-claim-family audit](PILOT-CLAIM-SOURCE-AUDIT.md); model-assisted, no human peer review |
 | F-11-02 | Components and interfaces | [Reviewed article](systems-engineering/components-and-interfaces.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review |
-| F-11-03 | Architecture and composition | [Reviewed article](systems-engineering/architecture-and-composition.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review |
+| F-11-03 | Architecture and composition | [Reviewed article](systems-engineering/architecture-and-composition.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 | F-11-04 | Dependencies | [Reviewed article](systems-engineering/dependencies.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review |
 | F-11-05 | State and behavior | [Reviewed article](systems-engineering/state-and-behavior.md) | Reviewed | Core claims checked | [Wave B Batch 03 audit](WAVE-B-TECHNICAL-REVIEW-03.md); model-assisted, no independent human peer review |
-| F-11-06 | Feedback and control | [Reviewed article](systems-engineering/feedback-and-control.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
+| F-11-06 | Feedback and control | [Reviewed article](systems-engineering/feedback-and-control.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 | F-11-07 | Emergence and complexity | [Reviewed article](systems-engineering/emergence-and-complexity.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
 | F-11-08 | Reliability and failure | [Reviewed article](systems-engineering/reliability-and-failure.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
 | F-11-09 | Requirements | [Reviewed article](systems-engineering/requirements.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
 | F-11-10 | Verification and validation | [Reviewed article](systems-engineering/verification-and-validation.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
-| F-11-11 | System lifecycle | [Reviewed article](systems-engineering/system-lifecycle.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review |
+| F-11-11 | System lifecycle | [Reviewed article](systems-engineering/system-lifecycle.md) | Reviewed | Core claims checked | [Wave B Batch 04 audit](WAVE-B-TECHNICAL-REVIEW-04.md); model-assisted, no independent human peer review; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 
 ### 12. Human & Sociotechnical Systems (Wave B; 8 headings)
 
@@ -253,11 +255,11 @@ Keep retired/superseded IDs and historical per-wave status counts auditable. Whe
 
 | Tracker ID | Exact approved subject | Canonical article | Development | Source review | Relationships / blockers |
 | --- | --- | --- | --- | --- | --- |
-| F-12-01 | Human cognition and perception | [Reviewed article](human-sociotechnical-systems/human-cognition-and-perception.md) | Reviewed | Core claims checked | [Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md); model-assisted, independent human review not claimed |
-| F-12-02 | Decision-making | [Reviewed article](human-sociotechnical-systems/decision-making.md) | Reviewed | Core claims checked | [Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md); model-assisted, independent human review not claimed |
+| F-12-01 | Human cognition and perception | [Reviewed article](human-sociotechnical-systems/human-cognition-and-perception.md) | Reviewed | Core claims checked | [Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md); model-assisted, independent human review not claimed; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
+| F-12-02 | Decision-making | [Reviewed article](human-sociotechnical-systems/decision-making.md) | Reviewed | Core claims checked | [Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md); model-assisted, independent human review not claimed; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 | F-12-03 | Human-computer interaction | [Reviewed article](human-sociotechnical-systems/human-computer-interaction.md) | Reviewed | Core claims checked | [Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md); model-assisted, independent human review not claimed |
 | F-12-04 | Usability and accessibility | [Reviewed article](human-sociotechnical-systems/usability-and-accessibility.md) | Reviewed | Core claims checked | [Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md); model-assisted, independent human review not claimed |
-| F-12-05 | Human error | [Reviewed article](human-sociotechnical-systems/human-error.md) | Reviewed | Core claims checked | [Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md); model-assisted, independent human review not claimed |
+| F-12-05 | Human error | [Reviewed article](human-sociotechnical-systems/human-error.md) | Reviewed | Core claims checked | [Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md); model-assisted, independent human review not claimed; [Wave G 39-family depth audit](WAVE-G-TECHNICAL-REVIEW-01.md) |
 | F-12-06 | Collaboration and communication | [Reviewed article](human-sociotechnical-systems/collaboration-and-communication.md) | Reviewed | Core claims checked | [Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md); model-assisted, independent human review not claimed |
 | F-12-07 | Organizational structures | [Reviewed article](human-sociotechnical-systems/organizational-structures.md) | Reviewed | Core claims checked | [Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md); model-assisted, independent human review not claimed |
 | F-12-08 | Ethics and professional responsibilities | [Reviewed article](human-sociotechnical-systems/ethics-and-professional-responsibilities.md) | Reviewed | Core claims checked | [Wave B Batch 05 audit](WAVE-B-TECHNICAL-REVIEW-05.md); model-assisted, independent human review not claimed |
