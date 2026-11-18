@@ -55,7 +55,7 @@ The example demonstrates a nonlinear transfer mechanism; it does not instruct th
 
 A board's microcontroller, power stage and sensor inputs may all contain electronic circuits, yet their system responsibilities differ. An electrical schematic shows chosen connectivity; a logical diagram shows intended information transformations; a firmware interface defines software-visible behavior. None substitutes completely for the others.
 
-[Computing Components](../digital-systems-hardware/computing-components.md) owns hardware subsystem roles. [Sensors and Actuators](README.md) is a separate approved physical subject reserved for transduction and action mechanisms. Electronics does not establish a new hardware architecture, vendor preference, or compliance standard.
+[Computing Components](../digital-systems-hardware/computing-components.md) owns hardware subsystem roles. [Sensors and Actuators](sensors-and-actuators.md) is a separate approved physical subject reserved for transduction and action mechanisms. Electronics does not establish a new hardware architecture, vendor preference, or compliance standard.
 
 ### Sources
 
