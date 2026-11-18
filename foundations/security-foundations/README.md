@@ -21,6 +21,7 @@
 - [**Pilot Technical Review 01**](PILOT-TECHNICAL-REVIEW-01.md): 40 claim groups across the original eight pilots; corrected insecurity/uncertainty and current TLS/Common Criteria versions.
 - [**Pilot Technical Review 02**](PILOT-TECHNICAL-REVIEW-02.md): 10 additional claim groups across the risk and defensive-controls pilots, separating severity from risk and control listings from measured effects.
 - [**Pilot Technical Review 03**](PILOT-TECHNICAL-REVIEW-03.md): 20 additional material claim groups for compromise, resilience, RTO/RPO, privacy harms from authorized processing, safety and human-impact constraints.
+- [**Coverage & Gaps Review 03**](COVERAGE-AND-GAPS-REVIEW-03.md): Reconciles the fourteen Reviewed pilots against 96 working subject candidates, identifies eight next subject/depth/overlap priorities, and separates knowledge gaps from unpiloted headings.
 - [**Source Crosswalk v0.3**](ESTABLISHED-MODEL-CROSSWALK.md): 30 evidence groups, including NIST Privacy Framework, ISO/IEC safety principles, recovery-objective guidance, current incident-response methods and earlier cryptographic/formal policy models.
 
 **Governance separation:** The division is approved; the internal hierarchy and 96 candidate subjects are **not yet ratified**. The fourteen pilots are **Reviewed (model-assisted) / Core claims checked**, but complete source-passage verification, qualified independent review and final publication acceptance remain separate evidence states. No draft count or working model is a required future quota.
