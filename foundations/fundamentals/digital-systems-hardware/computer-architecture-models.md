@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Digital Systems & Hardware](README.md)  
 **Subject ID:** F-06-10  
-**Development status:** Draft; substantive article newly authored  
-**Source review:** References listed; scoped technical review pending  
+**Development status:** Reviewed (model-assisted; independent human acceptance not claimed)  
+**Source review:** Core claims checked; [Wave F 42-family scoped technical audit](../WAVE-F-TECHNICAL-REVIEW-01.md); comprehensive source-level verification not claimed  
 **Inventory authority:** [Model and Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md)
 
 ## Computer architecture is an organization of responsibilities and interfaces
@@ -91,6 +91,6 @@ The first model serializes all transfers. The second can schedule instruction tr
 
 Specific historical names and classification schemes are presented as useful models with assumptions, not a complete classification of all present and future computer designs.
 
-**Editorial status:** Draft. Technical claims and toy calculations require a separate scoped acceptance audit.
+**Editorial status:** Reviewed (model-assisted) under the [Wave F scoped technical review](../WAVE-F-TECHNICAL-REVIEW-01.md). Full source-passage verification, independent expert review and final publication acceptance remain open.
 
 [Digital Systems & Hardware](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
