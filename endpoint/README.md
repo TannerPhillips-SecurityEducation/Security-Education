@@ -4,6 +4,10 @@
 
 This domain follows **Domain → Function → Implementation**. Functions provide the canonical navigation path; specific implementations are added within the relevant function when approved.
 
+## Contributor and Agent Contract
+
+[**AGENTS.md: Endpoint Knowledge Editorial & Engineering Contract**](AGENTS.md) applies to this directory and its descendants. It inherits the [root SOP](../AGENTS.md) and tailors its thirteen operating sections to **Host System Function**, including OS-family implementation, execution, privileges and host lifecycle. Function-first navigation is preserved; deeper subject/implementation structures and article counts remain flexible and are **not automatically approved** by this contract.
+
 ## Functions (Primary Navigation)
 
 - [System Initialization & Boot](system-initialization-boot/README.md)
