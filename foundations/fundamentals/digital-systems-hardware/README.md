@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Subject inventory only; canonical explanations and references are pending  
+**Content status:** Two of nine approved subjects authored (one Reviewed model-assisted; one Draft); seven not yet authored  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -21,18 +21,26 @@ Components and mechanisms by which physical hardware represents information and 
 - Firmware
 - Hardware abstraction
 
-## Content Development
-
-This area is a **navigation discipline**. Its headings organize coverage but do not constitute a separate list of conceptual primitives. Establish one canonical home for each underlying concept and link contextual realizations rather than repeating general definitions.
-
-Each subject will eventually receive a canonical explanation, key distinctions, mechanisms, relevant examples, explicit relationships, and credible references. These items are **not yet completed** merely by being listed.
-
-The content belongs in Fundamentals only insofar as it is domain-agnostic. Security-specific treatment belongs in Security Foundations; security practice belongs in Operational Foundations. Cross-domain references should link to canonical subjects rather than duplicate them.
-
 ## Canonical reference articles
 
-- [Digital logic](digital-logic.md) — Reviewed (model-assisted); final external acceptance pending.
+| Approved subject | Canonical reference | Development state |
+| --- | --- | --- |
+| Digital logic | [Digital Logic](digital-logic.md) | Reviewed (model-assisted) |
+| Computing components | [Computing Components](computing-components.md) | Draft |
+| Processors and instruction sets | Not authored | Inventoried |
+| Memory and storage | Not authored | Inventoried |
+| Buses and interfaces | Not authored | Inventoried |
+| Input/output | Not authored | Inventoried |
+| Timing and clocks | Not authored | Inventoried |
+| Firmware | Not authored | Inventoried |
+| Hardware abstraction | Not authored | Inventoried |
 
-Articles do not change the wording or ownership of the approved subject inventory. Refer to the [pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) for reviewed-pilot evidence.
+## Development boundaries
 
-[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
+[Digital Logic](digital-logic.md) previously passed the [six-pilot audit](../PILOT-CLAIM-SOURCE-AUDIT.md) and remains Reviewed (model-assisted). [Computing Components](computing-components.md) is a substantive Wave C Batch 01 Draft awaiting its own scoped technical audit. It introduces general roles of processors, registers, memory, storage, interconnects, input/output and physical support without claiming a mandatory processor implementation.
+
+[Bits and Bytes](../information-data/bits-and-bytes.md) owns binary representation units. [Electrical Circuits](../physical-electrical-principles/electrical-circuits.md) owns circuit physics. [State, Events, and Transitions](../models-abstraction/state-events-and-transitions.md) owns abstract state semantics. General temporality G-04 remains a separately unresolved architectural decision, rather than being decided by this hardware area.
+
+No assessments, new areas, subject headings, or platform mandates are introduced.
+
+[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
