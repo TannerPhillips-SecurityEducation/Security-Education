@@ -6,6 +6,10 @@
 **Manuscript evidence:** 14 substantive pilots **Reviewed (model-assisted)** under [Pilot Technical Review 01](PILOT-TECHNICAL-REVIEW-01.md) (40 material groups), [02](PILOT-TECHNICAL-REVIEW-02.md) (10 groups), and [03](PILOT-TECHNICAL-REVIEW-03.md) (20 groups). **82 active candidates remain without pilot manuscripts**; this is a development-coverage count, not proof that 82 ideas are missing from the conceptual map.  
 **Authority map:** [30 source groups](ESTABLISHED-MODEL-CROSSWALK.md); [34 working ownership cases](OWNERSHIP-BOUNDARIES.md).
 
+## Later area-structure update (November 18, 2026)
+
+The [Fundamentals-style area structure](AREA-STRUCTURE-ADJUDICATION-03.md) is now adopted. The same fourteen reviewed substantive references described in this historical report have **working locations inside provisional area directories**. Old `pilots/` article links in this dated audit are retained as redirect-compatible historical references; the [Development Register](DEVELOPMENT-VERIFICATION-REGISTER.md) and [area indexes](README.md#working-knowledge-areas) show the current article paths. No semantic taxonomy or additional technical/publication review status was adopted by the relocation.
+
 ## 1. What the first fourteen pilots establish
 
 Across objectives, threat events, vulnerabilities, risk, access controls, information flow, cryptographic composition, observation, assurance, compromise, resilience, privacy, safety and ethical constraints, the pilots demonstrate that Security Foundations can provide **cross-domain security meaning and mechanism boundaries** without copying general Fundamentals or importing operational procedures as canonical definitions.
