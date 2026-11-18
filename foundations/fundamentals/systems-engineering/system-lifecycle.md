@@ -35,6 +35,25 @@ The two-way arrows communicate possible iteration or return to earlier work, **n
 
 No exact stage names or count are being ratified as the only valid taxonomy for Fundamentals.
 
+## The ISO 15288 process framework versus lifecycle stages
+
+[ISO/IEC/IEEE 15288:2023](https://www.iso.org/standard/81702.html) provides an established **framework of system life-cycle process descriptions**. Its scope includes conception, development, production, utilization, support and retirement, but the standard explicitly does **not** prescribe one particular lifecycle model, development method, modeling language or ordered methodology.
+
+A lifecycle **stage** characterizes a phase of system maturity or evolution within a chosen lifecycle model. A lifecycle **process** defines activities and outcomes that may occur *within, across, iteratively and concurrently among stages*. Requirements definition, architecture development, verification, configuration management and decision management may recur after initial deployment.
+
+| Distinction | Example | Consequence |
+| --- | --- | --- |
+| System life cycle vs project life cycle | Long-lived service versus project that installs one release | The project may close while the system remains in use |
+| Lifecycle stage vs process | Operational support stage versus recurring configuration-control process | A process is not confined to one stage |
+| Verification vs validation | Confirm implementation meets stated requirements versus evidence that system use meets stakeholder needs | Both can recur as conditions change |
+| Baseline vs actual configuration | A documented released configuration versus equipment currently installed | Documentary approval is not proof the real system matches it |
+
+**Illustration:** A pump system initially developed for one pressure range gains a new actuator after deployment. The system is still operational, but requirements and interface analysis, verification and safety assessment may need to recur. That does not mean the complete project lifecycle starts over, nor does "operation" imply that design activity has ceased.
+
+A V-model can be a useful engineering traceability representation between requirements, design, realization and verification activities. It is an **illustrative lifecycle/engineering model**, not an ISO 15288-mandated shape or universally linear schedule. Formal acceptance requires documented requirements and the evidence appropriate to the revised system.
+
+[Architecture and Composition](architecture-and-composition.md) owns architectural views, [Requirements](requirements.md) owns needs and specifications, and [Verification and Validation](verification-and-validation.md) owns the epistemic and engineering distinction between the two evaluations. [Temporal Concepts and Models](../models-abstraction/temporal-concepts-and-models.md) owns general temporal meaning rather than stage names.
+
 ## Lifecycle decisions and evidence
 
 A meaningful lifecycle transition may depend on entrance/exit criteria, stakeholder decisions, operational readiness, safety conditions, documentation, resources and evidence. For example, a readiness decision might require evidence that defined interfaces function under specified conditions and that identified severe hazards are addressed.
@@ -78,6 +97,9 @@ Feedback from operations can inform requirements and redesign. Scientific eviden
 **G-04 general temporality** remains open; this article treats temporal progression only as applied to system engineering, not as canonical ownership of time, simultaneity or universal temporal logic.
 
 ### Sources
+
+- [ISO/IEC/IEEE 15288:2023: System Life Cycle Processes (official scope)](https://www.iso.org/standard/81702.html).
+
 
 - [SEBoK: Life Cycle Models](https://sebokwiki.org/wiki/Life_Cycle_Models).
 - [SEBoK: Life Cycle Concepts](https://sebokwiki.org/wiki/Life_Cycle_Concepts).
