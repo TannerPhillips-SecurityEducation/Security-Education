@@ -68,7 +68,7 @@ A replicated state machine uses agreed operation ordering and deterministic appl
 
 ## Canonical boundaries
 
-Distributed state is distinct from database format, local OS process state, a network address and a hardware clock. G-04 general temporality remains a separate unresolved scope decision; this article describes temporal relationships only as required by distributed-state contracts.
+Distributed state is distinct from database format, local OS process state, a network address and a hardware clock. [Temporal Concepts and Models](../models-abstraction/temporal-concepts-and-models.md) now owns general time and event-order representations. This article uses temporal concepts only as needed to explain distributed-state contracts.
 
 No particular database, replication technology, cloud vendor, consensus algorithm or learner assessment is mandated.
 
