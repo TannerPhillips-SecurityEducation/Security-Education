@@ -39,7 +39,13 @@ def main():
     print(f"FUNDAMENTALS_REGISTER_ARTICLE_PATHS_PRESENT={sum((FUNDAMENTALS/r[2]).is_file() for r in refs)}")
     print(f"SECURITY_WORKING_SUBJECT_CANDIDATES={len(candidates)}")
     print(f"SECURITY_CANDIDATE_IDS_UNIQUE={len(set(candidates))}")
-    print(f"SECURITY_PILOT_ARTICLES={len(pilots)}")
+    area_index_files=[p for p in SECURITY.glob("*/README.md") if "**Working area ID:**" in p.read_text(encoding="utf-8")]
+    real_area_articles=[p for d in area_index_files for p in d.glob("*.md") if p.name != "README.md"]
+    print(f"SECURITY_WORKING_AREA_DIRECTORIES={len(area_index_files)}")
+    print(f"SECURITY_SUBSTANTIVE_AREA_ARTICLES={len(real_area_articles)}")
+    print(f"SECURITY_HISTORICAL_PILOT_REVIEW_LINKS={len(pilots)}")
+    print(f"SECURITY_INVENTORIED_UNAUTHORED={len(candidates)-len(real_area_articles)}")
+    print(f"SECURITY_PILOT_ARTICLES={len(pilots)}")  # historical review register; do not count aliases as substantive files
     print(f"SECURITY_PILOTS_REVIEWED_MODEL_ASSISTED={sum('Reviewed' in r[2] for r in pilots)}")
     print(f"SECURITY_CANDIDATES_WITHOUT_PILOT={len(set(candidates)-{r[0] for r in pilots})}")
     print(f"OPERATIONAL_SUBSTANTIVE_ARTICLES={len([p for p in OPS.glob('*.md') if p.name not in {'README.md','AGENTS.md'}])}")
