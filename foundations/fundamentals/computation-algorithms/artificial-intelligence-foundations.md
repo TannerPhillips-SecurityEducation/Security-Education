@@ -2,8 +2,8 @@
 
 **Knowledge area:** [Computation & Algorithms](README.md)  
 **Subject ID:** F-07-10  
-**Development status:** Draft; substantive article newly authored  
-**Source review:** References listed; scoped technical review pending  
+**Development status:** Reviewed (model-assisted; independent human acceptance not claimed)  
+**Source review:** Core claims checked; [Wave F 42-family scoped technical audit](../WAVE-F-TECHNICAL-REVIEW-01.md); comprehensive source-level verification not claimed  
 **Inventory authority:** [Model and Architecture Adjudication 01](../FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md)
 
 ## Artificial intelligence concerns computational agency, reasoning and problem solving
@@ -92,6 +92,6 @@ The term **generative AI** describes systems that produce new content according 
 
 The search example and agent terminology illustrate computational models, not a universal operational definition of intelligence. Complete primary-source clause review, independent expert review and publication acceptance remain pending.
 
-**Editorial status:** Draft. No Knowledge Checks or Practical Assessments.
+**Editorial status:** Reviewed (model-assisted) under the [Wave F scoped technical review](../WAVE-F-TECHNICAL-REVIEW-01.md). Full source-passage verification, independent expert review and final publication acceptance remain open.
 
 [Computation & Algorithms](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
