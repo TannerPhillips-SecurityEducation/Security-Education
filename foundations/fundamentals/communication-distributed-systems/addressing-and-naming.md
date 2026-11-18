@@ -23,7 +23,7 @@ A resolution result can be stale, unavailable, inconsistent or invalid for the c
 
 ## Worked example: stable name, changing endpoint
 
-Suppose a fictional service has the documentation name `sensor.example`. At one time its recorded destination address is `192.0.2.10`; after a service relocation it is `192.0.2.20`. These two addresses are in a documentation-only block, and the example does not describe actual deployed service records.
+Suppose a fictional service has the documentation name `sensor.example`. At one time its recorded destination address is `192.0.2.10`; after a service relocation it is `192.0.2.20`. These two addresses are in the documentation-only TEST-NET-1 block, and the name uses the reserved `.example` top-level domain. The example does not describe actual deployed service records.
 
 ```text
 Time A: name sensor.example → address 192.0.2.10
@@ -61,6 +61,7 @@ Such uncertainty does not imply every result is wrong; it means the guarantee mu
 - [RFC 1034: Domain Names, Concepts and Facilities](https://www.rfc-editor.org/rfc/rfc1034.html).
 - [RFC 3986: URI Generic Syntax](https://www.rfc-editor.org/rfc/rfc3986.html).
 - [RFC 5737: IPv4 Address Blocks Reserved for Documentation](https://www.rfc-editor.org/rfc/rfc5737.html).
+- [RFC 2606: Reserved `.example` top-level domain](https://www.rfc-editor.org/rfc/rfc2606.html).
 
 **Editorial status:** Substantive Draft. URI parsing, address examples and identity claims require a separate technical/source audit. No DNS deployment, security practice or assessment is mandated.
 
