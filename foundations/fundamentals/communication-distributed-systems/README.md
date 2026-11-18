@@ -2,7 +2,7 @@
 
 **Division:** [Fundamentals](../README.md)  
 **Architecture status:** Approved subject area  
-**Content status:** Subject inventory only; canonical explanations and references are pending  
+**Content status:** All 9 approved subjects authored; 0 Reviewed (model-assisted), 9 Draft; independent human review and publication acceptance pending  
 **Governing architecture:** [Fundamentals Knowledge Architecture](../ARCHITECTURE.md)
 
 ## Scope
@@ -21,12 +21,26 @@ Methods for exchanging information and coordinating processes or systems across 
 - Distributed state
 - Synchronization and coordination
 
-## Content Development
+## Canonical reference articles
 
-This area is a **navigation discipline**. Its headings organize coverage but do not constitute a separate list of conceptual primitives. Establish one canonical home for each underlying concept and link contextual realizations rather than repeating general definitions.
+| Approved subject | Canonical reference | Development state |
+| --- | --- | --- |
+| Communication models | [Communication models](communication-models.md) | Draft |
+| Transmission and signaling | [Transmission and signaling](transmission-and-signaling.md) | Draft |
+| Communication channels | [Communication channels](communication-channels.md) | Draft |
+| Protocols and layering | [Protocols and layering](protocols-and-layering.md) | Draft |
+| Addressing and naming | [Addressing and naming](addressing-and-naming.md) | Draft |
+| Latency and throughput | [Latency and throughput](latency-and-throughput.md) | Draft |
+| Reliability and ordering | [Reliability and ordering](reliability-and-ordering.md) | Draft |
+| Distributed state | [Distributed state](distributed-state.md) | Draft |
+| Synchronization and coordination | [Synchronization and coordination](synchronization-and-coordination.md) | Draft |
 
-Each subject will eventually receive a canonical explanation, key distinctions, mechanisms, relevant examples, explicit relationships, and credible references. These items are **not yet completed** merely by being listed.
+## Review state and canonical boundaries
 
-The content belongs in Fundamentals only insofar as it is domain-agnostic. Security-specific treatment belongs in Security Foundations; security practice belongs in Operational Foundations. Cross-domain references should link to canonical subjects rather than duplicate them.
+**All 9 approved headings have substantive articles.** All nine Wave E Communication & Distributed Systems references are substantial Drafts, not yet accepted under a separately documented scoped technical audit. Communication roles, physical transmission, channels, protocol layering, naming, performance, delivery/ordering, replicated state and coordination retain distinct canonical ownership.
 
-[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md)
+These approved headings serve as a navigation discipline, **not** a newly ratified universal taxonomy, knowledge-graph predicate schema, mandatory hardware/software stack or vendor implementation. General models, data, mathematics and systems engineering retain their separate canonical homes.
+
+The unresolved G-01 mathematical breadth, G-04 general temporality and G-06 AI/ML decisions remain explicitly open. No Knowledge Checks, Practical Assessments, quizzes or grading are included. Complete source validation, independent expert peer review, corpus-wide link checks and final publication acceptance remain separate obligations.
+
+[Fundamentals](../README.md) · [Knowledge relationships](../../../RELATIONSHIPS.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
