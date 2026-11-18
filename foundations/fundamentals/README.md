@@ -1,7 +1,7 @@
 # Fundamentals
 
 **Division:** [Foundations](../README.md)  
-**Status:** 12 approved knowledge areas; **116/116 canonical subjects internally Reviewed (model-assisted)** following Wave A–F; none Published
+**Status:** 12 approved knowledge areas; **116/116 canonical subjects internally Reviewed (model-assisted)** following Wave A–F, with 13 existing articles strengthened under Wave G; none Published
 
 Fundamentals establishes domain-agnostic concepts, structures, principles, and mechanisms needed to understand technical systems and their behavior. It supports the seven specialized knowledge domains without making any one technology, vendor, or security practice the organizing principle.
 
@@ -27,6 +27,10 @@ A newly added or materially revised article must be reviewed on its own merits; 
 The [Foundational Models, Frameworks & Architectures Review 01](FOUNDATIONAL-MODELS-FRAMEWORKS-ARCHITECTURES-AUDIT-01.md) compares existing explanations and canonical boundaries against established technical knowledge structures. Its reproducible [77-name lexical ledger](NAMED-MODEL-LEXICAL-LEDGER-01.md) scanned the **109 historical subject articles** before the new seven headings were inventoried; a separate sampled content review examines why literal model names are **not** reliable measures of conceptual coverage.
 
 [Architecture Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) resolved fourteen audit cases into **seven newly Inventoried subjects** and deeper-treatment recommendations for existing articles. The earlier audit itself changed no subjects; the subsequent adjudication did. The [living-inventory rule](ARCHITECTURE.md#living-subject-inventory-and-versioned-change-control) permits growth and contraction with recorded conceptual justification.
+
+## Wave G | Established Model Depth Pass
+
+The [Wave G 39-family technical review](WAVE-G-TECHNICAL-REVIEW-01.md) documents scoped model-assisted validation of **13 revised existing articles**, including ISO 42010/15288, OMG modeling languages, Internet/OSI reference architectures, CAP, JCGM GUM 2026 publication changes, W3C PROV, relational/ER structures, signal detection, human-error models, and PID feedback. **No subject headings were added or removed**. The 116-subject review state remains bounded: complete claim-to-source verification, external URL integrity, cross-domain acceptance and qualified human peer review are still open.
 
 ## Canonical Ownership & Concept Relationships
 
@@ -62,7 +66,7 @@ The [Development & Verification Register v1.19](DEVELOPMENT-VERIFICATION-REGISTE
 
 **Complete authoring and internal model-assisted technical review are not the same as publication acceptance.** A scoped technical review establishes that selected material claim groups and examples were checked, not that every sentence has complete source support or that qualified independent experts have reviewed the corpus.
 
-The [Curriculum Development Plan v1.21](CURRICULUM-DEVELOPMENT-PLAN.md) now directs work toward complete source-level verification, external link integrity, semantic relationship and subject-depth consistency, seven-domain coverage, and independent human expert peer review.
+The [Curriculum Development Plan v1.23](CURRICULUM-DEVELOPMENT-PLAN.md) now directs work toward complete source-level verification, external link integrity, semantic relationship and subject-depth consistency, seven-domain coverage, and independent human expert peer review.
 
 The [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) checked the **pre-report snapshot of 152 Fundamentals Markdown files**: **2,681 inline relative Markdown-link occurrences**, **zero missing internal file destinations**, and **55 fragment-link occurrences** resolving to **32 distinct existing heading anchors**. All twelve subject-area indexes and 109 canonical article links aligned with the register. This **preliminary internal navigation check** does not constitute acceptance under every publication gate.
 
@@ -95,6 +99,7 @@ The [Publication Readiness Audit 01](PUBLICATION-READINESS-AUDIT-01.md) checked 
 - [Wave E Operating System Principles Review](WAVE-E-TECHNICAL-REVIEW-01.md): 60 claim families.
 - [Wave E Communication & Distributed Systems Review](WAVE-E-TECHNICAL-REVIEW-02.md): 54 claim families.
 - [Wave F Seven Model/Architecture References](WAVE-F-TECHNICAL-REVIEW-01.md): 42 material claim groups across the seven added articles.
+- [Wave G Established Framework/Model Depth Review](WAVE-G-TECHNICAL-REVIEW-01.md): 39 material claim groups across 13 existing-article revisions, including standards/version distinctions and reproducible calculations.
 
 **Reviewed** denotes documented scoped model-assisted review, not complete source-level Verified, independent expert acceptance, or publication. G-01 mathematics, G-04 temporality and G-06 AI/ML now have newly Reviewed articles; stronger verification remains open.
 
