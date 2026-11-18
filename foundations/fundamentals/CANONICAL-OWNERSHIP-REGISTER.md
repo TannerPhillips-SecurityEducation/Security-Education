@@ -1,6 +1,6 @@
 # Fundamentals: Canonical Ownership & Relationship Register
 
-**Status:** Working architectural register v1.15. The approved 12 area identities remain unchanged. **116 subject headings** are currently tracked: 109 legacy Reviewed (model-assisted) articles and 7 newly authored Draft articles; canonical relationship verification remains open.
+**Status:** Working architectural register v1.16. The 12 approved knowledge-area identities remain unchanged. **116 tracked headings each have a Reviewed (model-assisted) canonical article**, 109 from earlier Waves and 7 under Wave F. Canonical relationship and full source verification remain open.
 
 This register connects the evolving subject inventory to the [governing architecture](ARCHITECTURE.md). It describes each heading's intended **canonical conceptual responsibility** and illustrative relationships; the seven new headings reference existing article owners while their own articles remain pending.
 
@@ -11,7 +11,7 @@ This register connects the evolving subject inventory to the [governing architec
 - **Approved subject:** Exact heading from the connected GitHub inventory, unchanged.
 - **Proposed canonical scope:** The general concepts and mechanisms this subject is expected to own.
 - **Related approved subject:** A descriptive, directed relationship to another existing heading. The relation words are illustrative and are **not** a ratified graph-predicate vocabulary.
-- **Links:** Direct canonical article links now exist for **all 116 tracked subjects**. The original 109 articles remain Reviewed (model-assisted), while the seven new articles remain **Draft with References listed** pending technical review. Links are not proof of independent expert acceptance or publication.
+- **Links:** Direct canonical article links exist for **all 116 tracked subjects**, and the seven new articles passed [Wave F's scoped technical audit](WAVE-F-TECHNICAL-REVIEW-01.md). This is not independent source Verified or final publication acceptance.
 - **Granularity:** A heading need not equal an indivisible concept or one permanent article. The current **116-heading inventory** can expand or contract after supported architectural decisions.
 
 Only **domain-agnostic knowledge** belongs in Fundamentals. Security-specific objectives and protections belong to Security Foundations, applied security operations to Operational Foundations, and technical implementations to the appropriate specialized domain. No assessments are included.
@@ -30,9 +30,9 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Graph theory** | [Reviewed canonical article](mathematics-logic/graph-theory.md) · Vertices, edges, paths, connectivity, and hierarchical structures | *models* → [Dependencies](systems-engineering/dependencies.md) |
 | **Probability and statistics** | [Reviewed canonical article](mathematics-logic/probability-and-statistics.md) · Random variables, distributions, and mathematical statistical inference | *informs epistemic* → [Uncertainty and confidence](scientific-analytical-reasoning/uncertainty-and-confidence.md) |
 | **Units and quantities** | [Reviewed canonical article](mathematics-logic/units-and-quantities.md) · Quantities, dimensions, units, scaling, and conversion | *enables* → [Measurement](scientific-analytical-reasoning/measurement.md) |
-| **Linear algebra and vector spaces** (F-01-09; Draft) | [Draft canonical article](mathematics-logic/linear-algebra-and-vector-spaces.md) · Vector spaces, matrices, bases, linear transformations, rank, and eigenstructure under explicit assumptions | *extends* → [Algebra and functions](mathematics-logic/algebra-and-functions.md) |
-| **Geometry and spatial reasoning** (F-01-10; Draft) | [Draft canonical article](mathematics-logic/geometry-and-spatial-reasoning.md) · Coordinates, distances, geometric relations and transformations; distinct from topology | *uses* → [Linear algebra and vector spaces planning scope](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) |
-| **Topology and continuity** (F-01-11; Draft) | [Draft canonical article](mathematics-logic/topology-and-continuity.md) · Topological structure, neighborhoods, continuity, connectedness and invariants without assuming a metric | *distinguishes from* → [Graph theory](mathematics-logic/graph-theory.md) |
+| **Linear algebra and vector spaces** (F-01-09; Reviewed) | [Reviewed canonical article](mathematics-logic/linear-algebra-and-vector-spaces.md) · Vector spaces, matrices, bases, linear transformations, rank, and eigenstructure under explicit assumptions | *extends* → [Algebra and functions](mathematics-logic/algebra-and-functions.md) |
+| **Geometry and spatial reasoning** (F-01-10; Reviewed) | [Reviewed canonical article](mathematics-logic/geometry-and-spatial-reasoning.md) · Coordinates, distances, geometric relations and transformations; distinct from topology | *uses* → [Linear algebra and vector spaces planning scope](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) |
+| **Topology and continuity** (F-01-11; Reviewed) | [Reviewed canonical article](mathematics-logic/topology-and-continuity.md) · Topological structure, neighborhoods, continuity, connectedness and invariants without assuming a metric | *distinguishes from* → [Graph theory](mathematics-logic/graph-theory.md) |
 
 ## 02. Scientific & Analytical Reasoning (8 headings)
 
@@ -61,7 +61,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Schemas** | [Reviewed canonical article](models-abstraction/schemas.md) · Representation constraints, fields, structures, and admissible values | *applied in* → [Data structures and formats](information-data/data-structures-and-formats.md) |
 | **State, events, and transitions** | [Reviewed canonical article](models-abstraction/state-events-and-transitions.md) · General state descriptions, events, and transitions between conditions | *specialized as system* → [State and behavior](systems-engineering/state-and-behavior.md) |
 | **Conceptual and formal models** | [Reviewed canonical article](models-abstraction/conceptual-and-formal-models.md) · Models, assumptions, formalization, abstraction fidelity, and interpretation | *evaluated through* → [Validation and falsification](scientific-analytical-reasoning/validation-and-falsification.md) |
-| **Temporal concepts and models** (F-03-11; Draft) | [Draft canonical article](models-abstraction/temporal-concepts-and-models.md) · Instants, durations, intervals, temporal and causal ordering, timestamp semantics; separation from physical clock mechanisms | *extends* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
+| **Temporal concepts and models** (F-03-11; Reviewed) | [Reviewed canonical article](models-abstraction/temporal-concepts-and-models.md) · Instants, durations, intervals, temporal and causal ordering, timestamp semantics; separation from physical clock mechanisms | *extends* → [State, events, and transitions](models-abstraction/state-events-and-transitions.md) |
 
 ## 04. Physical & Electrical Principles (9 headings)
 
@@ -104,7 +104,7 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Timing and clocks** | [Reviewed canonical article](digital-systems-hardware/timing-and-clocks.md) · Clock generation, cycles, physical timing, and timing domains | *supports* → [Scheduling](operating-system-principles/scheduling.md) |
 | **Firmware** | [Reviewed canonical article](digital-systems-hardware/firmware.md) · Hardware-oriented software used for initialization and control | *participates in* → [System initialization](operating-system-principles/system-initialization.md) |
 | **Hardware abstraction** | [Reviewed canonical article](digital-systems-hardware/hardware-abstraction.md) · Interfaces hiding low-level implementation differences from software | *specializes general* → [Abstraction](models-abstraction/abstraction.md) |
-| **Computer architecture models** (F-06-10; Draft) | [Draft canonical article](digital-systems-hardware/computer-architecture-models.md) · Stored-program organization, von Neumann/Harvard distinctions, Flynn-style classifications and memory/compute organization | *contrasts with* → [Processors and instruction sets](digital-systems-hardware/processors-and-instruction-sets.md) |
+| **Computer architecture models** (F-06-10; Reviewed) | [Reviewed canonical article](digital-systems-hardware/computer-architecture-models.md) · Stored-program organization, von Neumann/Harvard distinctions, Flynn-style classifications and memory/compute organization | *contrasts with* → [Processors and instruction sets](digital-systems-hardware/processors-and-instruction-sets.md) |
 
 ## 07. Computation & Algorithms (9 headings)
 
@@ -119,8 +119,8 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 | **Concurrency and parallelism** | [Reviewed canonical article](computation-algorithms/concurrency-and-parallelism.md) · Overlapping versus simultaneous computational progress | *implemented through* → [Processes and threads](operating-system-principles/processes-and-threads.md) |
 | **Synchronization** | [Reviewed canonical article](computation-algorithms/synchronization.md) · Mutual exclusion, ordering, races, deadlock, and coordination of computations | *specialized across nodes in* → [Synchronization and coordination](communication-distributed-systems/synchronization-and-coordination.md) |
 | **Computational efficiency** | [Reviewed canonical article](computation-algorithms/computational-efficiency.md) · Practical performance costs, locality, profiling, and resource tradeoffs | *compared with asymptotic* → [Complexity](computation-algorithms/complexity.md) |
-| **Artificial intelligence foundations** (F-07-10; Draft) | [Draft canonical article](computation-algorithms/artificial-intelligence-foundations.md) · Intelligent-agent models, search, planning, knowledge representation and reasoning beyond statistical learning | *uses* → [Algorithms](computation-algorithms/algorithms.md) |
-| **Machine learning foundations** (F-07-11; Draft) | [Draft canonical article](computation-algorithms/machine-learning-foundations.md) · Computational learning from data, training/inference, models, objectives, generalization, drift and evaluation | *uses* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
+| **Artificial intelligence foundations** (F-07-10; Reviewed) | [Reviewed canonical article](computation-algorithms/artificial-intelligence-foundations.md) · Intelligent-agent models, search, planning, knowledge representation and reasoning beyond statistical learning | *uses* → [Algorithms](computation-algorithms/algorithms.md) |
+| **Machine learning foundations** (F-07-11; Reviewed) | [Reviewed canonical article](computation-algorithms/machine-learning-foundations.md) · Computational learning from data, training/inference, models, objectives, generalization, drift and evaluation | *uses* → [Probability and statistics](mathematics-logic/probability-and-statistics.md) |
 
 ## 08. Software & Programming (9 headings)
 
@@ -196,14 +196,14 @@ See [Coverage Gap Decision Register](COVERAGE-GAP-DECISIONS.md) for the ten gaps
 
 ## Canonical article integration
 
-The original **109 headings and their historical review evidence** are preserved. [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) added seven headings within the same twelve areas. All seven have since been **Drafted**. Thus **109/116 subjects are historically Reviewed (model-assisted), 7/116 are Draft**, following the earlier [Wave E Operating System Principles audit](WAVE-E-TECHNICAL-REVIEW-01.md) and [Wave E Communication & Distributed Systems audit](WAVE-E-TECHNICAL-REVIEW-02.md). The canonical ownership and relationship crosswalk remains proposed conceptual navigation, **not a ratified formal ontology or completed relationship-verification gate**. Full source-level verification, independent human peer review and final publication acceptance remain outstanding.
+The original **109 headings and their historical review evidence** are preserved. [Adjudication 01](FUNDAMENTAL-MODEL-ARCHITECTURE-ADJUDICATION-01.md) added seven headings within the same twelve areas. All seven have since been **Reviewed (model-assisted)** under [Wave F](WAVE-F-TECHNICAL-REVIEW-01.md). Thus **116/116 subjects are internally Reviewed**, each with separate, bounded source-review evidence, following the earlier [Wave E Operating System Principles audit](WAVE-E-TECHNICAL-REVIEW-01.md) and [Wave E Communication & Distributed Systems audit](WAVE-E-TECHNICAL-REVIEW-02.md). The canonical ownership and relationship crosswalk remains proposed conceptual navigation, **not a ratified formal ontology or completed relationship-verification gate**. Full source-level verification, independent human peer review and final publication acceptance remain outstanding.
 
 ## Register integrity
 
 | Measure | Value |
 | --- | ---: |
 | Approved knowledge areas covered | 12 |
-| Currently tracked subject headings (109 reviewed + 7 Draft) | 116 |
+| Currently tracked subject headings (116 Reviewed model-assisted) | 116 |
 | Illustrative directed relationships (existing and provisional) | 116 |
 | Canonical articles created by this register | 0 |
 | Formal subject-ID schema or graph engine introduced | 0 |
