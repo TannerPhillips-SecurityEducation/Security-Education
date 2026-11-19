@@ -3,7 +3,7 @@
 **Candidate subject:** SF-07-03 · Security Controls & Defense Mechanisms  
 **Working area:** [Security Controls & Defense Mechanisms](README.md) · Fundamentals-style directory pattern adopted; semantic area and subject taxonomy provisional  
 **Artifact type:** Substantive working security-knowledge reference; not a final canonical publication or system-specific controls implementation guide  
-**Development state:** Draft · **Source-review state:** References listed; official control-category sources compared during drafting, **separate claim-led Technical Review 11 pending**  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 11](../PILOT-TECHNICAL-REVIEW-11.md), 8 material claim groups; full source verification and independent expert review pending  
 **Architecture:** [Working Candidate Inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Source/Model Crosswalk](../ESTABLISHED-MODEL-CROSSWALK.md) · [Ownership Register](../CANONICAL-OWNERSHIP-REGISTER.md)
 
 ## What a control is implemented through differs from what it achieves
@@ -14,7 +14,7 @@ The working subject name uses **technical, organizational, and physical**, which
 
 [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) states that controls can include **administrative, technical and physical aspects**, while NIST's control families are organized by security/privacy topics rather than three exclusive implementation categories.
 
-The final [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html) uses **four themes**: *organizational, people, physical and technological*. An [ISO/IEC JTC 1/SC 27 journal article by its three editors (December 2022, printed pp. 13–14)](https://committee.iso.org/files/live/sites/jtc1sc27/files/resources/ISO-IEC%20JTC%201-SC%2027_N22755_SC27%20Journal%20Vol%202%20Issue%202%20%28update%20Dec%202022%29.pdf) identifies 37 organizational, 8 people, 14 physical, and 34 technological controls within its **93-control** edition. Those are **standard-specific chapter/theme counts**, not an observation that all real controls everywhere fit only one of four boxes.
+The final [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html) uses **four themes**: *organizational, people, physical and technological*. An [ISO/IEC JTC 1/SC 27 journal article by its three editors (December 2022, printed pp. 13–14)](https://committee.iso.org/files/live/sites/jtc1sc27/files/resources/ISO-IEC%20JTC%201-SC%2027_N22755_SC27%20Journal%20Vol%202%20Issue%202%20%28update%20Dec%202022%29.pdf) identifies 37 organizational, 8 people, 14 physical, and 34 technological controls within its **93-control** edition. Those are **standard-specific chapter/theme counts**, not an observation that all real controls everywhere fit only one of four boxes. The same editorial overview explicitly says ISO/IEC 27002 also includes **attributes for alternative views** of controls. Its four chapter themes therefore should not be interpreted as forbidding cross-theme implementation dependencies.
 
 ## Four implementation perspectives
 
@@ -27,7 +27,7 @@ The final [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html) uses **f
 
 The table is **editorial**. ISO and NIST use their terms within their own publication architecture, and historical source categories such as “management, operational, technical” are not literally the same four themes as ISO/IEC 27002:2022.
 
-These perspectives describe **how protection is provided**, not whether the action is preventive, detective, corrective or recovery-oriented. An organizational review requirement may prevent an unsuitable change; a technical monitor may detect a bad state; a physical backup facility may support recovery.
+These perspectives describe **how protection is provided**, not whether the action is preventive, detective, corrective or recovery-oriented. In ISO/IEC 27002:2022, **preventive, detective and corrective are source-defined control-type attributes**; recovery remains a separate functional comparison in the adjacent working article, not an invented fourth ISO attribute value. An organizational review requirement may prevent an unsuitable change; a technical monitor may detect a bad state; a physical backup facility may support recovery.
 
 ## Multiple mechanisms cooperate in one protection requirement
 
@@ -92,7 +92,7 @@ For a selected safeguard \(c\), an explanatory profile can keep three aspects in
 \bigr).
 \]
 
-The expression is an **authored conceptual tuple**, not a NIST- or ISO-mandated machine-readable schema.
+The expression is an **authored conceptual tuple**, not a NIST- or ISO-mandated machine-readable schema. Its components may hold **sets** of applicable labels rather than one forced value; the tuple deliberately does not assert that a real-world control implements only one function or medium.
 
 The first component might include **people and technology**; the second might include **prevent and detect**; the third might include **integrity and availability**. None of the values establishes that the control has been configured, evaluated, or found effective.
 
@@ -159,12 +159,12 @@ Detailed responsibility assignment, compliance evaluation and operation are work
 
 ### Primary sources and edition boundaries
 
-- [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html), final edition 3 (corrected March 2022); [ISO/IEC SC 27 editors' 2022 overview](https://committee.iso.org/files/live/sites/jtc1sc27/files/resources/ISO-IEC%20JTC%201-SC%2027_N22755_SC27%20Journal%20Vol%202%20Issue%202%20%28update%20Dec%202022%29.pdf), printed p. 13–14, confirms the **four source-specific themes** and their **37/8/14/34 control counts**. This is not an analysis of every full-standard clause.
+- [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html), final edition 3 (corrected March 2022); [ISO/IEC SC 27 editors' 2022 overview](https://committee.iso.org/files/live/sites/jtc1sc27/files/resources/ISO-IEC%20JTC%201-SC%2027_N22755_SC27%20Journal%20Vol%202%20Issue%202%20%28update%20Dec%202022%29.pdf), printed pp. 13–14 (**PDF indexes 14–15**, visually inspected), confirms the **four source-specific themes** and their **37/8/14/34 control counts**, and identifies five configurable metadata attributes. This is not an analysis of every full-standard clause.
 - [NIST SP 800-53 Rev. 5, Release 5.2.0](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final), organizational, administrative, technical and physical control aspects with topic-based control families.
 - [NIST SP 800-53B](https://csrc.nist.gov/pubs/sp/800/53/b/upd1/final), source-specific federal baselines, control tailoring and common/shared controls; 2025 Release 5.2.0 changed version consistency but **not** federal baseline membership.
 - [NIST SP 800-53A Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/a/r5/final), assessment procedures, not validation by control-category label.
 - [NIST SP 800-12 Rev. 1](https://csrc.nist.gov/pubs/sp/800/12/r1/final), broad information-security principles; its older management/operational/technical framing is distinct from ISO/IEC 27002:2022 themes.
 
-**Editorial limitations:** The example system and three-axis profile are authored explanatory devices. The categorical labels and ISO theme counts are version-scoped, not universal assignments of every conceivable security safeguard. This is **Draft / References listed** pending the distinct claim-led Technical Review 11. No independent expert verification, detailed source-to-clause assessment, deployment assurance, fixed taxonomy or Published state is asserted.
+**Editorial limitations:** The example system and multi-valued tuple are editorial constructions; ISO theme counts are edition-scoped, not universal safeguards. [Technical Review 11](../PILOT-TECHNICAL-REVIEW-11.md) documents eight material claim groups and visually inspected ISO editors' journal pages. The state is **Reviewed (model-assisted) / Core claims checked**, not full ISO standard-clause verification, independent expert acceptance, deployment assurance, permanent taxonomy approval or Published.
 
 [Security Foundations](../README.md) · [Area](README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

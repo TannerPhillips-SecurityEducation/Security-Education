@@ -1,6 +1,6 @@
 # Security Foundations: Established Models, Frameworks, and Evidence Crosswalk
 
-**Working edition:** v0.6 · November 19, 2026  
+**Working edition:** v0.7 · November 19, 2026  
 **Status:** Research-backed **architectural review aid**, not ratification of the Security Foundations taxonomy or model choices.  
 **Input inventory:** [12 candidate areas / 96 active candidate subjects (v0.3)](SUBJECT-INVENTORY-PROPOSAL.md); historical 94-ID snapshot in Git.  
 **Purpose:** Derive concept coverage and boundaries from existing security scholarship and primary technical references instead of inventing an independent security theory.
@@ -110,7 +110,7 @@ A selected control may be described from several **non-equivalent perspectives**
 
 A technological access-control mechanism can be **preventive** for one operation, **complementary** to monitoring, **compensating** for a narrowly tailored requirement when justified, and still have **unknown effectiveness** outside its tested scope. The labels answer different questions and **must not be interpreted as proof of independent defensive layers, actual coverage or measured outcomes**.
 
-**Working status:** These four manuscripts are **Draft / References listed** awaiting their separate Technical Review 11. The table is a source-bounded architectural aid, **not** full standards clause verification, approval of the provisional SF-07 subject taxonomy, an ISO certification claim, or an enacted operational control policy.
+**Working status:** The four [SF-07 control manuscripts](security-controls-defense-mechanisms/README.md) completed their separate [Technical Review 11](PILOT-TECHNICAL-REVIEW-11.md) with scoped evidence and corrections. The crosswalk remains a **research-backed architectural aid**, not full ISO/NIST standards-clause verification, approval of an SF-07 taxonomy, an ISO certification, or an operational control policy. New Security Foundations drafting is paused during administrative editorial work.
 
 ## 3. Coverage crosswalk: existing twelve *candidate* areas
 

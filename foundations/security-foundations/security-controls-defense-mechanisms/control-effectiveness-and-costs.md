@@ -3,14 +3,14 @@
 **Candidate subject:** SF-07-08 · Security Controls & Defense Mechanisms  
 **Working area:** [Security Controls & Defense Mechanisms](README.md) · Fundamentals-style directory structure adopted; exact subject taxonomy remains provisional  
 **Artifact type:** Substantive working security-knowledge reference, not an audit report, organizational procurement recommendation or operational performance dashboard  
-**Development state:** Draft · **Source-review state:** References listed; NIST final measurement sources and assessment publication status checked in authoring; **separate Technical Review 11 pending**  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 11](../PILOT-TECHNICAL-REVIEW-11.md), 8 material claim groups; full source verification and independent expert review pending  
 **Architecture:** [Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md) · [Ownership Register](../CANONICAL-OWNERSHIP-REGISTER.md)
 
 ## A control's presence and activity are not its protective effect
 
-A security control can be selected, deployed, correctly configured, actively processing events, and yet contribute little to the protection objective that motivated it. **Effectiveness** refers to the extent to which a safeguard achieves a **declared protective outcome** under relevant conditions and evidence. **Efficiency** describes resource or time spent relative to an output or result. **Cost** includes the resources and burdens necessary to implement, operate, test, maintain or recover the control. **Value** depends on the protected interests, alternative designs, benefits, constraints and uncertainty.
+A security control can be selected, deployed, correctly configured, actively processing events, and yet contribute little to the protection objective that motivated it. **Effectiveness** refers to the extent to which a safeguard achieves a **declared protective outcome** under relevant conditions and evidence. **Efficiency**, in general engineering vocabulary, describes resource or time spent relative to an output or result. **NIST SP 800-55v1 §3.3.3 uses the narrower security-measure emphasis of timeliness**, including the speed at which controls provide useful feedback and findings are addressed. This article must not present a generic cost ratio as though it were NIST's exact definition. **Cost** includes the resources and burdens necessary to implement, operate, test, maintain or recover the control. **Value** depends on the protected interests, alternative designs, benefits, constraints and uncertainty.
 
-These are different attributes. High activity can coexist with ineffective protection; low cost can coexist with substantial residual exposure; a highly effective measure can produce unacceptable privacy or availability costs.
+These are different attributes. High activity can coexist with ineffective protection; low cost can coexist with substantial residual exposure; a highly effective measure can produce unacceptable privacy or availability costs. **Measurement and attribution also differ:** an observed outcome can change because of other controls or environmental conditions, not necessarily because of the one being evaluated.
 
 The final [NIST SP 800-55 Volume 1 (December 2024)](https://csrc.nist.gov/pubs/sp/800/55/v1/final) provides the current guidance for **identifying and selecting information-security measures**. Its companion [Volume 2](https://csrc.nist.gov/pubs/sp/800/55/v2/final) addresses developing a security measurement program. These volumes **supersede SP 800-55 Rev. 1 (2008)**. Describing the two-volume 2024 final as an unissued “Rev. 2 draft” would be incorrect.
 
@@ -33,7 +33,7 @@ This is an **editorial measurement anatomy**, not a NIST-mandated eight-field sc
 
 ## Four useful but non-equivalent measurement levels
 
-NIST SP 800-55v1 identifies **implementation, effectiveness, efficiency, and impact measures**. These levels describe different questions, not a mechanical ladder requiring every metric to have one permanently exclusive label.
+NIST SP 800-55v1 identifies **implementation, effectiveness, efficiency, and impact measures**. These levels describe different questions, not a mechanical ladder requiring every metric to have one permanently exclusive label. In NIST's original **§3.3 (printed pp. 17–18; PDF indexes 24–25)**, **efficiency** particularly concerns timeliness, whereas **impact** may include cost savings, incurred event costs and cost-effectiveness. Cost analysis is therefore related to, but not synonymous with, NIST's efficiency-measure class.
 
 | Measurement level | An illustrative question | Limitation |
 | --- | --- | --- |
@@ -64,7 +64,7 @@ A numerator without a defined denominator cannot support a rate. A rate without 
 
 ## Worked example: high recall can coexist with low alert precision
 
-Assume a **fictional evaluation population of 10,000 independent classified cases** where the ground truth is known by construction. Exactly **100** cases satisfy the defined security-relevant condition and **9,900** do not. Assume a detection analytic identifies **80** of the 100 relevant cases and produces **495** false alerts among the 9,900 nonrelevant cases.
+Assume a **fictional evaluation population of 10,000 classified cases** with ground-truth labels known by construction. **Independence between cases is not required to compute this confusion matrix**, although estimating how these rates would generalize to another population would require separate statistical sampling assumptions. Exactly **100** cases satisfy the defined security-relevant condition and **9,900** do not. Assume a detection analytic identifies **80** of the 100 relevant cases and produces **495** false alerts among the 9,900 nonrelevant cases.
 
 This is an invented **confusion matrix**, not data from an actual system or a prediction about threat prevalence.
 
@@ -181,6 +181,6 @@ NIST SP 800-55 Vol. 2 (final 2024) concerns the organizational **measurement pro
 - [NIST SP 800-53A Rev. 5, Release 5.2.0](https://csrc.nist.gov/pubs/sp/800/53/a/r5/final): customizable assessment objectives, examine/interview/test and scope.
 - [MITRE D3FEND FAQ](https://d3fend.mitre.org/faq/): countermeasure-technique taxonomy **does not prescribe, prioritize or evaluate actual effectiveness**.
 
-**Editorial limitations:** Both worked numeric examples are entirely hypothetical. The confusion matrix requires a legitimate ground-truth reference and a specified evaluation population; the cost formula requires defendable loss distributions and a valid counterfactual. No real security metrics, controlled effectiveness test, human authorization for burdens, final taxonomy ratification or publication approval are claimed. This is **Draft / References listed**, pending the separately recorded claim-led **Technical Review 11** before any Reviewed status.
+**Editorial limitations:** Both numerical examples are hypothetical. The confusion matrix requires a stated reference population; the cost example requires a credible counterfactual and legitimate constraints. [Technical Review 11](../PILOT-TECHNICAL-REVIEW-11.md) documents eight claims, independently recomputed confusion-matrix values and checked NIST SP 800-55v1 §§3.3 on its narrower efficiency definition. The state is **Reviewed (model-assisted) / Core claims checked**, not measured security outcomes, independent expert acceptance, permanent taxonomy or Published status.
 
 [Security Foundations](../README.md) · [Area](README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

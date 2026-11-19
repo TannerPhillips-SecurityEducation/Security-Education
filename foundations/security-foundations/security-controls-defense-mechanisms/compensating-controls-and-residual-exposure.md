@@ -3,7 +3,7 @@
 **Candidate subject:** SF-07-07 · Security Controls & Defense Mechanisms  
 **Working area:** [Security Controls & Defense Mechanisms](README.md) · Fundamentals-style directory pattern adopted; exact subject semantics and taxonomy remain provisional  
 **Artifact type:** Substantive cross-domain working reference, not a compliance waiver, audit finding or operational risk-acceptance procedure  
-**Development state:** Draft · **Source-review state:** References listed; NIST original source and glossary scopes consulted, **separate Technical Review 11 pending**  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 11](../PILOT-TECHNICAL-REVIEW-11.md), 8 material claim groups; full source verification and independent expert review pending  
 **Authority:** [Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Ownership Register](../CANONICAL-OWNERSHIP-REGISTER.md) · [Development Plan](../DEVELOPMENT-PLAN.md)
 
 ## An alternative control is not automatically a compensating control
@@ -14,17 +14,17 @@ A **control substitution** changes which safeguards are relied upon for a requir
 
 These are related, but not interchangeable: selecting a compensating control does **not** prove that it provides comparable protection; identifying an exposure is **not** automatically a quantified risk; and a risk acceptance decision does **not** repeal an applicable legal or safety requirement.
 
-The [NIST CSRC compensating controls glossary](https://csrc.nist.gov/glossary/term/compensating_controls) gives the baseline-substitution definition, citing SP 800-53, 53A, 53B and 800-37 Rev. 2, while also listing a distinct digital-identity-oriented SP 800-63-4 definition. The meaning must be kept **source scoped**, not flattened into “any extra control.”
+The [NIST CSRC compensating controls glossary](https://csrc.nist.gov/glossary/term/compensating_controls) gives **two different source families**: SP 800-53/53A/53B and 800-37 Rev. 2 address comparable **baseline-control substitution**, while SP 800-63-4 uses an **assurance-level and user-population-sensitive** definition in digital identity. The source distinctions cannot be reduced to every supplemental measure being 'compensating'. The meaning must be kept **source scoped**, not flattened into “any extra control.”
 
 ## The precise NIST tailoring context
 
-[NIST SP 800-53B, Chapter 2, Selecting Compensating Controls, printed p. 12](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53B.pdf), distinguishes control-baseline selection, **scoping**, **tailoring**, **alternative controls**, and the responsibility to justify residual risk. That original source page was inspected.
+[NIST SP 800-53B, Chapter 2, Selecting Compensating Controls, printed p. 12 / PDF index 25](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53B.pdf), distinguishes control-baseline selection, **scoping**, **tailoring**, **alternative controls**, and the responsibility to justify residual risk. That original source page was **visually inspected**; the edition is from 2020, while the 2025 Release 5.2.0 is a no-baseline-change update.
 
 Its relevant requirements and guidance include:
 - A baseline control may be infeasible, not cost-effective, or harmful to mission performance in the particular setting.
 - A substitute is intended to provide **equivalent or comparable protection** for the unimplemented baseline requirement.
 - Organizations need a rationale for how the substitute satisfies the requirement and why the baseline control could not be implemented.
-- More than one alternative may be needed to achieve the comparable protection.
+- **More than one** alternative may be needed to achieve comparable protection, a possibility explicitly noted in NIST SP 800-53B's footnote 35.
 - Risk associated with the substitution requires assessment and authorized acceptance under the applicable framework.
 - Compensating controls are **not a way to evade requirements**.
 
@@ -85,7 +85,7 @@ For a model of relevant loss scenarios \(\mathcal{L}\), let \(\mathcal{P}(C)\) b
 
 This notation is **authored**, not a NIST equation. It deliberately describes **scenario coverage** rather than assigning probabilities, monetary values, or asserting that every uncovered scenario will occur.
 
-If \(\mathcal{L}\) omits a true path, \(\mathcal{E}(C)\) will omit it as well. If a control is only assumed effective, treating its claimed coverage as demonstrated will make \(\mathcal{E}(C)\) look artificially small.
+If \(\mathcal{L}\) omits a true path, \(\mathcal{E}(C)\) will omit it as well. **Even if the set of modeled scenarios is complete, this simple subtraction does not model how detection, containment, harm reduction or recovery change consequence severity**; it describes only the stated prevention property. If a control is only assumed effective, treating its claimed coverage as demonstrated will make \(\mathcal{E}(C)\) look artificially small.
 
 A detector may help limit *consequences after a loss* without preventing the modeled first loss; a restoration mechanism can reduce availability harm while leaving a confidentiality breach irreversible. Those benefits cannot always be represented as simple membership in a set of prevented events. A more complete analysis distinguishes prevention, detection, containment, restoration and stakeholder consequences.
 
@@ -140,6 +140,6 @@ Cost and benefit must be compared across the **same protected interest and legit
 - [NIST CSRC glossary: Tailoring](https://csrc.nist.gov/glossary/term/tailoring), control-scoping and replacement vocabulary.
 - [NIST SP 800-53A Rev. 5, Release 5.2.0](https://csrc.nist.gov/pubs/sp/800/53/a/r5/final), assessment methods, not proof of equivalent protection by control name.
 
-**Editorial limitations:** The payment example, set notation, and substitutability table are authored conceptual arguments, not legal, financial, or security compliance findings. A source-qualified compensating control **must not be treated as a guarantee of zero residual exposure**. This is **Draft / References listed** pending separate Technical Review 11, full source review and independently approved canonical/publication gates.
+**Editorial limitations:** The payment example, modeled exposure set and substitutability table are authored conceptual arguments, not compliance findings or risk-acceptance authorization. [Technical Review 11](../PILOT-TECHNICAL-REVIEW-11.md) documents eight article-specific claims and directly inspected SP 800-53B p. 12. A source-qualified compensating control does **not** guarantee zero residual exposure. The state is **Reviewed (model-assisted) / Core claims checked**, while full source verification, independent review, permanent canonical approval and publication remain pending.
 
 [Security Foundations](../README.md) · [Area](README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

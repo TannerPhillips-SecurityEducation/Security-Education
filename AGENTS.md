@@ -218,7 +218,7 @@ The intended working relationship is with an **independent technical collaborato
 **Subtree `AGENTS.md` files** narrow the SOP to local meaning and maturity:
 
 - [Fundamentals AGENTS.md](foundations/fundamentals/AGENTS.md): approved governing architecture, variable subject inventory, substantive canonical content and existing review controls.
-- [Security Foundations AGENTS.md](foundations/security-foundations/AGENTS.md): user-approved **Fundamentals-style area/README/article structure**, with flexible provisional area identities, **35 Reviewed (model-assisted) and 4 Draft manuscripts** (SF-07-02/03/07/08) awaiting their separate Technical Review 11. Functional types, implementation categories, compensating controls, and measured effectiveness are distinct axes; no taxonomy, complete source verification or publication approval is implied.
+- [Security Foundations AGENTS.md](foundations/security-foundations/AGENTS.md): user-approved **Fundamentals-style area/README/article structure**, with flexible provisional area identities and **39 Reviewed (model-assisted), 0 Draft** manuscripts, including SF-07-02/03/07/08 under separate [Technical Review 11](foundations/security-foundations/PILOT-TECHNICAL-REVIEW-11.md). **New SF authoring is paused** by user direction while [Administrative Editorial Passes](ADMINISTRATIVE-EDITORIAL-PASSES.md) focus on readability and detailed understanding. No taxonomy, complete source verification or publication approval is implied.
 - [Operational Foundations AGENTS.md](foundations/operational-foundations/AGENTS.md): shared security methodologies with **no approved internal taxonomy or article inventory yet**.
 
 **Specialized domain contracts (all inherit this root SOP):**
@@ -309,6 +309,8 @@ For a significant repository task:
 - **Maintain readable Markdown.** Keep informative links, stable navigation and appropriately scoped examples. Avoid excessive duplicate boilerplate across areas.
 
 **Structural CI is mechanical.** It detects only the classes of failures the scripts actually check. It does not prove scientific truth, security effectiveness, source accuracy, system completeness or independent human publication acceptance.
+
+**User-directed focus shift (November 19, 2026):** After bounded Security Foundations Technical Review 11, **pause new SF authorship** and focus [Administrative Editorial Passes](ADMINISTRATIVE-EDITORIAL-PASSES.md) on *readability* and *in-depth, detailed understanding*. Preserve SF review and source states. The administrative program is distinct from new article drafting; substantive changes still require evidence and appropriate technical checks.
 
 ## 15. Response and handoff conventions
 

@@ -3,7 +3,7 @@
 **Candidate subject:** SF-07-02 · Security Controls & Defense Mechanisms  
 **Working area:** [Security Controls & Defense Mechanisms](README.md) · Fundamentals-style area directory adopted; subject taxonomy and semantic ownership provisional  
 **Artifact:** Substantive cross-domain working reference, not a published catalog or operational control runbook  
-**Development state:** Draft · **Source-review state:** References listed; original source functions consulted during drafting; **separate article-specific Technical Review 11 pending**  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 11](../PILOT-TECHNICAL-REVIEW-11.md), 8 material claim groups; full source verification and independent expert review pending  
 **Authority:** [Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md) · [Ownership Register](../CANONICAL-OWNERSHIP-REGISTER.md)
 
 ## Security controls differ by intended effect, not merely by product name
@@ -25,9 +25,9 @@ The editors of [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html) des
 | **Corrective** | Remove or limit an identified wrong condition, remediate its cause, or prevent recurrence | Fix a configuration error and replace an incorrectly authorized token | Prior consequences have been reversed |
 | **Recovery** | Restore a required function, data state or acceptable service after disruption | Restore service from a verified recoverable state | Restored state is trustworthy, complete, or identical to its previous state |
 
-These examples are **possible functions**, not source-defined placement rules. The classification must identify the protected property and its scope. Restoring an application can satisfy an availability objective while leaving confidentiality or integrity uncertain. A control may prevent a *second* event but only correct a first event's underlying weakness.
+These examples are **possible functions**, not source-defined placement rules. The classification must identify the protected property and its scope. Restoring an application can satisfy an availability objective while leaving confidentiality or integrity uncertain. A control may prevent a *second* event while addressing the first event's underlying weakness. Whether it is *corrective* for the first failure depends on the particular unwanted state and whether the change actually remediates it.
 
-The [CISA Cyber Resilience Review Controls Management resource guide](https://www.cisa.gov/sites/default/files/publications/CRR_Resource_Guide-CM_0.pdf) discusses preventive, detective, corrective and compensating control types in a particular resiliency-control setting. Its **compensating** label refers to substitute or supplementary protection, which is a *different axis* from event-timing function. The CISA guide is historical resource guidance, not a requirement to adopt these precise four types as one universal classification.
+The [CISA Cyber Resilience Review Controls Management resource guide](https://www.cisa.gov/sites/default/files/publications/CRR_Resource_Guide-CM_0.pdf) is cited as historical context for control management. **Its underlying PDF could not be independently retrieved for this review**, so no specific CISA-defined classification is relied upon as a verified authority here. *Compensating* in the [NIST glossary](https://csrc.nist.gov/glossary/term/compensating_controls) instead refers to a baseline-control substitution relationship, which is distinct from event-timing function. Source-specific labels must not be conflated.
 
 ## Event time and consequence time do not define one universal sequence
 
@@ -105,7 +105,7 @@ These are different **claims**, even if they share a component. The signature ch
 
 ### Worked quantitative counterexample: a chain is not four independent guarantees
 
-In a **fictional** dataset of 1,000 genuinely relevant events, suppose 80% become observable and retained, 80% of those produce an actionable detection signal, and 60% of signaled cases lead to a timely corrective action. These rates are **stipulated conditional proportions**, not measured effectiveness or attack probabilities.
+In a **fictional** dataset of 1,000 genuinely relevant events, suppose exactly 80% become observable and retained, exactly 80% **of that observed subset** produce an actionable signal, and exactly 60% **of that signaled subset** lead to a timely corrective action. These are sequential *conditional* fractions, not independent failure probabilities. These rates are **stipulated conditional proportions**, not measured effectiveness or attack probabilities.
 
 \[
 1000 \times 0.80 \times 0.80 \times 0.60=384.
@@ -138,9 +138,9 @@ A single authentication mechanism can be technological in implementation, preven
 
 - [NIST CSRC security glossary](https://csrc.nist.gov/glossary/term/security), CNSSI 4009 and NIST-source definitions containing prevention/detection/correction/recovery and other measures, understood in their attributed contexts.
 - [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html), final edition 3, 2022; [ISO/IEC SC 27 editors' overview](https://committee.iso.org/files/live/sites/jtc1sc27/files/resources/ISO-IEC%20JTC%201-SC%2027_N22755_SC27%20Journal%20Vol%202%20Issue%202%20%28update%20Dec%202022%29.pdf) identifies **preventive, detective, corrective** as type attributes, not recovery as a fourth of those particular values.
-- [CISA CRR Supplemental Resource Guide: Controls Management, Version 1.1 (2016)](https://www.cisa.gov/sites/default/files/publications/CRR_Resource_Guide-CM_0.pdf), four control *types* including compensating in its source-specific context, distinct from the four functional lenses selected here.
+- [CISA CRR Supplemental Resource Guide: Controls Management](https://www.cisa.gov/sites/default/files/publications/CRR_Resource_Guide-CM_0.pdf), historical reference **not source-page verified** because the publisher PDF was unavailable in this review. Its detailed categories are not used as verified evidence.
 - [NIST SP 800-53 Rev. 5, Release 5.2.0](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final), control catalog; [NIST SP 800-53A Rev. 5, Release 5.2.0](https://csrc.nist.gov/pubs/sp/800/53/a/r5/final), separately scoped assessment.
 
-**Draft limitations:** The taxonomy is a security-education working comparison, not an asserted exhaustive or mutually exclusive formal standard. The functional claims, toy detection percentages and worked examples require a **separate article-specific Technical Review 11** and source-to-claim checking. No physical test, deployment measurement, independent human review, permanent canonical approval or Published status is claimed.
+**Draft limitations:** The working comparison is neither exhaustive nor mutually exclusive. [Technical Review 11](../PILOT-TECHNICAL-REVIEW-11.md) documents eight material claim groups, source-specific ISO control types and a verified conditional-chain calculation, with the unavailable CISA source explicitly unverified. This is **Reviewed (model-assisted) / Core claims checked**, not a deployed-system test, complete source-to-passage verification, independent human review, permanent canonical approval or Published status.
 
 [Security Foundations](../README.md) · [Area](README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
