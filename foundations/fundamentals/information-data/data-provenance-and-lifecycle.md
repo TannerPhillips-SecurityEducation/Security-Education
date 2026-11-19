@@ -63,7 +63,7 @@ A useful lifecycle description specifies:
 - Which **retention, access, correction or deletion policies** apply in the particular environment.
 - Which observations support the assertion that each transition occurred.
 
-This is an editorial checklist, not a newly approved lifecycle taxonomy or mandatory record schema. [State, Events, and Transitions](../models-abstraction/state-events-and-transitions.md) owns general event/state semantics; **G-04** general temporality remains an unresolved architectural scope decision.
+This is an editorial checklist, not a newly approved lifecycle taxonomy or mandatory record schema. [State, Events, and Transitions](../models-abstraction/state-events-and-transitions.md) owns general event/state semantics; general [Temporal Concepts and Models](../models-abstraction/temporal-concepts-and-models.md) now has a distinct canonical owner; this article remains responsible for distinguishing temporal fields in recorded provenance.
 
 ## Worked example: a traceable unit conversion
 
@@ -83,6 +83,28 @@ A provenance description might state that activity A1 **used** R1, **generated**
 
 This traceability makes the calculation inspectable but does not prove the original instrument reported the true physical temperature. A perfectly recorded conversion can faithfully reproduce a bad source value.
 
+## Worked continuation: correcting a source and rebuilding its descendants
+
+Extend the temperature conversion example above. Imagine the first source entry `R1-v1` stored `68 °F`, and the derived entry `R2-v1` recorded `20 °C`. Later, an authorized correction replaces the **reported** source value with `77 °F` for the same observation under a stated identity and revision policy. Whether the correction reflects the physical event accurately still requires independent evidence.
+
+Rather than silently overwriting the history, distinguish the source revision and derived revision as separately identified resources:
+
+```text
+R1-v1: 68 °F  --conversion A1-->  R2-v1: 20 °C
+   |
+   | source correction recorded as a revision
+   v
+R1-v2: 77 °F  --conversion A2-->  R2-v2: 25 °C
+```
+
+The new arithmetic is `(77 − 32) × 5/9 = 25`. Both conversions can be mathematically correct relative to their respective source records. They cannot both represent the same single physical temperature **under the assumptions that the source identities, units, event and measurement interpretation are unchanged**. Resolving which source report is trustworthy is an evidentiary task, not a provenance-graph theorem.
+
+A useful provenance record would distinguish `A1` and `A2` as conversion activities, the particular source version each activity **used**, each output's **generation**, and the claim that the later source is a **revision** of the earlier source. W3C [PROV-DM, §5.1 Derivation and §5.2.2 Revision](https://www.w3.org/TR/prov-dm/) explicitly distinguishes derivation, revision and relevant usage/generation events. This toy trace illustrates those relationships; its labels are not a new repository-wide mandatory schema.
+
+If a downstream report `P1` was generated from `R2-v1`, the correction invites an **impact check**: can `P1` still be used for its original claim, should it be recomputed from `R2-v2`, and which readers saw which version? A provenance graph with the relevant edges can identify **recorded descendants** by traversal. It cannot identify an untracked export, prove that the revised source is true, or guarantee every consumer was refreshed. A changed value may be immaterial to one decision and decisive to another.
+
+A consistency check on PROV relations tests whether the claimed history satisfies specified structural constraints; it does **not** validate empirical accuracy, authenticate a human author, or supply missing events. W3C [PROV Constraints](https://www.w3.org/TR/prov-constraints/) defines consistency validity for provenance accounts, not truth verification for underlying observations. [Verification and Validation](../systems-engineering/verification-and-validation.md) owns claim-specific conformance dispositions; [Search and Information Retrieval](search-and-information-retrieval.md) explains why a derived search index can lag behind its source.
+
 ## Revision, retention and deletion
 
 Data change can mean correcting an error, appending observations, changing schema, regenerating an analysis, or replacing a resource. These are different operations with different interpretive consequences.
@@ -91,7 +113,7 @@ A **version** refers to a distinguished revision under a given identity and vers
 
 Deleting a primary record does not automatically erase backups, replicas, derived tables, caches or records held by other systems. Claims about complete deletion require a stated scope, process and verification evidence. Conversely, retaining every copy indefinitely is not automatically justified; data governance, privacy obligations and risk vary by context.
 
-The exact meaning of collection time, event time, processing time and revision time must be explicitly distinguished. This article does not resolve general temporality G-04 by editorial fiat.
+The exact meaning of collection time, event time, processing time and revision time must be explicitly distinguished. General time and ordering remain owned by [Temporal Concepts and Models](../models-abstraction/temporal-concepts-and-models.md); a provenance timestamp must still identify its specific event, clock and interpretation.
 
 ## Quality and accountability limits
 

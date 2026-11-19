@@ -1,6 +1,6 @@
 # Administrative Editorial Passes | Readability and Detailed Understanding
 
-**Working edition:** v0.3 · November 19, 2026  
+**Working edition:** v0.4 · November 19, 2026  
 **Stage:** Active editorial program, with **Security Foundations new drafting paused** after its Technical Review 11.  
 **Scope:** Existing knowledge-reference manuscripts and their navigation, starting with **Fundamentals** as the established structural baseline; expand to other non-paused divisions on actual evidence. Existing Security Foundations references can receive source corrections or narrowly scoped maintenance without reopening a new drafting wave.  
 **Governing contracts:** [Root AGENTS](AGENTS.md) · [Foundations AGENTS](foundations/AGENTS.md) · [Fundamentals AGENTS](foundations/fundamentals/AGENTS.md) · [Security Foundations AGENTS](foundations/security-foundations/AGENTS.md)
@@ -102,6 +102,8 @@ Potential substantive focus includes: deriving an equation from its assumptions;
 - [Fundamentals Administrative Editorial Pass 01](foundations/fundamentals/ADMINISTRATIVE-EDITORIAL-PASS-01.md) (November 19, 2026): bounded A0 inspection of ten existing Fundamentals articles, with A2/A3 in-depth revisions to two Systems & Engineering articles (Reliability and Failure; Queueing and Service-System Models). Added source-scoped, independently recalculated examples and explanations. This is not a complete corpus audit or publication acceptance.
 
 - [Fundamentals Administrative Editorial Pass 02](foundations/fundamentals/ADMINISTRATIVE-EDITORIAL-PASS-02.md) (November 19, 2026): targeted A0–A5 improvement of four existing Fundamentals articles in Dependencies, Abstraction, Conceptual and Formal Models, and Databases and Queries. Nine bounded material claim groups, recalculated toy cases, formal reachability counterexample, and scoped primary-source checks; Security Foundations drafting pause and prior review gates unchanged.
+
+- [Fundamentals Administrative Editorial Pass 03](foundations/fundamentals/ADMINISTRATIVE-EDITORIAL-PASS-03.md) (November 19, 2026): bounded A0–A5 revisions across Verification and Validation, Data Provenance and Lifecycle, and Search and Information Retrieval. Nine new scoped claim groups address evidence disposition, revised data lineage, indexed search visibility and the correction of a stale temporal-ownership note. Existing Reviewed states and the Security Foundations drafting pause remain unchanged.
 
 ## 8. Completion criteria
 

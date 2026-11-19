@@ -58,6 +58,42 @@ The **mean passes a 200 ms threshold**, but the stipulated per-event requirement
 
 If measurement uncertainty could change the disposition, it must be reported and handled under an explicit decision rule. The results are fictional and not an empirical performance claim about a real controller.
 
+## From a requirement to a defensible disposition
+
+A traceability link can establish *which evidence was intended to evaluate a requirement*, but the link itself does not establish conformance. A complete evaluation must bridge **specified rule, applicable configuration, test conditions, observed results, uncertainty and decision rule**. The distinction becomes visible in the controller example above.
+
+Assume the hypothetical controller is configuration `C1`, tested under procedure `T-200` against requirement `R-200` (each valid response is no more than 200 ms). Treat the five results as **invented exact observations** for now. A compact evaluation trace is:
+
+| Evidence reference | Observation (ms) | Criterion applied | Disposition under exact values |
+| --- | ---: | --- | --- |
+| `E1` | 120 | `response ≤ 200` | Meets criterion |
+| `E2` | 158 | `response ≤ 200` | Meets criterion |
+| `E3` | 190 | `response ≤ 200` | Meets criterion |
+| `E4` | 205 | `response ≤ 200` | Does not meet criterion |
+| `E5` | 175 | `response ≤ 200` | Meets criterion |
+
+The chain can be written `R-200 → T-200 → {E1,...,E5} → evaluation of R-200 on C1`. With exact timings and valid testing, `E4` contradicts the per-response requirement in the tested case. Four conforming observations cannot cancel one failure by averaging. Even if all five passed, the finite sample would not logically establish a universal claim across every valid input and condition. A credible verification report would additionally identify the actual build, environmental envelope, calibrated instruments, input stimuli, timestamp/clock interpretation, procedure version, and any deviation from the procedure.
+
+### A bounded-error counterexample
+
+Now **change the measurement assumption**, not the observed numbers: suppose every instrument-reported time has a stipulated **maximum absolute error of 8 ms** under the tested conditions. This is a hypothetical hard bound, not a statistical confidence interval or a reported calibration result. Each true response time is only known to lie in `[measured − 8, measured + 8]`.
+
+For an upper-limit criterion `t ≤ 200 ms`, a conservative result-level rule is:
+
+- **Demonstrated conforming:** entire possible interval is at most 200 ms, so `measured + 8 ≤ 200`.
+- **Demonstrated nonconforming:** entire possible interval exceeds 200 ms, so `measured − 8 > 200`.
+- **Indeterminate from this measurement:** interval crosses the limit. Additional calibrated measurement or an approved decision procedure is required.
+
+Under this changed assumption, `E3` becomes `[182,198]` ms and remains demonstrably within the limit. `E4` becomes `[197,213]` ms: it is **indeterminate**, not conclusively failed or passed. The earlier **exact-value** conclusion was valid only under its declared exact-measurement assumption. Different tolerances, probabilistic uncertainty models, customer acceptance rules, or instrument faults need different reasoning. For uncertainty concepts see [Measurement](../scientific-analytical-reasoning/measurement.md).
+
+A reported `pass`, `fail`, `indeterminate`, `waived`, and `accepted` describe different states. A waiver is a governance decision, not a measurement correction. An incomplete set of operating conditions is a *coverage limitation*, not a quantified percentage of the envelope unless that envelope and sampling scheme have been defined.
+
+### Verification evidence is not validation evidence
+
+Even an eventual compliant timing record for `R-200` would not establish that the controller maintains comfortable temperature in the intended building. That distinct stakeholder outcome requires its own definition, representative context, and **end-to-end evidence**: sensing accuracy, actuator capability, heat-loss conditions, feedback behavior, and actual room outcomes may matter. The timing requirement and comfort need can each have traceable evidence while reaching different decisions.
+
+NASA's [Systems Engineering Handbook, §5.3 Product Verification](https://www.nasa.gov/reference/5-3-product-verification/) distinguishes test observations, discrepancy reporting, and the requirement-compliance record; [§5.0 Product Realization](https://www.nasa.gov/reference/5-0-product-realization/) distinguishes requirements conformance from stakeholder fitness in the intended environment. This is an engineering analogy, not a claim that NASA has approved this editorial test matrix. [Data Provenance and Lifecycle](../information-data/data-provenance-and-lifecycle.md) owns the origin and version history of evidence records, not the requirements-conformance judgment.
+
 ## Requirements versus intended operational use
 
 A system can be verified against poorly chosen requirements yet not serve users. For example, a heating controller might satisfy a command-timing requirement but fail to maintain acceptable room temperature because the sensor measures the wrong location or the actuator is undersized.

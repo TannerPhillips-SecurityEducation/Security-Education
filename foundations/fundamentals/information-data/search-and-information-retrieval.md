@@ -83,6 +83,28 @@ A fuzzy matcher that allows a suitable edit distance might admit `foxes` for a q
 
 The postings lists are representations of the indexed corpus. They may lag behind source changes, omit fields or include stale documents; an index hit does not certify source truth.
 
+## Worked continuation: a correct query against an older index
+
+The three-document corpus in the earlier index example has a precise result for the phrase `"red fox"`: only `D1` matches under lowercase whitespace tokenization and exact ordered adjacency. Now extend the **source collection** with one more record:
+
+```text
+D4: red fox stays nearby
+```
+
+Suppose `D4` has been successfully stored, but the search reader still sees an **older indexed snapshot** containing only `D1`, `D2`, and `D3`. For the target **current source collection** `{D1,D2,D3,D4}`, an exact phrase predicate should match `{D1,D4}`, but that older search reader can return only `{D1}`.
+
+| Boundary being evaluated | Exact phrase `"red fox"` result | Interpretation |
+| --- | --- | --- |
+| Earlier indexed snapshot `I0`: D1–D3 | `{D1}` | Correct for what `I0` contains |
+| Current source collection `S1`: D1–D4 | `{D1,D4}` | Correct for all four source records |
+| Later searchable snapshot `I1`: D1–D4, after successful index visibility update | `{D1,D4}` | Matches the current source collection in this example |
+
+Here the **evaluation rule is narrowly stipulated**: a document is relevant if and only if its exact tokens contain adjacent `red`, then `fox`; there is no human relevance ambiguity. Relative to the four-record source collection, the old-index retrieval has precision `1/1 = 100%` but recall `1/2 = 50%`. The refreshed-index retrieval has precision `2/2 = 100%` and recall `2/2 = 100%`. These values are **recomputed toy measures**, not measured search-engine performance or evidence that returned text is true.
+
+This example isolates a **visibility/coverage mismatch**. It does not imply a query parser error, false lexical matching, faulty scoring, or that all indexing systems are eventually consistent. A system might instead search source records directly, synchronously maintain an index, or expose a snapshot/reader whose version must be advanced. Real-world evaluation also requires an explicit source snapshot, indexing/visibility boundary, permissions, deduplication policy, and relevance judgments; otherwise a quoted recall percentage can be uninterpretable.
+
+As one concrete mechanism rather than a universal search rule, [Apache Lucene 10.5.2 `DirectoryReader`](https://lucene.apache.org/core/10_5_2/core/org/apache/lucene/index/DirectoryReader.html) documents opening a new reader when the index changes and explains near-real-time visibility. The original [Stanford Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/) remains the conceptual reference for postings lists and precision/recall. [Data Provenance and Lifecycle](data-provenance-and-lifecycle.md) owns the source and derivation history; [Databases and Queries](databases-and-queries.md) owns logical query behavior and physical access choices.
+
 ## Ranking, relevance, precision and recall
 
 A **ranked retrieval model** uses a scoring rule to order results. Classical approaches include **TF–IDF**, vector-space similarity, and probabilistic models such as **BM25**. Their details depend on the corpus, term statistics, normalization choices and model assumptions. A high score can indicate textual or model-dependent similarity without proving that a result answers the user's question.
