@@ -1,6 +1,6 @@
 # Security Foundations: Architecture & Development Plan
 
-**Working edition:** v0.21 · November 19, 2026  
+**Working edition:** v0.22 · November 19, 2026  
 **Status:** Proposed plan; **no approval of internal taxonomy or article publication is asserted**  
 **Scope:** Security Knowledge → Foundations → Security Foundations  
 **Proposed inputs:** [Architecture](ARCHITECTURE.md) · [96-heading Flexible Working Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [34-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) · [30-group Established Model Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) · [Architecture Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md)
@@ -18,11 +18,11 @@ A complete article must explain not merely *what a term means*, but **why the pr
 | Measure | Current disposition |
 | --- | --- |
 | Approved divisions | Fundamentals; Security Foundations; Operational Foundations |
-| Security Foundations division | Approved; [Fundamentals-style directory structure](AREA-STRUCTURE-ADJUDICATION-03.md) adopted with twelve provisional knowledge-area indexes and **35 substantive Reviewed (model-assisted)** working manuscripts |
+| Security Foundations division | Approved; [Fundamentals-style directory structure](AREA-STRUCTURE-ADJUDICATION-03.md) adopted with 12 provisional area indexes, now containing **39 substantive working articles** (35 Reviewed, 4 Draft) |
 | Internal Security Foundations taxonomy | **Not approved** |
 | Working knowledge areas | 12 **proposed** |
 | Working subject headings | **96 proposed**, revised from 94 by four additions and two consolidations; still flexible |
-| Final approved canonical Security Foundations articles | **0**; all 35 authored working manuscripts have bounded internal model-assisted reviews; final semantic ownership, full source verification, qualified independent review and publication remain unratified |
+| Final approved canonical Security Foundations articles | **0**; 35 manuscripts have bounded internal model-assisted reviews and four newly authored SF-07 manuscripts are Draft; permanent semantic ownership, full source verification and publication remain unratified |
 | Substantive technical review of proposed future subject articles | **35 Reviewed (model-assisted) manuscripts** under ten separate audits: [Reviews 01–09](pilots/README.md) cover 33 articles (210 bounded claim groups), and [Review 10](PILOT-TECHNICAL-REVIEW-10.md) covers two new SF-03 manuscripts (20 groups). Complete source-passage verification and independent expert review remain open |
 | Specialized knowledge domains | Seven existing approved domain entries |
 | Formal relationship predicate vocabulary / graph engine | Neither approved nor implemented |
@@ -37,12 +37,12 @@ The subject inventory is a **candidate discovery and coverage instrument**, not 
 | Internal taxonomy | 12 proposed areas / **96 active proposed subjects**, both flexible and unratified |
 | Source map | **30 established source groups** identified with version and non-equivalence cautions |
 | Ownership | **34 working overlap cases** documented; not all individually approved |
-| Article development | **35 Reviewed (model-assisted), 0 Draft**, and 61 candidate subjects without manuscripts. SF-03-04 and SF-03-07 completed the separate [Technical Review 10](PILOT-TECHNICAL-REVIEW-10.md), with source, formal-inference, and behavior/model-boundary corrections documented individually |
+| Article development | **35 Reviewed (model-assisted), 4 Draft** working-area articles and **57 Inventoried without article**. The new Drafts are [SF-07-02 Functional Controls](security-controls-defense-mechanisms/preventive-detective-corrective-and-recovery-controls.md), [SF-07-03 Implementation Categories](security-controls-defense-mechanisms/technical-organizational-and-physical-controls.md), [SF-07-07 Compensating Controls](security-controls-defense-mechanisms/compensating-controls-and-residual-exposure.md), and [SF-07-08 Effectiveness and Costs](security-controls-defense-mechanisms/control-effectiveness-and-costs.md) |
 | Review / publication | Ten bounded technical audits ([01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), [06](PILOT-TECHNICAL-REVIEW-06.md), [07](PILOT-TECHNICAL-REVIEW-07.md), [08](PILOT-TECHNICAL-REVIEW-08.md), [09](PILOT-TECHNICAL-REVIEW-09.md), [10](PILOT-TECHNICAL-REVIEW-10.md)) document **230 bounded material claim groups** across 35 manuscripts. Source-Verified, independent qualified acceptance and Published remain separate and incomplete |
 
-**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain historical and traceable. **35 Reviewed, 0 Draft and 61 Inventoried** among 96 provisional candidates describe manuscript development, not an approved permanent taxonomy. Counts may expand or contract with evidence-grounded decisions.
+**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain historical and traceable. **35 Reviewed, 4 Draft and 57 Inventoried** among 96 provisional subjects describe current development, not taxonomy approval. The inventory can expand or contract based on evidence.
 
-**Next source-led scope priorities:** [Technical Review 10](PILOT-TECHNICAL-REVIEW-10.md) separately reviewed SF-03-04 attacks/deception/abuse/misuse and SF-03-07 threat assumptions/models, preserving the [Threat Models versus Threat Hunting Models crosswalk](ESTABLISHED-MODEL-CROSSWALK.md#2b-threat-models-versus-threat-hunting-models-related-not-equivalent). With **no pending Drafts**, the next coherent Draft batch can address remaining Security Controls subjects ([SF-07-02/03/07/08](security-controls-defense-mechanisms/README.md)) or security-risk/weakness gaps based on primary evidence, using variable article count and depth. The next authoring-related response *after* that Draft batch must separately Review every new Draft; architectural taxonomy, source and publication acceptance remain open.
+**Next source-led scope priorities:** **Draft Batch 11** now contains four coherent Security Controls articles, SF-07-02 (preventive/detective/corrective/recovery functions), SF-07-03 (technical/organizational/people/physical implementation), SF-07-07 (compensating substitutions and residual exposure), and SF-07-08 (control effectiveness and costs). The [model crosswalk](ESTABLISHED-MODEL-CROSSWALK.md#2c-control-classification-and-evidence-are-separate-axes) preserves their distinct axes. **The next authoring-related response must perform separate Technical Review 11 across all four Drafts**, checking ISO/IEC 27002:2022 original source-defined control types/themes, NIST SP 800-53/53A/53B baseline/assessment/tailoring distinctions, NIST SP 800-55 Volumes 1/2 final (2024), CISA controls-guide source scope, protective-function timing, compensating-control comparability, false-positive/recall and detection-chain arithmetic, and qualitative cost/risk boundaries. Correct, reconcile article-specific statuses and run both CI checks before drafting further subjects. No taxonomy, Source-Verified or publication approval is implicit.
 
 ## 3. Engineering workstreams
 

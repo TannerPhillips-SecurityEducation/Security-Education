@@ -1,6 +1,6 @@
 # Security Foundations: Established Models, Frameworks, and Evidence Crosswalk
 
-**Working edition:** v0.5 · November 19, 2026  
+**Working edition:** v0.6 · November 19, 2026  
 **Status:** Research-backed **architectural review aid**, not ratification of the Security Foundations taxonomy or model choices.  
 **Input inventory:** [12 candidate areas / 96 active candidate subjects (v0.3)](SUBJECT-INVENTORY-PROPOSAL.md); historical 94-ID snapshot in Git.  
 **Purpose:** Derive concept coverage and boundaries from existing security scholarship and primary technical references instead of inventing an independent security theory.
@@ -96,6 +96,21 @@ The original twenty references remain R-01 through R-20. **Six supplemental sour
 **Working ownership:** [SF-03-07 Threat Assumptions and Models](threats-hazards-adversarial-behavior/threat-assumptions-and-models.md) explains shared abstraction, assumptions and the non-equivalence. [Operational Foundations](../operational-foundations/README.md) owns Threat Hunting Models as applied analytical knowledge and their use in operational hunting, alongside the practice of system threat modeling. An ATT&CK or Diamond representation can serve either purpose; its creator/source version and the particular inference claim still govern the use. The hunting category is **not automatically an approved new candidate subject or an authorized published article**.
 
 **Review linkage:** The separate [SF-03-04 and SF-03-07 Technical Review 10](PILOT-TECHNICAL-REVIEW-10.md) checks the source meanings, behavior/hunting-model separation, and inferential limitations relevant to this crosswalk. This **does not** make the entire source crosswalk Source-Verified or ratify an Operational Foundations subject taxonomy.
+
+## 2C. Control classification and evidence are separate axes
+
+A selected control may be described from several **non-equivalent perspectives**, rather than being assigned one permanent branch of a universal taxonomy:
+
+| Question | Conceptual axis | Working article ownership | Original source and scope |
+| --- | --- | --- | --- |
+| **What protective effect is sought?** | Prevent, detect, correct, recover; additional functions may be relevant | [SF-07-02](security-controls-defense-mechanisms/preventive-detective-corrective-and-recovery-controls.md) | [NIST security glossary](https://csrc.nist.gov/glossary/term/security) covers deterrence, avoidance, prevention, detection, correction and recovery; [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html) treats preventive/detective/corrective as **control-type attributes**, not a mandatory four-stage timeline |
+| **How and by whom is it implemented?** | Organizational, people, physical and technological mechanisms | [SF-07-03](security-controls-defense-mechanisms/technical-organizational-and-physical-controls.md) | The [ISO/IEC JTC 1/SC 27 editors' 2022 publication](https://committee.iso.org/files/live/sites/jtc1sc27/files/resources/ISO-IEC%20JTC%201-SC%2027_N22755_SC27%20Journal%20Vol%202%20Issue%202%20%28update%20Dec%202022%29.pdf) records 37/8/14/34 category counts; [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) discusses administrative/technical/physical aspects |
+| **What is its substitution relationship to the requirement?** | Original, compensating, complementary, overlapping, redundant | [SF-07-07](security-controls-defense-mechanisms/compensating-controls-and-residual-exposure.md) | [NIST SP 800-53B](https://csrc.nist.gov/pubs/sp/800/53/b/upd1/final) and its [compensating controls glossary](https://csrc.nist.gov/glossary/term/compensating_controls) require context-specific **comparable protection**, not automatic equivalence |
+| **What was implemented, measured and learned?** | Implementation, effectiveness, efficiency, impact, costs and assurance | [SF-07-08](security-controls-defense-mechanisms/control-effectiveness-and-costs.md) | [NIST SP 800-55 Volume 1 (final 2024)](https://csrc.nist.gov/pubs/sp/800/55/v1/final), [Volume 2 (final 2024)](https://csrc.nist.gov/pubs/sp/800/55/v2/final) and [SP 800-53A](https://csrc.nist.gov/pubs/sp/800/53/a/r5/final) separate measures, programs and assessments |
+
+A technological access-control mechanism can be **preventive** for one operation, **complementary** to monitoring, **compensating** for a narrowly tailored requirement when justified, and still have **unknown effectiveness** outside its tested scope. The labels answer different questions and **must not be interpreted as proof of independent defensive layers, actual coverage or measured outcomes**.
+
+**Working status:** These four manuscripts are **Draft / References listed** awaiting their separate Technical Review 11. The table is a source-bounded architectural aid, **not** full standards clause verification, approval of the provisional SF-07 subject taxonomy, an ISO certification claim, or an enacted operational control policy.
 
 ## 3. Coverage crosswalk: existing twelve *candidate* areas
 

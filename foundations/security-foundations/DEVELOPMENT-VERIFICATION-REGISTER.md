@@ -1,8 +1,8 @@
 # Security Foundations | Development & Verification Register
 
-**Working edition:** v0.15 · November 19, 2026  
+**Working edition:** v0.16 · November 19, 2026  
 **Authority:** [Fundamentals-style area structure decision](AREA-STRUCTURE-ADJUDICATION-03.md); exact labels, 12 areas and 96 subjects remain **provisional and revisionable**.  
-**Status:** **35 authored Reviewed (model-assisted)**, **0 Draft** working-area manuscripts; **61 Inventoried without article**; zero Source-Verified or Published.  
+**Status:** **35 authored Reviewed (model-assisted)** and **4 Draft** working-area manuscripts; **57 Inventoried without article**, zero Source-Verified or Published.  
 **Review evidence:** [Technical Reviews 01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), [06](PILOT-TECHNICAL-REVIEW-06.md), [07](PILOT-TECHNICAL-REVIEW-07.md), [08](PILOT-TECHNICAL-REVIEW-08.md), [09](PILOT-TECHNICAL-REVIEW-09.md), and [10](PILOT-TECHNICAL-REVIEW-10.md), totaling **230 bounded material claim groups** across 35 Reviewed working manuscripts.
 
 ## Current development status
@@ -10,8 +10,8 @@
 | State | Count | Interpretation |
 | --- | ---: | --- |
 | **Reviewed (model-assisted)** | **35** | Thirty-five substantive working-area manuscripts; ten separate bounded technical reviews (01–10) |
-| **Draft** | **0** | No authored manuscript currently awaits its first scoped claim-led technical review |
-| **Inventoried without article** | **61** | Provisional subject headings with no substantive manuscript yet |
+| **Draft** | **4** | SF-07-02, SF-07-03, SF-07-07 and SF-07-08 authored together in Draft Batch 11; separate Technical Review 11 pending |
+| **Inventoried without article** | **57** | Provisional candidate subject headings without substantive article yet |
 | **Source-Verified / Published** | **0** | Full claim-to-passage checking, taxonomy acceptance and qualified publication review remain open |
 
 **Structural baseline:** Each active [working area](README.md#working-knowledge-areas) has a real `README.md`. When a subject is authored its **one substantive article** is in that area directory. The historical [pilot review index](pilots/README.md) and compatibility stubs are **not additional articles**.
@@ -67,13 +67,13 @@
 | SF-06-08 | [Explicit verification and zero trust principles](trust-identity-authority-principles/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-06-09 | [Access-control policy models](trust-identity-authority-principles/README.md) | [Working reviewed article](trust-identity-authority-principles/access-control-policy-models.md) | Reviewed (model-assisted) | Core claims checked | [Review 01](PILOT-TECHNICAL-REVIEW-01.md) |
 | SF-07-01 | [Controls, safeguards, and security functions](security-controls-defense-mechanisms/README.md) | [Working reviewed article](security-controls-defense-mechanisms/controls-safeguards-and-security-functions.md) | Reviewed (model-assisted) | Core claims checked | [Review 02](PILOT-TECHNICAL-REVIEW-02.md) |
-| SF-07-02 | [Preventive, detective, corrective, and recovery controls](security-controls-defense-mechanisms/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-07-03 | [Technical, organizational, and physical controls](security-controls-defense-mechanisms/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
+| SF-07-02 | [Preventive, detective, corrective, and recovery controls](security-controls-defense-mechanisms/README.md) | [Working draft article](security-controls-defense-mechanisms/preventive-detective-corrective-and-recovery-controls.md) | **Draft** | References listed; Review 11 pending | Not reviewed |
+| SF-07-03 | [Technical, organizational, and physical controls](security-controls-defense-mechanisms/README.md) | [Working draft article](security-controls-defense-mechanisms/technical-organizational-and-physical-controls.md) | **Draft** | References listed; Review 11 pending | Not reviewed |
 | SF-07-04 | [Defense in depth and diversity](security-controls-defense-mechanisms/README.md) | [Reviewed working article](security-controls-defense-mechanisms/defense-in-depth-and-diversity.md) | Reviewed (model-assisted) | Core claims checked | [Review 09](PILOT-TECHNICAL-REVIEW-09.md) |
 | SF-07-05 | [Control placement and coverage](security-controls-defense-mechanisms/README.md) | [Reviewed working article](security-controls-defense-mechanisms/control-placement-and-coverage.md) | Reviewed (model-assisted) | Core claims checked | [Review 09](PILOT-TECHNICAL-REVIEW-09.md) |
 | SF-07-06 | [Control bypass, failure, and evasion](security-controls-defense-mechanisms/README.md) | [Reviewed working article](security-controls-defense-mechanisms/control-bypass-failure-and-evasion.md) | Reviewed (model-assisted) | Core claims checked | [Review 09](PILOT-TECHNICAL-REVIEW-09.md) |
-| SF-07-07 | [Compensating controls and residual exposure](security-controls-defense-mechanisms/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
-| SF-07-08 | [Control effectiveness and costs](security-controls-defense-mechanisms/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
+| SF-07-07 | [Compensating controls and residual exposure](security-controls-defense-mechanisms/README.md) | [Working draft article](security-controls-defense-mechanisms/compensating-controls-and-residual-exposure.md) | **Draft** | References listed; Review 11 pending | Not reviewed |
+| SF-07-08 | [Control effectiveness and costs](security-controls-defense-mechanisms/README.md) | [Working draft article](security-controls-defense-mechanisms/control-effectiveness-and-costs.md) | **Draft** | References listed; Review 11 pending | Not reviewed |
 | SF-08-01 | [Security architecture and formal protection models](secure-design-architecture/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-08-02 | [Reference mediation and complete mediation](secure-design-architecture/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
 | SF-08-03 | [Isolation, segmentation, and containment](secure-design-architecture/README.md) | **Article not authored** | **Inventoried** | Not reviewed | Not reviewed |
