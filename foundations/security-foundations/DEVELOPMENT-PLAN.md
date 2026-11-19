@@ -1,6 +1,6 @@
 # Security Foundations: Architecture & Development Plan
 
-**Working edition:** v0.19 · November 18, 2026  
+**Working edition:** v0.20 · November 19, 2026  
 **Status:** Proposed plan; **no approval of internal taxonomy or article publication is asserted**  
 **Scope:** Security Knowledge → Foundations → Security Foundations  
 **Proposed inputs:** [Architecture](ARCHITECTURE.md) · [96-heading Flexible Working Inventory](SUBJECT-INVENTORY-PROPOSAL.md) · [34-case Ownership Boundaries](OWNERSHIP-BOUNDARIES.md) · [30-group Established Model Crosswalk](ESTABLISHED-MODEL-CROSSWALK.md) · [Architecture Adjudication 02](ARCHITECTURE-ADJUDICATION-02.md)
@@ -18,11 +18,11 @@ A complete article must explain not merely *what a term means*, but **why the pr
 | Measure | Current disposition |
 | --- | --- |
 | Approved divisions | Fundamentals; Security Foundations; Operational Foundations |
-| Security Foundations division | Approved; [Fundamentals-style directory structure](AREA-STRUCTURE-ADJUDICATION-03.md) adopted with twelve provisional area indexes, now containing **33 substantive Reviewed (model-assisted)** working articles |
+| Security Foundations division | Approved; [Fundamentals-style directory structure](AREA-STRUCTURE-ADJUDICATION-03.md) adopted with twelve provisional area indexes, now containing **35 substantive working articles** (33 Reviewed, 2 Draft) |
 | Internal Security Foundations taxonomy | **Not approved** |
 | Working knowledge areas | 12 **proposed** |
 | Working subject headings | **96 proposed**, revised from 94 by four additions and two consolidations; still flexible |
-| Final approved canonical Security Foundations articles | **0**; all 33 authored manuscripts have bounded internal model-assisted technical review, while final semantic ownership, full source-passage verification, independent expert acceptance and publication remain unratified |
+| Final approved canonical Security Foundations articles | **0**; 33 manuscripts have bounded model-assisted reviews and two new SF-03 articles are Draft; permanent semantic ownership, complete source verification and publication remain unratified |
 | Substantive technical review of proposed future subject articles | **33 Reviewed (model-assisted) manuscripts** across nine separate audits: [Reviews 01–08](pilots/README.md) cover 29 articles (179 claim groups); [Review 09](PILOT-TECHNICAL-REVIEW-09.md) covers four defense/resilience articles (31 groups). Complete source-passage verification and independent expert review remain open |
 | Specialized knowledge domains | Seven existing approved domain entries |
 | Formal relationship predicate vocabulary / graph engine | Neither approved nor implemented |
@@ -37,12 +37,12 @@ The subject inventory is a **candidate discovery and coverage instrument**, not 
 | Internal taxonomy | 12 proposed areas / **96 active proposed subjects**, both flexible and unratified |
 | Source map | **30 established source groups** identified with version and non-equivalence cautions |
 | Ownership | **34 working overlap cases** documented; not all individually approved |
-| Article development | **33 Reviewed (model-assisted), 0 Draft** working manuscripts and 63 Inventoried candidate subjects. SF-07-04, SF-07-05, SF-07-06 and SF-11-05 completed their distinct [Technical Review 09](PILOT-TECHNICAL-REVIEW-09.md) with article-specific evidence and corrections |
+| Article development | **33 Reviewed (model-assisted), 2 Draft** substantive working manuscripts and **61 Inventoried without article**. The new Drafts are [SF-03-04: Attacks, Deception, Abuse, and Misuse](threats-hazards-adversarial-behavior/attacks-deception-abuse-and-misuse.md) and [SF-03-07: Threat Assumptions and Models](threats-hazards-adversarial-behavior/threat-assumptions-and-models.md) |
 | Review / publication | Nine bounded audits ([01](PILOT-TECHNICAL-REVIEW-01.md), [02](PILOT-TECHNICAL-REVIEW-02.md), [03](PILOT-TECHNICAL-REVIEW-03.md), [04](PILOT-TECHNICAL-REVIEW-04.md), [05](PILOT-TECHNICAL-REVIEW-05.md), [06](PILOT-TECHNICAL-REVIEW-06.md), [07](PILOT-TECHNICAL-REVIEW-07.md), [08](PILOT-TECHNICAL-REVIEW-08.md), [09](PILOT-TECHNICAL-REVIEW-09.md)) document **210 bounded material claim groups** across 33 articles. Full Source-Verified status, independent acceptance and publication remain pending |
 
-**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain historical and traceable. **33 Reviewed, 0 Draft and 63 Inventoried** among 96 provisional candidates describe current manuscript development, not accepted canonical taxonomy. Counts may expand or contract under evidence-grounded adjudication.
+**Historical denominators:** Earlier 12/94 and 20-source/25-boundary records remain historical and traceable. **33 Reviewed, 2 Draft and 61 Inventoried** among 96 provisional candidate subjects describe current manuscript development, not accepted canonical taxonomy. Counts may expand or contract based on evidence.
 
-**Next source-led scope priorities:** [Technical Review 09](PILOT-TECHNICAL-REVIEW-09.md) completed the separate SG-08 review covering SF-07-04/05/06 and SF-11-05. With **no outstanding Drafts**, the next cohesive Draft batch can develop [SF-03-04 Attacks, Deception, Abuse, and Misuse](threats-hazards-adversarial-behavior/README.md) and [SF-03-07 Threat Assumptions and Models](threats-hazards-adversarial-behavior/README.md), keeping their concepts separate from already Reviewed SF-03-01/02/03/05/06. Subsequent defensibility work may develop SF-07-02/03/07/08 and other evidence-backed gaps. Each new Draft batch must have a separately documented claim-led Review in its next authoring turn, with no unearned publication or taxonomy approval.
+**Next source-led scope priorities:** **Draft Batch 10** now contains SF-03-04 (attacks, deception, abuse, misuse) and SF-03-07 (threat assumptions and models). The latter explicitly distinguishes **Threat Models** for potential security violations and design assumptions from **Threat Hunting Models** focused on behavioral hypotheses, observables, analytics and evidence; MITRE TTP-Based Hunting and the Cyber Analytics Repository support this distinction. The [source crosswalk](ESTABLISHED-MODEL-CROSSWALK.md#2b-threat-models-versus-threat-hunting-models-related-not-equivalent) records the relationship without ratifying a new subject. **The next authoring-related turn must perform separate Technical Review 10 of both Drafts**, checking NIST threat-modeling source scope, OWASP abuse/feature misuse, CAPEC deception patterns, Microsoft STRIDE, MITRE hunting evidence models, draft-status distinctions, conceptual counterexamples and ownership. Correct, reconcile and validate before authoring another batch.
 
 ## 3. Engineering workstreams
 
