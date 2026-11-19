@@ -83,6 +83,37 @@ A result table is not guaranteed to appear in a particular row order without an 
 
 [Uncertainty and Confidence](../scientific-analytical-reasoning/uncertainty-and-confidence.md) owns epistemic unknowns, which should not be equated with every implementation's null marker.
 
+## From the logical query to physical access
+
+A query declares **what result is requested**, while an execution plan selects **how an implementation will obtain that result**. In a relational DBMS, a useful analytical separation is:
+
+| Concern | Question it answers | Example |
+| --- | --- | --- |
+| Data and schema | Which records, types, constraints and meanings exist? | `observations(device_id, temperature_c)` |
+| Logical query | Which qualifying records and result operations are requested? | `WHERE device_id = 'D7'` |
+| Physical organization and access | How are rows/columns/pages arranged and which access paths exist? | Heap/table data, B-tree index, sequential scan |
+| Execution plan | Which operations and access paths are chosen for this request? | Sequential scan with filter, or index scan plus row fetch |
+| Result and provenance | Which values are returned, based on which data and observation history? | Two stored observations for identifier D7 |
+
+This is a **separation of responsibilities**, not an assertion that every DBMS implements the same pipeline. Parsing and binding a query, rewriting/optimizing logical operations, selecting physical operators, reading data, and applying final result semantics can be organized differently across systems.
+
+Using the earlier three-row `observations` example:
+
+```sql
+SELECT observation_id
+FROM observations
+WHERE device_id = 'D7'
+ORDER BY observation_id;
+```
+
+The stipulated result is `O1` followed by `O2`. A table scan can inspect each stored row and apply the predicate. If a suitable index on `device_id` exists, an engine **may** use it to identify candidate locations, then fetch qualifying rows and satisfy the requested ordering. The mere presence of an index does **not** require the optimizer to use it; small tables or nonselective predicates can favor a scan. Any correct plan under the same data visibility and query semantics must return the same qualifying logical result. Inappropriate index behavior, inconsistent snapshots, or engine defects are outside that correctness premise.
+
+An **index** is an auxiliary access structure, not a schema, a source-of-truth guarantee, or a synonym for the query itself. It can reduce search work for selected predicates, but it consumes storage and imposes maintenance costs on changes. An unindexed or 'indexless' access path may still support queries by scanning or other engine-specific structures. Whether a column is validated at ingestion (**schema on write**) or interpreted when read (**schema on read**) is another axis of design: it changes when interpretation and conformance checks occur, not the definition of indexing. Neither policy ensures the original recorded measurement is true.
+
+For PostgreSQL 18, the primary documentation explicitly distinguishes sequential, index, and bitmap scans and describes cost-based plan selection in [Using EXPLAIN](https://www.postgresql.org/docs/18/using-explain.html); [Indexes](https://www.postgresql.org/docs/18/indexes.html) documents performance gains and maintenance overhead. `EXPLAIN` without `ANALYZE` reports a proposed plan rather than measured execution. **`EXPLAIN ANALYZE` actually executes the statement**, which matters especially for write statements with side effects. This article does not claim the toy query was executed against PostgreSQL or that any specific plan or timing was observed.
+
+For deeper conceptual boundaries, see [Schemas](../models-abstraction/schemas.md), [Search and Information Retrieval](search-and-information-retrieval.md), [Data Provenance and Lifecycle](data-provenance-and-lifecycle.md), and [Data Structures and Formats](data-structures-and-formats.md).
+
 ## Integrity, transactions and operational behavior
 
 A schema can state keys, reference constraints, allowed values and other integrity conditions. A DBMS may provide transactions to coordinate logical operations, with properties commonly summarized as **atomicity, consistency, isolation and durability (ACID)**. The scope and guarantees of these terms depend on the implementation and transaction configuration.

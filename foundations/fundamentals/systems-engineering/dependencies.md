@@ -51,6 +51,37 @@ For example, suppose A requires B, and B requires C. If C becomes unavailable an
 
 The same graph may represent planned tasks, supply relationships, service prerequisites, or runtime resource requirements. The meaning of every edge and the definition of a node must travel with the model.
 
+## From dependency edges to failure conditions
+
+A reliance graph answers *which components are required for a stated function*. A failure model adds a different question: *which combinations of component states make that function unavailable?* The second question requires an explicit success criterion, operating mode, time boundary, fallback behavior, and assumptions about how faults affect services.
+
+Consider a hypothetical recorder that needs a sensor `S` and at least one of two interchangeable storage services `B` or `C`. Define each variable as **true when the corresponding service fulfills its required function at a sampled instant**. Assume storage can switch immediately and correctly, with no buffer loss, switching delay, degraded mode, or additional hidden prerequisites. Then:
+
+```text
+Required success:      Recorder_up = S AND (B OR C)
+Corresponding failure: Recorder_down = NOT S OR (NOT B AND NOT C)
+```
+
+This follows by De Morgan's laws. The recorder can tolerate loss of **one** storage service but not loss of the sensor or of **both** storage services. A different operating contract, such as requiring both stores for synchronous replication, would produce a different expression even if an unlabeled dependency drawing used the same three component names. In fault-tree terms, the top failure is an OR of sensor failure and the AND of both storage failures; this is **modeled event logic**, not an observed outage.
+
+### A numerical example, and why dependence matters
+
+Suppose the events `S_down`, `B_down`, and `C_down` refer to **the same hypothetical instant**, with probabilities `0.02`, `0.10`, and `0.10`. If these three down-state events are mutually independent, then:
+
+```text
+P(B_down AND C_down) = 0.10 × 0.10 = 0.01
+P(Recorder_up)        = (1 - 0.02) × (1 - 0.01) = 0.9702
+P(Recorder_down)      = 1 - 0.9702 = 0.0298 = 2.98%
+```
+
+Without backup storage C, the same assumptions instead give `P(down) = 1 - (0.98 × 0.90) = 0.118 = 11.8%`. The modeled redundancy reduces point-in-time unavailability from **11.8% to 2.98%** under those assumptions.
+
+Now retain the same *marginal* 10% storage unavailability rates but suppose B and C **always fail together**, while their joint outage remains independent of sensor unavailability. The intersection `P(B_down AND C_down)` is then `0.10`, **not** `0.01`. Recorder unavailability returns to `1 - (0.98 × 0.90) = 11.8%`. The graph still shows two storage alternatives; its apparent redundancy does not remove their shared failure mode.
+
+This calculation is **not measured device reliability**, a mission-duration failure probability, or an availability forecast. It is a same-instant Boolean event model with explicitly assigned probabilities. For arbitrary storage dependence, `P(B_down AND C_down)` must be established rather than replaced by a product. A delayed or imperfect switchover, restoration process, overload during failover, or correlated sensor failure requires a richer model.
+
+The [NASA *Fault Tree Handbook with Aerospace Applications*, version 1.1 (August 2002), Chapters 4 and 6](https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/Fault%20Tree%20Handbook_NASA.pdf) distinguishes AND/OR event gates and gives the general inclusion-exclusion formula `P(A OR B)=P(A)+P(B)-P(A AND B)`; replacing the intersection with a product requires independence. [Reliability and Failure](reliability-and-failure.md) owns duration-dependent reliability and repair/availability interpretations. [Probability and Statistics](../mathematics-logic/probability-and-statistics.md) owns the underlying probability rules.
+
 ## Cycles and ordering
 
 A directed cycle in a dependency graph can signal a potential design challenge, but **not every cycle is invalid**. Cyclic dependencies can represent mutual coordination, coupled physical feedback, recursive function calls or circular prerequisite constraints; the consequences depend on system semantics.

@@ -121,6 +121,14 @@ Formal analysis distinguishes **over-approximations**, which may include extra a
 
 The [MIT Mathematics for Computer Science course](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/) includes state machines and invariant reasoning that help explain why proving a property of one chosen model is not identical to validating a physical implementation.
 
+## A state mapping does not supply a behavior model
+
+The function `α` partitions concrete states into abstract descriptions, but **does not specify which abstract transitions are permitted**. Transition semantics must be supplied separately. For a may-transition abstraction intended to cover all concrete behavior, every concrete step `c → c′` must have a corresponding abstract step `α(c) → α(c′)`, and concrete initial states must map to allowed abstract initial states. Without those obligations, the model can omit real behavior and yield invalid safety conclusions.
+
+Even when those obligations hold, merging two concrete states may create **spurious abstract paths** by joining a step entering one member of a category to a step leaving another. Such a path is an abstract possibility, not proof of a matching concrete execution. Conversely, if an adequately conservative abstract model excludes every modeled bad state, the corresponding concrete model also excludes those states **provided the bad-state mapping and initial/transition correspondence hold**.
+
+The complete worked transition system, proof direction, and spurious-path counterexample are developed under [Conceptual and Formal Models: Worked Safety Preservation Check](conceptual-and-formal-models.md#worked-safety-preservation-check). This distinction concerns a *modeled concrete system*; using the result to characterize real equipment still requires evidence that the concrete model faithfully represents its target.
+
 ## A worked example: simplifying a telemetry record
 
 Imagine a detailed observation record:

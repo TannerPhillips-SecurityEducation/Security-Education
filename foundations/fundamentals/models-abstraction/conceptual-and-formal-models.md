@@ -56,6 +56,44 @@ Consider concrete states `c1,c2,c3` and abstract states `NORMAL,ALERT` with `α(
 
 This illustrates a **conditional modeling guarantee**, not a general theorem that every many-to-one map is sound. Preservation of properties depends on the definition of abstraction, transition correspondence, and the logical class of properties being analyzed. The [Abstraction](abstraction.md) reference owns the general selection mechanism.
 
+## Worked safety preservation check
+
+A safety claim can be transferred from an abstract transition system to a concrete transition system **only with stated correspondence obligations**. Consider:
+
+- Concrete states `C={c0,c1,c2,c3}` with initial state `I_C={c0}`.
+- Concrete transitions `T_C={(c0,c1),(c1,c1),(c2,c3),(c3,c3)}`.
+- Abstract states `A={IDLE,READY,ACTIVE}`, with `α(c0)=IDLE`, `α(c1)=α(c2)=READY`, and `α(c3)=ACTIVE`.
+- The abstract initial state is `IDLE`; its transitions are `IDLE→READY`, `READY→READY`, `READY→ACTIVE`, and `ACTIVE→ACTIVE`.
+
+Here `c1` and `c2` are different concrete states despite sharing the name `READY` in the abstract view. Every concrete transition has a matching abstract transition; the chosen abstract initial state also includes the image of the concrete initial state.
+
+| Concrete transition | Abstract transition required |
+| --- | --- |
+| `c0 → c1` | `IDLE → READY` |
+| `c1 → c1` | `READY → READY` |
+| `c2 → c3` | `READY → ACTIVE` |
+| `c3 → c3` | `ACTIVE → ACTIVE` |
+
+The concrete system starting at `c0` can only reach `c0` and `c1`; it cannot reach `c3`. But the abstract model admits `IDLE → READY → ACTIVE`. This **spurious abstract path** combines the entry into `READY` via `c1` with the exit to `ACTIVE` that was available only from `c2`. It is a legitimate conservative warning, not proof that `c3` is reachable in the concrete system.
+
+### The direction of a valid safety inference
+
+For a general transition-system pair, let `I_C` and `I_A` be their sets of allowed initial states, `T_C` and `T_A` their transition relations, and `Bad_C` and `Bad_A` the forbidden states under the intended property. Assume:
+
+1. **Initial coverage:** `α(I_C) ⊆ I_A`.
+2. **Step coverage:** every `(c,c′) ∈ T_C` satisfies `(α(c),α(c′)) ∈ T_A`.
+3. **Bad-state coverage:** `α(Bad_C) ⊆ Bad_A`.
+
+From (1) and (2), induction on the length of each concrete path proves `α(Reach_C) ⊆ Reach_A`: the base case is covered by (1), and every additional concrete step stays represented by (2). With (3), the absence of reachable bad states in the abstract model implies the absence of reachable bad states in the concrete model:
+
+```text
+Reach_A ∩ Bad_A = ∅  =>  Reach_C ∩ Bad_C = ∅
+```
+
+**The converse does not follow.** Our four-state example has concrete safety but an abstract path to `ACTIVE`. If the abstraction omitted `READY→ACTIVE`, it would no longer cover the real concrete step `c2→c3`; a claim of soundness based on that incomplete transition set would be unjustified even though the particular initial state `c0` cannot reach `c2`.
+
+This argument concerns **reachability safety properties** and a specified concrete *model*. It does not automatically preserve arbitrary liveness, fairness, timed, probabilistic, or real-world statements. The [*Handbook of Model Checking*, Chapter 30, §5.1 (2018), 'Discrete Abstractions'](https://www.cs.cmu.edu/~aplatzer/pub/HBMC.pdf) states a simulation-style transition correspondence and the conservative direction of safety preservation; the example above is an independently constructed teaching model. [Abstraction](abstraction.md) owns the broader question of what information a representation preserves.
+
 ## Conceptual, mathematical, and executable models
 
 | Model style | Typical role | Limitation |
