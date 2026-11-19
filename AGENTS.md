@@ -218,7 +218,7 @@ The intended working relationship is with an **independent technical collaborato
 **Subtree `AGENTS.md` files** narrow the SOP to local meaning and maturity:
 
 - [Fundamentals AGENTS.md](foundations/fundamentals/AGENTS.md): approved governing architecture, variable subject inventory, substantive canonical content and existing review controls.
-- [Security Foundations AGENTS.md](foundations/security-foundations/AGENTS.md): user-approved **Fundamentals-style area/README/article structure**, with flexible provisional area identities, **33 Reviewed (model-assisted) and 2 Draft manuscripts** (SF-03-04 and SF-03-07), requiring separate Technical Review 10; their crosswalk explicitly distinguishes Threat Models from Threat Hunting Models without ratifying a new taxonomy. Full source verification, independent review and publication acceptance remain separate.
+- [Security Foundations AGENTS.md](foundations/security-foundations/AGENTS.md): user-approved **Fundamentals-style area/README/article structure**, with flexible provisional area identities and **35 Reviewed (model-assisted), 0 Draft** manuscripts, including SF-03-04 and SF-03-07 under separate [Technical Review 10](foundations/security-foundations/PILOT-TECHNICAL-REVIEW-10.md); the crosswalk distinguishes Threat Models from Threat Hunting Models without ratifying a new taxonomy. Full source verification, independent review and publication acceptance remain separate.
 - [Operational Foundations AGENTS.md](foundations/operational-foundations/AGENTS.md): shared security methodologies with **no approved internal taxonomy or article inventory yet**.
 
 **Specialized domain contracts (all inherit this root SOP):**

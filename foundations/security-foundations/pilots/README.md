@@ -1,9 +1,9 @@
 # Security Foundations | Working Article Register and Historical Pilot Paths
 
 **Division:** [Security Foundations](../README.md)  
-**Status:** **33 Reviewed (model-assisted), 2 Draft** across nine completed scoped audits (**210 previously reviewed material claim groups**). New SF-03-04 and SF-03-07 Drafts await their separate Technical Review 10. No manuscript is Source-Verified, final canonical-ratified or Published.  
+**Status:** **35 Reviewed (model-assisted), 0 Draft** across ten completed scoped audits (**230 bounded material claim groups**). No manuscript is Source-Verified, independently approved for publication or permanently canonical-ratified.  
 **Architecture:** [Governing Proposal v0.3](../ARCHITECTURE.md), [Flexible 96-candidate Working Inventory](../SUBJECT-INVENTORY-PROPOSAL.md), [Adjudication 02](../ARCHITECTURE-ADJUDICATION-02.md)  
-**Scope:** The working article index contains **14 historically relocated pilots and 21 later area-first manuscripts** (33 Reviewed, 2 Draft). All substantive article bodies remain in provisional area directories. Only the original fourteen retain legacy `pilots/` navigation aliases; later area-first articles link directly to their working homes. Working taxonomy and counts remain flexible.
+**Scope:** The working article index contains **14 historically relocated pilots and 21 later area-first manuscripts**, all now Reviewed (model-assisted). All substantive bodies remain in their provisional area directories; only the original fourteen have legacy `pilots/` navigation aliases. Working subject taxonomy and area labels remain flexible.
 
 ## Actual working article locations and historical review register
 
@@ -18,7 +18,7 @@
 | SF-03-01 | [Threat Sources and Threat Events](../threats-hazards-adversarial-behavior/threat-sources-and-threat-events.md) | **Reviewed (model-assisted)** | Core claims checked | How do adversarial and non-adversarial threat sources differ from occurrences and consequences? |
 | SF-03-02 | [Adversarial and non-adversarial threat sources](../threats-hazards-adversarial-behavior/adversarial-and-non-adversarial-threat-sources.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 08](../PILOT-TECHNICAL-REVIEW-08.md) | What separates intentional actors from accident, technical failure and environmental threat sources? |
 | SF-03-03 | [Capability, opportunity, and intent](../threats-hazards-adversarial-behavior/capability-opportunity-and-intent.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 08](../PILOT-TECHNICAL-REVIEW-08.md) | When does an actor's capability differ from available opportunity, targeting and uncertain intent? |
-| SF-03-04 | [Attacks, Deception, Abuse, and Misuse](../threats-hazards-adversarial-behavior/attacks-deception-abuse-and-misuse.md) | **Draft** | References listed; Technical Review 10 pending | How are attacks, social engineering/deception, legitimate-function abuse and accidental misuse differentiated? |
+| SF-03-04 | [Attacks, Deception, Abuse, and Misuse](../threats-hazards-adversarial-behavior/attacks-deception-abuse-and-misuse.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 10](../PILOT-TECHNICAL-REVIEW-10.md) | How are attacks, social engineering/deception, legitimate-function abuse and accidental misuse differentiated? |
 | SF-03-05 | [Adversarial tactics, techniques, and procedures](../threats-hazards-adversarial-behavior/adversarial-tactics-techniques-and-procedures.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 08](../PILOT-TECHNICAL-REVIEW-08.md) | What do ATT&CK's tactic, technique, sub-technique and procedure labels actually assert? |
 | SF-03-06 | [Attack paths, stages, and dependencies](../threats-hazards-adversarial-behavior/attack-paths-stages-and-dependencies.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 08](../PILOT-TECHNICAL-REVIEW-08.md) | How do prerequisites, alternate paths and partial evidence relate to progression models? |
 | SF-04-02 | [Vulnerabilities and Exploitability](../weaknesses-vulnerabilities-exposure/vulnerabilities-and-exploitability.md) | **Reviewed (model-assisted)** | Core claims checked | How do weakness, vulnerability, exposure, exploitation, severity and risk differ? |
@@ -37,7 +37,7 @@
 | SF-12-05 | [Compliance and Effective Security](../security-assurance-governance-accountability/compliance-and-effective-security.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) | Why can conformity evidence and demonstrated security outcomes diverge? |
 
 | SF-05-01 | [Risk, Scenarios, and Time Horizon](../security-risk-uncertainty/risk-scenarios-and-time-horizon.md) | **Reviewed (model-assisted)** | Core claims checked | Scenario-relative likelihood, harm, uncertainty, time horizon and why severity is not organizational risk |
-| SF-03-07 | [Threat Assumptions and Models](../threats-hazards-adversarial-behavior/threat-assumptions-and-models.md) | **Draft** | References listed; Technical Review 10 pending | How do system Threat Models differ from Threat Hunting Models and their distinct evidence assumptions? |
+| SF-03-07 | [Threat Assumptions and Models](../threats-hazards-adversarial-behavior/threat-assumptions-and-models.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 10](../PILOT-TECHNICAL-REVIEW-10.md) | How do system Threat Models differ from Threat Hunting Models and their distinct evidence assumptions? |
 | SF-07-01 | [Controls, Safeguards, and Security Functions](../security-controls-defense-mechanisms/controls-safeguards-and-security-functions.md) | **Reviewed (model-assisted)** | Core claims checked | Protection objective versus selected mechanism, implemented coverage, measured effect and assurance |
 
 | SF-01-08 | [Security, Privacy, Safety, and Reliability](../security-meaning-objectives/security-privacy-safety-and-reliability.md) | **Reviewed (model-assisted)** | Core claims checked | Different protected interests, including privacy harm from authorized processing and safety constraints |
@@ -47,7 +47,7 @@
 | SF-11-07 | [Recovery Objectives and Trusted Restoration](../security-failure-resilience/recovery-objectives-and-trusted-restoration.md) | **Reviewed (model-assisted)** | Core claims checked in [Review 04](../PILOT-TECHNICAL-REVIEW-04.md) | Recovery-target measurement versus evidenced trusted restoration |
 | SF-12-08 | [Ethical, Human, and Societal Constraints](../security-assurance-governance-accountability/ethical-human-and-societal-constraints.md) | **Reviewed (model-assisted)** | Core claims checked | Legitimate security authority, privacy rights, proportionality and human harm |
 
-**Record count:** **33 Reviewed (model-assisted) working manuscripts** across [Reviews 01–09](../PILOT-TECHNICAL-REVIEW-09.md), covering **210 bounded material claim groups**, plus **2 Drafts** (SF-03-04 and SF-03-07) awaiting their own separately recorded Technical Review 10. **61 of 96** working candidates still lack manuscripts. Current counts are development observations, not final taxonomy or publication approval.
+**Record count:** **35 substantive Reviewed (model-assisted) working manuscripts** across [Reviews 01–10](../PILOT-TECHNICAL-REVIEW-10.md): Reviews 01–09 cover 33 articles and 210 bounded claim groups; [Review 10](../PILOT-TECHNICAL-REVIEW-10.md) covers SF-03-04 (nine groups) and SF-03-07 (eleven groups). **Total: 230 bounded material claim groups.** 61 of 96 active candidate subjects lack authored manuscripts. Development counts do not confer taxonomy or publication approval.
 
 ## Pilot technical review evidence
 
@@ -72,6 +72,8 @@
 **Eighth technical review:** [Technical Review 08](../PILOT-TECHNICAL-REVIEW-08.md) checks 32 article-attributed material claim groups for SF-03-02, SF-03-03, SF-03-05 and SF-03-06. It uses original NIST, ATT&CK, CAPEC, Diamond and Unified Kill Chain sources, corrects model-equivalence and attack-path claims, and verifies 16-case opportunity and four-case route logic. The manuscripts advanced only after a separate review. SF-03-04 and SF-03-07 remain Inventoried.
 
 **Ninth technical review:** [Technical Review 09](../PILOT-TECHNICAL-REVIEW-09.md) checks 31 material claim groups across SF-07-04/05/06 and SF-11-05, including NIST original design principles, conditional bypass probabilities, control enforcement versus observation coverage, and redundancy/common-cause failure assumptions. All four manuscripts were reviewed separately after their Draft stage, without inheriting earlier article statuses.
+
+**Tenth technical review:** [Technical Review 10](../PILOT-TECHNICAL-REVIEW-10.md) separately checks attacks/deception/abuse/misuse and threat/hunting-model distinctions. It verifies OWASP, NIST, CAPEC, STRIDE, W3C draft statuses and MITRE's hunting methodology, and independently recomputes a probabilistic evidence counterexample. Both corrected manuscripts advanced only after this review; applied Threat Hunting Models remain conceptually distinct from system threat models.
 
 ## Development states
 

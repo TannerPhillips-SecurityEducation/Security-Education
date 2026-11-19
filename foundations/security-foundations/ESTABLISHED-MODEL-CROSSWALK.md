@@ -1,6 +1,6 @@
 # Security Foundations: Established Models, Frameworks, and Evidence Crosswalk
 
-**Working edition:** v0.4 · November 19, 2026  
+**Working edition:** v0.5 · November 19, 2026  
 **Status:** Research-backed **architectural review aid**, not ratification of the Security Foundations taxonomy or model choices.  
 **Input inventory:** [12 candidate areas / 96 active candidate subjects (v0.3)](SUBJECT-INVENTORY-PROPOSAL.md); historical 94-ID snapshot in Git.  
 **Purpose:** Derive concept coverage and boundaries from existing security scholarship and primary technical references instead of inventing an independent security theory.
@@ -94,6 +94,8 @@ The original twenty references remain R-01 through R-20. **Six supplemental sour
 **Source basis:** The [NIST threat-modeling glossary](https://csrc.nist.gov/glossary/term/threat_modeling) gives a source-attributed threat-modeling definition. MITRE's [TTP-Based Hunting report (March 2019)](https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf), **Figure 3, printed p. 10 / PDF index 11, visually inspected**, connects malicious-activity modeling to hypotheses, abstract analytics and data requirements, and then to collection-gap analysis and investigation. MITRE's [Cyber Analytics Repository glossary](https://car.mitre.org/resources/glossary/) distinguishes behavioral hypotheses from analytics/implementations. These establish a **well-supported distinction between purposes**, but do not decree one universal hunting-model taxonomy or method.
 
 **Working ownership:** [SF-03-07 Threat Assumptions and Models](threats-hazards-adversarial-behavior/threat-assumptions-and-models.md) explains shared abstraction, assumptions and the non-equivalence. [Operational Foundations](../operational-foundations/README.md) owns Threat Hunting Models as applied analytical knowledge and their use in operational hunting, alongside the practice of system threat modeling. An ATT&CK or Diamond representation can serve either purpose; its creator/source version and the particular inference claim still govern the use. The hunting category is **not automatically an approved new candidate subject or an authorized published article**.
+
+**Review linkage:** The separate [SF-03-04 and SF-03-07 Technical Review 10](PILOT-TECHNICAL-REVIEW-10.md) checks the source meanings, behavior/hunting-model separation, and inferential limitations relevant to this crosswalk. This **does not** make the entire source crosswalk Source-Verified or ratify an Operational Foundations subject taxonomy.
 
 ## 3. Coverage crosswalk: existing twelve *candidate* areas
 

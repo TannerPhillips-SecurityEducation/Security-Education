@@ -3,7 +3,7 @@
 **Candidate subject:** SF-03-07 · Threats, Hazards & Adversarial Behavior  
 **Working area:** [Threats, Hazards & Adversarial Behavior](README.md) · Fundamentals-style directory architecture adopted; individual subject ownership remains provisional  
 **Artifact type:** Substantive security-knowledge working reference, not an operational modeling workshop or final canonical publication  
-**Development state:** Draft · **Source-review state:** References listed; official source editions and applicability checked during authoring; **separate Technical Review 10 pending**  
+**Development state:** Reviewed (model-assisted) · **Source-review state:** Core claims checked in [Technical Review 10](../PILOT-TECHNICAL-REVIEW-10.md), 11 scoped material claim groups; full source verification and independent expert acceptance pending  
 **Architecture:** [Working subject inventory](../SUBJECT-INVENTORY-PROPOSAL.md) · [Established Model Crosswalk](../ESTABLISHED-MODEL-CROSSWALK.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
 
 ## A threat model represents possibilities and assumptions, not the threat itself
@@ -22,7 +22,7 @@ This subject owns the **security-specific concepts of model scope, abstraction, 
 
 **Threat Models** and **Threat Hunting Models** can be peers that use some of the same underlying representations, without being the same kind of model.
 
-A **Threat Model** primarily represents potential threats to a scoped system or protected interest, including the system conditions under which an adverse event or violation could occur. A **Threat Hunting Model** primarily represents how a defender can reason about, search for, and assess possible adversarial activity using hypotheses, relevant behaviors, observations, available telemetry, analytics and evidentiary limits.
+A **Threat Model** primarily represents potential threats to a scoped system or protected interest, including the system conditions under which an adverse event or violation could occur. A **Threat Hunting Model** primarily represents how a defender can reason about, search for, and assess possible adversarial activity using hypotheses, relevant behaviors, observations, available telemetry, analytics and evidentiary limits. **These two labels distinguish model purpose in this repository. They are not asserted to be disjoint standard-defined types formally enumerated by NIST, MITRE or OWASP.**
 
 This contrast describes **primary analytical purpose**, not a compulsory forward-looking-versus-backward-looking split. A threat model may be updated using real incident evidence, and a hunting model can hypothesize activity not yet observed.
 
@@ -42,7 +42,7 @@ The distinction is **not** that a Threat Model has no evidence or a Threat Hunti
 
 The expression *threat hunting model* may refer to a **behavioral model**, **analytic hypothesis model**, **evidence/observation model**, or a broader **hunting methodology/framework**. A model of expected adversarial behavior and evidence is not equivalent to a prescribed chronological workflow for the hunter.
 
-MITRE's [TTP-Based Hunting](https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf), a technical report dated **March 2019** and distributed with a 2020 copyright, explicitly connects a malicious-activity model, hypotheses, abstract analytics and data requirements to collection-gap assessment, implemented analytics, and hunt investigation. Its **Figure 3, printed p. 10 / PDF page index 11**, was visually inspected while developing this article. This is **one published methodology**, not a requirement that every hunt follow exactly the same stages.
+MITRE's [TTP-Based Hunting](https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf), a technical report dated **March 2019** and distributed with a 2020 copyright, explicitly connects a malicious-activity model, hypotheses, abstract analytics and data requirements to collection-gap assessment, implemented analytics, and hunt investigation. **MITRE calls the whole arrangement a *hunting methodology***; the reusable model of adversarial activity and evidence is a *component within that method*. Calling the broader arrangement a “Threat Hunting Model” here must not erase the distinction between **representation** and **operational execution**. Its **Figure 3, printed p. 10 / PDF page index 11**, was visually inspected while developing this article. This is **one published methodology**, not a requirement that every hunt follow exactly the same stages.
 
 MITRE's [TTP-Based Threat Hunting and Detection Engineering Training](https://attack.mitre.org/resources/learn-more-about-attack/training/threat-hunting/) separately presents hypothesis development, data requirements, visibility gaps, analytics, and hunts. The [MITRE Cyber Analytics Repository glossary](https://car.mitre.org/resources/glossary/) distinguishes hypotheses describing **expected observable behavior** from the analytic implementation that attempts to identify it.
 
@@ -106,11 +106,13 @@ Excluded is not synonymous with impossible, and unknown does not mean malicious.
 
 ## A model result is not automatically a result about reality
 
-Let \(M\) be a chosen model, \(A\) its assumptions, \(G\) the modeled security goal, and \(S\) the real system within a particular context. A formal or informal argument may show
+Let \(M\) be a chosen model, \(A\) its assumptions, \(G\) the modeled security goal, and \(S\) the real system within a particular context. For a **formal model with defined semantics and a valid proof or exhaustive check** of the relevant property, the conclusion might be expressed as
 
 \[
 M,A \models G.
 \]
+
+An **informal** architectural diagram may motivate a reasoned claim but does not establish this logical entailment merely by being consistent, detailed, or reviewed.
 
 This means the represented model under its assumptions entails the property. It does **not** automatically show
 
@@ -120,7 +122,7 @@ S \models G.
 
 To carry the claim to the real system, an analyst must justify the model-to-system **abstraction relation**, implementation fidelity, relevant environmental assumptions, and coverage sufficient for the particular property.
 
-An overapproximating model may admit possible but unreachable behaviors. An underapproximating model may omit a real adverse path and thereby give false confidence in the absence of violations. The correct soundness obligation depends on whether the model is being used to prove **absence**, demonstrate **possibility**, or explain an **observed** event.
+An overapproximating model may admit possible but unreachable behaviors; a counterexample in it can therefore be spurious. An underapproximating model may omit a real adverse path and thereby give false confidence in the absence of violations. **The direction and soundness of the abstraction relation matter**: a proof about all possible behaviors needs a justification that the real behaviors relevant to that property are represented, while an apparent counterexample still needs validation against concrete state and transition semantics. Whether the model is being used to prove **absence**, demonstrate **possibility**, or explain an **observed** event changes what evidence and guarantees are appropriate.
 
 A complete search of a finite abstract state graph does not establish that the chosen graph represented all real system states. Conversely, an abstract counterexample does not on its own prove practical exploitation.
 
@@ -131,6 +133,18 @@ Let \(H\) be a hypothesis about adversarial behavior, \(D\) the telemetry availa
 For example, **repeated failed authentication attempts** can arise from hostile guessing, stale service credentials or user mistakes. Finding that pattern can justify deeper investigation, but not automatic actor attribution or a proven attack. Likewise, failing to observe it is not a proof of absence if sensors, retention or query scope are incomplete.
 
 The distinction is the security-specific application of general inference: **expected evidence given a hypothesis is not equivalent to certainty about the hypothesis given the evidence**.
+
+### Worked inference counterexample: a hunt analytic with an imperfect discriminator
+
+Assume a purely hypothetical hunt population in which the proposed adversarial behavior has a **2% prior frequency**, an analytic matches **80%** of cases when that hypothesis is true, and it also matches **10%** of cases when it is false. These percentages are invented, **not** measured detection performance or a prevalence claim about threats.
+
+\[
+P(H\mid O)=\frac{P(O\mid H)P(H)}{P(O\mid H)P(H)+P(O\mid\neg H)P(\neg H)}
+=\frac{0.80\times 0.02}{0.80\times0.02+0.10\times0.98}
+=\frac{0.016}{0.114}\approx0.14035.
+\]
+
+Thus, **only about 14.04% of matching cases would satisfy this hypothesis under the stated model**, even though the analytic matches 80% when the hypothesis is true. Other threat prevalence, logging coverage, sensor dependence, alternative behaviors or selection of hunt terrain could change the result. This is an illustration of conditional inference, not a recommendation for using one positive predictive value to classify actual incidents. For individual cases, data lineage, system authorization, behavior context and corroborating evidence still matter.
 
 ## Comparing model classes without conflating their units
 
@@ -148,13 +162,13 @@ The distinction is the security-specific application of general inference: **exp
 
 Different models can be related without sharing a single **unit of analysis**, guarantee, representation or operational procedure.
 
-The [W3C Threat Modeling Guide, Group Note Draft of June 23, 2026](https://www.w3.org/TR/threat-modeling-guide/) explicitly includes security, privacy, misuse/abuse and dependency threats in the scope of specification modeling. It is **a Group Note Draft**, not a W3C Recommendation or universal norm.
+The [W3C Threat Modeling Guide, Group Note Draft of June 23, 2026](https://www.w3.org/TR/threat-modeling-guide/) explicitly includes security, privacy, misuse/abuse and dependency threats in the scope of specification modeling. The publisher states that **Group Note Drafts are not endorsed by W3C or its members**; this is **a draft work in progress**, not a W3C Recommendation or universal norm.
 
 ## Draft standards and source-status boundaries
 
 The official publication record for [NIST SP 800-154, Guide to Data-Centric System Threat Modeling](https://csrc.nist.gov/pubs/sp/800/154/ipd) still marks that document as an **Initial Public Draft published in March 2016**. Its January 2025 planning note expresses intent to finalize it, **not evidence that it has been finalized**. NIST SP 800-30 Rev. 1 (2012) is a final document with a different risk-assessment purpose.
 
-The MITRE TTP-Based Hunting report is a **published methodology**, not an approval of its exact phases as mandatory. OWASP Cheat Sheets are community-maintained guidance. ATT&CK is a living adversary-behavior knowledge base. A meaningful model comparison identifies actual versions, scopes and intended units rather than silently upgrading any source to a normative standard.
+The MITRE TTP-Based Hunting report is a **published methodology**, not an approval of its exact phases as mandatory. **Figure 3 (printed p. 10 / PDF index 11) was visually re-inspected for this review**, and its V diagram places malicious-activity characterization, hypotheses and data requirements alongside analytic implementation and hunt execution; this supports the distinction between a model and the activities that use it. OWASP Cheat Sheets are community-maintained guidance. ATT&CK is a living adversary-behavior knowledge base. A meaningful model comparison identifies actual versions, scopes and intended units rather than silently upgrading any source to a normative standard.
 
 ## Worked example: the model that overlooked an export path
 
@@ -217,6 +231,6 @@ The [MITRE Cyber Analytics Repository glossary](https://car.mitre.org/resources/
 - [MITRE TTP-Based Hunting and Detection Engineering Training](https://attack.mitre.org/resources/learn-more-about-attack/training/threat-hunting/), MITRE-maintained operational workflow modules.
 - [MITRE Cyber Analytics Repository glossary](https://car.mitre.org/resources/glossary/), observable TTPs, analytic hypotheses and implementation distinctions.
 
-**Editorial limitations:** Threat Models and Threat Hunting Models are recognized as separate, related model categories, but this article does **not** ratify a new internal knowledge-area label, grant operational methodology ownership to Security Foundations, or imply that hunting is only one fixed MITRE process. The equations and fictional system are explanatory models; they do not establish deployed-state correctness, actual attacker intent or detection effectiveness. This manuscript is **Draft / References listed**. Its threat-model/hunting-model separation, source statuses, formal implications, assumptions and neighboring owners require the separate **Technical Review 10** before Scoped Reviewed status. Source-Verified, independently expert-approved, canonical-ratified and Published remain open.
+**Editorial limitations:** Threat Models and Threat Hunting Models are recognized as separate, related model categories, but this article does **not** ratify a new internal knowledge-area label, grant operational methodology ownership to Security Foundations, or imply that hunting is only one fixed MITRE process. The equations and fictional system are explanatory models; they do not establish deployed-state correctness, actual attacker intent or detection effectiveness. The [separate Technical Review 10](../PILOT-TECHNICAL-REVIEW-10.md) checks eleven claim groups, including MITRE's hunting model-versus-methodology distinction, original source statuses, formal abstraction limits and the independently recomputed Bayesian counterexample. This manuscript is **Reviewed (model-assisted) / Core claims checked**, not Source-Verified, independently expert-approved, canonical-ratified or Published.
 
 [Security Foundations](../README.md) · [Working area](README.md) · [Development and Verification Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)
