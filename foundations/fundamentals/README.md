@@ -9,6 +9,8 @@ Fundamentals establishes domain-agnostic concepts, structures, principles, and m
 
 [**AGENTS.md: Fundamentals Editorial & Engineering Contract**](AGENTS.md) applies across the Fundamentals directory. It records the approved scope, canonical ownership, living-inventory policy, model/source validation, article development, independent review gates and current GitHub checks. It is aligned in structure with the tailored [Security Foundations](../security-foundations/AGENTS.md) and [Operational Foundations](../operational-foundations/AGENTS.md) contracts; it introduces no new taxonomy or publication approval.
 
+**Administrative readability and understanding passes (November 19, 2026):** [Administrative Editorial Pass 01](ADMINISTRATIVE-EDITORIAL-PASS-01.md) inspected a bounded ten-article sample and deepened the explanations of reliability/availability and queueing/waiting in two Systems & Engineering references, including new mathematical cross-checks. Existing model-assisted review status remains intact; this is not a complete Fundamentals editorial audit or independent publication acceptance.
+
 ## Governing Architecture
 
 [**Fundamentals: Governing Knowledge Architecture**](ARCHITECTURE.md) defines the approved four requirements:

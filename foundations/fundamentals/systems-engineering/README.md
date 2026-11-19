@@ -55,6 +55,8 @@ This area is a **navigation discipline**. The original eleven headings formed th
 | Queueing and service-system models | [Reviewed article](queueing-and-service-system-models.md) | Reviewed (model-assisted) |
 
 
+**Administrative Editorial Pass 01 (November 19, 2026):** [Scope and editorial evidence](../ADMINISTRATIVE-EDITORIAL-PASS-01.md) for added derivations and worked comparisons in [Reliability and Failure](reliability-and-failure.md) and [Queueing and Service-System Models](queueing-and-service-system-models.md). These deepen existing approved references and retain prior model-assisted review status. No new area or subject was created.
+
 **Coverage Triage 02 and Wave H (November 18, 2026):** F-11-12 Queueing and Service-System Models was added, authored and Reviewed (model-assisted) under [Wave H](../WAVE-H-TECHNICAL-REVIEW-01.md). Scope placement is resolved, but complete source verification and publication acceptance remain open.
 
 The [six-pilot claim-to-source audit](../PILOT-CLAIM-SOURCE-AUDIT.md) covers Systems and Subsystems; the [Wave B Batch 03 technical audit](../WAVE-B-TECHNICAL-REVIEW-03.md) covers the following four articles. Batch 04 has passed its [36-family technical review](../WAVE-B-TECHNICAL-REVIEW-04.md). `Reviewed (model-assisted)` is not the same as independently human peer-reviewed, completely Verified, or finally Published.

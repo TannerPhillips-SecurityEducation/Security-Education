@@ -72,6 +72,48 @@ and the mean number in system is L=λ/(μ−λ). If λ=5 requests/s and μ=6 req
 
 If the arrival process is bursty, service times are not exponential, capacity is finite, or priorities intervene, the M/M/1 formula is generally not justified. The queue may still satisfy a form of Little's law under suitable conditions.
 
+## Deriving the wait from service time and queue occupancy
+
+The standard stable M/M/1 result \(W=1/(\mu-\lambda)\) is the **mean time inside the whole system**. It consists of two distinct contributions: waiting to start service and the time **being served**. Under the exponential service assumption, the mean service duration is \(1/\mu\). Therefore
+
+\[
+W=W_q+\frac{1}{\mu},
+\qquad
+W_q=\frac{1}{\mu-\lambda}-\frac{1}{\mu}
+=\frac{\lambda}{\mu(\mu-\lambda)}.
+\]
+
+Applying Little's law separately to the **full system** and to the **waiting queue** gives
+
+\[
+L=\lambda W=\frac{\lambda}{\mu-\lambda},
+\qquad
+L_q=\lambda W_q=\frac{\lambda^2}{\mu(\mu-\lambda)}.
+\]
+
+The expected number **in active service** is \(L-L_q=\lambda/\mu=\rho\), not automatically one: a single server is either busy with one item or idle, and in the standard stable M/M/1 model it is busy for fraction \(\rho\) of time.
+
+### Worked comparison: demand approaching the same server's capacity
+
+Assume the same hypothetical M/M/1 FCFS server in both cases, with service rate \(\mu=6\) requests/second, infinite waiting room, Poisson arrivals, independent exponential service times, and steady-state \(\lambda<\mu\). Only the admitted arrival rate changes:
+
+| Quantity | Case A: \(\lambda=3\)/s | Case B: \(\lambda=5\)/s |
+| --- | ---: | ---: |
+| Utilization \(\rho=\lambda/\mu\) | 50% | 83.33% |
+| Mean service time \(1/\mu\) | 0.1667 s | 0.1667 s |
+| Mean time in system \(W\) | 0.3333 s | 1.0000 s |
+| Mean **waiting** \(W_q\) | 0.1667 s | 0.8333 s |
+| Mean **total occupancy** \(L\) | 1.0000 requests | 5.0000 requests |
+| Mean **queue-only occupancy** \(L_q\) | 0.5000 requests | 4.1667 requests |
+
+The server's modeled **service time did not change**, yet increasing admitted load from three to five requests per second triples mean total time and increases mean waiting time **fivefold**. This is a property of the stipulated M/M/1 model, **not** a general law that all queues have the same numbers or behavior.
+
+**Independent consistency check:** In Case B, Little's law for the full system yields \(5\ \mathrm{requests/s}\times1\ \mathrm{s}=5\) requests on average. For the queue alone it gives \(5\times(5/6)=25/6\approx4.1667\) requests. The remaining \(5-25/6=5/6\) is the mean number being served, equal to utilization \(5/6\).
+
+**Boundary of the inference:** A bounded buffer might drop excess arrivals. Priority scheduling can change individual delays. Bursty arrivals and non-exponential service change the waiting-time formula. The observed throughput might differ from offered traffic because of admission control and retries. The general lesson is to **identify the accounting boundary and stochastic assumptions before interpreting a mean**.
+
+The derivation of \(W_q\), \(L_q\) and the server-busy contribution follows the [MIT OpenCourseWare 2.854/2.853 M/M/1 Queue notes (2016), pp. 1–2](https://www.ocw.mit.edu/courses/2-854-introduction-to-manufacturing-systems-fall-2016/927056a1af54772a587fd84ad4951e71_MIT2_854F16_Mm1Queue.pdf), whose rendered source pages were directly inspected for this editorial pass.
+
 ## Waiting, latency and rate are not the same property
 
 **Latency** may include transmission, propagation, queuing, processing, scheduling and other components across an end-to-end path. A server can have high raw capacity but poor latency when demand, burstiness, contention or admission rules lead to long waits.
@@ -99,11 +141,13 @@ Suppose an observer measures two pending requests at one instant. That observati
 
 - [MIT OpenCourseWare: Queues, Theory and Applications](https://ocw.mit.edu/courses/15-072j-queues-theory-and-applications-spring-2006/pages/readings/), Little's law, queueing disciplines, stability and service networks.
 - [MIT 6.02: Queueing and Little's Law lecture notes](https://courses.csail.mit.edu/6.02/s2009/handouts/L17.pdf), flow and waiting behavior in a communication example.
-- [MIT OCW 2.854: M/M/1 Queue](https://live.ocw.mit.edu/courses/2-854-introduction-to-manufacturing-systems-fall-2016/927056a1af54772a587fd84ad4951e71_MIT2_854F16_Mm1Queue.pdf), derives steady-state system and queue occupancy and mean delay, distinguishing W from Wq.
+- [MIT OCW 2.854: M/M/1 Queue](https://www.ocw.mit.edu/courses/2-854-introduction-to-manufacturing-systems-fall-2016/927056a1af54772a587fd84ad4951e71_MIT2_854F16_Mm1Queue.pdf), pp. 1–2, visually inspected; derives whole-system versus waiting-only time and occupancy, including (W_q=W-1/\mu) and (L_q=\lambda W_q).
 - [MIT OpenCourseWare: Introduction to Queues and Little's Law](https://ocw.mit.edu/courses/1-203j-logistical-and-transportation-planning-methods-fall-2006/pages/calendar/), general systems/service applications.
 
 Canonical related foundations include [Stochastic Processes and Markov Models](../mathematics-logic/stochastic-processes-and-markov-models.md) for random arrivals and dependence; [Temporal Concepts and Models](../models-abstraction/temporal-concepts-and-models.md) for temporal intervals; [Latency and Throughput](../communication-distributed-systems/latency-and-throughput.md) for communication rate/delay; and [Reliability and Failure](reliability-and-failure.md) for robustness of systems and resources.
 
 **Editorial status:** Reviewed (model-assisted) under [Wave H Technical Review 01](../WAVE-H-TECHNICAL-REVIEW-01.md). Complete source-passage verification, independent qualified expert acceptance and Published status remain open.
+
+**Administrative depth pass (November 19, 2026):** The queue-only waiting/occupancy derivations and two-load comparison were recomputed and source-scoped under [Fundamentals Administrative Editorial Pass 01](../ADMINISTRATIVE-EDITORIAL-PASS-01.md). Earlier Wave H evidence remains historical, and this pass does not confer fully Verified, independently accepted or Published status.
 
 [Systems & Engineering](README.md) · [Fundamentals](../README.md) · [Development Register](../DEVELOPMENT-VERIFICATION-REGISTER.md)

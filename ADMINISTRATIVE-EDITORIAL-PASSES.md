@@ -1,6 +1,6 @@
 # Administrative Editorial Passes | Readability and Detailed Understanding
 
-**Working edition:** v0.1 · November 19, 2026  
+**Working edition:** v0.2 · November 19, 2026  
 **Stage:** Active editorial program, with **Security Foundations new drafting paused** after its Technical Review 11.  
 **Scope:** Existing knowledge-reference manuscripts and their navigation, starting with **Fundamentals** as the established structural baseline; expand to other non-paused divisions on actual evidence. Existing Security Foundations references can receive source corrections or narrowly scoped maintenance without reopening a new drafting wave.  
 **Governing contracts:** [Root AGENTS](AGENTS.md) · [Foundations AGENTS](foundations/AGENTS.md) · [Fundamentals AGENTS](foundations/fundamentals/AGENTS.md) · [Security Foundations AGENTS](foundations/security-foundations/AGENTS.md)
@@ -96,6 +96,10 @@ Apply **A0 (baseline/gap inventory)** first. Where a low-risk A1 clarification i
 Potential substantive focus includes: deriving an equation from its assumptions; linking a formal definition to its operational meaning; explaining a failure mode and its boundaries; replacing an unsupported universal statement with a scoped one; and adding an honest worked example where the inference is otherwise invisible.
 
 **Security Foundations pause:** No new SF Drafts, candidate expansions, or editorial changes that silently alter its approved review state. Its 39 Reviewed manuscripts, 57 un-authored candidates and 262 bounded claim groups remain the paused baseline until a deliberate future resume or correction.
+
+## Completed administrative passes
+
+- [Fundamentals Administrative Editorial Pass 01](foundations/fundamentals/ADMINISTRATIVE-EDITORIAL-PASS-01.md) (November 19, 2026): bounded A0 inspection of ten existing Fundamentals articles, with A2/A3 in-depth revisions to two Systems & Engineering articles (Reliability and Failure; Queueing and Service-System Models). Added source-scoped, independently recalculated examples and explanations. This is not a complete corpus audit or publication acceptance.
 
 ## 8. Completion criteria
 
